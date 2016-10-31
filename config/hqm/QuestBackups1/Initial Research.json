@@ -1,0 +1,1989 @@
+{
+  "name": "Initial Research",
+  "description": "Assistant Bandit, we need to scan the planet, asteroid, dimension, and/or reality that you arrived at. Provide samples to Biologist Bitsy and in return she\u0027ll get you in contact with more staff here, as well as open the Corporate Shop for you.",
+  "quests": [
+    {
+      "name": "Like a Rock",
+      "description": "    Okay. Okay okay, those wood tools aren\u0027t the best. Kinda weak. Weak but...sturdy? Brittle? Sevicable! Let\u0027s go with that term! Anyways, I need more samples! Lets get some samples of the local rocks. You might have to dig around in some gravel for more samples, too.                                               In return, I\u0027ll send the last of the Field Kit! Well, not the MRE, yuck. I put in part of my lunch for you instead. ",
+      "x": 167,
+      "y": 169,
+      "icon": {
+        "id": "minecraft:cobblestone"
+      },
+      "prerequisites": [
+        "Material Matters"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Diggy Diggy",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:cobblestone"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "minecraft:flint"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 5
+        },
+        {
+          "id": "harvestcraft:cherrysodaItem",
+          "amount": 2
+        },
+        {
+          "id": "harvestcraft:trailmixItem",
+          "amount": 5
+        },
+        {
+          "id": "minecraft:leather_chestplate",
+          "nbt": "{RepairCost:2,display:{color:16777215,Name:\"Ferret Field Tunic\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Soil Samples",
+      "description": "    Oh oh, there you are! Good, is good, this is working good. I\u0027m Biologist Bitsy. The QUEST Tablet scanner shows that your place is BIIIG. Big big, yes. This is good! Can you grab me a few samples? Dirt and sand and gravel and stuff. Stuff is good! You can use your mitts to gather the basic stuff to start with.                                     I have a few spare pieces of a Field Kit you can have. I\u0027ll find more for you while you search around...",
+      "x": 147,
+      "y": 168,
+      "icon": {
+        "id": "minecraft:dirt"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "By Hand and Paw",
+          "longDescription": "    Get me these samples and I\u0027ll send you some gear we use for fieldwork...if I can find them.                Ah, found a few pieces, I\u0027m pretty sure there is more, though!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:dirt"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "minecraft:sand"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "minecraft:gravel"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 5
+        },
+        {
+          "id": "minecraft:leather_leggings",
+          "nbt": "{RepairCost:2,display:{color:16777215,Name:\"Ferret Field Pants\"}}"
+        },
+        {
+          "id": "minecraft:leather_boots",
+          "nbt": "{RepairCost:2,display:{color:16777215,Name:\"Ferret Field Boots\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Technology Research",
+      "description": "I did some deeper scans of the metal and ore from earlier. Super interesting! It seems theres a lot more metal out there. Not just metal, either! A wide variety of great materials! Sharper! Heavier! Stronger! Faster! Other than iron, there seem to be two other common metals there. Our Research and Development division would like a sample of these, please!",
+      "x": 189,
+      "y": 152,
+      "bigicon": true,
+      "icon": {
+        "id": "TConstruct:materials",
+        "damage": 9
+      },
+      "prerequisites": [
+        "Rolling the Dice"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Got More Ore",
+          "longDescription": "Both Copper and Tin shouldn\u0027t be terribly deep in the ground. ",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 66
+              },
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 67
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 5
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Rolling the Dice",
+      "description": "Bandit, I know you haven\u0027t been with The Ferret Business long (thus starting in the ah...more questionable experimental labs...) so you hadn\u0027t earned access to the Corporate Shop yet. Now that you have earned it, let me show you one of The Business\u0027 biggest sellers : The Blind Bag of Blind Bags!! Inside this can either be one of hundreds of different items or...Another blind bag! No, not another one of THESE, that\u0027d be recursive recursive recursive! No, instead you\u0027ll get one of the OTHER Blind Bags we make! These contain so many more items that, well...last I looked at our internal records, we had so many different Blind Bags, it\u0027d make your head spin! Last week I found a bar of Gold in one. Gold! Here, I\u0027ll sell you a Blind Bag at a heavy discount. I think this one is the BEST blind bag, even though its the cheapest, because it literally has the chance to have one of ANYTHING in it!                                Blind Bags of Blind Bags come in 5 Tiers : Basic, Good, Greater, Epic, and Legendary.                              If you\u0027ve lost your coins from a mishap...well, the General Store should be open. Listen to Proprieter Penny\u0027s spiel, and she should open up the rest of the Corporate Shop to you...including Supply and Demand, which can be very...lucrative.",
+      "x": 147,
+      "y": 144,
+      "icon": {
+        "id": "HardcoreQuesting:bags"
+      },
+      "prerequisites": [
+        "Its The Name of the Game"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "What a Steal!",
+          "longDescription": "The Blind Bag of Blind Bags is super popular. Each Blind Bag you can get can vary in quality between Cheap, Decent, Good, and Amazing. The cheapest BBoBB is the most popular, as you can get ANY quality of Blind Bag from it, even though you run the risk of not even getting a Blind Bag! You might get a rock...",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken"
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Its The Name of the Game",
+      "description": "    So, I analyzed all those rocks and stuff you sent me. I found traces of metals. Lots of metals. Lots and lots of different metals! Metals are useful! You can make better tools! And probably better armor and stuff too.                       Get me some samples of the unrefined Iron, as well as shaped samples (A pick and a sword should do fine), and I\u0027ll open up the Corporate Shop for you. I\u0027ll also give you some Iron back since I\u0027m not sure of the quality of your Iron yet. Or you can take some extra coins instead, it\u0027s up to you!",
+      "x": 167,
+      "y": 144,
+      "icon": {
+        "id": "minecraft:iron_ore"
+      },
+      "prerequisites": [
+        "Like a Rock"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Strike the Earth",
+          "longDescription": "    Many resources like entire Tree trunks and Veins of Ore can be mined in a single go by Sneaking when you break them with the appropriate tool!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ore"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:coal"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Refined Tools",
+          "longDescription": "This Iron seems to have some...interesting properties to it! It feels almost...magical? Interesting...",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_pickaxe"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_sword"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "amount": 5
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 2
+        },
+        {
+          "reputation": 1,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Material Matters",
+      "description": "    Okay, so I checked out that soil. Very soily. Very good. Rich, even! There should probably be plantlife around you. Anything resembling a tree? Wait, actual trees? Excellent, excellent! This is great! Go knock one down and make some tools for me! No better way to see the quality of materials you have.                      I think I\u0027ve found a few more pieces of the Field Kit as well! They should help replace the tools you\u0027re sending me.",
+      "x": 157,
+      "y": 192,
+      "icon": {
+        "id": "minecraft:log"
+      },
+      "prerequisites": [
+        "Soil Samples"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Tools of the Trade",
+          "longDescription": "    When you open your inventory, you should have a large panel of items to the right. This is Not Enough Items (NEI), which allows you to search through the thousands of items in this modpack, and find out what the recipe is for them. Use the black search bar at the bottom, and then you can left click on an item(or highlight it and hit R) to the right to see how to make it!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wooden_sword"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:wooden_shovel"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:wooden_pickaxe"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:wooden_axe"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:wooden_hoe"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 5
+        },
+        {
+          "id": "minecraft:leather_helmet",
+          "nbt": "{RepairCost:2,display:{color:16777215,Name:\"Ferret Field Cap\"}}"
+        },
+        {
+          "id": "TConstruct:hammer",
+          "nbt": "{InfiTool:{RenderExtra:9,BaseDurability:81,BaseAttack:3,ToolEXP:0L,Built:1b,HarvestLevel:0,HarvestLevelExtra:0,RenderHead:9,ModDurability:0.0f,MiningSpeedExtra:200,Shoddy:0.0f,RenderHandle:9,Accessory:9,MiningSpeed:200,Unbreaking:0,Damage:0,HarvestLevel2:0,BonusDurability:0,TotalDurability:81,MiningSpeed2:200,Head:9,Attack:3,Handle:9,Broken:0b,Extra:9,RenderAccessory:9,ToolLevel:1,Modifiers:5},RepairCost:2,display:{Name:\"Field Hammer\"}}"
+        },
+        {
+          "id": "TConstruct:mattock",
+          "nbt": "{InfiTool:{MiningSpeed2:200,BaseDurability:13,Head:9,BaseAttack:4,ToolEXP:0L,Built:1b,HarvestLevel:0,Attack:4,RenderHead:9,ModDurability:0.0f,Handle:9,Broken:0b,Shoddy:0.0f,RenderHandle:9,Accessory:9,MiningSpeed:200,RenderAccessory:9,ToolLevel:1,Unbreaking:0,Damage:0,HarvestLevel2:0,BonusDurability:0,TotalDurability:13,Modifiers:4},RepairCost:2,display:{Name:\"Field Mattock\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Natural Research",
+      "description": "Okay. Okay yes. The tablet\u0027s scanners show a whole abundance of life all around you. This is good. It means you won\u0027t starve cause you can eat some of it! But it\u0027s also bad. Cause some of it can eat you! The entire corporate wing I work in is very interested in what living things you can find. Get me some biological stuff and I\u0027ll pass around my findings.",
+      "x": 153,
+      "y": 112,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:sapling"
+      },
+      "prerequisites": [
+        "Rolling the Dice"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Still Alive. Technically",
+          "longDescription": "Fruit can be found hanging from many trees. Raw meat? Well, there is a thing about tipping over cows...",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:apple",
+                "nbt": "{RepairCost:2,display:{Name:\"Any Fruit\"}}"
+              },
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "minecraft:beef"
+              },
+              "required": 2,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 5
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Magic Research",
+      "description": "Strange. Very strange. Peculiar, even! I detect once-living creatures walking around! Our Occult wing would like to investigate these things a bit closer. Seems that might mean there are some...less than \u0027logically scientific\u0027 things there. Grab some of the flesh off a few of those walking corpses for us.",
+      "x": 118,
+      "y": 152,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:rotten_flesh"
+      },
+      "prerequisites": [
+        "Rolling the Dice"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Speed Walking Dead",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:rotten_flesh"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 5
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Magic",
+      "x": 128,
+      "y": 191,
+      "prerequisites": [
+        "Magic Research"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "commandrewards": []
+    },
+    {
+      "name": "Nature",
+      "x": 182,
+      "y": 115,
+      "prerequisites": [
+        "Natural Research"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "commandrewards": []
+    },
+    {
+      "name": "Magic + Nature",
+      "x": 126,
+      "y": 123,
+      "prerequisites": [
+        "Magic Research",
+        "Natural Research"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "commandrewards": []
+    },
+    {
+      "name": "Nature Technology",
+      "x": 194,
+      "y": 128,
+      "prerequisites": [
+        "Natural Research",
+        "Technology Research"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "commandrewards": []
+    },
+    {
+      "name": "Technology Magic",
+      "x": 181,
+      "y": 193,
+      "prerequisites": [
+        "Magic Research",
+        "Technology Research"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "commandrewards": []
+    },
+    {
+      "name": "Technology",
+      "x": 194,
+      "y": 182,
+      "prerequisites": [
+        "Technology Research"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "commandrewards": []
+    },
+    {
+      "name": "Shiny Flowers?",
+      "description": "Theres a lot of flowers around you. I mean...a lot. I had to filter your scanner a bit cause there are so many different flowers! But the biggest ones that seem to stand out? Those shiny, colorful ones! There seem to be one of every major color....why not grab me a few of them?",
+      "x": 76,
+      "y": 11,
+      "icon": {
+        "id": "Botania:flower",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Magic + Nature"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "I Love Purple, Red.....",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:flower",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:flower",
+                "damage": 10
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:flower",
+                "damage": 15
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:flower",
+                "damage": 14
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Pipes and Power",
+      "description": "The amount of materials scattered around your world has caught the attention of many different research labs and other groups within The Ferret Business. One of them is of the large group of researchers and engineers who handle a lot of the logistics for organising and supplying different departments with enough materials to keep functioning. They\u0027ve requested a sample of a few common (and one...unique...) material from your world.",
+      "x": 107,
+      "y": 11,
+      "icon": {
+        "id": "EnderIO:itemRedstoneConduit",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Technology Magic"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "A Variety of Materials",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "minecraft:redstone"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "minecraft:skull",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Strange Equipment",
+      "description": "The scanners installed in your QUEST tablet show lots of interesthing things. A lot of us here are really interested in the data...but it seems you caught the attention of one of our more uh....eccentric researchers. He\u0027s asking for a sample of the old Redstone Dust your world has deep in the earth, and one of those bluegreen pearls from the lanky, creepy Endermen teleporting around at night...",
+      "x": 138,
+      "y": 10,
+      "icon": {
+        "id": "ExtraUtilities:generator",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Technology Magic"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Inventions from New and Old",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:redstone_block"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:ender_pearl"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "High Technology",
+      "description": "There are a few factory engineers I\u0027d like to get you in contact with here. They are sort of a team, but work on different aspects of a factory and automation line. Sending one of them a few special materials should garner their attention!",
+      "x": 204,
+      "y": 10,
+      "icon": {
+        "id": "Mekanism:MachineBlock",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Technology"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Research Materials",
+          "longDescription": "Currently, only half of the quests in this questline are complete.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "minecraft:gold_ingot"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:redstone"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "Mekanism:OreBlock"
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "The Factory Line",
+      "description": "You know, I think that it might benefit you if I got you in contact with a few specific engineers here....You being alone means you would benefit greately by utilizing some special mechanical machines! I think showing them some standard mechanical materials and supplies would catch their attention!",
+      "x": 171,
+      "y": 11,
+      "icon": {
+        "id": "MineFactoryReloaded:machine.0",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Technology"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Research Materials",
+          "longDescription": "Currently, only half of the quests in this questline are complete.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:rubber.raw"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "minecraft:stone_pickaxe"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:redstone"
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Hearty Meals",
+      "description": "[[INCOMPLETE QUESTLINE]]                                                          You can submit materials to help this research branch for the future, and immediately gain access to its questline when it becomes available.",
+      "x": 151,
+      "y": 51,
+      "icon": {
+        "id": "harvestcraft:heartybreakfastItem"
+      },
+      "prerequisites": [
+        "Nature"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Research Materials",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:apple"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "minecraft:planks"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "harvestcraft:saltItem"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "minecraft:wheat_seeds"
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "An Aura of Power",
+      "description": "[[INCOMPLETE QUESTLINE]]                                                          You can submit materials to help this research branch for the future, and immediately gain access to its questline when it becomes available.",
+      "x": 57,
+      "y": 52,
+      "icon": {
+        "id": "aura:fairyRing"
+      },
+      "prerequisites": [
+        "Technology"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Research Materials",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:glass"
+              },
+              "required": 6
+            },
+            {
+              "item": {
+                "id": "minecraft:diamond"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Electronic Mind",
+      "description": "[[INCOMPLETE QUESTLINE]]                                                          You can submit materials to help this research branch for the future, and immediately gain access to its questline when it becomes available.",
+      "x": 57,
+      "y": 84,
+      "icon": {
+        "id": "ComputerCraft:CC-Computer"
+      },
+      "prerequisites": [
+        "Technology"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Research Materials",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:redstone"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "minecraft:gold_ingot"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:stone"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Pressurised Air",
+      "description": "[[INCOMPLETE QUESTLINE]]                                                          You can submit materials to help this research branch for the future, and immediately gain access to its questline when it becomes available.",
+      "x": 291,
+      "y": 182,
+      "prerequisites": [
+        "Nature Technology"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Research Materials",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock",
+                "damage": 8
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock",
+                "damage": 6
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "minecraft:glass"
+              },
+              "required": 2,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Steve the Inventor",
+      "description": "[[INCOMPLETE QUESTLINE]]                                                          You can submit materials to help this research branch for the future, and immediately gain access to its questline when it becomes available.",
+      "x": 185,
+      "y": 86,
+      "icon": {
+        "id": "StevesCarts:CartModule",
+        "damage": 38
+      },
+      "prerequisites": [
+        "Technology"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Research Materials",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "minecraft:rail"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "minecraft:redstone"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Tinkering With Tools",
+      "description": "[[INCOMPLETE QUESTLINE]]                                                          You can submit materials to help this research branch for the future, and immediately gain access to its questline when it becomes available.",
+      "x": 253,
+      "y": 84,
+      "icon": {
+        "id": "TConstruct:ToolForgeBlock"
+      },
+      "prerequisites": [
+        "Technology"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Research Materials",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gravel"
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "minecraft:sand"
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:lava_bucket"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Heating Up",
+      "description": "[[INCOMPLETE QUESTLINE]]                                                          You can submit materials to help this research branch for the future, and immediately gain access to its questline when it becomes available.",
+      "x": 121,
+      "y": 84,
+      "icon": {
+        "id": "ThermalExpansion:Tesseract",
+        "nbt": "{RSControl:1b,ModeEnergy:1b,ModeItems:1b,Frequency:-1,ModeFluid:1b}"
+      },
+      "prerequisites": [
+        "Technology"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Research Materials",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "minecraft:redstone"
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 9
+              },
+              "required": 2,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Secrets of Aura",
+      "description": "    Hm, looking at the data from the Q.U.E.S.T. Tablet scanner, your world is definitely infused with a whole lot of untapped magic! If you can send me a few samples of some occult esoterica, I can pass them off to a sort of... eccentric wizard here.",
+      "x": 238,
+      "y": 9,
+      "icon": {
+        "id": "Thaumcraft:ItemGoggles"
+      },
+      "prerequisites": [
+        "Magic"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Research Materials",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemResource",
+                "damage": 6
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:paper"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "minecraft:book"
+              },
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "minecraft:gold_ingot"
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Crystal Storage",
+      "description": "[[INCOMPLETE QUESTLINE]]                                                          You can submit materials to help this research branch for the future, and immediately gain access to its questline when it becomes available.",
+      "x": 221,
+      "y": 85,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "damage": 24
+      },
+      "prerequisites": [
+        "Technology"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Research Materials",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "minecraft:redstone"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Grim Power",
+      "description": "[[INCOMPLETE QUESTLINE]]                                                          You can submit materials to help this research branch for the future, and immediately gain access to its questline when it becomes available.",
+      "x": 91,
+      "y": 51,
+      "icon": {
+        "id": "AWWayofTime:weakBloodOrb"
+      },
+      "prerequisites": [
+        "Magic"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Research Materials",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:stone"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "minecraft:gold_ingot"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:redstone"
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "To Boldly Go",
+      "description": "[[INCOMPLETE QUESTLINE]]                                                          You can submit materials to help this research branch for the future, and immediately gain access to its questline when it becomes available.",
+      "x": 151,
+      "y": 85,
+      "icon": {
+        "id": "mo:rouge_android_part"
+      },
+      "prerequisites": [
+        "Technology"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Research Materials",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "mo:rouge_android_part"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "mo:dilithium_crystal"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Bubble Bubble",
+      "description": "[[INCOMPLETE QUESTLINE]]                                                          You can submit materials to help this research branch for the future, and immediately gain access to its questline when it becomes available.",
+      "x": 186,
+      "y": 51,
+      "icon": {
+        "id": "witchery:babashat"
+      },
+      "prerequisites": [
+        "Magic + Nature"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Research Materials",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:seedsmandrake"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:yellow_flower"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "minecraft:dye",
+                "damage": 15
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 24
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Farm Machines",
+      "description": "[[INCOMPLETE QUESTLINE]]                                                          You can submit materials to help this research branch for the future, and immediately gain access to its questline when it becomes available.",
+      "x": 254,
+      "y": 52,
+      "icon": {
+        "id": "BuildCraft|Core:engineBlock",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Nature Technology"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Research Materials",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "minecraft:redstone"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 71
+              },
+              "required": 8,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "minecraft:dye",
+                "damage": 4
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Fantastic Fauna",
+      "description": "[[INCOMPLETE QUESTLINE]]                                                          You can submit materials to help this research branch for the future, and immediately gain access to its questline when it becomes available.",
+      "x": 121,
+      "y": 51,
+      "icon": {
+        "id": "Forestry:beeDroneGE",
+        "nbt": "{MaxH:20,Health:20,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"magicbees.speciesSkulking\",UID0:\"magicbees.speciesSkulking\",Slot:0b},1:{UID1:\"forestry.speedFast\",UID0:\"forestry.speedFast\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringFaster\",UID0:\"forestry.floweringFaster\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
+      },
+      "prerequisites": [
+        "Nature Technology"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Research Materials",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 71
+              },
+              "required": 4,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "minecraft:string"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "minecraft:gold_ingot"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Knick Knacks",
+      "description": "[[INCOMPLETE QUESTLINE]]                                                          You can submit materials to help this research branch for the future, and immediately gain access to its questline when it becomes available.",
+      "x": 221,
+      "y": 51,
+      "icon": {
+        "id": "OpenBlocks:luggage"
+      },
+      "prerequisites": [
+        "Technology Magic"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Research Materials",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "minecraft:paper"
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Network Tools",
+      "description": "[[INCOMPLETE QUESTLINE]]                                                          You can submit materials to help this research branch for the future, and immediately gain access to its questline when it becomes available.",
+      "x": 91,
+      "y": 84,
+      "icon": {
+        "id": "rftools:relayBlock"
+      },
+      "prerequisites": [
+        "Technology"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Research Materials",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "minecraft:gold_ingot"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:redstone"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "minecraft:dye",
+                "damage": 4
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "THE FERRET BUSINESS",
+      "description": "    This modpack utilizes the FTB Utilities Guide book system. In your inventory, on the left side, is a Book you can click to bring up The Ferret Business Guidebook.                 The book does not have much yet, but it will be filled out more with every update.",
+      "x": 18,
+      "y": 178,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:enchanted_book"
+      },
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken"
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

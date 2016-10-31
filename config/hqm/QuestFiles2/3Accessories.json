@@ -1,0 +1,47 @@
+{
+  "name": "Accessories",
+  "description": "And finally welcome to the Armament area of my shop. Weapons, Armor, First Aid Kits, and more, everything a danger-seeking individual could need to locate treasure with!",
+  "quests": [
+    {
+      "name": "Green and Healthy",
+      "description": "As you\u0027ve traversed and survived in your world, you may have noticed these little Red and Yellow hearts you can find from various dangerous creatures. Putting them in a vessel enables you to increase your vitality well beyond normal (thanks to the magical nature of your world). We began researching them, and have synthesized a third color for you to use : green. These are fairly expensive to make, but a full set of Green, Yellow, and Red Heart Canisters can make you thrice as healthy as normal!",
+      "x": 17,
+      "y": 14,
+      "icon": {
+        "id": "TConstruct:heartCanister",
+        "damage": 5
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Green Hearts",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 150
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:heartCanister",
+          "damage": 5
+        }
+      ],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 8
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

@@ -1,0 +1,53 @@
+§l 5 - Ore Generation §r
+
+This modpack alters the range and amounts many Ores generate at, so that they do not overwrite each other. Here is a list of the ores and their usual spawn heights : 
+
+ORE NAME         HEIGHT                 DISTRIBUTION
+Coal             0 - 133                Even
+Iron             0 - 70                 Even
+Gold             0 - 40                 Even
+Lapis Lazuli     1 - 50                 Denser around 25
+Redstone         0 - 20                 Even
+Emerald          5 - 35                 Extreme Hills Only
+Diamond          0 - 16                 Even
+Nether Quartz    3 - 140                Nether Only
+
+Copper           35 - 82                Even
+Tin              20 - 60                Even
+Silver           5 - 35                 Denser between 10 - 30
+Lead             5 - 35                 Denser between 10 - 30
+Ferrous          6 - 20                 Even
+Shiny            4 - 22                 Even
+
+Certus Quartz    50 - 75                Even
+
+Yellorite        5 - 50                 Even
+
+Draconium        0 - 0                  Purchase Only
+
+Apatite          60 - 240               Even
+
+Osmium           0 - 128                Even
+
+Nether Ores      0 - 130                Nether Only
+
+Ruby             0 - 16                 Even
+Sapphire         0 - 16                 Even
+Peridot          0 - 16                 Even
+
+Electrotine      1 - 20                 Even
+
+Cobalt           0 - 128                Denser between 30 - 100
+Ardite           0 - 128                Denser between 32 - 96
+
+Aluminum         0 - 70                 Even
+
+Cinnabar         0 - 12                 Even
+Infused Stone    5 - 60                 Even
+
+Salt Ore         0 - 128                Even
+
+Dilithium        ? - ?                  Roughly under 40
+Tritanium        ? - ?                  Roughly under 60
+
+Dimensional      ? - ?                  RFTool Worlds only

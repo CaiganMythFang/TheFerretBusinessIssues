@@ -1,0 +1,15 @@
+§l 4.3 - Trader Chits §r
+
+The Corporate Shop has a Shop Loyalty system in place to reward frequent purchasers. By purchasing items of sufficient value, you recieve Shop Tokens. 1 Point of Shop Purchases is roughly 5 Shop Vouchers.
+
+You can make larger Shop Tokens by combining two of the same value.
+
+{"image":"3.4-tokencombos.png", "width":80, "height":200}
+
+Shop Tokens can be turned in via your QUEST Tablet, in the Ferret Resources Dept.
+
+The lowest value token you can turn in is Bronze, which is value 8. Collecting higher level tokens, though, give you bigger rewards. A 16 value Shop Token is worth more than two 8 Value tokens. 
+
+Raising your Shop Loyalty earns you better exchange rates for your Shop Vouchers. 
+
+The largest value token is the Awakened Draconium Shop Token, and is worth the most.

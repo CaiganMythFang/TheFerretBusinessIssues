@@ -1,0 +1,7 @@
+[
+    {
+        name:"The Ferret Business Default",
+        texture:"ferretbusiness:textures/gui/editor_gui_ferret.png",
+        textColor:0
+    },
+]

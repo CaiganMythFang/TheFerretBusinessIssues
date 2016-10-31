@@ -1,0 +1,571 @@
+{
+  "name": "{X}Researchology",
+  "description": "INITIALIZING INTERFACE                ...                                           SCANNING IDENTIFICATION              ...                                  GREETINGS BANDIT                      I AM M-A8301-X819, OR M.A.X. FOR SHORT. I CATALOGUE AND DISTRIBUTE RESEARCH MATERIALS TO MANY LABORATORIES WITHIN THE FERRET BUSINESS. I AM NOW AUTHORIZED BY THE CEO TO GIVE YOU PAYMENT, KNOWN AS A BOUNTY, FOR PROVIDING VARIOUS RESEARCH MATERIALS.",
+  "quests": [
+    {
+      "name": "MATERIAL - WRIGGLING TENTACLE",
+      "description": "Material :  Wriggling Tentacle          Amount :   20                       Targets : Squids, Ghasts, or any         creature with a whip-like               appendage                    Bounty :   1 Bag of Coins",
+      "x": 133,
+      "y": 11,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 30
+      },
+      "prerequisites": [
+        "{Initial Research}[Rolling the Dice]"
+      ],
+      "repeat": {
+        "type": "TIME",
+        "days": 3,
+        "hours": 0
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Wriggling Tentacle",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 30
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "MATERIAL - ROTTED BONE",
+      "description": "Material :  Rotted Bones               Amount :   20                       Targets : Skeletons, Zombies, and      other Undead Creatures           Bounty :   1 Bag of Coins",
+      "x": 21,
+      "y": 11,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 26
+      },
+      "prerequisites": [
+        "{Initial Research}[Rolling the Dice]"
+      ],
+      "repeat": {
+        "type": "TIME",
+        "days": 3,
+        "hours": 0
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Rotted Bones",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 26
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "MATERIAL - MYSTICAL POWDER",
+      "description": "Material :  Mystical Powder             Amount :   20                       Targets : Witches, Demons, and            other Magical Entities           Bounty :   1 Bag of Coins",
+      "x": 22,
+      "y": 65,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 27
+      },
+      "prerequisites": [
+        "{Initial Research}[Rolling the Dice]"
+      ],
+      "repeat": {
+        "type": "TIME",
+        "days": 3,
+        "hours": 0
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Mystical Powder",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 27
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "MATERIAL -  CREEPY FLESH",
+      "description": "Material :  Creepy Flesh          Amount :   20                       Targets : Endermen or any                creature with strange skin        Bounty :   1 Bag of Coins",
+      "x": 134,
+      "y": 63,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 31
+      },
+      "prerequisites": [
+        "{Initial Research}[Rolling the Dice]"
+      ],
+      "repeat": {
+        "type": "TIME",
+        "days": 3,
+        "hours": 0
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Creepy Flesh",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 31
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "MATERIAL - SHIMMERING SCALES",
+      "description": "Material :  Shimmering Scale          Amount :   20                       Targets : Any fish or reptile       Bounty :   1 Bag of Coins",
+      "x": 135,
+      "y": 130,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 32
+      },
+      "prerequisites": [
+        "{Initial Research}[Rolling the Dice]"
+      ],
+      "repeat": {
+        "type": "TIME",
+        "days": 3,
+        "hours": 0
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Shimmering Scales",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 32
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "MATERIAL - SLIME HEART",
+      "description": "Material :  Slime Heart             Amount :   20                       Targets : Gelatinous creatures       Bounty :   1 Bag of Coins",
+      "x": 22,
+      "y": 191,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 29
+      },
+      "prerequisites": [
+        "{Initial Research}[Rolling the Dice]"
+      ],
+      "repeat": {
+        "type": "TIME",
+        "days": 3,
+        "hours": 0
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Slime Heart",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 29
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "MATERIAL - INSECTOID LEG",
+      "description": "Material :  Insectoid Leg             Amount :   20                       Targets : Any Insect or Spider       Bounty :   1 Bag of Coins",
+      "x": 23,
+      "y": 130,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 28
+      },
+      "prerequisites": [
+        "{Initial Research}[Rolling the Dice]"
+      ],
+      "repeat": {
+        "type": "TIME",
+        "days": 3,
+        "hours": 0
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Insectoid Leg",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 28
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "MATERIAL - BROKEN TOOTH",
+      "description": "Material :  Broken Tooth         Amount :   20                       Targets : Any humanoid creature    Bounty :   1 Bag of Coins",
+      "x": 136,
+      "y": 190,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 33
+      },
+      "prerequisites": [
+        "{Initial Research}[Rolling the Dice]"
+      ],
+      "repeat": {
+        "type": "TIME",
+        "days": 3,
+        "hours": 0
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Broken Tooth",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 33
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "MATERIAL - DOWNY FEATHER",
+      "description": "Material :  Downy Feather              Amount :   20                       Targets : Any bird-like creature     Bounty :   1 Bag of Coins",
+      "x": 256,
+      "y": 127,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 36
+      },
+      "prerequisites": [
+        "{Initial Research}[Rolling the Dice]"
+      ],
+      "repeat": {
+        "type": "TIME",
+        "days": 3,
+        "hours": 0
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Downy Feather",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 36
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "MATERIAL - TINGED LEAF",
+      "description": "Material :  Tinged Leaf              Amount :   20                       Targets : Any plant-based                 creature                             Bounty :   1 Bag of Coins",
+      "x": 258,
+      "y": 190,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 37
+      },
+      "prerequisites": [
+        "{Initial Research}[Rolling the Dice]"
+      ],
+      "repeat": {
+        "type": "TIME",
+        "days": 3,
+        "hours": 0
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Tinged Leaf",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 37
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "MATERIAL - HIDE SAMPLE",
+      "description": "Material :  Hide Sample              Amount :   20                       Targets : Any creature with little        to no fur                      Bounty :   1 Bag of Coins",
+      "x": 256,
+      "y": 62,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 35
+      },
+      "prerequisites": [
+        "{Initial Research}[Rolling the Dice]"
+      ],
+      "repeat": {
+        "type": "TIME",
+        "days": 3,
+        "hours": 0
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Hide Sample",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 35
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "MATERIAL - FUR TUFT",
+      "description": "Material :  Fur Tuft              Amount :   20                       Targets : Any creature with large        amounts of fur              Bounty :   1 Bag of Coins",
+      "x": 257,
+      "y": 11,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 34
+      },
+      "prerequisites": [
+        "{Initial Research}[Rolling the Dice]"
+      ],
+      "repeat": {
+        "type": "TIME",
+        "days": 3,
+        "hours": 0
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Fur Tuft",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 34
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 5
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

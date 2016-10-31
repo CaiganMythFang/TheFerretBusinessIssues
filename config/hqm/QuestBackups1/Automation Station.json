@@ -1,0 +1,4002 @@
+{
+  "name": "Automation Station",
+  "description": "[Clank]                                     [Clank]                                  [Clank]                                   Dang th...oh, it\u0027s working finally! Greetings, Bandit! I\u0027m Machinist Meeka! My twin brother and I are the head factory engineers here! We make sure things are automated like...well...clockwork! A well oiled machine! A well choreographed mechanical dance! Come on, lets go talk more in private!",
+  "quests": [
+    {
+      "name": "MineFactory Reloaded",
+      "description": "    You\u0027re here, great! Like I said, my name is Meeka. My twin brother and I are the head factory engineers here at The Ferret Business. While he focuses smaller, more powerful systems, I focus on getting things moving like clockwork.     Now, I hear talk about how your world\u0027s materials are all infused with Magic, and I\u0027ve been doing some tinkering on my own with samples and...I\u0027m already loving what I\u0027ve found! I think we can come up with a better, more efficient factory.            First though, you\u0027ll need to gather some materials and the basic components...",
+      "x": 301,
+      "y": 12,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 9
+      },
+      "prerequisites": [
+        "{Initial Research}[The Factory Line]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Boing!",
+          "longDescription": "Bouncy Bouncy, who doesn\u0027t like rubber? Good cushion, good insulator, fun material! Scans show you have Rubber Trees around. Multiple types, in fact, but the one I know of has sort of an orangish bark and bright green leaves. Chop it down and you\u0027ll get some Raw Rubber, which you can Smelt down into Rubber Bars.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:rubber.raw"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:rubber.bar"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Perfectly Packagable",
+          "longDescription": "Rubber is good for insulating cables, but what we\u0027ll be using it for is making plastic. Smelt Rubber Bars down to refine them into Raw Plastic, and then you can combine four bars worth into  Plastic Sheets.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:plastic.raw"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:plastic.sheet"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Heart and Vein",
+          "longDescription": "The Factory Machine Block is the heart of almost every MFR machine. Usually, a machine can only be powered with RF Energy...but the magical nature of your materials, it seems to be able to be powered by EU and MJ as well.                       Likewise, these Pipes seem to be special. When you apply a Redstone Signal to them, they can pull liquid out of a machine or tank, but when they are made of material from your world, they don\u0027t seem to melt when pumping, say...Lava. Or Molten Metal. That is amazing!",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machineblock"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:cable.plastic"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Precise Hammering",
+          "longDescription": "This Sledgehammer can be used to rotate MFR and other machines. A strange thing, when you are holding it, you can see the range of MFR machines...must be a magical link between all the Plastic used...",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:hammer"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "Progressive Automation",
+      "description": "There are a lot of seemingly simple tasks you need to do to survive out there, isn\u0027t there? My brother and I were talking over this, and we feel the best way to help you is to teach you one of the easiest series of automations you can do. The best thing about these machines is you can Progressively upgrade them to work bigger areas and faster!",
+      "x": 144,
+      "y": 190,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 11
+      },
+      "prerequisites": [
+        "{Initial Research}[The Factory Line]"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Pellets of Machine Food",
+          "longDescription": "All of these machines take some sort of Fuel to power. Sometimes, though, a large chunk of Coal is a waste to use for a single machine, so you can break it down into a Fuel Pellet to be more efficient.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Tools of the Trade",
+          "longDescription": "You can customize your Automation machines using this wrench. By Sneak + Right Clicking it into the air, you can change modes, then Right Click a side of the machine to change what it does.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "Mining Automation",
+      "description": "One of the major things you\u0027ll be needing a whole lot of in automation is...well...metal! You\u0027ll need it to make the machines, conduct the electricity to power them, make things to store stuff, all that fun stuff! Well, being more or less alone, getting a lot of metal is going to be a problem, isn\u0027t it? Well, not with these! These automated miners search downward for materials it can mine, dig them up, and replace them with Cobblestone. ",
+      "x": 22,
+      "y": 158,
+      "prerequisites": [
+        "Progressive Automation"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Basic Miners",
+          "longDescription": "Miners require a Shovel and a Pick the same level as the Miner (Wooden Miner \u003d Wooden Tools, etc). They also require Cobblestone to replace the items with.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Advanced Miners",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Farming Automation",
+      "description": "Farming is a slow, tedious job. I\u0027d much prefer poking a wrench into a machine than a shovel into the dirt, myself, but at least most of the time it tends to itself. At least until harvest time. But thankfully, I have a machine to help! You can place the planter one level under some dirt, give it a hoe and some seeds, and it\u0027ll go to work!",
+      "x": 63,
+      "y": 157,
+      "prerequisites": [
+        "Progressive Automation"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Basic Planters",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Advanced Planters",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Logging Automation",
+      "description": "These machines take lots of Fuel to run nonstop. Regular Coal is not exactly an easily renewable resource...but Charcoal is! And to make Charcoal, you need Wood, lots and lots of Wood! So, why not Automate it? The Chopper, when supplied with an Axe and some Saplings, will plant, wait, and then automatically chop down and replant trees for you!",
+      "x": 103,
+      "y": 158,
+      "prerequisites": [
+        "Progressive Automation"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Basic Choppers",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Advanced Choppers",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Breeder Automation",
+      "description": "Like tending crops, tending animals is a boring business. Slow but full of weird smells and tempermental creatures. But with technology, we can automate the process! By placing this in the pen with a breeding pair of animals, and supplying it with power and the proper Food (like Wheat for Cows, or Seeds for Chickens), it\u0027ll automatically get them breeding and multiplying!",
+      "x": 184,
+      "y": 159,
+      "prerequisites": [
+        "Progressive Automation"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Basic Animal Farmers",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Advanced Animal Farmers",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Killing Automation",
+      "description": "I\u0027ve been told you world is full of monsterous creatures that would love to gnaw your arm off. Thankfully, I have a machine that should help you quite well! Its called a Killer machine, just give it a bit of Fuel and a weapon, and it\u0027ll attack anything that walks on top of it. Careful, this includes you!",
+      "x": 225,
+      "y": 158,
+      "prerequisites": [
+        "Progressive Automation"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Basic Killers",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Advanced Killers",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Crafting Automation",
+      "description": "Having to make all your tools and gadgets by hand must be a real pain in the tail, know what I mean? Especially things you need to make a couple hunded of! Thankfully, this machine can automate crafting things together for you. Put in the pattern for the crafting recipe on the left, some supplies on the right, and some Fuel, and watch it work!",
+      "x": 266,
+      "y": 158,
+      "prerequisites": [
+        "Progressive Automation"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Basic Crafters",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Advanced Crafters",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Energy Automation",
+      "description": "So, a lot of machines use RF Energy. Most of them, in fact, except for a few older model lines or some special cases. Theres a whole lot of different ways to generate RF, but perhaps the simplest and most direct way is to burn Fuel and convert it directly into RF Energy. If you place one of these next to an automated machine with an RF Engine in it, it will charge the Engine with the RF.",
+      "x": 63,
+      "y": 191,
+      "prerequisites": [
+        "Progressive Power"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Basic Generators",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Advanced Generators",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 40
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 40
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 40
+        }
+      ]
+    },
+    {
+      "name": "Progressive Power",
+      "description": "Most of these machines require some sort of Fuel to run, but most technology nowadays doesn\u0027t run on an internal Furnace, you know? Instead, they run on RF! With this little RF Engine, you can put it into some sort of charger to, well, charge it up like a battery, then stick it into any of these machines instead of Coal!",
+      "x": 104,
+      "y": 191,
+      "prerequisites": [
+        "Progressive Automation"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "RF Engine",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Progressive Upgrades",
+      "description": "Each of these machines are fantastic in their own right, but if you want to increase the size of your operations, your only choice is to make lots of every machine, right? Wrong! The better choice is to upgrade a single machine! Each upgrade only works on that specific tier of machine (So Wood Upgrade for Wood machines), and it will increase the number of blocks it works by 1 for each upgrade. So to have a machine work a 3x3 area, you\u0027ll need 8 upgrades, for example.",
+      "x": 144,
+      "y": 158,
+      "prerequisites": [
+        "Progressive Automation"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Basic Upgrades",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Advanced Upgrades",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Progressive Mining",
+      "description": "The Miner has a pair of upgrades you can install that should really help out. ",
+      "x": 144,
+      "y": 124,
+      "prerequisites": [
+        "Progressive Automation"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Cobble Cobble",
+          "longDescription": "The Cobble Gen Upgrade will automatically produce Cobblestone for the Miner, but it will take more Durability from your tools and more Fuel.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Fill It All In",
+          "longDescription": "The Filler Upgrade will have your miner fill in any empty air or spaces with liquids it scans over while mining. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Progressive Killer",
+      "description": "The Killer can be upgraded with a Filter that will tell it to attack only specific types of creatures. ",
+      "x": 225,
+      "y": 189,
+      "prerequisites": [
+        "Progressive Automation"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Hostile Detected",
+          "longDescription": "The Mob Filter Upgrade will tell the Killer machine to attack only hostile creatures.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Non Combatant Detected",
+          "longDescription": "The Animal Filter Upgrade will tell the Killer to only attack passive creatures like Chickens or Cows.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Mature Entity Detected",
+          "longDescription": "The Adult Filter Upgrade, when used in conjunction with the Animal Filter Upgrade, will tell the machine to only attack Adult animals.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Enemy Detected",
+          "longDescription": "The Player Filter Upgrade will tell the Killer to only attack other sentient creatures, such as other Assistants.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 40
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 40
+        }
+      ]
+    },
+    {
+      "name": "Progressive Breeder",
+      "description": "The Animal Farmer can tend to a whole range of different animals, some of them which can give different items. There are two upgrades to help with the Animal Farmer tending these animals.",
+      "x": 184,
+      "y": 190,
+      "prerequisites": [
+        "Progressive Automation"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Good For Bones",
+          "longDescription": "The Milker Upgrade will enable an Animal Farmer machine to milk cows if it is supplied with buckets.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Thick and Warm",
+          "longDescription": "The Shearer Upgrade enables an Animal Farmer to Shear sheep, as long as it is given a pair of Shears.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Withered Progression",
+      "description": "With some research the other labs in The Ferret Business have done, we\u0027ve discovered a way to harness the power of a Nether Star to vastly improve your Progressive Automation machines!",
+      "x": 103,
+      "y": 124,
+      "prerequisites": [
+        "Progressive Upgrades"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Wither Upgrade",
+          "longDescription": "The Wither Upgrade, when added to a machine, will multiply its range by 4!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Wither Materials",
+          "longDescription": "By imbuing basic materials with Nether Stars, you can make supremely strong, nigh unbreakable tools, useable in any of these machines!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 50
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Lgndry Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 45
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "Plastic Tools",
+      "description": "Now, remember how I said I was tinkering with your magical materials? Well, I decided to make some handy tools to see what would happen, and the results are quite interesting, I have to say! ",
+      "x": 262,
+      "y": 50,
+      "icon": {
+        "id": "MineFactoryReloaded:ruler"
+      },
+      "prerequisites": [
+        "MineFactory Reloaded"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Sip Sip Sip",
+          "longDescription": "I know it seems like an odd tool, but a Straw is perfect for sampling various liquids, sometimes getting interesting effecs! Normally if the liquid was too hot, it\u0027d melt the Straw...but not if its made of your world\u0027s Rubber...just. Just try not to drink Lava, okay? That isn\u0027t very healthy...",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:straw"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Bag It Up!",
+          "longDescription": "Plastic Bags are perfect for carrying groceries home, or anything really. You can carry up to 5 things in a Plastic Bag.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:plastic.bag"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A College Classic",
+          "longDescription": "Plastic Cups act like Buckets and can pick up various liquids. The bonus is that if you can drink the liquid with a Straw, you can drink it directly out of the Plastic Cup!",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:plastic.cup"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Eye Spy",
+          "longDescription": "This is good for viewing things at long distances. It will tell you the distance something is up to 200 blocks away.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:spyglass"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Measure Twice",
+          "longDescription": "Normally, a Ruler would only be able to tell you the distance accurately if it was under a foot...or a yard sometimes. This Ruler? Right Click it on one block, then you can go do the same on another block down the hall and it\u0027ll tell you the exact distance! ",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:ruler"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "Farming the Field",
+      "description": "     Now, unlike the factories you may be thinking of, here in The Business, we like to automate as many steps as we possibly can in the products we make. This includes planting crops and harvesting them for various uses.                             Some of these machines will be your first introduction into real MFR Machines. Your basic MFR Machine usually has a front and a back. When you place the machine down, the front will be facing away from you. You can later rotate a machine with your Precision Sledgehammer or any machine Wrench. Keep in mind that most MFR Machines require Power as well.",
+      "x": 221,
+      "y": 12,
+      "icon": {
+        "id": "MineFactoryReloaded:machine.0"
+      },
+      "prerequisites": [
+        "MineFactory Reloaded"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Sowing the Fields",
+          "longDescription": "Place the planter one block below a 3x3 area of the appropriate soil. It will plant seeds and saplings in its inventory, and where you place it in the inventory is where it will plant it. If you place an Oak Sapling in the top center of the inventory, it will plant it on the North Center block.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.0"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Healthy Crop",
+          "longDescription": "This machine will scan a 3x3 area in front of it for crops and saplings, applying Industrial Fertilizer to them. Normally, this would just speed up the plants\u0027 growth a little bit, it seems that your world\u0027s magical materials will quite regularly grow the crops or trees with very little time or Fertilizer required. ",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.0",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:fertilizer"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Harvest Time",
+          "longDescription": "The Planter can only plant crops. To harvest them, you will need a Harvester. This machine will scan a 3x3 area in front of it and harvest trees and crops. Each plant it harvests will generate a little Sludge, which will fill its internal tank. If the tank is full, the machine will work much slower.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.0",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Waste Away",
+          "longDescription": "Many machines like the Harvest generate Sludge as they work. You can Pipe this waste material out and into a Sludge Boiler, which will reduce it into one of a number of different materials.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.0",
+                "damage": 9
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Boat and All Day",
+          "longDescription": "Place this directly above a 3x3x1 or larger pool of water and it will automatically fish for you. Strangely, if it detects another Fisher close by, it will jam up and refuse to work properly until the other Fisher is removed.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.0",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Ripe for the Picking",
+          "longDescription": "The Fruit Picker will scan a 3x3x21 area in front of it for fruit to pick off of trees, like hanging Apples or Cocoa Beans. It will not replant them, though, you will still need a Planter for that.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.2",
+                "damage": 6
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Farming the Barnyard",
+      "description": "    Simple plants aren\u0027t the only living things we deal with here, and I don\u0027t mean our clients and shoppers. Farm animals provide many things we need, whether its meat, fur, wool, milk, or other such things.                                          These machines though...they seem to work strangely with your materials. Sometimes better, sometimes just in unexpected ways. I mean, animals from your world seem to be able to give birth to a baby in no time and all, and that baby grows up within days!",
+      "x": 181,
+      "y": 12,
+      "icon": {
+        "id": "MineFactoryReloaded:machine.0",
+        "damage": 12
+      },
+      "prerequisites": [
+        "MineFactory Reloaded"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Propogating Species",
+          "longDescription": "When supplied with the appropriate food (wheat for cows, carrots for pigs, etc), it will scan a 5x5 area in front of it and breed appropriate animal pairs when possible.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.0",
+                "damage": 12
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Farm Hand",
+          "longDescription": "Scans a 5x5 area in front of it for animals it can harvest from. For example, it can milk cows, and either send the milk out a connected Pipe, or fill a bucket if you supply it. It will shear Sheep, gather Eggs from Chickens, and even get soup from those unique fungal creatures you call Mooshrooms if you give it some Bowls!",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.0",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "How Old?!",
+          "longDescription": "If you\u0027ve got a large barnyard full of animals giving birth at different times, it can be difficult to split off the young to a safer location. Using the Chronotyper, you can select either Adult or Young animals, and it will scan a 5x5 area in front of it for the appropriate aged animal, and then move it behind the machine. ",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.0",
+                "damage": 15
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Clean Killer",
+          "longDescription": "The Grinder seems like a dark task for something to undertake, but the truth is most of us eat meat. The Grinder quickly kills creatures in a 5x5 area in front of it, picking up any useable materials from it and stores them in its inventory. It also seems to collect this...mysterous glowing green liquid. For now, we\u0027re going to call it Essence, as it seems to be the Essence of the creatures it kills...",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.0",
+                "damage": 13
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Advanced Animal Farming",
+      "description": "We can do a whole lot more with a farm full of animals than just breed and kill them. Utilizing them to help create more materials for plant farming is one way, but we can also utilize nearly the entire animal, wasting nothing, which I feel should be one of the goals of a fully functioning factory.",
+      "x": 182,
+      "y": 49,
+      "icon": {
+        "id": "MineFactoryReloaded:machine.0",
+        "damage": 10
+      },
+      "prerequisites": [
+        "Farming the Barnyard"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Waste Product",
+          "longDescription": "The Sewer collects waste from animals that walk on the 1x1 area above it. Larger animals produce more Sewage. It will jam up if there is another Sewer close to it, unfortunately, but the upside is it seems to slowly generate Essence as well.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.0",
+                "damage": 10
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Waste Treatment",
+          "longDescription": "Supplied with Sewage from a Sewer (or if you find a dumping ground of it...), the Composter will convert it into Industrial Fertilizer.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.0",
+                "damage": 11
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Whole of the Thing",
+          "longDescription": "The Slaughterhouse scans a 5x4x5 cube in front of it for creatures. It will kill them and process almost the entire thing into Liquid Meat and Pink Slime. Liquid Meat can be Piped out of any side of the machine, but Pink Slime will require special pipes, such as Fluiducts with Pneumtic Servos from Thermal Dynamics to extract. ",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.1",
+                "damage": 13
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Pre Processed Product",
+          "longDescription": "Converts Liquid Meat into Raw Meat Ingots, and Pink Slime into Raw Meat Nuggets. These can then be cooked and consumed.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.1",
+                "damage": 14
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Liquid Factor",
+      "description": "A factory needs to be able to work with liquid matter as well as solid objects. I mean, how else are you going to get soup into cans, soda into bottles, or jelly into jars? Most of these machines had some limited uses before, but I\u0027ve found with your magical  materials, they are a bit more useful!",
+      "x": 301,
+      "y": 89,
+      "icon": {
+        "id": "MineFactoryReloaded:tank"
+      },
+      "prerequisites": [
+        "MineFactory Reloaded"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "No Fishies In This Tank",
+          "longDescription": "Each Plastic Tank stores up to 4 buckets of liquid. When you place multiple of them next to each other horizontally, they will connect. Tanks will not connect vertically, allowing you to stack different liquids on top of each other.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:tank"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Bubble Burble",
+          "longDescription": "You can pipe almost any liquid into the Fountain, and it will pump it onto the top of the machine. This includes Lava. ",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.2",
+                "damage": 11
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Rain Catcher",
+          "longDescription": "This little device is able to catch large amounts of Water or Snow in any climate but a desert. When it Rains, it will generate Water, but if its snowing, it will generate Snowballs.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.0",
+                "damage": 8
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Waterproof Packaging",
+          "longDescription": "Normally, this device would be able to store a single liquid and create objects that required it...but your special materials enabled me to improve it! You can now store up to 9 different liquids and automatically craft items that require those liquids. You can pipe liquids into any side, objects INTO the machine on any side, and OUT of the machine via the top or bottom.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.1",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Liquid Traffic Signals",
+          "longDescription": "If you are piping around a lot of different liquids, this might well be a big help. You can filter what liquids go through this, which side the exit out on when piped in. ",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.1",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Creature Feature",
+      "description": "Being mostly on your own over there, dealing with creatures and animals can be a daunting task, I bet. Especially when you need to lead a pair of animals home to start a farm. And by lead, I of course, mean drag, coerce, bribe, shout at, and pray the animals follow you and don\u0027t get themselves killed. Well, usually thats what we\u0027d have to do, but since we started experimenting with materials from your world, we\u0027ve discovered some things that should be quite helpful!",
+      "x": 142,
+      "y": 50,
+      "icon": {
+        "id": "MineFactoryReloaded:xpextractor"
+      },
+      "prerequisites": [
+        "Advanced Animal Farming"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "It\u0027s a Net, not a Ball, Pokey",
+          "longDescription": "Safari Nets are basically a magical version of those big game hunter nets you see, the ones you throw over a creature to tangle them up. Instead, though, this encapsulates them into a handheld item! There are two versions, a cheap one-use version, and a reusable version!",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:safarinet.singleuse"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:safarinet.reusable"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Almost Escape Proof",
+          "longDescription": "Jailer Nets are an even more magical version of Safari Nets. We\u0027ve noticed a tendancy for animals from your world to up and vanish, especially monsters, but any creature released by a Jailer\u0027s Net will 99% of the time stick around. A Golden Jailer Net will also give the creature it releases a fancy nameplate! Spiffy!",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:safarinet.jailer"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:safarinet.jailer.fancy"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Safari Net, GO!",
+          "longDescription": "Trying to catch a creature in a dangerous area? Use this Safari Net Launcher!",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:safarinet.launcher"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "We Need an Army...",
+          "longDescription": "We\u0027ve retooled a custom Breeder machine to consume Essence. By supplying it, along with Power, and any creature caught in a reusable Safari Net, you can create clones! You can either choose for it to spawn the same kind of creature, or exact copies of the creature you caught. Exact copies take much more Essence, though.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.1",
+                "damage": 9
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Your Own Essence",
+          "longDescription": "We\u0027ve discovered a way to convert you own, well...worldly Experience into Essence. By using this and having empty Buckets in your inventory, you can convert XP into Essence for various MFR machines.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:xpextractor"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Improved Farming",
+      "description": "Growing plants and animals the traditional way has worked for thousands of years, but this is the age of technology. Well, and magic, in your current world. So, to move with the times, we need to improve on older practices!",
+      "x": 222,
+      "y": 50,
+      "icon": {
+        "id": "MineFactoryReloaded:syringe.health"
+      },
+      "prerequisites": [
+        "Farming the Barnyard",
+        "Farming the Field"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A Healthy Crop",
+          "longDescription": "Fertile Soil is tilled farmland that is rich in nutrients and does not need to be watered.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:farmland"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Animal Care",
+          "longDescription": "The Veterinary Station applies Syringes to a 5x5 area in front of it. ",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:syringe.empty"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.0",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Big and Healthy",
+          "longDescription": "Health Syringes will heal creatures, while Slime Embiggening Syringes do what it says on the tin, more or less : using one on a Slime will cause it to grow larger.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:syringe.health"
+              }
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:syringe.slime"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Growing Up",
+          "longDescription": "Growth Syringes will instantly grow Baby animals into Adult animals. It is kind of expensive, so you can use a Zombie Syringe instead to do the same thing, but it DOES kind of have a...slight...chance of turning them into a Zombie instead.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:syringe.growth"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:syringe.zombie"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Cure",
+          "longDescription": "Villagers in your world seem to be very prone to zombie attacks and zombification. Using one of these Syringes on them will turn them back, though!",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:syringe.cure"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "The Factory Line",
+      "description": "Now, I\u0027ve mentioned that the Heart of MFR is the Factory Block, and the Veins are Plastic Pipes, right? Well, welcome to the Digestive System! A factory sorts, processes, utilizes, and discards waste materials constantly, just like a digestive system does. ",
+      "x": 264,
+      "y": 88,
+      "icon": {
+        "id": "MineFactoryReloaded:conveyor",
+        "damage": 16
+      },
+      "prerequisites": [
+        "Plastic Tools"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Conveying Purpose",
+          "longDescription": "Conveyor Belts can move Items, Creatures, and even Assistants around! You can change their direction with a Precision Sledgehammer, which ca also be used to rotate it upward to create an Escalator. Going too slow? Right click some Glowstone Dust onto a belt. You can also color belts with Ceramic Dye. If you want to move around your belts without being dragged along, make yourself a pair of Plastic Boots!",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:conveyor",
+                "damage": 16
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:plastic.boots"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "What a Collection",
+          "longDescription": "When an item touches the Item Collector, whether it was dropped or pushed into it by a Conveyor Belt, it is picked up and placed into an adjacent inventory. The Collector will move items into the same inventory until it is full, then move to the next one. It chooses its inventory based on this order : Down, Up, North, South, West, East.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.0",
+                "damage": 6
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "You Go This Way, That Way....",
+          "longDescription": "Unlike the Item Collector, the Router is able to filter which side an item is pushed out of. Each color in the GUI corresponds with one side of the Machine. Items can be input into any side, but they cannot output upward, as the Item Router has the ability to pull an item off a Conveyor Belt that is on top of it, if it matches a filtered item in the GUI.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.1",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "So Many Enchantments",
+          "longDescription": "Since your world is fairly magical, and we\u0027ve noticed you come across many Magical items, we decided to create a specialized Router for you. You can use this like an Item Router, but it will scan the magical Enchantments on an item, and allow you to sort that way.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.1",
+                "damage": 15
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Must Be This Tall!",
+          "longDescription": "This machine needs to be powered to work, but it can be configured to scan for specific creatures in front of it. It will then pull the creature and put it behind the machine.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.2",
+                "damage": 12
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "One Zombie, Two Zombie...",
+          "longDescription": "The Mob Counter scans a 5x5x5 cube in front of it, counting how many animals, monsters, and Assistants are there. It outputs a Redstone Signal with a strength based on how many it finds.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.2",
+                "damage": 8
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Three Types of Tin?!",
+          "longDescription": "Used to unify various types of material, for example different Silver Ores. Items need to be piped into the top, and it will convert it to the first suitable item in the Ore Dictionary. Can place the item in the GUI you\u0027d prefer it converted into.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.1",
+                "damage": 8
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Colorful and Useful",
+      "description": "Plastic, Metal, and Glass aren\u0027t the only things we tend to use in a factory. We use Ceramic as well, as it tends to hold color pigment very well and doesn\u0027t rub off. If we juts used straight dye, it could easily wear down and rub off, and then it\u0027d get into the stuff we\u0027re producing. That wouldn\u0027t be very good Quality Control, would it?",
+      "x": 261,
+      "y": 12,
+      "icon": {
+        "id": "MineFactoryReloaded:ceramicdye"
+      },
+      "prerequisites": [
+        "MineFactory Reloaded"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Ceramic Dye",
+          "longDescription": "Mix Clay and Dye to make Ceramic Dye. ",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:ceramicdye",
+                "nbt": "{RepairCost:2,display:{Name:\"Any Color Ceramic Dye\"}}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Colorful Glass",
+          "longDescription": "Can use Ceramic Dye to stain glass various colors, and make stained glass panes.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:stainedglass.block",
+                "nbt": "{RepairCost:2,display:{Name:\"Any Color Stained Glass\"}}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Quick Path",
+          "longDescription": "Roads are useful for designating a safe walking path in or around a factory. They also enable those who travel on them to move around as if they were on Ice, moving faster even when jumping.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:road"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Enlightened Path",
+          "longDescription": "These are modified Roads, adding a light to them that can be turned on with a Redstone Signal. You can also invert this function to keep them always lit.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:road",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Magically Pink and Slimy",
+      "description": "You know the Slaughterhouse, and the Pink Slime it creates as a byproduct of making Liquid Meat? Yeah, well..we started doing a little testing with it, and it seems that its a concentrated bit of magic from your world. Fancy that! We got a real shock in our testing factory when an assistant accidently poured a bucket of Pink Slime onto the floor, and out popped a bouncing cube...with a face. It, unfortunately, bounced right into the Grinder pen...",
+      "x": 183,
+      "y": 87,
+      "icon": {
+        "id": "MineFactoryReloaded:pinkslime"
+      },
+      "prerequisites": [
+        "Advanced Animal Farming"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Bucket of Slime",
+          "longDescription": "Slaughterhouses produce Pink Slime, which you can pipe out and fill Buckets with. By pouring it into the world, a Pink Slime will spawn.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:bucket.pinkslime"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Pink Slimeball",
+          "longDescription": "Killing a Pink Slime will sometimes net you a Pink Slimeball. If you have a way of growing a Slime and making it Bigger, you could probably get a lot more Pink Slimeballs from a single Slime.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:pinkslime"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Wiggly Cube and Solid Crystal",
+          "longDescription": "Combine a bunch of Pink Slimeballs and it forms into a Pink Slime Cube. It\u0027s not alive, thankfully, but you can then Smelt it into a Pink Slime Crystal. This should be useful for SOMETHING!",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:pinkslime.block"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:pinkslime",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Set and Smash",
+      "description": "Sometimes a factory needs to break down materials as part of the process of making something. These machines will allow you to automatically place and break materials.",
+      "x": 223,
+      "y": 88,
+      "icon": {
+        "id": "MineFactoryReloaded:machine.2",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Plastic Tools"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Place It Down",
+          "longDescription": "Every 20 seconds it will scan the spot right in front of it. If it\u0027s empty, it will place a block from its inventory.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.2",
+                "damage": 7
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Break It Down",
+          "longDescription": "Scans the area right in front of it, breaking any material it finds. It can break Obsidian, but not something like Bedrock.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.0",
+                "damage": 7
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Smash It Up",
+          "longDescription": "Breaks things like Ores into their Mined products, like Redstone Ore into Redstone. Can simulate Fortune enchantment, but this requires Essence to be pumped into the machine.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.2",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Lasers? Lasers!",
+      "description": "Okay, we\u0027ve been doing some experiments with that Pink Slime, specifically the Crystals you can make. We\u0027ve taken an old factory machine for drilling holes and....upgraded it. We might have combined this cool laser thing we had in storage with it as well. What we\u0027ve ended up with is a super powerful Laser Drill! This baby takes a lot of power and materials, but when it is made out of your crazy magical materials, it allows us to mine areas that, before, were beyond our reach. I am talking of the areas under the indestructable Bedrock. Below that is what we call Void, which can destroy anything, but we\u0027ve scanned beyond the Void and found riches...riches that the Drill can grab.",
+      "x": 183,
+      "y": 125,
+      "icon": {
+        "id": "MineFactoryReloaded:machine.2"
+      },
+      "prerequisites": [
+        "Magically Pink and Slimy"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Laser Precharger",
+          "longDescription": "To power the Drill itself, you\u0027ll need Laser Prechargers, up to 4 of them to be exact. They need to be placed North, South, East, and West of the main Drill, with 1 block of space in-between. Each of these requires power.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.2",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Laser Drill",
+          "longDescription": "This is the main machine. It needs to have empty air between it and Bedrock or the dark Void of a world. It also needs at least one Laser Precharger set up. When it is functioning, it will fire a concentrated beam of energy straight down. Note that we tried to calculate the immense energy of this beam...but we ran out of numbers. I think it can kill even Gods if they aren\u0027t careful...",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.2"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Laser Focus",
+          "longDescription": "Laser Foci increases the chance of certain Ores spawning. The color of the Focus \u0027usually\u0027 corresponds with the color of the Ore, but not always. You\u0027d figure Yellorium would be Yellow...but it isn\u0027t. Weird.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:laserfocus",
+                "nbt": "{RepairCost:2,display:{Name:\"Any Color Laser Focus\"}}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 40
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 40
+        }
+      ]
+    },
+    {
+      "name": "Decorative Elements",
+      "description": "Plastic is a wonderful material. Its cheap to make, sturdy, and easily repairable and replacable. This gives us a lot of options, not only for machines, but for design and decoration. I mean, who wants to work in a drab, lifeless factory? Theres lots of ways to make things look more interesting!",
+      "x": 301,
+      "y": 51,
+      "icon": {
+        "id": "MineFactoryReloaded:brick",
+        "damage": 10
+      },
+      "prerequisites": [
+        "MineFactory Reloaded"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Blocky Plastic",
+          "longDescription": "A Block of Plastic is quite simple and a little elegant. It\u0027s also a great way to store lots of Plastic.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:plastic"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Sedimentary",
+          "longDescription": "Bricks give a really rustic feel to things, I feel, and making varying sized bricks, or bricks out of Stone, look fantastic!",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:brick",
+                "damage": 14
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:brick",
+                "damage": 10
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Quite Cool Looking",
+          "longDescription": "Why stop at Stone and Clay? If you got factory workers who really like the cold (maybe you hired some penguins, dood!), you can make some Snow and Ice Bricks!",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:brick",
+                "damage": 11
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Dark and Light",
+          "longDescription": "For a little Yin and Yang to your factories, you can use Obsidian and Glowstone Bricks.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:brick",
+                "damage": 9
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:brick",
+                "damage": 7
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Quite Blue",
+          "longDescription": "Lapis is a pretty common gem, and it makes lovely bricks!",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:brick",
+                "damage": 8
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Stone of White",
+          "longDescription": "Plain Stone too...Gray? You can turn Stone and Gravel into a much lighter shade!",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:stone",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:stone",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:stone",
+                "damage": 9
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Stone of Black",
+          "longDescription": "If bright constructions aren\u0027t your thing, you can also make stone and gravel like the night!",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:stone",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:stone"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:stone",
+                "damage": 8
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Better Tools",
+      "description": "    There are plenty of tools that can be made to aid in the construction and running of an efficient factory,  combined with the natural magicalness of your materials that seems to lend them a bit of an increased function to some of them. This function is not always, how could we say it....              Logical? Yeah, let\u0027s go with logical...",
+      "x": 103,
+      "y": 49,
+      "icon": {
+        "id": "MineFactoryReloaded:fishingrod"
+      },
+      "prerequisites": [
+        "Creature Feature",
+        "Plastic Tools"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Sugary Burn",
+          "longDescription": "You can cook up Sugar into a form of Charcoal, if you are low on normal Coal or Charcoal.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:sugarcharcoal"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:brick",
+                "damage": 15
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Green Scaffolding",
+          "longDescription": "When placed, can Right Click more Vine Scaffolds onto it to automatically place them on top of the stack. The sides can be climbed like a ladder. When a Scaffold is broken, all Scaffolds above it automatically break too.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:vinescaffold"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Meeedic!",
+          "longDescription": "The Needlegun was originally a tool used by animal control to administer sedatives to a rampaging animal...we\u0027ve taken it, and modified a bit into a defensive weapon for you. There are a lot of different types of Ammo you can use with it. Right clicking it will allow you to load Ammo, and Right Clicking it again will fire it. When the Magazine is empty, Right Clicking will eject the spent Mag and reload the same Ammo type if you have more in your inventory, otherwise it will have you manually choose a new Ammo.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:needlegun"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:needlegun.ammo.empty"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Solid Needlegun Ammo",
+          "longDescription": "Needles and Shrapnel are standard ammo. Fire ignites both creatures and wood on fire. Anvil fires an anvil at target, and can be used like a normal Anvil afterward.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:needlegun.ammo.standard"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:needlegun.ammo.pierce"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:needlegun.ammo.anvil"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:needlegun.ammo.fire"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Liquid Needlegun Ammo",
+          "longDescription": "Lava drops a bit of Lava on the ground, but will not catch Wood on fire. Sludge drops a bit of Sludge, causing Weakness, Wither, and Nausea. Sewage drops Sewage, causing Hunger, Slowness, and Poison.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:needlegun.ammo.lava"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:needlegun.ammo.sewage"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:needlegun.ammo.sludge"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Fish Season!",
+          "longDescription": "    DetCord doesn\u0027t seem to work like it does back home. The only use we\u0027ve found so far is...in making this Fishing Rod.                                   Wait, be careful! Only use it in a safe area, away from important things like machines and other Assistants...it\u0027ll be kind of like Dynamite Fishing.                             Kind of...",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:detcord"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:fishingrod"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Portable Monster Mash",
+          "longDescription": "You know those dark cages you find in dungeons that seem to create a steady stream of Monsters? Well, if you ever want to move one, use this PortaSpawner. It\u0027ll only work once, though.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:portaspawner"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 50
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Lgndry Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 40
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "Upgraded Machines",
+      "description": "Further testing into the magical nature of your materials has resulted in the creation of what I call Upgrades. Many of these factory machines can take them, and each one will increase the range of the machine a certain amount! That means you can increase the range of your Farmers, or Breeders, etc! Keep in mind, though, that some machines cannot work properly if it detects another machine like it in its range.",
+      "x": 143,
+      "y": 87,
+      "icon": {
+        "id": "MineFactoryReloaded:upgrade.radius"
+      },
+      "prerequisites": [
+        "Farming the Field"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Small Upgrades",
+          "longDescription": "Cobble Upgrade actually decreases the range by 1.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:upgrade.radius"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:upgrade.radius",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:upgrade.radius",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:upgrade.radius",
+                "damage": 11
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Medium Upgrades",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:upgrade.radius",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:upgrade.radius",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:upgrade.radius",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:upgrade.radius",
+                "damage": 6
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Large Upgrades",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:upgrade.radius",
+                "damage": 7
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:upgrade.radius",
+                "damage": 8
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:upgrade.radius",
+                "damage": 9
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:upgrade.radius",
+                "damage": 10
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Factory Built",
+      "description": "    There are a lot of things you can automate the creation of in a factory. Some of these things you need to do other things, such as fix up worn down tools, or create fuel for engines.                              We\u0027ve also been experimenting more with your magical materials, and we\u0027ve definitely improved on some of these designs! We\u0027ve even found some uses for that magical Essence we discovered with the Grinder!",
+      "x": 301,
+      "y": 124,
+      "icon": {
+        "id": "MineFactoryReloaded:machine.1",
+        "damage": 11
+      },
+      "prerequisites": [
+        "Farming the Barnyard"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Time to Repair",
+          "longDescription": "Normally you\u0027d take a broken down tool to an Anvil, apply some metal to it, and you\u0027d get a mostly repaired tool back, but a little degraded, since you\u0027re really just patching it up. Not with the Auto Anvil. Supply it with some Essence, and it will automatically repair tools to pristine condition if you supply it with the proper repair material as well.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.2",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Time to Brew",
+          "longDescription": "Normally, the Auto Brewer would be used to ferment alcoholic beverages...but we\u0027ve upgraded the design a bit. Now you can use it to automatically brew magical Potions! Every row in the Auto Brewer represents a single ingredient step, starting from the top and working its way down. Usually you start with a Water Bottle, then go down the list.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.2",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Time to Melt",
+          "longDescription": "I\u0027m not sure what the original design of this machine was for, but one of our Assistants came up with something that might help you. Giving this Lava Fabricator power will allow it to slowly generate...you guessed it, Lava!",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.1",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Time to Fuel",
+          "longDescription": "Lots of plant matter can be broken down into biological components, which we call BioFuel. The more of a single item you break down at a time, the more efficient the process is.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.1",
+                "damage": 10
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Power Generation",
+      "description": "Up until now, you\u0027ve probably been powering your factory machines with any ol\u0027 generator. Whatever works is fine, but you might be interested there are a few MFR specific generators you can take advantage of!",
+      "x": 224,
+      "y": 125,
+      "icon": {
+        "id": "MineFactoryReloaded:machine.2",
+        "damage": 9
+      },
+      "prerequisites": [
+        "Factory Built",
+        "Farming the Field"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Steamy",
+          "longDescription": "Pipe Water and supply some solid Fuel (like Coal) to this machine, and it will generate super hot Steam for you.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.1",
+                "damage": 6
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Steam Powered",
+          "longDescription": "The Steam you generated can be Piped into this machine to generate power.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.2",
+                "damage": 9
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Bio Power",
+          "longDescription": "This machine consumes BioFuel Piped into it, converting it into power.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.1",
+                "damage": 11
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Auto Magika",
+      "description": "The magical nature of your world gives everyone here at The Business amazing, wonderful ideas. We all have so much to research and experiment with! I have a few enchanting things that should be of great use, and will definitely broaden the types of factories we can make!",
+      "x": 103,
+      "y": 85,
+      "icon": {
+        "id": "MineFactoryReloaded:machine.1",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Farming the Barnyard"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Auto Tuned",
+          "longDescription": "Records from your world are...fairly mysterious. They are old school vinyl style, but have lots of potential. This Auto Jukebox can automatically play any Record piped into it. A Redstone Pulse will turn it on or off. If you supply it with a Blank Record as well, it can make a copy.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.1",
+                "damage": 7
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:record.blank"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Auto Booked",
+          "longDescription": "This machine will extract a random Enchantment from any enchanted item you insert into it, placing it into a Book. It requires a Book and a bit of power to do this. Careful, as this can damage the original item.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.1",
+                "damage": 12
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Automatically Enchanting",
+          "longDescription": "If you need more items to Disenchant, you can use the Auto Enchanter. Supply it with some Essence and things to Enchant, it will automatically Enchant them up to level 30.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.0",
+                "damage": 14
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Automated Rails",
+      "description": "Some of our factories are large enough that  just piping things everywhere isn\u0027t as efficient or, frankly, fun! They employ various different methods of transporting finished goods around, and one of them is Minecarts. They use specialized tracks that enable them to move inventory and even creatures in and out of Minecarts!",
+      "x": 302,
+      "y": 189,
+      "icon": {
+        "id": "MineFactoryReloaded:rail.passenger.pickup"
+      },
+      "prerequisites": [
+        "MineFactory Reloaded"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Cargo Rails",
+          "longDescription": "Cargo Pickup Rails will move cargo from an inventory next to the track into the minecart if it has an inventory. Cargo Dropoff Rails will move items from the minecart inventory into an adjacent chest.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:rail.cargo.pickup"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:rail.cargo.dropoff"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Passenger Rails",
+          "longDescription": "Places nearby creatures into a minecart when it passes over the rail, or  removes them from the minecart.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:rail.passenger.pickup"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:rail.passenger.dropoff"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "A Loaded Factory",
+      "description": "Factories tend to deal with thousands, if not millions, of a single material if it is efficient and large enough. Storing things efficiently is always difficult, but we\u0027ve found a solution for you. By utilizing the extra-dimensional properties of Endermen Eyes, we can do wonders with four dimensional space in a three dimensional world! How? By folding time upon itself in various ways, we can create larger pockets of space...but with some limitations, I have to say. We\u0027re still working on it...",
+      "x": 102,
+      "y": 12,
+      "icon": {
+        "id": "MineFactoryReloaded:machine.1",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Farming the Barnyard"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Dimensionally Deep Storage",
+          "longDescription": "This machine can store only a single type of item at a time...but it can store up to 2 BILLION of that item! When you dismantle or break the machine, all its contents stay with it as well!",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.1",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Chunk Loader",
+          "longDescription": "Your world\u0027s land and machines don\u0027t seem to keedp functioning if no one is nearby, they sort of...freeze in time. This Chunk Loader solves that. It can \u0027load\u0027 an area at the cost of either Liquid Fuel or RF Power, and that cost can be reduced by pumping in Liquid Ender or Essence into the machine.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.2",
+                "damage": 10
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Cabled",
+      "description": "Redstone Dust is a fairly old way of transmitting an electrical signal. It has limitations, as it can only be placed on the floor, and a signal can only go 15 blocks before it is too weak and needs to be refreshed. This is normally known as the Redstone Signal Strength. With RedNet cable, the Signal Strength that goes into the cable is kept, and can go as many blocks as you need. This also gives us the basis for transfering not only Redstone Signals, but RF Energy as well!",
+      "x": 142,
+      "y": 12,
+      "icon": {
+        "id": "MineFactoryReloaded:cable.redstone"
+      },
+      "prerequisites": [
+        "MineFactory Reloaded"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "RedNet Cable",
+          "longDescription": "Along with transmitting Redstone Signal any distance, it also can transmit strength up to 120, if any machine outputs a signal that high. Each cable has 16 Color Channels it can be on, which can be cycled by holding a Precision Sledgehammer or any machine wrench and Right Clicking on the colored ring.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:cable.redstone"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "RedNet Energy Cable",
+          "longDescription": "Like the Factory Blocks, your magical materials seem to improve RedNet Energy Cables. They convert some alternate power types into RF : EU and MJ specificially, and can output to EU as well, but not MJ (since it is the old predecessor to RF). It can also transmit RF at 1000 per tick.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:cable.redstone",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "Programming Your Factory",
+      "description": "Automated conveyor belts and machines can only get you so far when you want to make a fully automated, efficient factory. To that end, you\u0027re going to need to bring a bit of computer logic into the mix. This is the Programmable RedNet Controller. It allows you to create complex Redstone Circuits that can rely on Variables and Constants to function. This is a lot of power, and somewhat more complex than I can describe just through the tablet...",
+      "x": 62,
+      "y": 13,
+      "icon": {
+        "id": "MineFactoryReloaded:rednet.logic"
+      },
+      "prerequisites": [
+        "Cabled"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Programmable Rednet Controller",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machineblock",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:rednet.logic"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Instruction Manual",
+          "longDescription": "Such a complex machine requires more in-depth instruction than I can provide. You can easily make the instruction manual yourself.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:written_book",
+                "nbt": "{pages:[0:\"     Programmable\n        RedNet\n      Controller\n\nOwner\u0027s Manual v1.0\n\n\nWARNING: YOU MAY NEED TO ADJUST YOUR GUI SCALE SMALLER TO APPROPRIATELY USE THIS PRODUCT\",1:\"Congratulations on your purchase, assembly, or theft of your new Programmable RedNet Controller (PRC). This manual will attempt to guide you through its features and operations.\",2:\"Features\n\n* 16 I/O points on\n  each side\n* 16 internal\n  variables\n* 6 user-defined\n  circuits\n* Expandable with\n  LX-100, 300, 500\n  expansion modules\n  (sold separately)\",3:\"Circuits\n\nThe PRC is composed of one or more circuits. Each circuit is executed sequentially on every PRC clock cycle. Circuits are composed of inputs and outputs.\",4:\"Circuits\n\nInputs can come from I/O, variables, or constant values. Outputs can be routed to I/O, variables, or null (disconnected). These options are discussed separately.\",5:\"Circuits\n\nAll circuits default to No-Op when the PRC is initialized.\",6:\"Constants\n\nThe PRC can use constant values for its inputs. It contains 16 constants, with values 0-15 in them.\",7:\"I/O\n\nEach face of the PRC can be connected to up to 16 I/O points. The front face cannot be connected, but the PRC can be rotated by using your standard sledgehammer.\",8:\"I/O\n\nEach I/O point is indicated by a color, ranging from white to black as per the standard elements. I/O inputs will update on the next PRC clock cycle.\",9:\"Variables\n\nThe PRC contains variables that can be used by its circuits. Variables propagate between circuits on the same clock cycle; unlike the I/O delay.\",10:\"Null\n\nRoute outputs to Null if you do not want to use the value.\",11:\"GUI\n\nThe PRC GUI has four sections - from left to right they are input pins, circuit type, output pins, and circuit selection.\",12:\"GUI: Circuit Type\n\nSelect a circuit type from the list to change the selected circuit in the PRC to that circuit type. Use the Next and Prev buttons to change which circuit is being edited.\",13:\"GUI: Pin Mapping\n\nPRC pins are connected in two parts, buffer and pin number. Buffer selects I/O and face, variables, constants, or null, as applicable. Pin chooses which I/O color, or which variable/constant.\",14:\"GUI: Pin Mapping\n\nLeft click advances by one, and right click reverses by one. Middle click advances by 16 when using variables or constants (one for I/O).\",15:\"RedNet Meter\n\nMuch like it can be used to read out values of RedNet cables, the RedNet Meter can be used to read out the state of the PRC\u0027s variables.\",16:\"Memory Cards\n\nIf you need to back up your PRC or copy it to another PRC, use a memory card. Using a blank card on a PRC will copy its program, and using a programmed card will write its program.\",17:\"Examples\n\nThe next sections cover some basic PRC scenarios. Face your PRC West with your sledgehammer before beginning. These examples assume access to some supplies (next page).\",18:\"Examples\n\nYou will need:\n* A few dozen cables\n* Several levers\n* Several buttons\n* Several lamps\n* A daylight sensor\n* A piston\n* A note block\n* A sledgehammer\",19:\"Example 1: AND gate\n\nConnect RedNet cabling to the North face of your PRC, and place two levers and a lamp on the cable. Set the levers to Orange and Magenta with your sledgehammer.\",20:\"Ex 1: AND gate\n\nOpen your PRC. Set circuit one to And (2 Input). Set the input I/Os to I/O N, Orange and Magenta, and the output to I/O N, White.\",21:\"Ex 1: AND gate\n\nManipulate the levers. Watch the lamp. It will light when both levers are on and deactivate when they are turned off.\",22:\"Ex 2: Timer\n\nConnect RedNet cabling to the South face of your PRC, and attach a lamp to it. Open your PRC and set circuit 2 to Wave (Square). Set the input to CNST 40. Set the output to I/O S, White.\",23:\"Ex 2: Timer\n\nThe lamp will blink about once per second. You can use the square wave generator for any device that requires an alternating redstone signal.\",24:\"Ex 2: Timer\n\nThe PRC runs at a clock rate of 20 cycles per second. Adjust the period (Pd) of the timer to make it faster or slower. Values too fast (\u003c5 t) may not work correctly with all devices.\",25:\"Ex 3: Door Toggle\n\nConnect cabling to the East face of your PRC. Attach a button to White and a piston to Orange. If you have extra parts, you may want to build a real door.\",26:\"Ex 3: Door Toggle\n\nOpen your PRC and set circuit 3 to a T-FlipFlop. Connect I/O E, White to both inputs, and I/O E Orange to Q. Press the button.\",27:\"Ex 3: Door Toggle\n\nNote the piston extends and retracts on each button press. The T-FlipFlop samples the input value on a rising edge of CLK - if you don\u0027t care, connect both to the same input as here.\",28:\"Ex 4: Daylight Sensor/Variables\n\nConnect RedNet cabling to the top of your PRC. Attach a daylight sensor to White, and a note block to Orange. Set a pleasing tone on the note block.\",29:\"Ex 4: Daylight Sensor/Variables\n\nOpen the PRC. Set circuit 4 to Equals, with I/O U White and CNST 3 as inputs, and the output to VARS 0. Set circuit 5 to a One-Shot Pulse, with input VARS 0 and output I/O U Orange.\",30:\"Ex 4: Daylight Sensor/Variables\n\nWhen the sun rises and sets, the daylight sensor\u0027s output level will reach 3. As it arrives at that value, the note block will be pulsed. Use it as an alarm clock!\",31:\"Ex 5: Daylight Clock\n\nConstruct an \"8\" out of redstone lamps. It should look like this:\n XX \nX  X\nX  X\n XX \nX  X\nX  X\n XX \nEnsure no blocks connect the lamps.\",32:\"Ex 5: Daylight Clock\n\nStarting with the top section and proceeding clockwise, connect them as follows:  cyan, purple, blue, brown, green, red, black. Red should be the top-left pair and black the center pair.\",33:\"Ex 5: Daylight Clock\n\nConnect those wires to the top face of the PRC (along with the daylight sensor). Open the PRC, and set circuit 6 to Seven-Segment Encoder.\",34:\"Ex 5: Daylight Clock\n\nConnect I to I/O U White, and A through G to cyan through black in order. If you have wired everything correctly, the clock will display the current daylight value.\",35:\"Ex 5: Daylight Clock\n\nNote that as the daylight sensor has outputs 0-15, these are reprsented as hex characters as 0-9 and A-F.\",36:\"Additional Suggestions\n\n* Try the various wave generators connected to redstone dust\n* Try using the counter - PRE is the rollover target.\n* Try using weighted pressure plates combined with greater/less than.\",37:\"Summary\n\nNote that the examples all function independently, as the PRC has multiple circuits and can process many tasks at once. Amazing things can be accomplished using the PRC.\",38:\"We hope you enjoy your new Programmable RedNet Controller!\"],author:\"powercrystals\",title:\"PRC Owner\u0027s Manual\"}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "PRC Memory Card",
+          "longDescription": "Complex circuits can be saved and copied to other Controllers with this.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:rednet.memorycard"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "RedNet Tools",
+      "description": "RedNet Cables and the Programmable Rednet Controller vastly improve the types of circuits you can make...and also vastly increases the steps you can mess up! To that, I have a bunch of tools you may be interested in when dealing with RedNet Cables, as well as a bonus machine that can only be fully utilized by a Programmable RedNet Controller!",
+      "x": 63,
+      "y": 85,
+      "icon": {
+        "id": "MineFactoryReloaded:rednet.meter"
+      },
+      "prerequisites": [
+        "Programming Your Factory"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A Metered Response",
+          "longDescription": "The RedNet Meter displays information when used on RedNet Cables, like Signal Strength. The RedNet Multimeter, though, is used on RedNet Energy Cables, and can also display things like power.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:rednet.meter"
+              }
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:rednet.meter",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Oscilliscope-like?",
+          "longDescription": "Can be connected to RedNet Cables to display the strength of a Redstone Signal that passes through it as a function of time.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:rednet.panel"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Programming Music",
+          "longDescription": "Noteblocks made of your magic materials are very odd. They only make sounds depending on the material they are on...but we can control this function with a RedNote Block! What note it plays can be controlled by what Strength a Redstone Signal is that hits it. It is also the only machine I know of that can detect Signal Strength above 15, which can only be obtained via a Programmable RedNet Controller and RedNet Cables.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.2",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Controller Upgrades",
+      "description": "A new RedNet Controller has limited circuits and variables it can hold. You can increase these by installing Logic Expansion Cards! There are three levels of Expansions, and each one can be stacked 3 times in a Controller.",
+      "x": 62,
+      "y": 48,
+      "icon": {
+        "id": "MineFactoryReloaded:upgrade.logic"
+      },
+      "prerequisites": [
+        "Programming Your Factory"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "PRC LX-100",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:upgrade.logic"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "PRC LX-300",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:upgrade.logic",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "PRC LX-500",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:upgrade.logic",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "name": "Rockets!",
+      "description": "Here\u0027s a little special thing for you we came up with. We know how dangerous your world is, so we wanted to help you defend yourself. The scanner says some of the things you face are quite big and dangerous, and we have an answer to them : The SPAMR Rocket Launcher! This is a very destructive weapon, so be careful! If you aim it at a target for a short time, it\u0027ll lock on, and certain rocket types will track the locked-on target when you fire them.",
+      "x": 20,
+      "y": 49,
+      "icon": {
+        "id": "MineFactoryReloaded:rocketlauncher"
+      },
+      "prerequisites": [
+        "Controller Upgrades",
+        "Better Tools"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Rawk It!",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:rocketlauncher"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Dumbfire",
+          "longDescription": "Self-Propelled Rockets fire only in a straight line.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:rocket",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Tracking their DOOM!",
+          "longDescription": "Uses the Lock On feature of the SPAMR to home in on a target.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:rocket"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 40
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 40
+        }
+      ]
+    },
+    {
+      "name": "A Little Fun",
+      "description": "    Hey, did you ever make a Potato Cannon when you were a kid? You know, some PVC pipe, an end cap, an igniter, a bit of hairspray, and a properly sized spud?                       What, really?! Well, you can make one now as well! The bonus is you don\u0027t really need hairspray, with your magical materials. Or a lighter. And the potatos might hurt a little more than before...",
+      "x": 265,
+      "y": 124,
+      "icon": {
+        "id": "MineFactoryReloaded:potatolauncher"
+      },
+      "prerequisites": [
+        "Liquid Factor"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Do You Feel Spudsy?",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:potatolauncher"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 10
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

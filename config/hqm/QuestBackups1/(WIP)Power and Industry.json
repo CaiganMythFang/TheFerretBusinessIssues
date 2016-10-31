@@ -1,0 +1,88 @@
+{
+  "name": "(WIP)Power and Industry",
+  "description": "    [WORK IN PROGRESS]                   This questline is not finished yet.  It will be added in a future update.",
+  "quests": [
+    {
+      "name": "Unnamed",
+      "x": 35,
+      "y": 107,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 28
+      },
+      "prerequisites": [
+        "{Initial Research}[To Boldly Go]"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 53
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Unnamed",
+      "x": 65,
+      "y": 108,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 17
+      },
+      "prerequisites": [
+        "{Initial Research}[To Boldly Go]"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 53
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Unnamed",
+      "x": 103,
+      "y": 107,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 23
+      },
+      "prerequisites": [
+        "{Initial Research}[To Boldly Go]"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 53
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

@@ -1,0 +1,371 @@
+// Order Forms
+recipes.addShaped(<ferretshinies:LayeredIconAsset:401> * 64, [[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<minecraft:paper>, <ferretshinies:NullToken>.giveBack(<ferretshinies:NullToken>), <minecraft:paper>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
+<ferretshinies:LayeredIconAsset:401>.addTooltip(format.lightPurple("A Blank Ferret Business Order Form"));
+<ferretshinies:LayeredIconAsset:401>.addTooltip(format.green("Combine with a valid item in the TFB Corporate"));
+<ferretshinies:LayeredIconAsset:401>.addTooltip(format.green("Catalog to create an Order Form for it."));
+<ferretshinies:LayeredIconAsset:401>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:402>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreIron>.giveBack(<minecraft:iron_ore>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:402> * 64, [<ferretshinies:LayeredIconAsset:402>]);
+<ferretshinies:LayeredIconAsset:402>.addTooltip(format.lightPurple("A Ferret Business Iron Ore Order Form"));
+<ferretshinies:LayeredIconAsset:402>.addTooltip(format.green("Combine with 1 Shop Voucher in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:402>.addTooltip(format.green("to automatically purchase 1 Iron Ore Shipment"));
+<ferretshinies:LayeredIconAsset:402>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:403>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreCopper>.giveBack(<ThermalFoundation:Ore>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:403> * 64, [<ferretshinies:LayeredIconAsset:403>]);
+<ferretshinies:LayeredIconAsset:403>.addTooltip(format.lightPurple("A Ferret Business Copper Ore Order Form"));
+<ferretshinies:LayeredIconAsset:403>.addTooltip(format.green("Combine with 1 Shop Voucher in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:403>.addTooltip(format.green("to automatically purchase 1 Copper Ore Shipment"));
+<ferretshinies:LayeredIconAsset:403>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:404>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreTin>.giveBack(<ThermalFoundation:Ore:1>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:404> * 64, [<ferretshinies:LayeredIconAsset:404>]);
+<ferretshinies:LayeredIconAsset:404>.addTooltip(format.lightPurple("A Ferret Business Tin Ore Order Form"));
+<ferretshinies:LayeredIconAsset:404>.addTooltip(format.green("Combine with 1 Shop Voucher in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:404>.addTooltip(format.green("to automatically purchase 1 Tin Ore Shipment"));
+<ferretshinies:LayeredIconAsset:404>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:405>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreAluminum>.giveBack(<TConstruct:SearedBrick:5>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:405> * 64, [<ferretshinies:LayeredIconAsset:405>]);
+<ferretshinies:LayeredIconAsset:405>.addTooltip(format.lightPurple("A Ferret Business Aluminum Ore Order Form"));
+<ferretshinies:LayeredIconAsset:405>.addTooltip(format.green("Combine with 6 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:405>.addTooltip(format.green("to automatically purchase 1 Aluminum Ore Shipment"));
+<ferretshinies:LayeredIconAsset:405>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:406>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreGold>.giveBack(<minecraft:gold_ore>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:406> * 64, [<ferretshinies:LayeredIconAsset:406>]);
+<ferretshinies:LayeredIconAsset:406>.addTooltip(format.lightPurple("A Ferret Business Gold Ore Order Form"));
+<ferretshinies:LayeredIconAsset:406>.addTooltip(format.green("Combine with 4 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:406>.addTooltip(format.green("to automatically purchase 1 Gold Ore Shipment"));
+<ferretshinies:LayeredIconAsset:406>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:407>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreDiamond>.giveBack(<minecraft:diamond_ore>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:407> * 64, [<ferretshinies:LayeredIconAsset:407>]);
+<ferretshinies:LayeredIconAsset:407>.addTooltip(format.lightPurple("A Ferret Business Diamond Ore Order Form"));
+<ferretshinies:LayeredIconAsset:407>.addTooltip(format.green("Combine with 10 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:407>.addTooltip(format.green("to automatically purchase 1 Diamond Ore Shipment"));
+<ferretshinies:LayeredIconAsset:407>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:408>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreCoal>.giveBack(<minecraft:coal_ore>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:408> * 64, [<ferretshinies:LayeredIconAsset:408>]);
+<ferretshinies:LayeredIconAsset:408>.addTooltip(format.lightPurple("A Ferret Business Coal Ore Order Form"));
+<ferretshinies:LayeredIconAsset:408>.addTooltip(format.green("Combine with 1 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:408>.addTooltip(format.green("to automatically purchase 1 Coal Ore Shipment"));
+<ferretshinies:LayeredIconAsset:408>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:409>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreSilver>.giveBack(<ThermalFoundation:Ore:2>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:409> * 64, [<ferretshinies:LayeredIconAsset:409>]);
+<ferretshinies:LayeredIconAsset:409>.addTooltip(format.lightPurple("A Ferret Business Silver Ore Order Form"));
+<ferretshinies:LayeredIconAsset:409>.addTooltip(format.green("Combine with 6 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:409>.addTooltip(format.green("to automatically purchase 1 Silver Ore Shipment"));
+<ferretshinies:LayeredIconAsset:409>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:410>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreLead>.giveBack(<ThermalFoundation:Ore:3>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:410> * 64, [<ferretshinies:LayeredIconAsset:410>]);
+<ferretshinies:LayeredIconAsset:410>.addTooltip(format.lightPurple("A Ferret Business Lead Ore Order Form"));
+<ferretshinies:LayeredIconAsset:410>.addTooltip(format.green("Combine with 4 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:410>.addTooltip(format.green("to automatically purchase 1 Lead Ore Shipment"));
+<ferretshinies:LayeredIconAsset:410>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:411>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreRedstone>.giveBack(<minecraft:redstone_ore>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:411> * 64, [<ferretshinies:LayeredIconAsset:411>]);
+<ferretshinies:LayeredIconAsset:411>.addTooltip(format.lightPurple("A Ferret Business Redstone Ore Order Form"));
+<ferretshinies:LayeredIconAsset:411>.addTooltip(format.green("Combine with 1 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:411>.addTooltip(format.green("to automatically purchase 1 Redstone Ore Shipment"));
+<ferretshinies:LayeredIconAsset:411>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:412>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreTritanium>.giveBack(<mo:tritanium_ore>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:412> * 64, [<ferretshinies:LayeredIconAsset:412>]);
+<ferretshinies:LayeredIconAsset:412>.addTooltip(format.lightPurple("A Ferret Business Tritanium Ore Order Form"));
+<ferretshinies:LayeredIconAsset:412>.addTooltip(format.green("Combine with 4 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:412>.addTooltip(format.green("to automatically purchase 1 Tritanium Ore Shipment"));
+<ferretshinies:LayeredIconAsset:412>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:413>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreDilithium>.giveBack(<mo:dilithium_ore>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:413> * 64, [<ferretshinies:LayeredIconAsset:413>]);
+<ferretshinies:LayeredIconAsset:413>.addTooltip(format.lightPurple("A Ferret Business Dilithium Ore Order Form"));
+<ferretshinies:LayeredIconAsset:413>.addTooltip(format.green("Combine with 4 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:413>.addTooltip(format.green("to automatically purchase 1 Dilithium Ore Shipment"));
+<ferretshinies:LayeredIconAsset:413>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:414>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreYellorite>.giveBack(<BigReactors:YelloriteOre>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:414> * 64, [<ferretshinies:LayeredIconAsset:414>]);
+<ferretshinies:LayeredIconAsset:414>.addTooltip(format.lightPurple("A Ferret Business Yellorite Ore Order Form"));
+<ferretshinies:LayeredIconAsset:414>.addTooltip(format.green("Combine with 4 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:414>.addTooltip(format.green("to automatically purchase 1 Yellorite Ore Shipment"));
+<ferretshinies:LayeredIconAsset:414>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:415>, [<ferretshinies:LayeredIconAsset:401>, <ore:orePlatinum>.giveBack(<ThermalFoundation:Ore:5>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:415> * 64, [<ferretshinies:LayeredIconAsset:415>]);
+<ferretshinies:LayeredIconAsset:415>.addTooltip(format.lightPurple("A Ferret Business Shiny Ore Order Form"));
+<ferretshinies:LayeredIconAsset:415>.addTooltip(format.green("Combine with 10 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:415>.addTooltip(format.green("to automatically purchase 1 Shiny Ore Shipment"));
+<ferretshinies:LayeredIconAsset:415>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:416>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreNickel>.giveBack(<ThermalFoundation:Ore:4>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:416> * 64, [<ferretshinies:LayeredIconAsset:416>]);
+<ferretshinies:LayeredIconAsset:416>.addTooltip(format.lightPurple("A Ferret Business Ferrous Ore Order Form"));
+<ferretshinies:LayeredIconAsset:416>.addTooltip(format.green("Combine with 10 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:416>.addTooltip(format.green("to automatically purchase 1 Ferrous Ore Shipment"));
+<ferretshinies:LayeredIconAsset:416>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:417>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreRuby>.giveBack(<ProjRed|Exploration:projectred.exploration.ore>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:417> * 64, [<ferretshinies:LayeredIconAsset:417>]);
+<ferretshinies:LayeredIconAsset:417>.addTooltip(format.lightPurple("A Ferret Business Ruby Ore Order Form"));
+<ferretshinies:LayeredIconAsset:417>.addTooltip(format.green("Combine with 10 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:417>.addTooltip(format.green("to automatically purchase 1 Ruby Ore Shipment"));
+<ferretshinies:LayeredIconAsset:417>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:418>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreSapphire>.giveBack(<ProjRed|Exploration:projectred.exploration.ore:1>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:418> * 64, [<ferretshinies:LayeredIconAsset:418>]);
+<ferretshinies:LayeredIconAsset:418>.addTooltip(format.lightPurple("A Ferret Business Sapphire Ore Order Form"));
+<ferretshinies:LayeredIconAsset:418>.addTooltip(format.green("Combine with 10 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:418>.addTooltip(format.green("to automatically purchase 1 Sapphire Ore Shipment"));
+<ferretshinies:LayeredIconAsset:418>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:419>, [<ferretshinies:LayeredIconAsset:401>, <ore:orePeridot>.giveBack(<ProjRed|Exploration:projectred.exploration.ore:2>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:419> * 64, [<ferretshinies:LayeredIconAsset:419>]);
+<ferretshinies:LayeredIconAsset:419>.addTooltip(format.lightPurple("A Ferret Business Peridot Ore Order Form"));
+<ferretshinies:LayeredIconAsset:419>.addTooltip(format.green("Combine with 10 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:419>.addTooltip(format.green("to automatically purchase 1 Peridot Ore Shipment"));
+<ferretshinies:LayeredIconAsset:419>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:420>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreLapis>.giveBack(<minecraft:lapis_ore>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:420> * 64, [<ferretshinies:LayeredIconAsset:420>]);
+<ferretshinies:LayeredIconAsset:420>.addTooltip(format.lightPurple("A Ferret Business Lapis Ore Order Form"));
+<ferretshinies:LayeredIconAsset:420>.addTooltip(format.green("Combine with 6 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:420>.addTooltip(format.green("to automatically purchase 1 Lapis Ore Shipment"));
+<ferretshinies:LayeredIconAsset:420>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:421>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreEmerald>.giveBack(<minecraft:emerald_ore>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:421> * 64, [<ferretshinies:LayeredIconAsset:421>]);
+<ferretshinies:LayeredIconAsset:421>.addTooltip(format.lightPurple("A Ferret Business Emerald Ore Order Form"));
+<ferretshinies:LayeredIconAsset:421>.addTooltip(format.green("Combine with 2 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:421>.addTooltip(format.green("to automatically purchase 1 Emerald Ore Shipment"));
+<ferretshinies:LayeredIconAsset:421>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:422>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreQuartz>.giveBack(<minecraft:quartz_ore>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:422> * 64, [<ferretshinies:LayeredIconAsset:422>]);
+<ferretshinies:LayeredIconAsset:422>.addTooltip(format.lightPurple("A Ferret Business Nether Quartz Ore Order Form"));
+<ferretshinies:LayeredIconAsset:422>.addTooltip(format.green("Combine with 1 Shop Voucher in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:422>.addTooltip(format.green("to automatically purchase 1 Nether Quartz Ore Shipment"));
+<ferretshinies:LayeredIconAsset:422>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:423>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreInfusedEarth>.giveBack(<Thaumcraft:blockCustomOre:4>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:423> * 64, [<ferretshinies:LayeredIconAsset:423>]);
+<ferretshinies:LayeredIconAsset:423>.addTooltip(format.lightPurple("A Ferret Business Earth Shard Ore Order Form"));
+<ferretshinies:LayeredIconAsset:423>.addTooltip(format.green("Combine with 8 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:423>.addTooltip(format.green("to automatically purchase 1 Earth Shard Ore Shipment"));
+<ferretshinies:LayeredIconAsset:423>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:424>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreInfusedAir>.giveBack(<Thaumcraft:blockCustomOre:1>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:424> * 64, [<ferretshinies:LayeredIconAsset:424>]);
+<ferretshinies:LayeredIconAsset:424>.addTooltip(format.lightPurple("A Ferret Business Air Shard Ore Order Form"));
+<ferretshinies:LayeredIconAsset:424>.addTooltip(format.green("Combine with 8 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:424>.addTooltip(format.green("to automatically purchase 1 Air Shard Ore Shipment"));
+<ferretshinies:LayeredIconAsset:424>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:425>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreInfusedWater>.giveBack(<Thaumcraft:blockCustomOre:3>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:425> * 64, [<ferretshinies:LayeredIconAsset:425>]);
+<ferretshinies:LayeredIconAsset:425>.addTooltip(format.lightPurple("A Ferret Business Water Shard Ore Order Form"));
+<ferretshinies:LayeredIconAsset:425>.addTooltip(format.green("Combine with 8 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:425>.addTooltip(format.green("to automatically purchase 1 Water Shard Ore Shipment"));
+<ferretshinies:LayeredIconAsset:425>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:426>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreInfusedFire>.giveBack(<Thaumcraft:blockCustomOre:2>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:426> * 64, [<ferretshinies:LayeredIconAsset:426>]);
+<ferretshinies:LayeredIconAsset:426>.addTooltip(format.lightPurple("A Ferret Business Fire Shard Ore Order Form"));
+<ferretshinies:LayeredIconAsset:426>.addTooltip(format.green("Combine with 8 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:426>.addTooltip(format.green("to automatically purchase 1 Fire Shard Ore Shipment"));
+<ferretshinies:LayeredIconAsset:426>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:427>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreInfusedOrder>.giveBack(<Thaumcraft:blockCustomOre:5>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:427> * 64, [<ferretshinies:LayeredIconAsset:427>]);
+<ferretshinies:LayeredIconAsset:427>.addTooltip(format.lightPurple("A Ferret Business Order Shard Ore Order Form"));
+<ferretshinies:LayeredIconAsset:427>.addTooltip(format.green("Combine with 8 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:427>.addTooltip(format.green("to automatically purchase 1 Order Shard Ore Shipment"));
+<ferretshinies:LayeredIconAsset:427>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:428>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreInfusedEntropy>.giveBack(<Thaumcraft:blockCustomOre:6>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:428> * 64, [<ferretshinies:LayeredIconAsset:428>]);
+<ferretshinies:LayeredIconAsset:428>.addTooltip(format.lightPurple("A Ferret Business Entropy Shard Ore Order Form"));
+<ferretshinies:LayeredIconAsset:428>.addTooltip(format.green("Combine with 8 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:428>.addTooltip(format.green("to automatically purchase 1 Entropy Shard Ore Shipment"));
+<ferretshinies:LayeredIconAsset:428>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:429>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreInfusedCinnabar>.giveBack(<Thaumcraft:blockCustomOre>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:429> * 64, [<ferretshinies:LayeredIconAsset:429>]);
+<ferretshinies:LayeredIconAsset:429>.addTooltip(format.lightPurple("A Ferret Business Cinnabar Ore Order Form"));
+<ferretshinies:LayeredIconAsset:429>.addTooltip(format.green("Combine with 2 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:429>.addTooltip(format.green("to automatically purchase 1 Cinnabar Ore Shipment"));
+<ferretshinies:LayeredIconAsset:429>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:430>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreInfusedAmber>.giveBack(<Thaumcraft:blockCustomOre:7>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:430> * 64, [<ferretshinies:LayeredIconAsset:430>]);
+<ferretshinies:LayeredIconAsset:430>.addTooltip(format.lightPurple("A Ferret Business Amber Ore Order Form"));
+<ferretshinies:LayeredIconAsset:430>.addTooltip(format.green("Combine with 2 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:430>.addTooltip(format.green("to automatically purchase 1 Amber Ore Shipment"));
+<ferretshinies:LayeredIconAsset:430>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:431>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreCobalt>.giveBack(<TConstruct:SearedBrick:1>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:431> * 64, [<ferretshinies:LayeredIconAsset:431>]);
+<ferretshinies:LayeredIconAsset:431>.addTooltip(format.lightPurple("A Ferret Business Cobalt Ore Order Form"));
+<ferretshinies:LayeredIconAsset:431>.addTooltip(format.green("Combine with 10 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:431>.addTooltip(format.green("to automatically purchase 1 Cobalt Ore Shipment"));
+<ferretshinies:LayeredIconAsset:431>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:432>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreArdite>.giveBack(<TConstruct:SearedBrick:2>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:432> * 64, [<ferretshinies:LayeredIconAsset:432>]);
+<ferretshinies:LayeredIconAsset:432>.addTooltip(format.lightPurple("A Ferret Business Ardite Ore Order Form"));
+<ferretshinies:LayeredIconAsset:432>.addTooltip(format.green("Combine with 10 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:432>.addTooltip(format.green("to automatically purchase 1 Ardite Ore Shipment"));
+<ferretshinies:LayeredIconAsset:432>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:433>, [<ferretshinies:LayeredIconAsset:401>, <appliedenergistics2:tile.OreQuartz>.giveBack(<appliedenergistics2:tile.OreQuartz>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:433>, [<ferretshinies:LayeredIconAsset:401>, <appliedenergistics2:tile.OreQuartzCharged>.giveBack(<appliedenergistics2:tile.OreQuartzCharged>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:433> * 64, [<ferretshinies:LayeredIconAsset:433>]);
+<ferretshinies:LayeredIconAsset:433>.addTooltip(format.lightPurple("A Ferret Business Certus Quartz Ore Order Form"));
+<ferretshinies:LayeredIconAsset:433>.addTooltip(format.green("Combine with 4 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:433>.addTooltip(format.green("to automatically purchase 1 Certus Quartz Ore Shipment"));
+<ferretshinies:LayeredIconAsset:433>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:434>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreApatite>.giveBack(<Forestry:resources>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:434> * 64, [<ferretshinies:LayeredIconAsset:434>]);
+<ferretshinies:LayeredIconAsset:434>.addTooltip(format.lightPurple("A Ferret Business Apatite Ore Order Form"));
+<ferretshinies:LayeredIconAsset:434>.addTooltip(format.green("Combine with 1 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:434>.addTooltip(format.green("to automatically purchase 1 Apatite Ore Shipment"));
+<ferretshinies:LayeredIconAsset:434>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:435>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreOsmium>.giveBack(<Mekanism:OreBlock>)]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:435> * 64, [<ferretshinies:LayeredIconAsset:435>]);
+<ferretshinies:LayeredIconAsset:435>.addTooltip(format.lightPurple("A Ferret Business Osmium Ore Order Form"));
+<ferretshinies:LayeredIconAsset:435>.addTooltip(format.green("Combine with 2 Shop Vouchers in an EnderIO Alloy Smelter"));
+<ferretshinies:LayeredIconAsset:435>.addTooltip(format.green("to automatically purchase 1 Osmium Ore Shipment"));
+<ferretshinies:LayeredIconAsset:435>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
+
+// Sealed Crates
+
+<ferretshinies:LayeredIconAsset:436>.addTooltip(format.lightPurple("A Ferret Business Sealed Iron Ore Shipment"));
+<ferretshinies:LayeredIconAsset:436>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+
+<ferretshinies:LayeredIconAsset:437>.addTooltip(format.lightPurple("A Ferret Business Sealed Coal Ore Shipment"));
+<ferretshinies:LayeredIconAsset:437>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+
+<ferretshinies:LayeredIconAsset:438>.addTooltip(format.lightPurple("A Ferret Business Sealed Osmium Ore Shipment"));
+<ferretshinies:LayeredIconAsset:438>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+
+<ferretshinies:LayeredIconAsset:439>.addTooltip(format.lightPurple("A Ferret Business Sealed Cinnabar Ore Shipment"));
+<ferretshinies:LayeredIconAsset:439>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+
+<ferretshinies:LayeredIconAsset:440>.addTooltip(format.lightPurple("A Ferret Business Sealed Gold Ore Shipment"));
+<ferretshinies:LayeredIconAsset:440>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+<ferretshinies:LayeredIconAsset:440>.addTooltip(format.yellow("You will also receive a Shop Token for unsealing."));
+
+<ferretshinies:LayeredIconAsset:441>.addTooltip(format.lightPurple("A Ferret Business Sealed Tritanium Ore Shipment"));
+<ferretshinies:LayeredIconAsset:441>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+<ferretshinies:LayeredIconAsset:441>.addTooltip(format.yellow("You will also receive a Shop Token for unsealing."));
+
+<ferretshinies:LayeredIconAsset:442>.addTooltip(format.lightPurple("A Ferret Business Sealed Shiny Ore Shipment"));
+<ferretshinies:LayeredIconAsset:442>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+<ferretshinies:LayeredIconAsset:442>.addTooltip(format.yellow("You will also receive Shop Tokens for unsealing."));
+
+<ferretshinies:LayeredIconAsset:443>.addTooltip(format.lightPurple("A Ferret Business Sealed Lapis Lazuli Ore Shipment"));
+<ferretshinies:LayeredIconAsset:443>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+<ferretshinies:LayeredIconAsset:443>.addTooltip(format.yellow("You will also receive a Shop Token for unsealing."));
+
+<ferretshinies:LayeredIconAsset:444>.addTooltip(format.lightPurple("A Ferret Business Sealed Tin Ore Shipment"));
+<ferretshinies:LayeredIconAsset:444>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+
+<ferretshinies:LayeredIconAsset:445>.addTooltip(format.lightPurple("A Ferret Business Sealed Copper Ore Shipment"));
+<ferretshinies:LayeredIconAsset:445>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+
+<ferretshinies:LayeredIconAsset:446>.addTooltip(format.lightPurple("A Ferret Business Sealed Lead Ore Shipment"));
+<ferretshinies:LayeredIconAsset:446>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+<ferretshinies:LayeredIconAsset:446>.addTooltip(format.yellow("You will also receive a Shop Token for unsealing."));
+
+<ferretshinies:LayeredIconAsset:447>.addTooltip(format.lightPurple("A Ferret Business Sealed Silver Ore Shipment"));
+<ferretshinies:LayeredIconAsset:447>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+<ferretshinies:LayeredIconAsset:447>.addTooltip(format.yellow("You will also receive a Shop Token for unsealing."));
+
+<ferretshinies:LayeredIconAsset:448>.addTooltip(format.lightPurple("A Ferret Business Sealed Yellorite Ore Shipment"));
+<ferretshinies:LayeredIconAsset:448>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+<ferretshinies:LayeredIconAsset:448>.addTooltip(format.yellow("You will also receive a Shop Token for unsealing."));
+
+<ferretshinies:LayeredIconAsset:449>.addTooltip(format.lightPurple("A Ferret Business Sealed Aluminum Ore Shipment"));
+<ferretshinies:LayeredIconAsset:449>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+
+<ferretshinies:LayeredIconAsset:450>.addTooltip(format.lightPurple("A Ferret Business Sealed Ferrous Ore Shipment"));
+<ferretshinies:LayeredIconAsset:450>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+<ferretshinies:LayeredIconAsset:450>.addTooltip(format.yellow("You will also receive Shop Tokens for unsealing."));
+
+<ferretshinies:LayeredIconAsset:451>.addTooltip(format.lightPurple("A Ferret Business Sealed Diamond Ore Shipment"));
+<ferretshinies:LayeredIconAsset:451>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+<ferretshinies:LayeredIconAsset:451>.addTooltip(format.yellow("You will also receive Shop Tokens for unsealing."));
+
+<ferretshinies:LayeredIconAsset:452>.addTooltip(format.lightPurple("A Ferret Business Sealed Emerald Ore Shipment"));
+<ferretshinies:LayeredIconAsset:452>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+
+<ferretshinies:LayeredIconAsset:453>.addTooltip(format.lightPurple("A Ferret Business Sealed Ruby Ore Shipment"));
+<ferretshinies:LayeredIconAsset:453>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+<ferretshinies:LayeredIconAsset:453>.addTooltip(format.yellow("You will also receive Shop Tokens for unsealing."));
+
+<ferretshinies:LayeredIconAsset:454>.addTooltip(format.lightPurple("A Ferret Business Sealed Sapphire Ore Shipment"));
+<ferretshinies:LayeredIconAsset:454>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+<ferretshinies:LayeredIconAsset:454>.addTooltip(format.yellow("You will also receive Shop Tokens for unsealing."));
+
+<ferretshinies:LayeredIconAsset:455>.addTooltip(format.lightPurple("A Ferret Business Sealed Peridot Ore Shipment"));
+<ferretshinies:LayeredIconAsset:455>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+<ferretshinies:LayeredIconAsset:455>.addTooltip(format.yellow("You will also receive Shop Tokens for unsealing."));
+
+<ferretshinies:LayeredIconAsset:456>.addTooltip(format.lightPurple("A Ferret Business Sealed Apatite Ore Shipment"));
+<ferretshinies:LayeredIconAsset:456>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+
+<ferretshinies:LayeredIconAsset:457>.addTooltip(format.lightPurple("A Ferret Business Sealed Redstone Ore Shipment"));
+<ferretshinies:LayeredIconAsset:457>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+
+<ferretshinies:LayeredIconAsset:458>.addTooltip(format.lightPurple("A Ferret Business Sealed Certus Quartz Ore Shipment"));
+<ferretshinies:LayeredIconAsset:458>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+<ferretshinies:LayeredIconAsset:458>.addTooltip(format.yellow("You will also receive a Shop Token for unsealing."));
+
+<ferretshinies:LayeredIconAsset:459>.addTooltip(format.lightPurple("A Ferret Business Sealed Nether Quartz Ore Shipment"));
+<ferretshinies:LayeredIconAsset:459>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+
+<ferretshinies:LayeredIconAsset:460>.addTooltip(format.lightPurple("A Ferret Business Sealed Cobalt Ore Shipment"));
+<ferretshinies:LayeredIconAsset:460>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+<ferretshinies:LayeredIconAsset:460>.addTooltip(format.yellow("You will also receive Shop Tokens for unsealing."));
+
+<ferretshinies:LayeredIconAsset:461>.addTooltip(format.lightPurple("A Ferret Business Sealed Ardite Ore Shipment"));
+<ferretshinies:LayeredIconAsset:461>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+<ferretshinies:LayeredIconAsset:461>.addTooltip(format.yellow("You will also receive Shop Tokens for unsealing."));
+
+<ferretshinies:LayeredIconAsset:462>.addTooltip(format.lightPurple("A Ferret Business Sealed Air Infused Ore Shipment"));
+<ferretshinies:LayeredIconAsset:462>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+<ferretshinies:LayeredIconAsset:462>.addTooltip(format.yellow("You will also receive Shop Tokens for unsealing."));
+
+<ferretshinies:LayeredIconAsset:463>.addTooltip(format.lightPurple("A Ferret Business Sealed Fire Infused Ore Shipment"));
+<ferretshinies:LayeredIconAsset:463>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+<ferretshinies:LayeredIconAsset:463>.addTooltip(format.yellow("You will also receive Shop Tokens for unsealing."));
+
+<ferretshinies:LayeredIconAsset:464>.addTooltip(format.lightPurple("A Ferret Business Sealed Water Infused Ore Shipment"));
+<ferretshinies:LayeredIconAsset:464>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+<ferretshinies:LayeredIconAsset:464>.addTooltip(format.yellow("You will also receive Shop Tokens for unsealing."));
+
+<ferretshinies:LayeredIconAsset:465>.addTooltip(format.lightPurple("A Ferret Business Sealed Earth Infused Ore Shipment"));
+<ferretshinies:LayeredIconAsset:465>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+<ferretshinies:LayeredIconAsset:465>.addTooltip(format.yellow("You will also receive Shop Tokens for unsealing."));
+
+<ferretshinies:LayeredIconAsset:466>.addTooltip(format.lightPurple("A Ferret Business Sealed Order Infused Ore Shipment"));
+<ferretshinies:LayeredIconAsset:466>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+<ferretshinies:LayeredIconAsset:466>.addTooltip(format.yellow("You will also receive Shop Tokens for unsealing."));
+
+<ferretshinies:LayeredIconAsset:467>.addTooltip(format.lightPurple("A Ferret Business Sealed Entropy Infused Ore Shipment"));
+<ferretshinies:LayeredIconAsset:467>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+<ferretshinies:LayeredIconAsset:467>.addTooltip(format.yellow("You will also receive Shop Tokens for unsealing."));
+
+<ferretshinies:LayeredIconAsset:468>.addTooltip(format.lightPurple("A Ferret Business Sealed Dilithium Ore Shipment"));
+<ferretshinies:LayeredIconAsset:468>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));
+<ferretshinies:LayeredIconAsset:468>.addTooltip(format.yellow("You will also receive a Shop Token for unsealing."));
+
+<ferretshinies:LayeredIconAsset:469>.addTooltip(format.lightPurple("A Ferret Business Sealed Amber Ore Shipment"));
+<ferretshinies:LayeredIconAsset:469>.addTooltip(format.green("To unseal, process in an EnderIO SAG Mill."));

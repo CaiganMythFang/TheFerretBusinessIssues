@@ -1,0 +1,17 @@
+§l 4.3 - Trader Chits §r
+
+As you ship higher value items, you can start to collect Trader Chits. These signify successful trades with The Ferret Business, and can be turned in via your QUEST Tablet in the [H]Supply and Demand section.
+
+Utilize the SAG Mill from EnderIO to automate the shipping process. You will receive the appropriate amount of Silver Coins and Trader Chits in return.
+
+{"image":"3.4-sagmill.png", "width":120, "height":60}
+
+You can make larger Trader chits by combining two of the same value.
+
+{"image":"3.4-chitcombos.png", "width":80, "height":200}
+
+Trader Chits can be turned in via your QUEST Tablet, in the Ferret Resources Dept.
+
+The lowest value chit you can turn in is Bronze, which is value 8. Collecting higher level chits, though, give you bigger rewards. A 16 value Trader Chit is worth more than two 8 Value chits.
+
+The largest value chit is the Awakened Draconium Chit, and is worth the most.

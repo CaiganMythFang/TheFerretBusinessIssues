@@ -1,0 +1,360 @@
+Total amount of free potion ids: 248
+Total amount of occupied potion ids: 108
+Total amount of conflicted potion ids: 0
+All ids and their position:
+0 is Avaible
+1 is Occupied by potion.moveSpeed (net.minecraft.potion.Potion)
+2 is Occupied by potion.moveSlowdown (net.minecraft.potion.Potion)
+3 is Occupied by potion.digSpeed (net.minecraft.potion.Potion)
+4 is Occupied by potion.digSlowDown (net.minecraft.potion.Potion)
+5 is Occupied by potion.damageBoost (net.minecraft.potion.PotionAttackDamage)
+6 is Occupied by potion.heal (net.minecraft.potion.PotionHealth)
+7 is Occupied by potion.harm (net.minecraft.potion.PotionHealth)
+8 is Occupied by potion.jump (net.minecraft.potion.Potion)
+9 is Occupied by potion.confusion (net.minecraft.potion.Potion)
+10 is Occupied by potion.regeneration (net.minecraft.potion.Potion)
+11 is Occupied by potion.resistance (net.minecraft.potion.Potion)
+12 is Occupied by potion.fireResistance (net.minecraft.potion.Potion)
+13 is Occupied by potion.waterBreathing (net.minecraft.potion.Potion)
+14 is Occupied by potion.invisibility (net.minecraft.potion.Potion)
+15 is Occupied by potion.blindness (net.minecraft.potion.Potion)
+16 is Occupied by potion.nightVision (net.minecraft.potion.Potion)
+17 is Occupied by potion.hunger (net.minecraft.potion.Potion)
+18 is Occupied by potion.weakness (net.minecraft.potion.PotionAttackDamage)
+19 is Occupied by potion.poison (net.minecraft.potion.Potion)
+20 is Occupied by potion.wither (net.minecraft.potion.Potion)
+21 is Occupied by potion.healthBoost (net.minecraft.potion.PotionHealthBoost)
+22 is Occupied by potion.absorption (net.minecraft.potion.PotionAbsoption)
+23 is Occupied by potion.saturation (net.minecraft.potion.PotionHealth)
+24 is Avaible
+25 is Occupied by immersiveengineering.potion.flammable (blusunrize.immersiveengineering.common.util.IEPotions$IEPotion)
+26 is Occupied by immersiveengineering.potion.slippery (blusunrize.immersiveengineering.common.util.IEPotions$IEPotion)
+27 is Occupied by immersiveengineering.potion.conductive (blusunrize.immersiveengineering.common.util.IEPotions$IEPotion)
+28 is Occupied by immersiveengineering.potion.sticky (blusunrize.immersiveengineering.common.util.IEPotions$IEPotion)
+29 is Avaible
+30 is Avaible
+31 is Occupied by potion.binding (flaxbeard.thaumicexploration.misc.TXPotion)
+32 is Occupied by potion.taintWithdrawl (flaxbeard.thaumicexploration.misc.TXTaintPotion)
+33 is Occupied by witchery:potion.paralysed (com.emoniph.witchery.brewing.potions.PotionParalysis)
+34 is Occupied by witchery:potion.wrappedinvine (com.emoniph.witchery.brewing.potions.PotionWrappedInVine)
+35 is Occupied by witchery:potion.spiked (com.emoniph.witchery.brewing.potions.PotionSpiked)
+36 is Occupied by witchery:potion.sprouting (com.emoniph.witchery.brewing.potions.PotionSprouting)
+37 is Occupied by witchery:potion.grotesque (com.emoniph.witchery.brewing.potions.PotionGrotesque)
+38 is Occupied by witchery:potion.love (com.emoniph.witchery.brewing.potions.PotionLove)
+39 is Occupied by witchery:potion.allergysun (com.emoniph.witchery.brewing.potions.PotionSunAllergy)
+40 is Occupied by potion.featherfall (enhancedportals.item.PotionFeatherfall)
+41 is Occupied by witchery:potion.snowtrail (com.emoniph.witchery.brewing.potions.PotionSnowTrail)
+42 is Occupied by witchery:potion.floating (com.emoniph.witchery.brewing.potions.PotionFloating)
+43 is Occupied by witchery:potion.hellishaura (com.emoniph.witchery.brewing.potions.PotionHellishAura)
+44 is Occupied by witchery:potion.brewingexpertise (com.emoniph.witchery.brewing.potions.PotionBrewingExpertise)
+45 is Occupied by witchery:potion.doublejump (com.emoniph.witchery.brewing.potions.PotionBase)
+46 is Occupied by witchery:potion.featherfall (com.emoniph.witchery.brewing.potions.PotionFeatherFall)
+47 is Occupied by witchery:potion.allergydark (com.emoniph.witchery.brewing.potions.PotionDarknessAllergy)
+48 is Occupied by witchery:potion.reincarnate (com.emoniph.witchery.brewing.potions.PotionReincarnate)
+49 is Occupied by witchery:potion.insane (com.emoniph.witchery.brewing.potions.PotionInsanity)
+50 is Avaible
+51 is Occupied by witchery:potion.keepinventory (com.emoniph.witchery.brewing.potions.PotionKeepInventory)
+52 is Occupied by witchery:potion.sinking (com.emoniph.witchery.brewing.potions.PotionSinking)
+53 is Occupied by witchery:potion.overheating (com.emoniph.witchery.brewing.potions.PotionOverheating)
+54 is Occupied by witchery:potion.wakingnightmare (com.emoniph.witchery.brewing.potions.PotionWakingNightmare)
+55 is Occupied by witchery:potion.queasy (com.emoniph.witchery.brewing.potions.PotionQueasy)
+56 is Occupied by witchery:potion.swimming (com.emoniph.witchery.brewing.potions.PotionSwimming)
+57 is Occupied by witchery:potion.resizing (com.emoniph.witchery.brewing.potions.PotionResizing)
+58 is Occupied by witchery:potion.colorful (com.emoniph.witchery.brewing.potions.PotionColorful)
+59 is Occupied by witchery:potion.enderinhibition (com.emoniph.witchery.brewing.potions.PotionEnderInhibition)
+60 is Occupied by witchery:potion.illfitting (com.emoniph.witchery.brewing.potions.PotionIllFitting)
+61 is Occupied by witchery:potion.volatility (com.emoniph.witchery.brewing.potions.PotionVolatility)
+62 is Occupied by witchery:potion.enslaved (com.emoniph.witchery.brewing.potions.PotionEnslaved)
+63 is Occupied by witchery:potion.mortalcoil (com.emoniph.witchery.brewing.potions.PotionMortalCoil)
+64 is Occupied by witchery:potion.absorbmagic (com.emoniph.witchery.brewing.potions.PotionAbsorbMagic)
+65 is Occupied by witchery:potion.poisonweapons (com.emoniph.witchery.brewing.potions.PotionPoisonWeapons)
+66 is Occupied by witchery:potion.reflectprojectiles (com.emoniph.witchery.brewing.potions.PotionReflectProjectiles)
+67 is Occupied by witchery:potion.reflectdamage (com.emoniph.witchery.brewing.potions.PotionReflectDamage)
+68 is Occupied by witchery:potion.attractprojectiles (com.emoniph.witchery.brewing.potions.PotionAttractProjectiles)
+69 is Occupied by witchery:potion.repellattacker (com.emoniph.witchery.brewing.potions.PotionRepellAttacker)
+70 is Occupied by potion.blood_seal (fox.spiteful.forbidden.potions.PotionBloodSeal)
+71 is Occupied by witchery:potion.stoutbelly (com.emoniph.witchery.brewing.potions.PotionStoutBelly)
+72 is Occupied by witchery:potion.feelnopain (com.emoniph.witchery.brewing.potions.PotionFeelNoPain)
+73 is Occupied by witchery:potion.gasmask (com.emoniph.witchery.brewing.potions.PotionGasMask)
+74 is Occupied by witchery:potion.diseased (com.emoniph.witchery.brewing.potions.PotionDiseased)
+75 is Occupied by witchery:potion.fortune (com.emoniph.witchery.brewing.potions.PotionFortune)
+76 is Occupied by witchery:potion.worship (com.emoniph.witchery.brewing.potions.PotionWorship)
+77 is Occupied by witchery:potion.keepeffects (com.emoniph.witchery.brewing.potions.PotionKeepEffectsOnDeath)
+78 is Occupied by witchery:potion.wolfsbane (com.emoniph.witchery.brewing.potions.PotionBase)
+79 is Avaible
+80 is Avaible
+81 is Occupied by Red Curse (pixlepix.auracascade.potions.PotionRedCurse)
+82 is Avaible
+83 is Avaible
+84 is Avaible
+85 is Avaible
+86 is Occupied by Fire Imbued (thaumic.tinkerer.common.potion.DummyPotions)
+87 is Occupied by Wated Imbued (thaumic.tinkerer.common.potion.DummyPotions)
+88 is Avaible
+89 is Occupied by Earth Imbued (thaumic.tinkerer.common.potion.DummyPotions)
+90 is Occupied by Air Imbued (thaumic.tinkerer.common.potion.DummyPotions)
+91 is Occupied by botania.potion.soulCross (vazkii.botania.common.brew.potion.PotionSoulCross)
+92 is Occupied by botania.potion.featherFeet (vazkii.botania.common.brew.potion.PotionFeatherfeet)
+93 is Occupied by botania.potion.emptiness (vazkii.botania.common.brew.potion.PotionEmptiness)
+94 is Occupied by botania.potion.bloodthirst (vazkii.botania.common.brew.potion.PotionBloodthirst)
+95 is Occupied by botania.potion.allure (vazkii.botania.common.brew.potion.PotionAllure)
+96 is Occupied by botania.potion.clear (vazkii.botania.common.brew.potion.PotionClear)
+97 is Avaible
+98 is Avaible
+99 is Avaible
+100 is Occupied by Blue Curse (pixlepix.auracascade.potions.PotionBlueCurse)
+101 is Occupied by Green Curse (pixlepix.auracascade.potions.PotionGreenCurse)
+102 is Occupied by Orange Curse (pixlepix.auracascade.potions.PotionOrangeCurse)
+103 is Occupied by Feather Fall (WayofTime.alchemicalWizardry.common.potion.PotionFeatherFall)
+104 is Avaible
+105 is Occupied by witchery:potion.chilled (com.emoniph.witchery.brewing.potions.PotionChilled)
+106 is Avaible
+107 is Avaible
+108 is Avaible
+109 is Avaible
+110 is Occupied by Drowning (WayofTime.alchemicalWizardry.common.potion.PotionDrowning)
+111 is Occupied by Boost (WayofTime.alchemicalWizardry.common.potion.PotionBoost)
+112 is Occupied by Whirlwind (WayofTime.alchemicalWizardry.common.potion.PotionProjectileProtect)
+113 is Occupied by Inhibit (WayofTime.alchemicalWizardry.common.potion.PotionInhibit)
+114 is Occupied by Flight (WayofTime.alchemicalWizardry.common.potion.PotionFlight)
+115 is Occupied by Reciprocation (WayofTime.alchemicalWizardry.common.potion.PotionReciprocation)
+116 is Occupied by Flame Cloak (WayofTime.alchemicalWizardry.common.potion.PotionFlameCloak)
+117 is Occupied by Ice Cloak (WayofTime.alchemicalWizardry.common.potion.PotionIceCloak)
+118 is Occupied by Heavy Heart (WayofTime.alchemicalWizardry.common.potion.PotionHeavyHeart)
+119 is Occupied by Fire Fuse (WayofTime.alchemicalWizardry.common.potion.PotionFireFuse)
+120 is Occupied by Planar Binding (WayofTime.alchemicalWizardry.common.potion.PotionPlanarBinding)
+121 is Occupied by Soul Fray (WayofTime.alchemicalWizardry.common.potion.PotionSoulFray)
+122 is Occupied by Soul Harden (WayofTime.alchemicalWizardry.common.potion.PotionSoulHarden)
+123 is Occupied by Deafness (WayofTime.alchemicalWizardry.common.potion.PotionDeaf)
+124 is Occupied by Demon Cloaking (WayofTime.alchemicalWizardry.common.potion.PotionDemonCloak)
+125 is Occupied by Amphibian (WayofTime.alchemicalWizardry.common.potion.PotionAmphibian)
+126 is Occupied by Violet Curse (pixlepix.auracascade.potions.PotionVioletCurse)
+127 is Occupied by Yellow Curse (pixlepix.auracascade.potions.PotionYellowCurse)
+128 is Avaible
+129 is Avaible
+130 is Avaible
+131 is Avaible
+132 is Avaible
+133 is Avaible
+134 is Avaible
+135 is Avaible
+136 is Avaible
+137 is Avaible
+138 is Avaible
+139 is Avaible
+140 is Avaible
+141 is Avaible
+142 is Avaible
+143 is Avaible
+144 is Avaible
+145 is Avaible
+146 is Avaible
+147 is Avaible
+148 is Avaible
+149 is Avaible
+150 is Avaible
+151 is Avaible
+152 is Avaible
+153 is Avaible
+154 is Avaible
+155 is Avaible
+156 is Avaible
+157 is Avaible
+158 is Avaible
+159 is Avaible
+160 is Avaible
+161 is Avaible
+162 is Avaible
+163 is Avaible
+164 is Avaible
+165 is Avaible
+166 is Avaible
+167 is Avaible
+168 is Avaible
+169 is Avaible
+170 is Avaible
+171 is Avaible
+172 is Avaible
+173 is Avaible
+174 is Avaible
+175 is Avaible
+176 is Avaible
+177 is Avaible
+178 is Avaible
+179 is Avaible
+180 is Avaible
+181 is Avaible
+182 is Avaible
+183 is Avaible
+184 is Avaible
+185 is Avaible
+186 is Avaible
+187 is Avaible
+188 is Avaible
+189 is Avaible
+190 is Avaible
+191 is Avaible
+192 is Avaible
+193 is Avaible
+194 is Avaible
+195 is Avaible
+196 is Avaible
+197 is Avaible
+198 is Avaible
+199 is Avaible
+200 is Avaible
+201 is Avaible
+202 is Avaible
+203 is Avaible
+204 is Avaible
+205 is Avaible
+206 is Avaible
+207 is Avaible
+208 is Avaible
+209 is Avaible
+210 is Avaible
+211 is Avaible
+212 is Avaible
+213 is Avaible
+214 is Avaible
+215 is Avaible
+216 is Avaible
+217 is Avaible
+218 is Avaible
+219 is Avaible
+220 is Avaible
+221 is Avaible
+222 is Avaible
+223 is Avaible
+224 is Avaible
+225 is Avaible
+226 is Avaible
+227 is Avaible
+228 is Avaible
+229 is Avaible
+230 is Avaible
+231 is Avaible
+232 is Avaible
+233 is Avaible
+234 is Avaible
+235 is Avaible
+236 is Avaible
+237 is Avaible
+238 is Avaible
+239 is Avaible
+240 is Avaible
+241 is Avaible
+242 is Avaible
+243 is Avaible
+244 is Avaible
+245 is Avaible
+246 is Avaible
+247 is Avaible
+248 is Avaible
+249 is Avaible
+250 is Avaible
+251 is Avaible
+252 is Avaible
+253 is Avaible
+254 is Avaible
+255 is Avaible
+256 is Avaible
+257 is Avaible
+258 is Avaible
+259 is Avaible
+260 is Avaible
+261 is Avaible
+262 is Avaible
+263 is Avaible
+264 is Avaible
+265 is Avaible
+266 is Avaible
+267 is Avaible
+268 is Avaible
+269 is Avaible
+270 is Avaible
+271 is Avaible
+272 is Avaible
+273 is Avaible
+274 is Avaible
+275 is Avaible
+276 is Avaible
+277 is Avaible
+278 is Avaible
+279 is Avaible
+280 is Avaible
+281 is Avaible
+282 is Avaible
+283 is Avaible
+284 is Avaible
+285 is Avaible
+286 is Avaible
+287 is Avaible
+288 is Avaible
+289 is Avaible
+290 is Avaible
+291 is Avaible
+292 is Avaible
+293 is Avaible
+294 is Avaible
+295 is Avaible
+296 is Avaible
+297 is Avaible
+298 is Avaible
+299 is Avaible
+300 is Avaible
+301 is Avaible
+302 is Avaible
+303 is Avaible
+304 is Avaible
+305 is Avaible
+306 is Avaible
+307 is Avaible
+308 is Avaible
+309 is Avaible
+310 is Avaible
+311 is Avaible
+312 is Avaible
+313 is Avaible
+314 is Avaible
+315 is Avaible
+316 is Avaible
+317 is Avaible
+318 is Avaible
+319 is Avaible
+320 is Avaible
+321 is Avaible
+322 is Avaible
+323 is Avaible
+324 is Avaible
+325 is Avaible
+326 is Avaible
+327 is Avaible
+328 is Avaible
+329 is Avaible
+330 is Avaible
+331 is Avaible
+332 is Avaible
+333 is Avaible
+334 is Avaible
+335 is Avaible
+336 is Avaible
+337 is Avaible
+338 is Avaible
+339 is Avaible
+340 is Avaible
+341 is Avaible
+342 is Avaible
+343 is Avaible
+344 is Avaible
+345 is Avaible
+346 is Avaible
+347 is Avaible
+348 is Avaible
+349 is Avaible
+350 is Avaible
+351 is Avaible
+352 is Avaible
+353 is Avaible
+354 is Avaible
+355 is Avaible

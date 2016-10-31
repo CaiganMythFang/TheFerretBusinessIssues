@@ -1,0 +1,977 @@
+{
+  "book": [
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b][u]FERRET BUSINESS[/b][/u]",
+            "wrap": 0,
+            "size": 1.8000002,
+            "color": "FF555555",
+            "xPos": 14,
+            "yPos": 31,
+            "width": 232.0,
+            "height": 15.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[i]ASSISTANT HANDBOOK v0.1.0",
+            "wrap": 0,
+            "size": 1.2,
+            "color": "FF555555",
+            "xPos": 17,
+            "yPos": 52,
+            "width": 200.0,
+            "height": 6.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]TABLE OF CONTENTS[/b]",
+            "wrap": 0,
+            "size": 1.2,
+            "color": "FF555555",
+            "xPos": 251,
+            "yPos": 11,
+            "width": 165.0,
+            "height": 9.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Welcome to The Ferret Business, a mod pack created by me, Caigan. The basic premise of the modpack is freeform : it is up to you what you want to do. I have provided an HQM questbook, called the Q.U.E.S.T. Tablet, which provides a multitude of quests that help explain how to use the various mods within the pack. You do not have to follow these quests, but if you do, you are rewarded with Coins and Reputation you can use to obtain rare materials and items ONLY available in the QUEST Tablet! \nThis guidebook will help explain all the changes in the modpack and will be updated every new version!",
+            "wrap": 0,
+            "size": 0.9,
+            "color": "FF555555",
+            "xPos": 7,
+            "yPos": 72,
+            "width": 191.0,
+            "height": 113.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "StevesWorkshop:production_table_upgrade 11",
+            "xPos": 310,
+            "yPos": 33,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": " [b]MAJOR CHANGES[/b]",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 305,
+            "yPos": 63,
+            "width": 42.0,
+            "height": 14.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ferretshinies:IconAsset 68",
+            "xPos": 380,
+            "yPos": 35,
+            "width": 27.0,
+            "height": 27.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]CONTRACT\n  GUIDE[/b]",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 365,
+            "yPos": 63,
+            "width": 65.0,
+            "height": 15.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b][u]THE[/u][/b]",
+            "wrap": 0,
+            "size": 1.8000002,
+            "color": "FF555555",
+            "xPos": 84,
+            "yPos": 13,
+            "width": 52.0,
+            "height": 10.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "Botania:cosmetic 31",
+            "xPos": 245,
+            "yPos": 31,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]IMPORTANT![/b]",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 231,
+            "yPos": 66,
+            "width": 63.0,
+            "height": 7.0
+          }
+        },
+        {
+          "type": "FeatureJump",
+          "properties": {
+            "jumpTo": "2",
+            "texture": "",
+            "xPos": 232,
+            "yPos": 34,
+            "width": 59.0,
+            "height": 43.0
+          }
+        },
+        {
+          "type": "FeatureJump",
+          "properties": {
+            "jumpTo": "3",
+            "texture": "",
+            "xPos": 298,
+            "yPos": 34,
+            "width": 58.0,
+            "height": 43.0
+          }
+        },
+        {
+          "type": "FeatureJump",
+          "properties": {
+            "jumpTo": "4",
+            "texture": "",
+            "xPos": 364,
+            "yPos": 34,
+            "width": 55.0,
+            "height": 43.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "Thaumcraft:FocusTrade",
+            "xPos": 241,
+            "yPos": 132,
+            "width": 44.0,
+            "height": 44.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]CHANGELOGS[/b]",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 228,
+            "yPos": 186,
+            "width": 70.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "0.0.8b - B is for Bugfix\n0.1.0 - Insert Witty Title",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 296,
+            "yPos": 131,
+            "width": 137.0,
+            "height": 61.0
+          }
+        },
+        {
+          "type": "FeatureJump",
+          "properties": {
+            "jumpTo": "5",
+            "texture": "",
+            "xPos": 290,
+            "yPos": 134,
+            "width": 129.0,
+            "height": 3.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "         Click a topic to jump to that page.",
+            "wrap": 0,
+            "size": 0.9,
+            "color": "FF555555",
+            "xPos": 212,
+            "yPos": 21,
+            "width": 213.0,
+            "height": 6.0
+          }
+        },
+        {
+          "type": "FeatureJump",
+          "properties": {
+            "jumpTo": "clog010",
+            "texture": "",
+            "xPos": 290,
+            "yPos": 142,
+            "width": 129.0,
+            "height": 4.0
+          }
+        }
+      ],
+      "pageName": "Home"
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "The_Ferret_Business_Guide_v008b/GuidebookLookHerePage1.png",
+            "xPos": 26,
+            "yPos": 105,
+            "width": 153.0,
+            "height": 89.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b][u]IMPORTANT INFORMATION![/u][/b]",
+            "wrap": 0,
+            "size": 1.2,
+            "color": "FF555555",
+            "xPos": 19,
+            "yPos": 10,
+            "width": 197.0,
+            "height": 17.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Please read ALL the text, including the text at the right side of every Task. Important information  on how items and blocks work is carefully written there!\n[i]THESE INCLUDE WARNINGS FOR DANGEROUS ITEMS!!!!![/i]",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 7,
+            "yPos": 27,
+            "width": 193.0,
+            "height": 62.0
+          }
+        }
+      ],
+      "pageName": "IMPORTANT"
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]MAJOR CHANGES[/b]",
+            "wrap": 0,
+            "size": 1.4000001,
+            "color": "FF555555",
+            "xPos": 37,
+            "yPos": 10,
+            "width": 153.0,
+            "height": 10.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "magicalcrops:magicalcrops_MagicEssence 4",
+            "xPos": 16,
+            "yPos": 20,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]MAGICAL\n CROPS[/b]",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF006400",
+            "xPos": 9,
+            "yPos": 53,
+            "width": 63.0,
+            "height": 18.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Magical Crops are ONLY obtainable through the Corporate Shop in the QUEST Tablet. Recipes have been disabled.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 59,
+            "yPos": 25,
+            "width": 131.0,
+            "height": 41.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "props:props 236",
+            "xPos": 162,
+            "yPos": 83,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]SQUIDS[/b]",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF000000",
+            "xPos": 157,
+            "yPos": 118,
+            "width": 40.0,
+            "height": 7.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Squid spawns have been disabled due to a Vanilla bug that would cause thousands to spawn at once.\nInk Sacs can be obtained via this recipe : ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 9,
+            "yPos": 88,
+            "width": 142.0,
+            "height": 53.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:potion 0",
+            "xPos": 43,
+            "yPos": 145,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:rotten_flesh",
+            "xPos": 94,
+            "yPos": 145,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "BiomesOPlenty:misc 9",
+            "xPos": 150,
+            "yPos": 147,
+            "width": 17.0,
+            "height": 17.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "  Water      Rotten         Black\n  Bottle      Flesh           Dye\n                                (any)",
+            "wrap": 0,
+            "size": 0.9,
+            "color": "FF555555",
+            "xPos": 34,
+            "yPos": 171,
+            "width": 156.0,
+            "height": 11.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "+",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 74,
+            "yPos": 150,
+            "width": 16.0,
+            "height": 6.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "+",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 133,
+            "yPos": 151,
+            "width": 16.0,
+            "height": 5.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "PneumaticCraft:pressureTube 0",
+            "xPos": 302,
+            "yPos": 2,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]PNEUMATICRAFT\n     SEEDS[/b]",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF556B2F",
+            "xPos": 274,
+            "yPos": 32,
+            "width": 94.0,
+            "height": 17.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Pneumaticraft Seeds will not spread naturally, due to their almost weedlike nature, which can cause lag. Pneumaticraft seeds can be crafted by combining any seed with the appropriate color dye.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 231,
+            "yPos": 56,
+            "width": 185.0,
+            "height": 54.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:wheat_seeds",
+            "xPos": 305,
+            "yPos": 107,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]VANILLA SEEDS[/b]",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFDAA520",
+            "xPos": 277,
+            "yPos": 134,
+            "width": 110.0,
+            "height": 6.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Some mods require Wheat Seeds only, and with so many other seeds, they can be hard to obtain. Craft any 2 seeds with some Floral Powder from Botania to get 2 normal Seeds.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 232,
+            "yPos": 146,
+            "width": 181.0,
+            "height": 43.0
+          }
+        }
+      ],
+      "pageName": "3"
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]CONTRACTS GUIDE[/b]",
+            "wrap": 0,
+            "size": 1.4000001,
+            "color": "FF555555",
+            "xPos": 28,
+            "yPos": 9,
+            "width": 183.0,
+            "height": 23.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "A major part of The Ferret Business is the QUEST Tablet, assisting those back home not only with research...but Products.\n\nSome of the best items in the pack are only obtainable by completing Quests, filling Contracts, and obtaining enough Reputation to earn the right to purchase them.\n\nContracts are repeatable quests that require either a mass of basic resources (SUPPLY), or the construction of a Factory to produce complex items (PRODUCTION) in large quantities.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 5,
+            "yPos": 25,
+            "width": 189.0,
+            "height": 173.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:planks 0",
+            "xPos": 229,
+            "yPos": 10,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "You fill contracts by combining various products or resources with an Unfilled Shipping Crate, which can be crafted by surrounding a Silver Coin with any Wooden Planks.\n\nAs you complete Contracts, you earn Coins (which can be used to purchase supplies) and Reputation (which earns you bigger Contracts and special rewards).",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 234,
+            "yPos": 82,
+            "width": 178.0,
+            "height": 110.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:planks 0",
+            "xPos": 250,
+            "yPos": 10,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:planks 0",
+            "xPos": 272,
+            "yPos": 10,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:planks 0",
+            "xPos": 229,
+            "yPos": 32,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:planks 0",
+            "xPos": 273,
+            "yPos": 31,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:planks 0",
+            "xPos": 229,
+            "yPos": 54,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:planks 0",
+            "xPos": 251,
+            "yPos": 54,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:planks 0",
+            "xPos": 274,
+            "yPos": 54,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ferretshinies:NullToken 0",
+            "xPos": 250,
+            "yPos": 31,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ferretshinies:IconAsset 67",
+            "xPos": 319,
+            "yPos": 25,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "x64",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFFFFFFF",
+            "xPos": 330,
+            "yPos": 45,
+            "width": 20.0,
+            "height": 11.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Crafting\n  Empty\n Supply\n Crates",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 365,
+            "yPos": 27,
+            "width": 63.0,
+            "height": 51.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]CHANGELOG - 0.0.8b[/b]",
+            "wrap": 0,
+            "size": 1.5000001,
+            "color": "FF555555",
+            "xPos": 16,
+            "yPos": 10,
+            "width": 190.0,
+            "height": 12.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The B is for Bugfix Update",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 35,
+            "yPos": 22,
+            "width": 156.0,
+            "height": 10.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]NEW MODS\n\n\n\n\n\n\n\n\n\nUPDATED MODS\n\n\nNEW SHOP ITEMS[/b]",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 11,
+            "yPos": 34,
+            "width": 111.0,
+            "height": 163.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[u]AE2 Stuff[/u] : Makes crystal growing less painful\n[u]NEI Thaumcraft Integration[/u] : Adds Thaumcraft Recipe lookup.\n[u]Enchiridion 2[/u] : You\u0027re reading a book from it right now!\n[u]Mod Tweaker[/u] : Adds mod support to MineTweaker\n[u]ExtraTiC[/u] : Mod Material Support\n \nMany mods have been updated to fix multiple bugs.\n\nNew Magical Crops items that lower the randomness of the initial Quests. You will need to earn reputation in all three tracks to earn the right to buy them.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 21,
+            "yPos": 42,
+            "width": 179.0,
+            "height": 155.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]IMPROVED QUEST DETECTION\n\n\n\n\nQUEST FIXES AND UPDATES[/b]",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 234,
+            "yPos": 20,
+            "width": 153.0,
+            "height": 184.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Half the quests have better detection of items, in case you had crafted and enchanted them before their quest was added.\n\nBotania quests have been updated. EnderIO capacitor quests have been fixed.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 243,
+            "yPos": 30,
+            "width": 173.0,
+            "height": 165.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]CHANGELOG 0.1.0[/b]",
+            "wrap": 0,
+            "size": 1.7000002,
+            "color": "FF555555",
+            "xPos": 24,
+            "yPos": 9,
+            "width": 217.0,
+            "height": 7.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The Insert Witty Title Update",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 28,
+            "yPos": 22,
+            "width": 178.0,
+            "height": 8.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]NEW MODS[/b]",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 8,
+            "yPos": 32,
+            "width": 79.0,
+            "height": 5.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[u]DRACONIC EVOLUTION[/u] - Extremely powerful equipment only obtainable in the QUEST Tablet.\n[u]SOLAR FLUX[/u] - RF Energy versions of Solar Panels, similar to Compact Solars.\n[u]ZTones[/u] - Lots more blocks for various techy designs.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 15,
+            "yPos": 41,
+            "width": 179.0,
+            "height": 64.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]REVAMPED CONTRACT SYSTEM[/b]",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 10,
+            "yPos": 145,
+            "width": 189.0,
+            "height": 6.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The contract system has been reworked to enable immediate submissions instead of cooldowns. You can temporarily automate fulfilling contracts with a SAG Mill.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 11,
+            "yPos": 153,
+            "width": 186.0,
+            "height": 41.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]TRADER CHITS[/b]",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 231,
+            "yPos": 13,
+            "width": 180.0,
+            "height": 6.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "As part of the revamp, Contracts no longer give reputation, and their payout has been cut heavily. Instead, contracts give a few coins and a Trader Chit. Combine trader chits into larger and larger values, and the higher the value you turn in, the more its worth in money and Reputation!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 240,
+            "yPos": 23,
+            "width": 175.0,
+            "height": 24.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]REMOVED MODS[/b]",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 10,
+            "yPos": 117,
+            "width": 122.0,
+            "height": 8.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[u]Growthcraft[/u] - Due to not updating to new Fluid system in time.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 14,
+            "yPos": 125,
+            "width": 189.0,
+            "height": 15.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]QUEST UPDATES[/b]",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 235,
+            "yPos": 107,
+            "width": 136.0,
+            "height": 6.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Many quests in EnderIO, Botania, Compact Machines, Progressive Automation, and MineFactory Reloaded have been updated to fix issues.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 242,
+            "yPos": 117,
+            "width": 176.0,
+            "height": 43.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]RFTOOLS CHANGES[/b]",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 238,
+            "yPos": 161,
+            "width": 175.0,
+            "height": 10.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Dimlet cost, rarities, and blacklist have been updated. Dimlet crates are available again in the shop!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 244,
+            "yPos": 171,
+            "width": 173.0,
+            "height": 20.0
+          }
+        }
+      ],
+      "pageName": "clog010"
+    },
+    {
+      "features": [],
+      "pageName": ""
+    }
+  ],
+  "uniqueName": "The_Ferret_Business_Guide_v008b",
+  "color": 10092726,
+  "showBackground": true,
+  "showArrows": true,
+  "showNumber": true,
+  "iconPass1": "",
+  "iconPass2": "",
+  "iconColorisePass1": false,
+  "iconColorisePass2": false,
+  "iconColorPass1": 0,
+  "iconColorPass2": 0,
+  "language": "en_US",
+  "displayName": "Ferret Business Assistant Handbook",
+  "displayInCreative": true
+}

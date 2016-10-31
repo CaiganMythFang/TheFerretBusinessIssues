@@ -1,0 +1,260 @@
+[
+  {
+    "Name": "Job Title",
+    "Neutral": {
+      "Name": "New Assistant",
+      "Value": 0,
+      "Neutral": true,
+      "Id": 16
+    },
+    "Markers": [
+      {
+        "Name": "Staff Assistant",
+        "Value": 250,
+        "Neutral": false,
+        "Id": 0
+      },
+      {
+        "Name": "Head Assistant",
+        "Value": 450,
+        "Neutral": false,
+        "Id": 1
+      },
+      {
+        "Name": "Junior Researcher",
+        "Value": 1000,
+        "Neutral": false,
+        "Id": 2
+      },
+      {
+        "Name": "Researcher",
+        "Value": 2000,
+        "Neutral": false,
+        "Id": 3
+      },
+      {
+        "Name": "Research Specialist",
+        "Value": 3000,
+        "Neutral": false,
+        "Id": 4
+      },
+      {
+        "Name": "Assistant Manager",
+        "Value": 5000,
+        "Neutral": false,
+        "Id": 5
+      },
+      {
+        "Name": "Department Manager",
+        "Value": 8000,
+        "Neutral": false,
+        "Id": 6
+      },
+      {
+        "Name": "Company Secretary",
+        "Value": 9000,
+        "Neutral": false,
+        "Id": 7
+      },
+      {
+        "Name": "Director",
+        "Value": 11500,
+        "Neutral": false,
+        "Id": 8
+      },
+      {
+        "Name": "Member of the Board",
+        "Value": 13000,
+        "Neutral": false,
+        "Id": 9
+      },
+      {
+        "Name": "Vice Chairman",
+        "Value": 14000,
+        "Neutral": false,
+        "Id": 10
+      },
+      {
+        "Name": "Chairman of the Board",
+        "Value": 16000,
+        "Neutral": false,
+        "Id": 11
+      },
+      {
+        "Name": "Vice President",
+        "Value": 17000,
+        "Neutral": false,
+        "Id": 12
+      },
+      {
+        "Name": "President",
+        "Value": 18000,
+        "Neutral": false,
+        "Id": 13
+      },
+      {
+        "Name": "Chief Operating Officer",
+        "Value": 19000,
+        "Neutral": false,
+        "Id": 14
+      },
+      {
+        "Name": "Chief Dooking Officer",
+        "Value": 20000,
+        "Neutral": false,
+        "Id": 15
+      }
+    ],
+    "Id": 0
+  },
+  {
+    "Name": "Shop Loyalty Points",
+    "Neutral": {
+      "Name": "Dirt Tier",
+      "Value": 0,
+      "Neutral": true,
+      "Id": 10
+    },
+    "Markers": [
+      {
+        "Name": "Wood Tier",
+        "Value": 5,
+        "Neutral": false,
+        "Id": 0
+      },
+      {
+        "Name": "Stone Tier",
+        "Value": 50,
+        "Neutral": false,
+        "Id": 1
+      },
+      {
+        "Name": "Tin Tier",
+        "Value": 100,
+        "Neutral": false,
+        "Id": 2
+      },
+      {
+        "Name": "Iron Tier",
+        "Value": 250,
+        "Neutral": false,
+        "Id": 3
+      },
+      {
+        "Name": "Bronze Tier",
+        "Value": 500,
+        "Neutral": false,
+        "Id": 4
+      },
+      {
+        "Name": "Steel Tier",
+        "Value": 750,
+        "Neutral": false,
+        "Id": 5
+      },
+      {
+        "Name": "Gold Tier",
+        "Value": 1000,
+        "Neutral": false,
+        "Id": 6
+      },
+      {
+        "Name": "Emerald Tier",
+        "Value": 1500,
+        "Neutral": false,
+        "Id": 7
+      },
+      {
+        "Name": "Obsidian Tier",
+        "Value": 2000,
+        "Neutral": false,
+        "Id": 8
+      },
+      {
+        "Name": "Diamond Tier",
+        "Value": 2500,
+        "Neutral": false,
+        "Id": 9
+      }
+    ],
+    "Id": 1
+  },
+  {
+    "Name": "Trader Rank",
+    "Neutral": {
+      "Name": "Opportunist",
+      "Value": 0,
+      "Neutral": true,
+      "Id": 11
+    },
+    "Markers": [
+      {
+        "Name": "Journeyman",
+        "Value": 5,
+        "Neutral": false,
+        "Id": 0
+      },
+      {
+        "Name": "Profiteer",
+        "Value": 50,
+        "Neutral": false,
+        "Id": 1
+      },
+      {
+        "Name": "Vendor",
+        "Value": 100,
+        "Neutral": false,
+        "Id": 2
+      },
+      {
+        "Name": "Trader",
+        "Value": 200,
+        "Neutral": false,
+        "Id": 3
+      },
+      {
+        "Name": "Entrepreneur",
+        "Value": 400,
+        "Neutral": false,
+        "Id": 4
+      },
+      {
+        "Name": "Wholesaler",
+        "Value": 600,
+        "Neutral": false,
+        "Id": 5
+      },
+      {
+        "Name": "Broker",
+        "Value": 900,
+        "Neutral": false,
+        "Id": 6
+      },
+      {
+        "Name": "Economist",
+        "Value": 1200,
+        "Neutral": false,
+        "Id": 7
+      },
+      {
+        "Name": "Capitalist",
+        "Value": 1500,
+        "Neutral": false,
+        "Id": 8
+      },
+      {
+        "Name": "Mogul",
+        "Value": 2000,
+        "Neutral": false,
+        "Id": 9
+      },
+      {
+        "Name": "Tycoon",
+        "Value": 4000,
+        "Neutral": false,
+        "Id": 10
+      }
+    ],
+    "Id": 2
+  }
+]

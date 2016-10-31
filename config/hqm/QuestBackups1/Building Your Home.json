@@ -1,0 +1,3973 @@
+{
+  "name": "Building Your Home",
+  "description": "Hello hello there! My name is Daisy, and I\u0027m a Decorator, Designer, Developer....some other things that aren\u0027t as important, but my main passion is Designing and Decorating! I\u0027m known as Decorator Daisy, and I can help you spruce up your Home slash Base slash Cave, and make it feel more comfortable! Step on in...",
+  "quests": [
+    {
+      "name": "A Fashionable Greeting",
+      "description": "Hm hm hmmm, Bitsy passed on to me that an assistant is stuck in another world, possibly alone and...well, they could use all the help they can get! I take it that is you? Of course it is, it has your name right here on my QUEST Tablet : Bandit, Very Lost Assistant. Don\u0027t worry, it\u0027s not saying you don\u0027t know anything, just the name we give Assistants who are kind of...unretrievable. You aren\u0027t exactly the FIRST assistant The Ferret Business has teleported out of reach. But fret not my fine ferret, with my help you\u0027ll be putting your own mark on that world yet! In fact, why don\u0027t you make a sign so you can proclaim it yours?",
+      "x": 15,
+      "y": 12,
+      "icon": {
+        "id": "minecraft:sign"
+      },
+      "prerequisites": [
+        "{Initial Research}[Nature]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "In the Name of Me!",
+          "longDescription": "By crouching when you place a sign, you can lay it flat on the front of a chest, flat on the ground, or even flat on the ceiling!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:sign"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "Bibliocraft",
+      "description": "A house is not a home unless it has that...personal...touch, I say. Whether its a shelf full of treasured knicknacks, a favorite picture on the wall, or just simply a desk to call your own and a bookshelf full of novels. To make your house a home, I know of a lot of different bits of furniture and decorations that look spectacular. Not only that, most everthing is functional in some way as well! Now to start, lets make this cute little desk bell. Its useful if you plan on running a hotel desk or a shop counter, otherwise its just a cute adornment.",
+      "x": 153,
+      "y": 101,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 16
+      },
+      "prerequisites": [
+        "{Initial Research}[Nature]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Ding Ding Ding Ding!",
+          "longDescription": "You can ding the bell by Right Clicking it, or by sending a Redstone Signal to it!",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:BiblioBell"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "A Grand Timepiece",
+      "description": "A digital clock is all well and good, easy to read at a glance, but it doesn\u0027t have much...well, style, does it? Sure sure, fancy fonts and decorative frames are possible, but sometimes tried and true classics give the best style to a situation! The Grandfather clock is elegant and really stands out in a room. The clock face shows you the local time, while the pendulum (the little swinging thing) is synced to us here in The Ferret Business, ticks every Real second.",
+      "x": 153,
+      "y": 71,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 6
+      },
+      "prerequisites": [
+        "Bibliocraft"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Why a Whole Wagon Full?!",
+          "longDescription": "You can make it twice as tall by stacking one on top of another, then Sneak + Right Clicking each Clock with a Screwgun or Hand Drill.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 6
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "name": "No Writer\u0027s Block",
+      "description": "Given that you are kind of stuck in that world for a while, I bet you have a ton of things to write, right? Notes maybe, instructions to yourself or other assistants you may have found. Or heck, books, entire novels just swimming in your head, and now the time to write them...well, when you aren\u0027t clawing and scraping about to survive. I have a lot of beautiful and useful furniture you can make use of!",
+      "x": 95,
+      "y": 101,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Elegant Display"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Old Fashioned",
+          "longDescription": "Even in this age of Computers, there is something lovely about an old Typewriter. You can place a pile of papers into it, and then tap away at the front to type up a novel! Or, you can hire a ghostwriter! Give some creature or animal a name with a Nametag, then plop them in front of the typewriter! Just note that...what they write maaay not be all that legible...",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 7
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "An Elegant Workbench",
+          "longDescription": "By combining the functions of a Bookcase and a Crafting Table, you can not only save space, but also work better! With a normal Book, you can write a recipe to it on this, then place it onto the built in Shelf (or any book for that matter!)",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 8
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Saving Great Works",
+          "longDescription": "The Typesetting Table allows you to copy Signed Books onto Printing Plates, to make a copy of later. Hold the book and right click it onto the lower left spot on top of the table. You can then Sneak + Right Click it to turn it blue and save it. Hold and Right Click a Printing Press Chase into the spot near the back of the tabletop, then right click the gray areas to the left or right of the Chase. You can select a saved book here, and then apply a Redstone Signal to the Typesetting Table to copy the book to the Chase.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:Typesetting Machine"
+              }
+            },
+            {
+              "item": {
+                "id": "BiblioCraft:item.BiblioChase"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Reprinting Great Works",
+          "longDescription": "The Chase you just made can be taken to this Printing Press. Right Click it onto the center area to put it in, then Right Click some Ink Sacs near it to apply Ink to the Press. Take a regular Book (not a Book and Quill or a written Book), and Right Click it onto the lower left countertop to place it there. When all three items are in the Printing Press, it will start working to make a copy of the book. When the book turns Blue, you can pick it up!",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:Printing Press"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Elegant Display",
+      "description": "Nothing makes better decor than showing off your curios. Simple things like a pretty stone, to complicated things like a Nether Star, can be shown off equally well in the right circumstances. I have a wide array of shelves and ways to show off your collections.",
+      "x": 125,
+      "y": 101,
+      "icon": {
+        "id": "BiblioCraft:Bibliotheca"
+      },
+      "prerequisites": [
+        "Bibliocraft"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Well Read",
+          "longDescription": "These Bookcases are much more elegant than your vanilla Bookshelf. You can store up to 16 different books on this by Right Clicking a book onto it to place it in that spot, and later grab it off by Sneak + Right Clicking the book with an empty hand. For Enchanting purposes, every 8 books on a Bookcase counts as a single Bookshelf.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 13
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Knick Knack Shelf",
+          "longDescription": "Each Shelf can hold up to 4 stacks of items. Place them on the shelf by Right Clicking one of the four spots, and you can remove the item again by just Right Clicking it.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 16
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Handy, Man",
+          "longDescription": "You can Right Click almost any tool to place it up on this Rack. Right Click it again to remove it.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 15
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Bubbly Bubbly",
+          "longDescription": "If you are a wiz Alchemist, you probably have a big pile of Potions about. These Shelves are great for storing and displaying them. Each one can hold 12 Potions for you! Simply place them or remove them with a Right Click.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 17
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Strong Case",
+          "longDescription": "If you have a unique, single special item you\u0027d like to display, why not make a Case just for it? These fancy cases can be opened by Sneak + Right Clicking them with an empty hand, then the item placed inside. Sneak + Right Click again to close the case and secure the display. ",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 14
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "High Class Rack",
+          "longDescription": "Sometimes old school goodness can really improve a room. If you have old Jukebox Music Discs, you can place them in this Disc Rack to display them nicely. You can place these on the floor, the wall, or even the ceiling, and rotate them around by holding a Screwgun or Hand Drill and Sneak + Right Clicking.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:BiblioStuffs",
+                "damage": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Proper Plating",
+          "longDescription": "Dinnerware is a fancy, timeless thing to add to any dining room. These Plates are large enough to hold three different food items, and can be eaten off of directly.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:BiblioStuffs",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Did You Take One?!",
+          "longDescription": "This Cookie Jar should be a staple in all kitchens. It\u0027s a special one, in that any item put into it will show up as a Cookie on the outside, making it a fantastic place to hide something. It even emits a Redstone signal when the jar is opened, to make a trap to catch Cookie thieves!",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:BiblioStuffs"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 35
+        }
+      ]
+    },
+    {
+      "name": "Painted Dreams",
+      "description": "Wooden walls, stone walls, wallpaper, all of it is nice but tends to be kind of monotonous in large rooms, no? I like to break up large, empty expanses of walls with Paintings! They come in lots of sizes, with a wide range of designs you can choose from! ",
+      "x": 153,
+      "y": 162,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 10
+      },
+      "prerequisites": [
+        "Bibliocraft"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A Blank Start",
+          "longDescription": "You\u0027ll need a proper canvas to start with, something to  print the design onto.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:item.PaintingCanvas",
+                "nbt": "{blank:1b}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Pressed for Style",
+          "longDescription": "Take your Painting Canvas and place it into this Press. You can choose from a nice selection of Paintings to print onto it. You can\u0027t place this directly on the wall yet, you\u0027ll need to make a frame for it.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:BiblioPaintPress"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Framed Elegance",
+          "longDescription": "There are a bunch of different ways to frame your Paintings on the wall. You can make a  Borderless one so it looks like a poster, or you can make varying style of frames to place the Painting into. I\u0027ll only ask you to make two of them, though, don\u0027t worry!",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 9
+              },
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 10
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "You Are Here",
+          "longDescription": "Know what else looks fantastic on a wall? A map, of course! You can use these Map Frames much like the Painting Frames, but they have the added bonus of being useable with a few fantastic tools...",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 11
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Sight the North Star",
+          "longDescription": "When you have a map up on a Map Frame, you can use the Drafting Compas to mark locations on it. With the Waypoint Compass, you can use it on a waypoint you marked with the Drafting Compass, or Sneak + Right Click it to enter coordinates and the Compass will point towards it.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:item.BiblioMapTool"
+              }
+            },
+            {
+              "item": {
+                "id": "BiblioCraft:item.BiblioWayPointCompass"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "name": "Warrior\u0027s Pride",
+      "description": "To a fighter, a lot of his arms and armor are more about helping him survive than they are about looks...but thats perfect, as they tend to LOOK good as well. Symmetrical armor, a lot of layers, textures, all of it combined look fantastic. You can proudly show off your gear with these stands.",
+      "x": 182,
+      "y": 130,
+      "icon": {
+        "id": "BiblioCraft:BiblioSwordPedestal"
+      },
+      "prerequisites": [
+        "Bibliocraft"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Fit To Protect",
+          "longDescription": "You can display various outfits on this stand. Right clicking will open up an interface where you can place the armor, but if you Sneak + Right Click instead, you\u0027ll swap whatever you are wearing (even if its nothing!) with the armor piece you click!",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:Armor Stand"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Better Than A Stone",
+          "longDescription": "You can place almost any sword into this pedastal to display it. When it is holding a sword, it emits a Redstone Signal, which is great for creating showy light effects on cue.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:BiblioSwordPedestal"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Informational Fancy",
+      "description": "Not my usual way to spruce up a place, but using Signs and Labels can be quite helpful, and who says these things can\u0027t also LOOK nice as well? Made with the various types of wood, you can get these to fit into any decorative theme, I feel.",
+      "x": 153,
+      "y": 131,
+      "icon": {
+        "id": "BiblioCraft:BiblioFancySign"
+      },
+      "prerequisites": [
+        "Bibliocraft"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Designer Label",
+          "longDescription": "A sign on a chest tends to get in the way when you are labeling things. This little label is quite handy, as it doesn\u0027t cover the front of the Chest. Open the interface by Right Clicking it with an empty hand.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 18
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Like a Billboard!",
+          "longDescription": "The Fancy Sign is wonderful, you can customize the text on it in various ways, and even display a couple items on it! Sneak + Right Click it with an empty hand to open up the interface, which explains everything.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 19
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "A Hip Style",
+      "description": "Glasses...well, they tend to fade in and out of style, really. Sometimes they are out of style and you should probably wear contacts, other times the old school Monocole is best. For us, Glasses are ALWAYS in, as they are quite helpful in pointing out small things with many of these decorative things I\u0027m showing you.",
+      "x": 182,
+      "y": 101,
+      "icon": {
+        "id": "BiblioCraft:item.BiblioGlasses"
+      },
+      "prerequisites": [
+        "Bibliocraft"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "What About a Crowbar?",
+          "longDescription": "When worn, Glasses, Tinted Glasses, and Monocoles will pop up text of any item in a Bibliocraft block, such as the name of a Book in a Bookcase, what Potion on a Potion Shelf, etc.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:item.BiblioGlasses"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Nerdy Aviators?",
+          "longDescription": "You can give a stylish tint to your Reading Glasses quite easily.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:item.BiblioGlasses",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Hmm, Yes, Undoubtably",
+          "longDescription": "You can also make a Monocole for a more high-brow look.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:item.BiblioGlasses",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "See n\u0027 Saw",
+          "longDescription": "What better way to show your style than by making something unique? You\u0027ll need a Framing Saw to start with, then you can combine it with any kind of Plank to make Framing Boards and Sheets.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:item.FramingSaw"
+              }
+            },
+            {
+              "item": {
+                "id": "BiblioCraft:item.FramingBoard"
+              }
+            },
+            {
+              "item": {
+                "id": "BiblioCraft:item.FramingSheet"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Stone Chairs are ARTISTIC!",
+          "longDescription": "You can use Framing Sheets in place of Wood Planks and Framing Panels in place of Slabs in a recipe to make a Framed version of the furniture. You can then place it into a Furniture Paneler, and design it with almost any Solid Block texture.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:BiblioPaneler"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "BiblioCraft:BiblioSeats",
+                "damage": 6
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "name": "Special Editions",
+      "description": "Books contain so much knowledge. They can also contain much, much more! Our bookshelves can be filled with endless storybooks and instruction manuals, but there are a couple of very special books we can fill them with as well, each one doing something different.",
+      "x": 125,
+      "y": 131,
+      "icon": {
+        "id": "BiblioCraft:item.BigBook",
+        "nbt": "{author:\"caigan\"}"
+      },
+      "prerequisites": [
+        "Informational Fancy",
+        "Elegant Display"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Omnibus",
+          "longDescription": "For when a regular Book isn\u0027t big enough or fancy enough, the Big Writing Book lets you have multiple chapters, fancy text, and much more! ",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:item.BigBook",
+                "nbt": "{author:\"caigan\"}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Holds No Secrets",
+          "longDescription": "The Slotted Book looks like a signed book and can be renamed. Only instead of a story, it contains a single item slot within it.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:item.SlottedBook",
+                "nbt": "{authorName:\"by caigan\"}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Greed! HAH!",
+          "longDescription": "When placed in a Bookcase, this book emits a Redstone Signal at the strength of the slot its put in. If put in the upper left, it emits no signal, but the lower right slot emits full strength. Don\u0027t forget you can rename this in an Anvil!",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:item.BiblioRedBook",
+                "nbt": "{redstonebook:\"by caigan\"}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Ferret Maps? fMaps? Hm...",
+          "longDescription": "If you like drawing maps while exploring, you eventually come to the point where you are holding more maps than actual tools...Thats where the Atlas comes in! It can hold, display, organize, and even draw up new maps for you! You can also enchant the Atlas, and if you die, you\u0027ll reappear with an Eternal Compass that will guide you back to your stuff!",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:item.AtlasBook",
+                "nbt": "{zoomLevel:0,maps:[],mapSlot:-1,autoCenter:0b,autoCreate:0b,lastGUImode:0,Inventory:[]}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "name": "Enlightened",
+      "description": "Being able to see in the dark is quite useful, and we can\u0027t all wear fancy night vision goggles. They aren\u0027t very stylish anyways. What IS stylish, though, are metal Lamps, especially in Gold! All of these lamps look slightly different whether you place them on the floor, the wall, or the ceiling. They can also be colored various colors with a bit of dye!",
+      "x": 210,
+      "y": 101,
+      "icon": {
+        "id": "BiblioCraft:BiblioLamp"
+      },
+      "prerequisites": [
+        "Bibliocraft"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A Lamp For A Desk",
+          "longDescription": "You can make the lamps out of either Iron or Gold.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:BiblioIronLamp"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "BiblioCraft:BiblioLamp"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Lantern in a Storm",
+          "longDescription": "You can make the lantern out of either Iron or Gold.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:BiblioIronLantern"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "BiblioCraft:BiblioLantern"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Handy Tools",
+      "description": "Decorating isn\u0027t all just pointing and color matching, a lot of it requires special tools. Does this room have enough space for a bed? Did we get all the furniture we wanted? And so on and so on. All these tools I use regularly and should be quite helpful to you as well!",
+      "x": 182,
+      "y": 71,
+      "icon": {
+        "id": "BiblioCraft:item.HandDrill"
+      },
+      "prerequisites": [
+        "Bibliocraft"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Measure Twice, Block Once",
+          "longDescription": "The Tape Measure helps you measure distances between two points. Right Click it onto the first block, then on the second block to see how far the two are from each other. You can also rotate items on tables with this by Right Clicking it onto one of the sides of the table.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:item.tape"
+              }
+            },
+            {
+              "item": {
+                "id": "BiblioCraft:item.tapeMeasure",
+                "nbt": "{distance:0}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Making a List...",
+          "longDescription": "The Clipboard allows you to make multiple lists and check them off. Handy when you have a big project going.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:item.BiblioClipboard"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Vzzt, Vzzzzt",
+          "longDescription": "The Screw Gun and Hand Drill do the same things. They can rotate most Bibliocraft and Vanilla blocks when Sneak + Right Clicking. Many Bibliocraft blocks can also be changed just by Right Clicking them with one of these tools.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:item.HandDrill"
+              }
+            },
+            {
+              "item": {
+                "id": "BiblioCraft:item.BiblioDrill"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Not Quite Mariana Deep...",
+          "longDescription": "Not sure how deep that ocean is, or how far to the ground that jump is? Break out a Plumb Line and find out! Stand right in front of the drop you want to measure the depth of and Right Click with this item. It\u0027ll tell you how far down the next solid block is.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:item.PlumbLine"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Your Table Awaits",
+      "description": "Standing, its all well and good, but after a while its quite tiring. Especially if you are trying to do something like...say eat dinner or read a book or write a book or...well, lots of things! Thankfully you have plenty of options for both sitting and working, from desks and tables to chairs and thrones. A wide range of styles and options to choose from!",
+      "x": 124,
+      "y": 71,
+      "icon": {
+        "id": "BiblioCraft:BiblioDesk"
+      },
+      "prerequisites": [
+        "Bibliocraft"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A Tabled Discussion",
+          "longDescription": "Tables are handy for placing items on by simply Right Clicking them onto the table. You can then rotate them by Right Clicking a Tape Measure on any side of the table. You can also add a tablecloth by right clicking the top with a Carpet, or add a rug by Right Clicking the side of the table with the Carpet. You can remove a tablecloth by Right Clicking the top with a Screwgun or Handsaw, and a Rug by Sneak + Right Clicking the side of the Table with a Screwgun or Handsaw.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 20
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Clean Desk",
+          "longDescription": "You can place Books down on this desk by Right Clicking them either on the back left or right corners to stack them, or the center to place an open book. You can grab a book by Sneak + Right Clicking with an empty hand. A Typewriter set on the desk will automatically stack finished Books onto one of the two stacks.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 21
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Simple Seat",
+          "longDescription": "You can upholster these seats by Right Clicking it with a colored Carpet. You can connect multiple seats together by holding a Screwgun or Hand Drill and Sneak + Right Clicking each one you want to connect together. Repeat the process to disconnect them.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 22
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Lot of Support",
+          "longDescription": "There is a wide array of of options when you want to add a back to your Seats. You can rotate which way the back is facing by Sneak + Right Clicking the legs of the Seat with a Hand Drill or Screwgun. You can remove the Seat Back and the Upholstery by Sneak + Right Clicking the top of the Seat.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 23
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "name": "Carpenter\u0027s Blocks",
+      "description": "You know, in architecture, the common \u0027style\u0027 has been squares. Right angles. Rectangles. Anything with a 90 degree angle. Steps are just small stacks of squares. Even \u0027round\u0027 buildings are made with columns of square blocks, just arranged in a circle. Practical, but...boring. I think we can add a little pizzazz to any building just by embracing the odd angle. ",
+      "x": 277,
+      "y": 192,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 21
+      },
+      "prerequisites": [
+        "{Initial Research}[Nature]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "The Squared Circle",
+          "longDescription": "It all starts...with a square. Yes, I know, I talk about angles and slopes, but it all stems from the core structure of a Carpenter\u0027s Block.",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:blockCarpentersBlock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "A Carpenter\u0027s Tools",
+      "description": "Now, those Carpenter\u0027s Blocks I showed you how to make are special. You can Right Click any other solid block onto it to apply it as a Cover. Carpenter\u0027s Blocks, and many other blocks you can make WITH Carpenter\u0027s Blocks, like Carpenter\u0027s Stairs, have Side Covers, which can be placed on top of normal covers. Each \"side\" that can have a cover can be customized with a different block, and further customized with a chiseled texture if you Right Click a Carpenter\u0027s Chisel on it. You can remove any Cover on a block by Sneak + Right Clicking the Cover with a Carpenter\u0027s Hammer.",
+      "x": 302,
+      "y": 191,
+      "icon": {
+        "id": "CarpentersBlocks:itemCarpentersHammer"
+      },
+      "prerequisites": [
+        "Carpenter\u0027s Blocks"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Hammer Time",
+          "longDescription": "The Hammer is useful not just for removing Covers, but for customizing almost any Carpenter\u0027s Block. By Right Clicking the Hammer on a block, you can cycle through its \u0027styles\u0027. You can then rotate the block around by Left Clicking on the block with the Hammer.",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:itemCarpentersHammer"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Elegant Carving",
+          "longDescription": "Want a design to POP more with some texture? Take out your Carpenter\u0027s Chisel and Left or Right Click on a Carpenter\u0027s Block that has a Cover on it. ",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:itemCarpentersChisel"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "More Construction Options",
+      "description": "Now, Carpenter\u0027s Blocks can be knocked into half slabs with a hammer, but that can bring your designs only so far, you know? You have a variety of stairs and slops you can use as well! Not only that, you can put an Overlay on many of these blocks! Overlays add another layer of design to your builds, just Sneak + Right Click one of these items onto the block to add it as an Overlay.                                         Seed for Grass                          Snowball for Snow                       Vine for Vine                              String for Web                            Wheat for Hay                            Mushroom for Mycellium",
+      "x": 302,
+      "y": 162,
+      "icon": {
+        "id": "CarpentersBlocks:blockCarpentersStairs"
+      },
+      "prerequisites": [
+        "A Carpenter\u0027s Tools"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Staircase to Heaven",
+          "longDescription": "Stairs and Slopes will automatically try to orient themselves if you Right Click them against the face of a Carpenter\u0027s Block. If this orients them oddly, you can hold Sneak when Right Clicking to prevent this.",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:blockCarpentersStairs"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Rolling Slope",
+          "longDescription": "Slopes have a wide variety of designs. You can cycle through them after placing them with a Hammer like usual, but you can also hold them in your hand, hold Sneak and use your Mouse Wheel to cycle through them.",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:blockCarpentersSlope"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Folding to Pressure",
+          "longDescription": "Want finer control of the slopes? Place down some of these Collapsible Blocks and Right Click a corner or quadrant to lower it, or Left Click to raise it. It\u0027ll try to keep an even transition between blocks, but you can hold Sneak when raising or lowering a block to ignore this ability.",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:blockCarpentersCollapsibleBlock"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Barrier to Entry",
+          "longDescription": "Carpenter\u0027s Barriers will automatically create posts at intersections and corners, and you can force a post connection by Left Clicking the barrier with your Carpenter\u0027s Hammer. You can cycle through fence styles by Right Clicking with your Hammer, but the normal Fence style can have the board depth changed by Sneak + Right Clicking with your hammer.",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:blockCarpentersBarrier"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Quite Accessable",
+      "description": "Now, it wouldn\u0027t be much of a home if we couldn\u0027t get into it, now would it? Nor would it be stylish if we couldn\u0027t make these things match current trends either! Just like Carpenter\u0027s Blocks, Slopes, Stairs, etc, you can place Covers on these to customize them!",
+      "x": 277,
+      "y": 162,
+      "icon": {
+        "id": "CarpentersBlocks:itemCarpentersDoor"
+      },
+      "prerequisites": [
+        "A Carpenter\u0027s Tools"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Doorway to Beyond",
+          "longDescription": "Left or Right Click a door with your Carpenter\u0027s Hammer to cycle through the different door styles. You can also Sneak + Right Click to switch between Wood and Iron Door behaviour. If you switch to Iron Door behaviour, it will require a Redstone Signal to open.",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:itemCarpentersDoor"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Big Entrance",
+          "longDescription": "A Garage Door needs to be placed underneath a solid block, where it will then extend down to the floor. If you open a Garage Door and there are other Garage Doors  next to it, all of them will open at the same time.",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:blockCarpentersGarageDoor"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Below Deck",
+          "longDescription": "Just like the Carpenter\u0027s Door, Right or Left Click with a Carpenter\u0027s Hammer to cycle styles.",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:blockCarpentersHatch"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Gated Community",
+          "longDescription": "Like Carpenter\u0027s Barriers, Right Click with a Carpenter\u0027s Hammer to cycle styles, or Sneak + Right Click the normal gate style to change its plank depth.",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:blockCarpentersGate"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Pressing Matters",
+          "longDescription": "Left Click on the Carpenter\u0027s Pressure Plate with a Carpenter\u0027s Hammer to switch Redstone polarity (whether it emits a signal when something IS or ISN\u0027T on it). Right Click with the Hammer to change what triggers the Pressure Plate: either players, animals, monsters, or everything. The pressure plate can also be placed on any side of a block.",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:blockCarpentersPressurePlate"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Whose Got the Button?",
+          "longDescription": "Left Click either of these with your Carpenter\u0027s Hammer to switch the polarity of the Redstone Signal. You can place either of these on any side of a block as well.",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:blockCarpentersButton"
+              }
+            },
+            {
+              "item": {
+                "id": "CarpentersBlocks:blockCarpentersLever"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Up and Away",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:blockCarpentersLadder"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Quite Homey",
+      "description": "Nothing makes a house a home more than decorating it to your own style. Your own bed, a pretty flower in a beautiful flowerpot, wall to wall eye catching designs, there are plenty of ways to give something your personal touch. Did you know you can also add Dyes to most Carpenter\u0027s Blocks as well? Take normal Vanilla Dye powder, and Sneak + Right Click the Dye onto the Carpenter\u0027s Block. Sneak + Left Click with a Carpenter\u0027s Hammer to get the Dye back.",
+      "x": 253,
+      "y": 134,
+      "icon": {
+        "id": "CarpentersBlocks:itemCarpentersBed"
+      },
+      "prerequisites": [
+        "A Carpenter\u0027s Tools"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Bright Light",
+          "longDescription": "Cycle between Torch styles by Right Clicking with a Carpenter\u0027s Hammer. The uncovered style will randomly extinguish if it is out in the rain. You can either relight it with another torch, or wait until the rain stops and it will reignite itself.",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:blockCarpentersTorch"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Day or Night",
+          "longDescription": "Left Click with a Carpenter\u0027s Hammer to change Redstone Polarity. Right Click to change when the Sensor will trigger: Player Sleep (when it gets dark enough to sleep or light enough to wake), Monster Spawn (When the light enters or exits the level where monsters would spawn), or Sun Exposure (Redstone output depending on orientation of the sun compared to the orientation of the Sensor). You can place the Sensor on the side of a block, but it will be less sensitive to the light.",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:blockCarpentersDaylightSensor"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Pretty Plants",
+          "longDescription": "You can plant most things in the Carpenter\u0027s Flower Pot. Right Click inside the pot to place soil, then Right Click a seed on the Pot to plant it. You can Sneak + Right Click the plant to remove it, then the Soil to remove it as well. You can Sneak + Right Click to remove the Cover. Left or Right Click the Pot with a Carpenter\u0027s Hammer to cycle through designs (You cannot have both a Design and a Cover). You can also Fertilize some plants with Bone Meal, where they will take on a lively green color. ",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:blockCarpentersFlowerPot"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Cozy and Comfy",
+          "longDescription": "To Dye the frame of the bed, apply it to the Head of the Bed. To Dye the Blanket, apply it to the Foot of the Bed. If just coloring the Blanket isn\u0027t enough, Left or Right Click on it with a Carpenter\u0027s Hammer to cycle through some designs!",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:itemCarpentersBed"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Paper Walls",
+          "longDescription": "You can remove a tile by Sneak + Left Clicking them with a Carpenter\u0027s Hammer. Left or Right click them normally with the Hammer to cycle through designs, then Sneak + Right Click them to rotate the design. Unlike other Carpenter\u0027s Blocks, Dyes used on Tiles will not be consumed.",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:itemCarpentersTile"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Safe Keeping",
+          "longDescription": "With your Carpenter\u0027s Hammer, Right Click a safe to set whether Pipes or similar Item Transport methods can extract or input items. Sneak + Right Click to Lock or Unlock the safe. When locked, the light on the front turns Red, and only you and server operators will be able to open or break the safe. The blue light strip designates what percentage of slots are used. You can upgrade the capacity by holding a Gold Ingot, an Emerald, or a Diamond and Sneak + Right Clicking the safe.",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:blockCarpentersSafe"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 35
+        }
+      ]
+    },
+    {
+      "name": "Malisis\u0027 Doors",
+      "description": "Plain wood and metal doors are so...plain. And boring. We have so many stylish options for walls, ceilings, floors, furniture, why not doors as well? See, I know of a great designer known as M, who I\u0027ve been talking with behind the scenes, and he\u0027s shown me some fantastic designs and given me great tips and tricks for designing eye catching doors!",
+      "x": 280,
+      "y": 40,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 52
+      },
+      "prerequisites": [
+        "{Initial Research}[Technology]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Open, Says a\u0027 Me!",
+          "longDescription": "The first thing he showed me was a fantastic way to open doors without ever having to leave fingerprints on them! This can be placed on a wall next to a door, or connected to Redstone that leads to the door. When you or an assistant walks up to it, it\u0027ll send a Redstone signal, which will open the door upon your approach!",
+          "items": [
+            {
+              "item": {
+                "id": "malisisdoors:player_sensor"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Classical Doorways",
+      "description": "As much as I posture about being eye catching and unique, there still is a place for old school, reliable designs, with perhaps a little twist. As long as they fit the design of the rest of the building, that is. It\u0027d be quite silly to have an old wooden door be the way into a high-tech laboratory, after all!",
+      "x": 258,
+      "y": 10,
+      "icon": {
+        "id": "malisisdoors:item.wood_sliding_door"
+      },
+      "prerequisites": [
+        "Malisis\u0027 Doors"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A Slide to the Left",
+          "longDescription": "These work just like their normal wood and iron counterparts, but instead of rotating on a hinge, they slide into the walll next to them!",
+          "items": [
+            {
+              "item": {
+                "id": "malisisdoors:item.wood_sliding_door"
+              }
+            },
+            {
+              "item": {
+                "id": "malisisdoors:item.iron_sliding_door"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Foreign Flair",
+          "longDescription": "These elegant doors are much like the sliding ones, except they slide open and close much slower.",
+          "items": [
+            {
+              "item": {
+                "id": "malisisdoors:item.shoji_door"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Curtain Call",
+          "longDescription": "Sometimes a solid door just isn\u0027t necessary. Fabric itself can lend a nice touch, giving a bit of privacy as well as style to a room.",
+          "items": [
+            {
+              "item": {
+                "id": "malisisdoors:item.curtain_purple"
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Specialty Doors",
+      "description": "Making lovely, unique doors for a domicile is one thing, but why don\u0027t we make some nice doors for a business or the like as well? If your work is as comfortable as your home, you work harder and longer and are more relaxed! Well, usually I would think. ",
+      "x": 301,
+      "y": 11,
+      "icon": {
+        "id": "malisisdoors:garage_door"
+      },
+      "prerequisites": [
+        "Malisis\u0027 Doors"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Vertical Slider",
+          "longDescription": "The Garage Door can be any size, as long as all the pieces are facing the same way. When you apply a Redstone Signal to any part of it, the entire door will slide upward as a single unit. ",
+          "items": [
+            {
+              "item": {
+                "id": "malisisdoors:garage_door"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Factoried",
+          "longDescription": "The Factory Door opens by splitting in the center and sliding both up and down.",
+          "items": [
+            {
+              "item": {
+                "id": "malisisdoors:item.factory_door"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "D\u0027s Laboratory",
+          "longDescription": "The Laboratory Door slides upward when opened. It does not function as a double door.",
+          "items": [
+            {
+              "item": {
+                "id": "malisisdoors:item.laboratory_door"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Super Jail Door",
+          "longDescription": "The Jail Door opens by sliding sideways. It can also only be opened by a Redstone Signal.",
+          "items": [
+            {
+              "item": {
+                "id": "malisisdoors:item.jail_door"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "A Little Old, A Little New",
+      "description": "There\u0027s something to be said about really atmospheric builds. Using modern materials to build some sort of themed creation, making the outside of your house look like a submarine or a lighthouse or some super futuristic fortress. Using a normal door just wouldn\u0027t cut it for these. ",
+      "x": 258,
+      "y": 70,
+      "icon": {
+        "id": "malisisdoors:item.rustyHandle"
+      },
+      "prerequisites": [
+        "Malisis\u0027 Doors"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Rusty But Reliable",
+          "longDescription": "This rustic doorway comes complete with its own rusty ladders! It takes a lot of space, though, as you need room for the giant door to open. If you place it on the top half of a block side, it\u0027ll open upwards.",
+          "items": [
+            {
+              "item": {
+                "id": "malisisdoors:item.rustyHandle"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "malisisdoors:rustyHatch"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Bolted Verticality",
+          "longDescription": "If you need to extend the ladder of the Rusty Hatch, or just want a more atmospheric ladder, you can make more Rusty Ladders.",
+          "items": [
+            {
+              "item": {
+                "id": "malisisdoors:rustyLadder"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "In the Year 3000",
+          "longDescription": "The Forcefield Controller can make a Forcefield doorway of nearly any size (It has a limit of about 100 blocks). Right Click it on the side of the first block, then on the second block you want to create the Forcefield between. You can then turn the forcefield on and off with the Controller. Sneak + Right Click the Controller on the Forcefield to remove it instead.",
+          "items": [
+            {
+              "item": {
+                "id": "malisisdoors:item.forcefieldItem",
+                "nbt": "{energy:2000}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Truely Your Own",
+      "description": "There are a lot of different styles of doors for you to choose from, but sometimes none of them fit your decor just right. With the Door Factory, you can mix blocks together to make a custom door, selecting the material for the frame and the door itself. You can also choose how it opens, what sounds it makes, and more! Perhaps, though, you also want to customize your blocks? With the Block Mixer, you can blend two blocks together.  With both of these, you can use a Bucket of Water or a Bucket of Lava to have a \u0027flowing\u0027 texture of that liquid. You can also use an Ender Pearl to show a swirling Portal.",
+      "x": 239,
+      "y": 40,
+      "icon": {
+        "id": "malisisdoors:door_factory"
+      },
+      "prerequisites": [
+        "Malisis\u0027 Doors"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A Factory for Doors",
+          "longDescription": "On top of the other options, you can use a Flint and Steel to have a fire effect on the door as well.",
+          "items": [
+            {
+              "item": {
+                "id": "malisisdoors:door_factory"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Solid Mixer",
+          "longDescription": "When mixing blocks, if the block emits light, the custom block will too. Mixing in a Redstone Block will have it emit redstone. Non-opaque blocks like glass will make the block see-through.",
+          "items": [
+            {
+              "item": {
+                "id": "malisisdoors:block_mixer"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Here and Gone Again",
+      "description": "Sometimes, you want a door that\u0027s just different. Whether its a heavy solid door flush with the rest of the wall, or a door that looks just like the wall itself, hiding your entrance so only you know where it is, you have a lot of options with Vanishing Frames! Once placed, you can Right Click any block onto the Vanishing Frame to copy its looks. When a Redstone Signal is applied to one, it will propogate the signal to all connected Vanishing Frames, though in different ways depending on what type of Vanishing Frame you\u0027ve got.",
+      "x": 303,
+      "y": 70,
+      "icon": {
+        "id": "malisisdoors:vanishing_block",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Malisis\u0027 Doors"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Simple Wood",
+          "longDescription": "The Wooden Vanishing Frame will transmit the Redstone Signal to neighboring frames of all types.",
+          "items": [
+            {
+              "item": {
+                "id": "malisisdoors:vanishing_block"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Neighborly Iron",
+          "longDescription": "Iron will only propogate the Redstone Signal to other Vanishing Frames that are copying the same block.",
+          "items": [
+            {
+              "item": {
+                "id": "malisisdoors:vanishing_block",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Picky Gold",
+          "longDescription": "Gold Vanishing Frames are like Iron, but will only propogate the signal to frames with the same Block and Metadata. This means If you activate one that looks like White Wool, it won\u0027t send the signal to one that looks like Green Wool.",
+          "items": [
+            {
+              "item": {
+                "id": "malisisdoors:vanishing_block",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Special Diamond",
+          "longDescription": "Diamond Vanishing Frames let you customize all these behaviours, even include a delay before it propogates the Redstone Signal!",
+          "items": [
+            {
+              "item": {
+                "id": "malisisdoors:vanishing_block",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 35
+        }
+      ]
+    },
+    {
+      "name": "Tails",
+      "description": "You know, sometimes its not just your home you can customize. What about yourself? Well, with the QUEST Tablet, you can customize yourself with a spiffy, fluffy tail! Or some cute wings or ears! Just hit ESC for the main menu, and at the bottom is a button to customize your look! Choose from a wide variety of tails, wings, and ears, color them to your liking, and even save them as an outfit!",
+      "x": 44,
+      "y": 11,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 45
+      },
+      "prerequisites": [
+        "{Initial Research}[Nature]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "REPUTATION",
+          "description": "Tails, Wings, Ears, Oh My!",
+          "reputation": [
+            {
+              "reputation": 0,
+              "lower": 16,
+              "inverted": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "Chisel 2",
+      "description": "Take a simple piece of Stone...or is it so simple? There are so many different things you can do to and with a piece of Stone. You can arrange it in various ways. You can paint it various colors. You can shape it. You can also...Chisel it. With a simple Chisel and an eye for decoration, you can turn lots of simple, many times boring, materials into spectacular, eye catching fancies! All you need is your Chisel and a stack of materials!",
+      "x": 152,
+      "y": 11,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 22
+      },
+      "prerequisites": [
+        "{Initial Research}[Nature Technology]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Carve It Up!",
+          "longDescription": "((Search for Chisel from Chisel 2 in NEI))                                   Right Click your Chisel to get the Inteface. You can put a wide variety of blocks in the left side, to see what you can turn them into in the right. If you Chisel a block and place it back into the left slow, you can close the Interface and then Left Click the same type of block in the world to change it to that design!",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:chisel",
+                "nbt": "{chiselTarget:{}}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "A Custom Home",
+      "description": "There are a lot of things you can do to spruce up both the inside and outside of your home. Unique carpets, unique walls, unique ceilings! Even make the gifts you give unique!",
+      "x": 124,
+      "y": 11,
+      "icon": {
+        "id": "chisel:carpet"
+      },
+      "prerequisites": [
+        "Chisel 2"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Thick Like Shag",
+          "longDescription": "Thread some String in Wool to make Carpet. The outside edges of placed Carpet will have a different design than the center.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:carpet_block"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Warm Rug For Bare Feet",
+          "longDescription": "You can combine two Carpet to make a Floor Carpet, also known as a Rug.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:carpet"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Textured Touch",
+          "longDescription": "You can give Stained Clay walls a bit of a textured touch to them by adding Wool.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:woolen_clay"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Far East Flair",
+          "longDescription": "By surrounding a wooden Stick with Paper, you can get this thin, elegant wall material. ",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:paperwall"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Paper Box",
+          "longDescription": "By combining a handful of the Paper Walls, you can make it into a box, widening your design choices.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:paperwall_block"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "name": "Naturally Custom",
+      "description": "There are plenty of naturally created materials you can harvest and Chisel, these three being some of the more interesting! They are not as common as Stone is, but can be found underground all the same.",
+      "x": 152,
+      "y": 40,
+      "icon": {
+        "id": "chisel:granite"
+      },
+      "prerequisites": [
+        "Chisel 2"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "And A Sight For Sore Eyes!",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:andesite"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "It\u0027s Di-O-Rite!",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:diorite"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Taking It For Granite.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:granite"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Tossable Toys",
+      "description": "There\u0027s a few ways you can spruce up a build that doesn\u0027t involve taking your Chisel to it. These three \u0027toys\u0027 are quite different from each other, but be careful with them all the same!",
+      "x": 96,
+      "y": 11,
+      "icon": {
+        "id": "chisel:cloudinabottle"
+      },
+      "prerequisites": [
+        "Chisel 2"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Bottled Dreams",
+          "longDescription": "Bottling some Quartz in Glass gets you a Cloud in a Bottle. You can Right click it to throw it, and where it hits spawns a big, fluffy cloud! It is the only way to get special Cloud blocks to Chisel.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:cloudinabottle"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Something Something Rolling",
+          "longDescription": "By wrapping Vines and Sticks together, you get a Ball of Moss. When Right Clicked to throw it, any Cobblestone the splash hits will be covered in Moss.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:ballomoss"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "SMASH!",
+          "longDescription": "Combining a Stone Pickaxe and Shovel and putting them in a Glass Bottle (don\u0027t ask how!), you get something you can throw that will smash Stone to Cobble, Cobble to Gravel, and Gravel to Sand.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:smashingrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "A Custom Fantasy",
+      "description": "What if I told you that you could Chisel your way to a more fantastical life? Well, you can at least Chisel yourself a nice Fantasy setting. Your imagination is the limit with all these designs you can just picture being from stalwart dwarves, elegant elves, and mad overlords.",
+      "x": 182,
+      "y": 40,
+      "icon": {
+        "id": "chisel:lavastone"
+      },
+      "prerequisites": [
+        "Chisel 2"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Fantastic Marble",
+          "longDescription": "Surrounding a Gold Nugget with Stone gets you this white marble and gold inlaid block. great for princely castles.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:fantasyblock"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Mysterious Temple",
+          "longDescription": "If your designs are less flashy and more spiritual, look no further than the Temple Block, obtainable by surrounding some Blue Dye with Stone.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:templeblock"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Of Fire and Ice",
+          "longDescription": "By surrounding either a Bucket of Water or a Bucket of Lava with Stone, you get a pair of opposing blocks that look purely elemental.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:waterstone"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "chisel:lavastone"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Heaven and Hell",
+          "longDescription": "If opposing elements isn\u0027t your fantasy, then how about the divine struggle? Surrounding a Feather with Stone gets you Holystone, while surrounding some Coal gets you Grimstone.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:holystone"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "chisel:grimstone"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Out Of This World",
+          "longDescription": "Beyond this mortal plane is the Void. Surrounding an Ender Pearl with Obsidian and Stone nets you this fantastically mesmerizing block.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:voidstone"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 35
+        }
+      ]
+    },
+    {
+      "name": "A Custom Road",
+      "description": "Inside the home and inside the office aren\u0027t the only places you can Chisel your own artistic touch : how about outside on the road? Theres a lot of sidewalk and street designs, plus many signs you can make!",
+      "x": 124,
+      "y": 40,
+      "icon": {
+        "id": "chisel:warningSign"
+      },
+      "prerequisites": [
+        "Chisel 2"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Solid Design",
+          "longDescription": "By smelting Gravel, you can make Concrete. This is fantasic material for both walkways and roadways.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:concrete"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Guiding Path",
+          "longDescription": "What is a proper road without proper lines? Mix some Redstone with some White Dye to make an eye-catching guide.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:road_line"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Pay Attention!",
+          "longDescription": "Surrounding a Sign with Stone lets you make an very noticeable warning sign!",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:warningSign"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Improved Chisel Tools",
+      "description": "Your basic Iron Chisel is great and all, but it eventually wears out. Not to mention, if you are making a BIG construction, thats a whole lot of things you need to Chisel. By hand. My fingers hurt just thinking about it! Well, here\u0027s a set of advanced tools that should really help you out!",
+      "x": 208,
+      "y": 11,
+      "icon": {
+        "id": "chisel:autoChisel"
+      },
+      "prerequisites": [
+        "Chisel 2"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Carving With Diamond",
+          "longDescription": "The Diamond Chisel has a few distinct advantages. One, it lasts longer, thats for sure. Two, you can change Modes on it to Chisel larger amounts of placed blocks at once!",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:diamondChisel",
+                "nbt": "{chiselMode:\"SINGLE\",chiselTarget:{}}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Chisel Harder",
+          "longDescription": "The Auto Chisel does what it says on the tin. You can place a Chisel into it, a basic material, and the Chiseled variation you want, and it\u0027ll slowly, steadily Chisel them for you!",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:autoChisel"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Chisel Faster",
+          "longDescription": "The Speed Upgrade speeds up how fast the Auto Chisel works.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:upgrade"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Chisel Better",
+          "longDescription": "Normally, the Auto Chisel does not allow you to pipe or transport items into or out of it via pipe or other method. That is, unless you have the Automation upgrade.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:upgrade",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Chisel Stronger",
+          "longDescription": "Why Chisel things one at a time? The Stack Upgrade makes the Auto Chisel work on entire stacks of materials at once!",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:upgrade",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "A Custom Workplace",
+      "description": "How truely efficient is a workplace if it doesn\u0027t look and feel like a fantastic place to spend a third of your day in? Not that efficient, I\u0027d say! If your workplace looks like every other concrete and wood, cookie cutter box, then how can you put 100% effort into your job? Well, you can Chisel your way to a nicer work environment!",
+      "x": 182,
+      "y": 11,
+      "icon": {
+        "id": "chisel:laboratoryblock"
+      },
+      "prerequisites": [
+        "Chisel 2"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Laboratorious",
+          "longDescription": "Laboratories are well known for their pristine, uniform walls that are easy to clean and maintain. Surrounding some Quartz with Stone will give us this clean look.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:laboratoryblock"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Modern Metal",
+          "longDescription": "Looking for something less futuristic and a little more modern? Combining Stone and Iron nets you a Technical look, complete with giant fans, wires, and more.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:technical"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Clearly Modern",
+          "longDescription": "Switching a bit of Stone for Glass, you can make some Technical blocks with transparency in them.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:technical2"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Old Factory",
+          "longDescription": "If you want to go back a bit to the rise of Industry, look no further than the Factory block. A little less Stone, and you have more rustic looking metal parts!",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:factoryblock"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Back to the Futura",
+          "longDescription": "Surrounding Redstone with Stone gets you a much more Futuristic set of blocks. ",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:futura"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Well Armored",
+          "longDescription": "For that futuristic Armored look, the Tyrian block gives you lots of options. Just surround an Iron Bar with Stone.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:tyrian"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Hexalicious",
+          "longDescription": "Another Futuristic look is to go Hexagonal. By surrounding a Coal Block with Stone, you get Hex Plating that looks amazingly futuristic.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:hexPlating"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Anti Dark? Anti Light? Anti...",
+          "longDescription": "Need to light an area to see in, but not, you know...ACTUALLY light it? Well, surround some Glowstone Dust with Stone and you\u0027ll get an Anti Block. It illuminates very brightly...but only itself. If you put it in a pitch black room, you can see only it clearly...and anything else that walks between you and it. You could probably use this for a greenscreen!",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:antiBlock",
+                "damage": 15
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 35
+        }
+      ]
+    },
+    {
+      "name": "Armourer\u0027s Workshop",
+      "description": "Designing your home, designing your work, designing your games...what is left? Well, designing your wardrobe of course! And not just as a fashion statement, but as a way to protect yourself! What if you could make a spectacular, fancy hat that also doubled as a pair of magic goggles? Or a posh, frilly dress that also blocked zombie bites? Or how about a paper fan that was actually a razor sharp sword? The possibilities, as always, are endless! But we have to start somewhere...and that somewhere is called the Equipment Cube. This will allow you to make designs that \u0027replace\u0027 the look of many of your armor and weapons. It won\u0027t work on ALL armor and weapons...but a lot of them! Heck, you can even change the look of your Arrows and even Blocks!",
+      "x": 153,
+      "y": 191,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 38
+      },
+      "prerequisites": [
+        "{Initial Research}[Technology]"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A Solid Canvas",
+          "longDescription": "This is the Equipment Cube. You\u0027ll need a lot of them, but they\u0027ll be reusable for each project. ",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Forging a Guide",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "A Better Forge",
+      "description": "Now that we have some basic Equipment Cubes, we\u0027ll need a \u0027forge\u0027 to use them in. And by forge, I don\u0027t mean a hot smelter and an anvil. No, this is much more fashionable! You\u0027ll be crafting this armor yourself, as if you were building a house. Don\u0027t look at me like that, you\u0027ll understand soon! You\u0027ll need a nice big area, I\u0027d say at least 50x50x50 blocks big. And a ton of Equipment Cubes, you cannot use any other material in your designs, sorry!",
+      "x": 127,
+      "y": 191,
+      "prerequisites": [
+        "Armourer\u0027s Workshop"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Big Head Mode Activated",
+          "longDescription": "When you place this down, be ready for a BIG surprise! Okay, now that the shock is over, you can see, well, your own head on an epic scale! This way, you can hand-craft the look of your armor and weapons as if you were constructing a building. You can select the different parts of the body you want to design for.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Skin Game",
+          "longDescription": "You will need somewhere to save your design, which we call a Skin. The Skin Template can be placed in the Armourer, a name typed in, and when you are done building with Equipment Cubes, you can save the design to the Template. You can now Wear your design! You\u0027ll probably have to rebind your Armor Skin screen though...I suggest the Minus key!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Download an Armor?",
+          "longDescription": "The Equipment Library is where you can save and load Skins from your hard drive (or the server you are playing on). There are some basic Skins already available for you to chose from!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Fancy Wrapper",
+          "longDescription": "    While one way of applying skins is your Skin Equipment menu, sometimes you want a skin to be specific to a piece of armor. The Skinning Table allows you to apply a Skin to some pieces of equipment. Then when you or anyone uses it, it will have the skin instead!                  To remove the Skin from the equipment, combine it with Soap in your Skinning Table.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 35
+        }
+      ]
+    },
+    {
+      "name": "Expanded Materials",
+      "description": "Basic Equipment Cubes are only the start! You can design your Skins with transparent Equipment Cubes as well! Not only that, how about glowing versions? Fabulous! ",
+      "x": 98,
+      "y": 191,
+      "prerequisites": [
+        "A Better Forge"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Transparent, Mostly.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "You Got the Glow",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Energistic!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "In Living Color",
+      "description": "On their own, Equipment Cubes give shape to your Armor and Weapon designs...but are kind of boring. They are a single, uniform color, which is where all these tools come in!",
+      "x": 184,
+      "y": 191,
+      "prerequisites": [
+        "Armourer\u0027s Workshop"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Brushie Brushie",
+          "longDescription": "To apply color, you\u0027re going to need some brushes to start with. The basic Paint Brush will color one Equipment Cube at a time, while the Paint Roller will cover a 3x3x1 area.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Mix A Bit",
+          "longDescription": "To get the Color you want, you\u0027ll need a Colour Mixer. You can adjust the color setting in it, then place either a Paint Brush or Paint Roller in the top right slot to apply it. You can also hold one of these Brushes and Sneak + Right Click it on the Colour Mixer itself to copy the color.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Nice Sample",
+          "longDescription": "You can Right Click this Colour Picker to copy the color on any Equipment Cube. You can then either place it, or Sneak + Right Click it, on a Colour Mixer to copy the colour to it.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Advanced Tools",
+          "longDescription": "Each of these tools can be used to add various color enhancements to your Equipment Cubes. You can Sneak + Right Click each one to set the Intensity of its function.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock",
+                "nbt": "{intensity:16}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock",
+                "nbt": "{intensity:16}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock",
+                "nbt": "{intensity:16}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock",
+                "nbt": "{intensity:16}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Colorful Customization",
+          "longDescription": "    You may have noticed in the Colour Mixer, that you can choose the Type of Dye, between Normal, Dye 1 through 8, and None. When you are creating a Skin, you can apply a Type to a tool, and if it is a Dye #, you will see Dots on the Equipment Cubes.                              This will let you set your Skins to have different Dyeable sections. When you create a Skin, you can designate some or all the blocks to be dyeable. If you made a sword, you could make the Handle Dye 1, Blade Dye 2, and decorations Dye 3.     You will then need to fill Dye Bottles with the colors you want, and bring the Bottles and Skin to the Dye Table, where you can see how the dyed colors look before accepting it.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "A Fine Display",
+      "description": "You know, you can make all kinds of Skins...but you can only wear one set at a time! Just stashing them in a box doesn\u0027t seem right, so how about making a Mannequin for them? You can pose it and place any Skin Templates on it to customize it. You can even have it mimic someone\u0027s clothing by putting their name on a Name Tag in an Anvil, and then Right Clicking the Tag onto the Mannequin.",
+      "x": 214,
+      "y": 191,
+      "prerequisites": [
+        "A Better Forge"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Did it Turn to Look at Me?!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "DecoCraft",
+      "description": "    There are a lot of things that make a house a home, or a workplace a business, or a lab a laboratory. To me, its the little touches that matter. A kid\u0027s room doesn\u0027t seem fun without some stuffed animals, nor does a lab look scientific without some beakers, right? Well, you can make all these little accroutements from a simple material called Crafting Clay! ",
+      "x": 19,
+      "y": 101,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 39
+      },
+      "prerequisites": [
+        "{Initial Research}[Nature]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Feet of Clay",
+          "longDescription": "A little Sand, a little Dirt, and some Green, Red, or Blue dye is all you need! Even Monsters seem to love it, it can drop from many different creatures!",
+          "items": [
+            {
+              "item": {
+                "id": "props:clay"
+              }
+            },
+            {
+              "item": {
+                "id": "props:clay",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "props:clay",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Crafty Bench",
+          "longDescription": "    Now that you have some materials to work with, you can work them in a normal Crafting Bench, or you can make yourself a DecoBench!                                     The DecoBench can be filled with large amounts Red, Blue, and Green Crafting Clay, or even filled with the basic Clay and dye. You can then easily search and craft any of the hundreds of Decocraft items!",
+          "items": [
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 508
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "Tons of Toys",
+      "description": "Toys are fun to look at, fun to collect, and tend to keep the little ones busy and out of your hair...at least until they break the toy. These, at least, are quire sturdy!",
+      "x": 19,
+      "y": 71,
+      "icon": {
+        "id": "props:props",
+        "damage": 76
+      },
+      "prerequisites": [
+        "DecoCraft"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "All Fun and Games",
+          "items": [
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "props:props"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 238
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 76
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 227
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Big Business",
+      "description": "Eye catching displays and tools of the trade are standard fare for businesses. What better way to show people what you sell than a big sign?",
+      "x": 45,
+      "y": 71,
+      "icon": {
+        "id": "props:props",
+        "damage": 105
+      },
+      "prerequisites": [
+        "DecoCraft"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Old World and New World",
+          "items": [
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 105
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 7
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 201
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 188
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 317
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "A House a Home",
+      "description": "Nothing makes you feel more at home than being in a house full of things you love, be it people, possessions, or both!",
+      "x": 45,
+      "y": 101,
+      "icon": {
+        "id": "props:props",
+        "damage": 303
+      },
+      "prerequisites": [
+        "DecoCraft"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A Place to Relax",
+          "items": [
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 117
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 293
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 453
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 303
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 276
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Worldly Wonders",
+      "description": "The world is a great big place, full of interesting things. Why not make some of them to show them off?",
+      "x": 46,
+      "y": 132,
+      "icon": {
+        "id": "props:props",
+        "damage": 373
+      },
+      "prerequisites": [
+        "DecoCraft"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Whole Wide World",
+          "items": [
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 373
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 15
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 353
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 272
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 173
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Festive Fun",
+      "description": "Holidays and celebrations are a great time and a perfect excuse to go all out with decorations!",
+      "x": 19,
+      "y": 132,
+      "icon": {
+        "id": "props:props",
+        "damage": 32
+      },
+      "prerequisites": [
+        "DecoCraft"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Is it Halloween? Christmas?",
+          "items": [
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 32
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 41
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 135
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 147
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 448
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

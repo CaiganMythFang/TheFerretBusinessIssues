@@ -1,0 +1,2710 @@
+{
+  "groups": [
+    {
+      "name": "Blind Item",
+      "weight": 125,
+      "rewards": [
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "minecraft:dye",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "minecraft:stone",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "minecraft:cobblestone",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "minecraft:bookshelf",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "minecraft:red_flower",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "minecraft:apple",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "minecraft:leather_boots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "minecraft:cookie",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "minecraft:book",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "minecraft:diamond",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Botania:flower",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Botania:livingrock",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Botania:livingwood",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Botania:tinyPotato",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Botania:petal",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Botania:pestleAndMortar",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Botania:customBrick",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Botania:manaCookie",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Botania:fertilizer",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Botania:manasteelPick",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "EnderIO:itemMaterial",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "EnderIO:itemMaterial",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "EnderIO:itemMaterial",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "EnderIO:itemMachinePart",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "EnderIO:itemPowderIngot",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "EnderIO:itemPowderIngot",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "EnderIO:blockPaintedWall",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "EnderIO:itemConduitFacade",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "EnderIO:itemSoulVessel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ExtraUtilities:cobblestone_compressed",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ExtraUtilities:cobblestone_compressed",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ExtraUtilities:colorStoneBrick",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 10
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ExtraUtilities:colorWoodPlanks",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 10
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ExtraUtilities:curtains",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ExtraUtilities:paintbrush",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ExtraUtilities:decorativeBlock1",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ExtraUtilities:pipes",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ExtraUtilities:golden_bag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ExtraUtilities:trashcan",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Natura:planks",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Natura:planks",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 10
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Natura:redwood",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Natura:redwood",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Natura:Glowshroom",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Natura:Glowshroom",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Natura:Glowshroom",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Natura:NetherLever",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Natura:Natura.bookshelf",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Natura:boneBag",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "simplyjetpacks:components",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "simplyjetpacks:components",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "simplyjetpacks:components",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "simplyjetpacks:components",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 12
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "simplyjetpacks:armorPlatings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "simplyjetpacks:particleCustomizers",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "simplyjetpacks:fluxpacks",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "simplyjetpacks:particleCustomizers",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "simplyjetpacks:particleCustomizers",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "simplyjetpacks:jetpacks",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "warpbook:warpbook",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "warpbook:warppage",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "BiblioCraft:BiblioTypewriter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 12
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "BiblioCraft:BiblioPotionShelf",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "BiblioCraft:BiblioStuffs",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "BiblioCraft:BiblioStuffs",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "BiblioCraft:BiblioStuffs",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "BiblioCraft:item.BiblioMapTool",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "BiblioCraft:item.tapeMeasure",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "distance:3": 0
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "BiblioCraft:Bibliotheca",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 6,
+              "tag": {
+                "renderTexture:8": "forestry:wood/planks.pine"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "CarpentersBlocks:blockCarpentersBarrier",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "CarpentersBlocks:blockCarpentersButton",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "CarpentersBlocks:blockCarpentersFlowerPot",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "CarpentersBlocks:blockCarpentersGarageDoor",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "CarpentersBlocks:blockCarpentersSafe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "CarpentersBlocks:blockCarpentersLever",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "CarpentersBlocks:blockCarpentersHatch",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "CarpentersBlocks:blockCarpentersLadder",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "CarpentersBlocks:blockCarpentersBlock",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "CarpentersBlocks:itemCarpentersHammer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "malisisdoors:player_sensor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "malisisdoors:rustyLadder",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "malisisdoors:item.wood_sliding_door",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "malisisdoors:item.laboratory_door",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "malisisdoors:item.factory_door",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "malisisdoors:item.rustyHandle",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "malisisdoors:item.curtain_purple",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "malisisdoors:door_factory",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "chisel:chisel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "chisel:cloudinabottle",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "chisel:smashingrock",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "chisel:woolen_clay",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "chisel:waterstone",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "chisel:warningSign",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "chisel:paperwall_block",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "chisel:gold_block",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 12
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "props:props",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 76
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "props:props",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 337
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "props:props",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 275
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "props:props",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 238
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "props:props",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 373
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "props:props",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 333
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "props:props",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 317
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "props:props",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 239
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "IronChest:BlockIronChest",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "IronChest:copperSilverUpgrade",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "IronChest:woodIronUpgrade",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "IronChest:woodCopperUpgrade",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "IronChest:BlockIronChest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "IronChest:BlockIronChest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "openmodularturrets:baseTierWood",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "openmodularturrets:grenadeCraftable",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "openmodularturrets:rocketCraftable",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "openmodularturrets:fenceTierOne",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "openmodularturrets:ferroSlug",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "openmodularturrets:bulletCraftable",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "openmodularturrets:disposeItemTurret",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "openmodularturrets:railGunTurret",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "EnderStorage:enderChest",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "EnderStorage:enderPouch",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "CompactMachines:shrinker",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "CompactMachines:enlarger",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "CompactMachines:interfaceitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "CompactMachines:quantumentangler",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "JABBA:upgradeStructural",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "JABBA:upgradeStructural",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "JABBA:upgradeCore",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "JABBA:upgradeCore",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "JABBA:upgradeCore",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "JABBA:upgradeCore",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "JABBA:moverDiamond",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "JABBA:barrel",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "toolbox:itemToolbox",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "toolbox:itemToolbox",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "MineFactoryReloaded:meat.ingot.raw",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "MineFactoryReloaded:meat.ingot.cooked",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "MineFactoryReloaded:meat.nugget.raw",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "MineFactoryReloaded:meat.nugget.cooked",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "MineFactoryReloaded:syringe.empty",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "MineFactoryReloaded:potatolauncher",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "MineFactoryReloaded:rubber.raw",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "MineFactoryReloaded:machine.1",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "aura:AuraCrystal",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "aura:AuraCrystal",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "aura:AuraCrystal",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "aura:AuraCrystal",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "aura:AuraCrystal",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "aura:AuraCrystal",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "aura:AuraCrystal",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "aura:AuraCrystal",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "aura:auraNode",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "aura:angelStepBelt",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Thaumcraft:ItemShard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Thaumcraft:ItemShard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Thaumcraft:ItemShard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Thaumcraft:ItemShard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Thaumcraft:ItemShard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Thaumcraft:ItemShard",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Thaumcraft:ItemShard",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Thaumcraft:ItemGoggles",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "Thaumcraft:ItemResource",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ForbiddenMagic:MorphPickaxe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bonus Bag",
+      "weight": 36,
+      "rewards": [
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 25
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 25
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 25
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 75
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 75
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 100
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cheap Blind Bag",
+      "weight": 142,
+      "rewards": [
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 71
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 86
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 90
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 197
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 201
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 269
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 271
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 273
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 276
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 280
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 282
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 285
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 291
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 292
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 295
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 299
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 303
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 310
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 322
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 332
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 382
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Decent Blind Bag",
+      "weight": 194,
+      "rewards": [
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 72
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 87
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 91
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 198
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 266
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 277
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 283
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 286
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 293
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 296
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 300
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 304
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 311
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 323
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 333
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Good Blind Bag",
+      "weight": 138,
+      "rewards": [
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 73
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 88
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 117
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 199
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 267
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 278
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 287
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 297
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 301
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 312
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 324
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 334
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 75
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Amazing Blind Bag",
+      "weight": 111,
+      "rewards": [
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 85
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 118
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 268
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 279
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 302
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 313
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 325
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 330
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ferretshinies:BlindBag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 335
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 75
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

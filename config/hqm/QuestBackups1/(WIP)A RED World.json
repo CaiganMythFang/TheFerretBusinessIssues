@@ -1,0 +1,30 @@
+{
+  "name": "(WIP)A RED World",
+  "description": "    [WORK IN PROGRESS]                   This questline is not finished yet.  It will be added in a future update.",
+  "quests": [
+    {
+      "name": "RFTools",
+      "x": 76,
+      "y": 117,
+      "prerequisites": [
+        "{Initial Research}[Network Tools]"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 53
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

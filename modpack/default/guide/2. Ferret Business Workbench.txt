@@ -1,0 +1,8 @@
+§l 2. - The Ferret Business Workbench §r
+
+This workbench is used for various Ferret Business creations, including fulfilling Bulk Order Contracts and crating large amounts of low FMC value goods.
+
+{"image":"2-step1.png", "width":200, "height":80}
+{"image":"2-step2.png", "width":200, "height":80}
+{"image":"2-step3.png", "width":200, "height":80}
+

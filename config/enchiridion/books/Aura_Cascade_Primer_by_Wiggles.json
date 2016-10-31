@@ -1,0 +1,234 @@
+{
+  "book": [
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]AURA CASCADE[/b]\n    [b] PRIMER[/b]",
+            "wrap": 0,
+            "size": 2.0000002,
+            "color": "FF555555",
+            "xPos": 24,
+            "yPos": 70,
+            "width": 172.0,
+            "height": 36.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "by Wiggles, Familiar of Wizard Watson",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FF555555",
+            "xPos": 31,
+            "yPos": 105,
+            "width": 161.0,
+            "height": 8.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Aura is a simple concept with a complex system behind it, much like Thaumcraft.\n\nAura is not power, but it can create power. Think of Aura like water, which pools in what we call Aura Nodes.\n\nThis means a few things : \n    Nodes connected at the same height will share Aura until they are equal.\n    Aura will naturally flow downhill to a node under it, gathering power.\n    You must use a Pump to push Aura uphill to a node above it.\n    By making a loop, you can use a small amount of Aura to provide constant Power.\n\nI\u0027ll show you on the next page...",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 230,
+            "yPos": 8,
+            "width": 185.0,
+            "height": 183.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Aura_Cascade_Primer_by_Wiggles/aura-guide-1.png",
+            "xPos": 99,
+            "yPos": 7,
+            "width": 249.0,
+            "height": 99.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]1[/b]",
+            "wrap": 0,
+            "size": 1.6000001,
+            "color": "FF0000FF",
+            "xPos": 172,
+            "yPos": 96,
+            "width": 16.0,
+            "height": 11.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "1) Aura Node",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF0000FF",
+            "xPos": 6,
+            "yPos": 19,
+            "width": 75.0,
+            "height": 11.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]2[/b]",
+            "wrap": 0,
+            "size": 1.8000002,
+            "color": "FF006400",
+            "xPos": 223,
+            "yPos": 76,
+            "width": 16.0,
+            "height": 11.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "2) Moving Aura",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF006400",
+            "xPos": 5,
+            "yPos": 34,
+            "width": 91.0,
+            "height": 8.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]3[/b]",
+            "wrap": 0,
+            "size": 1.6000001,
+            "color": "FFDC143C",
+            "xPos": 291,
+            "yPos": 96,
+            "width": 16.0,
+            "height": 15.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "3) Pump",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFDC143C",
+            "xPos": 5,
+            "yPos": 48,
+            "width": 49.0,
+            "height": 7.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]4[/b]",
+            "wrap": 0,
+            "size": 1.4000001,
+            "color": "FF6A5ACD",
+            "xPos": 303,
+            "yPos": 49,
+            "width": 65.0,
+            "height": 8.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "4) Rising Aura",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF6A5ACD",
+            "xPos": 4,
+            "yPos": 64,
+            "width": 83.0,
+            "height": 8.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]5[/b]",
+            "wrap": 0,
+            "size": 1.5000001,
+            "color": "FF808000",
+            "xPos": 130,
+            "yPos": 92,
+            "width": 16.0,
+            "height": 49.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "5) Consumer",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF808000",
+            "xPos": 5,
+            "yPos": 80,
+            "width": 73.0,
+            "height": 7.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Here is an example of a basic loop. You supply an Aura Node (1) with some Aura. It will share this Aura with any Node North, South, East, or West of it. In this case, it will share its Aura with the Pump (3) to the right. You can see when Nodes are transfering power by the particles (2). Connected nodes share Aura until they all have the same amount.",
+            "wrap": 0,
+            "size": 0.9,
+            "color": "FF555555",
+            "xPos": 12,
+            "yPos": 114,
+            "width": 179.0,
+            "height": 84.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Aura cannot naturally travel upwards. It requires a Pump (3) to push it to a Node above it (4). Aura does, however, naturally flow DOWNWARD, and when it does it generates Power, the higher the distance Aura drops, the more Power it generates, which is used to power various machines called Consumers, like the Cascading Grower (5) here, which speeds up crop growth.",
+            "wrap": 0,
+            "size": 0.9,
+            "color": "FF555555",
+            "xPos": 232,
+            "yPos": 114,
+            "width": 179.0,
+            "height": 78.0
+          }
+        }
+      ],
+      "pageName": ""
+    }
+  ],
+  "displayNames": {
+    "en_US": "Aura_Cascade_Primer_by_Wiggles"
+  },
+  "uniqueName": "Aura_Cascade_Primer_by_Wiggles",
+  "color": 16777215,
+  "showBackground": true,
+  "showArrows": true,
+  "showNumber": true,
+  "iconPass1": "",
+  "iconPass2": "",
+  "iconColorisePass1": false,
+  "iconColorisePass2": false,
+  "displayName": "Aura Cascade Primer by Wiggles",
+  "iconColorPass1": 0,
+  "iconColorPass2": 0
+}

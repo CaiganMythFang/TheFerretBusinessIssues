@@ -1,0 +1,2519 @@
+[
+  {
+    "name": "Blind Item",
+    "colour": "LIGHT_GRAY",
+    "weights": [
+      100,
+      0,
+      0,
+      0,
+      0
+    ],
+    "groups": [
+      {
+        "name": "Minecraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:dye",
+            "damage": 3,
+            "amount": 4
+          }
+        ]
+      },
+      {
+        "name": "Minecraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:stone",
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "name": "Minecraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:cobblestone",
+            "amount": 64
+          }
+        ]
+      },
+      {
+        "name": "Minecraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:bookshelf",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Minecraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:red_flower",
+            "damage": 2,
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "name": "Minecraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:apple",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "name": "Minecraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:leather_boots"
+          }
+        ]
+      },
+      {
+        "name": "Minecraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:cookie",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "name": "Minecraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:book",
+            "amount": 4
+          }
+        ]
+      },
+      {
+        "name": "Minecraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:diamond"
+          }
+        ]
+      },
+      {
+        "name": "Botania Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Botania:flower",
+            "damage": 2,
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Botania Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Botania:livingrock",
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "name": "Botania Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Botania:livingwood",
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "name": "Botania Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Botania:tinyPotato"
+          }
+        ]
+      },
+      {
+        "name": "Botania Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Botania:petal",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "name": "Botania Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Botania:pestleAndMortar"
+          }
+        ]
+      },
+      {
+        "name": "Botania Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Botania:customBrick",
+            "damage": 3,
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "name": "Botania Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Botania:manaCookie",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "name": "Botania Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Botania:fertilizer",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "name": "Botania Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Botania:manasteelPick"
+          }
+        ]
+      },
+      {
+        "name": "Ender IO Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "EnderIO:itemMaterial",
+            "damage": 2,
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "name": "Ender IO Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "EnderIO:itemMaterial",
+            "damage": 1,
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "name": "Ender IO Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "EnderIO:itemMaterial",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "name": "Ender IO Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "EnderIO:itemMachinePart",
+            "damage": 1,
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "name": "Ender IO Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "EnderIO:itemPowderIngot",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "name": "Ender IO Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "EnderIO:itemPowderIngot",
+            "damage": 1,
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "name": "Ender IO Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "EnderIO:blockPaintedWall",
+            "damage": 1,
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "name": "Ender IO Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "EnderIO:itemBasicCapacitor",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "name": "Ender IO Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "EnderIO:itemConduitFacade",
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "name": "Ender IO Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "EnderIO:itemSoulVessel"
+          }
+        ]
+      },
+      {
+        "name": "Extra Utilities Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ExtraUtilities:cobblestone_compressed",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "name": "Extra Utilities Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ExtraUtilities:cobblestone_compressed",
+            "damage": 8,
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "name": "Extra Utilities Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ExtraUtilities:colorStoneBrick",
+            "damage": 10,
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "name": "Extra Utilities Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ExtraUtilities:colorWoodPlanks",
+            "damage": 10,
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "name": "Extra Utilities Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ExtraUtilities:curtains",
+            "amount": 6
+          }
+        ]
+      },
+      {
+        "name": "Extra Utilities Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ExtraUtilities:paintbrush"
+          }
+        ]
+      },
+      {
+        "name": "Extra Utilities Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ExtraUtilities:decorativeBlock1",
+            "damage": 9,
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "name": "Extra Utilities Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ExtraUtilities:pipes",
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "name": "Extra Utilities Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ExtraUtilities:golden_bag"
+          }
+        ]
+      },
+      {
+        "name": "Extra Utilities Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ExtraUtilities:trashcan"
+          }
+        ]
+      },
+      {
+        "name": "Natura Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Natura:planks",
+            "damage": 7,
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "name": "Natura Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Natura:planks",
+            "damage": 10,
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "name": "Natura Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Natura:redwood",
+            "damage": 1,
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "name": "Natura Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Natura:redwood",
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "name": "Natura Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Natura:Glowshroom",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "name": "Natura Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Natura:Glowshroom",
+            "damage": 1,
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "name": "Natura Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Natura:Glowshroom",
+            "damage": 2,
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "name": "Natura Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Natura:NetherLever",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "name": "Natura Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Natura:Natura.bookshelf",
+            "damage": 4,
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Natura Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Natura:boneBag",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "name": "Simply Jetpack Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "simplyjetpacks:components",
+            "amount": 4
+          }
+        ]
+      },
+      {
+        "name": "Simply Jetpack Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "simplyjetpacks:components",
+            "damage": 11
+          }
+        ]
+      },
+      {
+        "name": "Simply Jetpack Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "simplyjetpacks:components",
+            "damage": 11
+          }
+        ]
+      },
+      {
+        "name": "Simply Jetpack Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "simplyjetpacks:components",
+            "damage": 12
+          }
+        ]
+      },
+      {
+        "name": "Simply Jetpack Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "simplyjetpacks:armorPlatings",
+            "damage": 1
+          }
+        ]
+      },
+      {
+        "name": "Simply Jetpack Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "simplyjetpacks:particleCustomizers"
+          }
+        ]
+      },
+      {
+        "name": "Simply Jetpack Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "simplyjetpacks:fluxpacks",
+            "damage": 1
+          }
+        ]
+      },
+      {
+        "name": "Simply Jetpack Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "simplyjetpacks:particleCustomizers",
+            "damage": 2
+          }
+        ]
+      },
+      {
+        "name": "Simply Jetpack Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "simplyjetpacks:particleCustomizers",
+            "damage": 3
+          }
+        ]
+      },
+      {
+        "name": "Simply Jetpack Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "simplyjetpacks:jetpacks",
+            "damage": 4
+          }
+        ]
+      },
+      {
+        "name": "Warp Book Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "warpbook:warpbook"
+          }
+        ]
+      },
+      {
+        "name": "Warp Book Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "warpbook:warppage",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Bibliocraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "BiblioCraft:BiblioTypewriter",
+            "damage": 12
+          }
+        ]
+      },
+      {
+        "name": "Bibliocraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "BiblioCraft:BiblioPotionShelf",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Bibliocraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "BiblioCraft:BiblioStuffs",
+            "damage": 2,
+            "amount": 4
+          }
+        ]
+      },
+      {
+        "name": "Bibliocraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "BiblioCraft:BiblioStuffs"
+          }
+        ]
+      },
+      {
+        "name": "Bibliocraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "BiblioCraft:BiblioStuffs",
+            "damage": 3,
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Bibliocraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "BiblioCraft:item.BiblioMapTool"
+          }
+        ]
+      },
+      {
+        "name": "Bibliocraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "BiblioCraft:item.tapeMeasure",
+            "nbt": "{distance:0}"
+          }
+        ]
+      },
+      {
+        "name": "Bibliocraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "BiblioCraft:Bibliotheca",
+            "damage": 6,
+            "amount": 4,
+            "nbt": "{renderTexture:\"forestry:wood/planks.pine\"}"
+          }
+        ]
+      },
+      {
+        "name": "Carpenters Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "CarpentersBlocks:blockCarpentersBarrier",
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "name": "Carpenters Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "CarpentersBlocks:blockCarpentersButton",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "name": "Carpenters Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "CarpentersBlocks:blockCarpentersFlowerPot",
+            "amount": 4
+          }
+        ]
+      },
+      {
+        "name": "Carpenters Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "CarpentersBlocks:blockCarpentersGarageDoor",
+            "amount": 6
+          }
+        ]
+      },
+      {
+        "name": "Carpenters Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "CarpentersBlocks:blockCarpentersSafe"
+          }
+        ]
+      },
+      {
+        "name": "Carpenters Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "CarpentersBlocks:blockCarpentersLever",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "name": "Carpenters Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "CarpentersBlocks:blockCarpentersHatch",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Carpenters Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "CarpentersBlocks:blockCarpentersLadder",
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "name": "Carpenters Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "CarpentersBlocks:blockCarpentersBlock",
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "name": "Carpenters Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "CarpentersBlocks:itemCarpentersHammer"
+          }
+        ]
+      },
+      {
+        "name": "Malisis Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "malisisdoors:player_sensor"
+          }
+        ]
+      },
+      {
+        "name": "Malisis Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "malisisdoors:rustyLadder",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "name": "Malisis Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "malisisdoors:item.wood_sliding_door",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Malisis Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "malisisdoors:item.laboratory_door",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Malisis Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "malisisdoors:item.factory_door",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Malisis Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "malisisdoors:item.rustyHandle"
+          }
+        ]
+      },
+      {
+        "name": "Malisis Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "malisisdoors:item.curtain_purple"
+          }
+        ]
+      },
+      {
+        "name": "Malisis Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "malisisdoors:door_factory"
+          }
+        ]
+      },
+      {
+        "name": "Chisel 2 Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chisel:chisel"
+          }
+        ]
+      },
+      {
+        "name": "Chisel 2 Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chisel:cloudinabottle"
+          }
+        ]
+      },
+      {
+        "name": "Chisel 2 Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chisel:smashingrock",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "name": "Chisel 2 Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chisel:woolen_clay",
+            "damage": 8,
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "name": "Chisel 2 Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chisel:waterstone",
+            "damage": 4,
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "name": "Chisel 2 Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chisel:warningSign",
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "name": "Chisel 2 Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chisel:paperwall_block",
+            "damage": 6,
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "name": "Chisel 2 Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chisel:gold_block",
+            "damage": 12
+          }
+        ]
+      },
+      {
+        "name": "DecoCraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "props:props",
+            "damage": 76
+          }
+        ]
+      },
+      {
+        "name": "DecoCraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "props:props",
+            "damage": 337
+          }
+        ]
+      },
+      {
+        "name": "DecoCraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "props:props",
+            "damage": 275
+          }
+        ]
+      },
+      {
+        "name": "DecoCraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "props:props",
+            "damage": 238
+          }
+        ]
+      },
+      {
+        "name": "DecoCraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "props:props",
+            "damage": 373
+          }
+        ]
+      },
+      {
+        "name": "DecoCraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "props:props",
+            "damage": 333
+          }
+        ]
+      },
+      {
+        "name": "DecoCraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "props:props",
+            "damage": 317
+          }
+        ]
+      },
+      {
+        "name": "DecoCraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "props:props",
+            "damage": 239
+          }
+        ]
+      },
+      {
+        "name": "Iron Chest Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "IronChest:BlockIronChest",
+            "damage": 7,
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "name": "Iron Chest Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "IronChest:copperSilverUpgrade",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Iron Chest Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "IronChest:woodIronUpgrade",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "name": "Iron Chest Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "IronChest:woodCopperUpgrade",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "name": "Iron Chest Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "IronChest:BlockIronChest",
+            "damage": 4
+          }
+        ]
+      },
+      {
+        "name": "Iron Chest Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "IronChest:BlockIronChest",
+            "damage": 2
+          }
+        ]
+      },
+      {
+        "name": "Modular Turret Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "openmodularturrets:baseTierWood",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Modular Turret Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "openmodularturrets:grenadeCraftable",
+            "amount": 64
+          }
+        ]
+      },
+      {
+        "name": "Modular Turret Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "openmodularturrets:rocketCraftable",
+            "amount": 64
+          }
+        ]
+      },
+      {
+        "name": "Modular Turret Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "openmodularturrets:fenceTierOne",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "name": "Modular Turret Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "openmodularturrets:ferroSlug",
+            "amount": 64
+          }
+        ]
+      },
+      {
+        "name": "Modular Turret Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "openmodularturrets:bulletCraftable",
+            "amount": 64
+          }
+        ]
+      },
+      {
+        "name": "Modular Turret Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "openmodularturrets:disposeItemTurret"
+          }
+        ]
+      },
+      {
+        "name": "Modular Turret Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "openmodularturrets:railGunTurret"
+          }
+        ]
+      },
+      {
+        "name": "Ender Storage Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "EnderStorage:enderChest",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Ender Storage Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "EnderStorage:enderPouch"
+          }
+        ]
+      },
+      {
+        "name": "Compact Machine Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "CompactMachines:shrinker"
+          }
+        ]
+      },
+      {
+        "name": "Compact Machine Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "CompactMachines:enlarger"
+          }
+        ]
+      },
+      {
+        "name": "Compact Machine Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "CompactMachines:interfaceitem"
+          }
+        ]
+      },
+      {
+        "name": "Compact Machine Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "CompactMachines:quantumentangler"
+          }
+        ]
+      },
+      {
+        "name": "JABBA Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "JABBA:upgradeStructural",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "name": "JABBA Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "JABBA:upgradeStructural",
+            "damage": 1,
+            "amount": 4
+          }
+        ]
+      },
+      {
+        "name": "JABBA Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "JABBA:upgradeCore",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "name": "JABBA Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "JABBA:upgradeCore",
+            "damage": 4,
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "name": "JABBA Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "JABBA:upgradeCore",
+            "damage": 2,
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "JABBA Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "JABBA:upgradeCore",
+            "damage": 3,
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "JABBA Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "JABBA:moverDiamond"
+          }
+        ]
+      },
+      {
+        "name": "JABBA Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "JABBA:barrel",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "name": "Toolbox Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "toolbox:itemToolbox"
+          }
+        ]
+      },
+      {
+        "name": "Toolbox Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "toolbox:itemToolbox"
+          }
+        ]
+      },
+      {
+        "name": "MFR Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "MineFactoryReloaded:meat.ingot.raw",
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "name": "MFR Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "MineFactoryReloaded:meat.ingot.cooked",
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "name": "MFR Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "MineFactoryReloaded:meat.nugget.raw",
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "name": "MFR Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "MineFactoryReloaded:meat.nugget.cooked",
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "name": "MFR Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "MineFactoryReloaded:syringe.empty",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "name": "MFR Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "MineFactoryReloaded:potatolauncher"
+          }
+        ]
+      },
+      {
+        "name": "MFR Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "MineFactoryReloaded:rubber.raw",
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "name": "MFR Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "MineFactoryReloaded:machine.1",
+            "damage": 3
+          }
+        ]
+      },
+      {
+        "name": "Aura Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "aura:AuraCrystal",
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "name": "Aura Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "aura:AuraCrystal",
+            "damage": 1,
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "name": "Aura Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "aura:AuraCrystal",
+            "damage": 2,
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "name": "Aura Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "aura:AuraCrystal",
+            "damage": 3,
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "name": "Aura Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "aura:AuraCrystal",
+            "damage": 4,
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "name": "Aura Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "aura:AuraCrystal",
+            "damage": 5,
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "name": "Aura Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "aura:AuraCrystal",
+            "damage": 6,
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "name": "Aura Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "aura:AuraCrystal",
+            "damage": 7,
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "name": "Aura Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "aura:auraNode",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Aura Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "aura:angelStepBelt"
+          }
+        ]
+      },
+      {
+        "name": "Thaumcraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Thaumcraft:ItemShard",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "name": "Thaumcraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Thaumcraft:ItemShard",
+            "damage": 1,
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "name": "Thaumcraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Thaumcraft:ItemShard",
+            "damage": 2,
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "name": "Thaumcraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Thaumcraft:ItemShard",
+            "damage": 3,
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "name": "Thaumcraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Thaumcraft:ItemShard",
+            "damage": 4,
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "name": "Thaumcraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Thaumcraft:ItemShard",
+            "damage": 5,
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "name": "Thaumcraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Thaumcraft:ItemShard",
+            "damage": 6,
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "name": "Thaumcraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Thaumcraft:ItemGoggles"
+          }
+        ]
+      },
+      {
+        "name": "Thaumcraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Thaumcraft:ItemResource",
+            "damage": 15
+          }
+        ]
+      },
+      {
+        "name": "Thaumcraft Blind Item",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ForbiddenMagic:MorphPickaxe"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bonus Bag",
+    "colour": "GRAY",
+    "weights": [
+      20,
+      5,
+      5,
+      5,
+      0
+    ],
+    "groups": [
+      {
+        "name": "Basic Bonus",
+        "limit": 0,
+        "items": [
+          {
+            "id": "HardcoreQuesting:bags",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Basic Bonus",
+        "limit": 0,
+        "items": [
+          {
+            "id": "HardcoreQuesting:bags",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Basic Bonus",
+        "limit": 0,
+        "items": [
+          {
+            "id": "HardcoreQuesting:bags",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Basic Bonus",
+        "limit": 0,
+        "items": [
+          {
+            "id": "HardcoreQuesting:bags",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Basic Bonus",
+        "limit": 0,
+        "items": [
+          {
+            "id": "HardcoreQuesting:bags",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Good Bonus",
+        "limit": 0,
+        "items": [
+          {
+            "id": "HardcoreQuesting:bags",
+            "damage": 1,
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Good Bonus",
+        "limit": 0,
+        "items": [
+          {
+            "id": "HardcoreQuesting:bags",
+            "damage": 2,
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Good Bonus",
+        "limit": 0,
+        "items": [
+          {
+            "id": "HardcoreQuesting:bags",
+            "damage": 1,
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Good Bonus",
+        "limit": 0,
+        "items": [
+          {
+            "id": "HardcoreQuesting:bags",
+            "damage": 1,
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Great Bonus",
+        "limit": 0,
+        "items": [
+          {
+            "id": "HardcoreQuesting:bags",
+            "damage": 2,
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Great Bonus",
+        "limit": 0,
+        "items": [
+          {
+            "id": "HardcoreQuesting:bags",
+            "damage": 2,
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Great Bonus",
+        "limit": 0,
+        "items": [
+          {
+            "id": "HardcoreQuesting:bags",
+            "damage": 2,
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Epic Bonus",
+        "limit": 0,
+        "items": [
+          {
+            "id": "HardcoreQuesting:bags",
+            "damage": 3,
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Epic Bonus",
+        "limit": 0,
+        "items": [
+          {
+            "id": "HardcoreQuesting:bags",
+            "damage": 3,
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Legendary Bonus",
+        "limit": 0,
+        "items": [
+          {
+            "id": "HardcoreQuesting:bags",
+            "damage": 4
+          },
+          {
+            "id": "HardcoreQuesting:bags"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cheap Blind Bag",
+    "colour": "ORANGE",
+    "weights": [
+      35,
+      92,
+      5,
+      5,
+      0
+    ],
+    "groups": [
+      {
+        "name": "Botania Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 71
+          }
+        ]
+      },
+      {
+        "name": "EnderIO Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 86
+          }
+        ]
+      },
+      {
+        "name": "Ex Util Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 90
+          }
+        ]
+      },
+      {
+        "name": "Minecraft Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 197
+          }
+        ]
+      },
+      {
+        "name": "Jetpacks Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 201
+          }
+        ]
+      },
+      {
+        "name": "Backpack Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 269
+          }
+        ]
+      },
+      {
+        "name": "Natura Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 271
+          }
+        ]
+      },
+      {
+        "name": "Bibliocraft Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 273
+          }
+        ]
+      },
+      {
+        "name": "Nether Ore Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 276
+          }
+        ]
+      },
+      {
+        "name": "Carpenters Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 280
+          }
+        ]
+      },
+      {
+        "name": "Malisis Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 282
+          }
+        ]
+      },
+      {
+        "name": "Chisel Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 285
+          }
+        ]
+      },
+      {
+        "name": "Decocraft Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 291
+          }
+        ]
+      },
+      {
+        "name": "Iron Chest Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 292
+          }
+        ]
+      },
+      {
+        "name": "OMT Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 295
+          }
+        ]
+      },
+      {
+        "name": "CompMach Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 299
+          }
+        ]
+      },
+      {
+        "name": "JABBA Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 303
+          }
+        ]
+      },
+      {
+        "name": "MFR Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 310
+          }
+        ]
+      },
+      {
+        "name": "Aura Casc Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 322
+          }
+        ]
+      },
+      {
+        "name": "Thaumcraft Cheap",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 332
+          }
+        ]
+      },
+      {
+        "name": "Blind Bag Upgrade",
+        "limit": 0,
+        "items": [
+          {
+            "id": "HardcoreQuesting:bags",
+            "damage": 1,
+            "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+          }
+        ]
+      },
+      {
+        "name": "Ender Storage Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 382
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Decent Blind Bag",
+    "colour": "GREEN",
+    "weights": [
+      25,
+      92,
+      92,
+      5,
+      0
+    ],
+    "groups": [
+      {
+        "name": "Botania Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 72
+          }
+        ]
+      },
+      {
+        "name": "EnderIO Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 87
+          }
+        ]
+      },
+      {
+        "name": "Ex Util Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 91
+          }
+        ]
+      },
+      {
+        "name": "Minecraft Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 198
+          }
+        ]
+      },
+      {
+        "name": "Jetpacks Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 266
+          }
+        ]
+      },
+      {
+        "name": "Nether Ore Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 277
+          }
+        ]
+      },
+      {
+        "name": "Malisis Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 283
+          }
+        ]
+      },
+      {
+        "name": "Chisel Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 286
+          }
+        ]
+      },
+      {
+        "name": "Iron Chest Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 293
+          }
+        ]
+      },
+      {
+        "name": "OMT Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 296
+          }
+        ]
+      },
+      {
+        "name": "CompMach Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 300
+          }
+        ]
+      },
+      {
+        "name": "JABBA Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 304
+          }
+        ]
+      },
+      {
+        "name": "MFR Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 311
+          }
+        ]
+      },
+      {
+        "name": "Aura Casc Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 323
+          }
+        ]
+      },
+      {
+        "name": "Thaumcraft Decent",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 333
+          }
+        ]
+      },
+      {
+        "name": "Blind Bag Upgrade",
+        "limit": 0,
+        "items": [
+          {
+            "id": "HardcoreQuesting:bags",
+            "damage": 2
+          }
+        ]
+      },
+      {
+        "name": "Blind Bag Upgrade",
+        "limit": 0,
+        "items": [
+          {
+            "id": "HardcoreQuesting:bags",
+            "damage": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Good Blind Bag",
+    "colour": "LIGHT_BLUE",
+    "weights": [
+      15,
+      5,
+      92,
+      92,
+      0
+    ],
+    "groups": [
+      {
+        "name": "Botania Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 73
+          }
+        ]
+      },
+      {
+        "name": "EnderIO Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 88
+          }
+        ]
+      },
+      {
+        "name": "Ex Util Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 117
+          }
+        ]
+      },
+      {
+        "name": "Minecraft Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 199
+          }
+        ]
+      },
+      {
+        "name": "Jetpacks Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 267
+          }
+        ]
+      },
+      {
+        "name": "Nether Ore Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 278
+          }
+        ]
+      },
+      {
+        "name": "Chisel Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 287
+          }
+        ]
+      },
+      {
+        "name": "OMT Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 297
+          }
+        ]
+      },
+      {
+        "name": "CompMach Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 301
+          }
+        ]
+      },
+      {
+        "name": "MFR Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 312
+          }
+        ]
+      },
+      {
+        "name": "Aura Casc Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 324
+          }
+        ]
+      },
+      {
+        "name": "Thaumcraft Good",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 334
+          }
+        ]
+      },
+      {
+        "name": "Blind Bag Upgrade",
+        "limit": 0,
+        "items": [
+          {
+            "id": "HardcoreQuesting:bags",
+            "damage": 3
+          }
+        ]
+      },
+      {
+        "name": "Blind Bag Upgrade",
+        "limit": 0,
+        "items": [
+          {
+            "id": "HardcoreQuesting:bags",
+            "damage": 4,
+            "nbt": "{RepairCost:2,display:{Name:\"Lgndry Blind Bag of Blind Bags\"}}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Amazing Blind Bag",
+    "colour": "PURPLE",
+    "weights": [
+      5,
+      5,
+      5,
+      92,
+      200
+    ],
+    "groups": [
+      {
+        "name": "Botania Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 85
+          }
+        ]
+      },
+      {
+        "name": "Ex Util Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 118
+          }
+        ]
+      },
+      {
+        "name": "Jetpacks Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 268
+          }
+        ]
+      },
+      {
+        "name": "Nether Ore Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 279
+          }
+        ]
+      },
+      {
+        "name": "CompMach Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 302
+          }
+        ]
+      },
+      {
+        "name": "MFR Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 313
+          }
+        ]
+      },
+      {
+        "name": "Aura Casc Blind Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 325
+          }
+        ]
+      },
+      {
+        "name": "Draconic Luck Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 330
+          }
+        ]
+      },
+      {
+        "name": "Thaumcraft Amazing",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ferretshinies:BlindBag",
+            "damage": 335
+          }
+        ]
+      },
+      {
+        "name": "Big Blind Bag Haul",
+        "limit": 0,
+        "items": [
+          {
+            "id": "HardcoreQuesting:bags",
+            "damage": 3
+          },
+          {
+            "id": "HardcoreQuesting:bags",
+            "damage": 2,
+            "amount": 2
+          },
+          {
+            "id": "HardcoreQuesting:bags",
+            "damage": 1,
+            "amount": 3,
+            "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+          },
+          {
+            "id": "HardcoreQuesting:bags",
+            "amount": 4,
+            "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+          }
+        ]
+      }
+    ]
+  }
+]

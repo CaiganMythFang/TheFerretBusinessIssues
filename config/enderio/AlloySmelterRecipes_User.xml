@@ -1,0 +1,444 @@
+<!-- 
+Custom recipes that will not be over written by Ender IO are added here.
+Examples of recipes can be found in AlloySmelterRecipes_Core.xml and general format
+documentation in SAGMillRecipes_Core/User.
+
+As well as adding custom recipes the operation of the Alloy Smelter as a vanilla furnace 
+can be controlled. It can be disabled completely by simply adding this line:
+
+  <vanillaFurnaceRecipes enabled="false"/>    
+
+It is also possible to selectively disable vanilla furnace recipes.
+The following example disables the smelting of iron ingots, ender pearls and any form of iron ore registered in the
+ore dictionary.
+
+  <vanillaFurnaceRecipes>    
+    <exclude>
+      <itemStack itemID="265" /> 
+      <itemStack itemID="368" /> 
+      <itemStack oreDictionary="oreIron" />  
+    </exclude>
+
+  </vanillaFurnaceRecipes>
+  
+  Add this line to disbale the creation of TE alloys using the Alloy Smelter.
+  <recipeGroup name="Thermal Expansion" enabled="false"/>
+-->
+
+<AlloySmelterRecipes>
+  <recipeGroup name="Ferret Shinies">
+  
+    <recipe name="SteelProduction" energyCost="10000">
+      <input>
+        <itemStack oreDictionary="ingotIron" number="1" />
+        <itemStack oreDictionary="itemCoal" number="4" />
+      </input>      
+      <output>
+        <itemStack modID="ImmersiveEngineering" itemName="metal" itemMeta="7" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="WoodExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number ="10"/>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="54" number ="1"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="TinExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number ="9"/>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="55" number ="1"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="IronExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number ="8"/>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="56" number ="1"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="SteelExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number ="7"/>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="57" number ="1"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="EmeraldExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number ="6"/>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="58" number ="1"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="DiamondExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number ="5"/>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="59" number ="1"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="IronOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="402" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="1"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="436" />
+      </output>
+    </recipe>
+  
+    <recipe name="CopperOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="403" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="1"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="445" />
+      </output>
+    </recipe>
+  
+    <recipe name="TinOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="404" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="1"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="444" />
+      </output>
+    </recipe>
+  
+    <recipe name="AluminumOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="405" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="6"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="449" />
+      </output>
+    </recipe>
+  
+    <recipe name="GoldOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="406" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="4"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="440" />
+      </output>
+    </recipe>
+  
+    <recipe name="DiamondOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="407" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="10"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="451" />
+      </output>
+    </recipe>
+  
+    <recipe name="CoalOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="408" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="1"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="437" />
+      </output>
+    </recipe>
+  
+    <recipe name="SilverOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="409" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="6"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="447" />
+      </output>
+    </recipe>
+  
+    <recipe name="LeadOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="410" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="4"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="446" />
+      </output>
+    </recipe>
+  
+    <recipe name="RedstoneOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="411" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="1"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="457" />
+      </output>
+    </recipe>
+  
+    <recipe name="TritaniumOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="412" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="4"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="441" />
+      </output>
+    </recipe>
+  
+    <recipe name="DilithiumOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="413" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="4"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="468" />
+      </output>
+    </recipe>
+  
+    <recipe name="YelloriteOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="414" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="4"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="448" />
+      </output>
+    </recipe>
+  
+    <recipe name="ShinyOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="415" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="10"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="442" />
+      </output>
+    </recipe>
+  
+    <recipe name="FerrousOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="416" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="10"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="450" />
+      </output>
+    </recipe>
+  
+    <recipe name="RubyOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="417" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="10"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="453" />
+      </output>
+    </recipe>
+  
+    <recipe name="SapphireOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="418" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="10"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="454" />
+      </output>
+    </recipe>
+  
+    <recipe name="PeridotOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="419" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="10"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="455" />
+      </output>
+    </recipe>
+  
+    <recipe name="LapisOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="420" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="6"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="443" />
+      </output>
+    </recipe>
+  
+    <recipe name="EmeraldOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="421" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="2"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="452" />
+      </output>
+    </recipe>
+  
+    <recipe name="NetherQuartzOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="422" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="1"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="459" />
+      </output>
+    </recipe>
+  
+    <recipe name="EarthShardOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="423" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="8"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="465" />
+      </output>
+    </recipe>
+  
+    <recipe name="AirShardOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="424" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="8"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="462" />
+      </output>
+    </recipe>
+  
+    <recipe name="WaterShardOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="425" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="8"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="464" />
+      </output>
+    </recipe>
+  
+    <recipe name="FireShardOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="426" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="8"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="463" />
+      </output>
+    </recipe>
+  
+    <recipe name="OrderShardOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="427" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="8"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="466" />
+      </output>
+    </recipe>
+  
+    <recipe name="EntropyShardOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="428" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="8"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="467" />
+      </output>
+    </recipe>
+  
+    <recipe name="CinnabarOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="429" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="2"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="439" />
+      </output>
+    </recipe>
+  
+    <recipe name="AmberOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="430" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="2"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="469" />
+      </output>
+    </recipe>
+  
+    <recipe name="CobaltOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="431" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="10"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="460" />
+      </output>
+    </recipe>
+  
+    <recipe name="ArditeOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="432" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="10"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="461" />
+      </output>
+    </recipe>
+  
+    <recipe name="CertusQuartzOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="433" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="4"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="458" />
+      </output>
+    </recipe>
+  
+    <recipe name="OsmiumOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="435" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="2"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="438" />
+      </output>
+    </recipe>
+  
+    <recipe name="ApatiteOreExchange" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="434" />
+        <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="66" number ="1"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="456" />
+      </output>
+    </recipe>
+
+
+  </recipeGroup>
+</AlloySmelterRecipes>  
+

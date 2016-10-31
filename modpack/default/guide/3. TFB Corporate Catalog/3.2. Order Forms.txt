@@ -1,0 +1,27 @@
+§l 3.2 - Order Forms §r
+
+Order Forms enable you to automate the purchase of many supplies available in your TFB Corporate Catalog. 
+
+{"image":"3.3.orderformrecipe.png", "width":100, "height":50}
+
+They can be crafted with some Paper and a Silver Coin (to stamp them with the Ferret Business logo). You can craft any Order Form alone to duplicate it as much as necessary.
+ 
+--- §lCreating Order Forms§r ---
+
+Take a Blank Order Form and combine it with the Ore or other resource you wish to purchase. If you can purchase an item via Order Form, it will be mentioned in the Corporate Catalog.
+
+{"image":"3.3.ironorderform.png", "width":100, "height":50}
+
+You can then put both the Order Form and the appropriate amount of Shop Vouchers into the EnderIO Alloy Smelter.
+
+{"image":"3.3.orderingiron.png", "width":100, "height":70}
+
+And in return, you'll get a Sealed shipment crate. 
+
+{"image":"3.3-sealediron.png", "width":130, "height":50}
+
+Take this Sealed crate over to an EnderIO SAG Mill to unpack it. Like opening normal Ore Shipments, you have a 10% chance of getting a second Ore.
+
+If you would get a Shop Token by purchasing the item normally, you'll get it when processing a Sealed Crate as well.
+
+{"image":"3.3.unpacking.png", "width":100, "height":70}

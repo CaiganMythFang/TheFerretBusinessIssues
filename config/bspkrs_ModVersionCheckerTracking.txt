@@ -1,0 +1,9 @@
+# Configuration file
+
+version_check_tracker {
+    S:ArmorStatusHUD=1.25(1.7.2)
+    S:StatusEffectHUD=1.24(1.7.2)
+    S:bspkrsCore=6.8(1.7.2)
+}
+
+

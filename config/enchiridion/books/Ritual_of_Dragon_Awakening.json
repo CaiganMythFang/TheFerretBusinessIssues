@@ -1,0 +1,347 @@
+{
+  "book": [
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "          [b]THE\nRITUAL OF DRAGON   \n    AWAKENING[/b]",
+            "wrap": 0,
+            "size": 1.6000001,
+            "color": "FF555555",
+            "xPos": 25,
+            "yPos": 10,
+            "width": 166.0,
+            "height": 43.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "by Caigan, CEO",
+            "wrap": 0,
+            "size": 0.9,
+            "color": "FF555555",
+            "xPos": 75,
+            "yPos": 57,
+            "width": 86.0,
+            "height": 13.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "After much research, I\u0027ve discovered a way to \u0027Awaken\" the power inside of a heart from the Ender Dragon, thanks to the draconic decendants in The Ferret Business who aided me in furthering my research.\n\nThe Power from the Heart will be imbued into Charged Draconic Blocks placed in the Ritual.\n\nIt is important to note : You can only perform the ritual once per Dragon Heart, as it is consumed. I suggest maximizing each Heart.",
+            "wrap": 0,
+            "size": 0.9,
+            "color": "FF555555",
+            "xPos": 6,
+            "yPos": 77,
+            "width": 191.0,
+            "height": 89.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "DraconicEvolution:dragonHeart",
+            "xPos": 232,
+            "yPos": 26,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]RITUAL COMPONENTS[/b]",
+            "wrap": 0,
+            "size": 1.2,
+            "color": "FF555555",
+            "xPos": 250,
+            "yPos": 11,
+            "width": 158.0,
+            "height": 9.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:tnt",
+            "xPos": 232,
+            "yPos": 68,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]1 Dragon Heart[/b] : Obtain from killing the Ender Dragon. You will need to do the Resurrectoin Ritual to obtain more than one.",
+            "wrap": 0,
+            "size": 0.9,
+            "color": "FF555555",
+            "xPos": 271,
+            "yPos": 26,
+            "width": 144.0,
+            "height": 28.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "DraconicEvolution:wyvernCore",
+            "xPos": 254,
+            "yPos": 108,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "DraconicEvolution:draconium 2",
+            "xPos": 353,
+            "yPos": 108,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]TNT[/b] : You\u0027ll need an explosion of some sort, and the most common way is to use some TNT. Other types of explosions may work as well.",
+            "wrap": 0,
+            "size": 0.9,
+            "color": "FF555555",
+            "xPos": 268,
+            "yPos": 67,
+            "width": 151.0,
+            "height": 30.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "   [b]4 Draconic[/b]   per [b]    Charged\n      Cores         Draconic Block[/b]\n\nTo Awaken a Charged Draconic Block, you will need 4 Draconic Cores. You can Awaken up to 4 Blocks at a time, and will need 16 total Cores.",
+            "wrap": 0,
+            "size": 0.9,
+            "color": "FF555555",
+            "xPos": 230,
+            "yPos": 142,
+            "width": 189.0,
+            "height": 41.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Ritual_of_Dragon_Awakening/DE-awakening-1.png",
+            "xPos": 4,
+            "yPos": 8,
+            "width": 192.0,
+            "height": 88.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]STEP ONE[/b]",
+            "wrap": 0,
+            "size": 1.1,
+            "color": "FF555555",
+            "xPos": 70,
+            "yPos": 103,
+            "width": 99.0,
+            "height": 15.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Clear a large area of anything important, around 20x20 block area, since you\u0027ll be setting off TNT.\n\nPlace the TNT down and have some way to ignite it. Here, I am using some Redstone Dust and a Lever. Drop the Dragon Heart close to the TNT.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 7,
+            "yPos": 116,
+            "width": 187.0,
+            "height": 77.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Ritual_of_Dragon_Awakening/DE-awakening-2.png",
+            "xPos": 229,
+            "yPos": 8,
+            "width": 190.0,
+            "height": 90.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]STEP TWO [/b]",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 294,
+            "yPos": 104,
+            "width": 63.0,
+            "height": 12.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Make sure you have ALL the Ritual Components ready before you continue! Once you activate the Heart, you won\u0027t have long.\n\nIgnite the TNT and step back. The explosion will activate the Dragon Heart, and it will begin to float in the air.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 233,
+            "yPos": 117,
+            "width": 181.0,
+            "height": 75.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:stone",
+            "xPos": 78,
+            "yPos": 32,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Ritual_of_Dragon_Awakening/DE-awakening-3.png",
+            "xPos": 4,
+            "yPos": 8,
+            "width": 192.0,
+            "height": 91.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]STEP THREE [/b]",
+            "wrap": 0,
+            "size": 1.1,
+            "color": "FF555555",
+            "xPos": 60,
+            "yPos": 102,
+            "width": 88.0,
+            "height": 10.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Quickly drop 4 to 16 Draconic Cores, 4 per Charged Draconic Block you want to Awaken.\n\nWithin 10 seconds of activating the Heart, it will draw in any dropped items near it. ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 5,
+            "yPos": 115,
+            "width": 189.0,
+            "height": 80.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Ritual_of_Dragon_Awakening/DE-awakening-4.png",
+            "xPos": 229,
+            "yPos": 8,
+            "width": 189.0,
+            "height": 91.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]STEP FOUR [/b]",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 289,
+            "yPos": 103,
+            "width": 85.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "After the Heart absorbs the Draconic Cores, you need to quickly place down the Charged Draconic Blocks close to it. \n\nRemember, the Heart will only Awaken 1 Block for every 4 Draconic Cores it consumes.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 232,
+            "yPos": 113,
+            "width": 183.0,
+            "height": 76.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Ritual_of_Dragon_Awakening/DE-awakening-5.png",
+            "xPos": 5,
+            "yPos": 9,
+            "width": 189.0,
+            "height": 95.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "When the Ritual is finished, you\u0027ll have a number of Awakened Draconium Blocks!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 8,
+            "yPos": 119,
+            "width": 183.0,
+            "height": 55.0
+          }
+        }
+      ],
+      "pageName": ""
+    }
+  ],
+  "displayNames": {
+    "en_US": "Ritual_of_Dragon_Awakening"
+  },
+  "uniqueName": "Ritual_of_Dragon_Awakening",
+  "color": 16777215,
+  "showBackground": true,
+  "showArrows": true,
+  "showNumber": true,
+  "iconPass1": "",
+  "iconPass2": "",
+  "iconColorisePass1": false,
+  "iconColorisePass2": false,
+  "iconColorPass1": 0,
+  "iconColorPass2": 0,
+  "displayName": "Ritual of Dragon Awakening"
+}

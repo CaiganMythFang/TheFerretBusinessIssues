@@ -1,0 +1,61 @@
+{
+  "name": "(WIP)Computational Matrix",
+  "description": "    [WORK IN PROGRESS]                   This questline is not finished yet.  It will be added in a future update.",
+  "quests": [
+    {
+      "name": "Unnamed",
+      "x": 93,
+      "y": 93,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 12
+      },
+      "prerequisites": [
+        "{Initial Research}[Electronic Mind]"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 53
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Unnamed",
+      "x": 127,
+      "y": 84,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 24
+      },
+      "prerequisites": [
+        "{Initial Research}[Electronic Mind]"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 53
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

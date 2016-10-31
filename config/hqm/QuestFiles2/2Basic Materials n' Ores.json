@@ -1,0 +1,578 @@
+{
+  "name": "Basic Materials n\u0027 Ores",
+  "description": "Welcome to the Hardware section of my store, Bandit. Here you\u0027ll find both the materials to build with, and the tools to help you. ",
+  "quests": [
+    {
+      "name": "Common Ores",
+      "description": "    Iron, Copper, and Tin are common metals used in all manner of tools and machines.                     These items can be purchased via Order Form.",
+      "x": 28,
+      "y": 11,
+      "icon": {
+        "id": "minecraft:iron_ingot"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Common Ore Shipment",
+          "longDescription": "All Ore Shipments have a 10% chance of containing double the amount of ore!",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 79
+        },
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 185
+        },
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 186
+        }
+      ]
+    },
+    {
+      "name": "Energetic Ores",
+      "description": "    Coal is a common fuel for many  low tech power generators. Redstone is the primary energy transmission material. Nether Quartz is commonly used for machine timing and precision.              These items can be purchased via Order Form.",
+      "x": 62,
+      "y": 11,
+      "icon": {
+        "id": "ThermalFoundation:material",
+        "damage": 65
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Energetic Ore Shipment",
+          "longDescription": "All Ore Shipments have a 10% chance of containing double the amount of ore!",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 80
+        },
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 237
+        },
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 239
+        },
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 236
+        }
+      ]
+    },
+    {
+      "name": "Heavy Ores",
+      "description": "    Gold is used commonly in both jewelry and in circuitry. Lead is a heavy metal, good to use as shielding. Tritanium is a new, rare metal with properties that make it excellent for space travel.               These items can be purchased via Order Form.",
+      "x": 61,
+      "y": 48,
+      "icon": {
+        "id": "minecraft:gold_ingot"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Heavy Ore Shipment",
+          "longDescription": "All Ore Shipments have a 10% chance of containing double the amount of ore!",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 76
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 83
+        },
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 187
+        },
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 84
+        }
+      ]
+    },
+    {
+      "name": "Exchange Ores",
+      "description": "    Emeralds are a common gem used for trading with the locals. Cinnabar Ore can be purified into Quicksilver, with magical transmutative properties. Osmium is commonly used in machines, alloyed with other metals to transform them into something better.                       These items can be purchased via Order Form.",
+      "x": 97,
+      "y": 10,
+      "icon": {
+        "id": "minecraft:emerald"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Exchange Ore Shipment",
+          "longDescription": "    All Ore Shipments have a 10% chance of containing double the amount of ore!",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 193
+        },
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 82
+        },
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 81
+        }
+      ]
+    },
+    {
+      "name": "Power Ores",
+      "description": "    Certus Quartz is a powerful crystal in storing data. Yellorite is packed with potential nuclear power. Dilithium is a brand new source of power, potentially the greatest source yet.                        These items can be purchased via Order Form.",
+      "x": 28,
+      "y": 48,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Power Ore Shipment",
+          "longDescription": "All Ore Shipments have a 10% chance of containing double the amount of ore!",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 76
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 238
+        },
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 189
+        },
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 362
+        }
+      ]
+    },
+    {
+      "name": "Fancy Ores",
+      "description": "    Silver is a common metal used in jewelry and circuitry. Lapis Lazuli is used in decorative purposes, both on its own and when turned into a pigment.                                These items can be purchased via Order Form.",
+      "x": 97,
+      "y": 47,
+      "icon": {
+        "id": "minecraft:dye",
+        "damage": 4
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Fancy Ore Shipment",
+          "longDescription": "All Ore Shipments have a 10% chance of containing double the amount of ore!",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 6
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 76
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 188
+        },
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 178
+        }
+      ]
+    },
+    {
+      "name": "Ender Air",
+      "description": "With your research in the Botanical Gardens, and the discussion back and forth with the Elves, a few of the smaller Research branches have been hard at work, and they\u0027ve come up with a way to manufacture Ender Air, without you having to travel to The End. They say, though, its EXTREMELY expensive and it\u0027d probably be cheaper to find a way to The End and bottle it yourself.",
+      "x": 166,
+      "y": 46,
+      "icon": {
+        "id": "Botania:manaResource",
+        "damage": 15
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Ender Air",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:manaResource",
+          "damage": 15
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 76,
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "name": "Gemstone Ores",
+      "description": "    Diamonds are quite valuable in high tech machinery, as well as jewelry. Ruby, Sapphire, and Perdiot all have their uses in various tools and machines.               These items can be purchased via Order Form.",
+      "x": 96,
+      "y": 83,
+      "icon": {
+        "id": "minecraft:diamond"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Gemstone Ore Shipment",
+          "longDescription": "All Ore Shipments have a 10% chance of containing double the amount of ore!",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 76,
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 192
+        },
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 194
+        },
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 195
+        },
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 196
+        }
+      ]
+    },
+    {
+      "name": "Large Ore Grab Bag",
+      "description": "    Need a lot of ore? Well, we\u0027ve got these unmarked shipping boxes full of ore from some of our newer mining operations, but they aren\u0027t marked yet. Would you like to buy them directly?                                Each one contains 50,000 FMC worth of a single ore.",
+      "x": 55,
+      "y": 162,
+      "bigicon": true,
+      "icon": {
+        "id": "ferretshinies:BlindBag",
+        "damage": 363
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Large Ore Grab Bag",
+          "longDescription": "    Who knows what you\u0027ll get? All these ores should be useful!",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 363
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 76,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Elemental Ores",
+      "description": "    Elemental Shards are very useful in certain Thaumatological branches of study.                          These items can be purchased via Order Form.",
+      "x": 28,
+      "y": 85,
+      "icon": {
+        "id": "Thaumcraft:ItemShard",
+        "damage": 2
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Elemental Ore Shipment",
+          "longDescription": "All Ore Shipments have a 10% chance of containing double the amount of ore!",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 76,
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 356
+        },
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 357
+        },
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 358
+        },
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 359
+        }
+      ]
+    },
+    {
+      "name": "Opposing Ores",
+      "description": "    Elemental Shards are very useful in certain Thaumatological branches of study.                          These items can be purchased via Order Form.",
+      "x": 61,
+      "y": 84,
+      "icon": {
+        "id": "Thaumcraft:ItemShard",
+        "damage": 4
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Opposing Ore Shipment",
+          "longDescription": "All Ore Shipments have a 10% chance of containing double the amount of ore!",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 76,
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 360
+        },
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 361
+        }
+      ]
+    },
+    {
+      "name": "Sparkling Ores",
+      "description": "    Ferrous Metal is an important metal for some high tech alloys. Shiny Metal is both strong and powerful. Ardite and Cobalt are rare metals found only in the Nether, and create some of the strongest alloys.                            These items can be purchased via Order Form.",
+      "x": 60,
+      "y": 118,
+      "icon": {
+        "id": "ThermalFoundation:material",
+        "damage": 69
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 4,
+        "hours": 4
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Sparkling Ore Shipment",
+          "longDescription": "All Ore Shipments have a 10% chance of containing double the amount of ore!",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 76,
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 191
+        },
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 177
+        },
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 241
+        },
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 240
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

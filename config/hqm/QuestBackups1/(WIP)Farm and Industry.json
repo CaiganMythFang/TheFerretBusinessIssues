@@ -1,0 +1,61 @@
+{
+  "name": "(WIP)Farm and Industry",
+  "description": "    [WORK IN PROGRESS]                   This questline is not finished yet.  It will be added in a future update.",
+  "quests": [
+    {
+      "name": "Unnamed",
+      "x": 44,
+      "y": 105,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 6
+      },
+      "prerequisites": [
+        "{Initial Research}[Farm Machines]"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 53
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Unnamed",
+      "x": 67,
+      "y": 133,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 20
+      },
+      "prerequisites": [
+        "{Initial Research}[Farm Machines]"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 53
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

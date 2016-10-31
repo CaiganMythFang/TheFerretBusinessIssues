@@ -1,0 +1,33 @@
+{
+  "book": [
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Wiggles_Aura_Cascade_Primer/aura-guide-1.png",
+            "xPos": 230,
+            "yPos": 7,
+            "width": 183.0,
+            "height": 94.0
+          }
+        }
+      ],
+      "pageName": ""
+    }
+  ],
+  "displayNames": {
+    "en_US": "Wiggles_Aura_Cascade_Primer"
+  },
+  "uniqueName": "Wiggles_Aura_Cascade_Primer",
+  "color": 16777215,
+  "showBackground": true,
+  "showArrows": true,
+  "showNumber": true,
+  "iconPass1": "",
+  "iconPass2": "",
+  "iconColorisePass1": false,
+  "iconColorisePass2": false,
+  "iconColorPass1": 0,
+  "iconColorPass2": 0
+}

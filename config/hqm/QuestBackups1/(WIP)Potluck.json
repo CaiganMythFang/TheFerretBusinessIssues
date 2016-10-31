@@ -1,0 +1,59 @@
+{
+  "name": "(WIP)Potluck",
+  "description": "    [WORK IN PROGRESS]                   This questline is not finished yet.  It will be added in a future update.",
+  "quests": [
+    {
+      "name": "Unnamed",
+      "x": 34,
+      "y": 119,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 36
+      },
+      "prerequisites": [
+        "{Initial Research}[Knick Knacks]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 53
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Unnamed",
+      "x": 46,
+      "y": 146,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 39
+      },
+      "prerequisites": [
+        "{Initial Research}[Knick Knacks]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 53
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

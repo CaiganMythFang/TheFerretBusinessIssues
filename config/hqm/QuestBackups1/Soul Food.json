@@ -1,0 +1,467 @@
+{
+  "name": "Soul Food",
+  "description": "    Welcome, welcome to the Cafe la Ferret! Here, we create all sorts of delicacies, from the familiar to the strange!                                  We are a trio of researchers who are working on new foods, from planting to plate! We\u0027d like to thank you for introducing us to even more foods to expand our palettes with, Bandit.                                    Who are we, you ask? We would be: Master Gardener Grey, Head Chef Charlie, and Food Critic Candy, at your service!",
+  "quests": [
+    {
+      "name": "Botaniacal Soil",
+      "description": "[Gardener Greg]                             It seems Inventologist Irvine and Botonist Bitsy were talking, and they came up with some special soil you might be interested in.                 They\u0027ve replaced the RF Energy components to the soil with Botania materials, so that you can grow these seeds with Mana instead. Just aim a Mana Spreader at the soil itself.",
+      "x": 33,
+      "y": 90,
+      "icon": {
+        "id": "fluxedCrystals:poweredSoilMana"
+      },
+      "prerequisites": [
+        "Fluxed Crystals 2",
+        "{Magical Flowers}[Mana Infusion]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Magical Soil",
+          "items": [
+            {
+              "item": {
+                "id": "fluxedCrystals:poweredSoilMana"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Fluxed Crystals 2",
+      "description": "[Gardener Greg]                              I got some fancy new seeds for you! They are fairly special, mind you, as they\u0027re a product of a few different labs here at The Business. One of em used to be the Magical Crops one, but their seeds were mutatin\u0027 weirdly and needed to go back to the drawing board.            Now, these seeds are a mite different. Instead of growing vegetables and grains, they\u0027ll grow goods for ya. Things like stone, sand, metal, and even gemstones!",
+      "x": 14,
+      "y": 90,
+      "icon": {
+        "id": "fluxedCrystals:universalSeed"
+      },
+      "prerequisites": [
+        "{Initial Research}[Hearty Meals]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Energy Rich Soil",
+          "longDescription": "   Now, first thing you\u0027ll need is some special soil. The Invent\u0027n guy said that these seeds grow Crystals, and instead of normal water and compost, they only need RF Energy to grow.",
+          "items": [
+            {
+              "item": {
+                "id": "fluxedCrystals:poweredSoil"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Blank Seed",
+          "longDescription": "    Next, Irvine showed me what he called the Universal Seed. Seemed a bit strange, but it\u0027s like a blank piece of paper. Only in seed form. You\u0027ll understand in a bit.",
+          "items": [
+            {
+              "item": {
+                "id": "fluxedCrystals:universalSeed"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Essence of Material",
+          "longDescription": "    The last thing you\u0027ll need to start with, is this little machine called a Seed Infuser. You can put that Universal Seed in here, along with the appropriate amount of materials, and Infuse them into a seed.                                           Irvine said to mention to you it\u0027s best to use NEI to find out whatcha can make. Whatever that means. ",
+          "items": [
+            {
+              "item": {
+                "id": "fluxedCrystals:seedInfuser"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Powered Production",
+      "description": "[Gardener Greg]                             Now then, ya can keep making cheap tools with those Rough Shards, or ya can actually make something useful out of them...like the actual resources!                     To do that, you\u0027ll have to clean up and refine those Shards through a couple stages to turn them into useful material. These two machines I\u0027ll show ya will actually require RF Energy, unlike the Infuser. ",
+      "x": 33,
+      "y": 66,
+      "icon": {
+        "id": "fluxedCrystals:gemCutter"
+      },
+      "prerequisites": [
+        "Crystal Growth"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A Sort of Rock Tumbler",
+          "longDescription": "    The Gem Cutter will take yer Rough Shards, and with a bit of power, cut em down and smooth them out. This make sure the crystal shards are pure for the next step.",
+          "items": [
+            {
+              "item": {
+                "id": "fluxedCrystals:gemCutter"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "fluxedCrystals:smoothShard",
+                "damage": 63
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Resources Refined",
+          "longDescription": "    Those Smooth Shards can now be turned into resources. By putting a certain amount of Smooth Shards into the Refiner, it will turn it into a resource. How many Smooth Shards it requires depends on the material.",
+          "items": [
+            {
+              "item": {
+                "id": "fluxedCrystals:gemRefiner"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "name": "Unnamed",
+      "x": 300,
+      "y": 39,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 10
+      },
+      "prerequisites": [
+        "{Initial Research}[Hearty Meals]"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 53
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Unnamed",
+      "x": 156,
+      "y": 189,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 64
+      },
+      "prerequisites": [
+        "{Initial Research}[Hearty Meals]"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 53
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Upgrades? Upgrades!",
+      "description": "[Gardener Greg]                             Along with all the designs and instructions Inventologist Irvine gave me, he also had a box marked Upgrades with it.                             Now, I\u0027m not quite sure what some of these do. I\u0027ve done testing and some are pretty simple to figure out, but Irvine sort of forgot to include instructions on how many of these work...                  The Refiner and the Cutter can have four upgrades in each of them. The Powered Soil can have upgrades as well, just Right Click one onto the soil. Each Soil can have up to three upgrades, and you can remove them by Shift + Right Clicking the soil with an empty hand.",
+      "x": 33,
+      "y": 114,
+      "icon": {
+        "id": "fluxedCrystals:upgradeEfficiency"
+      },
+      "prerequisites": [
+        "Powered Production"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Faster and Better",
+          "longDescription": "    The Speed Upgrade makes both machines and powered soil work faster.                                         The Efficiency Upgrade will lower how much RF Power (or Mana) is required by either soil or machine.",
+          "items": [
+            {
+              "item": {
+                "id": "fluxedCrystals:upgradeSpeed"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "fluxedCrystals:upgradeEfficiency"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Very Little Clue....",
+          "longDescription": "    Now, this upgrade had a label, but it ain\u0027t quite clear on how it works. Maybe ya can figure em out?",
+          "items": [
+            {
+              "item": {
+                "id": "fluxedCrystals:upgradeNight"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Crystal Growth",
+      "description": "[Gardener Greg]                             Now then, ya know how to make the soil and the infuser and the blank Universal Seed. Now we can actually make a Seed. I\u0027ll have you test it with something easy to find anywhere...Sand!                              Take 32 Sand and a Universal Seed and put them into the Infuser and hit Infuse. You\u0027ll get a Sand Seed in return. ",
+      "x": 53,
+      "y": 89,
+      "icon": {
+        "id": "fluxedCrystals:seed",
+        "damage": 63
+      },
+      "prerequisites": [
+        "Fluxed Crystals 2"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Sand. Sand Everywhere.",
+          "longDescription": "    After you make the sand Seed, go ahead and plant it in the Powered Soil and, well...put in RF Energy to the soil.                           Every seed takes a certain amount of time and power to grow, depending on the Tier of he seed. When its fully grown, you can Right Click it to harvest Rough Shards from it. ",
+          "items": [
+            {
+              "item": {
+                "id": "fluxedCrystals:seed",
+                "damage": 63
+              }
+            },
+            {
+              "item": {
+                "id": "fluxedCrystals:roughShard",
+                "damage": 63
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Reaper\u0027s Harvest",
+          "longDescription": "    Ya might notice each time ya harvest the Sand Seed, it gives you a varying amount of Shards back. If you want to increase how many Rough Shards ya get, use a Scythe.      That Invent\u0027n guy mentioned that Tinker\u0027s scythes MAY work, but he isn\u0027t sure, so best to use Fluxed Crystal ones.",
+          "items": [
+            {
+              "item": {
+                "id": "fluxedCrystals:scytheWood"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Rough Tools",
+          "longDescription": "    Now, them Rough Shards aren\u0027t ready to turn into useful materials yet, but ya CAN turn em into some rough tools, if you need em in a pinch.                                           Ya can make swords, pickaxes, axes, shovels, and hoes.",
+          "items": [
+            {
+              "item": {
+                "id": "fluxedCrystals:crystalSword",
+                "nbt": "{seedID:63,colorType:16777164}"
+              }
+            },
+            {
+              "item": {
+                "id": "fluxedCrystals:crystalPick",
+                "nbt": "{seedID:63,colorType:16777164}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Pop Goes the Crystal",
+          "longDescription": "    To make gathering Rough Shards easier, you can install this Upgrade into the soil. Just hold the Upgrade and Right Click it onto the soil. When fully grown, it will automatically harvest.                                       Do note that you won\u0027t get the best yield this way. You\u0027ll also need to find a way to collect the Shards yourself.",
+          "items": [
+            {
+              "item": {
+                "id": "fluxedCrystals:upgradeAutomation"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

@@ -1,0 +1,260 @@
+Total amount of free biome ids: 169
+Total amount of occupied biome ids: 87
+Total amount of conflicted biome ids: 0
+All ids and their position:
+0 is Occupied by Ocean (net.minecraft.world.biome.BiomeGenOcean)
+1 is Occupied by Plains (net.minecraft.world.biome.BiomeGenPlains)
+2 is Occupied by Desert (net.minecraft.world.biome.BiomeGenDesert)
+3 is Occupied by Extreme Hills (net.minecraft.world.biome.BiomeGenHills)
+4 is Occupied by Forest (net.minecraft.world.biome.BiomeGenForest)
+5 is Occupied by Taiga (net.minecraft.world.biome.BiomeGenTaiga)
+6 is Occupied by Swampland (net.minecraft.world.biome.BiomeGenSwamp)
+7 is Occupied by River (net.minecraft.world.biome.BiomeGenRiver)
+8 is Occupied by Hell (net.minecraft.world.biome.BiomeGenHell)
+9 is Occupied by Sky (net.minecraft.world.biome.BiomeGenEnd)
+10 is Occupied by FrozenOcean (net.minecraft.world.biome.BiomeGenOcean)
+11 is Occupied by FrozenRiver (net.minecraft.world.biome.BiomeGenRiver)
+12 is Occupied by Ice Plains (net.minecraft.world.biome.BiomeGenSnow)
+13 is Occupied by Ice Mountains (net.minecraft.world.biome.BiomeGenSnow)
+14 is Occupied by MushroomIsland (net.minecraft.world.biome.BiomeGenMushroomIsland)
+15 is Occupied by MushroomIslandShore (net.minecraft.world.biome.BiomeGenMushroomIsland)
+16 is Occupied by Beach (net.minecraft.world.biome.BiomeGenBeach)
+17 is Occupied by DesertHills (net.minecraft.world.biome.BiomeGenDesert)
+18 is Occupied by ForestHills (net.minecraft.world.biome.BiomeGenForest)
+19 is Occupied by TaigaHills (net.minecraft.world.biome.BiomeGenTaiga)
+20 is Occupied by Extreme Hills Edge (net.minecraft.world.biome.BiomeGenHills)
+21 is Occupied by Jungle (net.minecraft.world.biome.BiomeGenJungle)
+22 is Occupied by JungleHills (net.minecraft.world.biome.BiomeGenJungle)
+23 is Occupied by JungleEdge (net.minecraft.world.biome.BiomeGenJungle)
+24 is Occupied by Deep Ocean (net.minecraft.world.biome.BiomeGenOcean)
+25 is Occupied by Stone Beach (net.minecraft.world.biome.BiomeGenStoneBeach)
+26 is Occupied by Cold Beach (net.minecraft.world.biome.BiomeGenBeach)
+27 is Occupied by Birch Forest (net.minecraft.world.biome.BiomeGenForest)
+28 is Occupied by Birch Forest Hills (net.minecraft.world.biome.BiomeGenForest)
+29 is Occupied by Roofed Forest (net.minecraft.world.biome.BiomeGenForest)
+30 is Occupied by Cold Taiga (net.minecraft.world.biome.BiomeGenTaiga)
+31 is Occupied by Cold Taiga Hills (net.minecraft.world.biome.BiomeGenTaiga)
+32 is Occupied by Mega Taiga (net.minecraft.world.biome.BiomeGenTaiga)
+33 is Occupied by Mega Taiga Hills (net.minecraft.world.biome.BiomeGenTaiga)
+34 is Occupied by Extreme Hills+ (net.minecraft.world.biome.BiomeGenHills)
+35 is Occupied by Savanna (net.minecraft.world.biome.BiomeGenSavanna)
+36 is Occupied by Savanna Plateau (net.minecraft.world.biome.BiomeGenSavanna)
+37 is Occupied by Mesa (net.minecraft.world.biome.BiomeGenMesa)
+38 is Occupied by Mesa Plateau F (net.minecraft.world.biome.BiomeGenMesa)
+39 is Occupied by Mesa Plateau (net.minecraft.world.biome.BiomeGenMesa)
+40 is Occupied by Desert Oil Field (buildcraft.energy.worldgen.BiomeGenOilDesert)
+41 is Occupied by Ocean Oil Field (buildcraft.energy.worldgen.BiomeGenOilOcean)
+42 is Avaible
+43 is Avaible
+44 is Occupied by Storage Cell (appeng.spatial.BiomeGenStorage)
+45 is Occupied by Eerie (thaumcraft.common.lib.world.biomes.BiomeGenEerie)
+46 is Occupied by Magical Forest (thaumcraft.common.lib.world.biomes.BiomeGenMagicalForest)
+47 is Occupied by Tainted Land (thaumcraft.common.lib.world.biomes.BiomeGenTaint)
+48 is Occupied by Twilight Clearing (twilightforest.biomes.TFBiomeClearing)
+49 is Occupied by Dark Forest (twilightforest.biomes.TFBiomeDarkForest)
+50 is Occupied by Dark Forest Center (twilightforest.biomes.TFBiomeDarkForestCenter)
+51 is Occupied by Deep Mushroom Forest (twilightforest.biomes.TFBiomeDeepMushrooms)
+52 is Occupied by Enchanted Forest (twilightforest.biomes.TFBiomeEnchantedForest)
+53 is Occupied by Fire Swamp (twilightforest.biomes.TFBiomeFireSwamp)
+54 is Occupied by Twilight Glacier (twilightforest.biomes.TFBiomeGlacier)
+55 is Occupied by Twilight Highlands (twilightforest.biomes.TFBiomeHighlands)
+56 is Occupied by Highlands Center (twilightforest.biomes.TFBiomeFinalPlateau)
+57 is Occupied by Twilight Lake (twilightforest.biomes.TFBiomeTwilightLake)
+58 is Occupied by Firefly Forest (twilightforest.biomes.TFBiomeFireflyForest)
+59 is Occupied by Mushroom Forest (twilightforest.biomes.TFBiomeMushrooms)
+60 is Occupied by Oak Savanna (twilightforest.biomes.TFBiomeOakSavanna)
+61 is Occupied by Snowy Forest (twilightforest.biomes.TFBiomeSnow)
+62 is Occupied by Twilight Stream (twilightforest.biomes.TFBiomeStream)
+63 is Occupied by Twilight Swamp (twilightforest.biomes.TFBiomeSwamp)
+64 is Occupied by Thornlands (twilightforest.biomes.TFBiomeThornlands)
+65 is Occupied by Twilight Forest (twilightforest.biomes.TFBiomeTwilightForest)
+66 is Occupied by Dense Twilight Forest (twilightforest.biomes.TFBiomeTwilightForestVariant)
+67 is Avaible
+68 is Avaible
+69 is Avaible
+70 is Avaible
+71 is Avaible
+72 is Avaible
+73 is Avaible
+74 is Avaible
+75 is Avaible
+76 is Avaible
+77 is Avaible
+78 is Avaible
+79 is Avaible
+80 is Avaible
+81 is Avaible
+82 is Avaible
+83 is Avaible
+84 is Avaible
+85 is Avaible
+86 is Avaible
+87 is Avaible
+88 is Avaible
+89 is Avaible
+90 is Avaible
+91 is Avaible
+92 is Avaible
+93 is Avaible
+94 is Avaible
+95 is Avaible
+96 is Avaible
+97 is Avaible
+98 is Avaible
+99 is Avaible
+100 is Avaible
+101 is Avaible
+102 is Avaible
+103 is Avaible
+104 is Avaible
+105 is Avaible
+106 is Avaible
+107 is Avaible
+108 is Avaible
+109 is Avaible
+110 is Avaible
+111 is Avaible
+112 is Avaible
+113 is Avaible
+114 is Avaible
+115 is Avaible
+116 is Avaible
+117 is Avaible
+118 is Avaible
+119 is Avaible
+120 is Avaible
+121 is Avaible
+122 is Avaible
+123 is Avaible
+124 is Avaible
+125 is Avaible
+126 is Avaible
+127 is Avaible
+128 is Avaible
+129 is Occupied by Sunflower Plains (net.minecraft.world.biome.BiomeGenPlains)
+130 is Occupied by Desert M (net.minecraft.world.biome.BiomeGenDesert)
+131 is Occupied by Extreme Hills M (net.minecraft.world.biome.BiomeGenHills)
+132 is Occupied by Flower Forest (net.minecraft.world.biome.BiomeGenForest)
+133 is Occupied by Taiga M (net.minecraft.world.biome.BiomeGenTaiga)
+134 is Occupied by Swampland M (net.minecraft.world.biome.BiomeGenSwamp)
+135 is Avaible
+136 is Avaible
+137 is Avaible
+138 is Avaible
+139 is Avaible
+140 is Occupied by Ice Plains Spikes (net.minecraft.world.biome.BiomeGenSnow)
+141 is Avaible
+142 is Avaible
+143 is Avaible
+144 is Avaible
+145 is Avaible
+146 is Avaible
+147 is Avaible
+148 is Avaible
+149 is Occupied by Jungle M (net.minecraft.world.biome.BiomeGenJungle)
+150 is Avaible
+151 is Occupied by JungleEdge M (net.minecraft.world.biome.BiomeGenJungle)
+152 is Avaible
+153 is Avaible
+154 is Avaible
+155 is Occupied by Birch Forest M (net.minecraft.world.biome.BiomeGenForest)
+156 is Occupied by Birch Forest Hills M (net.minecraft.world.biome.BiomeGenForest)
+157 is Occupied by Roofed Forest M (net.minecraft.world.biome.BiomeGenForest)
+158 is Occupied by Cold Taiga M (net.minecraft.world.biome.BiomeGenTaiga)
+159 is Avaible
+160 is Occupied by Mega Spruce Taiga (net.minecraft.world.biome.BiomeGenTaiga)
+161 is Occupied by Mega Spruce Taiga (net.minecraft.world.biome.BiomeGenTaiga)
+162 is Occupied by Extreme Hills+ M (net.minecraft.world.biome.BiomeGenHills)
+163 is Occupied by Savanna M (net.minecraft.world.biome.BiomeGenSavanna)
+164 is Occupied by Savanna Plateau M (net.minecraft.world.biome.BiomeGenSavanna)
+165 is Occupied by Mesa (Bryce) (net.minecraft.world.biome.BiomeGenMesa)
+166 is Occupied by Mesa Plateau F M (net.minecraft.world.biome.BiomeGenMesa)
+167 is Occupied by Mesa Plateau M (net.minecraft.world.biome.BiomeGenMesa)
+168 is Avaible
+169 is Avaible
+170 is Avaible
+171 is Avaible
+172 is Avaible
+173 is Avaible
+174 is Avaible
+175 is Avaible
+176 is Avaible
+177 is Avaible
+178 is Avaible
+179 is Avaible
+180 is Avaible
+181 is Avaible
+182 is Avaible
+183 is Avaible
+184 is Avaible
+185 is Avaible
+186 is Avaible
+187 is Avaible
+188 is Avaible
+189 is Avaible
+190 is Avaible
+191 is Avaible
+192 is Avaible
+193 is Avaible
+194 is Avaible
+195 is Occupied by Eldritch (thaumcraft.common.lib.world.biomes.BiomeGenEldritch)
+196 is Avaible
+197 is Avaible
+198 is Avaible
+199 is Avaible
+200 is Avaible
+201 is Avaible
+202 is Avaible
+203 is Avaible
+204 is Avaible
+205 is Avaible
+206 is Avaible
+207 is Avaible
+208 is Avaible
+209 is Avaible
+210 is Avaible
+211 is Avaible
+212 is Avaible
+213 is Avaible
+214 is Avaible
+215 is Avaible
+216 is Avaible
+217 is Avaible
+218 is Avaible
+219 is Avaible
+220 is Avaible
+221 is Avaible
+222 is Avaible
+223 is Avaible
+224 is Avaible
+225 is Avaible
+226 is Avaible
+227 is Avaible
+228 is Avaible
+229 is Avaible
+230 is Avaible
+231 is Avaible
+232 is Avaible
+233 is Avaible
+234 is Avaible
+235 is Avaible
+236 is Avaible
+237 is Avaible
+238 is Avaible
+239 is Avaible
+240 is Avaible
+241 is Avaible
+242 is Avaible
+243 is Avaible
+244 is Avaible
+245 is Avaible
+246 is Avaible
+247 is Avaible
+248 is Avaible
+249 is Avaible
+250 is Avaible
+251 is Avaible
+252 is Avaible
+253 is Avaible
+254 is Avaible
+255 is Avaible

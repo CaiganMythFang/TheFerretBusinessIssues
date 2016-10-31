@@ -1,0 +1,1709 @@
+{
+  "name": "Exploring Your World",
+  "description": "Hey there Bandit, my name is Explorer Eric. I\u0027m an explorer, an adventurer, sort of like you\u0027ve just become! Sorry about that...but thats why I\u0027ve been asked to help you out! As a seasoned adventurer, there are a lot of little tricks and tips I can give you to help you survive in that new world you\u0027ve discovered! Thankfully it seems that in your world, you can\u0027t die permanently (yet....), so we don\u0027t have to worry about that and take SOME risks...cause you know, dieing is final, but pain still hurts!",
+  "quests": [
+    {
+      "name": "Backpacks",
+      "description": "Any adventurer worth his salt will end up with more things than he can carry in his pockets in the middle of a trip. And then it becomes a matter of \"Do I leave the priceless gemstone the size of my head, or the priceless statue made of silver?\" Why not take both, I say! You can craft yourself a sturdy backpack with some leather, letting you carry all those goodies! You can even craft a nice fold out crafting table right onto the bag!",
+      "x": 71,
+      "y": 122,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 15
+      },
+      "prerequisites": [
+        "{Initial Research}[Nature]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Better Than Pockets",
+          "longDescription": "You can also dye any Backpack with one of the 16 colors.",
+          "items": [
+            {
+              "item": {
+                "id": "Backpack:backpack",
+                "nbt": "{backpack-UID:\"350b17e7-9ac5-473a-b1d5-5e7c913449ca\",name:\"item.backpack.name\"}"
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Multipurpose!",
+          "longDescription": "You can put the bag on  your back by Sneaking and using your Backpack key (Default is B). This most likely won\u0027t work, as you need to rebind the key to something unused. While it is on your back, you can hit the Backpack key to open it!",
+          "items": [
+            {
+              "item": {
+                "id": "Backpack:workbenchbackpack",
+                "damage": 17
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Bigger Backpacks?",
+      "description": "Okay, I agree, sometimes a normal Backpack just isn\u0027t enough. Not enough space in the world to fit an entire long forgotten set of ruins in it, right? Well, I can\u0027t solve THAT problem, but you CAN make a much larger Backpack! You can bound up some Leather together with String, then \u0027cure\u0027 it in a Furnace, and use this Tanned Leather to make even larger backpacks!",
+      "x": 71,
+      "y": 91,
+      "icon": {
+        "id": "Backpack:backpack",
+        "damage": 200
+      },
+      "prerequisites": [
+        "Backpacks"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Bound for Strength",
+          "items": [
+            {
+              "item": {
+                "id": "Backpack:boundLeather"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Tanned to Last Longer",
+          "items": [
+            {
+              "item": {
+                "id": "Backpack:tannedLeather"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Shaped to Fit a Treasurey",
+          "longDescription": "You can also make a Big version of the Workbench Backpack if you want!",
+          "items": [
+            {
+              "item": {
+                "id": "Backpack:backpack",
+                "damage": 200
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 35
+        }
+      ]
+    },
+    {
+      "name": "Morph",
+      "description": "    Ever want to be a sheep? A bat? A zombie? Well, now you can! As part of the Assistant program of The Ferret Business, you agreed to having nanobots injected into you. One of their big functions right now is basically altering your form on the fly. After you\u0027ve killed a creature to absorb their DNA, you can select and morph into them. Well, most forms, some things just don\u0027t mesh well with this technology...Anyways!            Normally, the forms you can take wouldn\u0027t be able to fly, but I think doing something quite heroic in your world will unlock some hidden potential in the DNA. Heroic like...killing the mysterious, dangerous monster the Villagers in your world call The Wither.                Take flight with either your new form, or some other tool, and gather me some clouds please?",
+      "x": 71,
+      "y": 187,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 33
+      },
+      "prerequisites": [
+        "{Initial Research}[Magic + Nature]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Floating Amongst the Clouds",
+          "longDescription": "You can cycle through your collected Morphs with [ and ], and select one by hitting Enter.",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:Cloud"
+              },
+              "required": 5,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Dense Ores",
+      "description": "It looks like your world is rich in natural resources! Your coal and ore veins especially are rich! Some of them even have pockets of really dense material. How bout sharing the wealth, eh? Carefully cut out some Dense Coal Ore for me! You\u0027ll probably need a special Enchanted magical pick to do it though.",
+      "x": 46,
+      "y": 152,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 25
+      },
+      "prerequisites": [
+        "{Initial Research}[Nature Technology]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Really Compact",
+          "longDescription": "Silk Touch allows you to harvest blocks unbroken, such as Ice.",
+          "items": [
+            {
+              "item": {
+                "id": "denseores:block0",
+                "damage": 6
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Natura",
+      "description": "Nature itself is a wonderful thing. For an adventurer, it provides not only sustenance, but things to find, things to fight, and things to make! To start off with, in your travels you\u0027ll probably find a few of these plants: barley and cotton. Go ahead and harvest them, they are quite common and they can be pretty useful! ",
+      "x": 157,
+      "y": 188,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 34
+      },
+      "prerequisites": [
+        "{Initial Research}[Nature]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Plentiful Plants",
+          "longDescription": "Barley acts much like wheat. You can craft it to turn it into flour and cook it in a Furnace to make bread. Cotton you can harvest to make string or cotton.",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:barley.seed"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Natura:barley.seed",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Easier to Plant",
+          "longDescription": "You can combine 9 of one type of seed into a bag, that will plant in a 3x3 area. You can do this with : (Wheat) Seeds, Barley, Cotton, Potato, Carrot, Netherwart, and even Bonemeal to apply it to a 3x3 area!",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:wheatBag"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Quenching Thirst",
+          "longDescription": "A bit harder to find, but invaluable in the desert. Sagura Cacti grow Fruits that can be eaten to satiate you, or planted in sand to grow another Sagura Cactus.",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:Saguaro"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Exploring Over the World",
+      "description": "Exploring more of the world you are on is a must! Not only can you find great things like ruins and dungeons and other things to delve into, you can also find a wide variety of rare natural materials to build with! Why is this important? Well, you need a place to KEEP all your discovered loot, right? Well, you can easily make it out of Stone and Oak and whatnot, but there are so many other trees out there you can use. There are also a lot more out there naturally to help sustain yourself with! Adventuring is a hungry job!",
+      "x": 157,
+      "y": 158,
+      "icon": {
+        "id": "Natura:berryMedley"
+      },
+      "prerequisites": [
+        "Natura"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Berry Delicious",
+          "longDescription": "You can find Berry Bushes all over the place! They give you a quick snack, not very filling, but quite saturating! You can break the bush down and plant it back at home, and it\u0027ll grow upwards. You can also combine a few piles of berries into a bowl and make a much more nourishing meal out of them!",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:BerryBush",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Natura:BerryBush",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Natura:BerryBush"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Natura:BerryBush",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Natura:berryMedley"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Colorful Trees",
+          "longDescription": "All these trees can give you a nice variety of different colored woods, and these woods can be used to make many of your normal wooden implements in their respective colors! Theres lots out there, but you only need to show me a few of them.",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:florasapling",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Natura:Rare Sapling",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Natura:Rare Sapling",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "BIIIIIG Tree!",
+          "longDescription": "This isn\u0027t the LARGEST tree I\u0027ve seen before, but that one is super rare....this one is just as good though! Unlike most Saplings, the Redwood Sapling requires you to plant a 7x7 area with the sapplings and just wait. A long while. It\u0027s worth it!",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:florasapling"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "name": "Exploring the Under World",
+      "description": "You know, I\u0027ve explored something similar to your Nether. It might have been the same one! Or a bad fever dream from some questionable mushroom stew but...your QUEST Tablet scanner shows data that matches what I remember! So, let\u0027s just assume I had something like a spiritual quest at some point to help you! If you have trouble finding some of these things, an old shaman I had met in my adventures did show me how to make some of these things...",
+      "x": 185,
+      "y": 188,
+      "icon": {
+        "id": "Natura:natura.stewbowl",
+        "damage": 14
+      },
+      "prerequisites": [
+        "Natura"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Hot Sand and Dark Soil",
+          "longDescription": "Tainted Soil is special in that it can be lit on fire permanently, like Netherrack, but also has the nutrients required for Nether trees and plants to grow! Heat Sand will burn you if you aren\u0027t wearing footwear, but acts much like regular Sand. If you are having trouble finding either of this (The Nether IS a pretty big place...) you can craft some reasonable substitutes!",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:heatsand"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Natura:soil.tainted"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "More Berries!",
+          "longDescription": "The Nether has its own set of berry bushes! Unlike the other ones, each berry here has its own special properties when eaten.",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:NetherBerryBush",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Natura:NetherBerryBush",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Natura:NetherBerryBush",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Natura:NetherBerryBush"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Special Trees",
+          "longDescription": "The Nether has its own range of special trees with unique looking woods. Be careful though, as many of them (like the fusewood) are dangerous to gather without taking precautions! Ghostwood saplings may or may not exist in the Nether, but if you can get some Ectoplasm from any Spirit escaping a monster after you kill it, you can turn any Sapling into a Ghostwood Tree.",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:florasapling",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Natura:florasapling",
+                "damage": 6
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Natura:florasapling",
+                "damage": 7
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Natura:florasapling",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Neon Mushrooms",
+          "longDescription": "The Nether is home to a lot of different funguses...fungi? Funguy? I don\u0027t know, but they make a really cool looking soup!",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:Glowshroom"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Natura:Glowshroom",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Natura:Glowshroom",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Natura:natura.stewbowl",
+                "damage": 14
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 35
+        }
+      ]
+    },
+    {
+      "name": "Netheral Materials",
+      "description": "The Nether is home to a wide range of dark, dangerous beasties. Some of them don\u0027t want to bother you, but most are more than happy to try feasting on your noggin. Don\u0027t feel bad about repaying the favor, as these creatures can drop some quite useful materials for you.",
+      "x": 185,
+      "y": 158,
+      "icon": {
+        "id": "Natura:barleyFood",
+        "damage": 6
+      },
+      "prerequisites": [
+        "Exploring the Under World"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Impish",
+          "longDescription": "Imps are mischevious little creatures that aren\u0027t inherently hostile to you. Killing them nets you some Imp Leather, which you can use to make armor, and Raw Imphide, which is...kinda nasty to eat. You can cook it and it\u0027ll give you some positive effects, but it will also uh...poison you for a bit.",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:barleyFood",
+                "damage": 6
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Natura:impmeat"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Burning Spiders",
+          "longDescription": "Heatscar Spiders are much more dangerous than their normal counterparts, and are ALWAYS angry. At you. They drop some useful string though.",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:barleyFood",
+                "damage": 7
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Imp Leather Gear",
+          "longDescription": "The Imp Leather is quite useful in making some Fire Protection gear, which is quite helpful in the burning dangers of the Nether.",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:natura.armor.imphelmet",
+                "nbt": "{ench:[0:{lvl:1s,id:0s},1:{lvl:1s,id:1s}]}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Hellish Tools",
+          "longDescription": "Many of the Nether materials can be used to make special tools and weapons. A special tool you can make is called the Kama, which carves through leaves especially well.",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:natura.axe.netherquartz"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Natura:natura.bow.bloodwood"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 35
+        }
+      ]
+    },
+    {
+      "name": "Netheral Tools",
+      "description": "Nether materials are all fairly dangerous to obtain, but with risk comes great reward! All these things have some fantastic uses, and also look great to decorate your abode with to show off your adventuring prowess!",
+      "x": 215,
+      "y": 188,
+      "icon": {
+        "id": "Natura:Obelisk"
+      },
+      "prerequisites": [
+        "Exploring the Under World"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Grassy Groves",
+          "longDescription": "Okay so these aren\u0027t really Nether related, but decorative. You can make a Topiary grass and color it Red or Blue to decorate your lawns, cause sometimes you get lost Adventuring and forget to water your lawn and it dies and....where was I?",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:GrassBlock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Hotter Furnace",
+          "longDescription": "This works just like the regular Furnace, but being made of Netherrack, it burns for much longer, doubling the time a piece of Fuel lasts in it!",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:NetherFurnace"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Stylish Glass",
+          "longDescription": "Soul Sand and Heat Sand can be cooked like regular Sand to get you some special Glass. Soul Glass can be walked through, but will slow you down. Heat Glass acts like Heat Sand and will hurt you if you aren\u0027t wearing boots!",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:NetherGlass"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Natura:NetherGlass",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Better Start",
+          "longDescription": "The Obelisk uses the special properties of your world and lets you select where to respawn when you die, much like sleeping in a bed does.",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:Obelisk"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Hot Hopper",
+          "longDescription": "This is just like a regular metal Hopper, except looks cooler!",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:NetherHopper"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Kind of Blazing Tracks",
+          "longDescription": "Blaze Tracks of various kinds work just like regular minecart tracks...except they move you a LITTLE bit slower. Not sure why.",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:Blazerail"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 40
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Lgndry Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 40
+        }
+      ]
+    },
+    {
+      "name": "Nether Ores",
+      "description": "The Nether is quite the dangerous place. And to an adventurer, danger equals reward! The hellish rock of the Nether holds valuable materials you can use! Each one is the equivilant of DOUBLE a normal piece of ore, and if you are an egghead and have some sorta machine to doubles your ore output, that means you DOUBLE it further! Right? Thats how math works I think!",
+      "x": 95,
+      "y": 151,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 35
+      },
+      "prerequisites": [
+        "{Initial Research}[Magic + Nature]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Hellbound Ores",
+          "items": [
+            {
+              "item": {
+                "id": "NetherOres:tile.netherores.ore.0"
+              }
+            },
+            {
+              "item": {
+                "id": "NetherOres:tile.netherores.ore.0",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "NetherOres:tile.netherores.ore.1",
+                "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "name": "Roguelike Dungeons",
+      "description": "The heart of Adventuring is finding old, decrepit ruins that no one has touched in centuries and exploring them, finding lost artifacts in dusty tombs, dodging deadly traps and pitfalls, and just generally exploring the forgotten past for riches. Now, sometimes you gotta put your nose in a book, and I have...into my QUEST Tablet, and looked over some of the data from your world the eggheads here have sent to me. It looks like you have a LOT of very interesting structures in your world. Some of them resemble large, multilevel Dungeons full of perils and profits...while other things we\u0027ve found, well...your world is really strange. I\u0027m seeing stuff in the scanners I\u0027d find down the street at the local bakery, or things in some of the novels I like listening to while traveling. It seems your world is some sorta nexus of lost, interesting ruins of past, present, and future! Find some intriguing things from these Dungeons and Ruins and send them to me. If I can get more people interested, they\u0027d be more than willing to pay you top coin for more of them!",
+      "x": 22,
+      "y": 188,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 40
+      },
+      "prerequisites": [
+        "{Initial Research}[Nature Technology]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Ancient Yet Not",
+          "longDescription": "     It looks like breaking a creature spawner in one of these dungeons drops it. They should be useful to you later on. Please send 5 broken mob spawners. Any kind will do.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemBrokenSpawner",
+                "nbt": "{mobType:\"Zombie\"}"
+              },
+              "required": 5,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Simply Jetpacks",
+      "description": "When exploring and adventuring, invariably you are going to have to scale something pretty high. Big magic tower of doom, super tall ancient skyscraper, unbelievable floating sky island, etc etc. Well, there are plenty of ways to get up there, we in The Ferret Business have come up with magical and mundane ways of all sorts, but I like going simple. And whats more simple than strapping something to your back and rocketing to the sky?!",
+      "x": 300,
+      "y": 188,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 41
+      },
+      "prerequisites": [
+        "{Initial Research}[Technology]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Strap In!",
+          "longDescription": "Most jetpacks require this component. It keeps the burning cylinder attached to you!",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:components"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Kind of Dangerous...",
+          "longDescription": "Uh...I see you kind of got the idea, but you should probably give that to me...I don\u0027t think is safe. We Adventurers take risks, but not stupid ones afterall!",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:jetpacksCommon",
+                "nbt": "{Energy:1200}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Leadstone Jetpack",
+      "description": "Okay, now that I have that dangerous Spudnik away from you, lets make some ACTUAL jetpacks! There are a good number of jetpacks you can make, each one requiring a few thrusters made of some metals, some sort of energy conductor, a way to transform energy into thrust. You then toss it onto a metal frame with a leather strap with a battery on it, charge that baby up, and zoom to the clouds! I\u0027ll only ask you to make a basic Leadstone one, as the materials are fairly common, compared to the other jetpacks you can make.",
+      "x": 300,
+      "y": 160,
+      "icon": {
+        "id": "simplyjetpacks:jetpacks",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Simply Jetpacks"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A Lead Thruster",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:components",
+                "damage": 11
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Heavy and Plain",
+          "longDescription": "All jetpacks are worn on your chest. You\u0027ll have to turn on the jetpack with F (You will most likely have to rebind this to a different key). Double-tap jump to activate flight, then just land or double-tap to disable flight. You can also activate hover mode by hitting C, but this takes more energy when not on the ground. Hover Mode lets you decend slowly when not outright flying.",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:jetpacks",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "name": "Backpack Battery",
+      "description": "If flight isn\u0027t your thing (or you have some kind of fancy Magic jewelry to let you fly), you can instead replace some of the components with more ways to store and discharge RF Energy. When you activate a Capacitor Pack, it will charge powered armor you are wearing, as well as any item in your hand. Quite handy!",
+      "x": 300,
+      "y": 132,
+      "icon": {
+        "id": "simplyjetpacks:fluxpacksEIO",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Simply Jetpacks",
+        "{Conduit Machinery}[Higher Grade Components]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A Big Power Pack!",
+          "longDescription": "Like the Jetpack, this is worn on your chest. To start charging your armor and held item, use the F key (or the key you rebound your Jetpack key to).",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:fluxpacksEIO",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Backpack Capacitor",
+      "description": "If flight isn\u0027t your thing (or you have some kind of fancy Magic jewelry to let you fly), you can instead replace some of the components with more ways to store and discharge RF Energy. When you activate a Capacitor Pack, it will charge powered armor you are wearing, as well as any item in your hand. Quite handy!",
+      "x": 276,
+      "y": 132,
+      "icon": {
+        "id": "simplyjetpacks:fluxpacks",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Leadstone Jetpack"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A Fluxed Capacitor",
+          "longDescription": "Like the Jetpack, this is worn on your chest. To start charging your armor and held item, use the F key (or the key you rebound your Jetpack key to).",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:fluxpacks",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 35
+        }
+      ]
+    },
+    {
+      "name": "Elegance in Flight",
+      "description": "So, we have Jetpacks and backpack batteries...why do we not have both? Well, usually because it takes enough just to keep a jetpack powered, let alone transfer power to your other armor and tools at the same time! But with with materials from EnderIO we can build the best Jetpack in existance!",
+      "x": 276,
+      "y": 160,
+      "icon": {
+        "id": "simplyjetpacks:jetpacksEIO",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Backpack Battery",
+        "Backpack Capacitor",
+        "Armored Jetpacks",
+        "A Unique Thruster",
+        "{Conduit Machinery}[The Final Tier]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A Powerful Alloy",
+          "longDescription": "Start by creating an alloy out of a Pulsating Crystal, some Dark Steel, and Solarium in an EnderIO Alloy Furnace",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:components",
+                "damage": 70
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Control Center",
+          "longDescription": "Take Fused Quartz, surround it in Electrical Steel and Enriched Solarium Alloy to make the housing for a Flight Control Unit.",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:components",
+                "damage": 72
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Gone Batty",
+          "longDescription": "Take a Soul Vial and capture the Soul of a Bat, then use a Soul Binder to place it into the Flight Control Unit. Now you can make all the other sub-components with these materials for the Jetplate.",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:components",
+                "damage": 73
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Dark Solarium Jetplate",
+          "longDescription": "All jetpacks are worn on your chest. You\u0027ll have to turn on the jetpack with F (You will most likely have to rebind this to a different key). Double-tap jump to activate flight, then just land or double-tap to disable flight. You can also activate hover mode by hitting C, but this takes more energy when not on the ground. Hover Mode lets you decend slowly when not outright flying. You can activate Charging mode by hitting your Jetpack key while Sneaking.",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:jetpacksEIO",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 40
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Lgndry Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 40
+        }
+      ]
+    },
+    {
+      "name": "Armored Jetpacks",
+      "description": "The bad thing is, Simple Jetpacks are worn on your back, and with the heavy straps and controls, you can\u0027t really wear armor with them. Thats okay, though, because you can MAKE armor for your jetpack! Each jetpack can be equipped with a specific type of armor, just hold the jetpack in your hands and have the proper armor plating in your inventory, and Sneak + Right Click the jetpack to install the armor on it.",
+      "x": 275,
+      "y": 188,
+      "icon": {
+        "id": "simplyjetpacks:armorPlatings",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Simply Jetpacks"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Armored Flight",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:armorPlatings",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 35
+        }
+      ]
+    },
+    {
+      "name": "A Unique Thruster",
+      "description": "Since we\u0027re not really using a giant canister of volatile chemicals as our propulsion system, we can do some fancy things with the exhaust. By combining these custom components, you can change what the thruster flames look like!",
+      "x": 249,
+      "y": 188,
+      "icon": {
+        "id": "simplyjetpacks:particleCustomizers",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Simply Jetpacks"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Going Normal",
+          "longDescription": "This one will reset your thruster flames to normal.",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:particleCustomizers"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Fabulous Smoke",
+          "longDescription": "Ride the Rainbow!",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:particleCustomizers",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Smokin!",
+          "longDescription": "Remove the fire effect and leave it as just smoke with this.",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:particleCustomizers",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Environment Friendly",
+          "longDescription": "You can go stealth mode with this and remove the thruster effect entirely!",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:particleCustomizers",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Warp Book",
+      "description": "So, some of the eggheads around here have been poking at the data on those strange Endermen. They\u0027ve harnessed their strange teleporting powers into a simple book for our use. This should be quite useful for us as Adventurers, letting us zip home and back to freshly explored areas. ",
+      "x": 118,
+      "y": 187,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 50
+      },
+      "prerequisites": [
+        "{Initial Research}[Magic]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Kind of Like a Runebook",
+          "longDescription": "Sneak + Right Clicking  will open up the book and let you place pages into it.",
+          "items": [
+            {
+              "item": {
+                "id": "warpbook:warpbook",
+                "damage": 16
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Page of Coordinates",
+          "longDescription": "A page starts unbound. Right Click it to bind it to where you are currently standing. Place it into a Warp Book, otherwise when you use the bound Warp Page, you\u0027ll destroy the page when you teleport!",
+          "items": [
+            {
+              "item": {
+                "id": "warpbook:warppage"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Death Bound",
+          "longDescription": "    The Deathly Warp Page is a special page. Since your world is infused with enough magic to resurrect you after you die, our eggheads have been able to harness this as well into the Deathly Warp Page.                          If you are holding one of these Pages in your inventory when you die, it will automatically imprint your death location on it. This way, you can retrieve your gravestone quickly, which is especially helpful if you perished far from home base.",
+          "items": [
+            {
+              "item": {
+                "id": "warpbook:warppage",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Toolbox",
+      "description": "You know, sometimes you just don\u0027t have enough space for all the tools you need. A sword to chop through the dense foliage. An axe to cut down a tree and make a bridge across a dangerous chasm. A shovel to dig up a lost treasure. A pickaxe to pry loose a gemstone from an ancient statue...                What I\u0027m saying is...any good adventurer (and mechanic, perhaps) knows that the best place to store their tools is in a Toolbox!",
+      "x": 71,
+      "y": 48,
+      "icon": {
+        "id": "toolbox:itemToolbox"
+      },
+      "prerequisites": [
+        "{Initial Research}[Technology]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A Box for Tools",
+          "longDescription": "You can place most any tool into the Toolbox. With it in your hand, just use it like a normal tool, and it will automatically use the appropriate tool for the job!",
+          "items": [
+            {
+              "item": {
+                "id": "toolbox:itemToolbox"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 25
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

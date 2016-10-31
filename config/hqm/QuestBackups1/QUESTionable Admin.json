@@ -1,0 +1,109 @@
+{
+  "name": "QUESTionable Admin",
+  "description": "    This section is for administrative functions, including regaining lost reutation.",
+  "quests": [
+    {
+      "name": "ADMINISTRATION - JOB TITLE",
+      "description": "[Message from Caigan]                          Please only use this quest if you need to regain Job Title Rank after a quest reset.",
+      "x": 148,
+      "y": 46,
+      "icon": {
+        "id": "TravellersGear:simpleGear",
+        "damage": 6
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "ADMINISTRATION - SHOP",
+      "description": "[Message from Caigan]                          Please only use this quest if you need to regain Shop Rank after a quest reset.",
+      "x": 86,
+      "y": 100,
+      "icon": {
+        "id": "ferretshinies:BlindBag",
+        "damage": 143
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "You can only obtain this item through creative mode or NEI as an Op.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "ADMINISTRATION - TRADER",
+      "description": "[Message from Caigan]                          Please only use this quest if you need to regain Trader Rank after a quest reset.",
+      "x": 212,
+      "y": 100,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 67
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "You can only obtain this item through creative mode or NEI as an Op.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 2,
+          "value": 50
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

@@ -1,0 +1,64 @@
+§l 4.3 - Crating Goods §r
+
+When you've found some items you can crate and ship, you'll need a shipping crate!
+
+{"image":"2.3.craterecipe.png", "width":100, "height":50}
+
+Craft a stack of them simply with some wooden planks and a Silver Coin (to stamp them with the Ferret Business logo).
+
+The smallest value crate you can ship to The Ferret Business is 1,000 FMC. 
+ 
+--- §lSmall FMC Value Crafting§r ---
+
+{"image":"2.2.FMClarge.png", "width":220, "height":60}
+
+Many items you find, though, will be worth a fraction of the minimum shipping value. To ship these, you'll have to crate them together until you reach 1,000 FMC.
+
+{"image":"3.3-initialcrate.png", "width":200, "height":120}
+
+For Example, to make a 50 FMC Crate, you'd need to combine one of the following : 
+    Fifty 1-FMC items
+    Twenty-five 2-FMC items
+    Ten 5-FMC items
+    Five 10-FMC items
+    Two 25-FMC items
+
+{"image":"3.3-partialcrate.png", "width":220, "height":60}
+
+You can craft an Unfilled Shipping Crate with a number of equal value items to reach a certain amount of FMC. These are : 1, 2, 5, 10, 25, 50, 100, 200, 300, 400, and 500. 
+
+{"image":"3.3-partialcratecombo.png", "width":200, "height":120}
+
+{"image":"3.3-minimumcrate.png", "width":220, "height":60}
+
+You can then combine these partially filled crates together (with another Unfilled Shipping Crate) to reach a 1,000 FMC Crate. This can be done in either a normal Crafting Table, or the Ferret Business Workbench.
+
+These items do not have to be of the same type! You can mix Materials, Food, and Magic items together if you want. 
+
+--- §lNormal FMC Value Crafting§r ---
+
+{"image":"3.3-valueitem.png", "width":130, "height":50}
+
+Most items, especially ones you create yourself, will be above the minimum value. 
+
+{"image":"3.3-valuecraft.png", "width":150, "height":70}
+{"image":"3.3-maincrate.png", "width":150, "height":60}
+{"image":"3.3-remaindercrate.png", "width":200, "height":60}
+
+Simply combine them with an unfilled shipping crate in a normal Crafting Bench or other similar machine. The Ferret Business Workbench will not properly work for this task!
+
+§4NOTE§r: Keep at least two inventory slots empty when filling crates! Many items are split into multiple crate values, and you may lose out on potential earnings!
+
+--- §lCombining Crates§r ---
+
+You can combine crates together into larger crates, which makes shipping them easier. 
+
+You can combine 1k to 9k crates in any combination that can fit in a normal Crafting Bench and reach one of following crate amounts : 2k, 3k, 4k, 5k, 6k, 7k, 8k, 9k, 10k.
+
+20k, 30k, 40k, 50k, and 100k crates can be obtained by combining 10k or higher value crates together.
+
+200k FMC crates are special ones only obtainable via very high value crafting.
+
+{"image":"3.3-traderchit.png", "width":150, "height":60}
+
+The biggest reason to combine crates together is that the only way to get Trader Chits, which you need to improve your reputation as a Trader, is to ship crates worth 5,000 FMC or more. Every 5,000 FMC a Crate is worth when shipped, gets you 1 Trader Chit.

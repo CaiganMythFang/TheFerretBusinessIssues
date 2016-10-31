@@ -1,0 +1,503 @@
+{
+  "name": "General Items",
+  "description": "Greetings, Bandit. I am the proprieter of the Corporate Shop. You may call me Penny. As you help us explore and research the profitability of the new world you have discovered, more items will become available for purchase from my shop. This is the General Shop, where you\u0027ll find various food items, seeds, furniture, and more. It is also where you can trade in Coins for Vouchers. Come inside!",
+  "quests": [
+    {
+      "name": "Dimensional Testing - Uncommon",
+      "description": "These Dimlets are somewhat rarer and more expensive. ",
+      "x": 105,
+      "y": 71,
+      "icon": {
+        "id": "ferretshinies:BlindBag",
+        "damage": 145
+      },
+      "prerequisites": [
+        "Dimensional Testing - Common"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Uncommon RFTool Dimlet Shipment",
+          "longDescription": "This shipment contains a single Dimlet of Rarity 3 or 4. ",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 145
+        }
+      ],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Dimensional Testing - Common",
+      "description": "One of the newest departments (aside from the influx of Magical ones you seem to have caused the formation of...) has some things they\u0027d like to sell you. They said they don\u0027t have much information on these, but they have a wide variety of them, and that they contain computational instructions to build entire worlds with. They say they haven\u0027t gotten far in their research yet, but wanted to help drum up Research funds by offering what they call Dimlets up for sale and research.",
+      "x": 105,
+      "y": 42,
+      "icon": {
+        "id": "ferretshinies:BlindBag",
+        "damage": 144
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Common RFTools Dimlet Shipment",
+          "longDescription": "This shipment contains a single Rarity level 0, 1, or 2 Dimlet for RFTool\u0027s Dimension Builder.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 144
+        }
+      ],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Epic Blind Bag",
+      "description": "Every Blind Bag after Basic is guaranteed to only have one of our other Blind Bags in it. The Epic Blind Bag contains either a Good or Amazing Blind Bag, but will cost you 200 Shop Vouchers.",
+      "x": 96,
+      "y": 12,
+      "icon": {
+        "id": "HardcoreQuesting:bags",
+        "damage": 3
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Epic Blind Bag Blind Bag",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 200
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 76,
+          "amount": 40
+        }
+      ]
+    },
+    {
+      "name": "Legendary Blind Bag Blind Bag",
+      "description": "Every Blind Bag after Basic is guaranteed to only have one of our other Blind Bags in it. The Legendary Blind Bag will ONLY contain Amazing blind bags, but will set you back 500 Shop Vouchers.",
+      "x": 123,
+      "y": 12,
+      "icon": {
+        "id": "HardcoreQuesting:bags",
+        "damage": 4
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Legendary Blind Bag Blind Bag",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 500
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Lgndry Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 77,
+          "amount": 50
+        }
+      ]
+    },
+    {
+      "name": "Basic Blind Bag",
+      "description": "Our most popular, best selling item ever. The Basic Blind Bag of Blind Bags contains one of two things : a random item (which, as it says on the bag, is USUALLY junk!) but it also has a chance of containing ANY Blind Bag that The Ferret Business makes! This includes the Amazing blind bags, which usually costs 500 Shop Vouchers, but instead you can take a little gamble with a Basic Bag for only 25 Shop Vouchers!",
+      "x": 16,
+      "y": 12,
+      "icon": {
+        "id": "HardcoreQuesting:bags"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Basic Blind Bag Blind Bag",
+          "longDescription": "The Basic Blind Bag of Blind Bags has a chance of either a single junk item, a pretty decent item, TWO Basic Blind Bags, some coins, or ANY of the other Blind Bags we have!",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 76,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Good Blind Bag",
+      "description": "Every Blind Bag after Basic is guaranteed to only have one of our other Blind Bags in it. The Good Blind Bag contains either a Cheap or a Decent Blind Bag, but will cost you 50 Shop Vouchers.",
+      "x": 42,
+      "y": 12,
+      "icon": {
+        "id": "HardcoreQuesting:bags",
+        "damage": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Good Blind Bag Blind Bag",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 76,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Dimensional Testing - Rare",
+      "description": "According to the lab, these are the most powerful Dimlets they have found thus far. Using them in your research will require a lot of planning and resources, they warn.",
+      "x": 105,
+      "y": 101,
+      "icon": {
+        "id": "ferretshinies:BlindBag",
+        "damage": 146
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Rare RFTools Dimlet Shipment",
+          "longDescription": "This shipment contains a single Dimlet of Rarity 5 or 6.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 125
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 146
+        }
+      ],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 6
+        }
+      ]
+    },
+    {
+      "name": "Greater Blind Bag",
+      "description": "Every Blind Bag after Basic is guaranteed to only have one of our other Blind Bags in it. The Greater Blind Bag contains either a Decent or a Good Blind Bag, but will cost you 100 Shop Vouchers.",
+      "x": 69,
+      "y": 12,
+      "icon": {
+        "id": "HardcoreQuesting:bags",
+        "damage": 2
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Greater Blind Bag Blind Bag",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 76,
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "name": "Power of Experience",
+      "description": "    Equipment can only get you so far in the world. The rest of it? Experience, of course! This won\u0027t impart actual knowledge on you, instead it will give you a sort of boost of subconscious experiences that will help you in your magical pursuits, such as when trying to Enchant something. ",
+      "x": 16,
+      "y": 46,
+      "icon": {
+        "id": "minecraft:experience_bottle"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "The Price of Knowledge",
+          "longDescription": "    Bottled Knowledge does not come cheap, mind you, but I dare say you can find more uses for it than just drinking it...",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 40
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:experience_bottle"
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 76,
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "Etheral Guardian",
+      "description": "The Thaumaturgic Branch would like to pass along a warning : the data they are looking at from your QUEST Tablet says that an ancient magical scourge is present in your world, one that eventually consumes all if left to its own device. They say it is simply called Taint. They know of a way to combat it, but its power is magically taxing and requires rare ingredients to create which...well, rare equals expensive, of course.",
+      "x": 154,
+      "y": 71,
+      "icon": {
+        "id": "Thaumcraft:blockCustomPlant",
+        "damage": 4
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "The Ethereal Bloom",
+          "longDescription": "A Wizard\u0027s Notes : \"These Blooms work in about an eight meter radius and slowly. They will transform the land back to its original state, and not only land that is changed by the corrupted Taint.\"",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 15
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockCustomPlant",
+          "damage": 4
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 76,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Mysterious Lillies",
+      "description": "It appears many of our laboratories are quite enamoried by those creatures you call Endermen. The problem is, we don\u0027t exactly have specimens of our own to...ah...\u0027multiply\u0027...so we have only the Ender Pearls you send us. We entrusted a few of these to our master Gardener, who has successfully, somehow, crossbred a lilyseed with one, which enables you to GROW Ender Pearls! ",
+      "x": 154,
+      "y": 42,
+      "icon": {
+        "id": "ExtraUtilities:plant/ender_lilly"
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Ender Lily Seed",
+          "longDescription": "Gardener\u0027s Notes \"Mind yer thumbs, them is unfriendly to you and anything you drop next to em. They also grow a mite slow, they might go faster if ya grow em on something closer to their natural habitat. Don\u0027t feed em fertilizer like ground up bones, its like poison to em.\"",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ExtraUtilities:plant/ender_lilly"
+        },
+        {
+          "id": "minecraft:end_stone"
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 76,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Thaumic Research",
+      "description": "    Wizard Watson came by a little bit ago, followed by that cute familiar of his. They were carrying a few boxes of goods to sell. Well, boxes in boxes, in Ferret Business tradition of course. Let\u0027s see, there\u0027s a note here for you...            \"Bandit, given your advancement in Thaumic study, Wiggles and I decided to make available some of our research materials for you...for a price of course. One needs to earn their knowledge in some fashion, after all.                     Each crate carries a single item. Most of the time, it will either be magical shards or some fragments of knowledge from our studies. Nine of these fragments together will create a magical research note to further your studies.                       A bit rarer would be magically created \"Eggs\", each of which contains...well, a cultist, to put it plainly. There are two kinds of basic cultist, but fret not, as they had already sacrificed their minds and souls to whatever dark creature they serve.                       The rarest item, though, is a special tome from these cultists. One you will need at some point.\"",
+      "x": 204,
+      "y": 42,
+      "icon": {
+        "id": "ferretshinies:BlindBag",
+        "damage": 331
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Thaumcraft Research Materials",
+          "longDescription": "    The Thaumic Research Crate contains either :                             2 [Basic Crystal Shards]               2 [Thaumic Tinkerer Shards]          2 [Forbidden Magic Shards]           1 [Cultist Banner]                        1 [Angry Zombie Egg]                   1 [Crimson Cleric Egg]                  1 [Crimson Knight Egg]                  1 [Cult Rites Book]",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 35
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 331
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 76,
+          "amount": 7
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

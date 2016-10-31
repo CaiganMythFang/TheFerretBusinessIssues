@@ -1,0 +1,2353 @@
+{
+  "name": "Protecting Your Assets",
+  "description": "Hi there Bandit! My name is Serge, I\u0027m an assisting to Engineer Erin and leading Stockmaster for many of the labs and shops around the Ferret Business. I was asked to help you get a little more organized in your...well, wherever you happened to land. Hopefully we\u0027ll be able to get you home soon, but my understanding it might be a while, and its a dangerous world. Sometimes, knowing where your sword, your food, and your towel are stored at any time can be the key to survival.",
+  "quests": [
+    {
+      "name": "Ender Storage",
+      "description": "Your world has presented the whole of The Ferret Business with new things to research and examine, and the lab I\u0027m from is no exception. Engineer Erin is very intrigued, I\u0027m not sure if you\u0027ve talked to him yet, but I myself have tinkered with some new Storage designs, and have come up with something fantastic. Using Blaze Rods to power some Ender Pearls, I\u0027ve discovered a way to make containers that are able to connect to the same \u0027dimensional\u0027 area. By dyeing the three bars atop both containers to the same \u0027color key\u0027, they will both share the same inventory, no matter how far away they were from each other! Right click a dye on any of the three pips on top of the chest. When you break the chest, it will remember this key!",
+      "x": 32,
+      "y": 164,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 27
+      },
+      "prerequisites": [
+        "{Initial Research}[Technology Research]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Folding@Inventory",
+          "longDescription": "Want more security? You can also Right Click a Diamond onto the latch to lock that Chest to you. If you had a Red-White-Blue chest, anyone with the same combination accesses that space. If you add a Diamond, it acts like a fourth combination with your name. Your Red-White-Blue Diamond\u0027d chest will only access other chests you\u0027ve locked with a Diamond. Anyone can OPEN your Diamond Locked chest, keep in mind, but it keeps someone from randomly cycling through colors to find waiting items.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderStorage:enderChest"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "name": "Pouch Perfect",
+      "description": "I love these Ender Chests. It makes supplying other parts of The Business much easier for everyone involved. The only problem? The Ender Chest is heavy and can only be opened when its set in place. Now, I had an idea. I\u0027ll admit, it was spawned after a session of Dungeons and Dragons, but I feel it IS pretty sound. Taking the same concept as the Ender Chest, except in portable Pouch form. Reach into the bag, pull out anything in one of the chests keyed to the same colors! Bam, modern Bag of Holding! Now, you\u0027ll need a chest set to the key you want first, you can\u0027t color this on the go unfortunately.",
+      "x": 61,
+      "y": 164,
+      "icon": {
+        "id": "EnderStorage:enderPouch"
+      },
+      "prerequisites": [
+        "Ender Storage"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Bag of Folding",
+          "items": [
+            {
+              "item": {
+                "id": "EnderStorage:enderPouch"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Long Distance Liquid",
+      "description": "Solid items and container storage is fantastic, yet a lot of what we deal with is also liquid transport. Using the same concept as the Chest, I\u0027ve come up with a liquid Tank that works just like it. The dial on the front has a blue side and an orange side. When blue is upward, it will accept liquids being pumped into it. When orange is up, it will pump liquid out on its own. The same color code on an Ender Tank won\u0027t connect to an Ender Chest, as that\u0027d just silly. And quite messy. ",
+      "x": 90,
+      "y": 163,
+      "icon": {
+        "id": "EnderStorage:enderChest",
+        "damage": 4096
+      },
+      "prerequisites": [
+        "Ender Storage"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Tanks for All the Folds",
+          "longDescription": "You can lock an Ender Tank just like you can an Ender Chest. You can also flip the dial remotely by sending a Redstone Signal to the tank. When the signal stops, the dial will flip back.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderStorage:enderChest",
+                "damage": 4096
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Iron Chest",
+      "description": "A quite standard set of storage methods we like to employ are simple Chests. We make them with various materials, allowing us to make them bigger and better, able to store all of your goods! The first Chest, though, is not of Iron, but...of Dirt. The most amazing Chest of all, able to fulfill all your inventory needs!",
+      "x": 154,
+      "y": 164,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 29
+      },
+      "prerequisites": [
+        "{Initial Research}[Technology]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Dig Dat Dirt Dude",
+          "longDescription": "Only kidding, this is a little joke Engineer Erin likes to play on new Assistants. I, as a Stockmaster, must uphold this tradition. The Dirt Chest holds only one stack of items. Not much...but still amusing.",
+          "items": [
+            {
+              "item": {
+                "id": "IronChest:BlockIronChest",
+                "damage": 7
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Of Copper and Iron",
+      "description": "Jokes aside, Wooden Chests are quite servicable in their own right, but quickly become cramped and full. Even Double Chests fill up quite fast, and with you all alone, I figure you\u0027ll be storing everything you can to survive. Given that, the first two chests I will show you are an excellent start in improving your storage capacity.",
+      "x": 133,
+      "y": 189,
+      "icon": {
+        "id": "IronChest:BlockIronChest",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Iron Chest"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Cu Later",
+          "longDescription": "The Copper Chest has a little more room in it than a basic Wooden Chest.",
+          "items": [
+            {
+              "item": {
+                "id": "IronChest:BlockIronChest",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Fe eling Good About Storage",
+          "longDescription": "The Iron Chest has the same amount of room a Double Wooden Chest does.",
+          "items": [
+            {
+              "item": {
+                "id": "IronChest:BlockIronChest"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Of Silver and Gold",
+      "description": "Now that you\u0027ve doubled the capacity of a single Wooden Chest, it\u0027s time to expand even further. By taking more precious metals such as Silver and Gold, we can increase the space in each Chest even more!",
+      "x": 176,
+      "y": 188,
+      "icon": {
+        "id": "IronChest:BlockIronChest",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Of Copper and Iron"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Ag reat Storage Solution",
+          "longDescription": "Silver is a very pretty material, and it also makes excellent chests. ",
+          "items": [
+            {
+              "item": {
+                "id": "IronChest:BlockIronChest",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Au Get Even More Room!",
+          "longDescription": "Not only does it have more storage space than Silver, it\u0027s also a great way to display your wealth!",
+          "items": [
+            {
+              "item": {
+                "id": "IronChest:BlockIronChest",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 35
+        }
+      ]
+    },
+    {
+      "name": "Of Diamond, Crystal, and Dark",
+      "description": "Going beyond the precious metals, we can look to perfecting the structure of the Chest itself to maximize our Storage potential. What better way than with Diamonds and Glass? And perhaps, some other, less obvious ways?",
+      "x": 175,
+      "y": 138,
+      "icon": {
+        "id": "IronChest:BlockIronChest",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Of Silver and Gold"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "C the Cost of Success",
+          "longDescription": "While fairly expensive, for the price, you get a lot of bang for your buck. With the most storage space in it of the Iron Chest line, you\u0027ll be hard pressed to fill a bunch of these. Or will you? It always seems like there is never enough room.",
+          "items": [
+            {
+              "item": {
+                "id": "IronChest:BlockIronChest",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Transparently Aligned",
+          "longDescription": "Ever wanted to see what was in a Diamond Chest without, you know, opening it? Well, with a bit of glass, you can do just that!",
+          "items": [
+            {
+              "item": {
+                "id": "IronChest:BlockIronChest",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "SiO2 Something Something Pun",
+          "longDescription": "If your normal Diamond Chests seem a bit too...fragile, you can use the strength of Obsidian to fortify one! It\u0027ll withstand some pretty strong blasts, but don\u0027t skimp on the insurance if you\u0027re playing with Nukes...",
+          "items": [
+            {
+              "item": {
+                "id": "IronChest:BlockIronChest",
+                "damage": 6
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 50
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Lgndry Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "Uprading Success",
+      "description": "The beauty of the Iron Chest system is that it enables you to upgrade chests without having to empty them and pick them back up. By crafting an Upgrade instead of the next chest up, you can Sneak + Right Click the upgrade on the appropriate chest to...well...upgrade it!",
+      "x": 132,
+      "y": 138,
+      "icon": {
+        "id": "IronChest:woodIronUpgrade"
+      },
+      "prerequisites": [
+        "Of Copper and Iron"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "The First Tier",
+          "items": [
+            {
+              "item": {
+                "id": "IronChest:woodCopperUpgrade"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "IronChest:woodIronUpgrade"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Second Tier",
+          "items": [
+            {
+              "item": {
+                "id": "IronChest:copperIronUpgrade"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "IronChest:copperSilverUpgrade"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Third Tier",
+          "items": [
+            {
+              "item": {
+                "id": "IronChest:ironGoldUpgrade"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "IronChest:silverGoldUpgrade"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "IronChest:goldDiamondUpgrade"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Final Tier",
+          "items": [
+            {
+              "item": {
+                "id": "IronChest:diamondCrystalUpgrade"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "IronChest:diamondObsidianUpgrade"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 50
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Lgndry Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 45
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "Open Modular Turrets",
+      "description": "    Finding a place to store all your belongings is easy. Defending it when all sorts of terrors of the night want your brains? Well, thats a bit more difficult. Theres a lot of ways to defend yourself and fight the creatures of the dark, but there is only one of you, and hundreds of them.                           What you need...is superior firepower. Something that can be adjusted to fit the needs of your growing base. For military and defense applications, The Ferret Business prefers to employ Open Modular Turrets. As long as you supply enough RF Energy and Ammo, they will defend your belongings tirelessly. With a wide variety of options, you can surely find something that will meet your defense needs!                               These consist of Bases that can be supplied Ammo and RF Energy, and Turrets that you can attatch to any side. The Turret Bases can be accessed by Right Clicking them with an open hand. If you Right Click them with any simple block, you will disguise the Turret Base.",
+      "x": 16,
+      "y": 14,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 40
+      },
+      "prerequisites": [
+        "{Initial Research}[Technology]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Basic Base",
+          "longDescription": "    Most Bases are made with Sensors, which are used to identify targets. Most turrets have a Barrel and Chamber as well as a Sensor, so that each one can target different enemies at once.        The Wooden Turret Base can only be powered by the Basic Turret Base Crank. Any other side that is not being powered (whether by a crank or by some other RF Energy pipe) can have a Turret on it.                                                To attatch the crank to the Turret Base, you will need to Sneak + Right Click the Crank onto the Base.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:sensorTierOneItem"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:barrelTierOne"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:chamberTierOne"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:leverBlock"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:baseTierWood"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Junkyard Recycling",
+          "longDescription": "    The Disposable Item Turret  will fire ANY item you put into the Wooden Base ammo pool. Due to the high energy and velocity items are shot at, they will be destroyed.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:disposeItemTurret"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Spud Shooter",
+          "longDescription": "    For a little more oomph in your shots, you can use a Potato Launcher Turret. Instead of consuming any junk laying around, it is specially formed to fire nothing but Potatoes. ",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:potatoCannonTurret"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Expansion Perfection",
+      "description": "    Seldom will you use all six sides of a Turret Base. You\u0027ll use at least one for Power, one as a connection point to the floor or wall, and a handful of Turrets.           The use of Expanders on these unused sides allows you to increase the Ammo Storage and RF Energy Storage of a Turret Base.       Inventory Expanders add 9 more slots of Inventory, but the limit of Stack Size depends on the Tier of Expander. ",
+      "x": 63,
+      "y": 44,
+      "icon": {
+        "id": "openmodularturrets:expanderInvTierThree"
+      },
+      "prerequisites": [
+        "Tier 2 - Burning Bullets"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Tier 1",
+          "longDescription": "    Expanded Inventory max stack size is 4.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:expanderInvTierOne"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:expanderPowerTierOne"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Tier 2",
+          "longDescription": "    Expanded Inventory max stack size is 8.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:expanderPowerTierTwo"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:expanderInvTierTwo"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Tier 3",
+          "longDescription": "    Expanded Inventory max stack size is 16.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:expanderInvTierThree"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:expanderPowerTierThree"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Tier 4",
+          "longDescription": "    Expanded Inventory max stack size is 32.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:expanderPowerTierFour"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:expanderInvTierFour"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Tier 5",
+          "longDescription": "    Expanded Inventory max stack size is 64.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:expanderPowerTierFive"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:expanderInvTierFive"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Tier 2 - Burning Bullets",
+      "description": "    Now, if you don\u0027t want to spend most of your time cranking the wind up Jack in the Gunbox, you\u0027ll want to upgrade your firepower pretty quick. Every higher tier base can be connected to RF Energy pipes of any sort, such as Ducts or Conduits. You can also pipe in ammo this way as well.",
+      "x": 73,
+      "y": 14,
+      "icon": {
+        "id": "openmodularturrets:bulletCraftable"
+      },
+      "prerequisites": [
+        "Open Modular Turrets"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Tier 2 Parts",
+          "longDescription": "    Upgrading the Sensor allows better targetting, and using better materials provides more power. With the improvement of materials, we\u0027ll also need to make IO Busses.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:sensorTierTwoItem"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:chamberTierTwo"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:barrelTierTwo"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:ioBus"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Leadstone Base",
+          "longDescription": "    Did you know, you can deactivate your Turret by applying a Redstone Signal?",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:baseTierOneBlock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Dakka Dakka Dakka",
+          "longDescription": "    The Machine Gun Turret will only fire Bullets. What it lacks for in single shot damage it makes up for by sheer volume.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:machineGunTurret"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:bulletCraftable"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Hunka Burning Love",
+          "longDescription": "    The Incendiary Turret will fire Burning Clay, which explodes when it hits and lights things on fire. Be careful!",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:incendiaryTurret"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:blazingClayCraftable"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "name": "Upgrading Potential",
+      "description": "    All Turret Bases beyond the Wooden one can be augmented in various ways. One way is to add an Upgrade or two to them. These usually increase one of the stats of the connected Turrets, whether it increase their range or decrease how much power each shot takes.                                    All Upgrades can be stacked multiple times.",
+      "x": 15,
+      "y": 59,
+      "icon": {
+        "id": "openmodularturrets:accuraccyUpgradeItem"
+      },
+      "prerequisites": [
+        "Tier 2 - Burning Bullets"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Deadeye",
+          "longDescription": "    The Accuracy upgrade will increase each turret\u0027s accuracy by 20%.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:accuraccyUpgradeItem"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Optomization",
+          "longDescription": "    The Efficiency Upgrade will decrease how much RF every shot will take by 8% per Upgrade.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:efficiencyUpgradeItem"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Faster!",
+          "longDescription": "    Fire Rate Upgrade will increase how fast your turrets fire by 10% per upgrade.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:fireRateUpgradeItem"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Long Shot",
+          "longDescription": "    Each Range Upgrade will add 2 more blocks of range to your Turrets.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:rangeUpgradeItem"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Covering Fire!",
+          "longDescription": "    Scattershot adds two projectiles per shot and takes two more ammo each shot as well. The turret\u0027s acuracy is decreased as well, and it takes more RF Energy to fire.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:scattershotUpgradeItem"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Additional Power",
+      "description": "    Addons are a bit more costly than Upgrades, but do fairly different things. Generally, each base can only take one Addon until you get to the top Tier Resonant Base.",
+      "x": 126,
+      "y": 58,
+      "icon": {
+        "id": "openmodularturrets:damageAmpAddon"
+      },
+      "prerequisites": [
+        "Tier 2 - Burning Bullets"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Punch Through!",
+          "longDescription": "    The Damage Boost Addon will add 2 damage to every shot.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:damageAmpAddon"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Praise the Sun",
+          "longDescription": "    The Solar Addon will allow your Turret Base to generate RF Energy if it is out in the sunlight.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:solarPanelAddon"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Burning Red",
+          "longDescription": "    The Redstone Reactor will allow your Turret to consume Redstone Dust to generate power.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:redstoneReactorAddon"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Pop-o-Matic Trouble",
+          "longDescription": "    The Turret Concealer Addon will allow your Turrets to hide in their base when not targetting an enemy.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:concealerAddon"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Three R\u0027s",
+          "longDescription": "    The Recycle addon gives your Turrets a small chance of not only consuming no ammo each shot, but also generating more.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:recyclerAddon"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "No Not the Monitor Port",
+          "longDescription": "    You can add a Serial Port to your Turret Base, which will make it compatable with Open Computers and ComputerCraft. How to use this functionality I\u0027m not sure, but there should be some sort of manual I would hope.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:serialPortAddon"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Potent Potential",
+          "longDescription": "    Technological advances aren\u0027t the only thing your Turrets can use for power. The Essentia Converter will take Thaumcraft Essentia and use it like RF Energy to power the Turret.                        Ordo Essentia provides 10x boost in power.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:potentiaAddon"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Tier 3 - Boom and Doom",
+      "description": "    Now, a hail of bullets are good for smaller monsters, but you seem to have some much bigger fish that want to fry you. Bigger firepower requires bigger power reserves though, so you\u0027ll need a better Turret Base. This will also give you much better options in dealing with hostiles, ones that don\u0027t involve just shooting them...",
+      "x": 126,
+      "y": 14,
+      "icon": {
+        "id": "openmodularturrets:grenadeCraftable"
+      },
+      "prerequisites": [
+        "Tier 2 - Burning Bullets"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Tier 3 Components",
+          "longDescription": "    Better materials, better options!",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:sensorTierThreeItem"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:barrelTierThree"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:chamberTierThree"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Reinforced Case",
+          "longDescription": "    The Tier 3 Base is Reinforced and provides more power and faster power transfer to turrets.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:baseTierTwoBlock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "EXPLOSIONS!",
+          "longDescription": "    The Grenade Launcher will launch... bare with me now... Grenades. These grenades will not damage your home, they are specially formulated to damage any creature... and this includes you and your Assistants, keep in mind. They will hit a large area, but the cavaet is that they take a few seconds to prime and explode after landing.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:grenadeTurret"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:grenadeCraftable"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Relativity, My Dear Watson",
+          "longDescription": "    The Realitivistic Turret won\u0027t shoot projectiles at your targets... instead, it will highlight them for you with a cloudy effect. It may also make them weaker, but this is a brand new turret and does not have a manual yet.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:relativisticTurret"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 35
+        }
+      ]
+    },
+    {
+      "name": "Tier 4 - Whoosh and Fwoosh",
+      "description": "    If rolling grenades and waiting for fuses isn\u0027t your thing, but big explosions are, then the next Tier up is exactly what you are looking for!",
+      "x": 177,
+      "y": 14,
+      "icon": {
+        "id": "openmodularturrets:rocketCraftable"
+      },
+      "prerequisites": [
+        "Tier 3 - Boom and Doom"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Tier 4 Components",
+          "longDescription": "    Diamonds and Quartz add even more power and ability to the Turret designs",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:sensorTierFourItem"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:chamberTierFour"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:barrelTierFour"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Hardened Case",
+          "longDescription": "    Even more power storage for your turrets.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:baseTierThreeBlock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Missile Defense",
+          "longDescription": "    The Rocket Launcher Turret is one of the most accurate Turrets but it fires somewhat slowly.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:rocketCraftable"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:rocketTurret"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Zoop",
+          "longDescription": "    The Teleporter Turret doesn\u0027t attack enemies directly. Instead it will teleport them to the Turret, allowing you to do more than just kill them.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:teleporterTurret"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 40
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 40
+        }
+      ]
+    },
+    {
+      "name": "Tier 5 - Zap Pow",
+      "description": "    If the lower Tiers are just not enough Firepower, say if you were assaulting some Deep, Dark fortress of hostility, then you\u0027ll need every shot to hit like a Mach Truck. I have not one, but TWO Turrets that can help you out here. Keep in mind, though, that with great Power comes great Power Consumption.",
+      "x": 219,
+      "y": 14,
+      "icon": {
+        "id": "openmodularturrets:ferroSlug"
+      },
+      "prerequisites": [
+        "Tier 4 - Whoosh and Fwoosh"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Tier 5 Components",
+          "longDescription": "    To withstand the sheer power of these weapons, you\u0027ll need better components.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:sensorTierFiveItem"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:barrelTierFive"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:chamberTierFive"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Resonant Case",
+          "longDescription": "    The Resonant Base is the only base that can have two Upgrades AND two addons.",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:baseTierFourBlock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Fist of an Angry God",
+          "longDescription": "    The Rail Gun Turret is the slowest firing Turret, but every shot hits hard and precise. ",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:railGunTurret"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:ferroSlug"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Zap!",
+          "longDescription": "    If you are tired of mass producing Ammo for your Turrets and have a ton of spare RF Energy, why not invest in a Laser Turret?",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:laserTurret"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 50
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Lgndry Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 40
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "JABBA",
+      "description": "Here at The Ferret Business, we stockpile lots and lots of the same thing. Hundreds of gemstones. Thousands of metal ingots. All manner of electonic components. Now, placing them into lots of chests and storage boxes is all well and good, but it wastes their potential of holding more than one kind of item. Plus, even the largest chest has a limit, and you can also accidently place the wrong item into it. This is where Barrels come in. JABBA Barrels, that is! Each one holds only one kind of item, but can be upgraded and customized in so many different ways! ",
+      "x": 257,
+      "y": 54,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 30
+      },
+      "prerequisites": [
+        "{Initial Research}[Technology]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "What a Better Barrel!",
+          "longDescription": "   After placing the Barrel, you can add an item by Right Clicking it onto the Barrel. Now only THAT item can be put into the Barrel.                     You can add all of a held item into a Barrel by Double Right Clicking.                                        To remove a stack of items, Left Click. To remove a single one, Sneak when Left Clicking.                           You can lock or unlock a Barrel to an item by Sneak + Right Clicking it with an empty hand. This makes it so you can empty the Barrel, but it will still only accept that item.",
+          "items": [
+            {
+              "item": {
+                "id": "JABBA:barrel"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Barrel Improvement",
+      "description": "   Now, you may have noticed that a normal Better Barrel can only hold 64 stacks of an item. Seems like a lot, right? Until you realize that a double wooden chest holds much more than that...but thats where Upgrades come in!                           But to start upgrading our Barrels, we\u0027ll have to increase the number of \"Slots\" a Barrel has.  Every Barrel can only have a certain number of Slots, and every upgrade takes up Slots.                    To add slots, we need to start with Structural Upgrades. These are made of varying materials, each one adding more Slots to the Barrel.",
+      "x": 257,
+      "y": 85,
+      "icon": {
+        "id": "JABBA:upgradeStructural"
+      },
+      "prerequisites": [
+        "JABBA"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Structural MK I - Oak",
+          "longDescription": "To add any upgrade like the Structural upgrades, Sneak + Right Click it onto the Barrel.",
+          "items": [
+            {
+              "item": {
+                "id": "JABBA:upgradeStructural"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Structural MK II - Iron",
+          "longDescription": "To use higher tier Structural Upgrades, you must install the lower tier first.",
+          "items": [
+            {
+              "item": {
+                "id": "JABBA:upgradeStructural",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Structural MK III - Gold",
+          "items": [
+            {
+              "item": {
+                "id": "JABBA:upgradeStructural",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Structural MK IV - Diamond",
+          "items": [
+            {
+              "item": {
+                "id": "JABBA:upgradeStructural",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 35
+        }
+      ]
+    },
+    {
+      "name": "Better Storage",
+      "description": "One of the improvements you can make to a Barrel is to increase its Storage capacity. Each one takes a number of Slots, and adds a number of Stacks of extra space. You can use multiple of the same Storage Upgrade on a single Barrel, as long as you have enough Slots.",
+      "x": 241,
+      "y": 115,
+      "icon": {
+        "id": "JABBA:upgradeCore",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Barrel Improvement"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Double Storage",
+          "longDescription": "The basic Storage Upgrade takes 1 Slot, and increases the Storage limit by 64 stacks.",
+          "items": [
+            {
+              "item": {
+                "id": "JABBA:upgradeCore"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Even More Storage!",
+          "longDescription": "The next tier up takes 3 Slots, but increases Storage by 192 stacks!",
+          "items": [
+            {
+              "item": {
+                "id": "JABBA:upgradeCore",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Thats a Lot of Storage!",
+          "longDescription": "Need more space? This upgrade takes 9 Slots, but increases Storage by 576 stacks!",
+          "items": [
+            {
+              "item": {
+                "id": "JABBA:upgradeCore",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "name": "Better Control",
+      "description": "There is plenty more you can do with a Barrel than just stuff it full of stones or bricks or whatever you fancy. You can customize them with upgrades that enable them to be used in automation builds. ",
+      "x": 272,
+      "y": 115,
+      "icon": {
+        "id": "JABBA:upgradeCore",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Barrel Improvement"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Sadly, It Isn\u0027t Puffy Too",
+          "longDescription": "Normally you can only see whats in a Barrel from the front. You can turn any other side of the Barrel into the same display by Sneak + Right Clicking a Sticker onto it!",
+          "items": [
+            {
+              "item": {
+                "id": "JABBA:upgradeSide"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Check, Please",
+          "longDescription": "The Redstone Upgrade enables a Barrel to emit a Redstone Signal when it is full. Apply a Redstone Sticker to any face you want the Redstone Signal to emit from.",
+          "items": [
+            {
+              "item": {
+                "id": "JABBA:upgradeCore",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "JABBA:upgradeSide",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Drop it Like It\u0027s Hot",
+          "longDescription": "The Hopper Upgrade will make the Barrel act like a Hopper. You\u0027ll need to place a Hopper facade to the side of the Barrel you want the Barrel to push items to. ",
+          "items": [
+            {
+              "item": {
+                "id": "JABBA:upgradeCore",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "JABBA:upgradeSide",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "No Thanks, I\u0027m Full",
+          "longDescription": "By applying a Void Upgrade, any more items that go over the Storage limit of the Barrel will be destroyed. This is good for strip mining quarries, as excess Cobblestone will be removed.",
+          "items": [
+            {
+              "item": {
+                "id": "JABBA:upgradeCore",
+                "damage": 7
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Better Tools",
+      "description": "   A well upgraded and maintained Barrel can have hundreds of stacks of items. A right pain if you need to move it around.                   The benefit of using Better Barrels is they are easy to maintain with the right tools! You can remove Upgrades to add different or better ones, and you can move entire Barrels with the use of a Dolly!",
+      "x": 286,
+      "y": 85,
+      "icon": {
+        "id": "JABBA:mover"
+      },
+      "prerequisites": [
+        "Barrel Improvement"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Hammer It, Bro",
+          "longDescription": "The JABBA Hammer enables you to remove any Upgrade from a Better Barrel. Sneak + Right Click it on a Barrel to start removing upgrades. You can cycle through specific Upgrades by Sneak + Right Clicking the Hammer when not aiming at anything.",
+          "items": [
+            {
+              "item": {
+                "id": "JABBA:hammer"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Rolling on Over",
+          "longDescription": "Dollies enable you to move Better Barrels or other Chests and some complicated machinery without losing contents or settings. Sneak + Right Click the Dolly onto the Barrel, Chest, or Machine, and if it can it will pick it up. You\u0027ll walk slowly as you carry it, but you can then Sneak + Right Click the Dolly onto the new spot you want to place the item.",
+          "items": [
+            {
+              "item": {
+                "id": "JABBA:mover"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Does It Include Spinners?",
+          "longDescription": "The Diamond Dolly works like the regulary Dolly, but it can also be used to move Monster Spawners. Doing so will slowly damage the Dolly though, keep in mind!",
+          "items": [
+            {
+              "item": {
+                "id": "JABBA:moverDiamond"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 35
+        }
+      ]
+    },
+    {
+      "name": "Better Spacial Anomolies",
+      "description": "   Given the research into these Endermen of yours, one of my assistants has helped come up with a way to link two Better Barrels to the same dimensional storage space. We\u0027ve decided to call it...B-Space. For Barrel. Kind of like L-Space (if you\u0027ve heard of it), except with less uh....dangers.",
+      "x": 258,
+      "y": 142,
+      "icon": {
+        "id": "JABBA:upgradeCore",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Barrel Improvement"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Two Barrels, One Inventory",
+          "longDescription": "To apply the BSpace Upgrade to a Barrel, it must be empty. ",
+          "items": [
+            {
+              "item": {
+                "id": "JABBA:upgradeCore",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Auto Tuning a Barrel",
+          "longDescription": "   To link two Barrels together, they must :                                   1) Be Empty                               2) Have BSpace Upgrades             3) Have the same Structural Upgrade                                       You can then Sneak + Right Click the Tuning Fork onto each Barrel to link them together.",
+          "items": [
+            {
+              "item": {
+                "id": "JABBA:tuningFork"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 40
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 40
+        }
+      ]
+    },
+    {
+      "name": "Better Better Better!",
+      "description": "Upgrading your Barrels doesn\u0027t stop with just 567 extra stacks of material. With these Structural and Storage upgrades, you condense quite a lot of something into a tiny, portable space!",
+      "x": 258,
+      "y": 174,
+      "icon": {
+        "id": "JABBA:upgradeStructural",
+        "damage": 6
+      },
+      "prerequisites": [
+        "Better Storage",
+        "Better Control"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Additional Slots",
+          "longDescription": "Each of these Structural upgrades adds 31, 63, and 127 additional Slots to a Barrel, respectively.",
+          "items": [
+            {
+              "item": {
+                "id": "JABBA:upgradeStructural",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "JABBA:upgradeStructural",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "JABBA:upgradeStructural",
+                "damage": 6
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Additional Storage",
+          "longDescription": "Each of these Storage upgrades adds 1,728 or 5184 stacks of Storage Space, respectively.",
+          "items": [
+            {
+              "item": {
+                "id": "JABBA:upgradeCore",
+                "damage": 6
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "JABBA:upgradeCore",
+                "damage": 8
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 50
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Lgndry Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 45
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "A Defensive Strategy",
+      "description": "    A good base doesn\u0027t just rely on overwhelming firepower to keep its enemies out. A solid wall and foreboding fence can be enough to turn away smaller hooligans.              Each Tier of Hard Wall and Fence is harder and more resistant to the previous one. Any Tier 2 or higher fence, as well, is also covered in barbs, and will damage all creatures that touch it. ",
+      "x": 83,
+      "y": 44,
+      "icon": {
+        "id": "openmodularturrets:fenceTierThree"
+      },
+      "prerequisites": [
+        "Tier 2 - Burning Bullets"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Defensive Tier 1",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:hardWallTierOne"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:fenceTierOne"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Defensive Tier 2",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:hardWallTierTwo"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:fenceTierTwo"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Defensive Tier 3",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:hardWallTierThree"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:fenceTierThree"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Defensive Tier 4",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:hardWallTierFour"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:fenceTierFour"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Defensive Tier 5",
+          "items": [
+            {
+              "item": {
+                "id": "openmodularturrets:hardWallTierFive"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "openmodularturrets:fenceTierFive"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

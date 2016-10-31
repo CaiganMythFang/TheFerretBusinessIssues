@@ -1,0 +1,168 @@
+[
+  {
+    "name": "Job Title",
+    "neutral": "New Assistant",
+    "markers": [
+      {
+        "name": "Staff Assistant",
+        "value": 250
+      },
+      {
+        "name": "Head Assistant",
+        "value": 450
+      },
+      {
+        "name": "Junior Researcher",
+        "value": 1000
+      },
+      {
+        "name": "Researcher",
+        "value": 2000
+      },
+      {
+        "name": "Research Specialist",
+        "value": 3000
+      },
+      {
+        "name": "Assistant Manager",
+        "value": 5000
+      },
+      {
+        "name": "Department Manager",
+        "value": 8000
+      },
+      {
+        "name": "Company Secretary",
+        "value": 9000
+      },
+      {
+        "name": "Director",
+        "value": 11500
+      },
+      {
+        "name": "Member of the Board",
+        "value": 13000
+      },
+      {
+        "name": "Vice Chairman",
+        "value": 14000
+      },
+      {
+        "name": "Chairman of the Board",
+        "value": 16000
+      },
+      {
+        "name": "Vice President",
+        "value": 17000
+      },
+      {
+        "name": "President",
+        "value": 18000
+      },
+      {
+        "name": "Chief Operating Officer",
+        "value": 19000
+      },
+      {
+        "name": "Chief Dooking Officer",
+        "value": 20000
+      }
+    ]
+  },
+  {
+    "name": "Shop Loyalty Points",
+    "neutral": "Dirt Tier",
+    "markers": [
+      {
+        "name": "Wood Tier",
+        "value": 5
+      },
+      {
+        "name": "Stone Tier",
+        "value": 50
+      },
+      {
+        "name": "Tin Tier",
+        "value": 100
+      },
+      {
+        "name": "Iron Tier",
+        "value": 250
+      },
+      {
+        "name": "Bronze Tier",
+        "value": 500
+      },
+      {
+        "name": "Steel Tier",
+        "value": 750
+      },
+      {
+        "name": "Gold Tier",
+        "value": 1000
+      },
+      {
+        "name": "Emerald Tier",
+        "value": 1500
+      },
+      {
+        "name": "Obsidian Tier",
+        "value": 2000
+      },
+      {
+        "name": "Diamond Tier",
+        "value": 2500
+      }
+    ]
+  },
+  {
+    "name": "Trader Rank",
+    "neutral": "Opportunist",
+    "markers": [
+      {
+        "name": "Journeyman",
+        "value": 5
+      },
+      {
+        "name": "Profiteer",
+        "value": 50
+      },
+      {
+        "name": "Vendor",
+        "value": 100
+      },
+      {
+        "name": "Trader",
+        "value": 200
+      },
+      {
+        "name": "Entrepreneur",
+        "value": 400
+      },
+      {
+        "name": "Wholesaler",
+        "value": 600
+      },
+      {
+        "name": "Broker",
+        "value": 900
+      },
+      {
+        "name": "Economist",
+        "value": 1200
+      },
+      {
+        "name": "Capitalist",
+        "value": 1500
+      },
+      {
+        "name": "Mogul",
+        "value": 2000
+      },
+      {
+        "name": "Tycoon",
+        "value": 4000
+      }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "_name": "GrimoireOfGaia.Dryad",
+  "drops": [
+    {
+      "_comment": "Drop Tinged Leaf",
+      "function": "if_recently_hit",
+      "count": 0.25,
+      "functions": [
+        {
+          "_comment": "add tinged leaf drop",
+          "function": "add",
+          "id": "ferretshinies:NullToken",
+          "damage": "37",
+          "count": "1~3"
+        }
+      ]
+    },
+    {
+      "_comment": "Drop Mailed Contract",
+      "function": "if_recently_hit",
+      "count": 0.02,
+      "functions": [
+        {
+          "_comment": "add MailedContract",
+          "function": "add",
+          "id": "ferretshinies:BlindBag",
+          "damage": "351",
+          "count": "1"
+        }
+      ]
+    }
+  ],
+  "pre_stats": [],
+  "stats": []
+}

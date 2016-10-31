@@ -1,0 +1,88 @@
+{
+  "name": "(WIP)The Birds and the Bees",
+  "description": "    [WORK IN PROGRESS]                   This questline is not finished yet.  It will be added in a future update.",
+  "quests": [
+    {
+      "name": "Unnamed",
+      "x": 63,
+      "y": 122,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 6
+      },
+      "prerequisites": [
+        "{Initial Research}[Fantastic Fauna]"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 53
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Unnamed",
+      "x": 40,
+      "y": 150,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 4
+      },
+      "prerequisites": [
+        "{Initial Research}[Fantastic Fauna]"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 53
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Unnamed",
+      "x": 69,
+      "y": 158,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 7
+      },
+      "prerequisites": [
+        "{Initial Research}[Fantastic Fauna]"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 53
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

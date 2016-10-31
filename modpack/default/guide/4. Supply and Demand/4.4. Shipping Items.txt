@@ -1,0 +1,9 @@
+§l 4.3 - Shipping Goods §r
+
+Now that you have some filled Supply Crates, it is time to ship them!
+
+You can use the [H]Supply and Demand page in your QUEST Tablet to ship them to The Ferret Business one by one, or...
+
+{"image":"3.4-sagmill.png", "width":120, "height":60}
+
+Utilize the SAG Mill from EnderIO to automate the shipping process. You will receive the appropriate amount of Silver Coins and Trader Chits in return.

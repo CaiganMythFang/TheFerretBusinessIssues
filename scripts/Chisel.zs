@@ -1,0 +1,2 @@
+recipes.remove(<chisel:futura>);
+recipes.addShaped(<chisel:futura> * 8, [[<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>], [<minecraft:stonebrick>, <ore:dustRedstone>, <minecraft:stonebrick>], [<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>]]);

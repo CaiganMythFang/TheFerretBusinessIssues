@@ -1,0 +1,731 @@
+{
+  "name": "[H]Supply and Demand",
+  "description": "Penny here. All the research you are helping with takes time, and doesn\u0027t pay out a whole lot, does it? Thusly, its a bit slow for you to get Coins, no? Good thing I don\u0027t just run the Shop here. I am also the Head of Marketing and Sales. And while you like Coins to spend, I like materials to sell. So, you scratch my back with raw materials, and I scratch yours with Silver Coins. Agreed?",
+  "quests": [
+    {
+      "name": "A Guide to Contracts",
+      "description": "    Whether its Materials or Products, The Ferret Business is always in need of them massive quantities. We have stores and distributors all over the place, and we need a steady supply to meet the demand, so we have a standard listing of Contracts.                         Contracts cover all manner of things we accept. The simplest contracts are Supply Contracts, which cover basic materials like metal and seeds. There are also Production Contracts, which cover anything you can mass produce from materials, like furniture, toys, or even RF Energy.                         But to fill any contract, you need to start by making Shipping Crates. Surround a Silver Coin in any Wooden Planks to get 64 servicable shipping crates.      NOTE : Once you crate something, you cannot uncrate it!                      I will give you 64 crates for 1 plank of wood. Normally, you can create more crates, simply by combining 8 planks of wood and a single Silver Coin.                            Originally I would give you a guidebook, but the printer here is broken right now...",
+      "x": 105,
+      "y": 13,
+      "bigicon": true,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 67
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 7,
+        "hours": 0
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "A Guide to Supply and Demand",
+          "longDescription": "    If you ever run out of coins completely, you can come back here once a week for a new stack of Empty Crates.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:planks",
+                "damage": 4
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:IconAsset",
+          "damage": 67,
+          "amount": 64
+        },
+        {
+          "id": "Avaritia:Dire_Crafting"
+        }
+      ]
+    },
+    {
+      "name": "Supply Crate - 1,000 FMC",
+      "description": "    The lowest value crate you can supply The Ferret Business with contains 1,000 FMC.                          It is more profitable to combine lower value crates into larger values, however, as you can only get Trader Chits for every 5,000 value you trade in at once.",
+      "x": 37,
+      "y": 58,
+      "icon": {
+        "id": "ferretshinies:LayeredIconAsset",
+        "damage": 378
+      },
+      "prerequisites": [
+        "Rules Read"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "1,000 FMC Supply Crate",
+          "longDescription": "    You can submit any of the Supply type crates : Accessories, Armor, Building, Components, Food, Furniture, Home and Work, Machine, Magic, Material, Misc, Thematic, Tool, Toys, or Weapons.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:LayeredIconAsset",
+                "damage": 5
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken"
+        }
+      ]
+    },
+    {
+      "name": "Supply Crate - 2,000 FMC",
+      "description": "    The lowest value crate you can supply The Ferret Business with contains 1,000 FMC.                          It is more profitable to combine lower value crates into larger values, however, as you can only get Trader Chits for every 5,000 value you trade in at once.",
+      "x": 64,
+      "y": 58,
+      "icon": {
+        "id": "ferretshinies:LayeredIconAsset",
+        "damage": 379
+      },
+      "prerequisites": [
+        "Rules Read"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "2,000 FMC Supply Crate",
+          "longDescription": "    You can submit any of the Supply type crates : Accessories, Armor, Building, Components, Food, Furniture, Home and Work, Machine, Magic, Material, Misc, Thematic, Tool, Toys, or Weapons.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:LayeredIconAsset",
+                "damage": 6
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Supply Crate - 3,000 FMC",
+      "description": "    The lowest value crate you can supply The Ferret Business with contains 1,000 FMC.                          It is more profitable to combine lower value crates into larger values, however, as you can only get Trader Chits for every 5,000 value you trade in at once.",
+      "x": 90,
+      "y": 58,
+      "icon": {
+        "id": "ferretshinies:LayeredIconAsset",
+        "damage": 380
+      },
+      "prerequisites": [
+        "Rules Read"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "3,000 FMC Supply Crate",
+          "longDescription": "    You can submit any of the Supply type crates : Accessories, Armor, Building, Components, Food, Furniture, Home and Work, Machine, Magic, Material, Misc, Thematic, Tool, Toys, or Weapons.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:LayeredIconAsset",
+                "damage": 7
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Supply Crate - 50,000 FMC",
+      "description": "    The lowest value crate you can supply The Ferret Business with contains 1,000 FMC.                          To reach 50,000 FMC Crate, you must combine 10k crates or higher together.",
+      "x": 203,
+      "y": 102,
+      "icon": {
+        "id": "ferretshinies:LayeredIconAsset",
+        "damage": 391
+      },
+      "prerequisites": [
+        "Rules Read"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "50,000 FMC Supply Crate",
+          "longDescription": "    You can submit any of the Supply type crates : Accessories, Armor, Building, Components, Food, Furniture, Home and Work, Machine, Magic, Material, Misc, Thematic, Tool, Toys, or Weapons.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:LayeredIconAsset",
+                "damage": 18
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 42,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Supply Crate - 5,000 FMC",
+      "description": "    The lowest value crate you can supply The Ferret Business with contains 1,000 FMC.                          It is more profitable to combine lower value crates into larger values, however, as you can only get Trader Chits for every 5,000 value you trade in at once.",
+      "x": 144,
+      "y": 58,
+      "icon": {
+        "id": "ferretshinies:LayeredIconAsset",
+        "damage": 382
+      },
+      "prerequisites": [
+        "Rules Read"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "5,000 FMC Supply Crate",
+          "longDescription": "    You can submit any of the Supply type crates : Accessories, Armor, Building, Components, Food, Furniture, Home and Work, Machine, Magic, Material, Misc, Thematic, Tool, Toys, or Weapons.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:LayeredIconAsset",
+                "damage": 9
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 5
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 41
+        }
+      ]
+    },
+    {
+      "name": "Supply Crate - 100,000 FMC",
+      "description": "    The lowest value crate you can supply The Ferret Business with contains 1,000 FMC.                          To reach a 100,000 FMC Crate, you must combine two 50,000 crates together.",
+      "x": 153,
+      "y": 140,
+      "bigicon": true,
+      "icon": {
+        "id": "ferretshinies:LayeredIconAsset",
+        "damage": 392
+      },
+      "prerequisites": [
+        "Rules Read"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "100,000 FMC Supply Crate",
+          "longDescription": "    You can submit any of the Supply type crates : Accessories, Armor, Building, Components, Food, Furniture, Home and Work, Machine, Magic, Material, Misc, Thematic, Tool, Toys, or Weapons.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:LayeredIconAsset",
+                "damage": 355
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143,
+          "amount": 2
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 43,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Supply Crate - 40,000 FMC",
+      "description": "    The lowest value crate you can supply The Ferret Business with contains 1,000 FMC.                          To reach 40,000 FMC Crate, you must combine 10k crates or higher together.",
+      "x": 173,
+      "y": 102,
+      "icon": {
+        "id": "ferretshinies:LayeredIconAsset",
+        "damage": 390
+      },
+      "prerequisites": [
+        "Rules Read"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "40,000 FMC Supply Crate",
+          "longDescription": "    You can submit any of the Supply type crates : Accessories, Armor, Building, Components, Food, Furniture, Home and Work, Machine, Magic, Material, Misc, Thematic, Tool, Toys, or Weapons.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:LayeredIconAsset",
+                "damage": 17
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 40
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 43,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Supply Crate - 4,000 FMC",
+      "description": "    The lowest value crate you can supply The Ferret Business with contains 1,000 FMC.                          It is more profitable to combine lower value crates into larger values, however, as you can only get Trader Chits for every 5,000 value you trade in at once.",
+      "x": 117,
+      "y": 58,
+      "icon": {
+        "id": "ferretshinies:LayeredIconAsset",
+        "damage": 381
+      },
+      "prerequisites": [
+        "Rules Read"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "4,000 FMC Supply Crate",
+          "longDescription": "    You can submit any of the Supply type crates : Accessories, Armor, Building, Components, Food, Furniture, Home and Work, Machine, Magic, Material, Misc, Thematic, Tool, Toys, or Weapons.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:LayeredIconAsset",
+                "damage": 8
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Rules Read",
+      "x": 196,
+      "y": 191,
+      "prerequisites": [
+        "A Guide to Contracts",
+        "TEMPORARY AUTOMATION"
+      ],
+      "trigger": "QUEST_TRIGGER"
+    },
+    {
+      "name": "Supply Crate - 30,000",
+      "description": "    The lowest value crate you can supply The Ferret Business with contains 1,000 FMC.                          To reach 30,000 FMC Crate, you must combine 10k crates or higher together.",
+      "x": 142,
+      "y": 102,
+      "icon": {
+        "id": "ferretshinies:LayeredIconAsset",
+        "damage": 389
+      },
+      "prerequisites": [
+        "Rules Read"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "30,000 FMC Supply Crate",
+          "longDescription": "    You can submit any of the Supply type crates : Accessories, Armor, Building, Components, Food, Furniture, Home and Work, Machine, Magic, Material, Misc, Thematic, Tool, Toys, or Weapons.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:LayeredIconAsset",
+                "damage": 16
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 41,
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "name": "Supply Crate - 9,000 FMC",
+      "description": "    The lowest value crate you can supply The Ferret Business with contains 1,000 FMC.                          It is more profitable to combine lower value crates into larger values, however, as you can only get Trader Chits for every 5,000 value you trade in at once.",
+      "x": 252,
+      "y": 58,
+      "icon": {
+        "id": "ferretshinies:LayeredIconAsset",
+        "damage": 386
+      },
+      "prerequisites": [
+        "Rules Read"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "9,000 FMC Supply Crate",
+          "longDescription": "    You can submit any of the Supply type crates : Accessories, Armor, Building, Components, Food, Furniture, Home and Work, Machine, Magic, Material, Misc, Thematic, Tool, Toys, or Weapons.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:LayeredIconAsset",
+                "damage": 13
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 9
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 41
+        }
+      ]
+    },
+    {
+      "name": "Supply Crate - 20,000 FMC",
+      "description": "    The lowest value crate you can supply The Ferret Business with contains 1,000 FMC.                          To reach 20,000 FMC Crate, you must combine 10k crates together.",
+      "x": 112,
+      "y": 102,
+      "icon": {
+        "id": "ferretshinies:LayeredIconAsset",
+        "damage": 388
+      },
+      "prerequisites": [
+        "Rules Read"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "20,000 FMC Supply Crate",
+          "longDescription": "    You can submit any of the Supply type crates : Accessories, Armor, Building, Components, Food, Furniture, Home and Work, Machine, Magic, Material, Misc, Thematic, Tool, Toys, or Weapons.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:LayeredIconAsset",
+                "damage": 15
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 43
+        }
+      ]
+    },
+    {
+      "name": "Supply Crate - 10,000 FMC",
+      "description": "    The lowest value crate you can supply The Ferret Business with contains 1,000 FMC.                          It is more profitable to combine lower value crates into larger values, however, as you can only get Trader Chits for every 5,000 value you trade in at once.",
+      "x": 279,
+      "y": 58,
+      "icon": {
+        "id": "ferretshinies:LayeredIconAsset",
+        "damage": 387
+      },
+      "prerequisites": [
+        "Rules Read"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "10,000 FMC Supply Crate",
+          "longDescription": "    You can submit any of the Supply type crates : Accessories, Armor, Building, Components, Food, Furniture, Home and Work, Machine, Magic, Material, Misc, Thematic, Tool, Toys, or Weapons.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:LayeredIconAsset",
+                "damage": 14
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 42
+        }
+      ]
+    },
+    {
+      "name": "TEMPORARY AUTOMATION",
+      "description": "    So, right now we\u0027re working on a way to get you a machine that will let you automatically fulfill Contracts without having to open your QUEST Tablet.                        The machinists here are working on a design we think you\u0027ll like, but for now I think we can utilize a temporary solution : The EnderIO SAG Mill is pretty close to what we want...                                          Put any Supply Crate into your SAG Mill. As it expends energy, it will instead teleport the crate to us, and we\u0027ll teleport back the appropriate payment!",
+      "x": 201,
+      "y": 13,
+      "bigicon": true,
+      "icon": {
+        "id": "EnderIO:blockSagMill"
+      },
+      "prerequisites": [
+        "A Guide to Contracts"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Silver For Your Thoughts?",
+          "longDescription": "    Remember, the SAGMill is your friend in automating the Supply and Demand. Heck, I\u0027ll even throw in a free Trader Chit for you!",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 41
+        },
+        {
+          "id": "EnderIO:blockSagMill"
+        }
+      ]
+    },
+    {
+      "name": "Supply Crate - 8,000 FMC",
+      "description": "    The lowest value crate you can supply The Ferret Business with contains 1,000 FMC.                          It is more profitable to combine lower value crates into larger values, however, as you can only get Trader Chits for every 5,000 value you trade in at once.",
+      "x": 225,
+      "y": 58,
+      "icon": {
+        "id": "ferretshinies:LayeredIconAsset",
+        "damage": 385
+      },
+      "prerequisites": [
+        "Rules Read"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "8,000 FMC Supply Crate",
+          "longDescription": "    You can submit any of the Supply type crates : Accessories, Armor, Building, Components, Food, Furniture, Home and Work, Machine, Magic, Material, Misc, Thematic, Tool, Toys, or Weapons.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:LayeredIconAsset",
+                "damage": 12
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 8
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 41
+        }
+      ]
+    },
+    {
+      "name": "Supply Crate - 7,000 FMC",
+      "description": "    The lowest value crate you can supply The Ferret Business with contains 1,000 FMC.                          It is more profitable to combine lower value crates into larger values, however, as you can only get Trader Chits for every 5,000 value you trade in at once.",
+      "x": 198,
+      "y": 58,
+      "icon": {
+        "id": "ferretshinies:LayeredIconAsset",
+        "damage": 384
+      },
+      "prerequisites": [
+        "Rules Read"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "7,000 FMC Supply Crate",
+          "longDescription": "    You can submit any of the Supply type crates : Accessories, Armor, Building, Components, Food, Furniture, Home and Work, Machine, Magic, Material, Misc, Thematic, Tool, Toys, or Weapons.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:LayeredIconAsset",
+                "damage": 11
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 7
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 41
+        }
+      ]
+    },
+    {
+      "name": "Supply Crate - 6,000 FMC",
+      "description": "    The lowest value crate you can supply The Ferret Business with contains 1,000 FMC.                          It is more profitable to combine lower value crates into larger values, however, as you can only get Trader Chits for every 5,000 value you trade in at once.",
+      "x": 171,
+      "y": 58,
+      "icon": {
+        "id": "ferretshinies:LayeredIconAsset",
+        "damage": 383
+      },
+      "prerequisites": [
+        "Rules Read"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "6,000 FMC Supply Crate",
+          "longDescription": "    You can submit any of the Supply type crates : Accessories, Armor, Building, Components, Food, Furniture, Home and Work, Machine, Magic, Material, Misc, Thematic, Tool, Toys, or Weapons.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:LayeredIconAsset",
+                "damage": 10
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 6
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 41
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

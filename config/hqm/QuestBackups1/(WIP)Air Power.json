@@ -1,0 +1,34 @@
+{
+  "name": "(WIP)Air Power",
+  "description": "    [WORK IN PROGRESS]                   This questline is not finished yet.  It will be added in a future update.",
+  "quests": [
+    {
+      "name": "Unnamed",
+      "x": 132,
+      "y": 76,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 38
+      },
+      "prerequisites": [
+        "{Initial Research}[Pressurised Air]"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 53
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

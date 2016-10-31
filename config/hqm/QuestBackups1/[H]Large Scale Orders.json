@@ -1,0 +1,1237 @@
+{
+  "name": "[H]Large Scale Orders",
+  "description": "Raw materials are not the only thing we sell in the Ferret Business, we sell a wide variety of merchandise. If you are in need of even more coins than just providing raw materials, you can crate up certain items and send them to me. Unlike raw material contracts, production contracts are for completed products, usually a large amount of them (we have a LOT of shops!) or for very complex, rare items.",
+  "quests": [
+    {
+      "name": "Power Provider - Tier 1",
+      "description": "RF Energy is the basis for most of the power and electricity we supply clients with. Since we live in an electrical, industrial age, we are always selling gigawatts worth of power on a daily basis.                    Since we are always in need of more RF Energy to sell, I can offer you some coins in return. You\u0027ll have to use a specific storage medium, though : Ferret Batteries. You can easily make one with some Gold, Glass, Redstone, and the special metal alloy found in our Silver Coins. You won\u0027t be able to use them like normal batteries, though!                                         Place an Empty one into an EnderIO SAG Mill to start charging it to the first Tier. It will require 1 Miilion RF. You can then put the new Tier of battery back into the Alloy Smelter to charge it to the next tier, but be warned, each one is more and more expensive!                  For a Tier 1 battery, we\u0027ll give you a single coin. It doesn\u0027t seem like much, but RF Energy is pretty easy to generate, and you can quite easily automate it as well.",
+      "x": 282,
+      "y": 190,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 61
+      },
+      "prerequisites": [
+        "{[H]Supply and Demand}[Rules Read]"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Tier 1 Ferret Battery",
+          "longDescription": "    Remember, to go from an Empty Ferret Battery to a Tier 1 requires a 1 Million RF.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 61
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken"
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 60
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 41
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Power Provider - Tier 4",
+      "description": "    A Tier 4 Ferret Battery will earn you 500 Coins.",
+      "x": 296,
+      "y": 188,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 64
+      },
+      "prerequisites": [
+        "{[H]Supply and Demand}[Rules Read]"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Tier 4 Ferret Battery",
+          "longDescription": "    Take a Tier 3 Ferret Battery and place it in an EnderIO Alloy Smelter and provide 400 Million RF to charge it to Tier 4.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 64
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143,
+          "amount": 10
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 60
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 41
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Bulk Order Contract - Cheap",
+      "description": "    Apparently, some of the local inhabitants of wherever you\u0027ve wound up has heard about The Ferret Business, and are wanting to order things from us!                   Unfortunately, there isn\u0027t exactly a mail service there, is there? Something we may want to consider bringing at some point, but until then...                                      It looks like the inhabitants are leaving their orders with various creatures in an attempt to get it to us. You should be able to obtain these sealed contracts from most creatures.                                      Fulfill the contract using the Ferret Mega Packager, and submit it here. We\u0027ll use the QUEST Tablet item teleportation technology to transport the shipment to them, and transport your share of the payment.",
+      "x": 68,
+      "y": 9,
+      "icon": {
+        "id": "ferretshinies:Contracts",
+        "damage": 1
+      },
+      "prerequisites": [
+        "{[H]Supply and Demand}[Rules Read]"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Cheap BoC",
+          "longDescription": "    Cheap contracts usually request items totalling up to 10,000 FMC.                                             Fulfilling Cheap Contracts earns you 125% of the FMC value. You will earn :                                             * 13 Silver Coins                         * 2 Trader Tokens",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:Contracts",
+                "damage": 1
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 41,
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Bulk Order Contract - Amazing",
+      "description": "    Apparently, some of the local inhabitants of wherever you\u0027ve wound up has heard about The Ferret Business, and are wanting to order things from us!                   Unfortunately, there isn\u0027t exactly a mail service there, is there? Something we may want to consider bringing at some point, but until then...                                      It looks like the inhabitants are leaving their orders with various creatures in an attempt to get it to us. You should be able to obtain these sealed contracts from most creatures.                                      Fulfill the contract using the Ferret Mega Packager, and submit it here. We\u0027ll use the QUEST Tablet item teleportation technology to transport the shipment to them, and transport your share of the payment.",
+      "x": 245,
+      "y": 9,
+      "icon": {
+        "id": "ferretshinies:Contracts",
+        "damage": 7
+      },
+      "prerequisites": [
+        "{[H]Supply and Demand}[Rules Read]"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Amazing BoC",
+          "longDescription": "    Amazing contracts usually request items totalling up to 2,000,000 FMC.                               Fulfilling Amazing Contracts earns you 200% of the FMC value. You will earn :                                * 4,000 Silver Coins                     * 800 Trader Tokens",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:Contracts",
+                "damage": 7
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143,
+          "amount": 64
+        },
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143,
+          "amount": 16
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 46,
+          "amount": 25
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Bulk Order Contract - Good",
+      "description": "    Apparently, some of the local inhabitants of wherever you\u0027ve wound up has heard about The Ferret Business, and are wanting to order things from us!                   Unfortunately, there isn\u0027t exactly a mail service there, is there? Something we may want to consider bringing at some point, but until then...                                      It looks like the inhabitants are leaving their orders with various creatures in an attempt to get it to us. You should be able to obtain these sealed contracts from most creatures.                                      Fulfill the contract using the Ferret Mega Packager, and submit it here. We\u0027ll use the QUEST Tablet item teleportation technology to transport the shipment to them, and transport your share of the payment.",
+      "x": 183,
+      "y": 9,
+      "icon": {
+        "id": "ferretshinies:Contracts",
+        "damage": 5
+      },
+      "prerequisites": [
+        "{[H]Supply and Demand}[Rules Read]"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Good BoC",
+          "longDescription": "    Good contracts usually request items totalling up to 500,000 FMC.         Fulfilling Good Contracts earns you 175% of the FMC value. You will earn :                                         * 875 Silver Coins                       * 175 Trader Tokens",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:Contracts",
+                "damage": 5
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143,
+          "amount": 17
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 46,
+          "amount": 5
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 41,
+          "amount": 15
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Home Deco Supply - Inexpensive",
+      "description": "Better materials make household items that last longer and look better.",
+      "x": 224,
+      "y": 174,
+      "icon": {
+        "id": "props:props",
+        "damage": 140
+      },
+      "prerequisites": [
+        "{[H]Supply and Demand}[Rules Read]"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "2 Inexpensive Home Deco Crates",
+          "longDescription": "  To fill an Inexpensive Home Deco Crate, you will need to combine any 6 Inexpensive Home Decorations and an Unfilled Shipping Crate.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 90
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 6
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 41,
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Bulk Order Contract - Decent",
+      "description": "    Apparently, some of the local inhabitants of wherever you\u0027ve wound up has heard about The Ferret Business, and are wanting to order things from us!                   Unfortunately, there isn\u0027t exactly a mail service there, is there? Something we may want to consider bringing at some point, but until then...                                      It looks like the inhabitants are leaving their orders with various creatures in an attempt to get it to us. You should be able to obtain these sealed contracts from most creatures.                                      Fulfill the contract using the Ferret Mega Packager, and submit it here. We\u0027ll use the QUEST Tablet item teleportation technology to transport the shipment to them, and transport your share of the payment.",
+      "x": 124,
+      "y": 9,
+      "icon": {
+        "id": "ferretshinies:Contracts",
+        "damage": 3
+      },
+      "prerequisites": [
+        "{[H]Supply and Demand}[Rules Read]"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Decent BoC",
+          "longDescription": "    Decent contracts usually request items totalling up to 50,000 FMC.                                             Fulfilling Decent Contracts earns you 150% of the FMC value. You will earn :                               * 75 Silver Coins                         * 15 Trader Tokens",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:Contracts",
+                "damage": 3
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 41,
+          "amount": 15
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Thematic Deco Supply - Cheap",
+      "description": "Is it Christmas? Halloween? Do you have a spooky house or a historical recreation to decorate for? Thematic Decorations fit the bill for all sorts of holidays and occasions!",
+      "x": 14,
+      "y": 182,
+      "icon": {
+        "id": "props:props",
+        "damage": 79
+      },
+      "prerequisites": [
+        "{[H]Supply and Demand}[Rules Read]"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "2 Cheap Thematic Crates",
+          "longDescription": "To fill a Cheap Thematic Deco Crate, you will need to combine any 8 Cheap Thematic Decorations and an Unfilled Shipping Crate.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 94
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 2
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 41,
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Mass Supply - Sushi",
+      "description": "    This will be the initial test of the Mass Supply system, to verify the profibility.                                     The task is simple : provide 1,000 Sushi. This will test both our refridgeration storage methods, and your mass produce production methods.",
+      "x": 151,
+      "y": 91,
+      "icon": {
+        "id": "harvestcraft:sushiItem"
+      },
+      "prerequisites": [
+        "Mass Supply System"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME_QDS",
+          "description": "Sushi sushi sushi!",
+          "longDescription": "    Yes, this system test was created and approved by the CEO. Why do you ask?",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:sushiItem"
+              },
+              "required": 1000
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143,
+          "amount": 7
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 47
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 41,
+          "amount": 11
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Thematic Supply - Inexpensive",
+      "description": "Fancier, more intricate Thematic Decorations require more time and better materials to create.",
+      "x": 252,
+      "y": 184,
+      "icon": {
+        "id": "props:props",
+        "damage": 86
+      },
+      "prerequisites": [
+        "{[H]Supply and Demand}[Rules Read]"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "2 Inexpensive Thematic Crates",
+          "longDescription": "To fill an Inexpensive Thematic Deco Crate, you will need to combine any 6 Inexpensive Thematic Decorations and an Unfilled Shipping Crate.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 95
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 6
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 41,
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Very Cheap Home Deco x25",
+      "description": "This Contract is for 25 Very Cheap Home Deco Supply Crates.",
+      "x": 32,
+      "y": 183,
+      "icon": {
+        "id": "OpenBlocks:devnull"
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 4,
+        "hours": 4
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "25 Very Cheap Home Deco Crate",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 89
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 2,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Mass Supply System",
+      "description": "    We have a new level of contract we\u0027re exploring with our Traders, especially ones with access to their own factories. You...with all your space, you can easily build your own factory. It\u0027d be a good way to get more coins, that\u0027s for sure, and give you something to do while the eggheads around here try to get you home.                        This system utilizes the Quest Delivery System, or QDS. You can pipe items into it to teleport to us, but you will need to select the Mass Supply quest first and bind it to the QDS.                                        It is also important to note : any items sent through the QDS get added to our inventory system. Do not send items through it you want back.",
+      "x": 148,
+      "y": 47,
+      "bigicon": true,
+      "icon": {
+        "id": "HardcoreQuesting:item_barrel"
+      },
+      "prerequisites": [
+        "{[H]Supply and Demand}[Rules Read]"
+      ],
+      "repeat": {
+        "type": "TIME",
+        "days": 7,
+        "hours": 0
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "QDS",
+          "longDescription": "    After placing the QDS down, you will need to choose which Mass Supply you want to fulfill in your QUEST Tablet, and hit the \"Select Task\" button. You can then Right Click the QUEST Tablet onto the QDS, and it will be bound to that quest.         If the QDS does not show a mushroom on it, it is not bound to any quest!",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken"
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:item_barrel"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Cheap Toy Supply Crate x25",
+      "description": "This Contract is for 25 Cheap Toy Supply Crates.",
+      "x": 201,
+      "y": 189,
+      "icon": {
+        "id": "OpenBlocks:devnull"
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 6,
+        "hours": 6
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "25 Cheap Toy Supply Crates",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 80
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143,
+          "amount": 2
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 2,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Mass Supply - Surv. Generator",
+      "description": "    This will be the initial test of the Mass Supply system, to verify the profibility.                                     The task is simple : provide 1,000 Survivalist Generators. This will test your multi-step factory abilities and our storage and distribution methods for these products on this scale.",
+      "x": 183,
+      "y": 91,
+      "icon": {
+        "id": "ExtraUtilities:generator"
+      },
+      "prerequisites": [
+        "Mass Supply System"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Power the World",
+          "longDescription": "    We are planning on sending these generators as part of ferritarium aid projects across the world, here.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:generator"
+              },
+              "required": 1000
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143,
+          "amount": 30
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 49
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 41,
+          "amount": 54
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 2,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Cheap Furniture Crate x25",
+      "description": "This Contract is for 25 Cheap Furniture Supply Crates.",
+      "x": 62,
+      "y": 185,
+      "icon": {
+        "id": "OpenBlocks:devnull"
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 6,
+        "hours": 6
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "25 Cheap Furniture Crates",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 100
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143,
+          "amount": 2
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 2,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Very Cheap Job Deco x25",
+      "description": "This Contract is for 25 Very Cheap Job Deco Supply Crates.",
+      "x": 247,
+      "y": 171,
+      "icon": {
+        "id": "OpenBlocks:devnull"
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 4,
+        "hours": 4
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "25 Very Cheap Job Deco Crate",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 84
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 2,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Cheap Thematic Deco Supply x25",
+      "description": "This Contract is for 25 Cheap Thematic Deco Supply Crates.",
+      "x": 176,
+      "y": 169,
+      "icon": {
+        "id": "OpenBlocks:devnull"
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 6,
+        "hours": 6
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "25 Cheap Thematic Suppy Crate",
+          "longDescription": "    A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 95
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143,
+          "amount": 2
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 2,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Cheap Home Deco Crate x25",
+      "description": "This Contract is for 25 Cheap Home Deco Supply Crates.",
+      "x": 135,
+      "y": 191,
+      "icon": {
+        "id": "OpenBlocks:devnull"
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 6,
+        "hours": 6
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "25 Cheap Home Deco Crate",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 90
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143,
+          "amount": 2
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 2,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Mass Supply - Armor Stands",
+      "description": "    This will be the initial test of the Mass Supply system, to verify the profibility.                                     The task is simple : provide 1,000 Armor Stands. This will test our odd item shape storage abilities.",
+      "x": 119,
+      "y": 91,
+      "icon": {
+        "id": "BiblioCraft:Armor Stand"
+      },
+      "prerequisites": [
+        "{[H]Supply and Demand}[Rules Read]",
+        "Mass Supply System"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Display of Armor",
+          "longDescription": "    Take a Tier 4 Ferret Battery and place it into your EnderIO Alloy Smelter and provide 500 Million RF to charge it to the highest Tier Ferret Battery.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:Armor Stand"
+              },
+              "required": 1000
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143,
+          "amount": 15
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 48
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 41,
+          "amount": 22
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Home Deco Supply - Decent",
+      "description": "Better materials make nicer looking items for anyones home.",
+      "x": 229,
+      "y": 162,
+      "icon": {
+        "id": "BiblioCraft:BiblioStuffs",
+        "damage": 2
+      },
+      "prerequisites": [
+        "{[H]Supply and Demand}[Rules Read]"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Decent Home Deco Crate",
+          "longDescription": "To fill a Decent Home Deco Crate, you will need to combine any 4 Decent Home Decorations and an Unfilled Shipping Crate.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 91
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 41,
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Decent Thematic Deco Supply x25",
+      "description": "This Contract is for 25 Decent Thematic Deco Supply Crates.",
+      "x": 271,
+      "y": 179,
+      "icon": {
+        "id": "OpenBlocks:devnull"
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 8,
+        "hours": 8
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "25x Decent Thematic Crates",
+          "longDescription": "     A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 96
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143,
+          "amount": 6
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 2,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Home Deco Supply - Upscale",
+      "description": "Fancy materials make wonderful looking items.",
+      "x": 289,
+      "y": 154,
+      "icon": {
+        "id": "props:props",
+        "damage": 31
+      },
+      "prerequisites": [
+        "{[H]Supply and Demand}[Rules Read]"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "2 Upscale Home Deco Crates",
+          "longDescription": "To fill an Upscale Home Deco Crate, you will need to combine any 2 Upscale Home Decorations and an Unfilled Shipping Crate.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 92
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 40
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 41,
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Decent Home Deco Crate x25",
+      "description": "This Contract is for 25 Decent Home Deco Supply Crates.",
+      "x": 175,
+      "y": 191,
+      "icon": {
+        "id": "OpenBlocks:devnull"
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 8,
+        "hours": 8
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "25 Decent Home Deco Crates",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 91
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143,
+          "amount": 6
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 2,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Expensive HDeco Crate x25",
+      "description": "This Contract is for 25 Expensive Home Deco Supply Crates.",
+      "x": 206,
+      "y": 166,
+      "icon": {
+        "id": "OpenBlocks:devnull"
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 10,
+        "hours": 10
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "25x Expensive Home Crate",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 92
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143,
+          "amount": 10
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 2,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Thematic Deco Supply - Decent",
+      "description": "Stronger materials make items that last multiple seasons.",
+      "x": 266,
+      "y": 158,
+      "icon": {
+        "id": "BiblioCraft:BiblioLantern"
+      },
+      "prerequisites": [
+        "{[H]Supply and Demand}[Rules Read]"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Decent Thematic Deco Crate",
+          "longDescription": "To fill a Decent Thematic Deco Crate, you will need to combine any 4 Decent Thematic Decorations and an Unfilled Shipping Crate.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 96
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 41,
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Decent Job Deco Crate x25",
+      "description": "This Contract is for 25 Decent Job Deco Supply Crates.",
+      "x": 90,
+      "y": 187,
+      "icon": {
+        "id": "OpenBlocks:devnull"
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 8,
+        "hours": 8
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "25x Decent Job Deco Crates",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 86
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143,
+          "amount": 6
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 2,
+          "value": 5
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

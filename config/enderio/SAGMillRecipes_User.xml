@@ -1,0 +1,2673 @@
+<!--
+This is the user configurable SAG Mill recipe file. This file will not be modified or removed by EnderIO.
+
+Adding new Recipes:
+For details of how to add a new recipe please see the documentation at the top of SAGMillRecipes_Core.xml.
+
+Removing Recipes:
+To disable all recipes within a group, in this example Forestry, include the following in this file:
+
+<recipeGroup name="Forestry" enabled="false"/>
+
+To disable individual recipes, simply provide an invalid recipe for them:
+
+<recipeGroup name="Applied Energistics">
+  <recipe name="CertusQuartzOre"/>
+</recipeGroup>
+
+To change an existing recipe, just add the recipe to this file using the same recipe group and recipe name as
+found in the core file.
+ 
+-->
+
+<SAGMillRecipes>
+
+<!-- Disables all recipes in the group 'Vanilla'
+<recipeGroup name="Vanilla" enabled="false"/> 
+-->
+
+<!-- Uncomment this block to change the default TE obsidian -> dust recipe to the railcraft recipe.  
+  <recipeGroup name="Thermal Expansion">
+  
+    <recipe name="Obsidian" energyCost="400">
+      <input>
+        <itemStack itemID="49" />
+      </input>      
+      <output>
+        <itemStack modID="Railcraft" itemName="tile.railcraft.cube" itemMeta="4" number="1" />
+      </output>
+      <output>
+        <itemStack oreDictionary="dustObsidian" number="1" chance="0.15" />
+      </output>
+      <output>
+        <itemStack oreDictionary="dustObsidian" number="1" chance="0.025" />
+      </output>
+    </recipe>
+    
+</recipeGroup> 
+-->
+
+<!-- Disables the glass recipes in the group 'Vanilla' 
+<recipeGroup name="Vanilla"> 
+  <recipe name="Glass"/> 
+</recipeGroup>
+-->
+
+
+<!-- Modify a core recipe defination, in this case, make glass give diamonds. 
+<recipeGroup name="Vanilla">
+  <recipe name="Glass" energyCost="120"> 
+      <input>
+        <itemStack itemID="20" />
+      </input>
+      <output>
+        <itemStack itemID="264" />
+      </output>
+    </recipe>
+</recipeGroup>
+-->
+
+<!-- Adding a new recipe to a new group 
+<recipeGroup name="CrazyPantsGroup">
+  <recipe name="SolarToGlass" energyCost="120"> 
+      <input>
+        <itemStack modID="EnderIO" itemName="enderIO:blockSolarPanel"/>
+      </input>
+      <output>
+        <itemStack itemID="20" />
+      </output>
+    </recipe>
+</recipeGroup>
+-->
+
+<!-- Adding a new grinding ball  
+  <grindingBalls>  
+    <grindingBall id="Diamond" grindingMultiplier="1.5" chanceMultiplier="2" powerMultiplier="0.5" durationRF="50000">
+      <itemStack modID="minecraft" itemName="diamond"/>
+    </grindingBall>
+  </grindingBalls>
+  -->
+
+<!-- - Removing an existing grinding ball:
+  <grindingBalls>
+    <grindingBall id="Flint" remove="true" />
+  </grindingBalls>
+ -->  
+ 
+  <grindingBalls>
+    <excludes>
+      <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="*" />
+      <itemStack modID="ferretshinies" itemName="IconAsset" itemMeta="*" />
+      <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="*" />
+    </excludes>
+  </grindingBalls> 
+
+<!-- - FERRET BUSINESS TEMPORARY RECIPES
+ -->
+  
+ <recipeGroup name="Ferret Shinies">
+  
+    <recipe name="BagCoin" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number ="50"/>
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="1K - Material" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="5" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="1K - Accessory" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="23" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="1K - Building" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="41" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="1K - Armor" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="59" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="1K - Food" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="77" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="1K - Furniture" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="95" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="1K - HomeWork" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="113" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="1K - Machine" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="131" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="1K - Magic" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="149" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="1K - Misc" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="167" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="1K - Theme" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="185" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="1K - Tool" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="203" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="1K - Toy" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="221" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="1K - Weapon" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="239" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="1K - Component" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="257" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="2K - Material" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="6" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="2K - Accessory" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="24" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="2K - Building" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="42" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="2K - Armor" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="60" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="2K - Food" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="78" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="2K - Furniture" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="96" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="2K - HomeWork" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="114" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="2K - Machine" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="132" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="2K - Magic" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="150" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="2K - Misc" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="168" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="2K - Theme" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="186" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="2K - Tool" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="204" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="2K - Toy" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="222" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="2K - Weapon" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="240" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="2K - Component" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="258" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="3K - Material" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="7" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="3" />
+      </output>
+    </recipe>
+
+    <recipe name="3K - Accessory" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="25" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="3" />
+      </output>
+    </recipe>
+
+    <recipe name="3K - Building" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="43" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="3" />
+      </output>
+    </recipe>
+
+    <recipe name="3K - Armor" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="61" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="3" />
+      </output>
+    </recipe>
+
+    <recipe name="3K - Food" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="79" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="3" />
+      </output>
+    </recipe>
+
+    <recipe name="3K - Furniture" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="97" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="3" />
+      </output>
+    </recipe>
+
+    <recipe name="3K - HomeWork" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="115" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="3" />
+      </output>
+    </recipe>
+
+    <recipe name="3K - Machine" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="133" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="3" />
+      </output>
+    </recipe>
+
+    <recipe name="3K - Magic" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="151" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="3" />
+      </output>
+    </recipe>
+
+    <recipe name="3K - Misc" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="169" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="3" />
+      </output>
+    </recipe>
+
+    <recipe name="3K - Theme" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="187" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="3" />
+      </output>
+    </recipe>
+
+    <recipe name="3K - Tool" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="205" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="3" />
+      </output>
+    </recipe>
+
+    <recipe name="3K - Toy" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="223" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="3" />
+      </output>
+    </recipe>
+
+    <recipe name="3K - Weapon" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="241" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="3" />
+      </output>
+    </recipe>
+
+    <recipe name="3K - Component" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="259" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="3" />
+      </output>
+    </recipe>
+
+    <recipe name="4K - Material" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="8" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="4K - Accessory" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="26" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="4K - Building" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="44" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="4K - Armor" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="62" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="4K - Food" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="80" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="4K - Furniture" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="98" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="4K - HomeWork" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="116" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="4K - Machine" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="134" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="4K - Magic" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="152" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="4K - Misc" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="170" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="4K - Theme" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="188" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="4K - Tool" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="206" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="4K - Toy" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="224" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="4K - Weapon" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="242" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="4K - Component" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="260" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="5K - Material" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="9" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="5" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="5K - Accessory" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="27" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="5" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="5K - Building" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="45" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="5" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="5K - Armor" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="63" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="5" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="5K - Food" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="81" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="5" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="5K - Furniture" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="99" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="5" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="5K - HomeWork" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="117" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="5" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="5K - Machine" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="135" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="5" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="5K - Magic" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="153" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="5" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="5K - Misc" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="171" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="5" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="5K - Theme" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="189" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="5" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="5K - Tool" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="207" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="5" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="5K - Toy" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="225" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="5" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="5K - Weapon" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="243" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="5" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="5K - Component" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="261" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="5" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="6K - Material" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="10" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="6" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="6K - Accessory" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="28" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="6" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="6K - Building" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="46" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="6" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="6K - Armor" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="64" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="6" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="6K - Food" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="82" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="6" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="6K - Furniture" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="100" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="6" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="6K - HomeWork" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="118" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="6" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="6K - Machine" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="136" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="6" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="6K - Magic" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="154" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="6" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="6K - Misc" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="172" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="6" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="6K - Theme" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="190" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="6" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="6K - Tool" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="208" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="6" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="6K - Toy" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="226" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="6" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="6K - Weapon" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="244" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="6" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="6K - Component" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="262" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="6" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="7K - Material" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="11" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="7" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="7K - Accessory" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="29" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="7" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="7K - Building" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="47" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="7" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="7K - Armor" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="65" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="7" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="7K - Food" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="83" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="7" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="7K - Furniture" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="101" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="7" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="7K - HomeWork" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="119" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="7" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="7K - Machine" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="137" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="7" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="7K - Magic" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="155" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="7" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="7K - Misc" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="173" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="7" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="7K - Theme" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="191" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="7" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="7K - Tool" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="209" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="7" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="7K - Toy" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="227" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="7" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="7K - Weapon" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="245" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="7" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="7K - Component" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="263" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="7" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="8K - Material" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="12" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="8" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="8K - Accessory" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="30" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="8" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="8K - Building" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="48" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="8" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="8K - Armor" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="66" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="8" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="8K - Food" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="84" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="8" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="8K - Furniture" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="102" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="8" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="8K - HomeWork" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="120" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="8" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="8K - Machine" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="138" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="8" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="8K - Magic" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="156" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="8" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="8K - Misc" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="174" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="8" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="8K - Theme" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="192" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="8" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="8K - Tool" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="210" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="8" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="8K - Toy" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="228" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="8" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="8K - Weapon" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="246" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="8" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="8K - Component" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="264" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="8" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="9K - Material" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="13" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="9" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="9K - Accessory" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="31" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="9" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="9K - Building" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="49" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="9" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="9K - Armor" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="67" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="9" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="9K - Food" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="85" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="9" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="9K - Furniture" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="103" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="9" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="9K - HomeWork" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="121" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="9" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="9K - Machine" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="139" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="9" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="9K - Magic" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="157" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="9" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="9K - Misc" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="175" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="9" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="9K - Theme" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="193" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="9" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="9K - Tool" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="211" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="9" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="9K - Toy" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="229" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="9" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="9K - Weapon" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="247" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="9" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="9K - Component" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="265" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="9" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="10K - Material" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="14" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="10K - Accessory" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="32" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="10K - Building" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="50" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="10K - Armor" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="68" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="10K - Food" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="86" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="10K - Furniture" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="104" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="10K - HomeWork" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="122" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="10K - Machine" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="140" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="10K - Magic" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="158" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="10K - Misc" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="176" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="10K - Theme" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="194" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="10K - Tool" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="212" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="10K - Toy" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="230" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="10K - Weapon" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="248" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="10K - Component" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="266" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="20K - Material" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="15" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="20" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="20K - Accessory" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="33" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="20" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="20K - Building" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="51" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="20" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="20K - Armor" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="69" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="20" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="20K - Food" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="87" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="20" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="20K - Furniture" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="105" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="20" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="20K - HomeWork" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="123" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="20" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="20K - Machine" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="141" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="20" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="20K - Magic" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="159" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="20" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="20K - Misc" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="177" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="20" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="20K - Theme" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="195" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="20" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="20K - Tool" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="213" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="20" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="20K - Toy" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="231" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="20" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="20K - Weapon" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="249" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="20" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="20K - Component" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="267" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="20" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="4" />
+      </output>
+    </recipe>
+
+    <recipe name="30K - Material" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="16" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="30" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="6" />
+      </output>
+    </recipe>
+
+    <recipe name="30K - Accessory" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="34" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="30" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="6" />
+      </output>
+    </recipe>
+
+    <recipe name="30K - Building" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="52" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="30" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="6" />
+      </output>
+    </recipe>
+
+    <recipe name="30K - Armor" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="70" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="30" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="6" />
+      </output>
+    </recipe>
+
+    <recipe name="30K - Food" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="88" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="30" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="6" />
+      </output>
+    </recipe>
+
+    <recipe name="30K - Furniture" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="106" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="30" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="6" />
+      </output>
+    </recipe>
+
+    <recipe name="30K - HomeWork" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="124" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="30" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="6" />
+      </output>
+    </recipe>
+
+    <recipe name="30K - Machine" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="142" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="30" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="6" />
+      </output>
+    </recipe>
+
+    <recipe name="30K - Magic" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="160" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="30" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="6" />
+      </output>
+    </recipe>
+
+    <recipe name="30K - Misc" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="178" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="30" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="6" />
+      </output>
+    </recipe>
+
+    <recipe name="30K - Theme" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="196" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="30" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="6" />
+      </output>
+    </recipe>
+
+    <recipe name="30K - Tool" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="214" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="30" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="6" />
+      </output>
+    </recipe>
+
+    <recipe name="30K - Toy" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="232" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="30" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="6" />
+      </output>
+    </recipe>
+
+    <recipe name="30K - Weapon" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="250" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="30" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="6" />
+      </output>
+    </recipe>
+
+    <recipe name="30K - Component" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="268" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="30" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="6" />
+      </output>
+    </recipe>
+
+    <recipe name="40K - Material" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="17" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="40" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="8" />
+      </output>
+    </recipe>
+
+    <recipe name="40K - Accessory" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="35" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="40" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="8" />
+      </output>
+    </recipe>
+
+    <recipe name="40K - Building" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="53" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="40" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="8" />
+      </output>
+    </recipe>
+
+    <recipe name="40K - Armor" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="71" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="40" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="8" />
+      </output>
+    </recipe>
+
+    <recipe name="40K - Food" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="89" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="40" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="8" />
+      </output>
+    </recipe>
+
+    <recipe name="40K - Furniture" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="107" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="40" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="8" />
+      </output>
+    </recipe>
+
+    <recipe name="40K - HomeWork" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="125" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="40" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="8" />
+      </output>
+    </recipe>
+
+    <recipe name="40K - Machine" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="143" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="40" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="8" />
+      </output>
+    </recipe>
+
+    <recipe name="40K - Magic" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="161" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="40" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="8" />
+      </output>
+    </recipe>
+
+    <recipe name="40K - Misc" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="179" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="40" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="8" />
+      </output>
+    </recipe>
+
+    <recipe name="40K - Theme" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="197" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="40" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="8" />
+      </output>
+    </recipe>
+
+    <recipe name="40K - Tool" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="215" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="40" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="8" />
+      </output>
+    </recipe>
+
+    <recipe name="40K - Toy" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="233" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="40" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="8" />
+      </output>
+    </recipe>
+
+    <recipe name="40K - Weapon" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="251" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="40" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="8" />
+      </output>
+    </recipe>
+
+    <recipe name="40K - Component" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="269" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="40" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="8" />
+      </output>
+    </recipe>
+
+    <recipe name="50K - Material" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="18" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="10" />
+      </output>
+    </recipe>
+
+    <recipe name="50K - Accessory" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="36" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="10" />
+      </output>
+    </recipe>
+
+    <recipe name="50K - Building" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="54" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="10" />
+      </output>
+    </recipe>
+
+    <recipe name="50K - Armor" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="72" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="10" />
+      </output>
+    </recipe>
+
+    <recipe name="50K - Food" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="90" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="10" />
+      </output>
+    </recipe>
+
+    <recipe name="50K - Furniture" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="108" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="10" />
+      </output>
+    </recipe>
+
+    <recipe name="50K - HomeWork" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="126" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="10" />
+      </output>
+    </recipe>
+
+    <recipe name="50K - Machine" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="144" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="10" />
+      </output>
+    </recipe>
+
+    <recipe name="50K - Magic" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="162" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="10" />
+      </output>
+    </recipe>
+
+    <recipe name="50K - Misc" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="180" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="10" />
+      </output>
+    </recipe>
+
+    <recipe name="50K - Theme" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="198" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="10" />
+      </output>
+    </recipe>
+
+    <recipe name="50K - Tool" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="216" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="10" />
+      </output>
+    </recipe>
+
+    <recipe name="50K - Toy" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="234" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="10" />
+      </output>
+    </recipe>
+
+    <recipe name="50K - Weapon" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="252" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="10" />
+      </output>
+    </recipe>
+
+    <recipe name="50K - Component" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="270" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="10" />
+      </output>
+    </recipe>
+
+    <recipe name="100K - Material" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="355" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="2" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="20" />
+      </output>
+    </recipe>
+
+    <recipe name="100K - Accessory" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="356" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="2" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="20" />
+      </output>
+    </recipe>
+
+    <recipe name="100K - Building" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="357" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="2" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="20" />
+      </output>
+    </recipe>
+
+    <recipe name="100K - Armor" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="358" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="2" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="20" />
+      </output>
+    </recipe>
+
+    <recipe name="100K - Food" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="359" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="2" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="20" />
+      </output>
+    </recipe>
+
+    <recipe name="100K - Furniture" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="360" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="2" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="20" />
+      </output>
+    </recipe>
+
+    <recipe name="100K - HomeWork" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="361" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="2" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="20" />
+      </output>
+    </recipe>
+
+    <recipe name="100K - Machine" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="362" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="2" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="20" />
+      </output>
+    </recipe>
+
+    <recipe name="100K - Magic" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="363" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="2" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="20" />
+      </output>
+    </recipe>
+
+    <recipe name="100K - Misc" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="364" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="2" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="20" />
+      </output>
+    </recipe>
+
+    <recipe name="100K - Theme" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="365" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="2" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="20" />
+      </output>
+    </recipe>
+
+    <recipe name="100K - Tool" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="366" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="2" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="20" />
+      </output>
+    </recipe>
+
+    <recipe name="100K - Toy" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="367" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="2" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="20" />
+      </output>
+    </recipe>
+
+    <recipe name="100K - Weapon" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="368" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="2" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="20" />
+      </output>
+    </recipe>
+
+    <recipe name="100K - Component" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="369" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="2" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="20" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Iron Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="436" />
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="iron_ore" itemMeta="0" number="1" />
+        <itemStack modID="minecraft" itemName="iron_ore" itemMeta="0" number="1" chance="0.1" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Coal Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="437" />
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="coal_ore" itemMeta="0" number="1" />
+        <itemStack modID="minecraft" itemName="coal_ore" itemMeta="0" number="1" chance="0.1" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Osmium Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="438" />
+      </input>      
+      <output>
+        <itemStack modID="Mekanism" itemName="OreBlock" itemMeta="0" number="1" />
+        <itemStack modID="Mekanism" itemName="OreBlock" itemMeta="0" number="1" chance="0.1" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Cinnabar Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="439" />
+      </input>      
+      <output>
+        <itemStack modID="Thaumcraft" itemName="blockCustomOre" itemMeta="0" number="1" />
+        <itemStack modID="Thaumcraft" itemName="blockCustomOre" itemMeta="0" number="1" chance="0.1" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Gold Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="440" />
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="gold_ore" itemMeta="0" number="1" />
+        <itemStack modID="minecraft" itemName="gold_ore" itemMeta="0" number="1" chance="0.1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="76" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Tritanium Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="441" />
+      </input>      
+      <output>
+        <itemStack modID="mo" itemName="tritanium_ore" itemMeta="0" number="1" />
+        <itemStack modID="mo" itemName="tritanium_ore" itemMeta="0" number="1" chance="0.1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="76" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Shiny Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="442" />
+      </input>      
+      <output>
+        <itemStack modID="ThermalFoundation" itemName="Ore" itemMeta="5" number="1" />
+        <itemStack modID="ThermalFoundation" itemName="Ore" itemMeta="5" number="1" chance="0.1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="76" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Lapis Lazuli Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="443" />
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="lapis_ore" itemMeta="0" number="1" />
+        <itemStack modID="minecraft" itemName="lapis_ore" itemMeta="0" number="1" chance="0.1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="76" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Tin Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="444" />
+      </input>      
+      <output>
+        <itemStack modID="ThermalFoundation" itemName="Ore" itemMeta="1" number="1" />
+        <itemStack modID="ThermalFoundation" itemName="Ore" itemMeta="1" number="1" chance="0.1" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Copper Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="445" />
+      </input>      
+      <output>
+        <itemStack modID="ThermalFoundation" itemName="Ore" itemMeta="0" number="1" />
+        <itemStack modID="ThermalFoundation" itemName="Ore" itemMeta="0" number="1" chance="0.1" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Lead Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="446" />
+      </input>      
+      <output>
+        <itemStack modID="ThermalFoundation" itemName="Ore" itemMeta="3" number="1" />
+        <itemStack modID="ThermalFoundation" itemName="Ore" itemMeta="3" number="1" chance="0.1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="76" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Silver Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="447" />
+      </input>      
+      <output>
+        <itemStack modID="ThermalFoundation" itemName="Ore" itemMeta="2" number="1" />
+        <itemStack modID="ThermalFoundation" itemName="Ore" itemMeta="2" number="1" chance="0.1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="76" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Yellorite Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="448" />
+      </input>      
+      <output>
+        <itemStack modID="BigReactors" itemName="YelloriteOre" itemMeta="0" number="1" />
+        <itemStack modID="BigReactors" itemName="YelloriteOre" itemMeta="0" number="1" chance="0.1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="76" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Aluminum Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="449" />
+      </input>      
+      <output>
+        <itemStack modID="TConstruct" itemName="SearedBrick" itemMeta="5" number="1" />
+        <itemStack modID="TConstruct" itemName="SearedBrick" itemMeta="5" number="1" chance="0.1" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Ferrous Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="450" />
+      </input>      
+      <output>
+        <itemStack modID="ThermalFoundation" itemName="Ore" itemMeta="4" number="1" />
+        <itemStack modID="ThermalFoundation" itemName="Ore" itemMeta="4" number="1" chance="0.1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="76" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Diamond Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="451" />
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="diamond_ore" itemMeta="0" number="1" />
+        <itemStack modID="minecraft" itemName="diamond_ore" itemMeta="0" number="1" chance="0.1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="76" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Emerald Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="452" />
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="emerald_ore" itemMeta="0" number="1" />
+        <itemStack modID="minecraft" itemName="emerald_ore" itemMeta="0" number="1" chance="0.1" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Ruby Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="453" />
+      </input>      
+      <output>
+        <itemStack modID="ProjRed|Exploration" itemName="projectred.exploration.ore" itemMeta="0" number="1" />
+        <itemStack modID="ProjRed|Exploration" itemName="projectred.exploration.ore" itemMeta="0" number="1" chance="0.1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="76" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Sapphire Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="454" />
+      </input>      
+      <output>
+        <itemStack modID="ProjRed|Exploration" itemName="projectred.exploration.ore" itemMeta="1" number="1" />
+        <itemStack modID="ProjRed|Exploration" itemName="projectred.exploration.ore" itemMeta="1" number="1" chance="0.1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="76" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Peridot Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="455" />
+      </input>      
+      <output>
+        <itemStack modID="ProjRed|Exploration" itemName="projectred.exploration.ore" itemMeta="2" number="1" />
+        <itemStack modID="ProjRed|Exploration" itemName="projectred.exploration.ore" itemMeta="2" number="1" chance="0.1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="76" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Apatite Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="456" />
+      </input>      
+      <output>
+        <itemStack modID="Forestry" itemName="resources" itemMeta="0" number="1" />
+        <itemStack modID="Forestry" itemName="resources" itemMeta="0" number="1" chance="0.1" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Redstone Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="457" />
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="redstone_ore" itemMeta="0" number="1" />
+        <itemStack modID="minecraft" itemName="redstone_ore" itemMeta="0" number="1" chance="0.1" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Certus Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="458" />
+      </input>      
+      <output>
+        <itemStack modID="appliedenergistics2" itemName="tile.BlockQuartz" itemMeta="0" number="1" />
+        <itemStack modID="appliedenergistics2" itemName="tile.BlockQuartz" itemMeta="0" number="1" chance="0.09" />
+        <itemStack modID="appliedenergistics2" itemName="OreQuartzCharged" itemMeta="0" number="1" chance="0.09" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="76" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Nether Quartz Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="459" />
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="quartz_ore" itemMeta="0" number="1" />
+        <itemStack modID="minecraft" itemName="quartz_ore" itemMeta="0" number="1" chance="0.1" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Cobalt Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="460" />
+      </input>      
+      <output>
+        <itemStack modID="TConstruct" itemName="SearedBrick" itemMeta="1" number="1" />
+        <itemStack modID="TConstruct" itemName="SearedBrick" itemMeta="1" number="1" chance="0.1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="76" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Ardite Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="461" />
+      </input>      
+      <output>
+        <itemStack modID="TConstruct" itemName="SearedBrick" itemMeta="2" number="1" />
+        <itemStack modID="TConstruct" itemName="SearedBrick" itemMeta="2" number="1" chance="0.1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="76" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Air Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="462" />
+      </input>      
+      <output>
+        <itemStack modID="Thaumcraft" itemName="blockCustomOre" itemMeta="1" number="1" />
+        <itemStack modID="Thaumcraft" itemName="blockCustomOre" itemMeta="1" number="1" chance="0.1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="76" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Fire Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="463" />
+      </input>      
+      <output>
+        <itemStack modID="Thaumcraft" itemName="blockCustomOre" itemMeta="2" number="1" />
+        <itemStack modID="Thaumcraft" itemName="blockCustomOre" itemMeta="2" number="1" chance="0.1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="76" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Water Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="464" />
+      </input>      
+      <output>
+        <itemStack modID="Thaumcraft" itemName="blockCustomOre" itemMeta="3" number="1" />
+        <itemStack modID="Thaumcraft" itemName="blockCustomOre" itemMeta="3" number="1" chance="0.1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="76" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Earth Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="465" />
+      </input>      
+      <output>
+        <itemStack modID="Thaumcraft" itemName="blockCustomOre" itemMeta="4" number="1" />
+        <itemStack modID="Thaumcraft" itemName="blockCustomOre" itemMeta="4" number="1" chance="0.1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="76" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Order Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="466" />
+      </input>      
+      <output>
+        <itemStack modID="Thaumcraft" itemName="blockCustomOre" itemMeta="5" number="1" />
+        <itemStack modID="Thaumcraft" itemName="blockCustomOre" itemMeta="5" number="1" chance="0.1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="76" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Entropy Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="467" />
+      </input>      
+      <output>
+        <itemStack modID="Thaumcraft" itemName="blockCustomOre" itemMeta="6" number="1" />
+        <itemStack modID="Thaumcraft" itemName="blockCustomOre" itemMeta="6" number="1" chance="0.1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="76" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Dilithium Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="468" />
+      </input>      
+      <output>
+        <itemStack modID="mo" itemName="dilithium_ore" itemMeta="6" number="1" />
+        <itemStack modID="mo" itemName="dilithium_ore" itemMeta="6" number="1" chance="0.1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="76" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="Sealed Amber Shipment" energyCost="100">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="469" />
+      </input>      
+      <output>
+        <itemStack modID="Thaumcraft" itemName="blockCustomOre" itemMeta="7" number="1" />
+        <itemStack modID="Thaumcraft" itemName="blockCustomOre" itemMeta="7" number="1" chance="0.1" />
+      </output>
+    </recipe>
+    
+</recipeGroup> 
+ </SAGMillRecipes>

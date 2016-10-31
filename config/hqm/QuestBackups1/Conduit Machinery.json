@@ -1,0 +1,3107 @@
+{
+  "name": "Conduit Machinery",
+  "description": "Hello, Bandit. The samples you sent me are quite nice, and I think they\u0027ll be quite servicable for what I\u0027d like to show you. You\u0027ve got a whole lot of materials, items, machines, and other such collection of items you need to deal with. I can definitely teach you a whole slew of things about Input and Output of an inventory system. And who knows, some of the research here on your world may even help me broaden my own knowledge and abilities, and I\u0027ll share those profits with you. Oh, my name? I\u0027m Engineer Erin. A pleasure to meet you.",
+  "quests": [
+    {
+      "name": "Soft Spoken Teacher",
+      "description": "Pleasant talking to you, Bandit. I\u0027m not sure of your rank in The Business, but right now, I\u0027d like to consider myself your teacher, and you my student. I work off a mixture of both show and tell, that is to say, I\u0027ll explain something to you, and then you either send me or show me your work. As you show me your growing skills in what I have to show you, the more I will teach you and the more I will reward you.",
+      "x": 13,
+      "y": 161,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 1
+      },
+      "prerequisites": [
+        "{Initial Research}[Pipes and Power]"
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Basic Components",
+      "description": "To start with, I will show you how to make the simplest of components. You may know about some of these, but I\u0027d like to explain them anyways so we\u0027re both on the same page. Assuming things leads to accidents, and I\u0027d rather avoid the paperwork for such things, wouldn\u0027t you? Relax, that was a joke, but getting hurt isn\u0027t, so we\u0027ll go steady and make sure you have things down each step of the way, especially as the word is your entire world is infused with...magic? Well, we are not sure how it might effect things, my assistants are hopeful that it\u0027ll improve things in the long run. I\u0027d like you to send me two samples of each component you make, so that we can make sure you have the idea down, and also to examine and research them ourselves.",
+      "x": 40,
+      "y": 161,
+      "icon": {
+        "id": "EnderIO:itemMachinePart",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Soft Spoken Teacher"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "8 Teeth For Grinding",
+          "longDescription": " Shape four sections of stone into servicable gear teeth, and use sturdy wooden sticks to hold them together. Just one stick wouldn\u0027t work, but the four sticks can hold together and do more than just the sum of their parts.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemMachinePart",
+                "damage": 1
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Erratic Energy Enhancer",
+          "longDescription": "A Capacitor stores energy and dissipates it at a constant rate. We\u0027ll use some very conductive metal, mainly Gold Nuggets, to create the two \u0027plates\u0027 that store the electrical charge between them. We\u0027ll use the Copper to create some small wire leads and coat both ends in Redstone so that the conductor stores Redstone Flux, or RF, energy for us. Why? Because a lot of RF engines don\u0027t have a....steady...output, and our machines need to be able to store a bit of RF like a battery in case the RF generators stop for any reason.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemBasicCapacitor"
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "A Thing For Machines",
+          "longDescription": "Most of the machines I will show you how to make all require a secure, sturdy housing. This provides a solid base for them, and gives them anchor points for any moving parts they may have. A frame made of solid Iron rods, with a thinner mesh of Iron Bars should work well.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemMachinePart"
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "A Different Kind of Glue",
+          "longDescription": "Rubber is the standard material used in insulation, but isn\u0027t used as much when we also need to bind parts together. Most glue I know of isn\u0027t suited for the job: it either conducts electricity, which defeats the purpose, or melts when heated up. Thus, I use a material called Conduit Binder, which does as it says : binds things. By mixing some Clay with some Sand and Gravel in specific amounts, you get a Composite material you can then melt in a Furnace to get the Conduit Binder.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemMaterial",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 5
+        },
+        {
+          "id": "EnderIO:itemBasicCapacitor",
+          "amount": 2
+        },
+        {
+          "id": "EnderIO:itemMachinePart",
+          "amount": 2
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "The First Tier",
+      "description": "So now that you have shown me that you can make the basic components, lets advance to the first real stage of our lessons. I\u0027ll teach you how to make a power generator that will let you power the four other machines. With these machines, you\u0027ll be able to do a variety of things, including making somewhat more advanced materials. I\u0027ll warn you, things will start to get more complex as we get deeper into these lessons, but with the quality of the work you sent me? I have very little to worry about, you show a ton of promise, Bandit!",
+      "x": 66,
+      "y": 161,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 53
+      },
+      "prerequisites": [
+        "Basic Components"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "The Long Grind",
+      "description": "To process various basic materials, we need to break them down a bit. This machine design is called a SAG Mill. You can grind many different things in it, but perhaps the most useful to you will be Ore. If you grind a chunk of, lets say, Iron Ore, the SAG Mill will sift out enough Iron Dust to melt down into two Iron Ingots, instead of only one, as when you melt an entire chuck of Iron Ore, you lose material burning away the impure Cobblestone. But, given how geological strata tends to be, the machine also has a chance of sifting out other useful materials. In the case of Iron Ore, it might find enough Tin Dust for you, or even enough Iron Dust for another Ingot. It may also have enough ground down stone for a useable chuck of Cobblestone. Two things, for sure, you will need for bigger machines, so I would like you to send us a few samples of them.",
+      "x": 66,
+      "y": 130,
+      "icon": {
+        "id": "EnderIO:blockSagMill"
+      },
+      "prerequisites": [
+        "The First Tier",
+        "Simple Power Generation"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Semi-Autogenous Grinding",
+          "longDescription": "You can upgrade the machine with a few different items. Bigger capacitors will give it a bigger internal Battery. There is also a spot for a Grinding Ball to increase efficiency. Flint is a good starting material to use as a Grinding Ball.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockSagMill"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Good For EVERYTHING-Prints",
+          "longDescription": "For this next material, I highly suggest wearing some gloves, and clothes you do not mind getting really dirty. Many of the alloys we use require a boost in temperature for a very short time, and to achieve that we use finely ground Coal. It is simple to obtain, just put some Coal in a SAG Mill.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 2
+              },
+              "required": 2,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Man and Machine",
+          "longDescription": "Silicon is one supremely useful element. Most biological forms require it, even a tiny amount of it. We can easily obtain some by grinding Sand in the SAG Mill to sift it to a useable form.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemMaterial"
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Simple Power Generation",
+      "description": "Most of the machines I will teach you how to make will require power to run. I\u0027m not sure what kind of power generators you may or may not know yet, but I have a few designs that I know work well. The simplest of these is a Stirling engine. It will burn solid fuels, and use the heat and pressure to move cylinders inside the machine back and forth to generate energy. The Capacitor inside will act as a battery to store some of the RF energy it creates.",
+      "x": 66,
+      "y": 191,
+      "icon": {
+        "id": "EnderIO:blockStirlingGenerator"
+      },
+      "prerequisites": [
+        "The First Tier"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Low Tech But Useful",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockStirlingGenerator"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "Metal Mixing",
+      "description": "Iron, Copper, Tin, all of these are useful in various ways on their own. Iron is strong, Tin is easily shaped, Copper is a great conductor. But for more useful, powerful machines, we\u0027ll need better materials that still retain the different qualities these metals have. One of the best ways to do that is to mix the metals, or the metal with other materials, to create an Alloy. This new material will have various properties from all its base materials, and can even form stronger properties from various chemical or other interactions, or in your world\u0027s case, a little bit of Magic perhaps! Please send us samples of this list of Alloys I want you to make, I want to test them with these Magical components.",
+      "x": 66,
+      "y": 99,
+      "icon": {
+        "id": "EnderIO:blockAlloySmelter"
+      },
+      "prerequisites": [
+        "The Long Grind"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Is it Bronze? Or Brass?",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockAlloySmelter"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "A Power Metal",
+          "longDescription": "Some things we will be making will require a metal that is both fairly conductive for RF Energy, but also strong. We can create an Alloy by smelting together Iron and Redstone Dust. This creates a fairly strong metal that can transfer Energy fairly efficiently.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemAlloy",
+                "damage": 4
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "An Electric Zing",
+          "longDescription": "Many of the machines we will be making require something a little bit stronger than Iron. Usually this means we need to refine Iron into Steel, both requiring Coal Powder for higher temps. Now, there are two main methods I use to refine Iron, and each one produces a different type of Steel. The first is using Silicon to help refine the Iron into Electrical grade Steel. ",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemAlloy"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Your Dark Materials",
+          "longDescription": "The second, much more recent discovery thanks to researchers here at The Business, is replacing the Silicon with Obsidian instead, which creates a Dark, much stronger Steel.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemAlloy",
+                "damage": 6
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Red, Red Ingot",
+          "longDescription": "Many of these machines require special alloys for transmitting Energy in different ways. By heating up Redstone, we can then mix it with Silicon to get an Alloy highly conductive to RF transfer. ",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemAlloy",
+                "damage": 3
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "A Bit Too Much Caffeine",
+          "longDescription": "Two of my assistants have been collecting a bit of research data and presented it to me, and I\u0027m confident we can make an even more Energetic based alloy. In what you call \"The Nether\" are glowing materials, similar in structure to Stone, but Glow quite brightly. If you take some Glowstone Dust and mix it with some molten Gold and some Redstone in the Alloy Smelter, the resulting Alloy should be full of potential energy.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemAlloy",
+                "damage": 1
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "At Least It Doesn\u0027t Scream",
+          "longDescription": "We\u0027ve found that we can melt Soul Sand down and mix it with molten Gold to form a new Alloy.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemAlloy",
+                "damage": 7
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Better Transparency",
+      "description": "Many times, just regular glass will not cut it when we need it in a machine. It either melts easily when we don\u0027t want it to, or it just isn\u0027t clear enough to suit our needs. With the Alloy Smelter, we can solve both of these issues quite easily. Clearer glass is easier to accomplish, but the stronger glass will require a bit of a jaunt to the Nether, I\u0027m afraid to say. Please pass us some samples of these materials as well, as some of my assistants believe they are on the track of something new.",
+      "x": 39,
+      "y": 99,
+      "icon": {
+        "id": "EnderIO:blockFusedQuartz"
+      },
+      "prerequisites": [
+        "Metal Mixing"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Fusion? Ha!",
+          "longDescription": "When melted down, Quartz creates a structurally sound Glass that is good for higher temperature situations, or when working with UV Light, Telescopes, and many other things. The problem is it doesn\u0027t look like your \u0027base\u0027 world has enough Quartz in your sand to use....but your Nether has it in abundance.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockFusedQuartz"
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Seeing Clearly",
+          "longDescription": "A common method of making glass is melting down sand. The problem with this? There can be a wide variety of impurities in the sand, which show up in the Glass itself and make it imperfect. Little whorls, light shining through oddly, little scuffs deep in the glass. We can fix this quite simply by heating the sand in the Alloy Smelter, which can heat evenly for a much longer time than a normal Furnace, burning away impurities in the molten Glass and giving us something that is Quite Clear as a result.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockFusedQuartz",
+                "damage": 1
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "name": "Simply Handy",
+      "description": "The QUEST Tablet scanner shows you have a wide variety of materials you can use to build items and structures with, Bandit. But as its mostly just you working on things, you have to make everything by hand yourself, not to mention collect all the materials as well! This leaves you with perhaps a lack of both the nicer looking materials and the time to make everything by hand. It also leaves you a bit...shorthanded, when it comes to making things a bit more intricate like computer chips and logic processors...and given the \u0027apparent\u0027 magicalness of your world, I think we can exploit it. These three machines should help you out a whole lot. The Painting Machine lets you \u0027paint\u0027 the design of one block onto a cheaper piece of material. The Slice n\u0027 Splice should enable you to hook some of the simpler electronic components to a Zombie Head, using it as a sort of logic processor. This you can use to make the Crafter, which will help you automatically create items, taking out the monotonous process of crafting a single item over and over again.",
+      "x": 66,
+      "y": 67,
+      "icon": {
+        "id": "EnderIO:blockPainter"
+      },
+      "prerequisites": [
+        "Metal Mixing"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A Proper Picasso",
+          "longDescription": "You can paint any of the following : Conduit Facades, Fences, Fence Gates, Stairs, Glowstone, and Slabs.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockPainter"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "What a Chiphead",
+          "longDescription": "Along with the components to make any of these uh...\u0027logic\u0027 processors... you\u0027ll need to supply some cutting implements. A pair of Shears and an iron Axe should suffice.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockSliceAndSplice"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "EnderIO:itemFrankenSkull",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Monotonous Monstrosity",
+          "longDescription": "You can configure it to pull items, or push finished products, into a chest connected to it.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockCrafter"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "The Second Tier",
+      "description": "I feel you\u0027ve shown your growing expertise quite well. All the various materials you\u0027ve provided us with for examination have proved excellent, as well as quite useful in examining your world. The inclusion of Glowstone in some materials has us looking into other materials unique to your world, including those intriguing Endermen and the, strange for me to be saying seriously, walking undead Zombies and Skeletons.",
+      "x": 94,
+      "y": 99,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 54
+      },
+      "prerequisites": [
+        "Better Transparency"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "Higher Grade Components",
+      "description": "While I\u0027ve been aiding you in learning how to make many of our useful machines, a few of my assistants have been tasked with researching these Pearls that the unique Endermen of your world drop. We believe they are the Endermen\u0027s eyes, and they seem to exhibit quite intriguing properties. The first few things they\u0027ve discovered is that they work well in the Alloy Smelter, and we can create new Alloys with it. Along with a few other new materials unique to your world, we also have the second tier of Capacitor as a component you will need for the next machines. If you would, please send us samples of each, my assistants would appreciate the boost in research materials at hand.",
+      "x": 94,
+      "y": 67,
+      "icon": {
+        "id": "EnderIO:itemBasicCapacitor",
+        "damage": 1
+      },
+      "prerequisites": [
+        "The Second Tier",
+        "Simply Handy"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Double The Fun",
+          "longDescription": "By combining two Basic Capacitors, housing them in Electrical Steel, using Coal Powder to help heat and bind everything together, you create a bigger Capacitor. You can also use it as an upgrade in a machine to increase its Energy Storage and Processing Speed.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemBasicCapacitor",
+                "damage": 1
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Heartbeat of Iron",
+          "longDescription": "When smelting an Ender Pearl with some Iron, we get a form of Iron that seems to pulsate, much like a steady heartbeat.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemAlloy",
+                "damage": 5
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Bright and Powerful",
+          "longDescription": "If we combine a Pearl with Energetic Alloy, we instead get something that seems to....glow with energy.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemAlloy",
+                "damage": 2
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Getting More Logical",
+          "longDescription": "With some of these new materials we can now expand on the special Undead Logic processors...and include Endermen in our designs. It seems somewhat gruesome, but as one of my assistants puts it, \"It isn\u0027t like they need their heads after you collect them.\" Also, you can keep these for now, scanning them is enough for us.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemFrankenSkull"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "EnderIO:itemFrankenSkull",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "EnderIO:blockEndermanSkull",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "EnderIO:itemAlloy",
+          "damage": 1,
+          "amount": 2
+        },
+        {
+          "id": "EnderIO:itemAlloy",
+          "damage": 2,
+          "amount": 2
+        },
+        {
+          "id": "EnderIO:itemBasicCapacitor",
+          "damage": 1,
+          "amount": 2
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "name": "A Home Distillery",
+      "description": "The Stirling Generator is a fantastic little power generator, but thats exactly what it is...little. It\u0027s also fairly inefficient, given the scope of things I am going to be showing you. But before we can get to those bigger, better things, we need to discuss Fuel. Solid combustables like coal are good in a sense, but we need something more concentrated, with much different properties. Specifically, we need liquid fuels now. With some water and some various ingredients to distill and ferment, we can make a small variety of Liquid Fuels. Distilling sugar and wheat or apples or seeds, will get you some very basic Hootch, which you can use instead of water to distill and concentrate more things into Fuel: Redstone and Gunpowder would get you the equivilant of Rocket Fuel, while Redstone and the fiery Blaze Powder would get you Fire Water. One other thing you can distill and ferment is Nutrient Distillation, which is made with water and a variety of once-living materials or mushrooms. Please send us one bucket worth of each so we can do more research with them.",
+      "x": 94,
+      "y": 130,
+      "icon": {
+        "id": "EnderIO:blockVat"
+      },
+      "prerequisites": [
+        "Higher Grade Components",
+        "Fitting Fixtures"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "To Hold Your Water",
+          "longDescription": "This Reservoir is good for holding and generating Water. You need to make a 2x2x1 structure of Reservoires for the tank to form. As long as two buckets worth of water are in it, it will generate another bucket every second.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockReservoir"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "To Distill Your Power",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockVat"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Backyard Drink",
+          "longDescription": "Used mostly in place of Water to distill more powerful Fuels, this can also be used as a Fuel itself.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:bucketHootch"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Into Orbit",
+          "longDescription": "Burns faster and hotter than Hootch, it generates about four times more power.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:bucketRocket_fuel"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Burns Going Down",
+          "longDescription": "While this doesn\u0027t generate much more power than Rocket Fuel, it does so at a slower rate.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:bucketFire_water"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Not Made of People...Maybe",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:bucketNutrient_distillation"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 45
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 40
+        }
+      ]
+    },
+    {
+      "name": "Daylight Power",
+      "description": "When we speak about efficiency in Generator design, we cannot forget that we have one of the biggest Generators at our disposal : The Sun. Due to its distance, we can\u0027t exactly tap into the vast amounts of power the Sun generates every second, but we CAN harness it a bit. By coating Silicon with Energetic Alloy, hooking it up to a Daylight Sensor and creating a frame of Fused Quartz and Electrical Steel, we can create a Photovoltaic Cell. While one on its own doesn\u0027t generate much RF Power, you can place a lot of them for relatively cheaper materials. Best of all, they require no fuels on your part, but only work in the daytime, and when in clear view of the sky.",
+      "x": 94,
+      "y": 161,
+      "icon": {
+        "id": "EnderIO:blockSolarPanel"
+      },
+      "prerequisites": [
+        "The Second Tier"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Praise the Sun",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockSolarPanel"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Burning Water",
+      "description": "Now that we are able to distill Liquid Fuels for use, we need a new Generator to burn the fuel in. The Stirling Generator isn\u0027t quite able to burn liquid without melting itself, seeing as it doesn\u0027t have any way to hold either the Liquid Fuel or the Coolant required. By combining a stronger Electrical Steel and a few Reservoirs, we can create an internal chamber to burn the Fuel and keep it from getting too hot with some Water. Another way we can generate power, though, is by employing some of your world\u0027s Magic...by hooking up a Zombie Head to a similar construct as the Combustion Generator, by keeping the head alive with Nutrient Distillation, it will continue to generate power for you.",
+      "x": 94,
+      "y": 191,
+      "icon": {
+        "id": "EnderIO:blockCombustionGenerator"
+      },
+      "prerequisites": [
+        "A Home Distillery"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Fire Power",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockCombustionGenerator"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Brain Power",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockZombieGenerator"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 40
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 45
+        }
+      ]
+    },
+    {
+      "name": "A Few New Tools",
+      "description": "Since we are beginning to work with much more advanced machinery, we will require better tools. The Yeta Wrench is similar to many other wrenches, and can work in place of those for other research department\u0027s machines when needed, but the Electrical Steel ours is made of gives it a special function with various bits of machinery and miscellanious items I\u0027ll be showing you later. Given that we will be needing more materials for the bigger machines soon, we also have a tool for your SAG Mill called the Dark Steel Grinding Ball. Aside from these, we have some newer tools my assistants and I have come up with. They aren\u0027t much, but...well, you\u0027ll see.",
+      "x": 123,
+      "y": 99,
+      "icon": {
+        "id": "EnderIO:itemYetaWrench"
+      },
+      "prerequisites": [
+        "The Second Tier"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Thats Yeta, Not Yeti",
+          "longDescription": "A major function for you is the ability for the Yeta Wrench to safely help pick up machines without breaking them. Just Sneak + Right Click the wrench on an Ender IO machine and it will quickly secure it for storage and transport.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemYetaWrench"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Better Grinding Medium",
+          "longDescription": "Instead of Flint, you can form Dark Steel into a ball and place it into the SAG Mill. It will both last longer and have better chance of finding extra materials.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemMaterial",
+                "damage": 7
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Stick of Knowledge",
+          "longDescription": "This allows you to \u0027deposit\u0027 your experience in liquid form into a Fluid Tank or other liquid vessel if you Sneak + Right Click. You can retrieve experience by just Right Clicking it on the container.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemXpTransfer"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Careful Buffer",
+          "longDescription": "These buffers enable you to create a \u0027transfer point\u0027 between different power or item transport systems. The Item can hold 9 items, while the Energy can hold 100k RF. You can combine them into an Omni Buffer as well that does both.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockBuffer",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "EnderIO:blockBuffer"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "EnderIO:blockBuffer",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Enlightened Transparency",
+      "description": "The Fused Quartz we made using your world\u0027s materials seems much stronger than the similar product we can make here. This got my assistants considering more possibilities with the material, so one of them attempted to mix powdered Glowstone into the molten quartz, and came out with a type of Fused Quartz that emits its own light! We then tried the same thing with Quite Clear Glass, and got quite similar results. Please provide my assistants some samples of both of these, we\u0027ve got some interesting things in the works here.",
+      "x": 39,
+      "y": 67,
+      "icon": {
+        "id": "EnderIO:blockFusedQuartz",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Better Transparency",
+        "Higher Grade Components"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Strong, Clear, And Bright",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockFusedQuartz",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "New and Backlit!",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockFusedQuartz",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Magical Machines",
+      "description": "By what my assistants have shown and taught me, my earlier questioning of whether Magic really exists in your world or not is answered: it does, and apparently in spades. We\u0027ve examined the Enchanting Table you are able to make with your world\u0027s materials, and we\u0027ve determined its a bit too...random...for our liking. While I had my assistants researching deeper into this inherent magic, I\u0027ve drawn up some blueprints using materials used in the construction of the original Enchanting Table, but fused with my (and now your) knowledge of sturdy, dependable machinery. What we\u0027ve come up with is simply called an Enchanter, and it will let you Enchant a Book and Quill, instead of a tool or piece of armor. Meanwhile, while researching these Zombies, we\u0027ve found that even their heads can remain animated in strange ways. The assistants and I have come up with a way to keep the animated head powered with Nutrient Distilliation, around which we construct a shell of Fused Quartz and Dark Steel. We can then attatch any kind of Sword to Joe, as we\u0027ve come to name him, and as long as he\u0027s fed Nutrients, he will hit nearby creatures with the sword.",
+      "x": 94,
+      "y": 37,
+      "icon": {
+        "id": "EnderIO:blockEnchanter"
+      },
+      "prerequisites": [
+        "A Home Distillery",
+        "Gotta Catch Em Souls"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Focused Enchanting",
+          "longDescription": "Instead of the random nature, by using a specific item as a catalyst and expending some of your Experience, you can Enchant the book with specific attributes.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockEnchanter"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Zombie Defense Grid",
+          "longDescription": "Any magical Enchantments on the Sword used by Killer Joe will take effect, but no experience will drop.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockKillerJoe"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "name": "The Third Tier",
+      "description": "You have definitely surpassed my expectations! All the components you have sent, along with all the designs you have replicated properly, have really shown you have the knowledge and penache for this field, Bandit. Now, though, I was only going to show you the final tier of machinery I knew of, and teach you about Conduits, but...I believe it is time for both of us to embark on a new journey....research. The new materials from your Nether intrigue us a bit, but your Endermen intrigue us even more! Especially their ability to teleport! If we can harness this power for an inventory logistics system...the entirety of The Business could benefit!",
+      "x": 123,
+      "y": 67,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 55
+      },
+      "prerequisites": [
+        "Enlightened Transparency"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Highest Grade Components",
+      "description": "With the research speeding along well on the unique properties of Ender Pearls, and the Alloys we have made from them, we can go one step higher than our previous tier of components! Before now, Double-Layer Capacitors were one of the best we could make, without using extremely rare, unique materials that is. By encasing Glowstone in Double-Layer Capacitors bound with Vibrant Alloy, we can make quite powerful Octadic Capacitors. Now, we know the power of crystalline structures. It is what gives Fused Quartz such strength, after all. Crystals, gems, all have a lot of uses in an engineering setting, but even more so it seems when you begin to involve Magic in some sort. We can encompass the scope of Technology and Magic by coating gemstones with some of our Alloys or working them in the Soul Binder.. A diamond can be coated with small pieces of Pulsating Iron, and an Emerald can be coated with small pieces of Vibrant Alloy. A Villager Soul can then be bound to an Emerald, or an Enderman soul to a Vibrant Crystal. The resulting Crystals will be perfect for the new set of machines and tools I have ideas for. If you could send only one of each of these to us, please, we have plenty in the works that should help both of us.",
+      "x": 152,
+      "y": 67,
+      "icon": {
+        "id": "EnderIO:itemBasicCapacitor",
+        "damage": 2
+      },
+      "prerequisites": [
+        "The Third Tier"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Least It Isn\u0027t In a Suit",
+          "longDescription": "These work wonders as upgrades in all the machines, and allow us to make even greater machines!",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemBasicCapacitor",
+                "damage": 2
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Pulsing Blue",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemMaterial",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Vibrant Green",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemMaterial",
+                "damage": 6
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Shining Emerald",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemMaterial",
+                "damage": 9
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Crystalized End",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemMaterial",
+                "damage": 8
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Why is it so Frightful?",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemMaterial",
+                "damage": 10
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 40
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "EnderIO:itemBasicCapacitor",
+          "damage": 2
+        },
+        {
+          "id": "EnderIO:itemMaterial",
+          "damage": 5
+        },
+        {
+          "id": "EnderIO:itemMaterial",
+          "damage": 6
+        },
+        {
+          "id": "EnderIO:itemMaterial",
+          "damage": 8
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 35
+        }
+      ]
+    },
+    {
+      "name": "Gotta Catch Em Souls",
+      "description": "In researching some of the new materials we have discovered in our lab, one of the assistants stumbled upon an...interesting tool. With the talk of Souls and Magic and all that, he got the idea to make a small container of glass, or in this case Fused Quartz, and put a \u0027magical\u0027 lid on it, similar to how a few of the more occult research branches jar their components. Well, his little test jar didn\u0027t seem to do anything until he went to fill it with some milk (fresh from the cow, for some reason...) to use in an experiment with The Vat, and instead the entire cow vanished. The vial was suddenly full of a glowy, wispy material, which turned out to be the cow, because when he uncorked it and upended the jar onto the ground, the cow popped back out immediately. Quite intriguing, so I beleive we shall call this unique find a Soul Vial.",
+      "x": 123,
+      "y": 37,
+      "icon": {
+        "id": "EnderIO:itemSoulVessel"
+      },
+      "prerequisites": [
+        "The Third Tier"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "I\u0027ll Swallow Your Soul!",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemSoulVessel"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Soul Manipulator",
+          "longDescription": "With a little knowledge sharing from one of the more esoteric Occult branches, we\u0027ve developed a machine that\u0027ll let you manipulate certain...well, souls... that you collect.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockSoulBinder"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Quite A Smartie",
+          "longDescription": "You can use the Soul Binder to return a captured Zombie soul into one of our Undead Logic processors.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemFrankenSkull",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "The Final Tier",
+      "description": "So now we are in quite undiscovered country. With your help, we\u0027ve expanded the variety of machines and tools we use to produce and keep inventory sorted and stocked. With the new components, we\u0027ve opened up new possibilities, though. This is a new area of research for us, so let us see what interesting things we can create.",
+      "x": 182,
+      "y": 67,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 56
+      },
+      "prerequisites": [
+        "Highest Grade Components"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Lgndry Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Dark Tools",
+      "description": "Dark Steel is quite a useful metal, extremely strong and durable. And since you are creating it with materials from your current world, it has a bit of magical properties to it. By shaping the metal into tools or Armor, you can get the same protection as basic Iron, but more durable like the crystalline structure of Diamond. You can then take each Dark Steel piece to an Anvil and imbue it with an item (remember the \u0027magical\u0027 properties I mentioned?). Inspect each piece closely and it you will be able to tell what you can imbue it with. The QUEST Tablet seems to have some issues displaying these Dark Steel items though...",
+      "x": 66,
+      "y": 11,
+      "icon": {
+        "id": "MekanismTools:SteelHelmet"
+      },
+      "prerequisites": [
+        "Simply Handy"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Your Blows are Weak!",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:item.darkSteel_helmet"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Clean Cut",
+          "longDescription": "The Ender is excellent at beheading certain enemies, as well as quite effective at damaging Endermen.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:item.darkSteel_sword"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "An Axe is An Axe",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:item.darkSteel_pickaxe"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "EnderIO:item.darkSteel_axe"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Heavy Metal",
+          "longDescription": "This Anvil lasts a lot longer than a normal Iron one does.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockDarkSteelAnvil"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 45
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 40
+        }
+      ]
+    },
+    {
+      "name": "Powered Up",
+      "description": "After researching both the Ender infused Crystals we\u0027ve created, and the inherent magicalness of your tools, we\u0027ve found a perfect way to power up your Dark Steel tools by placing a Vibrant Crystal into them on an Anvil to Empower them. They gain the ability to hold RF Energy like a battery. This will not only make the tool at the level of Diamond, as long as they are powered they gain extra abilities. Make four Vibrant Crystals while I explain what some of the special Powered properties are.",
+      "x": 152,
+      "y": 11,
+      "icon": {
+        "id": "MekanismTools:SteelHelmet",
+        "nbt": "{ench:[0:{lvl:2s,id:3s}]}"
+      },
+      "prerequisites": [
+        "Highest Grade Components",
+        "Dark Tools"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Dark Power Armor",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:item.darkSteel_helmet",
+                "nbt": "{enderio.darksteel.upgrade.energyUpgrade:{upgradeItem:{id:5146s,Count:1b,Damage:6s},maxOuput:1000,level_cost:10,unlocalized_name:\"enderio.darksteel.upgrade.empowered_one\",maxInput:1000,capacity:100000,energy:0}}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "EnderIO:itemMaterial",
+                "damage": 6
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Vibro Blade",
+          "longDescription": "Striking an Enderman with an Empowered Ender will disable its ability to teleport for a short bit.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:item.darkSteel_sword",
+                "nbt": "{enderio.darksteel.upgrade.energyUpgrade:{upgradeItem:{id:5146s,Count:1b,Damage:6s},maxOuput:1000,level_cost:10,unlocalized_name:\"enderio.darksteel.upgrade.empowered_one\",maxInput:1000,capacity:100000,energy:0}}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Dark Power Tools",
+          "longDescription": "If you are crouching when you cut the base of a tree with the Dark Axe, up to around 50 meters of Wooden Logs will break and fall down as well, as long as they were all touching each other. The Dark Pickaxe, while powered, will mine much faster.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:item.darkSteel_pickaxe",
+                "nbt": "{enderio.darksteel.upgrade.energyUpgrade:{upgradeItem:{id:5146s,Count:1b,Damage:6s},maxOuput:1000,level_cost:10,unlocalized_name:\"enderio.darksteel.upgrade.empowered_one\",maxInput:1000,capacity:100000,energy:0}}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "EnderIO:item.darkSteel_axe",
+                "nbt": "{enderio.darksteel.upgrade.energyUpgrade:{upgradeItem:{id:5146s,Count:1b,Damage:6s},maxOuput:1000,level_cost:10,unlocalized_name:\"enderio.darksteel.upgrade.empowered_one\",maxInput:1000,capacity:100000,energy:0}}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Improved Power Systems",
+      "description": "These new materials vastly increases our potential for generating Energry. Not only generating it, but storing it as well. We\u0027ve come up with an improvement on that old Photovoltaic blueprint I showed you how to make earlier, and this new version should be quite superior. With this and your other Power generators, along with the use of Energy Conduits, its much easier to make large Power Generation setups to power your home, base, or whichever you have constructed to survive out there with. We\u0027ve also come up with an expandable Energy Storage solution for you, and a way to monitor your Power Network to make sure everything is running fine. We also have something to wirelessly recharge items you are carrying that run off RF Energy.",
+      "x": 211,
+      "y": 161,
+      "icon": {
+        "id": "EnderIO:blockPowerMonitor"
+      },
+      "prerequisites": [
+        "Daylight Power",
+        "The Arteries of Logistics"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Truely Harnessing Light",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockSolarPanel",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Banking Your Energy",
+          "longDescription": "These Capacitor Banks can be placed and combined into larger and larger structures. The larger the Capacitor bank you\u0027ve made, the more it stores and the higher its Input/Output is.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockCapBank",
+                "damage": 1,
+                "nbt": "{type:\"SIMPLE\",storedEnergyRF:1000000}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "EnderIO:blockCapBank",
+                "damage": 2,
+                "nbt": "{type:\"ACTIVATED\",storedEnergyRF:5000000}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "EnderIO:blockCapBank",
+                "damage": 3,
+                "nbt": "{type:\"VIBRANT\",storedEnergyRF:10625000}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Monitoring Power",
+          "longDescription": "With you creating networks of Power Conduits, I think it would be a smart idea to create a Power Monitor. With it, you\u0027ll be able to see how much Energy your network is storing, how much is being used, and you can even have it send out a Redstone signal depending on how much Energy you have. This is an excellent way to turn on a set of Generators if, say, your power dropped below a certain point. Be sure to attatch the Monitor to your network by a Power Conduit, otherwise it won\u0027t be able to read the network.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockPowerMonitor"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Better Recharging",
+          "longDescription": "This machine can recharge tools in your inventory up to twenty meters away.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockWirelessCharger"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 40
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 35
+        }
+      ]
+    },
+    {
+      "name": "The Arteries of Logistics",
+      "description": "Now that you know how to make certain materials and certain machines, it seems a good a time as any to teach you how the blood flows in the Input, Output system of an inventory logistics system. By which, I mean Conduits! With them, you can pipe not only liquids like water, but Energy as well! Your Yeta Wrench is an invaluable tool when working with Conduits. They can go along floors, up and down walls, and can be tucked away in plain sight. We make and run quite a variety of Conduits: Redstone Conduits to send signals, Energy Conduits to transfer power, Fluid Conduits to move liquids around, and Gas Conduits to pipe strong gasses. And with some of the things my assistants are researching, I wonder if we can resurrect a somewhat old school technology for a brand new age...",
+      "x": 211,
+      "y": 99,
+      "icon": {
+        "id": "EnderIO:itemPowerConduit"
+      },
+      "prerequisites": [
+        "The Second Tier"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Controlling the Signal",
+          "longDescription": "Redstone Conduit transmits Redstone Signals that pass through them. Insulated Redstone Conduit allows you to run multiple Conduits side by side, and control which side of the Conduit transmits the signal. ",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemRedstoneConduit"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "EnderIO:itemRedstoneConduit",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Switch n Signal",
+          "longDescription": "Similar to a Lever, the Conduit Switch allows you to turn on and off a Signal to a Redstone Conduit network.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemRedstoneConduit",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Piping Around Power",
+          "longDescription": "A single bundle of Conduits can hold one of each kind of Conduit. To view only ONE type, hold your Yeta Wrench and Sneak + Mouse Wheel to scan through the Conduit types.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemPowerConduit"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Classic Plumbing",
+          "longDescription": "Gravity effects how fast fluids can flow through these Conduits.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemLiquidConduit"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Gaseous Piping",
+          "longDescription": "This is a specialized Conduit for moving around Mekanism gasses.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemGasConduit"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Like a Fake Painting",
+          "longDescription": "You can hide bundles of Conduits by making Conduit Facades and painting them in the Painting Machine. When you hold your Yeta Wrench, all Facades will become invisible.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemConduitFacade"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Probing Power",
+          "longDescription": "You can scan your Conduit networks for how much power is transmitting through part of it, or how much a specific Machine is taking. It can also copy Connection settings of some conduits by holding Sneak and using your Mousewheel to select the setting, and then Sneak + Right Clicking to copy a connection\u0027s settings. Right clicking on another connection will paste the settings to it.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemConduitProbe"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 50
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "Enhanced Conduits",
+      "description": "Basic Conduits are good for smaller networks. They can pipe around enough for a handful of machines, a few faucets, etc. When you need to go bigger, though, you run into a few issues: not enough throughput, so not enough Energy or Liquid or whatnot will get to all the machinery you want. Time wasted is money wasted, right? So we have some more advanced Conduits you can make, and hopefully if my assistants finish their current projects, even better Conduits for you!",
+      "x": 240,
+      "y": 99,
+      "icon": {
+        "id": "EnderIO:itemPowerConduit",
+        "damage": 1
+      },
+      "prerequisites": [
+        "The Arteries of Logistics"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "The Power Must Flow",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemPowerConduit",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Get The Hose!",
+          "longDescription": "Not only will it pump Fluid much faster, it will also negate the effect of Gravity on the piping fluid!",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemLiquidConduit",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 40
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 40
+        }
+      ]
+    },
+    {
+      "name": "Custom Conduits",
+      "description": "Being able to transport items like this is fantastic, but at the scale of operation The Ferret Business works at, we are always in need of improving logistics designs. Item Conduits are fantasic for transporting materials, especially in large quantities. We\u0027ve come up with a good variety of ways to augment your Item Conduits, from speeding them up to filtering the items that pass through them. These upgrades can be added to the point where a Conduit connects to an Inventory.",
+      "x": 210,
+      "y": 36,
+      "icon": {
+        "id": "EnderIO:itemExtractSpeedUpgrade"
+      },
+      "prerequisites": [
+        "A Pipe for Product"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Your Items, Faster!",
+          "longDescription": "The simplest way to improve an Item Conduit is to speed it up. This upgrade will increase the number of items a Conduit can pull from an Inventory. Each conduit can accept up to 15 of these Upgrades.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemExtractSpeedUpgrade"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Basic Filtering",
+          "longDescription": "Item Conduits are fantasic for transporting materials, especially in large quantities. Sometimes, though, we need to control what they take from or put into an inventory. With this, you can define up to five items, and the Conduit will only grab or put those items in that inventory.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemBasicFilterUpgrade"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Advanced Filtering",
+          "longDescription": "The Basic Filter is good and all, but sometimes you need a bit more control over what the Conduit will and will not accept. You can filter up to double the number of items (10 of them, that is), and also filter items that match within the Dictionary, for such things as Ores that are more or less the same.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemBasicFilterUpgrade",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "More Of The Same",
+          "longDescription": "Filting specific items into a new inventory system is helpful, but what happens if you have an organised inventory system already set up, and want to sort like that? You can use the Existing Item Filter to take a Snapshot of the inventory\u0027s contents at the press of a button!",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemExistingItemFilter"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Modified Filter",
+          "longDescription": "Specific Labs here at The Business have requested a way for them to more broadly define how we can filter items. This Upgrade can be set to accept only items from specific Modifications. You can choose up to three seperate Modification tags, and the Filter will only move items from those Mods. ",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemModItemFilter"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Charging Filters",
+          "longDescription": "This Filter enables you to sort by how much power an item has stored.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemPowerItemFilter"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 40
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 40
+        }
+      ]
+    },
+    {
+      "name": "Enderic Transfering",
+      "description": "All these various conduits that use the power of the Endermen\u0027s teleportation ability has sparked quite an idea amongst our lab. We can teleport fluids and items along a line of Conduits...why can we not do away with the Conduits themselves? We\u0027re already teleporting things, the Conduits merely provide a given path between Point A and Point B. So, to this end, we have constructed a machine. By assigning a designation to it, we can then assign the SAME designation to a second one of these Transceiver machines, and any items, fluids, or power we pipe through our Conduits into it will transfer between the two. The parts are fairly time consuming and expensive for a pair of these, but worth every pretty coin\u0027s worth. You can even make a specialized Rail in your Soul Binder and place it on a Dimensional Transceiver to teleport a minecart between two Tranceivrs.",
+      "x": 298,
+      "y": 67,
+      "icon": {
+        "id": "EnderIO:blockTransceiver"
+      },
+      "prerequisites": [
+        "The Final Tier"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Across Time and Space",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockTransceiver"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Nonstop Except For One",
+          "longDescription": "You must place this on top of a Dimensional Traceiver. You can then set the destination in the Tranceiver. Sneak + Right Click to change its direction.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockEnderRail"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 35
+        }
+      ]
+    },
+    {
+      "name": "Endearing Conduits",
+      "description": "We have been doing lots of testing and research with these new alloys we all have come up with. The Ender infused alloys we\u0027ve made have really pushed our IO sysem forward. Since a big use of our Conduits is Fluid and Energy pumping, I figured that we should see if we can improve on our design a bit. I believe we can utilize the teleportation properties of our Ender infused alloys. With these improved Energy Conduits, you can pipe massive amounts of Energy along them and the Fluid Conduits directly teleport Fluids to their destination, allowing you to pipe multiple fluids on the same Conduit. Both of these should keep your Conduit networks nice and compact. We\u0027ve also been working closely with another branch of The Ferret Business to come up with new Conduits, resulting in two new ones that would interface nicely with their system.",
+      "x": 240,
+      "y": 67,
+      "icon": {
+        "id": "EnderIO:itemPowerConduit",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Enhanced Conduits",
+        "The Final Tier"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Energy\u0027s End",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemPowerConduit",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Instant Water!",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemLiquidConduit",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Energetically Applied",
+          "longDescription": "These two cables can be used to run ME cabling alongside your Conduits, making sure all your designs are nice and compact.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemMEConduit"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "EnderIO:itemMEConduit",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 45
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Lgndry Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 45
+        }
+      ]
+    },
+    {
+      "name": "A Pipe for Product",
+      "description": "One of the early systems we used to use in The Business, before networked computers and the like came along, was pressurized tube system, in which pill-like containers were shunted along the network of pipes. It was usually used for inter-office communication, sending reports to the central office, shipping tiny parcels around. This severely limited its use, especially when phones and better communication methods came along, and the tubes were quickly taken down and shelved. With these Ender alloys, we have dusted off the old blueprints and designs (the tubes themselves had long ago been repurposed for animal habitat decoration), and created an amazing Conduit. By lining tubes made of Pulsating alloy bound with Conduit Binder, you create a Conduit that uses the teleportative powers of Ender to transfer items of any size and shape along an Item Conduit network. ",
+      "x": 211,
+      "y": 67,
+      "icon": {
+        "id": "EnderIO:itemItemConduit"
+      },
+      "prerequisites": [
+        "The Final Tier",
+        "The Arteries of Logistics"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Doesn\u0027t Clog Either!",
+          "longDescription": "When connected to an inventory, you can right click the connection to configure it, add upgrades, and more.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemItemConduit"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Enderic Tools",
+      "description": "Since the discovery of the Vibrant and Pulsating Crystals, all of my assistants have been hard at work helping me to harness the power of Ender. We\u0027ve created a pair of items that should be quite useful to you. The Magnet will simply be useful around your workshop, but I think the Staff will become quite useful with further research.",
+      "x": 182,
+      "y": 191,
+      "icon": {
+        "id": "EnderIO:itemTravelStaff",
+        "damage": 16,
+        "nbt": "{Energy:0}"
+      },
+      "prerequisites": [
+        "The Final Tier"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Extending Reach",
+          "longDescription": "The Electromagnet, when Powered and used, will draw items dropped on the ground towards you.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemMagnet",
+                "damage": 16,
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "I Would Port A Thousand Miles",
+          "longDescription": "Sneak + Right Clicking staff will recreate a controlled Endermen teleport, propelling you forward a short distance instantly. ",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemTravelStaff",
+                "damage": 16,
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Input, Output, Ender",
+      "description": "I believe we\u0027ve found our penultimate tool, the device that will define our Research Lab for years to come. I present to you the EnderIO. By encasing an Eye of Ender with Electrical Steel and Fused Quartz, we can access it with either a Staff of Travel or by standing on a Travel Anchor. When we do, our vision is shifted to the Anchor, seeing in a 7 square meter radius around it. Not only that, but we can remotely interact with everything in this vision area. We can pull levers, open chests and take items out or put items in, interact in any way with placed items. This opens up so many possibilities for The Ferret Business, both good and bad. To that end, you are able to limit who can access your EnderIO, whether you lock it to yourself, or setting a password on it. Along with the EnderIO, we have also created another useful device called the Travel Anchor, which you can interface with or without a Staff of Traveling. Just by standing on a Travel Anchor, you can see all other Travel Anchors around you, look towards one, and Jump to it. If you are holding up your Staff of Traveling, you can see them no matter what you are standing on.",
+      "x": 270,
+      "y": 191,
+      "icon": {
+        "id": "EnderIO:blockEnderIo"
+      },
+      "prerequisites": [
+        "Enderic Tools"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Anchored",
+          "longDescription": "You can also insert the Travel Anchor into a Painting Machine to decorate it as another block.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockTravelAnchor"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Influence With No Bounds",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockEnderIo"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 50
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Lgndry Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 40
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 5,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "Fitting Fixtures",
+      "description": "Primarily if we aren\u0027t dealing with the logistics of sorting items, we\u0027re dealing with Powering, Lighting, and whatnot various rooms. Power is something we\u0027ll cover some other time, but right now I can show you a few things that are generally quite helpful. The first is a Fluid tank, which when constructed using your somewhat magical materials, becomes able to hold liquid of any temperature, though not a whole lot. There are also a pair of lights you can make, each one useful depending on how big an area you need to light.",
+      "x": 39,
+      "y": 130,
+      "icon": {
+        "id": "EnderIO:blockTank"
+      },
+      "prerequisites": [
+        "The Long Grind"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A Flask of Your Own",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockTank"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Little Light",
+          "longDescription": "Normally requiring a Redstone Signal to turn on, you can affix a Redstone Torch to this to invert the effect.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockElectricLight",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Lotta Light",
+          "longDescription": "Works like the normal Light, but requires Power as well as a Redstone Signal, and will cover a larger area.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockElectricLight"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "Improved Fixtures",
+      "description": "With the new materials we\u0027ve created in the Alloy Smelter, we can improve on an older design, as well as show you some new designs that should be quite useful around a workshop. By utilizing Dark Steel and Fused Quartz instead of Iron and Glass, these devices fully utilize the properties of both. ",
+      "x": 39,
+      "y": 37,
+      "icon": {
+        "id": "EnderIO:blockReinforcedObsidian"
+      },
+      "prerequisites": [
+        "Better Transparency",
+        "Fitting Fixtures"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Under Pressure",
+          "longDescription": "Not only does this improved Fluid Tank hold twice as much, its also fairly blast resistant. Good for when handling unstable materials!",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockTank",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Wither The Assault",
+          "longDescription": "This special Obsidian is HIGHLY resistant to certain types of efffects: more specifically, the destructived nature of the strange monster your QUEST Tablet calls The Wither.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockReinforcedObsidian"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Decorative Frame",
+          "longDescription": "The Quartz Frame can be placed into a Painting Machine to customize the look, and then placed on many of the special types of Quartz Glass I\u0027ve shown you how to make.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemFusedQuartzFrame"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Dark Pressure",
+          "longDescription": "A normal Pressure Plate will send a Redstone Signal when anything lands on it. The Dark Steel Pressure Plate will only send one if you or one of your assistants stands on it. It can also be painted in a Painting Machine, and if you paint it with Quite Clear Glass, it will be more or less invisible!",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockDarkSteelPressurePlate"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Fireman\u0027s Ladder",
+          "longDescription": "You move up and down this faster than normal ladders.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockDarkSteelLadder"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Powerful Machines",
+      "description": "These new Crystals have quite a wide variety of uses. We\u0027ve dug out some of our old blueprints we don\u0027t use anymore to help give us some ideas, and we\u0027ve come up with a handful of new machines for your use that utilize just a bit of the immense potential of these Crystals.",
+      "x": 182,
+      "y": 130,
+      "icon": {
+        "id": "EnderIO:blockFarmStation"
+      },
+      "prerequisites": [
+        "The Final Tier"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Cleanly Chest",
+          "longDescription": "This Chest will draw in any dropped items close to it and store them if it has room.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockVacuumChest"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Iron Farmhand",
+          "longDescription": "Supplying this machine with power and tools and it can automatically till, plant, and harvest both plants and trees. ",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockFarmStation"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Monsterous Gathering",
+          "longDescription": "Something I noticed from the initial data from your world are these...strange contraptions, from which monsters spring out. Deeper scans of these things have shown them to be somewhat unstable, and removing it will most likely break it...but I think we can take this broken contraption and combine it with this new Powered Spawner on an Anvil to create a new, working one.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockPoweredSpawner"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 45
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 35
+        }
+      ]
+    },
+    {
+      "name": "Obelisk, Cooperate!",
+      "description": "We now have a large pile of specialized crystals we can use, but we need a special sort of machine to utilize them, and I believe we have come up with just the thing. Taking some notes from the occult branches of The Business, we\u0027ve come up with a machine version of an Obelisk, or totem, which can do a variety of things, depending on which crystal or item you construct the Obelisk with.",
+      "x": 182,
+      "y": 37,
+      "icon": {
+        "id": "EnderIO:blockAttractor"
+      },
+      "prerequisites": [
+        "The Final Tier",
+        "Gotta Catch Em Souls"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Get Over Here!",
+          "longDescription": "Attractor Obelisks draw creatures nearby to it, if they match one of the Soul\u0027s stored inside the Obelisk. ",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockAttractor"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Rain Rain Go Away",
+          "longDescription": "When supplied with power and the appropriate Catalyst, this Obelisk can change the weather for you. ",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockWeatherObelisk"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "An Aversion to Trouble",
+          "longDescription": "Using one of the special Endermen logic processors, we can make a device that will allow you to \u0027dissuade\u0027 creature from appearing close to it, as long as you have placed a Vial containing a similar soul into the Obelisk.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockSpawnGuard"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Tower of Knowledge",
+          "longDescription": "Allows you to give or take Experience, and pump it in liquid form out (or into) the Obelisk.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockExperienceObelisk"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 35
+        }
+      ]
+    },
+    {
+      "name": "Alternate Enderic Inventory",
+      "description": "Now, we have spent quite a bit of time researching all this new technology we\u0027ve created, but as they say, there is always \"Science to be Done!\". We\u0027ve gotten a few more excellent advancements in item storage and transport for you. We\u0027ve harnessed the intellect and other worldly power of the Ender to create a sort of inventory network you can access from a remote computer. By inserting the Remote Awareness upgrades into Item Conduits, the inventories at are directly connected become searchable and accessable along the entire network!",
+      "x": 270,
+      "y": 36,
+      "icon": {
+        "id": "EnderIO:itemFunctionUpgrade"
+      },
+      "prerequisites": [
+        "Custom Conduits"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Just Don\u0027t Name it Bob",
+          "longDescription": "To start with this new inventory system, you\u0027ll need to break out your Slice n\u0027 Splice and imbue a Witch\u0027s soul into an Ender Resonator to give it the proper intelligence.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemFrankenSkull",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Upgraded Awareness",
+          "longDescription": "This upgrade will need to be placed into the connector between an Item Conduit and an Inventory to be seen in the Sentient Ender Network.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemFunctionUpgrade"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Ordering Panel",
+          "longDescription": "Attatch this to any Item Conduit on a network. The Sentient Ender inside of it will be able to see and access all inventories that are connected to an Awareness Upgrade. You can search for items and even craft from this panel! Do note, it will require Nutrient Distillation to function...it DOES have to eat something.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockInventoryPanel"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 40
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 40
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

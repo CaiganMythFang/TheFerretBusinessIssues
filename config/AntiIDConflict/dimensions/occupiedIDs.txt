@@ -1,0 +1,12 @@
+Table of occupied dimension ids and their owners
+id:name(class)
+-42 : The Outer Lands, Provider: (id: -42, class: class thaumcraft.common.lib.world.dim.WorldProviderOuter)
+-39 : Mirror, Provider: (id: -39, class: class com.emoniph.witchery.dimension.WorldProviderMirror)
+-35 : Torment, Provider: (id: -35, class: class com.emoniph.witchery.dimension.WorldProviderTorment)
+-20 : Spirit World, Provider: (id: -20, class: class com.emoniph.witchery.dimension.WorldProviderDreamWorld)
+-19 : Bedrock, Provider: (id: -19, class: class thaumic.tinkerer.common.dim.WorldProviderBedrock)
+-17 : Underdark, Provider: (id: -17, class: class com.rwtema.extrautils.worldgen.Underdark.WorldProviderUnderdark)
+-1 : Nether, Provider: (id: -1, class: class mods.natura.dimension.NetheriteWorldProvider)
+0 : Overworld, Provider: (id: 0, class: class net.minecraft.world.WorldProviderSurface)
+1 : The End, Provider: (id: 1, class: class net.minecraft.world.WorldProviderEnd)
+2 : SpectreWorld, Provider: (id: 2, class: class lumien.randomthings.Handler.Spectre.WorldProviderSpectre)

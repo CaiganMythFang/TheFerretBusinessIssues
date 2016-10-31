@@ -1,0 +1,1644 @@
+{
+  "name": "($)Armament Shop",
+  "description": "And finally welcome to the Armament area of my shop. Weapons, Armor, First Aid Kits, and more, everything a danger-seeking individual could need to locate treasure with!",
+  "quests": [
+    {
+      "name": "Awaken the Power",
+      "description": "    Now that we can summon Ender Dragons to fight when we want, and harvest their powerful Hearts of energy, we can further our Draconic research!                         I\u0027ve compiled some new research notes on a Ritual that will imbue the power of a Dragon Heart into Charged Draconic Blocks, Awakening their power.                      Gather these materials and show them to me. I\u0027m still compiling my notes into a book for you, for now consult the tablet from the Safety Match research.",
+      "x": 269,
+      "y": 130,
+      "bigicon": true,
+      "icon": {
+        "id": "DraconicEvolution:draconicBlock"
+      },
+      "prerequisites": [
+        "Re-Awaken The Dragon"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Heart of Dragons",
+          "longDescription": "    Such a strong creature has a very powerful heart.",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:dragonHeart"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Dragon\u0027s Energy",
+          "longDescription": "    To contain the power of the Awakening Ritual, you\u0027ll need to fully charge a Draconium Block.",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconium",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Multi Core Dragons",
+          "longDescription": "    Send me 4 Draconic Cores to show me you are prepared for the Ritual. I\u0027ll send them right back, along with a copy of the notebook.",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicCore"
+              },
+              "required": 4,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "DraconicEvolution:draconicCore",
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Awakened Armor",
+      "description": "    The strength and raw power of Awakened Draconium has plenty of uses, and easily the most useful for you would probably be to use it as armor, especially if you are looking to fight the Ender Dragons repeatedly.",
+      "x": 272,
+      "y": 164,
+      "icon": {
+        "id": "DraconicEvolution:draconicChest",
+        "nbt": "{Energy:0}"
+      },
+      "prerequisites": [
+        "Awaken the Power"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "The Awakened Price",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 900
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:awakenedCore"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:draconiumEnergyCore",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "DraconicEvolution:draconicBoots",
+          "nbt": "{Energy:0}"
+        },
+        {
+          "id": "DraconicEvolution:draconicLeggs",
+          "nbt": "{Energy:0}"
+        },
+        {
+          "id": "DraconicEvolution:draconicChest",
+          "nbt": "{Energy:0}"
+        },
+        {
+          "id": "DraconicEvolution:draconicHelm",
+          "nbt": "{Energy:0}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 45
+        }
+      ]
+    },
+    {
+      "name": "Awakened Tools",
+      "description": "    Awakened Draconium is a very powerful material, harnessing so much power from the Heart of a Dragon combined with a ton of RF Energy.                                        This means we can definitely use it to power up the designs of the Wyvern Tools we made before.",
+      "x": 247,
+      "y": 165,
+      "icon": {
+        "id": "DraconicEvolution:draconicPickaxe",
+        "nbt": "{Energy:0}"
+      },
+      "prerequisites": [
+        "Awaken the Power"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "The Awakened Price",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 250
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:awakenedCore"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:draconiumEnergyCore",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "DraconicEvolution:draconicPickaxe",
+          "nbt": "{Energy:0}"
+        },
+        {
+          "id": "DraconicEvolution:draconicAxe",
+          "nbt": "{Energy:0}"
+        },
+        {
+          "id": "DraconicEvolution:draconicHoe",
+          "nbt": "{Energy:0}"
+        },
+        {
+          "id": "DraconicEvolution:draconicShovel",
+          "nbt": "{Energy:0}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 13
+        }
+      ]
+    },
+    {
+      "name": "Awakened Multitool",
+      "description": "    Having a good set of tools on your belt is fantastic, but when you are battling Ender Dragons and other monsterous boss-like creatures, you need that belt space for other tools and items. Like healing potions, or building materials.                                     In consideration of that, we\u0027ve come up with a very useful multitool for you, which combines the usefulness of a Pickaxe,  Shovel, and Sword into one single tool!",
+      "x": 272,
+      "y": 192,
+      "icon": {
+        "id": "DraconicEvolution:draconicDistructionStaff",
+        "nbt": "{Energy:0}"
+      },
+      "prerequisites": [
+        "Awakened Tools",
+        "Awakened Weapons"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Awakened Components",
+          "longDescription": "    To make this powerful Staff, we\u0027ll need the three base tools from you.",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicSword",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicShovel",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicPickaxe",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "An Awakened Core",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:awakenedCore"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "An Awakened Price",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 200
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "DraconicEvolution:draconicDistructionStaff",
+          "nbt": "{Energy:0}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "Power of Experience",
+      "description": "    Equipment can only get you so far in the world. The rest of it? Experience, of course! This won\u0027t impart actual knowledge on you, instead it will give you a sort of boost of subconscious experiences that will help you in your magical pursuits, such as when trying to Enchant something. ",
+      "x": 44,
+      "y": 14,
+      "icon": {
+        "id": "minecraft:experience_bottle"
+      },
+      "prerequisites": [
+        "{Initial Research}[Its The Name of the Game]"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "The Price of Knowledge",
+          "longDescription": "    Bottled Knowledge does not come cheap, mind you, but I dare say you can find more uses for it than just drinking it...",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 40
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:experience_bottle"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Helpful Devices",
+      "description": "    Our further research into Draconium and dragons in general has come up with a bunch more helpful devices you might like!             The Advanced Player Detector is an improved version of the Player Detector. 20 block range, lets you camoflauge it, and has an Inverted Redstone Signal mode to save you wiring space! It also has a white/blacklist so you can add your trusted assistants to it and not have them set up off some sort of protective failsafe!                      Then we have the Disenchanter. You can take a magical item and place it in the left slot, an empty book in the center slot, and hit the Transfer button and voila, the top listed enchant has been moved to the book! Careful, as this damages the magical item! You can cut down or outright prevent the damage by surrounding the Disenchanting table with bookshelves.                     Last but not least is the Draconic Chest. It bends space and time so has a giant inventory, as well as a crafting bench inside that. On top of that, it also has a furnace inside of it, which will double Ores smelted inside it. You can hold the chest and Shift + Right Click to change its color before setting it down.",
+      "x": 241,
+      "y": 135,
+      "icon": {
+        "id": "DraconicEvolution:draconiumChest"
+      },
+      "prerequisites": [
+        "Re-Awaken The Dragon"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "The Draconic Price",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 300
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicCore"
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "DraconicEvolution:playerDetectorAdvanced"
+        },
+        {
+          "id": "DraconicEvolution:dissEnchanter"
+        },
+        {
+          "id": "DraconicEvolution:draconiumChest"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Creature Feature",
+      "description": "    You may have noticed, if you\u0027ve been using your Wyvern weapons, that very rarely, a tiny version of a creature you slaughter will pop out of their corpse.                          This, we\u0027ve found, is a miniature version of that creature\u0027s Soul. The simplest thing you can do with this Soul is to Shift + Right Click it on the ground to summon another of that creature, but this consumes the soul.                                       Thanks to some study by the draconic researchers here, we\u0027ve discovered you can use a Draconic Core on any Mob Spawner in your world to \u0027stabilize it\u0027, enabling you to move it around.                           You can then place it and Right Click a Mob Soul onto it to have that Stabilized Mob Spawner start spawning that creature. Various items will improve the Mob Spawner when you Right Click them onto it :        Wyvern Core : Tier 2 Upgrade        Awakened Core : Tier 3 Upgrade      Nether Star : Removes requiring a player within 16 blocks.                  Notch Apple : Removes spawning restrictions (light, etc)",
+      "x": 198,
+      "y": 73,
+      "icon": {
+        "id": "DraconicEvolution:customSpawner"
+      },
+      "prerequisites": [
+        "The Core"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Stable Monsters",
+          "longDescription": "    To obtain a Stabilized Spawner, Right Click a Draconic Core on any Mob Spawner in the world. You can then break it with your Draconic tools and move it around.",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:customSpawner"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Fits in a Capsule!",
+          "longDescription": "    By killing creatures with Draconic weaponry, you can rarely obtain a Mob Soul. Right Clicking it into a Stabilized Mob Spawner will cause it to spawn that creature.         Note that when you break a Stabilized Spawner, you will get back all upgrades EXCEPT the Mob Soul.",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:mobSoul"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "A Killing Machine",
+          "longDescription": "    The Mob Grinder is a special machine we\u0027ve come up with that will kill creatures in a 7x7 area in front of it.                                     It can be powered with normal furnace Fuel, or with RF Energy.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 500
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "DraconicEvolution:grinder",
+          "damage": 3
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 12
+        }
+      ]
+    },
+    {
+      "name": "Crystal Network",
+      "description": "    Now that you are working with massive amounts of power, we wnated to figure out a way to distribute it in a large area without using cables or conduits, since those take up a lot of room.               What we\u0027ve come up with is a network based on Crystals, transmitting the RF Energy wirelessly between them. Each crystal has a range and a maximum number of other crystals they can connect to, so you\u0027ll need to chain crystals together to go farther distances.                                      The primary tool you use to bind crystals together into a network is the Crystal Binder. It has multiple modes you can switch between by Shift + Right Clicking it. As long as you are holding the Crystal Binder, you can see all the connections between nearby Crystals.",
+      "x": 244,
+      "y": 72,
+      "icon": {
+        "id": "DraconicEvolution:wrench"
+      },
+      "prerequisites": [
+        "The Core"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Bound by Crystal",
+          "longDescription": "    You can switch modes by holding the Crystal Binder and doing Shift + Right Click. ",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:wrench"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Casting the Net",
+          "longDescription": "    The basic crystal is the Relay. It cannot send or receive energy from a block, its whole purpose is to connect Crystals in the network. You\u0027ll primarily use it to go further distances or as a connection hub.        Range : 25                                 Max Connections : 10",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:energyCrystal"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Power to the Machine",
+          "longDescription": "    The Tranceiver is the crystal you\u0027ll use to give or take RF Energy from a block. Place it on the side of any RF machine or otherwise, and Bind the crystal to the network. Then change your Crystal Binder to Mode Change and use it on the Tranceiver to switch it between Input and Output mode.        Range : 25                                 Max Connections : 2",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:energyCrystal",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Advanced Technology",
+          "longDescription": "    The Energy Relay and Tranceivers have Advanced versions you can craft. These double the range and number of connections they can have.",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:energyCrystal",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:energyCrystal",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Wireless Power",
+          "longDescription": "    The Wireless Tranceiver enables you to cut down not only on cables, but on using many Crystals in your energy net. You do not need to hook a Tranceiver up to the side of a block anymore to transfer energy to and from it.       To bind a machine to the Energy Net, first use the Crystal Binder in Bind Mode on the Wireless Tranceiver, then on the machine.          Range : 25                                 Wireless Range : 15                      Max Connections : 3                     Max Wireless Connections : 8          As before, the Advanced Version will double all of these limits.",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:energyCrystal",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:energyCrystal",
+                "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Initial Signal",
+      "description": "    So we\u0027ve been testing some things with Draconium, looking to further our research. We\u0027ve found lots of great things already, but also come across some small, relatively cheap devices that could help you.                                       First up, a Potentiometer, which can emit a variable strength Redstone Signal between 0 and 15.       Then we have the Rain Sensor, which will emit a Redstone Signal when its, well...raining of course.          Last we have the Player Detector, which will emit a Redstone Signal when you or another assistant gets within about 10 blocks.",
+      "x": 250,
+      "y": 43,
+      "icon": {
+        "id": "DraconicEvolution:playerDetector"
+      },
+      "prerequisites": [
+        "Bones of Dragons"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Cheap...Comparatively",
+          "longDescription": "These are some fairly cheap items to make, especially when you consider how much the rest of this research is.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "DraconicEvolution:potentiometer"
+        },
+        {
+          "id": "DraconicEvolution:rainSensor"
+        },
+        {
+          "id": "DraconicEvolution:playerDetector"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Round the World",
+      "description": "    The power of Awakened Draconium, when combined with the very essence of Dragons themselves, enable us to make a very special device. One that  can control time itself!                           The Sun Dial, when a Redstone Signal is applied to it, will charge up, and then fire into the sky. Time will then fast forward, not stopping until you stop the Redstone Signal.       This will only affect the placement of the sun itself, it will not fast forward time for your crops or machines. ",
+      "x": 304,
+      "y": 133,
+      "icon": {
+        "id": "DraconicEvolution:sunDial"
+      },
+      "prerequisites": [
+        "Awaken the Power"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "The Timeless Price",
+          "longDescription": "    This item requires us to obtain some...quite dangerous materials from Ender Dragons. Materials that are super fragile as well. Thus, the cost is...a bit extreme.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicCore"
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:awakenedCore"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "DraconicEvolution:sunDial"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "Bones of Dragons",
+      "description": "    The initial idea for my train of research was some of the data I gathered from your world. Specifically, the place you call The End is (or was?) home to a creature of legend : a Dragon. If it exists in your world, surely it exists in others?                            Sure, we have two legged dragons walking about The Business sometimes (they are especially insightful into magical research), but they are nothing like their ancient, mythical ancestors.                                    My research thus far has unconvered what the ancient people called The Bones of Dragons : a mystical metal that is some of the strongest, most magical we\u0027ve ever seen.                              Thanks to some fairly dangerous research, my team is able to create this metal. Only in tiny batches, and with very expensive ingredients, but we\u0027ve stockpiled enough to start selling it to you. Both to help us with costs, and to have you utilize it for more research.",
+      "x": 223,
+      "y": 12,
+      "icon": {
+        "id": "DraconicEvolution:draconiumIngot"
+      },
+      "prerequisites": [
+        "Penultimate Research"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Draconium, Metal of Mysticism",
+          "longDescription": "There are a few things you can do with Draconium, but my suggestion? Make some Tinker\u0027s Tools with it, you won\u0027t be disappointed!",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 75
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "DraconicEvolution:draconiumIngot"
+        },
+        {
+          "id": "DraconicEvolution:draconiumDust"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "Awakened Weapons",
+      "description": "    The sheer power of Awakened Draconium can be harnessed in many ways, but one that should definitely benefit you would be to have it forged into powerful weapons.",
+      "x": 298,
+      "y": 164,
+      "icon": {
+        "id": "DraconicEvolution:draconicSword",
+        "nbt": "{Energy:0}"
+      },
+      "prerequisites": [
+        "{Initial Research}[Its The Name of the Game]",
+        "Awaken the Power"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "An Awakened Price",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 250
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:awakenedCore"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:draconiumEnergyCore",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "DraconicEvolution:draconicSword",
+          "nbt": "{Energy:0}"
+        },
+        {
+          "id": "DraconicEvolution:draconicBow"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 13
+        }
+      ]
+    },
+    {
+      "name": "A Core of Power",
+      "description": "    We need a good way to harness the strength and power of Draconium. One of my researchers suggested that we could shape the metal into a mystical symbol, like a medal.                                           The mystical nature of the shape helps to contain the power into what we are calling a basic Draconium Core.",
+      "x": 273,
+      "y": 12,
+      "icon": {
+        "id": "DraconicEvolution:draconicCore"
+      },
+      "prerequisites": [
+        "Bones of Dragons"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Core Medal",
+          "longDescription": "There isn\u0027t much you can do with a basic Draconic Core, but if you combine four of them with a Nether Star, you get a much more poweful item we call a Wyvern Core.             Both of these are key components in Energy Cores, which will be needed for further research.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "DraconicEvolution:draconicCore"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Tools of the Wyvern",
+      "description": "    Draconium is a fantastic material, able to tap into and utilize so much potential power and magic. Hopefully we can unlock its secrets, and it will guide us to getting you out of there, and open up even more doors for all of us.        Shaping it into Cores was an excellent first step, and we\u0027ve been able to expand upon it. You can make more powerful Cores of varying types just by combining a few together with other powerful materials.                                      We\u0027ve created some powerful lab equipment that enables us to empower some basic tools with Draconic potential : We simply call them Wyvern Tools.                           Why? Wyverns were, according to some lore, Lesser Dragons. They were Draconic in nature, but not to the mystical levels of full Dragons.        Don\u0027t underestimate Wyverns though, as these tools are extremely powerful in their own right.",
+      "x": 301,
+      "y": 12,
+      "icon": {
+        "id": "DraconicEvolution:wyvernPickaxe",
+        "nbt": "{Energy:0}"
+      },
+      "prerequisites": [
+        "A Core of Power"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "A Wyvern\u0027s Price",
+          "longDescription": "These tools are immensely powerful, and the machinery to create them is expensive, not to mention the other magical materials we need to harness the energy.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 150
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:wyvernCore"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:draconiumEnergyCore"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "DraconicEvolution:wyvernPickaxe",
+          "nbt": "{Energy:0}"
+        },
+        {
+          "id": "DraconicEvolution:wyvernShovel",
+          "nbt": "{Energy:0}"
+        },
+        {
+          "id": "DraconicEvolution:wyvernBow"
+        },
+        {
+          "id": "DraconicEvolution:wyvernSword",
+          "nbt": "{Energy:0}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "Wyvern Battery",
+      "description": "    The Wyvern Energy Core and the power of the Wyvern Tools has shown that we can harness Draconium to store RF Energy in massive amounts.                              We are currently persuing this line of research, and the first thing we\u0027ve come up with for you is the Wyvern Flux Capacitor, which works much like the other Flux Capacitors you may know of.               Though, I think comparing them is like comparing an AA Battery to a Car Battery...",
+      "x": 301,
+      "y": 42,
+      "icon": {
+        "id": "DraconicEvolution:draconiumFluxCapacitor",
+        "nbt": "{Energy:0}"
+      },
+      "prerequisites": [
+        "Tools of the Wyvern"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Wyvernic Energy",
+          "longDescription": "    The Wyvern Flux Capacitor can hold 80 MILLION RF Energy, which is great because Wyvern Tools are very power hungry.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 400
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:wyvernCore"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:draconiumEnergyCore"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "DraconicEvolution:draconiumFluxCapacitor",
+          "nbt": "{Energy:0}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Green and Healthy",
+      "description": "As you\u0027ve traversed and survived in your world, you may have noticed these little Red and Yellow hearts you can find from various dangerous creatures. Putting them in a vessel enables you to increase your vitality well beyond normal (thanks to the magical nature of your world). We began researching them, and have synthesized a third color for you to use : green. These are fairly expensive to make, but a full set of Green, Yellow, and Red Heart Canisters can make you thrice as healthy as normal!",
+      "x": 17,
+      "y": 14,
+      "icon": {
+        "id": "TConstruct:heartCanister",
+        "damage": 5
+      },
+      "prerequisites": [
+        "{Initial Research}[Its The Name of the Game]"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Green Hearts",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 150
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:heartCanister",
+          "damage": 5
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "Penultimate Research",
+      "description": "    Greetings, Bandit. it has been a while since I last contacted you. I am Caigan, CEO of The Ferret Business. I\u0027m extremely pleased at all the progress you\u0027ve done! It has really helped us improve so many things, get new products on the market, and learn way more about teleportation technology than we\u0027ve thought possible.              Unfortunately, this has not lead us to a way to get you home. Discover new dimensions and travel to and from them? Sure, we can do that now. Teleport large distances on the same world with very little cost? Yes, we can do that now too thanks to you.                                 But...your predicament has stumped all of our researchers ...and myself. I\u0027ve taken a personal interest in you, and have created a small team with my very best researchers. I feel the only way to get you home is to delve into the more... mythical approaches.",
+      "x": 197,
+      "y": 12,
+      "icon": {
+        "id": "DraconicEvolution:infoTablet"
+      },
+      "prerequisites": [
+        "{($)General Store}[Iron Exchange Rate]"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "REPUTATION",
+          "description": "REPUTATION REQUIRED",
+          "reputation": [
+            {
+              "reputation": 0,
+              "lower": 3,
+              "inverted": false
+            },
+            {
+              "reputation": 1,
+              "lower": 4,
+              "inverted": false
+            },
+            {
+              "reputation": 2,
+              "lower": 5,
+              "inverted": false
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Flickum Bicus",
+          "longDescription": "    Our research does not come free. The materials for this are very rare, and I\u0027m going to have to scour some obscure locations for them...                                           But I will give you this for the initial investment. May it be a light to you in dark places, when all other lights go out.                                  Sorry, I always wanted to use that quote! Here, this match is the first step in my research. It may look like a normal match, but it will create a fire that burns hot, but does not spread. Each match only ignites one fire, but if you put 9 of them together into a Matchbox, you mystically get way more fires!",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "DraconicEvolution:safetyMatch",
+          "damage": 1000
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "DraconicEvolution:infoTablet"
+        },
+        {
+          "id": "DraconicEvolution:safetyMatch",
+          "damage": 1000
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Armor of the Wyvern",
+      "description": "    Now that we have Wyvern Tools, its only logical that the next step we take is to make armor with Draconium and the various Cores.       Just like the tools, Wyvern Armor needs to be charged with RF Energy to function. ",
+      "x": 301,
+      "y": 71,
+      "icon": {
+        "id": "DraconicEvolution:wyvernChest",
+        "nbt": "{Energy:0}"
+      },
+      "prerequisites": [
+        "Tools of the Wyvern"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Scales of Protection",
+          "longDescription": "    It is a fantastic thing to note, though : By wearing a FULL Set of Wyvern Armor, you become completely immune to fire!",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 400
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:wyvernCore"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:draconiumEnergyCore"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "DraconicEvolution:wyvernChest",
+          "nbt": "{Energy:0}"
+        },
+        {
+          "id": "DraconicEvolution:wyvernLeggs",
+          "nbt": "{Energy:0}"
+        },
+        {
+          "id": "DraconicEvolution:wyvernBoots",
+          "nbt": "{Energy:0}"
+        },
+        {
+          "id": "DraconicEvolution:wyvernHelm",
+          "nbt": "{Energy:0}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Dislocated Existance",
+      "description": "    We\u0027re starting to delve into more teleportation research using Draconium. We have some promising starts so far!                                The first thing we have come up with is a self teleporter. We call it a Charm of Dislocation. It has limited uses before it breaks, but it seems to be able to \u0027record\u0027 the spot you are standing at, and then later you can use the Charm to teleport right back to that spot.",
+      "x": 273,
+      "y": 71,
+      "icon": {
+        "id": "DraconicEvolution:teleporterMKI"
+      },
+      "prerequisites": [
+        "Wyvern Battery"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "X Marks the Spot",
+          "longDescription": "It seems this Charm can be used about 10 times before it breaks apart. I wonder if we can bolster the energy in it somehow to make it a bit more lasting...",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 350
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "DraconicEvolution:teleporterMKI"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 18
+        }
+      ]
+    },
+    {
+      "name": "Dislocational Control",
+      "description": "    Delving deeper into the teleportation research, we\u0027ve found a way to compress the power of the Charm of Dislocation and improve on it.                                 The improvements on the Charm of Dislocation are amazing! You can now use it to record multiple locations and choose between them. Just like the normal Charm, it can record your current position, dimension, and direction facing.            This also has the improved benefit of unlimited uses...as long as you power it properly!",
+      "x": 244,
+      "y": 101,
+      "icon": {
+        "id": "DraconicEvolution:teleporterMKII"
+      },
+      "prerequisites": [
+        "Dislocated Existance"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Instant Transmission",
+          "longDescription": "The Enhanced Charm of Dislocation utilizes the power of Ender Pearls to enhance its teleportation abilities. You can feed it Ender Pearls via the interface.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 650
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:wyvernCore"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "DraconicEvolution:teleporterMKII"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 33
+        }
+      ]
+    },
+    {
+      "name": "Somewhat Dislocated",
+      "description": "    With the research into teleportation and the Dislocation Charm continuing, we looked into ways to mount the Charm into a machine, as well as other ways to teleport and distort reality.               First, we wanted a way to teleport to a destination saved in the Disloaction Charm, but leave the Charm behind for others to use, and we\u0027ve succeeded in making a...well, a magical pedastal for your Dislocation Charms. The bonus of using the Pedastal is that it will not consume charges on your Charms.       The second thing we discovered is that we could replace the head of an Arrow with an Ender Pearl, but it can only be fired with one of the Draconic Bows. It also is a whole lot more dangerous... bring some safe falling gear at minimum...                             The final thing we\u0027ve learned is how to make a Draconic Flame, which seems to distort whatever its placed against, allowing us to peer through it like a magic mirror.",
+      "x": 301,
+      "y": 101,
+      "icon": {
+        "id": "DraconicEvolution:teleporterStand"
+      },
+      "prerequisites": [
+        "Dislocated Existance"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Beam Me Up!",
+          "longDescription": "If you rename the basic Charm in an Anvil, or have a destination set with the Enhanced version, it will display the name of the location above the Pedastal when you place the Charm in it.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "DraconicEvolution:teleporterStand"
+        },
+        {
+          "id": "DraconicEvolution:enderArrow"
+        },
+        {
+          "id": "DraconicEvolution:xRayBlock"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Re-Awaken The Dragon",
+      "description": "    We\u0027ve found if you put a Block of Draconium into any RF charger machine or Capacitor, it will absorb RF Energy. When it absorbs 1 Million RF, it...changes. It becomes a Charged Draconium Block, teeming with stored energy.                         We\u0027ve done some extensive testing here, and called in a few of those Dragons I mentioned before, one of them from the Blood Magic labs. He helped us create a ritual...     One to summon yourself an Ender Dragon, one more powerful than the one located in The End in your world.",
+      "x": 273,
+      "y": 101,
+      "icon": {
+        "id": "DraconicEvolution:draconium",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Dislocated Existance"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "The Resurrection Stone",
+          "longDescription": "Killing creatures with a Wyvern or other Draconic weapon can sometimes sever their soul from their body. You can use four of them and some other materials to create a Resurrection Stone.",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconium",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Charged Draconium Block",
+          "longDescription": "Send me one of the Charged Draconium Blocks to show me that you have the capability to power up one. The Tablet from the Safety Match research should show you how to do this ritual.",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconium",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "DraconicEvolution:draconium",
+          "damage": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Simple Draconic Devices",
+      "description": "    Some initial research into the Draconic and Wyvern Cores has netted us some really interesting things.                                          The first is a Particle Generator, which can be used to make pretty effects, though we think it can be used for much much more.                                           The second thing we\u0027ve come up with is a Weather Controller. Using Emeralds as a catalyst, you can control the weather in your world.      The final thing we have is a low power, but useful, Generator to add to your plethora of ways to generate RF Energy.",
+      "x": 273,
+      "y": 42,
+      "icon": {
+        "id": "DraconicEvolution:particleGenerator"
+      },
+      "prerequisites": [
+        "A Core of Power"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Clear Skies, Bright Lights",
+          "longDescription": "    These might be of even more use down the line, but for now, everything we successfully make with Draconium evolves our knowledge just one step further.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 150
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicCore"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "DraconicEvolution:particleGenerator"
+        },
+        {
+          "id": "DraconicEvolution:weatherController"
+        },
+        {
+          "id": "DraconicEvolution:generator",
+          "damage": 3
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "The Core",
+      "description": "    Our research has been requiring more and more RF Energy to harness the power of Draconium, so we\u0027ve had to make a few side projects to expand our research into new technology.                         This side tangent has become amazingly evolutionary in the field of Energy Storage! With this, we can store not just millions, but BILLIONS, even Trillions, of RF Energy!                                         There is way more to it than I can explain over the QUEST Tablet. I am rewriting the documentation I came up with. For now, consult the tablet you can get from the Safety Matches research.",
+      "x": 216,
+      "y": 39,
+      "bigicon": true,
+      "icon": {
+        "id": "DraconicEvolution:energyStorageCore"
+      },
+      "prerequisites": [
+        "Simple Draconic Devices"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "The Price of Power",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 450
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:wyvernCore"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:draconiumEnergyCore"
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "DraconicEvolution:energyStorageCore"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 23
+        }
+      ]
+    },
+    {
+      "name": "A Powerful Charge",
+      "description": "    With the new crazy power system we\u0027ve created, most of our charging stations just don\u0027t seem to cut it with the massive amounts of Energy we can move around.          With further research, we\u0027ve found a way to transfer power at a much higher rate with this machine. The Infuser charges items much faster than any other charger we have...I think. Its pretty amazing!                                          With the massive amounts of Flux we\u0027re dealing with, we\u0027ve also begun looking into ways to better control the flow of it, and anything else. Gates are a good way to do this, and we have two we\u0027ve made to deal with massive flow amounts : Flux and Fluid. When you place them down, the Input (Blue) face will always be towards you, with the Output (Orange) face being opposite. ",
+      "x": 220,
+      "y": 73,
+      "icon": {
+        "id": "DraconicEvolution:energyInfuser"
+      },
+      "prerequisites": [
+        "The Core"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Infusion Dragons",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 450
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicCore"
+              },
+              "required": 3,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "DraconicEvolution:energyInfuser"
+        },
+        {
+          "id": "DraconicEvolution:flowGate"
+        },
+        {
+          "id": "DraconicEvolution:flowGate",
+          "damage": 6
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 23
+        }
+      ]
+    },
+    {
+      "name": "Dragon Cube",
+      "description": "    Draconium itself is fairly expensive, but since you\u0027ve done a lot for The Business, you\u0027ve probably got a lot of Trade Vouchers available, right? Well, to save you hitting buttons again and again in your QUEST Tablet, you can purchase a Block of Draconium with a single purchase. It doesn\u0027t change how much it costs or how much Loyalty you earn, but it saves clicking so much!",
+      "x": 249,
+      "y": 12,
+      "icon": {
+        "id": "DraconicEvolution:draconium"
+      },
+      "prerequisites": [
+        "Bones of Dragons"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Squared Dragons",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 675
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "DraconicEvolution:draconium"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 34
+        }
+      ]
+    },
+    {
+      "name": "Dragon Gate",
+      "description": "    We\u0027ve learned that we can take some Draconium Dust and mix it into some Obsidian with the help of some Blaze Powder. The resultant material is fairly strong, strong enough to resist the destructive nature of some powerful creatures such as the Wither.                          Further research into this Infused Obsidian shows that you can make a Portal with it, quite similar to the Obsidian portal you can make to reach the Nether. You\u0027ll need a Dislocator Receptical though as part of the frame, and you can use a Dislocation Charm to set the destination.",
+      "x": 217,
+      "y": 101,
+      "icon": {
+        "id": "DraconicEvolution:dislocatorReceptacle"
+      },
+      "prerequisites": [
+        "Somewhat Dislocated",
+        "Dislocational Control"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "To the Stars",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:teleporterStand"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:infusedObsidian"
+              }
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicCore"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "DraconicEvolution:dislocatorReceptacle"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

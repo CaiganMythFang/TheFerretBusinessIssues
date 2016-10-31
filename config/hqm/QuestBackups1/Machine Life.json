@@ -1,0 +1,511 @@
+{
+  "name": "Machine Life",
+  "description": "Hello, hello? Bandit? I...oh! It connected! Good, didn\u0027t feel like breaking my tools out already. My name is Mechanic Meeko, and I\u0027m one of the head factory engineers in The Ferret Business. The other one is my twin sister, have you met her yet? No? Well...trust, me, she\u0027s my twin. Where were we? Ah yes, let\u0027s talk more in private, okay?",
+  "quests": [
+    {
+      "name": "Compact Machines",
+      "description": "What every mechanic, good or bad, realizes really quickly is...you just don\u0027t have the space for all your tools and machines! Sure, you can get a bigger shop, a second shop, a fifth shop, an aircraft hangar, an entire apartment building even, but it still just won\u0027t be enough space! Plus, if you get yourself a huge space, you still have to wire everything up, and worry about zoning permits and....where was I?       Oh, right! Well, we like to employ something we call Meek\u0027s Law : The potential effectiveness of any factory or machine increases as its footprint decreases. Which means....the smaller you make it, the more efficient it can become. And what better way to make something super effecient than by shrinking them down!",
+      "x": 299,
+      "y": 11,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 63
+      },
+      "prerequisites": [
+        "{Initial Research}[High Technology]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Honey, I Shrunk the Factory!",
+          "longDescription": "These two are the basis of making super Compact Machines. They are kind of like Capacitors or Coils, they don\u0027t really do much until you put them into a machine.",
+          "items": [
+            {
+              "item": {
+                "id": "CompactMachines:shrinker"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "CompactMachines:enlarger"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Unnamed",
+      "x": 15,
+      "y": 12,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 8
+      },
+      "prerequisites": [
+        "{Initial Research}[High Technology]"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 53
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Piecing It Together",
+      "description": "Okay, you got the Enlarger and Shrinker, right? Now we\u0027ll need to put them into a larger device before they are useable. What, you expected to just slap the module like a sticker on something and POOF, smaller! Course not, it\u0027d shrink and then you\u0027d need a magnifying glass to even see it! Then you\u0027d also need a pair of tweezers, and a tiny tiny Enlarging Module to make it normal size again, and shoes just in case you did drop a few shrunken machines in the carpet...mechanical caltrops, thats what we\u0027d call them!",
+      "x": 300,
+      "y": 46,
+      "icon": {
+        "id": "CompactMachines:interfaceitem"
+      },
+      "prerequisites": [
+        "Compact Machines"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Two Way Panel",
+          "longDescription": "This panel lets the Compact Machine shrink and expand whatever passes through it. ",
+          "items": [
+            {
+              "item": {
+                "id": "CompactMachines:interfaceitem"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Every Squares a Circle",
+          "longDescription": "By building a block of Interfaces around a Diamond, you create the basis of the Compact Machine. This lets you pipe in power, liquid, and items in and out of every side of the Compact Machine.",
+          "items": [
+            {
+              "item": {
+                "id": "CompactMachines:resizingcube"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Is So Tiny!",
+      "description": "Your Compact Machine is almost complete, don\u0027t worry! Now you just need to build a case for it. Lots of materials work fine, but we\u0027ll start with the cheapest : wooden planks! I know, for a machine it seems an odd choice, but wood tends to go in and out of style for some reason, even for machines. Wood and the World Resizing Cube will make the tiniest Compact Machine you can ge, but even that  provides you a lot of space! To enter and exit it, though, you\u0027ll need a special tool...",
+      "x": 301,
+      "y": 83,
+      "icon": {
+        "id": "CompactMachines:machine"
+      },
+      "prerequisites": [
+        "Piecing It Together"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Tiny But Powerful",
+          "longDescription": "Inside this Machine is its own miniaturized space. You can place it in your base, and each side can have RF Power, Items, and Fluids pumped in and out them.",
+          "items": [
+            {
+              "item": {
+                "id": "CompactMachines:machine"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Making Szalinski Proud",
+          "longDescription": "To enter and leave a Compact Machine, you\u0027ll need your own Personal Shrinking Device. Craft it, and then Right Click it onto the Machine itself to enter it. Now you are inside the Compact Machine! Any items you bring into it are shrunk with you, and this includes other Machines so you can place it inside!",
+          "items": [
+            {
+              "item": {
+                "id": "CompactMachines:psd"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 35
+        }
+      ]
+    },
+    {
+      "name": "Extra Tools",
+      "description": "Now that you can enter and exit your own Compact Machines, theres a few extra things you may like. Notice the walls inside your Machine? If you like that look, you can make it for your own constructions! The other item, though, is less form and all function! With the Quantum Entangler, you can \u0027attatch\u0027 two machines in different locations to the same Compact Machine space. ",
+      "x": 266,
+      "y": 83,
+      "icon": {
+        "id": "CompactMachines:quantumentangler"
+      },
+      "prerequisites": [
+        "Is So Tiny!"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Boxy Designs",
+          "items": [
+            {
+              "item": {
+                "id": "CompactMachines:innerwalldecor"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Quantumization",
+          "longDescription": "To Entangle two machines together, they have to fit a few criteria:           1) They have to be the same              size.                                    2) You must have Right Clicked a         Nether Star onto each                 Machine.                                3) The second machine must               not have been entered yet!       Then you may Right Click the Quantum Entangler onto the first machine whose space you want to link, then onto the second Machine. They will now lead to the same place, and anything you pipe through the Interfaces can be accessed by either Machine.",
+          "items": [
+            {
+              "item": {
+                "id": "CompactMachines:quantumentangler"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 45
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 40
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 45
+        }
+      ]
+    },
+    {
+      "name": "Growing Larger",
+      "description": "Now you know how to make Compact Machines. Each side of the Machine on the outside corresponds to an Interface on the inside. By using something like Conduits or Pipes or Ducts, you can transfer things like Power in and out of the machine. Each Compact Machine tier is just a bit larger than the previous tier.",
+      "x": 302,
+      "y": 120,
+      "icon": {
+        "id": "CompactMachines:machine",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Is So Tiny!"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Iron Space",
+          "items": [
+            {
+              "item": {
+                "id": "CompactMachines:machine",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Gold Space",
+          "items": [
+            {
+              "item": {
+                "id": "CompactMachines:machine",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 35
+        }
+      ]
+    },
+    {
+      "name": "Mine\u0027s Bigger!",
+      "description": "We can keep making these bigger and bigger! All sorts of things you can fit into a Compact Machine with enough space. A whole smeltery? Yep! How about a small factory? Definitely! Got something dangerous? Well, stuff it into a Compact Machine!",
+      "x": 303,
+      "y": 156,
+      "icon": {
+        "id": "CompactMachines:machine",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Growing Larger"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Obsidian Size",
+          "items": [
+            {
+              "item": {
+                "id": "CompactMachines:machine",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Diamond Size",
+          "items": [
+            {
+              "item": {
+                "id": "CompactMachines:machine",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 45
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 45
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 45
+        }
+      ]
+    },
+    {
+      "name": "Maximum Size!",
+      "description": "The Nether Star enables us to go one step further than we could before, which is crazy! Before, a case of Diamond made the largest space available, but now Nether Stars push our miniaturizing ability even further!",
+      "x": 304,
+      "y": 191,
+      "icon": {
+        "id": "CompactMachines:machine",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Mine\u0027s Bigger!"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "GIANT!",
+          "items": [
+            {
+              "item": {
+                "id": "CompactMachines:machine",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 60
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Lgndry Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 60
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Lgndry Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 60
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

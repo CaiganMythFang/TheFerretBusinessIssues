@@ -1,0 +1,244 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "ferretmenu:graphics/clipboard.png",
+            "posX" : -207,
+            "posY" : 0,
+            "width" : 173,
+            "height" : 237,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "",
+            "texture" : "ferretmenu:buttons/1single.png",
+            "posX" : -185,
+            "posY" : 71,
+            "width" : 126,
+            "height" : 18,
+            "imageWidth" : 186,
+            "imageHeight" : 31,
+            "alignment" : "top_center",
+            "tooltip" : "Start a Single Player game. (Make sure World Type is Biomes O Plenty!)",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "",
+            "texture" : "ferretmenu:buttons/2multi.png",
+            "posX" : -185,
+            "posY" : 90,
+            "width" : 126,
+            "height" : 18,
+            "imageWidth" : 186,
+            "imageHeight" : 31,
+            "alignment" : "top_center",
+            "tooltip" : "Join a Multiplayer game.",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "",
+            "texture" : "ferretmenu:buttons/3options.png",
+            "posX" : -185,
+            "posY" : 109,
+            "width" : 126,
+            "height" : 18,
+            "imageWidth" : 186,
+            "imageHeight" : 31,
+            "alignment" : "top_center",
+            "tooltip" : "Change game options.",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "",
+            "texture" : "ferretmenu:buttons/4modlist.png",
+            "posX" : -185,
+            "posY" : 128,
+            "width" : 58,
+            "height" : 18,
+            "imageWidth" : 88,
+            "imageHeight" : 31,
+            "alignment" : "top_center",
+            "tooltip" : "See and Configure installed mods.",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "texture" : "ferretmenu:buttons/6language.png",
+            "posX" : -185,
+            "posY" : 147,
+            "width" : 58,
+            "height" : 18,
+            "imageWidth" : 88,
+            "imageHeight" : 31,
+            "alignment" : "top_center",
+            "tooltip" : "Choose a different language.",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "resource packs":
+        {
+            "text" : "",
+            "texture" : "ferretmenu:buttons/8resources.png",
+            "posX" : -185,
+            "posY" : 166,
+            "width" : 58,
+            "height" : 18,
+            "imageWidth" : 88,
+            "imageHeight" : 31,
+            "alignment" : "top_center",
+            "tooltip" : "Change Resource Packs.",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options.ressourcepacks"
+            }
+        },
+        
+        "forum":
+        {
+            "text" : "",
+            "texture" : "ferretmenu:buttons/5forum.png",
+            "posX" : -117,
+            "posY" : 128,
+            "width" : 58,
+            "height" : 18,
+            "imageWidth" : 88,
+            "imageHeight" : 31,
+            "alignment" : "top_center",
+            "tooltip" : "Open The Ferret Business forum post.",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "http://forum.feed-the-beast.com/threads/1-7-10-the-ferret-business-wip-hqm-200-quests-v-0-0-4.64930/"
+            }
+        },
+        
+        "changelog":
+        {
+            "text" : "",
+            "texture" : "ferretmenu:buttons/7changelog.png",
+            "posX" : -117,
+            "posY" : 147,
+            "width" : 58,
+            "height" : 18,
+            "imageWidth" : 88,
+            "imageHeight" : 31,
+            "alignment" : "top_center",
+            "tooltip" : "Open The Ferret Business Changelog.",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://docs.google.com/document/d/1UV6OMU8c3rDAZCix7OjxYdjdVk5odugwIm415nTbV08/edit?usp=sharing"
+            }
+        },
+        
+        "known issues":
+        {
+            "text" : "",
+            "texture" : "ferretmenu:buttons/9issues.png",
+            "posX" : -117,
+            "posY" : 166,
+            "width" : 58,
+            "height" : 18,
+            "imageWidth" : 88,
+            "imageHeight" : 31,
+            "alignment" : "top_center",
+            "tooltip" : "Open Known Issues Document.",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://docs.google.com/document/d/1UV6OMU8c3rDAZCix7OjxYdjdVk5odugwIm415nTbV08/edit?usp=sharing"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "",
+            "texture" : "ferretmenu:buttons/10quit.png",
+            "posX" : -185,
+            "posY" : 185,
+            "width" : 126,
+            "height" : 18,
+            "imageWidth" : 186,
+            "imageHeight" : 31,
+            "alignment" : "top_center",
+            "tooltip" : "Don't feel like getting into a teleporter accident today?",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -162,
+            "posY" : 0,
+            "width" : 81,
+            "height" : 12,
+            "imageWidth" : 133,
+            "imageHeight" : 18,
+            "alignment" : "top_center",
+            "texture" : "ferretmenu:graphics/clipbar.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "",
+            "posX" : -168,
+            "posY" : 214,
+            "color" : 8388736,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "other":
+    {
+        "background":
+        {
+            "image" : "ferretmenu:backgrounds/mainmenu1.png",
+            "mode" : "fill"
+        }
+    }
+}

@@ -1,0 +1,291 @@
+{
+  "book": [
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b][u]RITUAL OF DRAGON \n   RESURRECTION   [/b]",
+            "wrap": 0,
+            "size": 1.7000002,
+            "color": "FFDAA520",
+            "xPos": 7,
+            "yPos": 11,
+            "width": 199.0,
+            "height": 15.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Instructional Guide by CEO Caigan.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 16,
+            "yPos": 43,
+            "width": 194.0,
+            "height": 6.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b]REQUIRED COMPONENTS[/b]",
+            "wrap": 0,
+            "size": 1.2,
+            "color": "FF555555",
+            "xPos": 25,
+            "yPos": 79,
+            "width": 171.0,
+            "height": 13.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "DraconicEvolution:draconium 1",
+            "xPos": 33,
+            "yPos": 89,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "1 Resurrection Stone",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 52,
+            "yPos": 93,
+            "width": 128.0,
+            "height": 7.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "4 Obsidian",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 52,
+            "yPos": 111,
+            "width": 77.0,
+            "height": 6.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:diamond_block",
+            "xPos": 33,
+            "yPos": 163,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:obsidian",
+            "xPos": 33,
+            "yPos": 107,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:glowstone",
+            "xPos": 33,
+            "yPos": 125,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "4 Glowstone",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 52,
+            "yPos": 129,
+            "width": 74.0,
+            "height": 10.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:quartz_block 2",
+            "xPos": 33,
+            "yPos": 144,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "12 Quartz Pillars",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 52,
+            "yPos": 147,
+            "width": 105.0,
+            "height": 11.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "4 Diamond Blocks",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 52,
+            "yPos": 167,
+            "width": 101.0,
+            "height": 5.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "DraconicEvolution:draconium 2",
+            "xPos": 33,
+            "yPos": 183,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "4 Charged Draconium Blocks",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 52,
+            "yPos": 187,
+            "width": 158.0,
+            "height": 7.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "To further our research, we\u0027ll have to summon the Ender Dragon again... but I warn that it will be more powerful than you can possibly imagine...\n\nI suggest you be well equipped for the battle. Even moreso than you were for the first one. Wyvern Weapons and Armor are high on my list, as well as any magical accessories you can get. \n\nThose health regeneration crystals from before will probably regenerate, so don\u0027t forget either a way to fly or a good bow!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 229,
+            "yPos": 9,
+            "width": 185.0,
+            "height": 184.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "This must be done in The End near\n          0,0,0 on your map.",
+            "wrap": 0,
+            "size": 0.9,
+            "color": "FF555555",
+            "xPos": 24,
+            "yPos": 26,
+            "width": 154.0,
+            "height": 12.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[b][u]BUILDING THE RITUAL[/b]",
+            "wrap": 0,
+            "size": 1.5000001,
+            "color": "FF555555",
+            "xPos": 15,
+            "yPos": 9,
+            "width": 226.0,
+            "height": 23.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Ritual_of_Dragon_Summoning/draconicritual1.png",
+            "xPos": 251,
+            "yPos": 6,
+            "width": 128.0,
+            "height": 83.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Ritual_of_Dragon_Summoning/draconicritual2.png",
+            "xPos": 15,
+            "yPos": 42,
+            "width": 175.0,
+            "height": 140.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Place the Resurrection Stone in the center, the Obsidian North, South, East, and West of this, then the Glowstone at the corners. 2 Blocks diagonally from the Glowstone, place 2-high Quartz Pillars topped with Charged Draconium Blocks, and 2 out from each Obsidian place 1-high Quartz Pillars topped with Diamond Blocks. \nWhen you are ready to fight, right click the Resurrection Stone with an empty hand to resurrect the Ender Dragon.\nMove a safe distance, as standing too close as the ritual finishes can be deadly.",
+            "wrap": 0,
+            "size": 0.9,
+            "color": "FF555555",
+            "xPos": 228,
+            "yPos": 91,
+            "width": 189.0,
+            "height": 94.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The Sand and Cobblestone are not required. They are used to show distances in the ritual.",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FF555555",
+            "xPos": 11,
+            "yPos": 185,
+            "width": 198.0,
+            "height": 11.0
+          }
+        }
+      ],
+      "pageName": ""
+    }
+  ],
+  "displayNames": {
+    "en_US": "Ritual of Dragon Resurrection"
+  },
+  "uniqueName": "Ritual_of_Dragon_Summoning",
+  "color": 74674326,
+  "showBackground": true,
+  "showArrows": true,
+  "showNumber": true,
+  "iconPass1": "",
+  "iconPass2": "",
+  "iconColorisePass1": false,
+  "iconColorisePass2": false,
+  "iconColorPass1": 0,
+  "iconColorPass2": 0,
+  "displayName": "Ritual of Dragon Summoning"
+}

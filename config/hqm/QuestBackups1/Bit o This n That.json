@@ -1,0 +1,3395 @@
+{
+  "name": "Bit o This n That",
+  "description": "Hey there Bandit! Good to meet you! Biologist Bitsy passed those materials I kind of maybe hinted at wanting to look at to me, and I\u0027m quite pleased with them! I think she just wanted me to stop bugging her, but thats fine, I got what I was after! I\u0027m Inventologist Irvine, lets see what we can invent!",
+  "quests": [
+    {
+      "name": "To Invent Some Extra Utilities!",
+      "description": "What? Whats an Inventologist you ask? Why, I am, of course! Oh, what does the term mean you mean? I mean uh...you...mean...Er, okay, Inventologists research past inventions and create new ones! The difference between me and a normal inventor? Why, the ologist part! Seven letters! Okay lets just get into the swing of things, lets see what things you can show me! Send me samples of fairly common building materials in your world...",
+      "x": 156,
+      "y": 190,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 2
+      },
+      "prerequisites": [
+        "{Initial Research}[Strange Equipment]"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Quite Common And Useful!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:cobblestone"
+              },
+              "required": 5,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Clearly Visible",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:glass"
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Rustic and Renewable",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 71
+              },
+              "required": 5,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Fuzzy and Warm",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wool"
+              },
+              "required": 5,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Shining Darkness",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:obsidian"
+              },
+              "required": 5,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "Decorate and Collect",
+      "description": "As time goes on, I\u0027m noticing you collect a whole lot of Cobblestone. Massive amounts, really. You have to mine and dig out all your supplies, and to get to them without advanced machinery, you have to carve yourself tunnels and paths and whatnot. That cobblestone takes up a whole lotta space, yeah? Not to mention just how much Dirt is around you as well, and other common materials...Lets find some uses for all of them! We can make nicer looking materials out of those, for sure. And...how about we compress some of it down for better storage? We could probably find a use if you compress Cobblestone down far enough...Oh, and send me samples of everything please? This lab is kind of drab and...well, it WAS a tiny office, not a laboratory. Now it\u0027s kind of both. ",
+      "x": 156,
+      "y": 123,
+      "icon": {
+        "id": "ExtraUtilities:cobblestone_compressed",
+        "damage": 1
+      },
+      "prerequisites": [
+        "To Invent Some Extra Utilities!"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Compress and Store",
+          "longDescription": "You can compress down some common materials for better storage. Some can be compressed to quite unrealistic proportions!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:cobblestone_compressed",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:cobblestone_compressed",
+                "damage": 9
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:cobblestone_compressed",
+                "damage": 14
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:cobblestone_compressed",
+                "damage": 12
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "A Painter\u0027s Delight",
+          "longDescription": "There are a lot of blocks you can Paint with a Paintbrush, more than what I\u0027m showing you here! You can also Sneak + Right Click the Paintbrush onto any of these blocks to copy the color of it.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:paintbrush"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:color_blockCoal",
+                "nbt": "{RepairCost:2,display:{Name:\"Any Colored Block of Coal\"}}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:color_stone",
+                "damage": 4,
+                "nbt": "{RepairCost:2,display:{Name:\"Any Colored Stone\"}}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:color_brick",
+                "damage": 13,
+                "nbt": "{RepairCost:2,display:{Name:\"Any Colored Bricks\"}}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Gravelly Design",
+          "longDescription": "There are multiple decorative things you can make with Gravel beyond just Road.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:decorativeBlock1",
+                "damage": 10
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Stone Edge",
+          "longDescription": "Beyond this you have a few more options on edging patterns for your stone constructions.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:decorativeBlock1",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Cold Stone",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:decorativeBlock1",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "name": "Research - Shiny Material",
+      "description": "Your QUEST Tablet scanners show lots of wonderful, rare gems and metals in the ground. Could you send me some samples of the nice, really shiny, sparkly things? Please? I promise, it\u0027s for research!",
+      "x": 78,
+      "y": 190,
+      "icon": {
+        "id": "minecraft:iron_ingot"
+      },
+      "prerequisites": [
+        "To Invent Some Extra Utilities!"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Cool, Smooth, and Strong",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "How it Shines...In the Light...",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gold_ingot"
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Sparkle Sparkle Glimmer",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:diamond"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Radiating Wealth",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:emerald"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Refined for a Generation",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:redstone_block"
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "name": "Research - Mystical Material",
+      "description": "I\u0027ve gotten some intriguing information from some of the other branches of The Business, Bandit. Your world is infused with mystical energies of all kinds! I\u0027d like you to send me various samples of the \u0027Magical\u0027 nature of your world...",
+      "x": 234,
+      "y": 190,
+      "icon": {
+        "id": "minecraft:enchanting_table"
+      },
+      "prerequisites": [
+        "To Invent Some Extra Utilities!"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "ENCHANTMENT!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:enchanting_table"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Pearls Before Thine",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:ender_pearl"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Forged of Flame",
+          "longDescription": "To make Burnt Quartz, simply cook a Block of Quartz in a furnace.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:decorativeBlock1",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "At Least it isn\u0027t Outlaw\u0027d",
+          "longDescription": "The Wither is a tough boss. You\u0027ll need 4 soulsand and 3 Wither Skeleton Skulls to summon it. I suggest summoning it in a safe area, as it will destroy everything around it while fighting. I won\u0027t take the Star, I just want a direct scan...",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:nether_star"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 50
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "minecraft:enchanting_table"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "Inventing New Tools of Old",
+      "description": "One thing I\u0027ve noticed with all the materials you\u0027ve sent us...that is, myself and the rest of The Ferret Business...is that everything in your world seems to be suffused just a bit with a bit of Magic. This means all the materials of your world seem to...slightly bend? Yeah, slightly bend the laws of physics and logic. All these tools are normal tools we have here in our world, you\u0027ve probably used some of them before your accident. But when we change the design a bit and use materials from your world? We then create all new tools! And this...this is one of the hearts of Inventology! Reworking the old into new!",
+      "x": 78,
+      "y": 156,
+      "icon": {
+        "id": "ExtraUtilities:drum"
+      },
+      "prerequisites": [
+        "Research - Shiny Material"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Watering the Crops",
+          "longDescription": "Your world\u0027s crops seem to grow faster than ours normally do. By using the magical nature of your Iron, we can create a watering can that can speed it up even faster with just a bit of water. Don\u0027t forget to fill up the Watering Can by Right Clicking some water!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:watering_can"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "You Could Fit A Lot In This",
+          "longDescription": "By constructing a liquid Drum out of your magical Iron, we get a container that can hold much more water than it normally should. It can even hold molten Metal and Lava!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:drum"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Stovetop Furnace",
+          "longDescription": "I took the old, classic design of a stovetop heating coil, and remade it slightly, adding some Redstone to it. Now this one can hold RF Energy like a battery, and power a Furnace as if it were Wood or Coal!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:heatingElement"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Protect Your Assets",
+          "longDescription": "Usually used in older ah...military....setups, these Spikes usually are deployed against dangerous monsters, and will damage and destroy anything that lands on them. With my redesign, they hurt anyone touching them, but items don\u0027t break and vanish. Experience Orbs do not drop, though.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:spike_base"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Almost Too Painful",
+          "longDescription": "You can make a Wooden version of the Spikes, which will nearly kill the creature stepping on it. One good punch will finish it off.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:spike_base_wood"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Magical Energy Generation",
+      "description": "Because of the Pink Generator, I decided to start looking more into using more Magical materials for Power generation. I\u0027ve definitely invented some quite amazing varieties for your use, and to boot I\u0027ve gotten ideas for even bigger Generators! Give me some time, try these out first please.",
+      "x": 234,
+      "y": 123,
+      "icon": {
+        "id": "ExtraUtilities:generator",
+        "damage": 10
+      },
+      "prerequisites": [
+        "Research - Mystical Material",
+        "Classic Energy Generation"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Food is Fuel",
+          "longDescription": "We eat Food to Fuel our bodies, right? Why not use Food to make Power as well? This Generator can do just that! The more filling and satiating a food is, the more power it will generate!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:generator",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "I\u0027m Heating Up!",
+          "longDescription": "The basic Furnace Generator is good, but I felt that it wasted a lot of Heat...and Heat is nothing but Energy! This Generator slowly heats up, but as it does, it becomes more and more fuel efficient!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:generator",
+                "damage": 10
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Power Up!",
+          "longDescription": "Alchemy is a bit of a new thing to me, though I have had a \u0027Pick Me Up\u0027 potion once before. It gave me the idea to convert the Magical energy in Potions into Power! The more \u0027steps\u0027 it takes to make a potion, the more Power it generates.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:generator",
+                "damage": 6
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Running on Red",
+          "longDescription": "By using Lava, we can melt Redstone Dust into a molten state, useable in this Generator. You have to pipe in the Lava to be safe, but if you have another way to make Molten Redstone, you could skip the Lava.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:generator",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Seeing a Lot of Power",
+          "longDescription": "Those Endermen have quite special eyes. Not only do they see so many things we cannot, they are brimming with Energy! This Generator can be powered with them in Pearl or Eye of Ender form, or in Ender Lily Seed form.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:generator",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "name": "Classic Energy Generation",
+      "description": "I have an old school Generator laying around here. I\u0027ve been looking at it and considering that it could probably help you a whole lot, right? So I dusted it off, and revamped it slightly. My redesign has led me to make quite a few variations on it, all able to use a different fuel source. ",
+      "x": 78,
+      "y": 123,
+      "icon": {
+        "id": "ExtraUtilities:generator"
+      },
+      "prerequisites": [
+        "Research - Shiny Material"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Surviving on Energy",
+          "longDescription": "The Survivalist Generator is your cheapest option. It is very fuel efficient, but very very slow in power generation. It is also quite cheap, material wise!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:generator"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Burn Baby Burn",
+          "longDescription": "The upgraded version of the Survivalist Generator, this one has an average fuel to power ratio.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:generator",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Hot Hot Hot!",
+          "longDescription": "An advanced version of the Furnace generator, this one consumes Lava pumped into it to generate power.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:generator",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Bandit! Light!",
+          "longDescription": "Why use precious, limited Fuel when you have a sun (or multiple suns!) burning away in the sky, supplying light and power on a massive scale? NOTE : This Generator only GENERATES power or TRANSMITS power, never both at the same time. To switch from generating to transmitting, supply a Redstone signal.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:generator",
+                "damage": 7
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Booming Energy Source",
+          "longDescription": "Know what generates a LOT of power REALLY fast? Explosions! This Generator uses TNT to create contained... mostly contained... explosions to generate lots of power. 90% Contained Explosions! Maybe 85%... just... keep it away from anything but cables, okay?",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:generator",
+                "damage": 8
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Some Say Pink Means Love?",
+          "longDescription": "You know, I was trying to create even more varieties of Generator and....I\u0027m not even sure what I came up with. This one seems to consume anything that is colored with Pink Dye to generate power.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:generator",
+                "damage": 9
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Miniaturizing Power",
+      "description": "All these generators we have created are fantastically helpful, but they are a bit of an older technology. And as with older technology, as time passes, it gets more powerful AND smaller! We can condense down eight of any original Generator into a single, much more powerful Generator. It will both consume Fuel and generate RF Energy at EIGHT TIMES the rate, at 1/8th the size! Fantastic!",
+      "x": 47,
+      "y": 123,
+      "icon": {
+        "id": "ExtraUtilities:generator.8",
+        "damage": 10
+      },
+      "prerequisites": [
+        "Classic Energy Generation",
+        "Power of the Stars"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Greater Power!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.8"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.8",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.8",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.8",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.8",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.8",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.8",
+                "damage": 6
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.8",
+                "damage": 7
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.8",
+                "damage": 8
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.8",
+                "damage": 9
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.8",
+                "damage": 10
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.8",
+                "damage": 11
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 45
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 45
+        }
+      ]
+    },
+    {
+      "name": "Tiny Generator, Amazing Power!",
+      "description": "Time marches on, and Inventology leads the way! We can take the bigger Generators, and improve them by yet another factor of Eight, to create these crazy, amazingly powerful Generators!",
+      "x": 47,
+      "y": 157,
+      "icon": {
+        "id": "ExtraUtilities:generator.64",
+        "damage": 10
+      },
+      "prerequisites": [
+        "Miniaturizing Power"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Cosmically Powerful",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.64"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.64",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.64",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.64",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.64",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.64",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.64",
+                "damage": 6
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.64",
+                "damage": 7
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.64",
+                "damage": 8
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.64",
+                "damage": 9
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.64",
+                "damage": 10
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.64",
+                "damage": 11
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 60
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4,
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Lgndry Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 45
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 60
+        }
+      ]
+    },
+    {
+      "name": "Interesting Tools",
+      "description": "Examining the Magical nature of all your world\u0027s materials has lead to some interesting inventions on my part. Even your most basic of materials seems to have some very interesting properties! I\u0027m pretty sure we can discover even more things to Invent at this rate. Maybe I can get a bigger office...I mean lab. ",
+      "x": 156,
+      "y": 157,
+      "icon": {
+        "id": "ExtraUtilities:curtains"
+      },
+      "prerequisites": [
+        "To Invent Some Extra Utilities!"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Calm of Night",
+          "longDescription": "I got new curtains yesterday for my house. Complete garbage. They were \u0027blackout\u0027 curtains but didn\u0027t block the light enough! So I made some with the Wool you sent me and...well, I got what I wanted. The curtains block ALL light from passing through it, as well as let you easily walk through them without letting light past.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:curtains"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Garbage Day!",
+          "longDescription": "Laboratory testing tends to generate a lot of trash. Failed experiments, broken equipment...well, I made a Trash Can out of some of your materials for the lab next door, and it worked well. REALLY well! Anything put into the trash can just...vanishes!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:trashcan"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Light Wings, Dark Angel",
+          "longDescription": "I love how Obsidian looks, and I wanted to see if I could find more use out of it other than as a Blast resistant material. Well, I call this an Angel Block, as I feel it can save your life. By merely placing it in front of you, even in empty air, it will stay there. You can do this under your feet if you start to fall, and it will stop you! Then just punch it once, and it pops right back into your pocket!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:angelBlock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Unwanted Music to My Ears",
+          "longDescription": "Things can get quite noisy here in The Business. Labs testing various devices, creating giant thunderstorms, causing accidental explosions...sometimes its hard to nap at your desk! Your Wool has amazing properties, and makes quite powerful noise cancellers!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:sound_muffler",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:sound_muffler"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "A Better Glass",
+      "description": "Glass itself is quite useful, yeah? Helps keep bugs out, lets us see out of our houses, and treated just right it can be be shatter resistant and as tough as metal. But, sometimes, we need it to be even tougher! And we can use the Magical properties of your materials to do this. I call it Thickened Glass. You can make a nice range of different varieties of the Thickened Glass as well, depending on what you combine it with. Some of the other labs have even started taking notice of what we are doing here!",
+      "x": 156,
+      "y": 93,
+      "icon": {
+        "id": "ExtraUtilities:decorativeBlock2"
+      },
+      "prerequisites": [
+        "Interesting Tools"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Not Very Transparent",
+          "longDescription": "Just mix some regular Glass with some Sand to get the initial material. It looks kind of interesting on its own, don\u0027t you think?",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:decorativeBlock1",
+                "damage": 9
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Bulletish Proof Glass",
+          "longDescription": "Take the Sandy Glass and cook it up, like you would normal Glass. This is Thickened Glass, and it looks sleeker and better! It\u0027s ALSO a bit more blast resistant than normal glass!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:decorativeBlock2"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Form AND Function?",
+          "longDescription": "I love how normal Thickened Glass looks, but we can do a whole lot more with the looks. Could you send me samples of each? I want to decorate the place, more labs are taking notice of what we are doing...I can think of a lot of designs you can make, but how about just sending me these two here?",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:decorativeBlock2",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:decorativeBlock2",
+                "damage": 6
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Gold, Love, and Creepers",
+          "longDescription": "When we start mixing other things into the Thickened Glass, we get quite interesting results! Some of it looks pretty, other pieces seem to emit light themselves! Again, send me some samples!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:decorativeBlock2",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:decorativeBlock2",
+                "damage": 8
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:decorativeBlock2",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:decorativeBlock2",
+                "damage": 7
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Actually Bulletproof?",
+          "longDescription": "While normal Thickened Glass is more Blast Resistant, I wanted something even MORE resistant. To that, just add Obsidian!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:decorativeBlock2",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Physics? Whats that?",
+          "longDescription": "I had a crazy idea after that Obsidian Glass. What if we add in...Blackout Curtains? I did, and well...you can see through the glass perfectly. Only light doesn\u0027t pass through it. Which should be impossible, right?",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:decorativeBlock2",
+                "damage": 10
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "name": "Magical Technology",
+      "description": "I\u0027ve started to work more and more with all the Magical materials you have supplied me with. I wasn\u0027t getting anywhere myself, so I took a little stroll through a few of the nearby labs, as a good Inventologist tends to do to get more ideas. Well, I came across one of the newer labs, and they were inlaying Metal on circuit boards and using Quartz in various ways...The researchers were explaining to me how Quartz keeps good timing, and how it also helps in transmitting light and data and...I missed some stuff, he was talking really fast as he was pushing me to the door, also saying something about \"...thats why we need controlled environments too!\". Well, I got many more ideas from him and that lab that I just HAD to start work on something myself! And after a lot of hard work, some stol...borrowed... research materials and blueprints, I\u0027ve definitely got something for you! One part Magic, one part Technology, all parts Inventology!",
+      "x": 234,
+      "y": 63,
+      "icon": {
+        "id": "ExtraUtilities:endConstructor"
+      },
+      "prerequisites": [
+        "Research - Mystical Material"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Dark and Mysterious",
+          "longDescription": "I started by combining the sleekness of Obisidian with the mysteriousness of Ender Pearls, and created quite an alluring looking material.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:decorativeBlock1",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Mystical and Enchanting",
+          "longDescription": "I was able to find a way to imbue a Shelf of Books with the Magical properties of Enchanted Books. This morphed it into a powerful block of Magical Wood material. You can easily make some cheap Enchanted Books on a lone Enchantment Table. As a bonus, if you put this block a few meters away from one, it\u0027ll boost its power a bit!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:decorativeBlock1",
+                "damage": 8
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Still Obsolete In 3 Hours!",
+          "longDescription": "Seeing how they inlaid Metal on silicon boards got me thinking...could we not do the same with our new materials? Instead of Quartz, we use Diamonds and the Ender-Infused Obsidian to create a Computational Matrix!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:decorativeBlock1",
+                "damage": 12
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Quod Erat Demonstrandum",
+          "longDescription": "With this new Ender infused Computational Matrix, I think we can tap into the vast, mysterious dimension of the Endermen, and all the power that may contain within. This QED I\u0027ve Invented is basically a powerful, otherworldy Crafting Bench, able to make special items infused with pure Ender energy.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:endConstructor"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "End Power Draw",
+          "longDescription": "While we can tap into the Ender\u0027s world, we can\u0027t tap into their Power with the same device. To do that we\u0027ll need to make something similar to a Generator, but will instead convert RF Energy into End Energy. Neither these Crystals nor the QED can store End Energy, so when creating something in the QED it will transfer the power at that time.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:endConstructor",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 45
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 45
+        }
+      ]
+    },
+    {
+      "name": "Transfer Materials",
+      "description": "I\u0027ve become enamored with one of the item piping systems one of the other research departments has been working on. An item of any size can be put into one of their tubes and it\u0027ll travel through it like water, and come out somewhere else. I liked it, but thought...we can do better than that. Thats what Inventology is all about! So, to start with, we need a way to put items \u0027into\u0027 a piping system. Thus, the Transfer Node. You put it on a chest or other piece of inventory, and it\u0027ll start collecting the top item in the box into it. Meanwhile, it will search through our network of pipes for somewhere else to put it. Since it\u0027d be silly to fill a box with both water and machinery, I\u0027ve made two different Nodes : Items and Liquids. Both can transfer along the same pipes though. Along with these, I have a big assortment of Pipes you can use, each useful in many different ways!",
+      "x": 78,
+      "y": 63,
+      "icon": {
+        "id": "ExtraUtilities:extractor_base"
+      },
+      "prerequisites": [
+        "Research - Shiny Material"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Standard Piping",
+          "longDescription": "For items to move around, you need to use Transfer Pipes. When node finds a junction with multiple paths, it will choose one randomly: if you want the item to keep going straight, use the Crossover Pipe at junctions.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:pipes"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:pipes",
+                "damage": 12
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Take It, Put It Over Here!",
+          "longDescription": "Attatch these to an inventory you wish to pull items from. It will grab the first item into its buffer, and search the pipe network its connected to, randomly choosing a direction when it hits a fork in the road, until it finds an inventory to drop the item in, or a dead end, then starts again.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:extractor_base"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:extractor_base",
+                "damage": 6
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Rational Distribution",
+          "longDescription": "Sometimes, you only want to put a certain amount of an item in an inventory, like if you were trying to evenly distribute Coal into some Generators. The Rationing Pipe will only put up to a full stack of material in an inventory, while a Hyper-Rationing will only put a single of an item into it.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:pipes",
+                "damage": 10
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:pipes.1"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Filtered Sorting",
+          "longDescription": "Each direction the Filter Pipe can go is a different color. You can set each color to filter out a different item, and ONLY that item will travel that direction. You can make an Item Filter and use it instead to filter out more than one item in a given direction.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:pipes",
+                "damage": 9
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:nodeUpgrade",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Similar Sorting",
+          "longDescription": "Already have a storage system set up? Sorting Pipes can help augment it. They will only place items into an inventory that already contains the item. The Mod Sorting Pipe will only put items into the inventory that match the Mod of any item in said inventory.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:pipes",
+                "damage": 8
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:pipes",
+                "damage": 13
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Powerful Transfers",
+      "description": "Transfer Nodes are great and all, but I began to wonder...can we do even more than this? Pipes are pretty simple in concept, so can\u0027t really have them do more than we already do...but I think with the power of the QDS we can reverse the power of a Transfer Node and have it RETRIEVE items from the Pipe Network! We can also transfer items and liquids around all day, but one thing we\u0027re missing? Energy transfer. Our compact piping system is missing a way of transfering energy along pipes as well! ",
+      "x": 193,
+      "y": 63,
+      "icon": {
+        "id": "ExtraUtilities:extractor_base",
+        "damage": 12
+      },
+      "prerequisites": [
+        "Magical Technology",
+        "Upgrading Your Transfers"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Get In My Inventory!",
+          "longDescription": "Transfer Nodes work by sending the item through the network. Retrieval Nodes are the opposite : they will scan the network until it finds an inventory with a valid item, and will then grab it. Item Filters and most other Upgrades work on Retrieval Nodes as well.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:extractor_base_remote"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:extractor_base_remote",
+                "damage": 6
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Power Outlet",
+          "longDescription": "Energy Transfer Nodes accept Redstone Flux (RF), Minecraft Joules (MJ), and Electric Units (EU) and convert it to RF, but can\u0027t convert power back to EU. Energy Transfer Nodes can accept some upgrades like Transfer and Retrieval Nodes can.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:extractor_base",
+                "damage": 12
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Power Pipe",
+          "longDescription": "Energy Transfer Nodes only transfer energy along these pipes. Item and Liquid pipes will ignore these pipes.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:pipes",
+                "damage": 11
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Power Draw",
+          "longDescription": "This special pipe acts like an Energy Transfer Node, giving you the ability to use only a single Energy Transfer Node for an entire network. Any generator connected to this pipe can send Energy through the network.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:pipes",
+                "damage": 14
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Come In, Alpha",
+          "longDescription": "We can pipe Power through our Pipe Networks now, and thats fantastic! But sometimes....sometimes you need power in an out of the way place, and running \u0027that\u0027 much Pipe is just not feasible, nor is setting up a brand new power generator setup for it. The QDS lets us create items imbued with the power of the Ender, and these upgrades take that to full advantage. You\u0027ll need a transmitter and a receiver, and to etch the same name into both on an Anvil. This name becomes their Frequency, and all Transmitter and Receivers with the same name are on the same Frequency. This way, you can transfer power wirelessly! Note, there IS a bit of energy loss...but stacking multiple Transmitters on a node will increase the power output to that Frequency.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:nodeUpgrade",
+                "damage": 6
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:nodeUpgrade",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Upgrading Your Transfers",
+      "description": "Our Transfer Nodes are great and all, but they can be kinda...slow, you know? They only move one meter a second when searching a network, which SEEMS fast until you have a pipe network that spans an entire aircraft hangar worth of space....To that end, I\u0027ve devised several ways to upgrade your Transfer network. Whether its by increasing its speed, how many items it moves at once, or how it searches the system, I\u0027m pretty sure you can find lots of useful things to do with these Upgrades!",
+      "x": 46,
+      "y": 63,
+      "icon": {
+        "id": "ExtraUtilities:nodeUpgrade",
+        "damage": 9
+      },
+      "prerequisites": [
+        "Transfer Materials"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Got a Need to Go Fast",
+          "longDescription": "When searching, a node will move to the next pipe every second. Each one of these Speed upgrades will increase the pipes it moves each second by 1, maxxing out at 64 per second.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:nodeUpgrade"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Strongman Node!",
+          "longDescription": "A Node only pulls a few of an item into its buffer with each operation. When you speed it up, it may only grab one or two off a stack before depositing its item and starting all over again. The Stack Upgrade will enable a Node to instead grab the entire stack of an item on the first operation.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:nodeUpgrade",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "U-Turns Allowed",
+          "longDescription": "When a Node with this upgrade hits a fork in the road, it will remember which paths it has already taken. When it hits a dead end, it will go back to the last junction and go down and unsearched path. When the entire Network is seached, only then will it restart from the beginning.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:nodeUpgrade",
+                "damage": 7
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Closer is Better",
+          "longDescription": "When searching with this upgrade, the Node will always start with the closest inventories first then work outward.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:nodeUpgrade",
+                "damage": 8
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Never Stop!",
+          "longDescription": "When searching with this upgrade, the Node will always start with the closest inventories first then work outward.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:nodeUpgrade",
+                "damage": 9
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Quite Interactive",
+          "longDescription": "Nodes, so far, are only useful if they are connected to some sort of inventory : whether a chest or a liquid tank. With this little upgrade, though, we can attatch the nodes to something else and have them interact with the world itself! You can generate Cobblestone by attatching an Item Node to a Cobblestone, and placing a Water Source Block on one side and a Lava Source Block on the other. You can create an automated crafting system by pointing an Item Node at a basic Crafting Table, then putting a 3x3 grid of chests or barrels on the other side of the Crafting Table. Place items corresponding to a recipe, and it\u0027ll automatically craft the items for you. If you don\u0027t point the Item Node at anything, it will instead suck in dropped items slowly and pull them into an inventory, like a vaccuum. Conversely, with a Liquid Node, you can point it at a Water Source Block that has two other water source blocks next to it, and the Node will generate water steadily for you.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:nodeUpgrade",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Bigger Tools",
+      "description": "So thanks to the QDS I\u0027ve started to come up with even more powerful tools and devices for you to use. They should definitely be more helpful for you given both the dangerous nature of your world and the volume of materials we\u0027ll be wanting from you in time. ",
+      "x": 269,
+      "y": 62,
+      "icon": {
+        "id": "ExtraUtilities:chandelier"
+      },
+      "prerequisites": [
+        "Magical Technology"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Chandelier of Gold",
+          "longDescription": "Not only does this fancy looking Chandelier emit light farther than normal light sources, it also prevents mobs from spawning in a 16 block radius.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:chandelier"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Opulant Protection",
+          "longDescription": "Like the Chandelier, this giant torch also emits brighter light, but it also prevents most mobs from spawning 64 blocks around it!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:magnumTorch"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Hot Pump",
+          "longDescription": "Lava is a fairly useful thing for you. It can be used to generate power, defend yourself, and make Obsidian, but its dangerous to Pump. This Pump can help, though. Place it right over the Lava and supplying it with Power, it will Pump out Lava and replace it with Cobblestone to create a growing safe area to stand!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:enderThermicPump"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Magical Core",
+          "longDescription": "This is an upgraded version of Magical Wood. Placing it near an Enchanting Table will boost its power much higher than just Magical Wood or a plain Bookshelf will!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:decorativeBlock1",
+                "damage": 11
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Quarried to the End",
+          "longDescription": "The Ender Quarry is a very efficient mining machine. Supply it with power, place a chest next to it, and it will start to mine the area in front of it. It won\u0027t mine common material like stone or dirt, but it will mine anything like Ore, Gems, etc, and replace that material with Dirt, to prevent cave ins and stuff.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:enderQuarry"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Designating Space",
+          "longDescription": "To determine the area an Ender Quarry mines, you can surround the area with normal Wooden Fences, or you can use one of these at each corner of a rectangle. You MUST define an area either way, then place the Ender Quarry down next to one corner.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:endMarker"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Elegant Spikes",
+          "longDescription": "These Golden Spikes will damage and kill creatures that walk on them, much like the Iron Spikes. They will also, however, drop Experience Orbs as well.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:spike_base_gold"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Pierce the Heavens",
+          "longDescription": "These Spikes are the most powerful of them! Not only will they kill the creature, they will give it a chance of dropping items that usually only drop when you slay the creature with your own hands.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:spike_base_diamond"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Research and Invent",
+      "description": "We do a lot of research here in The Ferret Business, and we\u0027ve had to come up with a lot of our own tools to make research easier and faster. We also tend to work with new ideas and materials and things all the time, so...necessity is the mother of invention, they say. Since it seems you have an abundance of Redstone stuff in your world, some of these should definitely help you out since its a cornerstone of our technology here, and I\u0027ve also come up with one or two Inventions that should help you out quite a lot! ",
+      "x": 78,
+      "y": 93,
+      "icon": {
+        "id": "ExtraUtilities:conveyor"
+      },
+      "prerequisites": [
+        "Research - Shiny Material"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Move Along",
+          "longDescription": "The Conveyor Belt will move creatures, items, and even you and your assistants along its surface. ",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:conveyor"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "B for Block",
+          "longDescription": "This Filing Cabinet can store up to 270 of the same item, even if they have minor differences (like if one was more damaged, or named). It\u0027ll list them alphabetically for you as well!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:filing"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Less Bid Snipers!",
+          "longDescription": "I notice you have a lot of Villages in your world, with inhabitants that like to barter and trade. With the Trading Post, the larger villages will be easier to track all the Trades with, as it will compile a list of all Trades around it, and give you an easy one stop shop for your Bartering needs.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:trading_post"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Like a Steady Clock!",
+          "longDescription": "Sometimes you have a setup with Redstone and machines that needs to pulsed with a Redstone Signal regularly. This Clock can do just that without requiring a bunch of floor space for a larger contraption.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:timer"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Basic Detector",
+          "longDescription": "This device can send a Redstone Pulse out if it detects a block next to it changing. ",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:budoff"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "An Improved Detector",
+          "longDescription": "Like the Basic version, except it can also detect minute changes in something like a Machine next to it",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:budoff",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Magical Inventions",
+      "description": "Examing your materials more and more I think we can definitely exploit the Magical nature of every material you have! I\u0027ve created a few little interesting things for you, things that should definitely help you since you are mostly alone out there.",
+      "x": 234,
+      "y": 157,
+      "icon": {
+        "id": "ExtraUtilities:golden_lasso"
+      },
+      "prerequisites": [
+        "Research - Mystical Material"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Want To Live? Come With Me!",
+          "longDescription": "Gold especially seems to be Magical in nature all on its own. By making a Lasso rope out of it, I\u0027ve created a way to temporarily miniaturize any single creature. Just use the Lasso on them and pocket it, then use the Lasso again later to release the creature!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:golden_lasso"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Bigger Inside, Of Course",
+          "longDescription": "Weaving the Gold into cloth and studding it with Gemstones and making it into a Pouch seems to have a similar effect, except with Items. You can open this bag, put stuff into it, and it will store even more than you could normally carry, regardless of weight! You can also Dye the bag!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:golden_bag"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Eye Scan",
+          "longDescription": "Using a special Endermen\u0027s Eye, I\u0027ve constructed a little scanner you can use on various things around you to check their state. You might have to Sneak when using it on some things, but it might give you some useful data!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:scanner"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Magical Division?",
+      "description": "Well, thats odd. For the past day or so, your Tablet scanner has been, well...crashing oddly, when it scans various parts of the world. We sent a firmware update to fix the \u0027error dividing\u0027 issue we were getting, and all looks good. Now, though, the data shows an odd...item...it blocks scanning further, part of the firmware update to prevent it crashing. All we know is it has something to do with dividing, and is hidden somewhere in chests scattered within your world.",
+      "x": 234,
+      "y": 28,
+      "icon": {
+        "id": "ExtraUtilities:divisionSigil"
+      },
+      "prerequisites": [
+        "Research - Mystical Material"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Divide By Something",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:divisionSigil"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Mathemagical",
+      "description": "This Division Sigil is...amazing. It appears it can bend reality just a bit, and only in your world, to do some amazing things...but only if you Activate it first. Take the Sigil to an Enchanting Table, and it will reveal how to do an Activation Ritual with the Division Sigil. From there, I bet we can do a whooole lot of inventing. Math is the cornerstone of science, and with this, just how much fun can we have? Yeah, I thought so!",
+      "x": 193,
+      "y": 28,
+      "icon": {
+        "id": "ExtraUtilities:divisionSigil",
+        "nbt": "{damage:256}"
+      },
+      "prerequisites": [
+        "Magical Division?"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "No Dead Chicken Needed",
+          "longDescription": "    You\u0027ll want to make sure that the air above the ritual is completely clear, even of stationary clouds (the kind you can collect). Might want to invest in a jetpack!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:divisionSigil",
+                "nbt": "{damage:256}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Visual Scanner Issue...",
+          "longDescription": "The QUEST Tablet cannot show the item below, but it\u0027s there. Use the Activated Division Sigil to divide a Gold Nugget by Diamond to make a Semi-Stable Nugget. You COULD make an entire Ingot by dividing an Iron Ingot instead, but...uh....that division is VERY unstable and WILL EXPLODE in 10 seconds. Its safer to use a Gold Nugget...",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:unstableingot",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "This Will Self Destruct in...",
+          "longDescription": "Unstable Matter seems to be troublesome for the QUEST Tablet to display properly....This is what happens when you Divide things by Diamond instead of something logical(or even Imaginary...)",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:unstableingot",
+                "nbt": "{stable:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Block of Stability",
+          "longDescription": "Unstable Ingots do not stack, but Unstable Blocks do.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:decorativeBlock1",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Replicating Your Core",
+      "description": "The core of your world seems to be made of Bedrock. In our world, Bedrock is tough, but nowhere as tough as your world\u0027s version of Bedrock. With some Compressed Cobble and some Unstable material, I think we can make a fairly close recreation of your Bedrock. We\u0027ll call it Bedrockium. ",
+      "x": 13,
+      "y": 28,
+      "icon": {
+        "id": "ExtraUtilities:bedrockiumIngot"
+      },
+      "prerequisites": [
+        "A Dark Portal"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Densest Ingot Ever",
+          "longDescription": "Careful, Bedrockium weighs a whole lot! I\u0027m amazed my backpack didn\u0027t instantly gain a new hole in it...and the ground underneath...",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:bedrockiumIngot"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Almost a Neutron Block",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:block_bedrockium"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 40
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 40
+        }
+      ]
+    },
+    {
+      "name": "A Dark Portal",
+      "description": "I\u0027ve been tinkering more with combining Unstable material with Compressed Cobblestone, and well....I created something intriguing. The higher ups finally let me have a few assistants due to our Inventology research, and one was examining this new creation when he....well, he just vanished. He reappeared a few minutes later, looking scared but excited! He said he had appeared inside a stone box, torches already lit. He could hear...something, in the stone. He had his own QUEST Tablet on hand and ran some scans. They told him he was at what is, literally, an impossible depth for our world, and that there were massive amounts of metals and other resources around, but also an innumerable amount of dangerous creatures and hazards. It\u0027s going to take me a bit to get through the paperwork to allow me to send exploration and security teams into this Deep Dark place...but...I\u0027m giving you the instructions on how to make this portal. If you want to take the risk, I can\u0027t stop you. Be careful and safe journeys!",
+      "x": 153,
+      "y": 25,
+      "bigicon": true,
+      "icon": {
+        "id": "ExtraUtilities:dark_portal"
+      },
+      "prerequisites": [
+        "Mathemagical",
+        "Decorate and Collect"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A Journey Into the Dark",
+          "longDescription": "The Darkness in this new place has a life of its own. Normal Light rules concerning monster spawning do not apply. Magnum Torches and Chandeliers DO work properly though. Any other light source will not stop monsters from spawning wherever they please.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:dark_portal"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Drum Solo",
+      "description": "The Iron Drums we made are fantastic and hold so much liquid in such a compact space.... but... sometimes we need to hold MORE liquid in the same amount of space. I\u0027ve made other things with Bedrockium in place of Iron so....I tried it with a Drum. And boy did it exceed my expectations! These drums hold 256 times more than a regular drum!",
+      "x": 45,
+      "y": 28,
+      "icon": {
+        "id": "ExtraUtilities:drum",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Replicating Your Core",
+        "Etheral Accessories"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "An Entire Ocean!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:drum",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Ethereal Tools",
+      "description": "This Unstable material is very power and very versatile. I\u0027ve used it, combined with some obsidian to make it safe to hold, to make some of the standard tools we use around The Business. Each one seems to have quite a unique property related to the type of tool it is. They all, though, seem to not wear down at all. We still can\u0027t seem to get the QUEST Tablet to display most things we make with Unstable material...",
+      "x": 120,
+      "y": 28,
+      "icon": {
+        "id": "TConstruct:pickaxe",
+        "nbt": "{InfiTool:{BaseDurability:9,Head:9,Built:1b,HarvestLevel:0,Attack:1,RenderHead:9,ModDurability:0.0f,Handle:9,Broken:0b,Shoddy:0.0f,RenderHandle:9,Accessory:9,MiningSpeed:200,RenderAccessory:9,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:6,TotalDurability:9},display:{Name:\"§fPaper Pickaxe\"}}"
+      },
+      "prerequisites": [
+        "Mathemagical"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "The Destruction Pickaxe",
+          "longDescription": "This pickaxe cuts through stone like butter and does not wear down, but nor does it drop any blocks.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:destructionpickaxe"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Healing Axe",
+          "longDescription": "When you hit a creature with this axe, it will take health from you and give it to the creature. Unless it is undead, then it will deal quad damage to it. ",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:defoliageAxe"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Erosion Shovel",
+          "longDescription": "Like the Destruction Pickaxe, this will carve through anything soft as dirt, and will destroy any sand or gravel up above the block you destroy so you don\u0027t get buried, but it will also not drop any of these materials.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:erosionShovel"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Reversing Hoe",
+          "longDescription": "This hoe reverses time on some blocks. It will rewind time on crops you use it on, which isn\u0027t helpful, but it will also turn dirt into grass and cobblestone into stone. ",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:temporalHoe"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Precision Shears",
+          "longDescription": "These Shears work like normal Shears, but can also carve through any material thats as strong as Stone. Sneak + Right Click the Shears on the material to slice it cleanly.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:shears"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 40
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 40
+        }
+      ]
+    },
+    {
+      "name": "Etheral Accessories",
+      "description": "I\u0027ve been given permission to build a second wing to the Inventology area of The Business, as experimenting with Unstable matter has proven...damaging. The only cavaet is the building has to be constructed by myself and the couple of assistants I\u0027ve finally been granted. Not really a problem, there are a lot of various building tools at our disposal from the various research labs and tech testing wings....but I had the feeling we could construct our own building tools, you know? Heck, I think we can take on all aspects of building, from gathering materials to building really high!",
+      "x": 78,
+      "y": 28,
+      "icon": {
+        "id": "ExtraUtilities:sonar_goggles"
+      },
+      "prerequisites": [
+        "Mathemagical"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Visual Display",
+          "longDescription": "Wearing these Goggles lets you see deep into very walls around you. It will create a wireframe around the material you look directly at, up to 5 meters away, letting you see any hidden pockets of Ore or other materials.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:sonar_goggles"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Oak, 13 inches, Unstable Core",
+          "longDescription": "By holding this wand and using it on placed material in the world, such as a wall of Wood, you can extend it out automatically! You have to have the same material in your inventory, though, you cannot just make something out of nothing.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:builderswand"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Fly Like an Eagle",
+          "longDescription": "When building, or heck, even when moving around, a lot of times its useful to have a ladder. Or wings! The latter being vastly more useful and just more fun! And now, with Unstable material, you can!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:angelRing"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 50
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "Golden Improvements",
+      "description": "Magical Wood is, well, quite Magical. Just how Magical we already know from its use in the QDS, but it can also be used to upgrade a couple other things you have. ",
+      "x": 234,
+      "y": 93,
+      "icon": {
+        "id": "ExtraUtilities:golden_bag",
+        "nbt": "{enchanted:1b}"
+      },
+      "prerequisites": [
+        "Magical Technology",
+        "Magical Inventions",
+        "Research and Invent"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Only That Which You Carry",
+          "longDescription": "You seem to be able to come back from the dead easily in your world, but your equipment and backpack do not. By infusing a Bag of Holding with Magical Wood, you can respawn with the Bag itself at least! You\u0027ll have to empty the bag, though, for the QUEST Tablet to scan it properly.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:golden_bag",
+                "nbt": "{enchanted:1b}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Golden Cabinet",
+          "longDescription": "This improved Filing Cabinet will only hold items that do not normally stack nicely, like Swords or other tools. It will also organize them alphabetically for you for easy retrieval!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:filing",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Ethereal Weapon",
+      "description": "Tools made of Unstable material have amazing, helpful properties, I have to say. We\u0027ve made a sword the same way, and...we weren\u0027t sure of its properties yet until an assistant was trying to combine it with other items and accidently cut himself. Only he didn\u0027t. He gave a cry of pain and dropped the sword, along with a whispy ball of...sorta like smoke, but he wasn\u0027t bleeding or anything. After making sure he was okay, we checked the sword and this new item carefully. It..kind of reminded us of him, actually. We couldn\u0027t make heads or tails of it, so visited other research departments. The Thaumaturgic Crafting wing shed some light on us, as it was much like their magical aspects...except ours apparently was a piece of a Soul directly. They said he might be a little bit weaker as a result and to be careful. To be fair, we all agreed to do the same thing once, so now we have a small pile of soul fragments to research with. So far we\u0027ve only found one thing we can make with it...",
+      "x": 13,
+      "y": 63,
+      "icon": {
+        "id": "ExtraUtilities:mini-soul"
+      },
+      "prerequisites": [
+        "Replicating Your Core"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Ethereal Weapon",
+          "longDescription": "This Sword is as sharp and strong as Diamond. ",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:ethericsword"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Slicing the Soul",
+          "longDescription": "You gain a Soul Fragment each time you craft just the Etheric Sword in your crafting grid. The cost, though, is a heart from your lifebar. Permanently. You cannot go below three hearts, though, so don\u0027t worry.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:mini-soul"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Godly Gardening",
+          "longDescription": "The normal Watering Can is super helpful, but strangely fragile. We cannot hook it up to a machine to automatically water things without it just imploding. By adding a Soul Fragment, though, we can.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:watering_can",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 60
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Lgndry Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 60
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Lgndry Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 60
+        }
+      ]
+    },
+    {
+      "name": "The Glass Curtain",
+      "description": "These Unstable Ingots you can create with an Activated Division Sigil are amazing! I\u0027ve tried it in various applications and come up with some really neat things. Take this glass : I infused it with an Unstable Ingot and got a nice, fancy glass that you can walk through, but monsters and animals cannot! I\u0027ve even created a version similar to the Dark Glass at the request of some of the Occult wings of The Business. Conversely, I\u0027ve also come up with something that will stay the same brightness at all times, perfect for movie studios needing a Green Screen!",
+      "x": 269,
+      "y": 28,
+      "icon": {
+        "id": "ExtraUtilities:etherealglass"
+      },
+      "prerequisites": [
+        "Mathemagical"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Look What I Can Do!",
+          "longDescription": "This Glass can be passed through by you and you assistants, but no creature can pass through it.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:etherealglass"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "You Can\u0027t Touch Me!",
+          "longDescription": "A clearer version of Ethereal Glass.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:etherealglass",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Only Me, Not Even Light!",
+          "longDescription": "No light can pass through this version of Ethereal Glass.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:etherealglass",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Ready For My Closeup",
+          "longDescription": "No matter the light level or angle viewed, Lapis Caelestis blocks always show the same exact bright color, good for Greenscreen effects.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:greenscreen",
+                "damage": 5
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 20
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Power of the Stars",
+      "description": "I have Invented what I feel is one of the most powerful Generators to date! After you\u0027ve shown me that Unstable Block, I got some ideas while I was working on improving the Generators even more. By using the immense potential energy of a Nether Star, with the logic bending properties of Unstable material, I\u0027ve come up with this super Generator! I\u0027m not sure any energy pipes I know of can transfer this much energy at once....",
+      "x": 194,
+      "y": 123,
+      "icon": {
+        "id": "ExtraUtilities:generator",
+        "damage": 11
+      },
+      "prerequisites": [
+        "Mathemagical",
+        "Magical Energy Generation"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Ultimate Power!",
+          "longDescription": "Be careful! Once it starts to Generate power, it will damage any living or unliving creature within 10 blocks of it!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:generator",
+                "damage": 11
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 40
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "amount": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Bigger, Better, Faster",
+      "description": "So lately I\u0027ve been tinkering with ways of making your Ender Quarry even better. Since it uses some of the Magic of the Endermen, we can\u0027t really use the same conventional means as other Quarries or machines to upgrade them. I have, however, Invented a way to augment the Ender Quarry! These devices need to be placed so that they touch the Ender Quarry itself to enhance it. Each one does something different, and some cause a bigger power draw than others.",
+      "x": 302,
+      "y": 63,
+      "icon": {
+        "id": "ExtraUtilities:enderQuarryUpgrade",
+        "damage": 8
+      },
+      "prerequisites": [
+        "Bigger Tools"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A Solid Base",
+          "longDescription": "This is the base you\u0027ll build all Upgrades on.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:enderQuarryUpgrade"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Everrrythiiing!",
+          "longDescription": "Normally, the Ender Quarry only grabs things that are not Dirt or Stone and replaces them with Dirt. This upgrade will have the Ender Quarry grab everything without replacing it.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:enderQuarryUpgrade",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Careful Touch",
+          "longDescription": "This Upgrade will have the Quarry pick up blocks whole, instead of breaking them. You\u0027ll get Redstone Ore instead of it breaking down into Redstone Dust, for example.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:enderQuarryUpgrade",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Great Fortune",
+          "longDescription": "Each of these Upgrades improves the chance of extra drops when the Quarry mines something that breaks into other components (For example, you may get 5 or more Redstone Dust per Ore instead of the normal 4).",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:enderQuarryUpgrade",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:enderQuarryUpgrade",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:enderQuarryUpgrade",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Speedy McGee",
+          "longDescription": "These Upgrades will enhance the speed the Quarry works.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:enderQuarryUpgrade",
+                "damage": 6
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:enderQuarryUpgrade",
+                "damage": 7
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:enderQuarryUpgrade",
+                "damage": 8
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Like a Straw",
+          "longDescription": "This Upgrade adds the Ender Pump to the Quarry, enabling it to grab Liquid as well as long as it has a valid pipe or tank to pump it through.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:enderQuarryUpgrade",
+                "damage": 9
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 35
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 30
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 0,
+          "value": 35
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

@@ -1,0 +1,911 @@
+{
+  "name": "($)General Store",
+  "description": "Greetings, Bandit. I am the proprieter of the Corporate Shop. You may call me Penny. As you help us explore and research the profitability of the new world you have discovered, more items will become available for purchase from my shop. This is the General Shop, where you\u0027ll find various food items, seeds, furniture, and more. It is also where you can trade in Coins for Vouchers. Come inside!",
+  "quests": [
+    {
+      "name": "Rules of the Shop",
+      "description": "Nice to meet you, Bandit. My shop has a few rules you should be aware of :                                   1) Only Shop Vouchers and Silver       Coins are accepted currency.    2) Each purchase gets you a             Shop Loyalty point.                  3) Higher Shop Loyalty Tiers get        you a better Voucher                  Exchange Rate.                    What are Vouchers you ask? Patrons of this shop are able to exchange a stack of Silver Coins for a paper voucher. This is much easier and lighter to carry, and if you purchase enough from this Shop, you can get the Vouchers for cheaper! It\u0027s my version of a Rewards Program.",
+      "x": 13,
+      "y": 10,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 54
+      },
+      "prerequisites": [
+        "{Initial Research}[Its The Name of the Game]"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "10:1 Exchange Rate",
+          "longDescription": "As a new patron of this Shop, you get the basic exchange rate : 10 Silver Coins for 1 Voucher.           You will get a bigger discount when you hit Iron Tier.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken"
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:IconAsset",
+          "damage": 66
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 54,
+          "amount": 64
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Tin Exchange Rate",
+      "description": "Now that you\u0027ve made a good number of purchases and Voucher exchanges, you\u0027ve reached the Tin tier of my Rewards Program. Vouchers will now only cost you 9 Silver Coins instead of 10!",
+      "x": 13,
+      "y": 46,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 55
+      },
+      "prerequisites": [
+        "Rules of the Shop"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "REPUTATION",
+          "description": "Tin Tier",
+          "reputation": [
+            {
+              "reputation": 1,
+              "lower": 2,
+              "inverted": false
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "9:1 Exchange Rate",
+          "longDescription": "The next exchange rate unlocks at Iron.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken"
+              },
+              "required": 9
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:IconAsset",
+          "damage": 66
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 55,
+          "amount": 64
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Iron Exchange Rate",
+      "description": "You\u0027ve reached the Iron tier of my rewards program! Each voucher now only costs you 8 Silver Coins! To boot, I think the CEO would like to talk to you...he left a message in the Armament section of the Shop.",
+      "x": 13,
+      "y": 82,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 56
+      },
+      "prerequisites": [
+        "Tin Exchange Rate"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "REPUTATION",
+          "description": "Iron Tier",
+          "reputation": [
+            {
+              "reputation": 1,
+              "lower": 3,
+              "inverted": false
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "8:1 Exchange Rate",
+          "longDescription": "The next exchange rate unlocks at Steel.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken"
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:IconAsset",
+          "damage": 66
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 56,
+          "amount": 64
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Steel Exchange Rate",
+      "description": "You are quite the customer! You\u0027ve reached the Steel tier, and a 7 to 1 exchange ratio!",
+      "x": 12,
+      "y": 118,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 57
+      },
+      "prerequisites": [
+        "Iron Exchange Rate"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "REPUTATION",
+          "description": "Steel Tier",
+          "reputation": [
+            {
+              "reputation": 1,
+              "lower": 5,
+              "inverted": false
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "7:1 Exchange Rate",
+          "longDescription": "The next exchange rate unlocks at Emerald.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken"
+              },
+              "required": 7
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:IconAsset",
+          "damage": 66
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 57,
+          "amount": 64
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Emerald Exchange Rate",
+      "description": "What a consumer! You\u0027ve bought ton from my Shop, Bandit, and you\u0027ve hit Emerald tier! Six to one exchange, and you are well on your way to the top customer list!",
+      "x": 12,
+      "y": 152,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 58
+      },
+      "prerequisites": [
+        "Steel Exchange Rate"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "REPUTATION",
+          "description": "Emerald Tier",
+          "reputation": [
+            {
+              "reputation": 1,
+              "lower": 7,
+              "inverted": false
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "6:1 Exchange Rate",
+          "longDescription": "The next exchange rate unlocks at Diamond.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken"
+              },
+              "required": 6
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:IconAsset",
+          "damage": 66
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 58,
+          "amount": 64
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Diamond Exchange Rate",
+      "description": "You are totally my best customer, Bandit. You\u0027ve reached the Diamond Tier and the best exchange rate!",
+      "x": 12,
+      "y": 187,
+      "icon": {
+        "id": "ferretshinies:NullToken",
+        "damage": 59
+      },
+      "prerequisites": [
+        "Emerald Exchange Rate"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "REPUTATION",
+          "description": "Diamond Tier",
+          "reputation": [
+            {
+              "reputation": 1,
+              "lower": 9,
+              "inverted": false
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "5:1 Exchange Rate",
+          "longDescription": "This is the highest exchange rate!",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken"
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:IconAsset",
+          "damage": 66
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 59,
+          "amount": 64
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Dimensional Testing - Uncommon",
+      "description": "These Dimlets are somewhat rarer and more expensive. ",
+      "x": 105,
+      "y": 71,
+      "icon": {
+        "id": "ferretshinies:BlindBag",
+        "damage": 145
+      },
+      "prerequisites": [
+        "Dimensional Testing - Common"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Uncommon RFTool Dimlet Shipment",
+          "longDescription": "This shipment contains a single Dimlet of Rarity 3 or 4. ",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 145
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Dimensional Testing - Common",
+      "description": "One of the newest departments (aside from the influx of Magical ones you seem to have caused the formation of...) has some things they\u0027d like to sell you. They said they don\u0027t have much information on these, but they have a wide variety of them, and that they contain computational instructions to build entire worlds with. They say they haven\u0027t gotten far in their research yet, but wanted to help drum up Research funds by offering what they call Dimlets up for sale and research.",
+      "x": 105,
+      "y": 42,
+      "icon": {
+        "id": "ferretshinies:BlindBag",
+        "damage": 144
+      },
+      "prerequisites": [
+        "{Initial Research}[Technology Magic]"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Common RFTools Dimlet Shipment",
+          "longDescription": "This shipment contains a single Rarity level 0, 1, or 2 Dimlet for RFTool\u0027s Dimension Builder.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 144
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Epic Blind Bag",
+      "description": "Every Blind Bag after Basic is guaranteed to only have one of our other Blind Bags in it. The Epic Blind Bag contains either a Good or Amazing Blind Bag, but will cost you 200 Shop Vouchers.",
+      "x": 255,
+      "y": 10,
+      "icon": {
+        "id": "HardcoreQuesting:bags",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Greater Blind Bag"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Epic Blind Bag Blind Bag",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 200
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3,
+          "nbt": "{RepairCost:2,display:{Name:\"Epic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "name": "Legendary Blind Bag Blind Bag",
+      "description": "Every Blind Bag after Basic is guaranteed to only have one of our other Blind Bags in it. The Legendary Blind Bag will ONLY contain Amazing blind bags, but will set you back 500 Shop Vouchers.",
+      "x": 301,
+      "y": 10,
+      "icon": {
+        "id": "HardcoreQuesting:bags",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Epic Blind Bag"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Legendary Blind Bag Blind Bag",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 500
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4,
+          "nbt": "{RepairCost:2,display:{Name:\"Lgndry Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "Basic Blind Bag",
+      "description": "Our most popular, best selling item ever. The Basic Blind Bag of Blind Bags contains one of two things : a random item (which, as it says on the bag, is USUALLY junk!) but it also has a chance of containing ANY Blind Bag that The Ferret Business makes! This includes the Amazing blind bags, which usually costs 500 Shop Vouchers, but instead you can take a little gamble with a Basic Bag for only 25 Shop Vouchers!",
+      "x": 105,
+      "y": 10,
+      "icon": {
+        "id": "HardcoreQuesting:bags"
+      },
+      "prerequisites": [
+        "Rules of the Shop"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Basic Blind Bag Blind Bag",
+          "longDescription": "The Basic Blind Bag of Blind Bags has a chance of either a single junk item, a pretty decent item, TWO Basic Blind Bags, some coins, or ANY of the other Blind Bags we have!",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 25
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "nbt": "{RepairCost:2,display:{Name:\"Basic Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Good Blind Bag",
+      "description": "Every Blind Bag after Basic is guaranteed to only have one of our other Blind Bags in it. The Good Blind Bag contains either a Cheap or a Decent Blind Bag, but will cost you 50 Shop Vouchers.",
+      "x": 154,
+      "y": 10,
+      "icon": {
+        "id": "HardcoreQuesting:bags",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Basic Blind Bag"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Good Blind Bag Blind Bag",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1,
+          "nbt": "{RepairCost:2,display:{Name:\"Good Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Dimensional Testing - Rare",
+      "description": "According to the lab, these are the most powerful Dimlets they have found thus far. Using them in your research will require a lot of planning and resources, they warn.",
+      "x": 105,
+      "y": 101,
+      "icon": {
+        "id": "ferretshinies:BlindBag",
+        "damage": 146
+      },
+      "prerequisites": [
+        "Dimensional Testing - Uncommon"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Rare RFTools Dimlet Shipment",
+          "longDescription": "This shipment contains a single Dimlet of Rarity 5 or 6.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 125
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 146
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 6
+        }
+      ]
+    },
+    {
+      "name": "Greater Blind Bag",
+      "description": "Every Blind Bag after Basic is guaranteed to only have one of our other Blind Bags in it. The Greater Blind Bag contains either a Decent or a Good Blind Bag, but will cost you 100 Shop Vouchers.",
+      "x": 204,
+      "y": 10,
+      "icon": {
+        "id": "HardcoreQuesting:bags",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Good Blind Bag"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Greater Blind Bag Blind Bag",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2,
+          "nbt": "{RepairCost:2,display:{Name:\"Great Blind Bag of Blind Bags\"}}"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "Etheral Guardian",
+      "description": "The Thaumaturgic Branch would like to pass along a warning : the data they are looking at from your QUEST Tablet says that an ancient magical scourge is present in your world, one that eventually consumes all if left to its own device. They say it is simply called Taint. They know of a way to combat it, but its power is magically taxing and requires rare ingredients to create which...well, rare equals expensive, of course.",
+      "x": 154,
+      "y": 71,
+      "icon": {
+        "id": "Thaumcraft:blockCustomPlant",
+        "damage": 4
+      },
+      "prerequisites": [
+        "{Initial Research}[Magic]"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "The Ethereal Bloom",
+          "longDescription": "A Wizard\u0027s Notes : \"These Blooms work in about an eight meter radius and slowly. They will transform the land back to its original state, and not only land that is changed by the corrupted Taint.\"",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 15
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockCustomPlant",
+          "damage": 4
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Mysterious Lillies",
+      "description": "It appears many of our laboratories are quite enamoried by those creatures you call Endermen. The problem is, we don\u0027t exactly have specimens of our own to...ah...\u0027multiply\u0027...so we have only the Ender Pearls you send us. We entrusted a few of these to our master Gardener, who has successfully, somehow, crossbred a lilyseed with one, which enables you to GROW Ender Pearls! ",
+      "x": 154,
+      "y": 42,
+      "icon": {
+        "id": "ExtraUtilities:plant/ender_lilly"
+      },
+      "prerequisites": [
+        "{Initial Research}[Magic]"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Ender Lily Seed",
+          "longDescription": "Gardener\u0027s Notes \"Mind yer thumbs, them is unfriendly to you and anything you drop next to em. They also grow a mite slow, they might go faster if ya grow em on something closer to their natural habitat. Don\u0027t feed em fertilizer like ground up bones, its like poison to em.\"",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ExtraUtilities:plant/ender_lilly"
+        },
+        {
+          "id": "minecraft:end_stone"
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Bagging Up Coins",
+      "description": "As you do more and more research and sell more materials to The Business, I expect you\u0027ll have a whole lot of coins. If you want, I can easily bag them up for you. It makes storing them much easier. You can also put them into an EnderIO SAG Mill to automatically bag them for you.",
+      "x": 59,
+      "y": 11,
+      "icon": {
+        "id": "ferretshinies:BlindBag",
+        "damage": 143
+      },
+      "prerequisites": [
+        "Rules of the Shop"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Bag It Up!",
+          "longDescription": "I used to exchange bags for coins, but since I set up the EnderIO Alloy Smelter to automatically exchange things for you, Bags of Coins will only be used as rewards and to save Inventory space.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken"
+              },
+              "required": 50
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Auto Exchange",
+      "description": "    See those Exchange Tokens I just gave you? Well, since I forsee us exchanging a whole lot of money soon, I had to work out a temporary solution, as constantly sending things your QUEST Tablet could get...tedious.                           To that end, I\u0027ve convinced Engineer Erin of the EnderI/O lab to add a little extra to his Alloy Smelter and SAG Mill designs. With the Alloy Smelter, you can put in one of these Exchange Tokens and the appropriate amount of Silver Coins, and it will ship them to me, and send back a Shop Voucher. (I\u0027ll cover the SAG Mill in the Contracts section.)                                       This is only temporary until we can design a set of machines specifically for this...unique...situation.",
+      "x": 54,
+      "y": 41,
+      "bigicon": true,
+      "icon": {
+        "id": "EnderIO:blockAlloySmelter"
+      },
+      "prerequisites": [
+        "Rules of the Shop"
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Coins In, Paper Out",
+          "longDescription": "Here, I\u0027ll give you one Alloy Smelter so you don\u0027t have to worry about getting the infrastructure together to make your own. You\u0027ll have to figure out how to power it yourself. I highly suggest a Generator of some sort.",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:NullToken",
+                "damage": 54
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "EnderIO:blockAlloySmelter"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Thaumic Research",
+      "description": "    Wizard Watson came by a little bit ago, followed by that cute familiar of his. They were carrying a few boxes of goods to sell. Well, boxes in boxes, in Ferret Business tradition of course. Let\u0027s see, there\u0027s a note here for you...            \"Bandit, given your advancement in Thaumic study, Wiggles and I decided to make available some of our research materials for you...for a price of course. One needs to earn their knowledge in some fashion, after all.                     Each crate carries a single item. Most of the time, it will either be magical shards or some fragments of knowledge from our studies. Nine of these fragments together will create a magical research note to further your studies.                       A bit rarer would be magically created \"Eggs\", each of which contains...well, a cultist, to put it plainly. There are two kinds of basic cultist, but fret not, as they had already sacrificed their minds and souls to whatever dark creature they serve.                       The rarest item, though, is a special tome from these cultists. One you will need at some point.\"",
+      "x": 204,
+      "y": 42,
+      "icon": {
+        "id": "ferretshinies:BlindBag",
+        "damage": 331
+      },
+      "prerequisites": [
+        "{Crystals and Essences}[The Power of Infusion]"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Thaumcraft Research Materials",
+          "longDescription": "    The Thaumic Research Crate contains either :                             2 [Basic Crystal Shards]               2 [Thaumic Tinkerer Shards]          2 [Forbidden Magic Shards]           1 [Cultist Banner]                        1 [Angry Zombie Egg]                   1 [Crimson Cleric Egg]                  1 [Crimson Knight Egg]                  1 [Cult Rites Book]",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 66
+              },
+              "required": 35
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 331
+        }
+      ],
+      "commandrewards": [],
+      "reputationrewards": [
+        {
+          "reputation": 1,
+          "value": 4
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

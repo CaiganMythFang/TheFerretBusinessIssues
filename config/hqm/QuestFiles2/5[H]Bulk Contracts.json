@@ -1,0 +1,203 @@
+{
+  "name": "[H]Bulk Contracts",
+  "description": "    The Ferret Business specializes in custom orders for our clients. We want to offer you the opportunity of supplying your world / dimension with The Ferret Business products as well!",
+  "quests": [
+    {
+      "name": "Bulk Order Contract - Cheap",
+      "description": "    Apparently, some of the local inhabitants of wherever you\u0027ve wound up has heard about The Ferret Business, and are wanting to order things from us!                   Unfortunately, there isn\u0027t exactly a mail service there, is there? Something we may want to consider bringing at some point, but until then...                                      It looks like the inhabitants are leaving their orders with various creatures in an attempt to get it to us. You should be able to obtain these sealed contracts from most creatures.                                      Fulfill the contract using the Ferret Mega Packager, and submit it here. We\u0027ll use the QUEST Tablet item teleportation technology to transport the shipment to them, and transport your share of the payment.",
+      "x": 68,
+      "y": 9,
+      "icon": {
+        "id": "ferretshinies:Contracts",
+        "damage": 1
+      },
+      "prerequisites": [
+        "{[H]Supply and Demand}[Rules Read]"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Cheap BoC",
+          "longDescription": "    Cheap contracts usually request items totalling up to 10,000 FMC.                                             Fulfilling Cheap Contracts earns you 125% of the FMC value. You will earn :                                             * 13 Silver Coins                         * 2 Trader Tokens",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:Contracts",
+                "damage": 1
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 15
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 41,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Bulk Order Contract - Amazing",
+      "description": "    Apparently, some of the local inhabitants of wherever you\u0027ve wound up has heard about The Ferret Business, and are wanting to order things from us!                   Unfortunately, there isn\u0027t exactly a mail service there, is there? Something we may want to consider bringing at some point, but until then...                                      It looks like the inhabitants are leaving their orders with various creatures in an attempt to get it to us. You should be able to obtain these sealed contracts from most creatures.                                      Fulfill the contract using the Ferret Mega Packager, and submit it here. We\u0027ll use the QUEST Tablet item teleportation technology to transport the shipment to them, and transport your share of the payment.",
+      "x": 245,
+      "y": 9,
+      "icon": {
+        "id": "ferretshinies:Contracts",
+        "damage": 7
+      },
+      "prerequisites": [
+        "{[H]Supply and Demand}[Rules Read]"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Amazing BoC",
+          "longDescription": "    Amazing contracts usually request items totalling up to 2,000,000 FMC.                               Fulfilling Amazing Contracts earns you 200% of the FMC value. You will earn :                                * 4,000 Silver Coins                     * 800 Trader Tokens",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:Contracts",
+                "damage": 7
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143,
+          "amount": 64
+        },
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143,
+          "amount": 16
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 46,
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "name": "Bulk Order Contract - Good",
+      "description": "    Apparently, some of the local inhabitants of wherever you\u0027ve wound up has heard about The Ferret Business, and are wanting to order things from us!                   Unfortunately, there isn\u0027t exactly a mail service there, is there? Something we may want to consider bringing at some point, but until then...                                      It looks like the inhabitants are leaving their orders with various creatures in an attempt to get it to us. You should be able to obtain these sealed contracts from most creatures.                                      Fulfill the contract using the Ferret Mega Packager, and submit it here. We\u0027ll use the QUEST Tablet item teleportation technology to transport the shipment to them, and transport your share of the payment.",
+      "x": 183,
+      "y": 9,
+      "icon": {
+        "id": "ferretshinies:Contracts",
+        "damage": 5
+      },
+      "prerequisites": [
+        "{[H]Supply and Demand}[Rules Read]"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Good BoC",
+          "longDescription": "    Good contracts usually request items totalling up to 500,000 FMC.         Fulfilling Good Contracts earns you 175% of the FMC value. You will earn :                                         * 875 Silver Coins                       * 175 Trader Tokens",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:Contracts",
+                "damage": 5
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143,
+          "amount": 17
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 46,
+          "amount": 5
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 41,
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "name": "Bulk Order Contract - Decent",
+      "description": "    Apparently, some of the local inhabitants of wherever you\u0027ve wound up has heard about The Ferret Business, and are wanting to order things from us!                   Unfortunately, there isn\u0027t exactly a mail service there, is there? Something we may want to consider bringing at some point, but until then...                                      It looks like the inhabitants are leaving their orders with various creatures in an attempt to get it to us. You should be able to obtain these sealed contracts from most creatures.                                      Fulfill the contract using the Ferret Mega Packager, and submit it here. We\u0027ll use the QUEST Tablet item teleportation technology to transport the shipment to them, and transport your share of the payment.",
+      "x": 124,
+      "y": 9,
+      "icon": {
+        "id": "ferretshinies:Contracts",
+        "damage": 3
+      },
+      "prerequisites": [
+        "{[H]Supply and Demand}[Rules Read]"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Decent BoC",
+          "longDescription": "    Decent contracts usually request items totalling up to 50,000 FMC.                                             Fulfilling Decent Contracts earns you 150% of the FMC value. You will earn :                               * 75 Silver Coins                         * 15 Trader Tokens",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:Contracts",
+                "damage": 3
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ferretshinies:BlindBag",
+          "damage": 143
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "amount": 25
+        },
+        {
+          "id": "ferretshinies:NullToken",
+          "damage": 41,
+          "amount": 15
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

@@ -1,0 +1,26 @@
+{
+  "main": {
+    "0": {
+      "title": "Open Bag",
+      "icon": {
+        "name": "Backpack:backpack",
+        "damage": 6
+      },
+      "action": {
+        "key": {
+          "key": "key.personalBackpack",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "Jetpack",
+      "action": {
+        "key": {
+          "key": "Turn on/off",
+          "toggle": false
+        }
+      }
+    }
+  }
+}

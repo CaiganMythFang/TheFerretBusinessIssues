@@ -1,0 +1,7 @@
+HardcoreQuesting:quest_book,1,0,{}
+Enchiridion2:book,1,0,{identifier:"The_Ferret_Business_Guide_v008b"}
+minecraft:book,1,0
+minecraft:string,1,0
+harvestcraft:sushiItem,5,0
+minecraft:compass,1,0
+minecraft:torch,16,0

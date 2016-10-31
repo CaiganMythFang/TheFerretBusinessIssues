@@ -1,0 +1,88 @@
+{
+  "name": "(WIP)The Power of Steve",
+  "description": "    [WORK IN PROGRESS]                   This questline is not finished yet.  It will be added in a future update.",
+  "quests": [
+    {
+      "name": "Unnamed",
+      "x": 132,
+      "y": 74,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 43
+      },
+      "prerequisites": [
+        "{Initial Research}[Steve the Inventor]"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 53
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Unnamed",
+      "x": 168,
+      "y": 74,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 44
+      },
+      "prerequisites": [
+        "{Initial Research}[Steve the Inventor]"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 53
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "name": "Unnamed",
+      "x": 198,
+      "y": 73,
+      "icon": {
+        "id": "ferretshinies:IconAsset",
+        "damage": 43
+      },
+      "prerequisites": [
+        "{Initial Research}[Steve the Inventor]"
+      ],
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ferretshinies:IconAsset",
+                "damage": 53
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

@@ -1,0 +1,11 @@
+§l 3.1 - TFB Corporate Catalog Basics §r
+
+First and foremost, the Ferret Business is a megacorp that researches and supplies countless industries across the known universe. New and old technology, discoveries, and more are the bread and butter of The Business.
+
+As an Assistant, you immediately have access to the TFB Corporate Catalog, granting you access to our purchasing facilities. Due to your... unique situation, your Catalog is special, and the items available are always shifting as we learn how to deal with the unique issues you are presenting to us.
+
+All items purchased from the shop require Shop Vouchers. You can trade Silver Coins for them from the QUEST Tablet (~ can bring this up even if you do not have the QUEST Tablet item itself), or you can put Exchange Tokens (obtained in the QUEST Tablet) and Silver Coins into an EnderIO Alloy Smelter to automate the conversion.
+
+You can also create Order Forms of many common materials, and combine them with the appropriate number of Shop Vouchers in the EnderIO Alloy Smelter to automate purchasing. You will receive a Sealed Crate, which can be unsealed in an EnderIO SAG Mill.
+
+Purchasing sufficiently priced items will earn you Shop Tokens, which can be collected, combined, and turned in for Shop Loyalty and other rewards. The higher the Shop Loyalty you have, the better Exchange Rate of Tokens to Shop Vouchers you earn.

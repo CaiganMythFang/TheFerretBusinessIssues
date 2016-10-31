@@ -1,0 +1,9 @@
+§l 3.1 - Supply and Demand §r
+
+The Ferret Business produces, supplies, and researches many fields. From military to culinary, from technology to magic, we provide many countries/worlds/dimensions with goods.
+
+But to do this, we have a very wide supply chain, ranging from interdimensional factories to one-ferret operations. 
+
+Being out in the field, you may come across materials, items, or other things The Ferret Business can utilize. The QUEST Tablet will automatically tag them with a value and a type for you (See Section 3.2. Ferret Market Calculation). You can then crate them and submit them via the QUEST Tablet or appropriate device.
+
+In return, you will receive appropriate compensation in Silver Coins, as well as Trader Tokens to signify succesfull dealings. 

@@ -1,0 +1,216 @@
+Script handler ready. Waiting for a while to ensure all other mods are done messing with NEI.
+Starting NEI Filter scripting. This might take a moment to load all the modules...
+Engine: JAVASCRIPT
+Setting up Java Library...
+Setting up FML Library...
+Setting up NEI Library...
+Setting up CreativeTab library...
+Found creative tab: tabBloodMagic
+Found creative tab: misc
+Found creative tab: agricraft
+Found creative tab: avaritia
+Found creative tab: tab.backpacks
+Found creative tab: materials
+Found creative tab: tools
+Found creative tab: BiblioCraft
+Found creative tab: BiblioCraftLights
+Found creative tab: BigReactors
+Found creative tab: apiculture
+Found creative tab: buildingBlocks
+Found creative tab: Botania
+Found creative tab: Botany
+Found creative tab: buildcraft.main
+Found creative tab: buildcraft.pipes
+Found creative tab: buildcraft.boards
+Found creative tab: buildcraft.facades
+Found creative tab: buildcraft.gates
+Found creative tab: CarpentersBlocks
+Found creative tab: compactmachines
+Found creative tab: ComputerCraft
+Found creative tab: ComputerCraftEdu
+Found creative tab: blocksAndItems
+Found creative tab: food
+Found creative tab: toolsAndWeapons
+Found creative tab: enchiridion
+Found creative tab: EnderIO
+Found creative tab: decorations
+Found creative tab: extratic.parts
+Found creative tab: extratic.blocks
+Found creative tab: extratic.items
+Found creative tab: extratic.buckets
+Found creative tab: arboriculture
+Found creative tab: lepidopterology
+Found creative tab: extraUtil
+Found creative tab: combat
+Found creative tab: extraUtil_FMP
+Found creative tab: forbidden
+Found creative tab: mobcrystal
+Found creative tab: forestry
+Found creative tab: transportation
+Found creative tab: Genetics
+Found creative tab: tabGaia
+Found creative tab: hqm
+Found creative tab: ImmersiveEngineering
+Found creative tab: jabba
+Found creative tab: magicBees
+Found creative tab: tabMekanism
+Found creative tab: MineFactory Reloaded
+Found creative tab: natura.plants
+Found creative tab: redstone
+Found creative tab: natura.nether
+Found creative tab: natura.trees
+Found creative tab: Nether Ores
+Found creative tab: tabOpenBlocks
+Found creative tab: OpenComputers
+Found creative tab: core
+Found creative tab: expansion
+Found creative tab: exploration
+Found creative tab: fab
+Found creative tab: ill
+Found creative tab: int
+Found creative tab: trans
+Found creative tab: transport
+Found creative tab: Random Things
+Found creative tab: solarexpansion
+Found creative tab: sfm
+Found creative tab: SC2Blocks
+Found creative tab: SC2Modules
+Found creative tab: SC2Items
+Found creative tab: steves_production
+Found creative tab: storageDrawers
+Found creative tab: TConstructBlocks
+Found creative tab: TConstructWeaponry
+Found creative tab: TConstructParts
+Found creative tab: TConstructTools
+Found creative tab: TConstructMaterials
+Found creative tab: TConstructEquipables
+Found creative tab: TMechworks
+Found creative tab: thaumcraft
+Found creative tab: thaumicExploration
+Found creative tab: ThaumicTinkerer
+Found creative tab: brewing
+Found creative tab: thermaldynamics.creativeTab
+Found creative tab: thermaldynamics.creativeTabCovers
+Found creative tab: thermalexpansion.creativeTabBlocks
+Found creative tab: thermalexpansion.creativeTabItems
+Found creative tab: thermalexpansion.creativeTabTools
+Found creative tab: thermalexpansion.creativeTabFlorbs
+Found creative tab: thermalfoundation.creativeTab
+Found creative tab: thermalfoundation.creativeTabArmor
+Found creative tab: thermalfoundation.creativeTabTools
+Found creative tab: travellersgear
+Found creative tab: twilightForest
+Found creative tab: ztones
+Found creative tab: bdew.ae2stuff
+Found creative tab: aobd
+Found creative tab: appliedenergistics2
+Found creative tab: appliedenergistics2.facades
+Found creative tab: aura
+Found creative tab: betterquesting
+Found creative tab: catwalks
+Found creative tab: tabWoodChiselBlocks
+Found creative tab: tabStairChiselBlocks
+Found creative tab: tabModdedChiselBlocks
+Found creative tab: tabStoneChiselBlocks
+Found creative tab: tabOtherChiselBlocks
+Found creative tab: tabChisel
+Found creative tab: tabMetalChiselBlocks
+Found creative tab: compactStorage
+Found creative tab: tabComputronics
+Found creative tab: cookingbook
+Found creative tab: doggystyle
+Found creative tab: enhancedportals
+Found creative tab: tabExoticbirds
+Found creative tab: Extra_Cells
+Found creative tab: Ferret Shinies
+Found creative tab: FluxedCrystals2
+Found creative tab: bdew.gendustry
+Found creative tab: bdew.samples
+Found creative tab: bdew.templates
+Found creative tab: tabHarvestCraft2
+Found creative tab: tabHarvestCraft3
+Found creative tab: tabHarvestCraft
+Found creative tab: malisisdoors
+Found creative tab: tabMatterOverdrive_food
+Found creative tab: tabMatterOverdrive
+Found creative tab: tabMatterOverdrive_buildings
+Found creative tab: tabMatterOverdrive_decorative
+Found creative tab: tabMatterOverdrive_ships
+Found creative tab: tabMatterOverdrive_modules
+Found creative tab: tabMatterOverdrive_upgrades
+Found creative tab: openmodularturrets
+Found creative tab: props.Main
+Found creative tab: search
+Found creative tab: RfTools
+Found creative tab: RfToolsDimlets
+Found creative tab: tabSimplyJetpacks
+Found creative tab: ThaumicEnergistics
+Found creative tab: tabWarpBook
+Found creative tab: tabWitchery
+Setting up ForgeMicroblock Library...
+Setting up ExtraUtilities Library...
+Setting up BuildCraft Library...
+Setting up Applied Energistics 2 Library...
+Loading table of contents for module: custom_nei_filters, 1.0, Author: denoflionsx
+Bootstrap setting found. Loading: Bootstrap.js
+Loading: ThermalExpansion.js
+override called. Params: ThermalExpansion, florb, 0,1
+Regex match found! ThermalExpansion:florb matches ThermalExpansion:florb.
+Found ItemStack ThermalExpansion:florb. 16xitem.thermalexpansion.florb@0
+Loading: Mekanism.js
+override called. Params: Mekanism, GasTank, 100
+Regex match found! Mekanism:GasTank matches Mekanism:GasTank.
+Found ItemStack Mekanism:GasTank. 1xtile.GasTank@0
+override called. Params: Mekanism, *PlasticBlock, 0
+Regex match found! Mekanism:*PlasticBlock matches Mekanism:GlowPlasticBlock.
+Regex match found! Mekanism:*PlasticBlock matches Mekanism:PlasticBlock.
+Regex match found! Mekanism:*PlasticBlock matches Mekanism:ReinforcedPlasticBlock.
+Regex match found! Mekanism:*PlasticBlock matches Mekanism:RoadPlasticBlock.
+Regex match found! Mekanism:*PlasticBlock matches Mekanism:SlickPlasticBlock.
+Found ItemStack Mekanism:GlowPlasticBlock. 64xtile.GlowPlasticBlock@0
+Found ItemStack Mekanism:PlasticBlock. 64xtile.PlasticBlock@0
+Found ItemStack Mekanism:ReinforcedPlasticBlock. 64xtile.ReinforcedPlasticBlock@0
+Found ItemStack Mekanism:RoadPlasticBlock. 64xtile.RoadPlasticBlock@0
+Found ItemStack Mekanism:SlickPlasticBlock. 64xtile.SlickPlasticBlock@0
+override called. Params: Mekanism, Balloon, 0
+Regex match found! Mekanism:Balloon matches Mekanism:Balloon.
+Found ItemStack Mekanism:Balloon. 64xitem.Balloon@0
+override called. Params: Mekanism, GlowPanel, 0
+Regex match found! Mekanism:GlowPanel matches Mekanism:GlowPanel.
+Found ItemStack Mekanism:GlowPanel. 64xitem.GlowPanel@0
+Loading: BuildCraft.js
+getFacadesSize called. Returned: 3670
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 1182
+Loading: AppliedEnergistics2.js
+getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
+getSubTypes called.
+getNumberOfTypes called. Returned: 2390
+override called. Params: appliedenergistics2, item.ItemFacade, 780
+Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
+Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
+Loading: Tcon.js
+override called. Params: TConstruct, tool*, 0
+Regex match found! TConstruct:tool* matches TConstruct:toolRod.
+Regex match found! TConstruct:tool* matches TConstruct:toolShard.
+Found ItemStack TConstruct:toolRod. 64xitem.tconstruct.ToolRod@0
+Found ItemStack TConstruct:toolShard. 64xitem.tconstruct.ToolShard@0
+override called. Params: TConstruct, binding, 0
+Regex match found! TConstruct:binding matches TConstruct:binding.
+Found ItemStack TConstruct:binding. 64xitem.tconstruct.Binding@0
+override called. Params: TConstruct, scytheBlade, 0
+Regex match found! TConstruct:scytheBlade matches TConstruct:scytheBlade.
+Found ItemStack TConstruct:scytheBlade. 64xitem.tconstruct.ScytheHead@0
+Loading: MFR.js
+override called. Params: MineFactoryReloaded, tile.mfr.stainedglass.block, 0
+hide called. Params: MineFactoryReloaded:fluid.mfr.liquid.milk.still, 0
+override called. Params: MineFactoryReloaded, tile.mfr.stainedglass.pane, 0
+override called. Params: MineFactoryReloaded, tile.mfr.conveyor, 0
+Loading: ForgeMicroblock.js
+getRandomMaterial called. Returned: ImmersiveEngineering:stoneDecoration_2
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ImmersiveEngineering:stoneDecoration_2
+Loading: ExtraUtilities.js
+override called. Params: ExtraUtilities, drum, 0,1
+Regex match found! ExtraUtilities:drum matches ExtraUtilities:drum.
+Found ItemStack ExtraUtilities:drum. 64xtile.extrautils:drum@0
+getRandomMaterial called. Returned: ImmersiveEngineering:storage_2
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, ImmersiveEngineering:storage_2

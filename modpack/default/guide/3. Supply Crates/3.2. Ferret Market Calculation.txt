@@ -1,0 +1,13 @@
+§l 3.2 - Ferret Market Calculation §r
+
+As may have been explained to you, the QUEST Tablet is always scanning your local area. Research is a high priority for The Ferret Business, and this can give us ideas on new worlds or dimensions we have not documented yet, as well as new creations.
+
+Part of the scanning function is to tag all items and materials around you for Supply related reasons. A value is given to an item via complex market and financial formulas, resulting in what is called the Ferret Market Calculation, or FMC.
+
+{"image":"2.2.FMCsmall.png", "width":250, "height":75}
+
+Above is an example of a very common material we supply : Charcoal
+
+The purple§5 =2= §rsignifies the value of the item.
+
+The green §aMaterial §rsignifies the type of item it is. The QUEST Tablet recognizes 15 different types of items.

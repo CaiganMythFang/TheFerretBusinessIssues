@@ -1,0 +1,491 @@
+{
+  "book": [
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "             [b]THE\n   FERRET BUSINESS[/b]",
+            "wrap": 0,
+            "size": 1.7000002,
+            "color": "FF555555",
+            "xPos": -5,
+            "yPos": 8,
+            "width": 202.0,
+            "height": 31.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[u]CONTRACT FULFILLMENT GUIDE",
+            "wrap": 0,
+            "size": 1.2,
+            "color": "FF555555",
+            "xPos": 15,
+            "yPos": 38,
+            "width": 209.0,
+            "height": 9.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ferretshinies:IconAsset 91",
+            "xPos": 8,
+            "yPos": 181,
+            "width": 19.0,
+            "height": 19.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ferretshinies:IconAsset 68",
+            "xPos": 8,
+            "yPos": 163,
+            "width": 19.0,
+            "height": 19.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Supply Contracts cover simple materials. You can earn more money by making a factory and completing Production Contracts!",
+            "wrap": 0,
+            "size": 0.9,
+            "color": "FF555555",
+            "xPos": 30,
+            "yPos": 166,
+            "width": 166.0,
+            "height": 23.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[u]GETTING STARTED",
+            "wrap": 0,
+            "size": 1.1,
+            "color": "FF555555",
+            "xPos": 55,
+            "yPos": 56,
+            "width": 135.0,
+            "height": 11.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "You will first need to create some empty crates: ",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 9,
+            "yPos": 80,
+            "width": 88.0,
+            "height": 40.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:planks 0",
+            "xPos": 104,
+            "yPos": 68,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:planks 0",
+            "xPos": 122,
+            "yPos": 68,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:planks 0",
+            "xPos": 140,
+            "yPos": 68,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:planks 0",
+            "xPos": 104,
+            "yPos": 87,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:planks 0",
+            "xPos": 140,
+            "yPos": 87,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:planks 0",
+            "xPos": 104,
+            "yPos": 106,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:planks 0",
+            "xPos": 122,
+            "yPos": 106,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:planks 0",
+            "xPos": 141,
+            "yPos": 106,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ferretshinies:NullToken 0",
+            "xPos": 122,
+            "yPos": 86,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "\u003e",
+            "wrap": 0,
+            "size": 1.7000002,
+            "color": "FF555555",
+            "xPos": 159,
+            "yPos": 90,
+            "width": 16.0,
+            "height": 12.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ferretshinies:IconAsset 67",
+            "xPos": 167,
+            "yPos": 76,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ferretshinies:IconAsset 67",
+            "xPos": 103,
+            "yPos": 128,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "x64",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFFFFFFF",
+            "xPos": 173,
+            "yPos": 91,
+            "width": 20.0,
+            "height": 10.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Then fill a crate with materials or products:",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 7,
+            "yPos": 131,
+            "width": 88.0,
+            "height": 28.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:iron_ingot",
+            "xPos": 123,
+            "yPos": 129,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "minecraft:iron_ingot",
+            "xPos": 103,
+            "yPos": 146,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "\u003e",
+            "wrap": 0,
+            "size": 1.8000002,
+            "color": "FF555555",
+            "xPos": 148,
+            "yPos": 141,
+            "width": 16.0,
+            "height": 9.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ferretshinies:IconAsset 68",
+            "xPos": 165,
+            "yPos": 134,
+            "width": 26.0,
+            "height": 26.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Ship the filled crate via your QUEST Tablet for money and trader chits!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 230,
+            "yPos": 13,
+            "width": 192.0,
+            "height": 20.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ferretshinies:IconAsset 68",
+            "xPos": 243,
+            "yPos": 38,
+            "width": 16.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "\u003e",
+            "wrap": 0,
+            "size": 1.8000002,
+            "color": "FF555555",
+            "xPos": 274,
+            "yPos": 41,
+            "width": 16.0,
+            "height": 10.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "HardcoreQuesting:quest_book",
+            "xPos": 292,
+            "yPos": 34,
+            "width": 22.0,
+            "height": 22.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "\u003e",
+            "wrap": 0,
+            "size": 1.7000002,
+            "color": "FF555555",
+            "xPos": 323,
+            "yPos": 40,
+            "width": 16.0,
+            "height": 11.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ferretshinies:NullToken 0",
+            "xPos": 334,
+            "yPos": 30,
+            "width": 29.0,
+            "height": 29.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ferretshinies:NullToken 41",
+            "xPos": 364,
+            "yPos": 33,
+            "width": 21.0,
+            "height": 21.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": " +1 RANK       +4 RANK       +22 RANK      +102 RANK\n 2 SILVER     11 SILVER     57 SILVER     281 SILVER",
+            "wrap": 0,
+            "size": 0.6999999,
+            "color": "FF555555",
+            "xPos": 228,
+            "yPos": 171,
+            "width": 207.0,
+            "height": 9.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The rest of this book shows all Contracts.",
+            "wrap": 0,
+            "size": 0.9,
+            "color": "FF555555",
+            "xPos": 228,
+            "yPos": 191,
+            "width": 211.0,
+            "height": 5.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The more you trade, the more Trader Chits you earn. Combine them into increasing values, and turn them in for money and Trader Reputation!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 229,
+            "yPos": 102,
+            "width": 189.0,
+            "height": 38.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ferretshinies:NullToken 44",
+            "xPos": 232,
+            "yPos": 143,
+            "width": 24.0,
+            "height": 24.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ferretshinies:NullToken 46",
+            "xPos": 281,
+            "yPos": 143,
+            "width": 25.0,
+            "height": 25.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ferretshinies:NullToken 48",
+            "xPos": 330,
+            "yPos": 143,
+            "width": 25.0,
+            "height": 25.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ferretshinies:NullToken 50",
+            "xPos": 380,
+            "yPos": 143,
+            "width": 26.0,
+            "height": 26.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "Botania:cosmetic 31",
+            "xPos": 224,
+            "yPos": 66,
+            "width": 21.0,
+            "height": 21.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "[i]COMING SOON[/i] : A way to automatically fill Contracts without the QUEST Tablet!",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FF555555",
+            "xPos": 243,
+            "yPos": 70,
+            "width": 174.0,
+            "height": 11.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "Botania:cosmetic 31",
+            "xPos": 401,
+            "yPos": 66,
+            "width": 21.0,
+            "height": 21.0
+          }
+        }
+      ],
+      "pageName": ""
+    }
+  ],
+  "uniqueName": "Ferret_Business_Contract_Guide",
+  "color": 4737096,
+  "showBackground": true,
+  "showArrows": true,
+  "showNumber": true,
+  "iconPass1": "",
+  "iconPass2": "",
+  "iconColorisePass1": false,
+  "iconColorisePass2": false,
+  "iconColorPass1": 0,
+  "iconColorPass2": 0,
+  "language": "en_US",
+  "displayName": "Ferret Business Contract Guide",
+  "displayInCreative": true
+}

@@ -1,0 +1,7 @@
+{"image":"title.png", "width":380, "height":125}
+
+Welcome new assistant to The Ferret Business.
+
+If you are reading this message, then you are either on an important business trip for the Business, or are subject to an accident of spatial location or other scientific circumstance.
+
+Either way, this guidebook should help you through some of the Business's special tools and functions to help all employees.
