@@ -158,7 +158,6 @@ for i, toy in FMCMachine300 {
 // Ferret Market Cost, Machine - 400
 var FMCMachine400 = [
 <minecraft:heavy_weighted_pressure_plate>,
-<mo:network_pipe>,
 <ExtraUtilities:budoff>,
 <Thaumcraft:blockTube:4>
 ] as IItemStack[];
@@ -300,8 +299,7 @@ for i, toy in FMCMachine4500 {
 var FMCMachine5000 = [
 <ThermalExpansion:Dynamo>,
 <openmodularturrets:serialPortAddon>, <openmodularturrets:redstoneReactorAddon>,
-<EnderIO:blockCombustionGenerator>, <EnderIO:blockCapBank:1>,
-<mo:holo_sign>
+<EnderIO:blockCombustionGenerator>, <EnderIO:blockCapBank:1>
 ] as IItemStack[];
 
 for i, toy in FMCMachine5000 {
@@ -466,28 +464,6 @@ for i, toy in FMCMachine12000 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =12,000=") + " | " + format.green("Machine and Tech ")+ ")"));
 }
 
-// Ferret Market Cost, Machine - 12,500
-var FMCMachine12500 = [
-<mo:battery>
-] as IItemStack[];
-
-for i, toy in FMCMachine12500 {
-     <ore:zFMC12500>.add(toy);
-     <ore:zFMCMachine12500>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =12,500=") + " | " + format.green("Machine and Tech ")+ ")"));
-}
-
-// Ferret Market Cost, Machine - 13,000
-var FMCMachine13000 = [
-<mo:network_switch>
-] as IItemStack[];
-
-for i, toy in FMCMachine13000 {
-     <ore:zFMC13000>.add(toy);
-     <ore:zFMCMachine13000>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =13,000=") + " | " + format.green("Machine and Tech ")+ ")"));
-}
-
 // Ferret Market Cost, Machine - 13,500
 var FMCMachine13500 = [
 <openmodularturrets:recyclerAddon>
@@ -620,17 +596,6 @@ for i, toy in FMCMachine22500 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =22,500=") + " | " + format.green("Machine and Tech ")+ ")"));
 }
 
-// Ferret Market Cost, Machine - 23,000
-var FMCMachine23000 = [
-<mo:pattern_monitor>
-] as IItemStack[];
-
-for i, toy in FMCMachine23000 {
-     <ore:zFMC23000>.add(toy);
-     <ore:zFMCMachine23000>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =23,000=") + " | " + format.green("Machine and Tech ")+ ")"));
-}
-
 // Ferret Market Cost, Machine - 24,000
 var FMCMachine24000 = [
 <ThermalExpansion:Dynamo:4>, <ThermalExpansion:Dynamo:1>
@@ -640,17 +605,6 @@ for i, toy in FMCMachine24000 {
      <ore:zFMC24000>.add(toy);
      <ore:zFMCMachine24000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =24,000=") + " | " + format.green("Machine and Tech ")+ ")"));
-}
-
-// Ferret Market Cost, Machine - 25,000
-var FMCMachine25000 = [
-<mo:hc_battery>
-] as IItemStack[];
-
-for i, toy in FMCMachine25000 {
-     <ore:zFMC25000>.add(toy);
-     <ore:zFMCMachine25000>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =25,000=") + " | " + format.green("Machine and Tech ")+ ")"));
 }
 
 // Ferret Market Cost, Machine - 25,500
@@ -854,17 +808,6 @@ for i, toy in FMCMachine45500 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =45,500=") + " | " + format.green("Machine and Tech ")+ ")"));
 }
 
-// Ferret Market Cost, Machine - 47,000
-var FMCMachine47000 = [
-<mo:weapon_station>, <mo:star_map>
-] as IItemStack[];
-
-for i, toy in FMCMachine47000 {
-     <ore:zFMC47000>.add(toy);
-     <ore:zFMCMachine47000>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =47,000=") + " | " + format.green("Machine and Tech ")+ ")"));
-}
-
 // Ferret Market Cost, Machine - 52,000
 var FMCMachine52000 = [
 <ExtraUtilities:generator.8:10>
@@ -942,17 +885,6 @@ for i, toy in FMCMachine76000 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =76,000=") + " | " + format.green("Machine and Tech ")+ ")"));
 }
 
-// Ferret Market Cost, Machine - 78,000
-var FMCMachine78000 = [
-<mo:charging_station>
-] as IItemStack[];
-
-for i, toy in FMCMachine78000 {
-     <ore:zFMC78000>.add(toy);
-     <ore:zFMCMachine78000>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =78,000=") + " | " + format.green("Machine and Tech ")+ ")"));
-}
-
 // Ferret Market Cost, Machine - 80500
 var FMCMachine80500 = [
 <openmodularturrets:expanderInvTierFive>
@@ -973,17 +905,6 @@ for i, toy in FMCMachine82000 {
      <ore:zFMC82000>.add(toy);
      <ore:zFMCMachine82000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =82,000=") + " | " + format.green("Machine and Tech ")+ ")"));
-}
-
-// Ferret Market Cost, Machine - 82,500
-var FMCMachine82500 = [
-<mo:replicator>
-] as IItemStack[];
-
-for i, toy in FMCMachine82500 {
-     <ore:zFMC82500>.add(toy);
-     <ore:zFMCMachine82500>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =82,500=") + " | " + format.green("Machine and Tech ")+ ")"));
 }
 
 // Ferret Market Cost, Machine - 92,500

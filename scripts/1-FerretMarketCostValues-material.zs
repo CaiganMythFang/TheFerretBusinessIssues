@@ -308,7 +308,6 @@ var FMC2000 = [
 <Mekanism:Dust:5>, <Mekanism:BasicBlock:1>, <Mekanism:BasicBlock:12>, <Mekanism:BasicBlock:13>, <Mekanism:Dust:6>, <Mekanism:Dust:1>,
 <NetherOres:tile.netherores.ore.0:8>,
 <ImmersiveEngineering:metal:13>, <ImmersiveEngineering:metal:3>, <ImmersiveEngineering:metal:6>, <ImmersiveEngineering:storage>, <ImmersiveEngineering:metal:12>, <ImmersiveEngineering:metal:2>, <ImmersiveEngineering:metal:1>,
-<mo:dilithium_crystal>, <mo:tritanium_ingot>,
 <BigReactors:BRIngot:4>, <BigReactors:BRIngot>,
 <Thaumcraft:blockCustomOre:7>, <Thaumcraft:blockCustomOre>, <Thaumcraft:ItemResource:3>, <Thaumcraft:ItemNugget:4>,
 <ProjRed|Core:projectred.core.part:54>, <ProjRed|Exploration:projectred.exploration.stone:8>, <ProjRed|Exploration:projectred.exploration.stone:9>,
@@ -367,7 +366,6 @@ var FMC4000 = [
 <BigReactors:YelloriteOre>,
 <NetherOres:tile.netherores.ore.1:11>,
 <ImmersiveEngineering:ore:1>,
-<mo:tritanium_ore>,
 <Thaumcraft:ItemNugget:31>, <Thaumcraft:ItemNugget:20>, <Thaumcraft:ItemNugget:21>
 ] as IItemStack[];
 
@@ -382,7 +380,6 @@ var FMC4500 = [
 <minecraft:lapis_block>,
 <ThermalFoundation:material:36>, <ThermalFoundation:material:68>, <ThermalFoundation:bucket:2>, <ThermalFoundation:Ore:2>, <ThermalFoundation:material:44>, <ThermalFoundation:material:76>,
 <ImmersiveEngineering:metal:14>, <ImmersiveEngineering:metal:4>, 
-<mo:dilithium_ore>,
 <Thaumcraft:ItemNugget:19>,
 <Botania:storage:2>
 ] as IItemStack[];
@@ -557,8 +554,7 @@ var FMC18000 = [
 <ImmersiveEngineering:storage:3>, <ImmersiveEngineering:storage:2>, 
 <ProjRed|Exploration:projectred.exploration.stone:10>,
 <ThermalFoundation:Storage:2>, <ThermalFoundation:Storage:7>, <ThermalFoundation:Storage:8>, <ThermalFoundation:Storage:3>,
-<EnderIO:blockIngotStorage:7>,
-<aobd:blockUranium>
+<EnderIO:blockIngotStorage:7>
 ] as IItemStack[];
 
 for i, toy in FMC18000 {

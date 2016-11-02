@@ -20,7 +20,6 @@ var FMCFood5 = [
 <minecraft:sugar>, <minecraft:wheat>, <minecraft:wheat_seeds>, <minecraft:bread>, <minecraft:pumpkin_seeds>, <minecraft:carrot>,
 <Natura:barleyFood:2>, <Natura:barleyFood:1>, <Natura:barleyFood>, <Natura:barley.seed>, <Natura:barley.seed:1>,
 <harvestcraft:cottonseedItem>, <harvestcraft:soybeanItem>, <harvestcraft:soymilkItem>, <harvestcraft:seaweedItem>, <harvestcraft:riceItem>,
-<mo:earl_gray_tea>, <mo:emergency_ration>, <mo:romulan_ale>,
 <props:props:1>,
 <AgriCraft:seedCarrot>, <AgriCraft:seedPotato>, 
 <witchery:seedsartichoke>, <witchery:seedssnowbell>, <witchery:seedsbelladonna>,
@@ -89,7 +88,6 @@ for i, toy in FMCFood50 {
 // Ferret Market Cost, Food - 100
 var FMCFood100 = [
 <minecraft:cake>,
-<mo:android_pill:*>,
 <EnderIO:itemEnderFood>,
 <GrimoireOfGaia:item.GrimoireOfGaia.FoodPieBerry>
 ] as IItemStack[];

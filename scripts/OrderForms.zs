@@ -75,20 +75,6 @@ recipes.addShapeless(<ferretshinies:LayeredIconAsset:411> * 64, [<ferretshinies:
 <ferretshinies:LayeredIconAsset:411>.addTooltip(format.green("to automatically purchase 1 Redstone Ore Shipment"));
 <ferretshinies:LayeredIconAsset:411>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
 
-recipes.addShapeless(<ferretshinies:LayeredIconAsset:412>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreTritanium>.giveBack(<mo:tritanium_ore>)]);
-recipes.addShapeless(<ferretshinies:LayeredIconAsset:412> * 64, [<ferretshinies:LayeredIconAsset:412>]);
-<ferretshinies:LayeredIconAsset:412>.addTooltip(format.lightPurple("A Ferret Business Tritanium Ore Order Form"));
-<ferretshinies:LayeredIconAsset:412>.addTooltip(format.green("Combine with 4 Shop Vouchers in an EnderIO Alloy Smelter"));
-<ferretshinies:LayeredIconAsset:412>.addTooltip(format.green("to automatically purchase 1 Tritanium Ore Shipment"));
-<ferretshinies:LayeredIconAsset:412>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
-
-recipes.addShapeless(<ferretshinies:LayeredIconAsset:413>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreDilithium>.giveBack(<mo:dilithium_ore>)]);
-recipes.addShapeless(<ferretshinies:LayeredIconAsset:413> * 64, [<ferretshinies:LayeredIconAsset:413>]);
-<ferretshinies:LayeredIconAsset:413>.addTooltip(format.lightPurple("A Ferret Business Dilithium Ore Order Form"));
-<ferretshinies:LayeredIconAsset:413>.addTooltip(format.green("Combine with 4 Shop Vouchers in an EnderIO Alloy Smelter"));
-<ferretshinies:LayeredIconAsset:413>.addTooltip(format.green("to automatically purchase 1 Dilithium Ore Shipment"));
-<ferretshinies:LayeredIconAsset:413>.addTooltip(format.yellow("Craft any Order Form alone to duplicate."));
-
 recipes.addShapeless(<ferretshinies:LayeredIconAsset:414>, [<ferretshinies:LayeredIconAsset:401>, <ore:oreYellorite>.giveBack(<BigReactors:YelloriteOre>)]);
 recipes.addShapeless(<ferretshinies:LayeredIconAsset:414> * 64, [<ferretshinies:LayeredIconAsset:414>]);
 <ferretshinies:LayeredIconAsset:414>.addTooltip(format.lightPurple("A Ferret Business Yellorite Ore Order Form"));

@@ -163,7 +163,6 @@ for i, toy in FMCComponent200 {
 
 // Ferret Market Cost, Component - 300
 var FMCComponent300 = [
-<mo:isolinear_circuit>,
 <ExtraUtilities:pipes.1>, <ExtraUtilities:pipes:10>, 
 <Botania:rune:7>, <Botania:rune:6>, <Botania:craftPattern:6>, <Botania:craftPattern:7>
 ] as IItemStack[];
@@ -178,7 +177,6 @@ for i, toy in FMCComponent300 {
 var FMCComponent400 = [
 <EnderIO:itemMaterial:7>,
 <Botania:craftPattern:8>,
-<mo:security_protocol>, <mo:network_flash_drive>,
 <Thaumcraft:ItemGolemCore:100>, <Thaumcraft:ItemGolemCore:5>,
 <CompactMachines:shrinker>, <CompactMachines:enlarger>
 ] as IItemStack[];
@@ -196,7 +194,6 @@ var FMCComponent500 = [
 <Thaumcraft:ItemGolemDecoration:4>, <Thaumcraft:ItemGolemCore>, <Thaumcraft:ItemGolemCore:1>, <Thaumcraft:ItemGolemCore:2>, <Thaumcraft:ItemGolemCore:3>, <Thaumcraft:ItemGolemCore:4>, <Thaumcraft:ItemGolemCore:6>, <Thaumcraft:ItemGolemCore:9>,
 <ThaumicTinkerer:mobAspect:42>, <ThaumicTinkerer:mobAspect:43>, <ThaumicTinkerer:mobAspect:44>, <ThaumicTinkerer:mobAspect:45>, <ThaumicTinkerer:mobAspect:46>, <ThaumicTinkerer:mobAspect:47>, <ThaumicTinkerer:mobAspect:48>, <ThaumicTinkerer:mobAspect:49>, <ThaumicTinkerer:mobAspect:50>, <ThaumicTinkerer:mobAspect:51>, <ThaumicTinkerer:mobAspect:52>, <ThaumicTinkerer:mobAspect:53>, <ThaumicTinkerer:mobAspect:54>, <ThaumicTinkerer:mobAspect:55>, <ThaumicTinkerer:mobAspect:56>, <ThaumicTinkerer:mobAspect:57>, <ThaumicTinkerer:mobAspect:58>,
 <ThaumicExploration:mechanistCapUncharged>,
-<mo:weapon_module_color:0>, <mo:weapon_module_color:1>, <mo:weapon_module_color:2>, <mo:weapon_module_color:3>, <mo:weapon_module_color:4>, <mo:weapon_module_color:5>, <mo:weapon_module_color:6>, <mo:weapon_module_color:7>, <mo:weapon_module_color:8>, <mo:weapon_module_color:9>,
 <ThermalDynamics:ThermalDynamics_0:3>, <ThermalExpansion:Frame:12>, 
 <simplyjetpacks:components>, 
 <Botania:rune:2>,
@@ -220,7 +217,6 @@ var FMCComponent1000 = [
 <malisisdoors:item.rustyHandle>,
 <ExtraUtilities:pipes:8>, <ExtraUtilities:pipes:13>,
 <EnderIO:itemBasicFilterUpgrade>, <EnderIO:itemBasicCapacitor>, <EnderIO:itemPowerItemFilter>,
-<mo:rouge_android_part:1>, <mo:rouge_android_part:2>, <mo:rouge_android_part>, <mo:energy_pack>, <mo:rouge_android_part:3>,
 <Thaumcraft:WandCap:5>, <Thaumcraft:WandCap:1>, <Thaumcraft:ItemGolemCore:11>,
 <ThaumicTinkerer:soulMould>,
 <ImmersiveEngineering:material:11>
@@ -235,7 +231,6 @@ for i, toy in FMCComponent1000 {
 // Ferret Market Cost, Component - 1,500
 var FMCComponent1500 = [
 <openmodularturrets:chamberTierTwo>,
-<mo:s_magnet>,
 <EnderIO:itemGliderWing>, <EnderIO:itemMaterial:9>, 
 <Botania:lens:21>, <Botania:lens:19>, <Botania:lens:13>, <Botania:lens:9>, <Botania:lens:3>, <Botania:lens:12>, <Botania:lens:6>, <Botania:lens:16>,
 <ExtraUtilities:enderQuarryUpgrade>, <ExtraUtilities:nodeUpgrade>, <ExtraUtilities:nodeUpgrade:9>, 
@@ -250,7 +245,6 @@ for i, toy in FMCComponent1500 {
 
 // Ferret Market Cost, Component - 2,000
 var FMCComponent2000 = [
-<mo:matter_container>,
 <ThermalExpansion:material:2>, <ThermalExpansion:material:3>, <ThermalExpansion:material:1>,
 <simplyjetpacks:armorPlatings:1>,
 <Botania:lens:7>, <Botania:sparkUpgrade>, <Botania:sparkUpgrade:1>, <Botania:sparkUpgrade:2>, <Botania:sparkUpgrade:3>, <Botania:manaResource:12>, <Botania:lens:14>, <Botania:rune:8>, <Botania:lens:20>, 
@@ -269,8 +263,7 @@ for i, toy in FMCComponent2000 {
 var FMCComponent2500 = [
 <simplyjetpacks:components:21>, 
 <openmodularturrets:ioBus>,
-<Botania:lens:18>, 
-<mo:isolinear_circuit:1>,
+<Botania:lens:18>,
 <Thaumcraft:ItemGolemDecoration:6>
 ] as IItemStack[];
 
@@ -309,7 +302,6 @@ for i, toy in FMCComponent3500 {
 // Ferret Market Cost, Component - 4,000
 var FMCComponent4000 = [
 <simplyjetpacks:armorPlatings:12>, <simplyjetpacks:armorPlatings:2>,
-<mo:tritanium_plate>, <mo:weapon_receiver>, 
 <Thaumcraft:blockMetalDevice:9>, <Thaumcraft:ItemEldritchObject>, <Thaumcraft:blockMetalDevice:3>, 
 <EnderIO:itemGliderWing:1>
 ] as IItemStack[];
@@ -322,8 +314,7 @@ for i, toy in FMCComponent4000 {
 
 // Ferret Market Cost, Component - 5,000
 var FMCComponent5000 = [
-<ExtraUtilities:nodeUpgrade:5>, <ExtraUtilities:nodeUpgrade:6>,
-<mo:weapon_handle>
+<ExtraUtilities:nodeUpgrade:5>, <ExtraUtilities:nodeUpgrade:6>
 ] as IItemStack[];
 
 for i, toy in FMCComponent5000 {
@@ -346,7 +337,6 @@ for i, toy in FMCComponent5500 {
 // Ferret Market Cost, Component - 6,000
 var FMCComponent6000 = [
 <Botania:lens:17>,
-<mo:plasma_core>, 
 <EnderIO:itemExistingItemFilter>, <EnderIO:itemFrankenSkull:2>, 
 <Thaumcraft:blockMetalDevice:12>
 ] as IItemStack[];
@@ -465,7 +455,6 @@ for i, toy in FMCComponent10500 {
 
 // Ferret Market Cost, Component - 11,000
 var FMCComponent11000 = [
-<mo:isolinear_circuit:2>,
 <ThaumicTinkerer:focusTelekinesis>,
 <simplyjetpacks:armorPlatings:14>
 ] as IItemStack[];
@@ -476,21 +465,9 @@ for i, toy in FMCComponent11000 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =11,000=") + " | " + format.green("Components ")+ ")"));
 }
 
-// Ferret Market Cost, Component - 11,500
-var FMCComponent11500 = [
-<mo:me_conversion_matrix>, <mo:forcefield_emitter>
-] as IItemStack[];
-
-for i, toy in FMCComponent11500 {
-     <ore:zFMC11500>.add(toy);
-     <ore:zFMCComponent11500>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =11,500=") + " | " + format.green("Components ")+ ")"));
-}
-
 // Ferret Market Cost, Component - 12,000
 var FMCComponent12000 = [
 <ThaumicTinkerer:focusHeal>,
-<mo:machine_casing>,
 <simplyjetpacks:components:63>
 ] as IItemStack[];
 
@@ -538,8 +515,7 @@ for i, toy in FMCComponent15000 {
 
 // Ferret Market Cost, Component - 15,500
 var FMCComponent15500 = [
-<Thaumcraft:WandRod:4>,
-<mo:pattern_drive>
+<Thaumcraft:WandRod:4>
 ] as IItemStack[];
 
 for i, toy in FMCComponent15500 {
@@ -632,7 +608,6 @@ for i, toy in FMCComponent19000 {
 
 // Ferret Market Cost, Component - 19,500
 var FMCComponent19500 = [
-<mo:integration_matrix>,
 <ThaumicExploration:amberCore>
 ] as IItemStack[];
 
@@ -655,8 +630,7 @@ for i, toy in FMCComponent20000 {
 
 // Ferret Market Cost, Component - 20,500
 var FMCComponent20500 = [
-<ThermalExpansion:Frame:7>,
-<mo:h_compensator>
+<ThermalExpansion:Frame:7>
 ] as IItemStack[];
 
 for i, toy in FMCComponent20500 {

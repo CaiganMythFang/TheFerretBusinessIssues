@@ -90,8 +90,7 @@ var FMCBuilding5 = [
 <malisisdoors:garage_door>,
 <Botania:pavement3Slab>, <Botania:livingrock:2>, <Botania:livingwood:2>, <Botania:dreamwood:2>, <Botania:dreamwood0Wall>, <Botania:elfGlassPane>, <Botania:bifrostPermPane>, <Botania:customBrick3Slab>, <Botania:shimmerrock0Slab>, <Botania:shimmerwoodPlanks0Slab>, <Botania:pavement5Slab>, <Botania:manaGlass>,
 <ExtraUtilities:decorativeBlock1:10>,
-<EnderIO:itemConduitFacade>,
-<mo:decorative.floor_noise>
+<EnderIO:itemConduitFacade>
 ] as IItemStack[];
 
 for i, toy in FMCBuilding5 {
@@ -112,8 +111,7 @@ var FMCBuilding10 = [
 <BiblioCraft:BiblioFancySign:0>, <BiblioCraft:BiblioFancySign:1>, <BiblioCraft:BiblioFancySign:2>, <BiblioCraft:BiblioFancySign:3>, <BiblioCraft:BiblioFancySign:4>, <BiblioCraft:BiblioFancySign:5>, <BiblioCraft:BiblioFancySign:6>,
 <malisisdoors:item.wood_sliding_door>,
 <Botania:pavement3Stairs>, <Botania:pavement:3>, <Botania:customBrick:3>, <Botania:shimmerwoodPlanks>, <Botania:dreamwood0Stairs>, <Botania:customBrick3Stairs>, <Botania:pavement:5>, <Botania:pavement5Stairs>, <Botania:shimmerrock0Stairs>, <Botania:shimmerwoodPlanks0Stairs>, <Botania:thatch0Slab>, <Botania:elfGlass>, <Botania:bifrostPerm>, <Botania:shimmerrock>,
-<ExtraUtilities:curtains>, <ExtraUtilities:decorativeBlock1:6>, <ExtraUtilities:decorativeBlock2:10>, <ExtraUtilities:cobblestone_compressed:14>,
-<mo:decorative.floor_tiles>
+<ExtraUtilities:curtains>, <ExtraUtilities:decorativeBlock1:6>, <ExtraUtilities:decorativeBlock2:10>, <ExtraUtilities:cobblestone_compressed:14>
 ] as IItemStack[];
 
 for i, toy in FMCBuilding10 {
@@ -254,8 +252,7 @@ var FMCBuilding1000 = [
 <chisel:arcane:*>,
 <malisisdoors:iron_trapdoor>,
 <ExtraUtilities:color_redstoneLight:*>, <ExtraUtilities:decorativeBlock2:7>, <ExtraUtilities:color_lightgem:*>, <ExtraUtilities:color_blockCoal:*>,
-<EnderIO:blockFusedQuartz:3>,
-<mo:decorative.stripes>, <mo:force_glass>, <mo:decorative.clean>
+<EnderIO:blockFusedQuartz:3>
 ] as IItemStack[];
 
 for i, toy in FMCBuilding1000 {
@@ -272,7 +269,6 @@ var FMCBuilding1500 = [
 <ThermalExpansion:Glass>,
 <Thaumcraft:blockStairsArcaneStone>,
 <malisisdoors:rustyHatch>,
-<mo:decorative.tritanium_plate>, <mo:decorative.tritanium_plate_stripe>, <mo:decorative.carbon_fiber_plate>, <mo:decorative.holo_matrix>,
 <Botania:seaLamp>
 ] as IItemStack[];
 
@@ -323,8 +319,7 @@ for i, toy in FMCBuilding3500 {
 
 // Ferret Market Cost, Material - 4,000
 var FMCBuilding4000 = [
-<Thaumcraft:blockCosmeticOpaque>, <Thaumcraft:blockCosmeticOpaque:1>,
-<mo:decorative.vent.bright>
+<Thaumcraft:blockCosmeticOpaque>, <Thaumcraft:blockCosmeticOpaque:1>
 ] as IItemStack[];
 
 for i, toy in FMCBuilding4000 {

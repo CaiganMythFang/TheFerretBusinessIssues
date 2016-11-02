@@ -179,17 +179,6 @@ for i, toy in FMCFurniture7000 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =7,000=") + " | " + format.green("Furniture ")+ ")"));
 }
 
-// Ferret Market Cost, Material - 12,000
-var FMCFurniture12000 = [
-<mo:tritanium_crate.black>, <mo:tritanium_crate.red>, <mo:tritanium_crate.green>, <mo:tritanium_crate.brown>, <mo:tritanium_crate.blue>, <mo:tritanium_crate.purple>, <mo:tritanium_crate.cyan>, <mo:tritanium_crate.silver>, <mo:tritanium_crate.gray>, <mo:tritanium_crate.pink>, <mo:tritanium_crate.lime>, <mo:tritanium_crate.yellow>, <mo:tritanium_crate.lightBlue>, <mo:tritanium_crate.magenta>, <mo:tritanium_crate.orange>, <mo:tritanium_crate.white>
-] as IItemStack[];
-
-for i, toy in FMCFurniture12000 {
-     <ore:zFMC12000>.add(toy);
-     <ore:zFMCFurniture12000>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =12,000=") + " | " + format.green("Furniture ")+ ")"));
-}
-
 // Ferret Market Cost, Material - 17,500
 var FMCFurniture17500 = [
 <IronChest:BlockIronChest:1>, <IronChest:BlockIronChest:4>

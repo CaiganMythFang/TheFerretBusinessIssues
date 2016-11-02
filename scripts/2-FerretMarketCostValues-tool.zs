@@ -613,17 +613,6 @@ for i, toy in FMCTool44000 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =44,000=") + " | " + format.green("Tool ")+ ")"));
 }
 
-// Ferret Market Cost, Tool - 50,000
-var FMCTool50000 = [
-<mo:omni_tool>
-] as IItemStack[];
-
-for i, toy in FMCTool50000 {
-     <ore:zFMC50000>.add(toy);
-     <ore:zFMCTool50000>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50,000=") + " | " + format.green("Tool ")+ ")"));
-}
-
 // Ferret Market Cost, Tool - 61,000
 var FMCTool61000 = [
 <Botania:terraPick>, <Botania:terraAxe>
