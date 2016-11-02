@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--The syntax for an item stack is the same as you'd use in the /give command. NBT tags are supported! (e.g. minecraft:skull 1 3 {SkullOwner:"ganymedes01"})
+The syntax for a fluid stack is simiar to the item stack, it should be the fluid name followed by the amount. NBT tags are also supported! (e.g. water 1000)
+The syntax for ore dictionary values is the value between double-quotes. (e.g. "ingotIron")
+
+Vanilla entities names:
+
+Creeper
+Skeleton
+Spider
+Zombie
+Slime
+Ghast
+PigZombie
+Enderman
+CaveSpider
+Silverfish
+Blaze
+LavaSlime
+EnderDragon
+WitherBoss
+Bat
+Witch
+Pig
+Sheep
+Cow
+Chicken
+Squid
+Wolf
+MushroomCow
+SnowMan
+Ozelot
+VillagerGolem
+EntityHorse
+Villager
+EnderCrystal
+
+Modded entities ARE supported! Their names are usually in the form of modid.entityname. Examples: Natura.NitroCreeper, Thaumcraft.Pech
+CASE DOES MATTER! "Creeper" IS DIFFERENT THAN "creeper"!!!The following makes creepers drop up to 5 bones with a 50% chance, and drop up to 1 cookie with a 100% chance
+.The drop chance and amount WILL be influenced by the looting enchantment!
+<Creeper action="add">
+	<drop1 chance="50">minecraft:bone 5 0</drop1>
+	<drop2 chance="100">minecraft:cookie 1 0</drop2>
+</Creeper>
+
+The following makes so that cows no longer drop beef, cooked beef or leather.
+<Cow action="remove">
+	<stack1>minecraft:beef 1 0</stack1>
+	<stack2>minecraft:cooked_beef 1 0</stack2>
+	<stack3>minecraft:leather 1 0</stack3>
+</Cow>
+-->
+
+<EntityDrops>
+	<!--Add your recipes here!-->
+</EntityDrops>

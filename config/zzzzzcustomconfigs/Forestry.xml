@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--The syntax for an item stack is the same as you'd use in the /give command. NBT tags are supported! (e.g. minecraft:skull 1 3 {SkullOwner:"ganymedes01"})
+The syntax for a fluid stack is simiar to the item stack, it should be the fluid name followed by the amount. NBT tags are also supported! (e.g. water 1000)
+The syntax for ore dictionary values is the value between double-quotes. (e.g. "ingotIron")
+
+Examples:
+
+The box and the fluid parameters are optional!
+<carpenter>
+	<box>minecraft:planks 1 0</box>
+	<time>100</time>
+	<output>minecraft:apple 1 0</output>
+	<fluid>water 1</fluid>
+	<row1>" x "</row1>
+	<row2>"yyy"</row2>
+	<row3>" x "</row3>
+	<x>"ingotCopper"</x>
+	<y>minecraft:gold_nugget 1 0</y>
+</carpenter>
+
+Up to 9 different outputs are allowed!
+<centrifuge>
+	<time>100</time>
+	<input>minecraft:golden_apple 1 0</input>
+	<output1 chance="50">minecraft:apple 1 0</output1>
+	<output2 chance="10">minecraft:gold_ingot 8 0</output2>
+</centrifuge>
+
+<fabricator type="smelting">
+	<input>minecraft:stained_glass 1 0</input>
+	<outputAmount>500</outputAmount>
+	<meltingPoint>2000</meltingPoint>
+</fabricator>
+
+The cast parameter is optional!
+<fabricator type="recipe">
+	<cast>minecraft:boat 1 0</cast>
+	<output>minecraft:diamond_sword 1 0</output>
+	<row1>"x"</row1>
+	<row2>"x"</row2>
+	<row3>"y"</row3>
+	<x>minecraft:diamond 1 0</x>
+	<y>"stickWood"</y>
+</fabricator>
+
+<fermenter>
+	<fermentationValue>250</fermentationValue>
+	<input>minecraft:golden_apple 1 0</input>
+	<output>lava 1000</output>
+</fermenter>
+
+<moistener>
+	<time>100</time>
+	<input>minecraft:apple 1 0</input>
+	<output>minecraft:golden_apple 1 1</output>
+</moistener>
+
+The remnant parameter is optional!
+<squeezer>
+	<time>100</time>
+	<input>minecraft:apple 1 0</input>
+	<output>water 100</output>
+	<remnant chance="50">minecraft:potato 1 0</remnant>
+</squeezer>
+
+<still>
+	<time>100</time>
+	<input>lava 1</input>
+	<output>water 1</output>
+</still>
+
+<biogasengine>
+	<fluid>water 0</fluid>
+	<powerPerCycle>20</powerPerCycle>
+	<burnDuration>1000</burnDuration>
+	<dissipationMultiplier>1</dissipationMultiplier>
+</biogasengine>
+
+<peatengine>
+	<fuel>minecraft:coal 1 0</fuel>
+	<powerPerCycle>20</powerPerCycle>
+	<burnDuration>400</burnDuration>
+</peatengine>-->
+
+<Forestry>
+	<!--Add your recipes here!-->
+</Forestry>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--The syntax for an item stack is the same as you'd use in the /give command. NBT tags are supported! (e.g. minecraft:skull 1 3 {SkullOwner:"ganymedes01"})
+The syntax for a fluid stack is simiar to the item stack, it should be the fluid name followed by the amount. NBT tags are also supported! (e.g. water 1000)
+The syntax for ore dictionary values is the value between double-quotes. (e.g. "ingotIron")
+
+Examples:
+
+NO ORE DICTIONARY INPUTS ALLOWED!
+
+The following shows how to add a to the Pulverizer
+<pulverizer>
+	<input>minecraft:cobblestone 1 0</input>
+	<output>minecraft:gravel 1 0</output>
+	<energy>10000</energy>
+</pulverizer>
+You can also add recipes that have a bonus output that is yielded with a certain chance (between 1 and 100)
+<pulverizer>
+	<input>minecraft:cobblestone 1 0</input>
+	<output>minecraft:gravel 1 0</output>
+	<bonus>minecraft:diamond 1 0</bonus>
+	<chance>5</chance>
+	<energy>10000</energy>
+</pulverizer>
+
+The following shows how to add a to the Redstone Furnace
+<redstonefurnace>
+	<input>minecraft:cobblestone 1 0</input>
+	<output>minecraft:stone 1 0</output>
+	<energy>1000</energy>
+</redstonefurnace>
+
+The following shows how to add a to the Sawmill
+<sawmill>
+	<input>minecraft:planks 1 0</input>
+	<output1>minecraft:stick 1 0</output1>
+	<energy>1000</energy>
+</sawmill>
+You can also add recipes that have a secondary output that is yielded with a certain chance (between 1 and 100)
+<sawmill>
+	<input>minecraft:planks 1 0</input>
+	<output1>minecraft:stick 1 0</output1>
+	<output2>minecraft:stick 1 0</output2>
+	<chance>100</chance>
+	<energy>10000</energy>
+</sawmill>
+
+The following shows how to add recipes to the Induction Smelter
+<inductionsmelter>
+	<input1>minecraft:wheat 1 0</input1>
+	<input2>minecraft:sugar 1 0</input2>
+	<output1>minecraft:cookie 1 0</output1>
+	<energy>5000</energy>
+</inductionsmelter>
+You can also add recipes that have a bonus output that is yielded with a certain chance (between 1 and 100)
+<inductionsmelter>
+	<input1>minecraft:wheat 1 0</input1>
+	<input2>minecraft:sugar 1 0</input2>
+	<output1>minecraft:cookie 1 0</output1>
+	<output2>minecraft:baked_potato 1 0</output2>
+	<chance>25</chance>
+	<energy>5000</energy>
+</inductionsmelter>
+
+The following shows how to add recipes to the Magma Crucible
+<magmacrucible>
+	<input>minecraft:packed_ice 1 0</input>
+	<output>water 2000</output>
+	<energy>25000</energy>
+</magmacrucible>
+
+The following shows how to add recipes to the Fluid Transposer
+This shows a recipe where the transposer fills an empty bucket with 1000mB of water and turns it into a water bucket
+<transposer type="fill">
+	<input>minecraft:bucket 1 0</input>
+	<output>minecraft:water_bucket 1 0</output>
+	<fluid>water 1000</fluid>
+	<energy>200</energy>
+</transposer>
+
+This shows a recipe where the transposer extracts 1000mB of water from a water bucket and yields an empty bucket with 100% chance
+<transposer type="extract">
+	<input>minecraft:water_bucket 1 0</input>
+	<output>minecraft:bucket 1 0</output>
+	<fluid>water 1000</fluid>
+	<energy>200</energy>
+	<chance>100</chance>
+</transposer>
+
+The following shows how to add a fuel to the Magmatic Dynamo
+<magmaticfuel>
+	<fuelName>"lava"</fuelName>
+	<energy>10</energy>
+</magmaticfuel>
+
+The following shows how to add a fuel to the Compression Dynamo
+<compressionfuel>
+	<fuelName>"lava"</fuelName>
+	<energy>10</energy>
+</compressionfuel>
+
+The following shows how to add a fuel to the Reactant Dynamo
+<reactantfuel>
+	<fuelName>"lava"</fuelName>
+	<energy>10</energy>
+</reactantfuel>
+
+The following shows how to add a coolant
+<coolant>
+	<fuelName>"water"</fuelName>
+	<energy>10</energy>
+</coolant>-->
+
+<ThermalExpansion>
+	<!--Add your recipes here!-->
+</ThermalExpansion>

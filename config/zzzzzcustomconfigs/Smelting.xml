@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--The syntax for an item stack is the same as you'd use in the /give command. NBT tags are supported! (e.g. minecraft:skull 1 3 {SkullOwner:"ganymedes01"})
+The syntax for a fluid stack is simiar to the item stack, it should be the fluid name followed by the amount. NBT tags are also supported! (e.g. water 1000)
+The syntax for ore dictionary values is the value between double-quotes. (e.g. "ingotIron")
+
+Examples:
+
+The following shows a recipe where you'd smelt a diamond sword and get 2 diamonds.
+The xp parameter determines how much xp the player is given when picking the output up. IT MUSTN'T BE BIGGER THAN 1 OR SMALLER THAN 0!
+<recipe>
+	<output>minecraft:diamond 2 0</output>
+	<input>minecraft:diamond_sword 1 0</input>
+	<xp>1.0</xp>
+</recipe>-->
+
+<Smelting>
+	<!--Add your recipes here!-->
+</Smelting>

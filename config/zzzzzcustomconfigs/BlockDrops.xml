@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--The syntax for an item stack is the same as you'd use in the /give command. NBT tags are supported! (e.g. minecraft:skull 1 3 {SkullOwner:"ganymedes01"})
+The syntax for a fluid stack is simiar to the item stack, it should be the fluid name followed by the amount. NBT tags are also supported! (e.g. water 1000)
+The syntax for ore dictionary values is the value between double-quotes. (e.g. "ingotIron")
+
+Examples:
+
+Use this file to add/remove drops from harvestable blocks
+This may not work for every block. Modded blocks depend on their owners allowing this to happen and some vanilla ones have been bugged forever.
+
+The following shows how to make the Block of Gold drop 9 ingots instead of itself
+<block0 mod="minecraft" id="gold_block" meta="0">
+	<drop0 chance="1.0">minecraft:gold_ingot 9 0</drop0>
+	<blacklist0>minecraft:gold_block 1 0</blacklist0>
+</block0>
+
+The following shows how to make the Farmland drop itself when harvested with Silk Touch
+<block1 mod="minecraft" id="farmland" meta="32767">
+	<drop0 chance="1.0" silkTouch="true">minecraft:farmland 1 0</drop0>
+	<blacklist0>minecraft:dirt 1 0</blacklist0>
+</block1>
+
+-->
+
+<BlockDrops>
+	<!--Add your recipes here!-->
+</BlockDrops>

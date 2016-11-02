@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--The syntax for an item stack is the same as you'd use in the /give command. NBT tags are supported! (e.g. minecraft:skull 1 3 {SkullOwner:"ganymedes01"})
+The syntax for a fluid stack is simiar to the item stack, it should be the fluid name followed by the amount. NBT tags are also supported! (e.g. water 1000)
+The syntax for ore dictionary values is the value between double-quotes. (e.g. "ingotIron")
+
+Examples:
+
+<altar>
+	<output>minecraft:potato 1 0</output>
+	<input>minecraft:poisonous_potato 1 0</input>
+	<tier>1</tier>
+	<bloodAmount>1000</bloodAmount>
+	<consumptionRate>10</consumptionRate>
+	<drainRate>15</drainRate>
+</altar>
+
+Blood Orbs:
+AWWayofTime:weakBloodOrb
+AWWayofTime:apprenticeBloodOrb
+AWWayofTime:magicianBloodOrb
+AWWayofTime:masterBloodOrb
+AWWayofTime:archmageBloodOrb
+
+<bloodorb type="shaped">
+	<output>minecraft:stone 4 0</output>
+	<row1>" x "</row1>
+	<row2>"xyx"</row2>
+	<row3>" x "</row3>
+	<x>minecraft:cobblestone 1 0</x>
+	<y>AWWayofTime:weakBloodOrb 1 0</y>
+</bloodorb>
+
+<bloodorb type="shapeless">
+	<output>minecraft:stone 1 0</output>
+	<input1>minecraft:cobblestone 1 0</input1>
+	<input2>AWWayofTime:weakBloodOrb 1 0</input2>
+</bloodorb>
+
+<binding>
+	<output>minecraft:golden_apple 1 0</output>
+	<input>minecraft:apple 1 0</input>
+</binding>
+
+The number of inputs should not be larger than 5!
+The "lp" value will be multiplied by 100! If you think that's weird ask WayOfTime why.
+<alchemy>
+	<output>minecraft:golden_apple 1 0</output>
+	<bloodOrbLevel>2</bloodOrbLevel>
+	<lp>200</lp>
+	<input1>minecraft:apple 1 0</input1>
+	<input2>minecraft:gold_block 1 0</input2>
+</alchemy>-->
+
+<BloodMagic>
+	<!--Add your recipes here!-->
+</BloodMagic>

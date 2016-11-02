@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--The syntax for an item stack is the same as you'd use in the /give command. NBT tags are supported! (e.g. minecraft:skull 1 3 {SkullOwner:"ganymedes01"})
+The syntax for a fluid stack is simiar to the item stack, it should be the fluid name followed by the amount. NBT tags are also supported! (e.g. water 1000)
+The syntax for ore dictionary values is the value between double-quotes. (e.g. "ingotIron")
+
+Examples:
+
+This file allows adding items that can be fished with the vanilla fishing rod (whether or not it works with modded fishing rods is up to the modder who made them)
+The higher the "chance" is the more likely it is that the item will be fished!
+The are three types of loot that can be obtained from fishing: fish, junk and treasure
+
+The following adds the vanilla fish with it's default chance of 60
+<fish>
+	<fishable>minecraft:fish 1 0</fishable>
+	<chance>60</chance>
+</fish>
+
+The following adds the pufferfish with it's default chance of 13
+<fish>
+	<fishable>minecraft:fish 1 3</fishable>
+	<chance>13</chance>
+</fish>
+
+It's also possible to add damagable items and enchantable items!
+The following adds a diamond hoe that can have up to 90% of it's durability taken. It will NOT be enchanted!
+<treasure>
+	<fishable>minecraft:diamond_hoe 1 0</fishable>
+	<chance>5</chance>
+	<damage>0.9</damage>
+</treasure>
+
+The following adds a golden hoe that can have up to 50% of it's durability taken. It will always be enchanted with up to level 30 enchants (there is no way to change the enchants level)!
+<treasure>
+	<fishable>minecraft:golden_hoe 1 0</fishable>
+	<chance>5</chance>
+	<damage>0.5</damage>
+	<enchantable>true</enchantable>
+</treasure>
+
+It's also possible to add items with NBT tags!
+The following adds a enchanted book with Bane of Arthropods V
+<junk>
+	<fishable>minecraft:enchanted_book 1 0 {StoredEnchantments:[0:{lvl:5s,id:18s}]}</fishable>
+	<chance>100</chance>
+</junk>-->
+
+<Fishing>
+	<!--Add your recipes here!-->
+</Fishing>

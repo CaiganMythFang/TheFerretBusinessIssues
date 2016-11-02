@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--The syntax for an item stack is the same as you'd use in the /give command. NBT tags are supported! (e.g. minecraft:skull 1 3 {SkullOwner:"ganymedes01"})
+The syntax for a fluid stack is simiar to the item stack, it should be the fluid name followed by the amount. NBT tags are also supported! (e.g. water 1000)
+The syntax for ore dictionary values is the value between double-quotes. (e.g. "ingotIron")
+
+Examples:
+
+The following adds SPONGES to generate on smooth stone in veins with 5 blocks at most, up to 10 veins in one chunk, with a minimum Y level of 0, a maximum Y level of 256, and in any dimension but the nether and the end (-1 and 1)
+<add>
+	<ore>minecraft:sponge 1 0</ore>
+	<target>minecraft:stone 1 0</target>
+	<veinSize>5</veinSize>
+	<veinCount>10</veinCount>
+	<minY>0</minY>
+	<maxY>256</maxY>
+	<dimensions type="blacklist">-1,1</dimensions>
+</add>
+
+The following adds GLOWSTONE to generate on netherrack in veins with 10 blocks at most, up to 3 veins in one chunk, with a minimum Y level of 20, a maximum Y level of 40, and in only the dimension of id -1 (a.k.a. The Nether)
+<add>
+	<ore>minecraft:glowstone 1 0</ore>
+	<target>minecraft:netherrack 1 0</target>
+	<veinSize>10</veinSize>
+	<veinCount>3</veinCount>
+	<minY>20</minY>
+	<maxY>40</maxY>
+	<dimensions type="whitelist">-1</dimensions>
+</add>
+
+The following shows how to remove a VANILLA ore from being generated. There is no way to block ores added by other mods.
+Ore types:
+COAL
+DIAMOND
+DIRT
+GOLD
+GRAVEL
+IRON
+LAPIS
+REDSTONE
+QUARTZ
+<remove>
+	<type1>"coal"</type1>
+	<type2>"diamond"</type2>
+	<type3>"iron"</type3>
+</remove>-->
+
+<OreGen>
+	<!--Add your recipes here!-->
+</OreGen>

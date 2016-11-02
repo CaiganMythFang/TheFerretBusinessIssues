@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--The syntax for an item stack is the same as you'd use in the /give command. NBT tags are supported! (e.g. minecraft:skull 1 3 {SkullOwner:"ganymedes01"})
+The syntax for a fluid stack is simiar to the item stack, it should be the fluid name followed by the amount. NBT tags are also supported! (e.g. water 1000)
+The syntax for ore dictionary values is the value between double-quotes. (e.g. "ingotIron")
+
+Chest loot types:
+
+bonusChest
+	minecraft:stick 1 0
+	minecraft:planks 1 0
+	minecraft:log 1 0
+	minecraft:stone_axe 1 0
+	minecraft:wooden_axe 1 0
+	minecraft:stone_pickaxe 1 0
+	minecraft:wooden_pickaxe 1 0
+	minecraft:apple 1 0
+	minecraft:bread 1 0
+	minecraft:log2 1 0
+	Botania:lexicon 1 0
+	Botania:blackLotus 1 0
+	NuclearCraft:ricecake 1 0
+	NuclearCraft:boiledEgg 1 0
+villageBlacksmith
+	minecraft:diamond 1 0
+	minecraft:iron_ingot 1 0
+	minecraft:gold_ingot 1 0
+	minecraft:bread 1 0
+	minecraft:apple 1 0
+	minecraft:iron_pickaxe 1 0
+	minecraft:iron_sword 1 0
+	minecraft:iron_chestplate 1 0
+	minecraft:iron_helmet 1 0
+	minecraft:iron_leggings 1 0
+	minecraft:iron_boots 1 0
+	minecraft:obsidian 1 0
+	minecraft:sapling 1 0
+	minecraft:saddle 1 0
+	minecraft:iron_horse_armor 1 0
+	minecraft:golden_horse_armor 1 0
+	minecraft:diamond_horse_armor 1 0
+	Botania:blackLotus 1 0
+	Railcraft:tool.crowbar 1 0
+	Railcraft:tool.steel.shears 1 0
+	Railcraft:tool.steel.sword 1 0
+	Railcraft:tool.steel.shovel 1 0
+	Railcraft:tool.steel.pickaxe 1 0
+	Railcraft:tool.steel.axe 1 0
+	Railcraft:armor.steel.helmet 1 0
+	Railcraft:armor.steel.plate 1 0
+	Railcraft:armor.steel.legs 1 0
+	Railcraft:armor.steel.boots 1 0
+	Railcraft:ingot 1 0
+	Railcraft:fuel.coke 1 0
+	Railcraft:cube 1 2
+	NuclearCraft:toughHelm 1 0
+	NuclearCraft:toughChest 1 0
+	NuclearCraft:toughLegs 1 0
+	NuclearCraft:toughBoots 1 0
+	NuclearCraft:toughBow 1 0
+	RandomThings:ingredient 1 4
+	rftools:unknownDimlet 1 0
+	Ztones:terrainEater 1 0
+	Ztones:minicharcoal 1 0
+	Ztones:minicoal 1 0
+dungeonChest
+	minecraft:saddle 1 0
+	minecraft:iron_ingot 1 0
+	minecraft:bread 1 0
+	minecraft:wheat 1 0
+	minecraft:gunpowder 1 0
+	minecraft:string 1 0
+	minecraft:bucket 1 0
+	minecraft:golden_apple 1 0
+	minecraft:redstone 1 0
+	minecraft:record_13 1 0
+	minecraft:record_cat 1 0
+	minecraft:name_tag 1 0
+	minecraft:golden_horse_armor 1 0
+	minecraft:iron_horse_armor 1 0
+	minecraft:diamond_horse_armor 1 0
+	minecraft:enchanted_book 1 0 {StoredEnchantments:[0:{lvl:3s,id:16s},1:{lvl:2s,id:62s},2:{lvl:2s,id:45s}]}
+	Botania:manaResource 1 0
+	Botania:lexicon 1 0
+	Botania:manaBottle 1 0
+	Botania:blackLotus 1 0
+	Botania:overgrowthSeed 1 0
+	Railcraft:tool.steel.sword 1 0
+	Railcraft:armor.steel.helmet 1 0
+	Railcraft:armor.steel.plate 1 0
+	Railcraft:armor.steel.legs 1 0
+	Railcraft:armor.steel.boots 1 0
+	NuclearCraft:dominoes 1 0
+	NuclearCraft:ricecake 1 0
+	NuclearCraft:toughBow 1 0
+	NuclearCraft:recordPractice 1 0
+	NuclearCraft:recordArea51 1 0
+	NuclearCraft:recordNeighborhood 1 0
+	NuclearCraft:dUBullet 1 0
+	OpenBlocks:technicolorGlasses 1 0
+	RandomThings:whitestone 1 0
+	rftools:unknownDimlet 1 0
+	Ztones:diamondZane 1 0
+pyramidJungleDispenser
+	minecraft:arrow 1 0
+	NuclearCraft:toughBow 1 0
+	NuclearCraft:pistol 1 0
+	NuclearCraft:dUBullet 1 0
+strongholdLibrary
+	minecraft:book 1 0
+	minecraft:paper 1 0
+	minecraft:map 1 0
+	minecraft:compass 1 0
+	minecraft:enchanted_book 1 0 {StoredEnchantments:[0:{lvl:3s,id:1s}]}
+	MagicBees:frameOblivion 1 0
+	NuclearCraft:dominoes 1 0
+	NuclearCraft:ricecake 1 0
+	NuclearCraft:fuel 1 46
+	NuclearCraft:fuel 1 75
+	NuclearCraft:RTG 1 0
+	NuclearCraft:fuel 1 49
+	NuclearCraft:fuel 1 50
+	NuclearCraft:fuel 1 47
+	NuclearCraft:recordPractice 1 0
+	NuclearCraft:recordArea51 1 0
+	NuclearCraft:recordNeighborhood 1 0
+	NuclearCraft:simpleQuantumUp 1 0
+	NuclearCraft:dUHelm 1 0
+	NuclearCraft:dUChest 1 0
+	NuclearCraft:dULegs 1 0
+	NuclearCraft:dUBoots 1 0
+mineshaftCorridor
+	minecraft:iron_ingot 1 0
+	minecraft:gold_ingot 1 0
+	minecraft:redstone 1 0
+	minecraft:dye 1 4
+	minecraft:diamond 1 0
+	minecraft:coal 1 0
+	minecraft:bread 1 0
+	minecraft:iron_pickaxe 1 0
+	minecraft:rail 1 0
+	minecraft:melon_seeds 1 0
+	minecraft:pumpkin_seeds 1 0
+	minecraft:saddle 1 0
+	minecraft:iron_horse_armor 1 0
+	minecraft:enchanted_book 1 0 {StoredEnchantments:[0:{lvl:4s,id:17s},1:{lvl:1s,id:68s}]}
+	Botania:blackLotus 1 0
+	Botania:overgrowthSeed 1 0
+	Railcraft:fluid.creosote.bottle 1 0
+	Railcraft:tool.crowbar 1 0
+	Railcraft:tool.steel.shears 1 0
+	Railcraft:tool.steel.shovel 1 0
+	Railcraft:tool.steel.pickaxe 1 0
+	Railcraft:tool.steel.axe 1 0
+	Railcraft:ingot 1 0
+	minecraft:minecart 1 0
+	minecraft:chest_minecart 1 0
+	minecraft:tnt_minecart 1 0
+	minecraft:rail 1 0
+	minecraft:hopper_minecart 1 0
+	Railcraft:part.tie 1 0
+	Railcraft:fuel.coke 1 0
+	Railcraft:part.gear 1 3
+	Railcraft:cube 1 2
+	Railcraft:cart.tnt.wood 1 0
+	Railcraft:cart.work 1 0
+	NuclearCraft:dominoes 1 0
+	NuclearCraft:ricecake 1 0
+	NuclearCraft:recordPractice 1 0
+	NuclearCraft:recordArea51 1 0
+	NuclearCraft:recordNeighborhood 1 0
+	NuclearCraft:pistol 1 0
+	NuclearCraft:dUBullet 1 0
+	OpenBlocks:technicolorGlasses 1 0
+	rftools:unknownDimlet 1 0
+	Ztones:splatAxe 1 0
+pyramidDesertyChest
+	minecraft:diamond 1 0
+	minecraft:iron_ingot 1 0
+	minecraft:gold_ingot 1 0
+	minecraft:emerald 1 0
+	minecraft:bone 1 0
+	minecraft:rotten_flesh 1 0
+	minecraft:saddle 1 0
+	minecraft:iron_horse_armor 1 0
+	minecraft:golden_horse_armor 1 0
+	minecraft:diamond_horse_armor 1 0
+	minecraft:enchanted_book 1 0 {StoredEnchantments:[0:{lvl:3s,id:21s},1:{lvl:3s,id:35s},2:{lvl:2s,id:154s},3:{lvl:4s,id:48s}]}
+	Botania:blackLotus 1 0
+	Botania:overgrowthSeed 1 0
+	Railcraft:tool.steel.sword 1 0
+	Railcraft:armor.steel.helmet 1 0
+	Railcraft:armor.steel.plate 1 0
+	Railcraft:armor.steel.legs 1 0
+	Railcraft:armor.steel.boots 1 0
+	NuclearCraft:dominoes 1 0
+	NuclearCraft:ricecake 1 0
+	rftools:unknownDimlet 1 0
+pyramidJungleChest
+	minecraft:diamond 1 0
+	minecraft:iron_ingot 1 0
+	minecraft:gold_ingot 1 0
+	minecraft:emerald 1 0
+	minecraft:bone 1 0
+	minecraft:rotten_flesh 1 0
+	minecraft:saddle 1 0
+	minecraft:iron_horse_armor 1 0
+	minecraft:golden_horse_armor 1 0
+	minecraft:diamond_horse_armor 1 0
+	minecraft:enchanted_book 1 0 {StoredEnchantments:[0:{lvl:2s,id:212s},1:{lvl:4s,id:48s}]}
+	Botania:blackLotus 1 0
+	Botania:overgrowthSeed 1 0
+	Railcraft:tool.steel.sword 1 0
+	Railcraft:armor.steel.helmet 1 0
+	Railcraft:armor.steel.plate 1 0
+	Railcraft:armor.steel.legs 1 0
+	Railcraft:armor.steel.boots 1 0
+	NuclearCraft:dominoes 1 0
+	NuclearCraft:fishAndRicecake 1 0
+	NuclearCraft:toughHelm 1 0
+	NuclearCraft:toughChest 1 0
+	NuclearCraft:toughLegs 1 0
+	NuclearCraft:toughBoots 1 0
+	rftools:unknownDimlet 1 0
+	Ztones:hunger 1 0
+strongholdCrossing
+	minecraft:iron_ingot 1 0
+	minecraft:gold_ingot 1 0
+	minecraft:redstone 1 0
+	minecraft:coal 1 0
+	minecraft:bread 1 0
+	minecraft:apple 1 0
+	minecraft:iron_pickaxe 1 0
+	minecraft:enchanted_book 1 0 {StoredEnchantments:[0:{lvl:4s,id:3s},1:{lvl:4s,id:18s}]}
+	Railcraft:tool.steel.sword 1 0
+	Railcraft:armor.steel.helmet 1 0
+	Railcraft:armor.steel.plate 1 0
+	Railcraft:armor.steel.legs 1 0
+	Railcraft:armor.steel.boots 1 0
+	NuclearCraft:fishAndRicecake 1 0
+	NuclearCraft:toughAlloyPaxel 1 0
+	NuclearCraft:dUPaxel 1 0
+	NuclearCraft:AmRTG 1 0
+	NuclearCraft:parts 1 9
+	NuclearCraft:recordPractice 1 0
+	NuclearCraft:recordArea51 1 0
+	NuclearCraft:recordNeighborhood 1 0
+	NuclearCraft:parts 1 16
+	NuclearCraft:parts 1 17
+	NuclearCraft:parts 1 0
+	NuclearCraft:parts 1 4
+	NuclearCraft:parts 1 14
+strongholdCorridor
+	minecraft:ender_pearl 1 0
+	minecraft:diamond 1 0
+	minecraft:iron_ingot 1 0
+	minecraft:gold_ingot 1 0
+	minecraft:redstone 1 0
+	minecraft:bread 1 0
+	minecraft:apple 1 0
+	minecraft:iron_pickaxe 1 0
+	minecraft:iron_sword 1 0
+	minecraft:iron_chestplate 1 0
+	minecraft:iron_helmet 1 0
+	minecraft:iron_leggings 1 0
+	minecraft:iron_boots 1 0
+	minecraft:golden_apple 1 0
+	minecraft:saddle 1 0
+	minecraft:iron_horse_armor 1 0
+	minecraft:golden_horse_armor 1 0
+	minecraft:diamond_horse_armor 1 0
+	minecraft:enchanted_book 1 0 {StoredEnchantments:[0:{lvl:4s,id:32s},1:{lvl:4s,id:48s}]}
+	Botania:manaResource 1 1
+	Botania:manaResource 1 1
+	Botania:blackLotus 1 0
+	Botania:overgrowthSeed 1 0
+	Railcraft:tool.steel.sword 1 0
+	Railcraft:armor.steel.helmet 1 0
+	Railcraft:armor.steel.plate 1 0
+	Railcraft:armor.steel.legs 1 0
+	Railcraft:armor.steel.boots 1 0
+	MagicBees:frameOblivion 1 0
+	NuclearCraft:fishAndRicecake 1 0
+	NuclearCraft:toughAlloyPaxel 1 0
+	NuclearCraft:AmRTG 1 0
+	NuclearCraft:parts 1 9
+	NuclearCraft:parts 1 16
+	NuclearCraft:parts 1 17
+	NuclearCraft:parts 1 0
+	NuclearCraft:parts 1 4
+	NuclearCraft:parts 1 14
+	rftools:unknownDimlet 1 0
+railcraft:workshop
+	Railcraft:fluid.creosote.bottle 1 0
+	minecraft:coal 1 0
+	Railcraft:tool.crowbar 1 0
+	Railcraft:tool.magnifying.glass 1 0
+	Railcraft:armor.goggles 1 0
+	Railcraft:armor.overalls 1 0
+	minecraft:minecart 1 0
+	minecraft:chest_minecart 1 0
+	minecraft:tnt_minecart 1 0
+	minecraft:rail 1 0
+	minecraft:hopper_minecart 1 0
+	Railcraft:part.tie 1 0
+	Railcraft:part.tie 1 1
+	Railcraft:part.rail 1 0
+	Railcraft:part.rail 1 1
+	Railcraft:part.rail 1 2
+	Railcraft:part.rail 1 3
+	Railcraft:part.rail 1 4
+	Railcraft:fuel.coke 1 0
+	Railcraft:part.gear 1 3
+	Railcraft:cart.tnt.wood 1 0
+	Railcraft:cart.work 1 0
+	Railcraft:tool.surveyor 1 0
+	Railcraft:tool.signal.tuner 1 0
+	Railcraft:tool.electric.meter 1 0
+
+Examples:
+
+The following adds Diamond Horse Armour as a loot that can be found on bonus chests
+You can replace "bonusChest" with any of the values listed above.
+The weight value is how often this loot will be found. The greater the value the more common it will be
+The minAmount and maxAmount values are the amount of this loot that can be found in a chest.
+In the example below, if the item is picked to be put in a chest, that chest will have at least 3 of that item but 5 at most.
+
+<bonusChest>
+	<loot>minecraft:diamond_horse_armor 1 0</loot>
+	<weight>5</weight>
+	<minAmount>3</minAmount>
+	<maxAmount>5</maxAmount>
+</bonusChest>
+
+The following shows how to remove diamonds and apples from the village's chest loot<villageBlacksmith>
+	<remove0>minecraft:diamond 1 0</remove0>
+	<remove1>minecraft:apple 1 0</remove1>
+</villageBlacksmith>
+-->
+
+<ChestLoot>
+	<!--Add your recipes here!-->
+</ChestLoot>
