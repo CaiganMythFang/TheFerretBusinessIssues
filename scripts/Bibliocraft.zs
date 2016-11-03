@@ -102,6 +102,7 @@ recipes.addShaped(<BiblioCraft:item.HandDrill>, [[<ore:ingotIron>, null, <minecr
 <ore:ferretAllToolRack>.add(<BiblioCraft:BiblioRack:2>);
 <ore:ferretAllToolRack>.add(<BiblioCraft:BiblioRack:3>);
 <ore:ferretAllToolRack>.add(<BiblioCraft:BiblioRack:4>);
+<ore:ferretAllToolRack>.add(<BiblioCraft:BiblioRack:5>);
 <ore:ferretAllToolRack>.add(<BiblioCraft:BiblioRack:6>);
 
 // Shelf Ore Dictionary

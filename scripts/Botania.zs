@@ -1,4 +1,80 @@
 val shroom = <ore:listAllmushroom>;
+val magicflower = <ore:ferretAllbasicbotflowers>;
+val petals = <ore:ferretAllbotaniapetals>;
+val ucube = <ore:ferretAllmanacube>;
+val ubeacon = <ore:ferretAllbeacon>;
+
+// Ore Dictionary Unstable Beacon
+ubeacon.add(<Botania:manaBeacon:0>);
+ubeacon.add(<Botania:manaBeacon:1>);
+ubeacon.add(<Botania:manaBeacon:2>);
+ubeacon.add(<Botania:manaBeacon:3>);
+ubeacon.add(<Botania:manaBeacon:4>);
+ubeacon.add(<Botania:manaBeacon:5>);
+ubeacon.add(<Botania:manaBeacon:6>);
+ubeacon.add(<Botania:manaBeacon:7>);
+ubeacon.add(<Botania:manaBeacon:8>);
+ubeacon.add(<Botania:manaBeacon:9>);
+ubeacon.add(<Botania:manaBeacon:10>);
+ubeacon.add(<Botania:manaBeacon:11>);
+ubeacon.add(<Botania:manaBeacon:12>);
+ubeacon.add(<Botania:manaBeacon:13>);
+ubeacon.add(<Botania:manaBeacon:14>);
+ubeacon.add(<Botania:manaBeacon:15>);
+
+// Ore Dictionary Unstable Cube
+ucube.add(<Botania:unstableBlock:0>);
+ucube.add(<Botania:unstableBlock:1>);
+ucube.add(<Botania:unstableBlock:2>);
+ucube.add(<Botania:unstableBlock:3>);
+ucube.add(<Botania:unstableBlock:4>);
+ucube.add(<Botania:unstableBlock:5>);
+ucube.add(<Botania:unstableBlock:6>);
+ucube.add(<Botania:unstableBlock:7>);
+ucube.add(<Botania:unstableBlock:8>);
+ucube.add(<Botania:unstableBlock:9>);
+ucube.add(<Botania:unstableBlock:10>);
+ucube.add(<Botania:unstableBlock:11>);
+ucube.add(<Botania:unstableBlock:12>);
+ucube.add(<Botania:unstableBlock:13>);
+ucube.add(<Botania:unstableBlock:14>);
+ucube.add(<Botania:unstableBlock:15>);
+
+// Ore Dictionary Petals
+petals.add(<Botania:petal:0>);
+petals.add(<Botania:petal:1>);
+petals.add(<Botania:petal:2>);
+petals.add(<Botania:petal:3>);
+petals.add(<Botania:petal:4>);
+petals.add(<Botania:petal:5>);
+petals.add(<Botania:petal:6>);
+petals.add(<Botania:petal:7>);
+petals.add(<Botania:petal:8>);
+petals.add(<Botania:petal:9>);
+petals.add(<Botania:petal:10>);
+petals.add(<Botania:petal:11>);
+petals.add(<Botania:petal:12>);
+petals.add(<Botania:petal:13>);
+petals.add(<Botania:petal:14>);
+petals.add(<Botania:petal:15>);
+
+// Ore Dictionary Botania Flowers
+magicflower.add(<Botania:flower:0>);
+magicflower.add(<Botania:flower:1>);
+magicflower.add(<Botania:flower:2>);
+magicflower.add(<Botania:flower:3>);
+magicflower.add(<Botania:flower:4>);
+magicflower.add(<Botania:flower:5>);
+magicflower.add(<Botania:flower:6>);
+magicflower.add(<Botania:flower:7>);
+magicflower.add(<Botania:flower:8>);
+magicflower.add(<Botania:flower:9>);
+magicflower.add(<Botania:flower:10>);
+magicflower.add(<Botania:flower:11>);
+magicflower.add(<Botania:flower:12>);
+magicflower.add(<Botania:flower:13>);
+magicflower.add(<Botania:flower:14>);
+magicflower.add(<Botania:flower:15>);
 
 // Ore Dictionary Flower Powder
 <ore:ferretAllflowerpowder>.add(<Botania:dye:0>);

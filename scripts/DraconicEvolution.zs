@@ -3,7 +3,7 @@ import minetweaker.item.IItemStack;
 // Safety Match
 recipes.remove(<DraconicEvolution:safetyMatch:1000>);
 <DraconicEvolution:safetyMatch:1000>.addTooltip(format.darkPurple("Penultimate Ferret Business item."));
-<DraconicEvolution:safetyMatch:1000>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:safetyMatch:1000>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Safety Match
 <DraconicEvolution:safetyMatch>.addTooltip(format.darkPurple("Penultimate Ferret Business item."));
@@ -22,12 +22,12 @@ recipes.remove(<DraconicEvolution:infoTablet>);
 
 // Draconium Ingot
 <DraconicEvolution:draconiumIngot>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:draconiumIngot>.addTooltip(format.darkGreen("This can be purchased in the Shop."));
+<DraconicEvolution:draconiumIngot>.addTooltip(format.darkGreen("This can be purchased in the QUEST Tablet."));
 
 // Draconic Core
 recipes.remove(<DraconicEvolution:draconicCore>);
 <DraconicEvolution:draconicCore>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:draconicCore>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:draconicCore>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Wyvern Core
 <DraconicEvolution:wyvernCore>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
@@ -40,22 +40,22 @@ recipes.remove(<DraconicEvolution:draconicCore>);
 // Wyvern Bow
 recipes.remove(<DraconicEvolution:wyvernBow>);
 <DraconicEvolution:wyvernBow>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:wyvernBow>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:wyvernBow>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Wyvern Sword
 recipes.remove(<DraconicEvolution:wyvernSword>);
 <DraconicEvolution:wyvernSword>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:wyvernSword>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:wyvernSword>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Wyvern Shovel
 recipes.remove(<DraconicEvolution:wyvernShovel>);
 <DraconicEvolution:wyvernShovel>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:wyvernShovel>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:wyvernShovel>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Wyvern Pick
 recipes.remove(<DraconicEvolution:wyvernPickaxe>);
 <DraconicEvolution:wyvernPickaxe>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:wyvernPickaxe>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:wyvernPickaxe>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Wyvern Flux Capacitor
 recipes.remove(<DraconicEvolution:draconiumFluxCapacitor:0>);
@@ -70,52 +70,52 @@ recipes.addShaped(<DraconicEvolution:draconiumFluxCapacitor:1>, [[<ore:ingotDrac
 // Wyvern Chestplate
 recipes.remove(<DraconicEvolution:wyvernChest>);
 <DraconicEvolution:wyvernChest>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:wyvernChest>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:wyvernChest>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Wyvern Leggings
 recipes.remove(<DraconicEvolution:wyvernLeggs>);
 <DraconicEvolution:wyvernLeggs>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:wyvernLeggs>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:wyvernLeggs>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Wyvern Boots
 recipes.remove(<DraconicEvolution:wyvernBoots>);
 <DraconicEvolution:wyvernBoots>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:wyvernBoots>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:wyvernBoots>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Wyvern Helm
 recipes.remove(<DraconicEvolution:wyvernHelm>);
 <DraconicEvolution:wyvernHelm>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:wyvernHelm>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:wyvernHelm>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Charm of Dislocation
 recipes.remove(<DraconicEvolution:teleporterMKI>);
 <DraconicEvolution:teleporterMKI>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:teleporterMKI>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:teleporterMKI>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Enhanced Charm of Dislocation
 recipes.remove(<DraconicEvolution:teleporterMKII>);
 <DraconicEvolution:teleporterMKII>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:teleporterMKII>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:teleporterMKII>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Dislocator Pedastal
 recipes.remove(<DraconicEvolution:teleporterStand>);
 <DraconicEvolution:teleporterStand>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:teleporterStand>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:teleporterStand>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Particle Generator
 recipes.remove(<DraconicEvolution:particleGenerator>);
 <DraconicEvolution:particleGenerator>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:particleGenerator>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:particleGenerator>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Weather Controller
 recipes.remove(<DraconicEvolution:weatherController>);
 <DraconicEvolution:weatherController>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:weatherController>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:weatherController>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Energy Core
 recipes.remove(<DraconicEvolution:energyStorageCore>);
 <DraconicEvolution:energyStorageCore>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:energyStorageCore>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:energyStorageCore>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Energy Pylon
 <DraconicEvolution:energyPylon>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
@@ -136,7 +136,7 @@ recipes.remove(<DraconicEvolution:energyStorageCore>);
 // Energy Infuser
 recipes.remove(<DraconicEvolution:energyInfuser>);
 <DraconicEvolution:energyInfuser>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:energyInfuser>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:energyInfuser>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Dracon Heart
 <DraconicEvolution:dragonHeart>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
@@ -161,62 +161,62 @@ recipes.remove(<DraconicEvolution:energyInfuser>);
 // Awakened Draconic Shovel
 recipes.remove(<DraconicEvolution:draconicShovel:0>);
 <DraconicEvolution:draconicShovel:0>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:draconicShovel:0>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:draconicShovel:0>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Awakened Draconic Axe
 recipes.remove(<DraconicEvolution:draconicAxe:0>);
 <DraconicEvolution:draconicAxe:0>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:draconicAxe:0>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:draconicAxe:0>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Awakened Draconic Sword
 recipes.remove(<DraconicEvolution:draconicSword:0>);
 <DraconicEvolution:draconicSword:0>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:draconicSword:0>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:draconicSword:0>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Awakened Draconic Pickaxe
 recipes.remove(<DraconicEvolution:draconicPickaxe:0>);
 <DraconicEvolution:draconicPickaxe:0>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:draconicPickaxe:0>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:draconicPickaxe:0>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Awakened Draconic Staff
 recipes.remove(<DraconicEvolution:draconicDistructionStaff:0>);
 <DraconicEvolution:draconicDistructionStaff:0>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:draconicDistructionStaff:0>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:draconicDistructionStaff:0>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Awakened Draconic Helm
 recipes.remove(<DraconicEvolution:draconicHelm:0>);
 <DraconicEvolution:draconicHelm:0>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:draconicHelm:0>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:draconicHelm:0>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Awakened Draconic Boots
 recipes.remove(<DraconicEvolution:draconicBoots:0>);
 <DraconicEvolution:draconicBoots:0>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:draconicBoots:0>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:draconicBoots:0>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Awakened Draconic Chest
 recipes.remove(<DraconicEvolution:draconicChest:0>);
 <DraconicEvolution:draconicChest:0>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:draconicChest:0>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:draconicChest:0>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Awakened Draconic Legs
 recipes.remove(<DraconicEvolution:draconicLeggs:0>);
 <DraconicEvolution:draconicLeggs:0>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:draconicLeggs:0>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:draconicLeggs:0>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Awakened Draconic Bow
 recipes.remove(<DraconicEvolution:draconicBow:0>);
 <DraconicEvolution:draconicBow:0>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:draconicBow:0>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:draconicBow:0>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Awakened Draconic Hoe
 recipes.remove(<DraconicEvolution:draconicHoe:0>);
 <DraconicEvolution:draconicHoe:0>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:draconicHoe:0>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:draconicHoe:0>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Mob Grinder
 recipes.remove(<DraconicEvolution:grinder:3>);
 <DraconicEvolution:grinder:3>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:grinder:3>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:grinder:3>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Stabilized Spawner
 recipes.remove(<DraconicEvolution:customSpawner:0>);
@@ -225,12 +225,12 @@ recipes.remove(<DraconicEvolution:customSpawner:0>);
 // Draconic Flame
 recipes.remove(<DraconicEvolution:xRayBlock:0>);
 <DraconicEvolution:xRayBlock:0>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:xRayBlock:0>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:xRayBlock:0>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Generator
 recipes.remove(<DraconicEvolution:generator:3>);
 <DraconicEvolution:generator:3>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:generator:3>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:generator:3>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Crystal
 <DraconicEvolution:energyCrystal:0>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
@@ -267,37 +267,37 @@ recipes.remove(<DraconicEvolution:sunFocus:0>);
 // Potentiometer
 recipes.remove(<DraconicEvolution:potentiometer:0>);
 <DraconicEvolution:potentiometer:0>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:potentiometer:0>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:potentiometer:0>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Player Detector
 recipes.remove(<DraconicEvolution:playerDetector:0>);
 <DraconicEvolution:playerDetector:0>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:playerDetector:0>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:playerDetector:0>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Rain Sensor
 recipes.remove(<DraconicEvolution:rainSensor:0>);
 <DraconicEvolution:rainSensor:0>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:rainSensor:0>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:rainSensor:0>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Draconic Chest
 recipes.remove(<DraconicEvolution:draconiumChest:0>);
 <DraconicEvolution:draconiumChest:0>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:draconiumChest:0>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:draconiumChest:0>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Advanced Player Detector
 recipes.remove(<DraconicEvolution:playerDetectorAdvanced:0>);
 <DraconicEvolution:playerDetectorAdvanced:0>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:playerDetectorAdvanced:0>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:playerDetectorAdvanced:0>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // disenchanter
 recipes.remove(<DraconicEvolution:dissEnchanter:0>);
 <DraconicEvolution:dissEnchanter:0>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:dissEnchanter:0>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:dissEnchanter:0>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Sun Dial
 recipes.remove(<DraconicEvolution:sunDial:0>);
 <DraconicEvolution:sunDial:0>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:sunDial:0>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:sunDial:0>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Chaos Shard
 <DraconicEvolution:chaosShard:0>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
@@ -362,12 +362,12 @@ recipes.remove(<DraconicEvolution:sunDial:0>);
 // Flux Gate
 recipes.remove(<DraconicEvolution:flowGate:0>);
 <DraconicEvolution:flowGate:0>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:flowGate:0>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:flowGate:0>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Fluid Gate
 recipes.remove(<DraconicEvolution:flowGate:6>);
 <DraconicEvolution:flowGate:6>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:flowGate:6>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:flowGate:6>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Infused Obsidian
 <DraconicEvolution:infusedObsidian:0>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
@@ -376,7 +376,7 @@ recipes.remove(<DraconicEvolution:flowGate:6>);
 // Dislocator Receptecal
 recipes.remove(<DraconicEvolution:dislocatorReceptacle:0>);
 <DraconicEvolution:dislocatorReceptacle:0>.addTooltip(format.darkPurple("Penultimate Ferret Business research item."));
-<DraconicEvolution:dislocatorReceptacle:0>.addTooltip(format.darkGreen("This can only be purchased in the Shop."));
+<DraconicEvolution:dislocatorReceptacle:0>.addTooltip(format.darkGreen("This can only be purchased in the QUEST Tablet."));
 
 // Item Dislocator
 recipes.remove(<DraconicEvolution:magnet:0>);
