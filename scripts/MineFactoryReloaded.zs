@@ -1,4 +1,32 @@
 import mods.mfr.MiningLaser;
+import minetweaker.item.IItemStack;
+
+// Ceramic Dye Ore Dictionary
+var MFRCeramic = [
+<MineFactoryReloaded:ceramicdye:*>
+] as IItemStack[];
+
+for i, toy in MFRCeramic {
+     <ore:ferretAllMFRCeramic>.add(toy);
+}
+
+// Stained Glass Ore Dictionary
+var MFRStainedGlass = [
+<MineFactoryReloaded:stainedglass.block:*>
+] as IItemStack[];
+
+for i, toy in MFRStainedGlass {
+     <ore:ferretAllMFRStained>.add(toy);
+}
+
+// Laser Focus Ore Dictionary
+var MFRLaserFocus = [
+<MineFactoryReloaded:laserfocus:*>
+] as IItemStack[];
+
+for i, toy in MFRLaserFocus {
+     <ore:ferretAllMFRFocus>.add(toy);
+}
 
 // --------------Mining Laser Ore Changes
 // Mana Ore

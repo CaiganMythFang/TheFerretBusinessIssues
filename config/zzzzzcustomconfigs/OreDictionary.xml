@@ -22,5 +22,8 @@ The following registers the vanilla gold ingot as "ingotGold"
 </ore>-->
 
 <OreDictionary>
-	<!--Add your recipes here!-->
+<ore>
+<name>cropSesameseed</name>
+<stack1>harvestcraft:sesameseedsItem 1 0</stack1>
+</ore>
 </OreDictionary>
