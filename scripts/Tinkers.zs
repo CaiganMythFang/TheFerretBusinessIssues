@@ -61,3 +61,22 @@ mods.tconstruct.ToolStats.setSpeed("Lumium", 500);
 mods.tconstruct.ToolStats.setHarvestLevel("Lumium", 5);
 mods.tconstruct.ToolStats.setDamage("Lumium", 6);
 mods.tconstruct.ToolStats.setBowDrawspeed("Lumium", 30);
+
+// Dark Steel casting
+mods.tconstruct.Casting.addBasinRecipe(<EnderIO:blockIngotStorage:6>, <liquid:dark.steel.molten> * 1296, null, false, 80);
+mods.tconstruct.Casting.addTableRecipe(<EnderIO:itemAlloy:6>, <liquid:dark.steel.molten> * 144, <TConstruct:metalPattern>, false, 20);
+
+// Elementium casting
+mods.tconstruct.Casting.addBasinRecipe(<Botania:storage:2>, <liquid:elementium.molten> * 1296, null, false, 80);
+mods.tconstruct.Casting.addTableRecipe(<Botania:manaResource:7>, <liquid:elementium.molten> * 144, <TConstruct:metalPattern>, false, 20);
+
+// Manasteel casting
+mods.tconstruct.Casting.addBasinRecipe(<Botania:storage:0>, <liquid:manasteel.molten> * 1296, null, false, 80);
+mods.tconstruct.Casting.addTableRecipe(<Botania:manaResource:0>, <liquid:manasteel.molten> * 144, <TConstruct:metalPattern>, false, 20);
+
+// Terrasteel casting
+mods.tconstruct.Casting.addBasinRecipe(<Botania:storage:1>, <liquid:terrasteel.molten> * 1296, null, false, 80);
+mods.tconstruct.Casting.addTableRecipe(<Botania:manaResource:4>, <liquid:terrasteel.molten> * 144, <TConstruct:metalPattern>, false, 20);
+
+// voidmetal casting
+mods.tconstruct.Casting.addTableRecipe(<Thaumcraft:ItemResource:16>, <liquid:voidmetal.molten> * 144, <TConstruct:metalPattern>, false, 20);

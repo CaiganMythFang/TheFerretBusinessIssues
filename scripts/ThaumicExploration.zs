@@ -1,0 +1,2 @@
+// Transmutative Rod
+mods.thaumcraft.Arcane.addShapeless("ROD_TRANSMUTATION", <ThaumicExploration:transmutationCore>, "aqua 50, terra 50, perditio 50, ordo 50, aer 50, ignis 50", [<Thaumcraft:ItemShard:0>, <Thaumcraft:ItemShard:1>, <Thaumcraft:ItemShard:2>, <Thaumcraft:ItemShard:3>, <Thaumcraft:ItemShard:4>, <Thaumcraft:ItemShard:5>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:15>]);
