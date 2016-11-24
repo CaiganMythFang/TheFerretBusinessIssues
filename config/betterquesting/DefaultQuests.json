@@ -15583,10 +15583,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "ferretshinies:NullToken",
+        "id": "BiblioCraft:BiblioClock",
         "Count": 1,
         "OreDict": "",
-        "Damage": 6
+        "Damage": 0
       },
       "visibility": "NORMAL",
       "tasks": [
@@ -15597,10 +15597,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "ferretshinies:NullToken",
+              "id": "BiblioCraft:BiblioClock",
               "Count": 1,
               "OreDict": "ferretAllGrandfatherClocks",
-              "Damage": 6
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Any Bibliocraft Clock"
+                }
+              }
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -15685,10 +15691,16 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "ferretshinies:NullToken",
+        "id": "BiblioCraft:BiblioTypewriter",
         "Count": 1,
         "OreDict": "",
-        "Damage": 7
+        "Damage": 0,
+        "tag": {
+          "RepairCost:4": 2,
+          "display:10": {
+            "Name:8": "Any Typewriter"
+          }
+        }
       },
       "visibility": "NORMAL",
       "tasks": [
@@ -15699,10 +15711,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "ferretshinies:NullToken",
+              "id": "BiblioCraft:BiblioTypewriter",
               "Count": 1,
               "OreDict": "ferretAllTypewriter",
-              "Damage": 7
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Any Typewriter"
+                }
+              }
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -15714,10 +15732,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "ferretshinies:NullToken",
+              "id": "BiblioCraft:BiblioWorkbench",
               "Count": 1,
               "OreDict": "ferretAllFancyWorkbench",
-              "Damage": 8
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Any Fancy Workbench"
+                }
+              }
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -15852,10 +15876,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "ferretshinies:NullToken",
+              "id": "BiblioCraft:Bibliotheca",
               "Count": 1,
               "OreDict": "ferretAllBookcase",
-              "Damage": 13
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Any Bibliocraft Bookcase"
+                }
+              }
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -15867,10 +15897,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "ferretshinies:NullToken",
+              "id": "BiblioCraft:BiblioShelf",
               "Count": 1,
               "OreDict": "ferretAllShelf",
-              "Damage": 16
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Any Bibliocraft Shelf"
+                }
+              }
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -15882,10 +15918,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "ferretshinies:NullToken",
+              "id": "BiblioCraft:BiblioRack",
               "Count": 1,
               "OreDict": "ferretAllToolRack",
-              "Damage": 15
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Any Tool Rack"
+                }
+              }
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -15897,10 +15939,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "ferretshinies:NullToken",
+              "id": "BiblioCraft:BiblioPotionShelf",
               "Count": 1,
               "OreDict": "ferretAllPotionShelf",
-              "Damage": 17
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Any Potion Shelf"
+                }
+              }
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -15912,10 +15960,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "ferretshinies:NullToken",
+              "id": "BiblioCraft:BiblioCase",
               "Count": 1,
               "OreDict": "ferretAllCase",
-              "Damage": 14
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Any Bibliocraft Case"
+                }
+              }
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -16045,10 +16099,16 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "ferretshinies:NullToken",
+        "id": "BiblioCraft:BiblioFlatPainting",
         "Count": 1,
         "OreDict": "",
-        "Damage": 10
+        "Damage": 0,
+        "tag": {
+          "RepairCost:4": 2,
+          "display:10": {
+            "Name:8": "Any Single Tier Painting Frame"
+          }
+        }
       },
       "visibility": "NORMAL",
       "tasks": [
@@ -16092,16 +16152,28 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "ferretshinies:NullToken",
+              "id": "BiblioCraft:BiblioBorderlessPainting",
               "Count": 1,
               "OreDict": "ferretAllBorderlessPaintingFrame",
-              "Damage": 9
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Any Borderless Painting Frame"
+                }
+              }
             },
             {
-              "id": "ferretshinies:NullToken",
+              "id": "BiblioCraft:BiblioFlatPainting",
               "Count": 1,
               "OreDict": "ferretAll1TierPaintingFrame",
-              "Damage": 10
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Any Single Tier Painting Frame"
+                }
+              }
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -16113,10 +16185,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "ferretshinies:NullToken",
+              "id": "BiblioCraft:BiblioMapFrames",
               "Count": 1,
               "OreDict": "ferretAllMapFrame",
-              "Damage": 11
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Any Map Frame"
+                }
+              }
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -16353,10 +16431,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "ferretshinies:NullToken",
+              "id": "BiblioCraft:BiblioLabel",
               "Count": 1,
               "OreDict": "ferretAllWoodLabel",
-              "Damage": 18
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Any Wood Label"
+                }
+              }
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -16368,10 +16452,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "ferretshinies:NullToken",
+              "id": "BiblioCraft:BiblioFancySign",
               "Count": 1,
               "OreDict": "ferretAllFancySign",
-              "Damage": 19
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Any Fancy Sign"
+                }
+              }
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -16544,8 +16634,14 @@
             {
               "id": "BiblioCraft:BiblioPaneler",
               "Count": 1,
-              "OreDict": "",
-              "Damage": 0
+              "OreDict": "ferretAllBiblioPaneler",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Any Furniture Paneler"
+                }
+              }
             },
             {
               "id": "BiblioCraft:BiblioSeats",
@@ -17131,10 +17227,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "ferretshinies:NullToken",
+              "id": "BiblioCraft:BiblioTable",
               "Count": 1,
               "OreDict": "ferretAllTable",
-              "Damage": 20
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Any Bibliocraft Table"
+                }
+              }
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -17146,10 +17248,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "ferretshinies:NullToken",
+              "id": "BiblioCraft:BiblioDesk",
               "Count": 1,
               "OreDict": "ferretAllDesk",
-              "Damage": 21
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Any Bibliocraft Desk"
+                }
+              }
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -17161,10 +17269,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "ferretshinies:NullToken",
+              "id": "BiblioCraft:BiblioSeats",
               "Count": 1,
               "OreDict": "ferretAllSeat",
-              "Damage": 22
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Any Bibliocraft Seat"
+                }
+              }
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -17176,10 +17290,16 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "ferretshinies:NullToken",
+              "id": "BiblioCraft:item.seatBack",
               "Count": 1,
               "OreDict": "ferretAllSeatBack",
-              "Damage": 23
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Any Seat Back"
+                }
+              }
             }
           ],
           "taskID": "bq_standard:retrieval"
