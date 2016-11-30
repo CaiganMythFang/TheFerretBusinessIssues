@@ -1,9 +1,34 @@
-TConstruct:cutlass,1,0,{InfiTool:{BaseDurability:98,Head:1,BaseAttack:5,ToolEXP:0L,Built:1b,HarvestLevel:1,Attack:5,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,ToolLevel:1,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:98,Modifiers:1},RepairCost:2,display:{Name:"Ferret Business Utility Blade"}}
+questbook:questBook,1,0
 HardcoreQuesting:quest_book,1,0,{}
-minecraft:book,1,0,{RepairCost:2,display:{Name:"Empty Journal"}}
-minecraft:string,1,0,{RepairCost:2,display:{Name:"Pocket String"}}
-harvestcraft:sushiItem,5,0
-Botania:brewVial,1,0,{RepairCost:2,display:{Name:"Heavily Caffeinated Soda"},brewKey:"speed"}
-minecraft:compass,1,0
-minecraft:torch,16,0
-BiblioCraft:item.BiblioClipboard,1,0,{RepairCost:2,page1:{title:"Teleportation Test 71c1",taskStates:[1,1,1,2,2,0,0,0,0,],tasks:{task5:"DO NOT TOUCH RED B...",task6:"""",task7:"""",task8:"""",task9:"""",task1:"Equip Assistant",task2:"Check Power Reading",task3:"Adjust Omega level",task4:"Relay Danger Caution"}},display:{Name:"Testing Checklist"},totalPages:1,currentPage:1}
+ferretshinies:NullToken,1,0
+ferretshinies:NullToken,1,0
+ferretshinies:NullToken,1,0
+ferretshinies:NullToken,1,0
+ferretshinies:NullToken,1,0
+ferretshinies:NullToken,1,0
+je_calculation:itemCalculator,1,0,{recent1:{id:9309s,Count:1b,tag:{mark:1b},Damage:0s},recent2:{id:9303s,Count:1b,tag:{mark:1b},Damage:2s},recent0:{id:9309s,Count:1b,tag:{mark:1b},Damage:1s},recent5:{id:8578s,Count:1b,tag:{mark:1b},Damage:2s},recent3:{id:9303s,Count:1b,tag:{mark:1b},Damage:1s},text:"",recent4:{id:9303s,Count:1b,tag:{mark:1b},Damage:0s},dest:{id:9309s,Count:1b,tag:{mark:1b},Damage:1s}}
+StorageDrawers:fullDrawers2,64,4
+StorageDrawers:fullDrawers4,64,4
+StorageDrawers:fullDrawers1,64,4
+StorageDrawers:fullDrawers1,64,2
+StorageDrawers:fullDrawers2,64,2
+StorageDrawers:halfDrawers4,64,2
+StorageDrawers:halfDrawers2,64,5
+StorageDrawers:halfDrawers4,64,5
+StorageDrawers:halfDrawers2,64,3
+StorageDrawers:halfDrawers4,64,3
+StorageDrawers:halfDrawers2,64,0
+StorageDrawers:fullDrawers1,64,5
+StorageDrawers:fullDrawers2,64,5
+StorageDrawers:fullDrawers4,64,5
+StorageDrawers:upgradeRedstone,50,0
+StorageDrawers:fullDrawers1,64,1
+StorageDrawers:fullDrawers2,64,1
+StorageDrawers:upgradeStatus,50,1
+StorageDrawers:upgradeStatus,20,2
+StorageDrawers:upgrade,10,2
+StorageDrawers:upgrade,1,3
+StorageDrawers:upgrade,50,4
+StorageDrawers:upgrade,2,6
+StorageDrawers:upgradeTemplate,64,0
+StorageDrawers:upgradeVoid,64,0

@@ -9,8 +9,8 @@ for i, toy in FMCMagichalf {
      <ore:zFMChalf>.add(toy);
      <ore:zFMCMagichalf>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =0.5=") + " | " + format.green("Magic ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Magic - 2
@@ -23,8 +23,8 @@ for i, toy in FMCMagic2 {
      <ore:zFMC2>.add(toy);
      <ore:zFMCMagic2>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =2=") + " | " + format.green("Magic ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Magic - 5
@@ -37,8 +37,8 @@ for i, toy in FMCMagic5 {
      <ore:zFMC5>.add(toy);
      <ore:zFMCMagic5>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Magic - 10
@@ -51,8 +51,8 @@ for i, toy in FMCMagic10 {
      <ore:zFMC10>.add(toy);
      <ore:zFMCMagic10>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =10=") + " | " + format.green("Magic ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Magic - 25
@@ -69,8 +69,8 @@ for i, toy in FMCMagic25 {
      <ore:zFMC25>.add(toy);
      <ore:zFMCMagic25>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =25=") + " | " + format.green("Magic ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Magic - 50
@@ -84,8 +84,8 @@ for i, toy in FMCMagic50 {
      <ore:zFMC50>.add(toy);
      <ore:zFMCMagic50>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Magic - 100

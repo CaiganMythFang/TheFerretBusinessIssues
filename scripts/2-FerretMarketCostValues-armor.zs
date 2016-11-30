@@ -9,8 +9,8 @@ for i, toy in FMCArmor50 {
      <ore:zFMC50>.add(toy);
      <ore:zFMCArmor50>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Armor ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Armor - 100

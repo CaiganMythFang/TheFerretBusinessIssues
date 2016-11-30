@@ -9,8 +9,8 @@ for i, toy in FMCTheme5 {
      <ore:zFMC5>.add(toy);
      <ore:zFMCTheme5>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Thematic ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Theme - 10
@@ -22,8 +22,8 @@ for i, toy in FMCTheme10 {
      <ore:zFMC10>.add(toy);
      <ore:zFMCTheme10>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =10=") + " | " + format.green("Thematic ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Theme - 25
@@ -37,8 +37,8 @@ for i, toy in FMCTheme25 {
      <ore:zFMC25>.add(toy);
      <ore:zFMCTheme25>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =25=") + " | " + format.green("Thematic ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Theme - 50
@@ -50,8 +50,8 @@ for i, toy in FMCTheme50 {
      <ore:zFMC50>.add(toy);
      <ore:zFMCTheme50>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Thematic ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Theme - 200

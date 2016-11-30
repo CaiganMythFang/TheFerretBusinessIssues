@@ -9,8 +9,8 @@ for i, toy in FMCMisc2 {
      <ore:zFMC2>.add(toy);
      <ore:zFMCMisc2>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =2=") + " | " + format.green("Misc ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Misc - 5
@@ -23,8 +23,8 @@ for i, toy in FMCMisc5 {
      <ore:zFMC5>.add(toy);
      <ore:zFMCMisc5>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Misc ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Misc - 10
@@ -37,13 +37,13 @@ for i, toy in FMCMisc10 {
      <ore:zFMC10>.add(toy);
      <ore:zFMCMisc10>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =10=") + " | " + format.green("Misc ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Misc - 50
 var FMCMisc50 = [
-<minecraft:redstone_torch>,
+<minecraft:detector_rail>, <minecraft:redstone_torch>,
 <IronChest:diamondCrystalUpgrade>
 ] as IItemStack[];
 
@@ -51,8 +51,8 @@ for i, toy in FMCMisc50 {
      <ore:zFMC50>.add(toy);
      <ore:zFMCMisc50>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Misc ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Misc - 100
@@ -68,7 +68,7 @@ for i, toy in FMCMisc100 {
 
 // Ferret Market Cost, Misc - 200
 var FMCMisc200 = [
-<minecraft:activator_rail>, <minecraft:detector_rail>, <minecraft:firework_charge>,
+<minecraft:activator_rail>, <minecraft:firework_charge>,
 <ImmersiveEngineering:shaderBag>,
 <JABBA:upgradeStructural:4>
 ] as IItemStack[];

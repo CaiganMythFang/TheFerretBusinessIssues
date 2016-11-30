@@ -47,7 +47,4 @@ Infused Stone    5 - 60                 Even
 
 Salt Ore         0 - 128                Even
 
-Dilithium        ? - ?                  Roughly under 40
-Tritanium        ? - ?                  Roughly under 60
-
 Dimensional      ? - ?                  RFTool Worlds only

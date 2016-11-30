@@ -1,0 +1,34 @@
+§l 6.0 - Chunk Loading §r
+
+By default, Minecraft only keeps chunks near the player loaded, as well as a few other areas (spawn, for example). Automation work best if they can run all the time as long as the player has the world loaded, or the server is online.
+
+The Ferret Business gives you a variety of ways to chunkload.
+ 
+--- §lWhat Is A Chunk?§r ---
+A chunk is a 16 block x 16 block area of land that stretches from the top of the sky to below bedrock. This is how the game saves and loads sections of land.
+
+Pressing F9 a few times will cycle you through a chunk viewer in the world, enabling you to see where chunk lines are.
+
+It's good to note that the more Chunks are loaded, the more computer resources the game takes. If your game is laggy, reducing how many things are being chunkloaded may help.
+
+--- §lFTB Utilities Chunk Claim and Chunkload§r ---
+
+FTB Utilities is the mod that not only has an automated backup system and the guidebook system (which you are using right now!), it also enables players to Claim and Chunkload chunks! 
+
+Claiming is important for multiplayer servers, enabling you to protect your areas.
+
+To claim or chunkload an area, open up your inventory. To the left of your portrait should be some icons, including a Map icon. This is the FTBUtilities claiming map. You can claim up to 50 chunks if you are not an administrator on a server. You can also chunkload up to 50 chunks you have claimed.
+
+Left Click a chunk to turn it green, claiming it for yourself. You can then hold Ctrl and Left Click it again to turn it red, which means it is now Chunkloaded.
+
+Ctrl Right Clicking will remove the Chunkload property, and just Right Clicking will remove the claim.
+
+If Ctrl does not work when selecting areas to Chunkload, use Shift/Sneak instead. 
+
+--- §lOther Chunkloaders§r ---
+
+If you need to chunkload beyond 50 chunks, it will start costing you. How much depends on which mod you decide to use.
+
+MineFactory Reloaded has a chunkloader, which costs RF and certain fluids to run.
+
+Railcraft has Anchors, which use either Ender Pearls to run, or Shards of Time, a Ferret Business product you can purchase in the Corporate Catalog.

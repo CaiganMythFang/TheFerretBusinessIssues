@@ -10,8 +10,8 @@ for i, toy in FMCToolquarter {
      <ore:zFMCquarter>.add(toy);
      <ore:zFMCToolquarter>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =0.25=") + " | " + format.green("Tool ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Tool - 0.5
@@ -23,8 +23,8 @@ for i, toy in FMCToolhalf {
      <ore:zFMChalf>.add(toy);
      <ore:zFMCToolhalf>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =0.5=") + " | " + format.green("Tool ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Tool - 1
@@ -38,8 +38,8 @@ for i, toy in FMCTool1 {
      <ore:zFMC1>.add(toy);
      <ore:zFMCTool1>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =1=") + " | " + format.green("Tool ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Tool - 2
@@ -54,23 +54,24 @@ for i, toy in FMCTool2 {
      <ore:zFMC2>.add(toy);
      <ore:zFMCTool2>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =2=") + " | " + format.green("Tool ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Tool - 5
 var FMCTool5 = [
 <Botania:openCrate>, <Botania:incensePlate>,
 <ExtraUtilities:paintbrush>,
-<Thaumcraft:blockJar>
+<Thaumcraft:blockJar>,
+<StorageDrawers:framingTable>
 ] as IItemStack[];
 
 for i, toy in FMCTool5 {
      <ore:zFMC5>.add(toy);
      <ore:zFMCTool5>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Tool ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Tool - 10
@@ -83,8 +84,8 @@ for i, toy in FMCTool10 {
      <ore:zFMC10>.add(toy);
      <ore:zFMCTool10>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =10=") + " | " + format.green("Tool ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Tool - 25
@@ -100,8 +101,8 @@ for i, toy in FMCTool25 {
      <ore:zFMC25>.add(toy);
      <ore:zFMCTool25>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =25=") + " | " + format.green("Tool ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Tool - 50
@@ -109,15 +110,16 @@ var FMCTool50 = [
 <chisel:ballomoss>,
 <Botania:grassHorn>, <Botania:grassHorn:1>, <Botania:grassHorn:2>, <Botania:pool:3>,
 <BiblioCraft:item.BiblioClipboard>,
-<ExtraUtilities:glove>
+<ExtraUtilities:glove>,
+<StorageDrawers:tape>
 ] as IItemStack[];
 
 for i, toy in FMCTool50 {
      <ore:zFMC50>.add(toy);
      <ore:zFMCTool50>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Tool ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Tool - 100
@@ -187,7 +189,7 @@ for i, toy in FMCTool400 {
 var FMCTool500 = [
 <minecraft:iron_axe>, <minecraft:bucket>, <minecraft:iron_pickaxe>,
 <Natura:natura.pickaxe.netherquartz>, <Natura:natura.axe.netherquartz>,
-<BiblioCraft:item.BiblioMapTool>, <BiblioCraft:item.FramingSaw>, <BiblioCraft:item.BiblioDrill>, 
+<BiblioCraft:item.BiblioMapTool>, <BiblioCraft:item.BiblioDrill>, 
 <Botania:elementiumShovel>, <Botania:manasteelPick>, <Botania:manasteelAxe>, <Botania:manasteelShears>,
 <simplyjetpacks:jetpackFueller>,
 <CarpentersBlocks:itemCarpentersHammer>,
@@ -287,7 +289,8 @@ for i, toy in FMCTool3500 {
 
 // Ferret Market Cost, Tool - 4,000
 var FMCTool4000 = [
-<minecraft:golden_hoe>
+<minecraft:golden_hoe>,
+<StorageDrawers:upgradeLock>, <StorageDrawers:personalKey>
 ] as IItemStack[];
 
 for i, toy in FMCTool4000 {
@@ -298,7 +301,8 @@ for i, toy in FMCTool4000 {
 
 // Ferret Market Cost, Tool - 5,000
 var FMCTool5000 = [
-<ExtraUtilities:peaceful_table_top>
+<ExtraUtilities:peaceful_table_top>,
+<StorageDrawers:personalKey:1>
 ] as IItemStack[];
 
 for i, toy in FMCTool5000 {
@@ -310,7 +314,8 @@ for i, toy in FMCTool5000 {
 // Ferret Market Cost, Tool - 5,500
 var FMCTool5500 = [
 <EnderIO:itemMagnet:*>,
-<Botania:brewery>
+<Botania:brewery>,
+<StorageDrawers:shroudKey>
 ] as IItemStack[];
 
 for i, toy in FMCTool5500 {

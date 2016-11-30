@@ -329,6 +329,9 @@ recipes.addShapeless(crate500fmc, [emptycrate, FMC400, FMC100]);
 mods.avaritia.ExtremeCrafting.addShapeless(crate500fmc, [emptycrate, FMC500]);
 recipes.addShapeless(crate500fmc, [emptycrate, FMC500]);
 
+mods.avaritia.ExtremeCrafting.addShapeless(crate500fmc, [emptycrate, FMC200, FMC300]);
+recipes.addShapeless(crate500fmc, [emptycrate, FMC200, FMC300]);
+
 // --------------------------
 // 1,000 FMC Crate
 // --------------------------
@@ -453,6 +456,12 @@ recipes.addShapeless(crate1k, [emptycrate, FMC400, FMC400, FMC200]);
 
 mods.avaritia.ExtremeCrafting.addShapeless(crate1k, [emptycrate, FMC200, FMC200, FMC200, FMC200, FMC200]);
 recipes.addShapeless(crate1k, [emptycrate, FMC200, FMC200, FMC200, FMC200, FMC200]);
+
+mods.avaritia.ExtremeCrafting.addShapeless(crate1k, [emptycrate, FMC200, FMC300, FMC500]);
+recipes.addShapeless(crate1k, [emptycrate, FMC200, FMC300, FMC500]);
+
+mods.avaritia.ExtremeCrafting.addShapeless(crate1k, [emptycrate, FMC400, FMC300, FMC300]);
+recipes.addShapeless(crate1k, [emptycrate, FMC400, FMC300, FMC300]);
 
 recipes.addShapeless(crate1k, [emptycrate, FMC1000]);
 

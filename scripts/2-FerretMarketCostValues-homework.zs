@@ -9,9 +9,9 @@ var FMCHomeWork2 = [
 for i, toy in FMCHomeWork2 {
      <ore:zFMC2>.add(toy);
      <ore:zFMCHomeWork2>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =2=") + " | " + format.green("Home and Work ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =2=") + " | " + format.green("Home+Work ")+ ")"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Home/Work - 5
@@ -24,9 +24,9 @@ var FMCHomeWork5 = [
 for i, toy in FMCHomeWork5 {
      <ore:zFMC5>.add(toy);
      <ore:zFMCHomeWork5>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Home and Work ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Home+Work ")+ ")"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Home/Work - 10
@@ -39,9 +39,9 @@ var FMCHomeWork10 = [
 for i, toy in FMCHomeWork10 {
      <ore:zFMC10>.add(toy);
      <ore:zFMCHomeWork10>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =10=") + " | " + format.green("Home and Work ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =10=") + " | " + format.green("Home+Work ")+ ")"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Home/Work - 25
@@ -55,9 +55,9 @@ var FMCHomeWork25 = [
 for i, toy in FMCHomeWork25 {
      <ore:zFMC25>.add(toy);
      <ore:zFMCHomeWork25>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =25=") + " | " + format.green("Home and Work ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =25=") + " | " + format.green("Home+Work ")+ ")"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Home/Work - 100
@@ -71,7 +71,7 @@ var FMCHomeWork100 = [
 for i, toy in FMCHomeWork100 {
      <ore:zFMC100>.add(toy);
      <ore:zFMCHomeWork100>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =100=") + " | " + format.green("Home and Work ")+ ")"));
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =100=") + " | " + format.green("Home+Work ")+ ")"));
 }
 
 // Ferret Market Cost, Home/Work - 200
@@ -83,7 +83,7 @@ var FMCHomeWork200 = [
 for i, toy in FMCHomeWork200 {
      <ore:zFMC200>.add(toy);
      <ore:zFMCHomeWork200>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =200=") + " | " + format.green("Home and Work ")+ ")"));
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =200=") + " | " + format.green("Home+Work ")+ ")"));
 }
 
 // Ferret Market Cost, Home/Work - 300
@@ -94,7 +94,7 @@ var FMCHomeWork300 = [
 for i, toy in FMCHomeWork300 {
      <ore:zFMC300>.add(toy);
      <ore:zFMCHomeWork300>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =300=") + " | " + format.green("Home and Work ")+ ")"));
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =300=") + " | " + format.green("Home+Work ")+ ")"));
 }
 
 // Ferret Market Cost, Home/Work - 400
@@ -105,7 +105,7 @@ var FMCHomeWork400 = [
 for i, toy in FMCHomeWork400 {
      <ore:zFMC400>.add(toy);
      <ore:zFMCHomeWork400>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =400=") + " | " + format.green("Home and Work ")+ ")"));
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =400=") + " | " + format.green("Home+Work ")+ ")"));
 }
 
 // Ferret Market Cost, Home/Work - 500
@@ -117,7 +117,7 @@ var FMCHomeWork500 = [
 for i, toy in FMCHomeWork500 {
      <ore:zFMC500>.add(toy);
      <ore:zFMCHomeWork500>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =500=") + " | " + format.green("Home and Work ")+ ")"));
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =500=") + " | " + format.green("Home+Work ")+ ")"));
 }
 
 // Ferret Market Cost, Home/Work - 2,000
@@ -128,7 +128,7 @@ var FMCHomeWork2000 = [
 for i, toy in FMCHomeWork2000 {
      <ore:zFMC2000>.add(toy);
      <ore:zFMCHomeWork2000>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =2,000=") + " | " + format.green("Home and Work ")+ ")"));
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =2,000=") + " | " + format.green("Home+Work ")+ ")"));
 }
 
 // Ferret Market Cost, Home/Work - 4,000
@@ -139,7 +139,7 @@ var FMCHomeWork4000 = [
 for i, toy in FMCHomeWork4000 {
      <ore:zFMC4000>.add(toy);
      <ore:zFMCHomeWork4000>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =4,000=") + " | " + format.green("Home and Work ")+ ")"));
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =4,000=") + " | " + format.green("Home+Work ")+ ")"));
 }
 
 // Ferret Market Cost, Home/Work - 4,500
@@ -150,7 +150,7 @@ var FMCHomeWork4500 = [
 for i, toy in FMCHomeWork4500 {
      <ore:zFMC4500>.add(toy);
      <ore:zFMCHomeWork4500>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =4,500=") + " | " + format.green("Home and Work ")+ ")"));
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =4,500=") + " | " + format.green("Home+Work ")+ ")"));
 }
 
 // Ferret Market Cost, Home/Work - 10,000
@@ -161,5 +161,5 @@ var FMCHomeWork10000 = [
 for i, toy in FMCHomeWork10000 {
      <ore:zFMC10000>.add(toy);
      <ore:zFMCHomeWork10000>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =10,000=") + " | " + format.green("Home and Work ")+ ")"));
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =10,000=") + " | " + format.green("Home+Work ")+ ")"));
 }

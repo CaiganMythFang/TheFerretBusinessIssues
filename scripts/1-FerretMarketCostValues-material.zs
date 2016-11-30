@@ -17,8 +17,8 @@ for i, toy in FMCquarter {
      <ore:zFMCquarter>.add(toy);
      <ore:zFMCMaterialquarter>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =0.25=") + " | " + format.green("Material ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Material - 0.5
@@ -35,8 +35,8 @@ for i, toy in FMChalf {
      <ore:zFMChalf>.add(toy);
      <ore:zFMCMaterialhalf>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =0.5=") + " | " + format.green("Material ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Material - 1
@@ -52,8 +52,8 @@ for i, toy in FMC1 {
      <ore:zFMC1>.add(toy);
      <ore:zFMCMaterial1>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =1=") + " | " + format.green("Material ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Material - 2
@@ -71,8 +71,8 @@ for i, toy in FMC2 {
      <ore:zFMC2>.add(toy);
      <ore:zFMCMaterial2>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =2=") + " | " + format.green("Material ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Material - 5
@@ -87,8 +87,8 @@ for i, toy in FMC5 {
      <ore:zFMC5>.add(toy);
      <ore:zFMCMaterial5>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Material ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Material - 10
@@ -112,8 +112,8 @@ for i, toy in FMC10 {
      <ore:zFMC10>.add(toy);
      <ore:zFMCMaterial10>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =10=") + " | " + format.green("Material ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Material - 25
@@ -135,8 +135,8 @@ for i, toy in FMC25 {
      <ore:zFMC25>.add(toy);
      <ore:zFMCMaterial25>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =25=") + " | " + format.green("Material ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Material - 50
@@ -158,15 +158,15 @@ for i, toy in FMC50 {
      <ore:zFMC50>.add(toy);
      <ore:zFMCMaterial50>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Material ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Material - 100
 var FMC100 = [
 <ferretshinies:LayeredIconAsset:3>,
 <minecraft:coal>, <minecraft:spider_eye>,
-<ThermalFoundation:material:2>, <ThermalFoundation:material:513>, <ThermalFoundation:material:17>, <ThermalFoundation:material:1025>,
+<ThermalFoundation:material:2>, <ThermalFoundation:material:513>, <ThermalFoundation:material:17>, <ThermalFoundation:material:1025>, <ThermalFoundation:material:106>,
 <EnderIO:itemPowderIngot:0>, <EnderIO:itemMaterial:3>, <EnderIO:itemPowderIngot:5>,
 <Natura:barleyFood:6>, <Natura:wartBag>, <Natura:boneBag>,
 <witchery:ingredient:25>,
@@ -209,7 +209,6 @@ for i, toy in FMC200 {
 // Ferret Market Cost, Material - 300
 var FMC300 = [
 <minecraft:magma_cream>, <minecraft:glowstone_dust>, <minecraft:blaze_powder>, 
-<appliedenergistics2:item.ItemMultiMaterial:2>,
 <ImmersiveEngineering:metal:7>,
 <Mekanism:OtherDust:1>,
 <EnderIO:itemMaterial:4>, <EnderIO:itemAlloy:4>, <EnderIO:itemAlloy>,
@@ -244,7 +243,7 @@ for i, toy in FMC400 {
 var FMC500 = [
 <Botania:manaResource:7>,
 <NetherOres:tile.netherores.ore.0:5>, <NetherOres:tile.netherores.ore.0:6>, <NetherOres:tile.netherores.ore.0:7>,
-<appliedenergistics2:item.ItemMultiMaterial:7>, <appliedenergistics2:item.ItemMultiMaterial:8>, <appliedenergistics2:item.ItemMultiMaterial:12>,
+<appliedenergistics2:item.ItemMultiMaterial:12>,
 <minecraft:dye:4>, <minecraft:iron_ore>,
 <denseores:block0:6>, <denseores:block0:7>,
 <ThermalFoundation:material:101>,
@@ -271,6 +270,7 @@ var FMC1000 = [
 <Thaumcraft:ItemResource:6>, <Thaumcraft:ItemBucketDeath>,
 <Botania:manaResource:1>,
 <ExtraUtilities:plant/ender_lilly>,
+<appliedenergistics2:item.ItemMultiMaterial:7>, <appliedenergistics2:item.ItemMultiMaterial:8>, 
 <EnderIO:itemAlloy:5>, <EnderIO:bucketNutrient_distillation>, <EnderIO:bucketRocket_fuel>, <EnderIO:bucketFire_water>, <EnderIO:bucketLiquid_sunshine>,
 <enhancedportals:nuggetDiamond>
 ] as IItemStack[];
@@ -286,7 +286,7 @@ var FMC1500 = [
 <minecraft:blaze_rod>, 
 <Botania:manaResource:8>, 
 <NetherOres:tile.netherores.ore.1:5>,
-<appliedenergistics2:item.ItemMultiMaterial:0>, <appliedenergistics2:item.ItemMultiMaterial:1>,
+<appliedenergistics2:item.ItemMultiMaterial:2>, <appliedenergistics2:item.ItemMultiMaterial:0>, <appliedenergistics2:item.ItemMultiMaterial:1>,
 <denseores:block0>, <denseores:block0:5>,
 <Mekanism:Dust:2>, <Mekanism:Ingot:1>,
 <Thaumcraft:ItemZombieBrain>

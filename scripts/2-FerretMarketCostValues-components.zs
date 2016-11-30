@@ -10,8 +10,8 @@ for i, toy in FMCComponentquarter {
      <ore:zFMCquarter>.add(toy);
      <ore:zFMCComponentquarter>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =0.25=") + " | " + format.green("Components ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Components - 0.5
@@ -25,8 +25,8 @@ for i, toy in FMCComponenthalf {
      <ore:zFMChalf>.add(toy);
      <ore:zFMCComponenthalf>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =0.5=") + " | " + format.green("Components ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Material - 1
@@ -38,8 +38,8 @@ for i, toy in FMCComponent1 {
      <ore:zFMC1>.add(toy);
      <ore:zFMCComponent1>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =1=") + " | " + format.green("Components ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Material - 2
@@ -56,8 +56,8 @@ for i, toy in FMCComponent2 {
      <ore:zFMC2>.add(toy);
      <ore:zFMCComponent2>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =2=") + " | " + format.green("Components ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Material - 5
@@ -70,8 +70,8 @@ for i, toy in FMCComponent5 {
      <ore:zFMC5>.add(toy);
      <ore:zFMCComponent5>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Components ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Components - 10
@@ -80,15 +80,16 @@ var FMCComponent10 = [
 <MineFactoryReloaded:plastic.raw>, <MineFactoryReloaded:rubber.bar>,
 <harvestcraft:wovencottonItem>,
 <Botania:manaResource:13>, <Botania:vial:1>,
-<ExtraUtilities:pipes:9>
+<ExtraUtilities:pipes:9>,
+<StorageDrawers:upgradeTemplate>
 ] as IItemStack[];
 
 for i, toy in FMCComponent10 {
      <ore:zFMC10>.add(toy);
      <ore:zFMCComponent10>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =10=") + " | " + format.green("Components ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Components - 25
@@ -104,8 +105,8 @@ for i, toy in FMCComponent25 {
      <ore:zFMC25>.add(toy);
      <ore:zFMCComponent25>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =25=") + " | " + format.green("Components ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Components - 50
@@ -122,8 +123,8 @@ for i, toy in FMCComponent50 {
      <ore:zFMC50>.add(toy);
      <ore:zFMCComponent50>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Components ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Component - 100
@@ -133,7 +134,8 @@ var FMCComponent100 = [
 <simplyjetpacks:particleCustomizers>, <simplyjetpacks:particleCustomizers:1>, 
 <Botania:manaResource:15>, <Botania:vineBall>, <Botania:craftPattern:2>, <Botania:craftPattern:3>, <Botania:rune:5>,
 <Thaumcraft:WandCap>, <Thaumcraft:WandCap:3>, <Thaumcraft:WandCap:6>, <Thaumcraft:WandCap:8>, <Thaumcraft:ItemGolemDecoration:2>, <Thaumcraft:ItemGolemDecoration:3>,
-<ThaumicExploration:blankSeal:*>, <ThaumicExploration:chestSeal:*>, <ThaumicExploration:chestSealLinked:*>, <ThaumicExploration:jarSeal:*>
+<ThaumicExploration:blankSeal:*>, <ThaumicExploration:chestSeal:*>, <ThaumicExploration:chestSealLinked:*>, <ThaumicExploration:jarSeal:*>,
+<StorageDrawers:upgradeVoid>
 ] as IItemStack[];
 
 for i, toy in FMCComponent100 {
@@ -145,14 +147,14 @@ for i, toy in FMCComponent100 {
 // Ferret Market Cost, Component - 200
 var FMCComponent200 = [
 <minecraft:fire_charge>,
-<appliedenergistics2:item.ItemCrystalSeed>,
 <simplyjetpacks:particleCustomizers:3>,
 <openmodularturrets:sensorTierOneItem>,
 <Botania:craftPattern:4>, <Botania:craftPattern:5>, <Botania:rune>, <Botania:rune:1>, <Botania:rune:3>, <Botania:rune:4>, <Botania:craftPattern:1>,
 <ExtraUtilities:nodeUpgrade:1>,
 <Thaumcraft:blockCosmeticSolid:5>, <Thaumcraft:GolemBell>, <Thaumcraft:ItemGolemDecoration:1>,
 <BiblioCraft:item.BiblioChase>, 
-<ImmersiveEngineering:shader>
+<ImmersiveEngineering:shader>,
+<StorageDrawers:upgrade:4>, <StorageDrawers:upgradeStatus:1>, <StorageDrawers:upgradeRedstone>, <StorageDrawers:upgradeRedstone:1>, <StorageDrawers:upgradeRedstone:2>
 ] as IItemStack[];
 
 for i, toy in FMCComponent200 {
@@ -197,7 +199,8 @@ var FMCComponent500 = [
 <ThermalDynamics:ThermalDynamics_0:3>, <ThermalExpansion:Frame:12>, 
 <simplyjetpacks:components>, 
 <Botania:rune:2>,
-<OpenComputers:item:23>, <OpenComputers:item:24>
+<OpenComputers:item:23>, <OpenComputers:item:24>,
+<StorageDrawers:upgradeStatus:2>
 ] as IItemStack[];
 
 for i, toy in FMCComponent500 {
@@ -209,6 +212,7 @@ for i, toy in FMCComponent500 {
 // Ferret Market Cost, Component - 1,000
 var FMCComponent1000 = [
 <openmodularturrets:barrelTierTwo>,
+<appliedenergistics2:item.ItemCrystalSeed>,
 <Botania:lens:15>, <Botania:lens:5>, <Botania:lens:4>, <Botania:lens:2>, <Botania:lens:1>, <Botania:lens>,
 <ThermalFoundation:material:128>, <ThermalFoundation:material:137>,
 <simplyjetpacks:armorPlatings:11>, 
@@ -219,7 +223,8 @@ var FMCComponent1000 = [
 <EnderIO:itemBasicFilterUpgrade>, <EnderIO:itemBasicCapacitor>, <EnderIO:itemPowerItemFilter>,
 <Thaumcraft:WandCap:5>, <Thaumcraft:WandCap:1>, <Thaumcraft:ItemGolemCore:11>,
 <ThaumicTinkerer:soulMould>,
-<ImmersiveEngineering:material:11>
+<ImmersiveEngineering:material:11>,
+<StorageDrawers:upgrade:2>
 ] as IItemStack[];
 
 for i, toy in FMCComponent1000 {
@@ -303,7 +308,8 @@ for i, toy in FMCComponent3500 {
 var FMCComponent4000 = [
 <simplyjetpacks:armorPlatings:12>, <simplyjetpacks:armorPlatings:2>,
 <Thaumcraft:blockMetalDevice:9>, <Thaumcraft:ItemEldritchObject>, <Thaumcraft:blockMetalDevice:3>, 
-<EnderIO:itemGliderWing:1>
+<EnderIO:itemGliderWing:1>,
+<StorageDrawers:upgrade:6>
 ] as IItemStack[];
 
 for i, toy in FMCComponent4000 {
@@ -386,7 +392,8 @@ for i, toy in FMCComponent7500 {
 var FMCComponent8000 = [
 <Thaumcraft:blockWoodenDevice>, 
 <ThermalFoundation:material:135>, <ThermalFoundation:material:136>,
-<ExtraUtilities:enderQuarryUpgrade:4>, <ExtraUtilities:pipes:14>
+<ExtraUtilities:enderQuarryUpgrade:4>, <ExtraUtilities:pipes:14>,
+<StorageDrawers:upgrade:3>
 ] as IItemStack[];
 
 for i, toy in FMCComponent8000 {
@@ -749,6 +756,17 @@ for i, toy in FMCComponent31500 {
      <ore:zFMC31500>.add(toy);
      <ore:zFMCComponent31500>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =31,500=") + " | " + format.green("Components ")+ ")"));
+}
+
+// Ferret Market Cost, Component - 34,000
+var FMCComponent34000 = [
+<StorageDrawers:upgrade:5>
+] as IItemStack[];
+
+for i, toy in FMCComponent34000 {
+     <ore:zFMC34000>.add(toy);
+     <ore:zFMCComponent34000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =34,000=") + " | " + format.green("Components ")+ ")"));
 }
 
 // Ferret Market Cost, Component - 34,500

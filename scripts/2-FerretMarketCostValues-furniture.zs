@@ -12,8 +12,21 @@ for i, toy in FMCFurniturehalf {
      <ore:zFMChalf>.add(toy);
      <ore:zFMCFurniturehalf>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =0.5=") + " | " + format.green("Furniture ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
+}
+
+// Ferret Market Cost, Furniture - 1
+var FMCFurniture1 = [
+<StorageDrawers:trim:*>, <StorageDrawers:trimCustom>
+] as IItemStack[];
+
+for i, toy in FMCFurniture1 {
+     <ore:zFMC1>.add(toy);
+     <ore:zFMCFurniture1>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =1=") + " | " + format.green("Furniture ")+ ")"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Furniture - 2
@@ -26,8 +39,8 @@ for i, toy in FMCFurniture2 {
      <ore:zFMC2>.add(toy);
      <ore:zFMCFurniture2>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =2=") + " | " + format.green("Furniture ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Furniture - 5
@@ -35,29 +48,31 @@ var FMCFurniture5 = [
 <minecraft:chest>, 
 <props:props:383>, <props:props:589>, <props:props:610>,
 <BiblioCraft:tile.BiblioFramedChest>, <BiblioCraft:Bibliotheca:0>, <BiblioCraft:Bibliotheca:1>, <BiblioCraft:Bibliotheca:2>, <BiblioCraft:Bibliotheca:3>, <BiblioCraft:Bibliotheca:4>, <BiblioCraft:Bibliotheca:5>, <BiblioCraft:Bibliotheca:6>, <BiblioCraft:BiblioPotionShelf:0>, <BiblioCraft:BiblioPotionShelf:1>, <BiblioCraft:BiblioPotionShelf:2>, <BiblioCraft:BiblioPotionShelf:3>, <BiblioCraft:BiblioPotionShelf:4>, <BiblioCraft:BiblioPotionShelf:5>, <BiblioCraft:BiblioPotionShelf:6>,
-<ExtraUtilities:chestFull>
+<ExtraUtilities:chestFull>,
+<StorageDrawers:fullDrawers4:*>, <StorageDrawers:fullDrawers2:*>, <StorageDrawers:halfDrawers4:*>, <StorageDrawers:halfDrawers2:*>, <StorageDrawers:fullCustom4>, <StorageDrawers:halfCustom4>, <StorageDrawers:halfCustom2>, <StorageDrawers:fullCustom2>, <StorageDrawers:fullCustom1>
 ] as IItemStack[];
 
 for i, toy in FMCFurniture5 {
      <ore:zFMC5>.add(toy);
      <ore:zFMCFurniture5>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Furniture ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Furniture - 10
 var FMCFurniture10 = [
 <IronChest:BlockIronChest:7>,
-<props:props:256>, <props:props:323>, <props:props:399>, <props:props:384>, <props:props:419>, <props:props:432>, <props:props:511>, <props:props:579>, <props:props:577>, <props:props:255>, <props:props:431>, <props:props:543>, <props:props:576>, <props:props:623>, <props:props:33>, <props:props:75>, <props:props:226>, <props:props:229>, <props:props:258>, <props:props:252>, <props:props:352>, <props:props:324>, <props:props:253>, <props:props:325>, <props:props:386>, <props:props:387>, <props:props:401>, <props:props:402>, <props:props:403>, <props:props:391>, <props:props:396>, <props:props:397>, <props:props:422>, <props:props:434>, <props:props:435>, <props:props:416>, <props:props:408>, <props:props:467>, <props:props:475>, <props:props:545>, <props:props:546>, <props:props:547>, <props:props:552>, <props:props:553>, <props:props:592>, <props:props:608>, <props:props:612>, <props:props:613>, <props:props:39>, <props:props:83>, <props:props:257>, <props:props:259>, <props:props:251>, <props:props:400>, <props:props:395>, <props:props:385>, <props:props:423>, <props:props:439>, <props:props:415>, <props:props:407>, <props:props:420>, <props:props:421>, <props:props:433>, <props:props:483>, <props:props:544>, <props:props:551>, <props:props:578>, <props:props:591>, <props:props:619>, <props:props:607>, <props:props:624>, <props:props:295>, <props:props:609>
+<props:props:256>, <props:props:323>, <props:props:399>, <props:props:384>, <props:props:419>, <props:props:432>, <props:props:511>, <props:props:579>, <props:props:577>, <props:props:255>, <props:props:431>, <props:props:543>, <props:props:576>, <props:props:623>, <props:props:33>, <props:props:75>, <props:props:226>, <props:props:229>, <props:props:258>, <props:props:252>, <props:props:352>, <props:props:324>, <props:props:253>, <props:props:325>, <props:props:386>, <props:props:387>, <props:props:401>, <props:props:402>, <props:props:403>, <props:props:391>, <props:props:396>, <props:props:397>, <props:props:422>, <props:props:434>, <props:props:435>, <props:props:416>, <props:props:408>, <props:props:467>, <props:props:475>, <props:props:545>, <props:props:546>, <props:props:547>, <props:props:552>, <props:props:553>, <props:props:592>, <props:props:608>, <props:props:612>, <props:props:613>, <props:props:39>, <props:props:83>, <props:props:257>, <props:props:259>, <props:props:251>, <props:props:400>, <props:props:395>, <props:props:385>, <props:props:423>, <props:props:439>, <props:props:415>, <props:props:407>, <props:props:420>, <props:props:421>, <props:props:433>, <props:props:483>, <props:props:544>, <props:props:551>, <props:props:578>, <props:props:591>, <props:props:619>, <props:props:607>, <props:props:624>, <props:props:295>, <props:props:609>,
+<StorageDrawers:fullDrawers1:*>
 ] as IItemStack[];
 
 for i, toy in FMCFurniture10 {
      <ore:zFMC10>.add(toy);
      <ore:zFMCFurniture10>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =10=") + " | " + format.green("Furniture ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Furniture - 25
@@ -71,9 +86,10 @@ for i, toy in FMCFurniture25 {
      <ore:zFMC25>.add(toy);
      <ore:zFMCFurniture25>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =25=") + " | " + format.green("Furniture ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
+
 // Ferret Market Cost, Furniture - 50
 var FMCFurniture50 = [
 <CarpentersBlocks:itemCarpentersBed>,
@@ -84,8 +100,8 @@ for i, toy in FMCFurniture50 {
      <ore:zFMC50>.add(toy);
      <ore:zFMCFurniture50>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Furniture ")+ ")"));
-     toy.addTooltip(format.lightPurple("Can only be crated with equal values, (example : 5+5)"));
-	 toy.addTooltip(format.lightPurple("See the Guide in your Inventory for more information!"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Material - 100
