@@ -21,7 +21,9 @@ var ferretMFRCheapBlindBag = [
 <ferretshinies:BlindBag:212>,
 <ferretshinies:BlindBag:213>,
 <ferretshinies:BlindBag:214>,
-<ferretshinies:BlindBag:215>
+<ferretshinies:BlindBag:215>,
+<ferretshinies:BlindBag:393>,
+<ferretshinies:BlindBag:394>
 ] as IItemStack[];
 
 for i, toy in ferretMFRCheapBlindBag {
@@ -33,8 +35,7 @@ for i, toy in ferretMFRCheapBlindBag {
 
 // BLIND BAGS - MFR DECENT
 var ferretMFRDecentBlindBag = [
-<ferretshinies:BlindBag:216>,
-<ferretshinies:BlindBag:217>
+<ferretshinies:BlindBag:216>
 ] as IItemStack[];
 
 for i, toy in ferretMFRDecentBlindBag {

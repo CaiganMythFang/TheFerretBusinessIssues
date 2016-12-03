@@ -16,7 +16,8 @@ for i, toy in ferretMalisisMasterBlindBag {
 
 // BLIND BAGS - Malisis CHEAP
 var ferretMalisisCheapBlindBag = [
-<ferretshinies:BlindBag:128>
+<ferretshinies:BlindBag:128>,
+<ferretshinies:BlindBag:130>
 ] as IItemStack[];
 
 for i, toy in ferretMalisisCheapBlindBag {
@@ -35,17 +36,5 @@ for i, toy in ferretMalisisDecentBlindBag {
      toy.addTooltip(format.green("A Ferret Business Blind Bag!"));
      toy.addTooltip(format.aqua("Hold <SHIFT> to peek at the back."));
      toy.addShiftTooltip(format.white("Contains a random Decent item"));
-     toy.addShiftTooltip(format.white("or block from Malisis Doors."));
-}
-
-// BLIND BAGS - Malisis GOOD
-var ferretMalisisGoodBlindBag = [
-<ferretshinies:BlindBag:130>
-] as IItemStack[];
-
-for i, toy in ferretMalisisGoodBlindBag {
-     toy.addTooltip(format.green("A Ferret Business Blind Bag!"));
-     toy.addTooltip(format.aqua("Hold <SHIFT> to peek at the back."));
-     toy.addShiftTooltip(format.white("Contains a random Good item"));
      toy.addShiftTooltip(format.white("or block from Malisis Doors."));
 }

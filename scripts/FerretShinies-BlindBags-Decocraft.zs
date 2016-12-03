@@ -26,7 +26,13 @@ var ferretDecoCraftCheapBlindBag = [
 <ferretshinies:BlindBag:166>,
 <ferretshinies:BlindBag:167>,
 <ferretshinies:BlindBag:168>,
-<ferretshinies:BlindBag:169>
+<ferretshinies:BlindBag:169>,
+<ferretshinies:BlindBag:376>,
+<ferretshinies:BlindBag:377>,
+<ferretshinies:BlindBag:378>,
+<ferretshinies:BlindBag:379>,
+<ferretshinies:BlindBag:380>,
+<ferretshinies:BlindBag:381>
 ] as IItemStack[];
 
 for i, toy in ferretDecoCraftCheapBlindBag {

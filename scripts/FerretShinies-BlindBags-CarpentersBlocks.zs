@@ -24,15 +24,3 @@ for i, toy in ferretCarpBlockCheapBlindBag {
      toy.addShiftTooltip(format.white("Contains a random Cheap item"));
      toy.addShiftTooltip(format.white("or block from Carpenters Blocks."));
 }
-
-// BLIND BAGS - CarpBlock DECENT
-var ferretCarpBlockDecentBlindBag = [
-<ferretshinies:BlindBag:127>
-] as IItemStack[];
-
-for i, toy in ferretCarpBlockDecentBlindBag {
-     toy.addTooltip(format.green("A Ferret Business Blind Bag!"));
-     toy.addTooltip(format.aqua("Hold <SHIFT> to peek at the back."));
-     toy.addShiftTooltip(format.white("Contains a random Decent item"));
-     toy.addShiftTooltip(format.white("or block from Carpenters Blocks."));
-}

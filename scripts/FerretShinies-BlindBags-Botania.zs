@@ -22,8 +22,25 @@ var ferretBotaniaCheapBlindBag = [
 <ferretshinies:BlindBag:2>,
 <ferretshinies:BlindBag:3>,
 <ferretshinies:BlindBag:4>,
-<ferretshinies:BlindBag:220>,
-<ferretshinies:BlindBag:221>
+<ferretshinies:BlindBag:5>,
+<ferretshinies:BlindBag:6>,
+<ferretshinies:BlindBag:7>,
+<ferretshinies:BlindBag:8>,
+<ferretshinies:BlindBag:9>,
+<ferretshinies:BlindBag:10>,
+<ferretshinies:BlindBag:11>,
+<ferretshinies:BlindBag:12>,
+<ferretshinies:BlindBag:13>,
+<ferretshinies:BlindBag:14>,
+<ferretshinies:BlindBag:15>,
+<ferretshinies:BlindBag:16>,
+<ferretshinies:BlindBag:17>,
+<ferretshinies:BlindBag:18>,
+<ferretshinies:BlindBag:19>,
+<ferretshinies:BlindBag:20>,
+<ferretshinies:BlindBag:184>,
+<ferretshinies:BlindBag:202>,
+<ferretshinies:BlindBag:220>
 ] as IItemStack[];
 
 for i, toy in ferretBotaniaCheapBlindBag {
@@ -35,15 +52,7 @@ for i, toy in ferretBotaniaCheapBlindBag {
 
 // BLIND BAGS - BOTANIA DECENT
 var ferretBotaniaDecentBlindBag = [
-<ferretshinies:BlindBag:5>,
-<ferretshinies:BlindBag:6>,
-<ferretshinies:BlindBag:7>,
-<ferretshinies:BlindBag:8>,
-<ferretshinies:BlindBag:9>,
-<ferretshinies:BlindBag:10>,
-<ferretshinies:BlindBag:11>,
-<ferretshinies:BlindBag:12>,
-<ferretshinies:BlindBag:184>,
+<ferretshinies:BlindBag:221>,
 <ferretshinies:BlindBag:222>
 ] as IItemStack[];
 
@@ -56,13 +65,7 @@ for i, toy in ferretBotaniaDecentBlindBag {
 
 // BLIND BAGS - BOTANIA GOOD
 var ferretBotaniaGoodBlindBag = [
-<ferretshinies:BlindBag:13>,
-<ferretshinies:BlindBag:14>,
-<ferretshinies:BlindBag:15>,
-<ferretshinies:BlindBag:16>,
-<ferretshinies:BlindBag:17>,
-<ferretshinies:BlindBag:18>,
-<ferretshinies:BlindBag:223>
+<ferretshinies:BlindBag:383>
 ] as IItemStack[];
 
 for i, toy in ferretBotaniaGoodBlindBag {
@@ -74,8 +77,7 @@ for i, toy in ferretBotaniaGoodBlindBag {
 
 // BLIND BAGS - BOTANIA AMAZING
 var ferretBotaniaAmazingBlindBag = [
-<ferretshinies:BlindBag:19>,
-<ferretshinies:BlindBag:20>
+<ferretshinies:BlindBag:384>
 ] as IItemStack[];
 
 for i, toy in ferretBotaniaAmazingBlindBag {

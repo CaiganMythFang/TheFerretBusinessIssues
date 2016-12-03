@@ -47,7 +47,8 @@ var FMCTool2 = [
 <minecraft:crafting_table>, <minecraft:wooden_pickaxe>, <minecraft:wooden_axe>,
 <Natura:Natura.workbench:*>, <Natura:natura.pickaxe.ghostwood>, <Natura:natura.pickaxe.darkwood>, <Natura:natura.pickaxe.fusewood>, <Natura:natura.pickaxe.darkwood>, <Natura:natura.axe.ghostwood>, <Natura:natura.axe.darkwood>, <Natura:natura.axe.fusewood>, <Natura:natura.axe.darkwood>, <Natura:natura.kama.ghostwood>, <Natura:natura.kama.darkwood>, <Natura:natura.kama.fusewood>, <Natura:natura.kama.darkwood>,
 <ExtraUtilities:spike_base_wood>,
-<Thaumcraft:blockTable:15>
+<Thaumcraft:blockTable:15>, 
+<MineFactoryReloaded:plastic.cup>
 ] as IItemStack[];
 
 for i, toy in FMCTool2 {
@@ -77,7 +78,8 @@ for i, toy in FMCTool5 {
 // Ferret Market Cost, Tool - 10
 var FMCTool10 = [
 <minecraft:fishing_rod>, <minecraft:carrot_on_a_stick>,
-<Botania:openCrate:1>
+<Botania:openCrate:1>, 
+<MineFactoryReloaded:safarinet.singleuse>
 ] as IItemStack[];
 
 for i, toy in FMCTool10 {
@@ -94,7 +96,8 @@ var FMCTool25 = [
 <Avaritia:Double_Craft>,
 <Botania:twigWand>,
 <Thaumcraft:ItemInkwell>,
-<TConstruct:manualBook>
+<TConstruct:manualBook>, 
+<MineFactoryReloaded:hammer>, <MineFactoryReloaded:plastic.bag>, <MineFactoryReloaded:ruler>
 ] as IItemStack[];
 
 for i, toy in FMCTool25 {
@@ -111,7 +114,8 @@ var FMCTool50 = [
 <Botania:grassHorn>, <Botania:grassHorn:1>, <Botania:grassHorn:2>, <Botania:pool:3>,
 <BiblioCraft:item.BiblioClipboard>,
 <ExtraUtilities:glove>,
-<StorageDrawers:tape>
+<StorageDrawers:tape>, 
+<MineFactoryReloaded:xpextractor>, <MineFactoryReloaded:straw>
 ] as IItemStack[];
 
 for i, toy in FMCTool50 {
@@ -162,7 +166,8 @@ var FMCTool300 = [
 <ExtraUtilities:sound_muffler>,
 <Botania:manaInkwell>, 
 <EnderIO:itemYetaWrench>, <EnderIO:itemModItemFilter>,
-<Thaumcraft:ItemShovelThaumium>, <Thaumcraft:ItemPickVoid>, <Thaumcraft:ItemAxeVoid>, <Thaumcraft:ItemThaumonomicon>
+<Thaumcraft:ItemShovelThaumium>, <Thaumcraft:ItemPickVoid>, <Thaumcraft:ItemAxeVoid>, <Thaumcraft:ItemThaumonomicon>, 
+<MineFactoryReloaded:rednet.meter>, <MineFactoryReloaded:syringe.empty>, <MineFactoryReloaded:syringe.health>
 ] as IItemStack[];
 
 for i, toy in FMCTool300 {
@@ -176,7 +181,8 @@ var FMCTool400 = [
 <BiblioCraft:BiblioPaneler:0>, <BiblioCraft:BiblioPaneler:1>, <BiblioCraft:BiblioPaneler:2>, <BiblioCraft:BiblioPaneler:3>, <BiblioCraft:BiblioPaneler:4>, <BiblioCraft:BiblioPaneler:5>, <BiblioCraft:BiblioPaneler:6>,
 <minecraft:shears>, <minecraft:iron_hoe>, 
 <Natura:natura.kama.netherquartz>,
-<Thaumcraft:ItemHoeThaumium>
+<Thaumcraft:ItemHoeThaumium>, 
+<MineFactoryReloaded:safarinet.jailer>
 ] as IItemStack[];
 
 for i, toy in FMCTool400 {
@@ -194,7 +200,8 @@ var FMCTool500 = [
 <simplyjetpacks:jetpackFueller>,
 <CarpentersBlocks:itemCarpentersHammer>,
 <Thaumcraft:ItemPickThaumium>, <Thaumcraft:ItemAxeThaumium>, <Thaumcraft:ItemSanitySoap>,
-<ThaumicTinkerer:gasRemover>
+<ThaumicTinkerer:gasRemover>, 
+<MineFactoryReloaded:syringe.zombie>, <MineFactoryReloaded:fishingrod>
 ] as IItemStack[];
 
 for i, toy in FMCTool500 {
@@ -213,7 +220,8 @@ var FMCTool1000 = [
 <Thaumcraft:ItemResonator>,
 <OpenComputers:item:98>,
 <JABBA:mover>, <JABBA:hammer>,
-<aura:lexicon>
+<aura:lexicon>, 
+<MineFactoryReloaded:syringe.slime>
 ] as IItemStack[];
 
 for i, toy in FMCTool1000 {
@@ -228,7 +236,8 @@ var FMCTool1500 = [
 <JABBA:tuningFork>,
 <ExtraUtilities:endMarker>, 
 <Thaumcraft:ArcaneDoorKey:1>, 
-<Botania:craftingHalo>, <Botania:elementiumPick>, <Botania:elementiumAxe>, <Botania:openBucket>, <Botania:slimeBottle>
+<Botania:craftingHalo>, <Botania:elementiumPick>, <Botania:elementiumAxe>, <Botania:openBucket>, <Botania:slimeBottle>, 
+<MineFactoryReloaded:safarinet.launcher>
 ] as IItemStack[];
 
 for i, toy in FMCTool1500 {
@@ -241,7 +250,8 @@ for i, toy in FMCTool1500 {
 var FMCTool2000 = [
 <minecraft:golden_shovel>,
 <ExtraUtilities:angelBlock>, 
-<BiblioCraft:item.PlumbLine>, <BiblioCraft:item.AtlasBook>
+<BiblioCraft:item.PlumbLine>, <BiblioCraft:item.AtlasBook>, 
+<MineFactoryReloaded:safarinet.jailer.fancy>
 ] as IItemStack[];
 
 for i, toy in FMCTool2000 {
@@ -254,7 +264,8 @@ for i, toy in FMCTool2000 {
 var FMCTool2500 = [
 <Botania:baubleBox>, 
 <ExtraUtilities:golden_lasso>, 
-<EnderIO:blockTank:1>
+<EnderIO:blockTank:1>, 
+<MineFactoryReloaded:syringe.growth>
 ] as IItemStack[];
 
 for i, toy in FMCTool2500 {
@@ -267,7 +278,8 @@ for i, toy in FMCTool2500 {
 var FMCTool3000 = [
 <Botania:signalFlare:*>,
 <EnderIO:itemCoordSelector>,
-<ExtraUtilities:scanner>
+<ExtraUtilities:scanner>, 
+<MineFactoryReloaded:rednet.meter:1>
 ] as IItemStack[];
 
 for i, toy in FMCTool3000 {
@@ -290,7 +302,8 @@ for i, toy in FMCTool3500 {
 // Ferret Market Cost, Tool - 4,000
 var FMCTool4000 = [
 <minecraft:golden_hoe>,
-<StorageDrawers:upgradeLock>, <StorageDrawers:personalKey>
+<StorageDrawers:upgradeLock>, <StorageDrawers:personalKey>,
+<MineFactoryReloaded:spyglass>
 ] as IItemStack[];
 
 for i, toy in FMCTool4000 {
@@ -362,7 +375,8 @@ for i, toy in FMCTool7000 {
 // Ferret Market Cost, Tool - 8,000
 var FMCTool8000 = [
 <minecraft:clock>,
-<ThaumicTinkerer:connector>
+<ThaumicTinkerer:connector>, 
+<MineFactoryReloaded:safarinet.reusable>
 ] as IItemStack[];
 
 for i, toy in FMCTool8000 {
@@ -442,7 +456,8 @@ for i, toy in FMCTool16000 {
 
 // Ferret Market Cost, Tool - 16,500
 var FMCTool16500 = [
-<ExtraUtilities:spike_base_gold>
+<ExtraUtilities:spike_base_gold>, 
+<MineFactoryReloaded:syringe.cure>
 ] as IItemStack[];
 
 for i, toy in FMCTool16500 {
@@ -638,6 +653,17 @@ for i, toy in FMCTool98000 {
      <ore:zFMC98000>.add(toy);
      <ore:zFMCTool98000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =98,000=") + " | " + format.green("Tool ")+ ")"));
+}
+
+// Ferret Market Cost, Tool - 100,000
+var FMCTool100000 = [
+<MineFactoryReloaded:portaspawner>
+] as IItemStack[];
+
+for i, toy in FMCTool100000 {
+     <ore:zFMC100000>.add(toy);
+     <ore:zFMCTool100000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =100,000=") + " | " + format.green("Tool ")+ ")"));
 }
 
 // Ferret Market Cost, Tool - 154,000

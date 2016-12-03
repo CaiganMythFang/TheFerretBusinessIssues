@@ -74,7 +74,8 @@ for i, toy in FMCMachine5 {
 
 // Ferret Market Cost, Machine - 10
 var FMCMachine10 = [
-<Natura:NetherFurnace>
+<Natura:NetherFurnace>, 
+<MineFactoryReloaded:cable.plastic>
 ] as IItemStack[];
 
 for i, toy in FMCMachine10 {
@@ -87,7 +88,8 @@ for i, toy in FMCMachine10 {
 
 // Ferret Market Cost, Machine - 25
 var FMCMachine25 = [
-<EnderIO:itemRedstoneConduit:2>, <EnderIO:itemRedstoneConduit>, <EnderIO:itemRedstoneConduit:1>
+<EnderIO:itemRedstoneConduit:2>, <EnderIO:itemRedstoneConduit>, <EnderIO:itemRedstoneConduit:1>,
+<MineFactoryReloaded:machine.1:0>, <MineFactoryReloaded:cable.redstone>
 ] as IItemStack[];
 
 for i, toy in FMCMachine25 {
@@ -102,7 +104,8 @@ for i, toy in FMCMachine25 {
 var FMCMachine50 = [
 <minecraft:noteblock>, <minecraft:dropper>,
 <appliedenergistics2:item.ItemMultiPart:140>,
-<EnderIO:itemItemConduit>, <EnderIO:itemOCConduit>
+<EnderIO:itemItemConduit>, <EnderIO:itemOCConduit>,
+<MineFactoryReloaded:machine.0:6>, <MineFactoryReloaded:machine.0:9>, <MineFactoryReloaded:machine.1:1>
 ] as IItemStack[];
 
 for i, toy in FMCMachine50 {
@@ -119,7 +122,8 @@ var FMCMachine100 = [
 <openmodularturrets:disposeItemTurret>,
 <EnderIO:itemPowerConduit>, <EnderIO:itemLiquidConduit:1>, <EnderIO:itemGasConduit>,
 <ExtraUtilities:conveyor>, 
-<Thaumcraft:blockTube>, <Thaumcraft:blockTube:1>
+<Thaumcraft:blockTube>, <Thaumcraft:blockTube:1>,
+<MineFactoryReloaded:machine.0:10>, <MineFactoryReloaded:machine.1:2>, <MineFactoryReloaded:tank>
 ] as IItemStack[];
 
 for i, toy in FMCMachine100 {
@@ -132,7 +136,8 @@ for i, toy in FMCMachine100 {
 var FMCMachine200 = [
 <minecraft:repeater>,
 <Thaumcraft:blockTube:5>, <Thaumcraft:blockTube:6>,
-<openmodularturrets:potatoCannonTurret>, <openmodularturrets:baseTierWood>
+<openmodularturrets:potatoCannonTurret>, <openmodularturrets:baseTierWood>,
+<MineFactoryReloaded:machine.0:4>, <MineFactoryReloaded:machine.1:10>, <MineFactoryReloaded:machine.2:3>, <MineFactoryReloaded:machine.2:4>, <MineFactoryReloaded:rednet.panel>
 ] as IItemStack[];
 
 for i, toy in FMCMachine200 {
@@ -146,7 +151,8 @@ var FMCMachine300 = [
 <malisisdoors:vanishing_block>,
 <minecraft:piston>, <minecraft:sticky_piston>, 
 <ExtraUtilities:timer>, <ExtraUtilities:extractor_base>,
-<EnderIO:itemMEConduit>, <EnderIO:blockStirlingGenerator>
+<EnderIO:itemMEConduit>, <EnderIO:blockStirlingGenerator>,
+<MineFactoryReloaded:conveyor:*>
 ] as IItemStack[];
 
 for i, toy in FMCMachine300 {
@@ -159,7 +165,8 @@ for i, toy in FMCMachine300 {
 var FMCMachine400 = [
 <minecraft:heavy_weighted_pressure_plate>,
 <ExtraUtilities:budoff>,
-<Thaumcraft:blockTube:4>
+<Thaumcraft:blockTube:4>,
+<MineFactoryReloaded:machineblock:1>, <MineFactoryReloaded:machine.0:0>, <MineFactoryReloaded:machine.2:7>
 ] as IItemStack[];
 
 for i, toy in FMCMachine400 {
@@ -175,7 +182,8 @@ var FMCMachine500 = [
 <BiblioCraft:Typesetting Machine>,
 <CarpentersBlocks:blockCarpentersDaylightSensor>,
 <ExtraUtilities:extractor_base:6>,
-<EnderIO:itemLiquidConduit:2>
+<EnderIO:itemLiquidConduit:2>,
+<MineFactoryReloaded:machine.0:11>, <MineFactoryReloaded:machine.1:8>, <MineFactoryReloaded:machine.1:14>, <MineFactoryReloaded:machine.1:15>, <MineFactoryReloaded:machine.2:9>, <MineFactoryReloaded:cable.redstone:2>
 ] as IItemStack[];
 
 for i, toy in FMCMachine500 {
@@ -191,7 +199,8 @@ var FMCMachine1000 = [
 <ThermalDynamics:ThermalDynamics_0:1>, <ThermalDynamics:ThermalDynamics_0:2>,
 <chisel:autoChisel>,
 <ExtraUtilities:generator:9>, <ExtraUtilities:generator>,
-<StorageDrawers:compDrawers>
+<StorageDrawers:compDrawers>, 
+<MineFactoryReloaded:machine.0:1>, <MineFactoryReloaded:machine.0:5>
 ] as IItemStack[];
 
 for i, toy in FMCMachine1000 {
@@ -203,7 +212,8 @@ for i, toy in FMCMachine1000 {
 // Ferret Market Cost, Machine - 1,500
 var FMCMachine1500 = [
 <Thaumcraft:blockWoodenDevice:4>,
-<EnderIO:blockElectricLight>, <EnderIO:blockElectricLight:1>, <EnderIO:blockElectricLight:2>, <EnderIO:blockElectricLight:3>, <EnderIO:itemPowerConduit:2>
+<EnderIO:blockElectricLight>, <EnderIO:blockElectricLight:1>, <EnderIO:blockElectricLight:2>, <EnderIO:blockElectricLight:3>, <EnderIO:itemPowerConduit:2>,
+<MineFactoryReloaded:machine.0:3>, <MineFactoryReloaded:machine.0:8>, <MineFactoryReloaded:machine.1:4>, <MineFactoryReloaded:machine.1:6>, <MineFactoryReloaded:machine.2:11>
 ] as IItemStack[];
 
 for i, toy in FMCMachine1500 {
@@ -218,7 +228,8 @@ var FMCMachine2000 = [
 <Botania:rfGenerator>,
 <ExtraUtilities:budoff:3>, <ExtraUtilities:generator:5>, <ExtraUtilities:enderCollector>,
 <EnderIO:blockBuffer>, 
-<Thaumcraft:blockTube:3>
+<Thaumcraft:blockTube:3>,
+<MineFactoryReloaded:machine.2:5>
 ] as IItemStack[];
 
 for i, toy in FMCMachine2000 {
@@ -233,7 +244,8 @@ var FMCMachine2500 = [
 <ThermalDynamics:ThermalDynamics_0:4>,
 <ExtraUtilities:endConstructor:2>,
 <malisisdoors:vanishing_block:2>,
-<StorageDrawers:controllerSlave>
+<StorageDrawers:controllerSlave>,
+<MineFactoryReloaded:machine.1:5>, <MineFactoryReloaded:machine.1:9>
 ] as IItemStack[];
 
 for i, toy in FMCMachine2500 {
@@ -246,7 +258,8 @@ for i, toy in FMCMachine2500 {
 var FMCMachine3000 = [
 <openmodularturrets:damageAmpAddon>, <openmodularturrets:fireRateUpgradeItem>,
 <ExtraUtilities:generator:1>,
-<EnderIO:blockSagMill>
+<EnderIO:blockSagMill>,
+<MineFactoryReloaded:machine.0:15>
 ] as IItemStack[];
 
 for i, toy in FMCMachine3000 {
@@ -260,7 +273,8 @@ var FMCMachine3500 = [
 <chisel:upgrade:2>, <chisel:upgrade>, 
 <ExtraUtilities:extractor_base_remote>, 
 <openmodularturrets:concealerAddon>,
-<EnderIO:blockEnderIo>
+<EnderIO:blockEnderIo>,
+<MineFactoryReloaded:machine.1:11>, <MineFactoryReloaded:machine.2:12>
 ] as IItemStack[];
 
 for i, toy in FMCMachine3500 {
@@ -288,7 +302,8 @@ var FMCMachine4500 = [
 <chisel:upgrade:1>,
 <openmodularturrets:accuraccyUpgradeItem>, 
 <EnderIO:blockAlloySmelter>, 
-<ThermalExpansion:capacitor:2>, <ThermalExpansion:Dynamo:3>
+<ThermalExpansion:capacitor:2>, <ThermalExpansion:Dynamo:3>,
+<MineFactoryReloaded:machine.0:13>
 ] as IItemStack[];
 
 for i, toy in FMCMachine4500 {
@@ -313,7 +328,8 @@ for i, toy in FMCMachine5000 {
 // Ferret Market Cost, Machine - 6,000
 var FMCMachine6000 = [
 <openmodularturrets:potentiaAddon>,
-<EnderIO:blockBuffer:2>, <EnderIO:blockSolarPanel>
+<EnderIO:blockBuffer:2>, <EnderIO:blockSolarPanel>,
+<MineFactoryReloaded:machine.1:3>
 ] as IItemStack[];
 
 for i, toy in FMCMachine6000 {
@@ -336,7 +352,8 @@ for i, toy in FMCMachine6500 {
 // Ferret Market Cost, Machine - 7,000
 var FMCMachine7000 = [
 <ExtraUtilities:generator:8>,
-<BiblioCraft:BiblioPaintPress>
+<BiblioCraft:BiblioPaintPress>,
+<MineFactoryReloaded:machine.2:6>
 ] as IItemStack[];
 
 for i, toy in FMCMachine7000 {
@@ -360,7 +377,8 @@ for i, toy in FMCMachine7500 {
 // Ferret Market Cost, Machine - 8,000
 var FMCMachine8000 = [
 <EnderIO:blockKillerJoe>,
-<ExtraUtilities:generator:3>
+<ExtraUtilities:generator:3>,
+<MineFactoryReloaded:machine.0:7>
 ] as IItemStack[];
 
 for i, toy in FMCMachine8000 {
@@ -374,7 +392,8 @@ var FMCMachine8500 = [
 <minecraft:jukebox>,
 <ThermalExpansion:capacitor:3>,
 <BiblioCraft:Printing Press>,
-<EnderIO:blockCrafter>
+<EnderIO:blockCrafter>,
+<MineFactoryReloaded:machine.1:7>, <MineFactoryReloaded:machine.1:12>
 ] as IItemStack[];
 
 for i, toy in FMCMachine8500 {
@@ -386,7 +405,8 @@ for i, toy in FMCMachine8500 {
 // Ferret Market Cost, Machine - 9,000
 var FMCMachine9000 = [
 <malisisdoors:vanishing_block:3>, 
-<StorageDrawers:controller>
+<StorageDrawers:controller>, 
+<MineFactoryReloaded:machine.2:8>
 ] as IItemStack[];
 
 for i, toy in FMCMachine9000 {
@@ -458,13 +478,25 @@ var FMCMachine12000 = [
 <ThermalExpansion:Cell:1>,
 <ExtraUtilities:enderThermicPump>, <ExtraUtilities:extractor_base:12>, <ExtraUtilities:generator:2>, 
 <EnderIO:blockPainter>,
-<openmodularturrets:baseTierOneBlock>
+<openmodularturrets:baseTierOneBlock>, 
+<MineFactoryReloaded:rednet.logic>
 ] as IItemStack[];
 
 for i, toy in FMCMachine12000 {
      <ore:zFMC12000>.add(toy);
      <ore:zFMCMachine12000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =12,000=") + " | " + format.green("Tech ")+ ")"));
+}
+
+// Ferret Market Cost, Machine - 12,500
+var FMCMachine12500 = [
+<MineFactoryReloaded:machine.0:2>
+] as IItemStack[];
+
+for i, toy in FMCMachine12500 {
+     <ore:zFMC12500>.add(toy);
+     <ore:zFMCMachine12500>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =12,500=") + " | " + format.green("Tech ")+ ")"));
 }
 
 // Ferret Market Cost, Machine - 13,500
@@ -491,7 +523,8 @@ for i, toy in FMCMachine14000 {
 
 // Ferret Market Cost, Machine - 14,500
 var FMCMachine14500 = [
-<EnderIO:blockExperienceObelisk>, <EnderIO:blockSliceAndSplice>, <EnderIO:blockAttractor>
+<EnderIO:blockExperienceObelisk>, <EnderIO:blockSliceAndSplice>, <EnderIO:blockAttractor>,
+<MineFactoryReloaded:machine.2:10>
 ] as IItemStack[];
 
 for i, toy in FMCMachine14500 {
@@ -513,7 +546,8 @@ for i, toy in FMCMachine16000 {
 
 // Ferret Market Cost, Machine - 17,000
 var FMCMachine17000 = [
-<EnderIO:blockPoweredSpawner>
+<EnderIO:blockPoweredSpawner>,
+<MineFactoryReloaded:machine.0:14>
 ] as IItemStack[];
 
 for i, toy in FMCMachine17000 {
@@ -546,7 +580,8 @@ for i, toy in FMCMachine19000 {
 
 // Ferret Market Cost, Machine - 19,500
 var FMCMachine19500 = [
-<EnderIO:blockSpawnGuard>
+<EnderIO:blockSpawnGuard>,
+<MineFactoryReloaded:machine.2:1>
 ] as IItemStack[];
 
 for i, toy in FMCMachine19500 {
@@ -557,7 +592,8 @@ for i, toy in FMCMachine19500 {
 
 // Ferret Market Cost, Machine - 20,000
 var FMCMachine20000 = [
-<ExtraUtilities:generator.8:9>, <ExtraUtilities:generator.8>
+<ExtraUtilities:generator.8:9>, <ExtraUtilities:generator.8>,
+<MineFactoryReloaded:machine.0:12>, <MineFactoryReloaded:machine.2:0>
 ] as IItemStack[];
 
 for i, toy in FMCMachine20000 {
@@ -568,7 +604,8 @@ for i, toy in FMCMachine20000 {
 
 // Ferret Market Cost, Machine - 21,000
 var FMCMachine21000 = [
-<Thaumcraft:blockTube:7>
+<Thaumcraft:blockTube:7>,
+<MineFactoryReloaded:machine.2:2>
 ] as IItemStack[];
 
 for i, toy in FMCMachine21000 {
@@ -601,7 +638,8 @@ for i, toy in FMCMachine22500 {
 
 // Ferret Market Cost, Machine - 24,000
 var FMCMachine24000 = [
-<ThermalExpansion:Dynamo:4>, <ThermalExpansion:Dynamo:1>
+<ThermalExpansion:Dynamo:4>, <ThermalExpansion:Dynamo:1>,
+<MineFactoryReloaded:machine.1:13>
 ] as IItemStack[];
 
 for i, toy in FMCMachine24000 {

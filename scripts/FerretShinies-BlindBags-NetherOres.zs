@@ -38,27 +38,3 @@ for i, toy in ferretNetherOresDecentBlindBag {
      toy.addShiftTooltip(format.white("Contains a random Decent item"));
      toy.addShiftTooltip(format.white("or block from Nether Ores."));
 }
-
-// BLIND BAGS - NetherOres GOOD
-var ferretNetherOresGoodBlindBag = [
-<ferretshinies:BlindBag:124>
-] as IItemStack[];
-
-for i, toy in ferretNetherOresGoodBlindBag {
-     toy.addTooltip(format.green("A Ferret Business Blind Bag!"));
-     toy.addTooltip(format.aqua("Hold <SHIFT> to peek at the back."));
-     toy.addShiftTooltip(format.white("Contains a random Good item"));
-     toy.addShiftTooltip(format.white("or block from Nether Ores."));
-}
-
-// BLIND BAGS - NetherOres AMAZING
-var ferretNetherOresAmazingBlindBag = [
-<ferretshinies:BlindBag:125>
-] as IItemStack[];
-
-for i, toy in ferretNetherOresAmazingBlindBag {
-     toy.addTooltip(format.green("A Ferret Business Blind Bag!"));
-     toy.addTooltip(format.aqua("Hold <SHIFT> to peek at the back."));
-     toy.addShiftTooltip(format.white("Contains a random Amazing item"));
-     toy.addShiftTooltip(format.white("or block from Nether Ores."));
-}

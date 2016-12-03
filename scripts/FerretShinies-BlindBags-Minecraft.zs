@@ -26,7 +26,12 @@ var ferretMinecraftCheapBlindBag = [
 <ferretshinies:BlindBag:45>,
 <ferretshinies:BlindBag:46>,
 <ferretshinies:BlindBag:47>,
-<ferretshinies:BlindBag:48>
+<ferretshinies:BlindBag:48>,
+<ferretshinies:BlindBag:49>,
+<ferretshinies:BlindBag:50>,
+<ferretshinies:BlindBag:51>,
+<ferretshinies:BlindBag:52>,
+<ferretshinies:BlindBag:53>
 ] as IItemStack[];
 
 for i, toy in ferretMinecraftCheapBlindBag {
@@ -38,10 +43,7 @@ for i, toy in ferretMinecraftCheapBlindBag {
 
 // BLIND BAGS - MINECRAFT DECENT
 var ferretMinecraftDecentBlindBag = [
-<ferretshinies:BlindBag:49>,
-<ferretshinies:BlindBag:50>,
-<ferretshinies:BlindBag:51>,
-<ferretshinies:BlindBag:52>
+<ferretshinies:BlindBag:54>
 ] as IItemStack[];
 
 for i, toy in ferretMinecraftDecentBlindBag {
@@ -53,8 +55,7 @@ for i, toy in ferretMinecraftDecentBlindBag {
 
 // BLIND BAGS - MINECRAFT GOOD
 var ferretMinecraftGoodBlindBag = [
-<ferretshinies:BlindBag:53>,
-<ferretshinies:BlindBag:54>
+<ferretshinies:BlindBag:55>
 ] as IItemStack[];
 
 for i, toy in ferretMinecraftGoodBlindBag {
@@ -66,7 +67,7 @@ for i, toy in ferretMinecraftGoodBlindBag {
 
 // BLIND BAGS - MINECRAFT AMAZING
 var ferretMinecraftAmazingBlindBag = [
-<ferretshinies:BlindBag:55>
+<ferretshinies:BlindBag:391>
 ] as IItemStack[];
 
 for i, toy in ferretMinecraftAmazingBlindBag {

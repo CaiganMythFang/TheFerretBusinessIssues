@@ -17,7 +17,10 @@ for i, toy in ferretEnderIOMasterBlindBag {
 
 // BLIND BAGS - ENDER IO CHEAP
 var ferretEnderIOCheapBlindBag = [
-<ferretshinies:BlindBag:21>
+<ferretshinies:BlindBag:21>,
+<ferretshinies:BlindBag:22>,
+<ferretshinies:BlindBag:23>,
+<ferretshinies:BlindBag:24>
 ] as IItemStack[];
 
 for i, toy in ferretEnderIOCheapBlindBag {
@@ -29,8 +32,7 @@ for i, toy in ferretEnderIOCheapBlindBag {
 
 // BLIND BAGS - ENDER IO DECENT
 var ferretEnderIODecentBlindBag = [
-<ferretshinies:BlindBag:22>,
-<ferretshinies:BlindBag:23>
+<ferretshinies:BlindBag:25>
 ] as IItemStack[];
 
 for i, toy in ferretEnderIODecentBlindBag {
@@ -42,7 +44,7 @@ for i, toy in ferretEnderIODecentBlindBag {
 
 // BLIND BAGS - ENDER IO GOOD
 var ferretEnderIOGoodBlindBag = [
-<ferretshinies:BlindBag:24>
+<ferretshinies:BlindBag:385>
 ] as IItemStack[];
 
 for i, toy in ferretEnderIOGoodBlindBag {
@@ -54,7 +56,7 @@ for i, toy in ferretEnderIOGoodBlindBag {
 
 // BLIND BAGS - ENDER IO AMAZING
 var ferretEnderIOAmazingBlindBag = [
-<ferretshinies:BlindBag:25>
+<ferretshinies:BlindBag:392>
 ] as IItemStack[];
 
 for i, toy in ferretEnderIOAmazingBlindBag {

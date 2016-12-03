@@ -2,7 +2,8 @@ import minetweaker.item.IItemStack;
 
 // Ferret Market Cost, Accessory - 25
 var FMCAccessory25 = [
-<Botania:clip>
+<Botania:clip>, 
+<MineFactoryReloaded:glass.helm>
 ] as IItemStack[];
 
 for i, toy in FMCAccessory25 {

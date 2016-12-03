@@ -10,7 +10,8 @@ var FMCquarter = [
 <ProjRed|Exploration:projectred.exploration.stone>,
 <BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingBoard>,
 <Botania:biomeStoneA:*>, <Botania:livingrock>,
-<Thaumcraft:blockMagicalLeaves>, <Thaumcraft:blockMagicalLeaves:1>
+<Thaumcraft:blockMagicalLeaves>, <Thaumcraft:blockMagicalLeaves:1>, 
+<MineFactoryReloaded:rubberwood.leaves:*>
 ] as IItemStack[];
 
 for i, toy in FMCquarter {
@@ -64,7 +65,8 @@ var FMC2 = [
 <harvestcraft:cottonItem>,
 <EnderIO:itemMaterial:2>,
 <Botania:livingwood>,
-<Thaumcraft:blockMagicalLog>, <Thaumcraft:blockMagicalLog:1>
+<Thaumcraft:blockMagicalLog>, <Thaumcraft:blockMagicalLog:1>, 
+<MineFactoryReloaded:rubberwood.log:*>, <MineFactoryReloaded:fertilizer>
 ] as IItemStack[];
 
 for i, toy in FMC2 {
@@ -105,7 +107,8 @@ var FMC10 = [
 <ferretshinies:LayeredIconAsset:1>,
 <Botania:flower:*>, <Botania:manaResource:23>,
 <Thaumcraft:ItemNugget:7>,
-<TwilightForest:item.torchberries>
+<TwilightForest:item.torchberries>, 
+<MineFactoryReloaded:rubberwood.sapling:*>
 ] as IItemStack[];
 
 for i, toy in FMC10 {
@@ -214,7 +217,8 @@ var FMC300 = [
 <EnderIO:itemMaterial:4>, <EnderIO:itemAlloy:4>, <EnderIO:itemAlloy>,
 <NetherOres:tile.netherores.ore.1:13>,
 <ThermalFoundation:material:512>,
-<Thaumcraft:ItemResource:2>
+<Thaumcraft:ItemResource:2>, 
+<aura:ingotRed>, <aura:ingotWhite>, <aura:ingotViolet>, <aura:ingotOrange>, <aura:ingotGreen>, <aura:ingotYellow>, <aura:ingotBlue>, <aura:ingotBlack>
 ] as IItemStack[];
 
 for i, toy in FMC300 {
@@ -252,7 +256,8 @@ var FMC500 = [
 <NetherOres:tile.netherores.ore.0:0>,
 <ferretshinies:LayeredIconAsset:4>,
 <Thaumcraft:ItemNugget:16>,
-<GrimoireOfGaia:item.GrimoireOfGaia.Shard:1>
+<GrimoireOfGaia:item.GrimoireOfGaia.Shard:1>, 
+<MineFactoryReloaded:bucket.sludge>, <MineFactoryReloaded:bucket.sewage>, <MineFactoryReloaded:bucket.biofuel>, <MineFactoryReloaded:bucket.pinkslime>, <MineFactoryReloaded:bucket.chocolatemilk>, <MineFactoryReloaded:bucket.mushroomsoup>
 ] as IItemStack[];
 
 for i, toy in FMC500 {
@@ -272,7 +277,9 @@ var FMC1000 = [
 <ExtraUtilities:plant/ender_lilly>,
 <appliedenergistics2:item.ItemMultiMaterial:7>, <appliedenergistics2:item.ItemMultiMaterial:8>, 
 <EnderIO:itemAlloy:5>, <EnderIO:bucketNutrient_distillation>, <EnderIO:bucketRocket_fuel>, <EnderIO:bucketFire_water>, <EnderIO:bucketLiquid_sunshine>,
-<enhancedportals:nuggetDiamond>
+<enhancedportals:nuggetDiamond>, 
+<MineFactoryReloaded:bucket.essence>, 
+<aura:AuraCrystal>, <aura:AuraCrystal:1>, <aura:AuraCrystal:2>, <aura:AuraCrystal:3>, <aura:AuraCrystal:4>, <aura:AuraCrystal:5>, <aura:AuraCrystal:6>, <aura:AuraCrystal:7>
 ] as IItemStack[];
 
 for i, toy in FMC1000 {
@@ -339,7 +346,8 @@ for i, toy in FMC2500 {
 // Ferret Market Cost, Material - 3,000
 var FMC3000 = [
 <denseores:block0:4>,
-<appliedenergistics2:tile.OreQuartz>, <appliedenergistics2:tile.OreQuartzCharged>
+<appliedenergistics2:tile.OreQuartz>, <appliedenergistics2:tile.OreQuartzCharged>, 
+<aura:ingotAngelSteel>
 ] as IItemStack[];
 
 for i, toy in FMC3000 {
@@ -467,7 +475,8 @@ var FMC9000 = [
 <minecraft:emerald_block>,
 <NetherOres:tile.netherores.ore.0:9>,
 <Botania:manaResource:9>,
-<EnderIO:blockIngotStorage:5>
+<EnderIO:blockIngotStorage:5>,
+<aura:ingotAngelSteel:1>
 ] as IItemStack[];
 
 for i, toy in FMC9000 {
@@ -630,6 +639,17 @@ for i, toy in FMC26000 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =26,000=") + " | " + format.green("Material ")+ ")"));
 }
 
+// Ferret Market Cost, Material - 27,000
+var FMC27000 = [
+<denseores:block0:3>, <aura:ingotAngelSteel:2>
+] as IItemStack[];
+
+for i, toy in FMC27000 {
+     <ore:zFMC27000>.add(toy);
+     <ore:zFMCMaterial27000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =27,000=") + " | " + format.green("Material ")+ ")"));
+}
+
 // Ferret Market Cost, Material - 31,500
 var FMC31500 = [
 <EnderIO:blockIngotStorage:2>
@@ -686,6 +706,17 @@ for i, toy in FMC74500 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =74,500=") + " | " + format.green("Material ")+ ")"));
 }
 
+// Ferret Market Cost, Material - 76,000
+var FMC76000 = [
+<aura:prismWhite>
+] as IItemStack[];
+
+for i, toy in FMC76000 {
+     <ore:zFMC76000>.add(toy);
+     <ore:zFMCMaterial76000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =76,000=") + " | " + format.green("Material ")+ ")"));
+}
+
 // Ferret Market Cost, Material - 76,500
 var FMC76500 = [
 <Botania:storage:3>
@@ -700,7 +731,8 @@ for i, toy in FMC76500 {
 // Ferret Market Cost, Material - 81,000
 var FMC81000 = [
 <ExtraUtilities:bedrockiumIngot>,
-<Botania:storage:4>
+<Botania:storage:4>, 
+<aura:ingotAngelSteel:3>
 ] as IItemStack[];
 
 for i, toy in FMC81000 {
@@ -729,4 +761,26 @@ for i, toy in FMC135000 {
      <ore:zFMC135000>.add(toy);
      <ore:zFMCMaterial135000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =135,000=") + " | " + format.green("Material ")+ ")"));
+}
+
+// Ferret Market Cost, Material - 243,000
+var FMC243000 = [
+<aura:ingotAngelSteel:4>
+] as IItemStack[];
+
+for i, toy in FMC243000 {
+     <ore:zFMC243000>.add(toy);
+     <ore:zFMCMaterial243000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =243,000=") + " | " + format.green("Material ")+ ")"));
+}
+
+// Ferret Market Cost, Material - 729,000
+var FMC729000 = [
+<aura:ingotAngelSteel:5>
+] as IItemStack[];
+
+for i, toy in FMC729000 {
+     <ore:zFMC729000>.add(toy);
+     <ore:zFMCMaterial729000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =729,000=") + " | " + format.green("Material ")+ ")"));
 }

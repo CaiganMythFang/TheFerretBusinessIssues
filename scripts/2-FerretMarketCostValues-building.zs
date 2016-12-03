@@ -10,7 +10,8 @@ var FMCBuildingquarter = [
 <openmodularturrets:hardWallTierOne>, <openmodularturrets:hardWallTierTwo>,
 <Botania:livingrock:1>, <Botania:livingrock:3>, <Botania:livingrock:4>, <Botania:livingrock0Slab>, <Botania:altGrass:*>, <Botania:livingrock0Stairs>, <Botania:livingrock0Wall>, <Botania:livingrock1Stairs>, <Botania:biomeStoneB:*>, <Botania:stone:*>, <Botania:biomeStoneA0Wall:*>, <Botania:stone0Wall:*>, <Botania:livingrock1Slab>, <Botania:livingwood1Slab>, <Botania:dirtPath0Slab>, <Botania:biomeStoneA0Slab>, <Botania:biomeStoneA1Slab>, <Botania:biomeStoneA2Slab>, <Botania:biomeStoneA3Slab>, <Botania:biomeStoneA4Slab>, <Botania:biomeStoneA5Slab>, <Botania:biomeStoneA6Slab>, <Botania:biomeStoneA7Slab>, <Botania:biomeStoneA8Slab>, <Botania:biomeStoneA9Slab>, <Botania:biomeStoneA10Slab>, <Botania:biomeStoneA11Slab>, <Botania:biomeStoneA12Slab>, <Botania:biomeStoneA13Slab>, <Botania:biomeStoneA14Slab>, <Botania:biomeStoneA15Slab>, <Botania:biomeStoneB0Slab>, <Botania:biomeStoneB1Slab>, <Botania:biomeStoneB2Slab>, <Botania:biomeStoneB3Slab>, <Botania:biomeStoneB4Slab>, <Botania:biomeStoneB5Slab>, <Botania:biomeStoneB6Slab>, <Botania:biomeStoneB7Slab>, <Botania:stone0Slab>, <Botania:stone1Slab>, <Botania:stone2Slab>, <Botania:stone3Slab>, <Botania:stone8Slab>, <Botania:stone9Slab>, <Botania:stone10Slab>, <Botania:stone11Slab>,
 <ExtraUtilities:decorativeBlock1>, <ExtraUtilities:decorativeBlock1:4>, <ExtraUtilities:decorativeBlock1:7>,
-<Thaumcraft:blockCosmeticSlabWood>, <Thaumcraft:blockCosmeticSlabWood:1>
+<Thaumcraft:blockCosmeticSlabWood>, <Thaumcraft:blockCosmeticSlabWood:1>, 
+<MineFactoryReloaded:brick:6>
 ] as IItemStack[];
 
 for i, toy in FMCBuildingquarter {
@@ -47,7 +48,9 @@ var FMCBuilding1 = [
 <Natura:trapdoor.eucalyptus>, <Natura:trapdoor.sakura>, <Natura:trapdoor.ghostwood>, <Natura:trapdoor.redwood>, <Natura:trapdoor.bloodwood>, <Natura:trapdoor.hopseed>, <Natura:trapdoor.maple>, <Natura:trapdoor.silverbell>, <Natura:trapdoor.amaranth>, <Natura:trapdoor.tiger>, <Natura:trapdoor.willow>, <Natura:trapdoor.darkwood>, <Natura:trapdoor.fusewood>,
 <Botania:endStoneBrick>, <Botania:endStoneBrick:1>, <Botania:dreamwood:1>, <Botania:dreamwood:3>, <Botania:dreamwood:4>, <Botania:customBrick>, <Botania:customBrick:2>, <Botania:livingwood0Slab>, <Botania:pavement>, <Botania:pavement4Slab>,
 <CarpentersBlocks:blockCarpentersStairs>,
-<Thaumcraft:blockStairsGreatwood>, <Thaumcraft:blockStairsSilverwood>
+<Thaumcraft:blockStairsGreatwood>, <Thaumcraft:blockStairsSilverwood>, 
+<MineFactoryReloaded:road>, <MineFactoryReloaded:stone>, <MineFactoryReloaded:stone:1>, <MineFactoryReloaded:stone:4>, <MineFactoryReloaded:stone:5>, <MineFactoryReloaded:stone:6>, <MineFactoryReloaded:stone:7>, 
+<aura:fortifiedWood>, <aura:fortifiedStone>, <aura:fortifiedCobblestone>, <aura:fortifiedDirt>
 ] as IItemStack[];
 
 for i, toy in FMCBuilding1 {
@@ -70,7 +73,8 @@ var FMCBuilding2 = [
 <CarpentersBlocks:blockCarpentersGate>, <CarpentersBlocks:blockCarpentersHatch>, <CarpentersBlocks:itemCarpentersTile>, <CarpentersBlocks:itemCarpentersDoor>,
 <Botania:livingwood0Stairs>, <Botania:livingwood0Wall>, <Botania:dreamwood1Stairs>, <Botania:customBrick2Stairs>, <Botania:pavement:4>, <Botania:pavement0Stairs>, <Botania:pavement4Stairs>, <Botania:endStoneBrick0Stairs>, <Botania:manaGlassPane>, <Botania:dreamwood0Slab>,
 <EnderIO:blockFusedQuartz:1>, <EnderIO:itemFusedQuartzFrame>,
-<ThaumicTinkerer:platform>
+<ThaumicTinkerer:platform>, 
+<MineFactoryReloaded:stainedglass.pane:*>, <MineFactoryReloaded:stone:8>, <MineFactoryReloaded:stone:9>, <MineFactoryReloaded:stone:10>, <MineFactoryReloaded:stone:11>
 ] as IItemStack[];
 
 for i, toy in FMCBuilding2 {
@@ -90,7 +94,8 @@ var FMCBuilding5 = [
 <malisisdoors:garage_door>,
 <Botania:pavement3Slab>, <Botania:livingrock:2>, <Botania:livingwood:2>, <Botania:dreamwood:2>, <Botania:dreamwood0Wall>, <Botania:elfGlassPane>, <Botania:bifrostPermPane>, <Botania:customBrick3Slab>, <Botania:shimmerrock0Slab>, <Botania:shimmerwoodPlanks0Slab>, <Botania:pavement5Slab>, <Botania:manaGlass>,
 <ExtraUtilities:decorativeBlock1:10>,
-<EnderIO:itemConduitFacade>
+<EnderIO:itemConduitFacade>, 
+<MineFactoryReloaded:stainedglass.block:*>, <MineFactoryReloaded:brick:0>, <MineFactoryReloaded:brick:4>, <MineFactoryReloaded:brick:10>, <MineFactoryReloaded:brick:5>, <MineFactoryReloaded:brick:11>, <MineFactoryReloaded:farmland>, <aura:fortifiedGlass>
 ] as IItemStack[];
 
 for i, toy in FMCBuilding5 {
@@ -111,7 +116,9 @@ var FMCBuilding10 = [
 <BiblioCraft:BiblioFancySign:0>, <BiblioCraft:BiblioFancySign:1>, <BiblioCraft:BiblioFancySign:2>, <BiblioCraft:BiblioFancySign:3>, <BiblioCraft:BiblioFancySign:4>, <BiblioCraft:BiblioFancySign:5>, <BiblioCraft:BiblioFancySign:6>,
 <malisisdoors:item.wood_sliding_door>,
 <Botania:pavement3Stairs>, <Botania:pavement:3>, <Botania:customBrick:3>, <Botania:shimmerwoodPlanks>, <Botania:dreamwood0Stairs>, <Botania:customBrick3Stairs>, <Botania:pavement:5>, <Botania:pavement5Stairs>, <Botania:shimmerrock0Stairs>, <Botania:shimmerwoodPlanks0Stairs>, <Botania:thatch0Slab>, <Botania:elfGlass>, <Botania:bifrostPerm>, <Botania:shimmerrock>,
-<ExtraUtilities:curtains>, <ExtraUtilities:decorativeBlock1:6>, <ExtraUtilities:decorativeBlock2:10>, <ExtraUtilities:cobblestone_compressed:14>
+<ExtraUtilities:curtains>, <ExtraUtilities:decorativeBlock1:6>, <ExtraUtilities:decorativeBlock2:10>, <ExtraUtilities:cobblestone_compressed:14>, 
+<MineFactoryReloaded:vinescaffold>, 
+<aura:magicRoad>
 ] as IItemStack[];
 
 for i, toy in FMCBuilding10 {
@@ -132,7 +139,8 @@ var FMCBuilding25 = [
 <Botania:pavement1Slab>, <Botania:reedBlock0Slab>, <Botania:thatch>, <Botania:customBrick1Slab>,
 <ExtraUtilities:cobblestone_compressed:1>, <ExtraUtilities:cobblestone_compressed:9>, <ExtraUtilities:cobblestone_compressed:12>,
 <Thaumcraft:blockCosmeticSolid:11>, <Thaumcraft:blockCosmeticSolid:12>, <Thaumcraft:blockCosmeticSolid:14>, <Thaumcraft:blockCosmeticSolid:15>, <Thaumcraft:blockEldritch:4>, <Thaumcraft:blockStairsEldritch>, <Thaumcraft:blockCosmeticSlabStone>, 
-<EnderIO:blockFusedQuartz:5>
+<EnderIO:blockFusedQuartz:5>, 
+<MineFactoryReloaded:brick:3>, <MineFactoryReloaded:brick:9>, <MineFactoryReloaded:brick:14>
 ] as IItemStack[];
 
 for i, toy in FMCBuilding25 {
@@ -153,7 +161,9 @@ var FMCBuilding50 = [
 <Botania:reedBlock0Wall>, <Botania:reedBlock>, <Botania:customBrick:1>, <Botania:petalBlock:*>, <Botania:thatch0Stairs>, <Botania:pavement:1>, 
 <ExtraUtilities:decorativeBlock2:5>, <ExtraUtilities:color_hellsand:*>, <ExtraUtilities:color_brick:*>, <ExtraUtilities:decorativeBlock2:11>, 
 <EnderIO:itemConduitFacade:1>, <EnderIO:blockDarkSteelLadder>,
-<CompactMachines:innerwalldecor>, <CompactMachines:interfacedecor>
+<CompactMachines:innerwalldecor>, <CompactMachines:interfacedecor>, 
+<MineFactoryReloaded:plastic:*>, 
+<aura:fortifiedObsidian>
 ] as IItemStack[];
 
 for i, toy in FMCBuilding50 {
@@ -208,7 +218,8 @@ var FMCBuilding300 = [
 <Botania:quartzStairsMana>, <Botania:pavement2Stairs>, <Botania:dreamwood:5>, <Botania:livingwood:5>, <Botania:endStoneBrick:2>, <Botania:endStoneBrick:3>, <Botania:quartzStairsLavender>, <Botania:quartzStairsRed>, <Botania:quartzStairsSunny>, <Botania:prismarine0Stairs>, <Botania:prismarine1Stairs>, <Botania:prismarine2Stairs>, 
 <Thaumcraft:blockCosmeticSolid>, <Thaumcraft:blockCosmeticSolid:1>, <Thaumcraft:blockCosmeticSolid:8>,
 <ThaumicTinkerer:darkQuartzStairs>,
-<ExtraUtilities:cobblestone_compressed:13>, <ExtraUtilities:cobblestone_compressed:10>, <ExtraUtilities:decorativeBlock1:14>, <ExtraUtilities:decorativeBlock1:1>
+<ExtraUtilities:cobblestone_compressed:13>, <ExtraUtilities:cobblestone_compressed:10>, <ExtraUtilities:decorativeBlock1:14>, <ExtraUtilities:decorativeBlock1:1>, 
+<MineFactoryReloaded:road:1>, <MineFactoryReloaded:road:4>
 ] as IItemStack[];
 
 for i, toy in FMCBuilding300 {
@@ -235,7 +246,8 @@ var FMCBuilding500 = [
 <malisisdoors:rustyLadder>, <malisisdoors:item.iron_sliding_door>, <malisisdoors:item.jail_door>,
 <Botania:customBrick:4>, <Botania:customBrick:5>, <Botania:customBrick:6>, <Botania:customBrick:7>, <Botania:customBrick:8>, <Botania:customBrick:9>, <Botania:customBrick:10>, <Botania:customBrick:11>, <Botania:customBrick:12>, <Botania:customBrick:13>, <Botania:customBrick:14>, <Botania:customBrick:15>, <Botania:quartzStairsBlaze>, <Botania:quartzStairsElf>,
 <ThermalExpansion:Glass:1>,
-<Thaumcraft:blockCosmeticSlabStone>
+<Thaumcraft:blockCosmeticSlabStone>, 
+<MineFactoryReloaded:brick:1>, <MineFactoryReloaded:brick:7>
 ] as IItemStack[];
 
 for i, toy in FMCBuilding500 {
@@ -297,7 +309,8 @@ for i, toy in FMCBuilding2000 {
 var FMCBuilding2500 = [
 <chisel:steelblock:*>, <chisel:thaumium:*>,
 <ExtraUtilities:cobblestone_compressed:11>,
-<EnderIO:blockReinforcedObsidian>
+<EnderIO:blockReinforcedObsidian>, 
+<MineFactoryReloaded:brick:2>, <MineFactoryReloaded:brick:8>
 ] as IItemStack[];
 
 for i, toy in FMCBuilding2500 {

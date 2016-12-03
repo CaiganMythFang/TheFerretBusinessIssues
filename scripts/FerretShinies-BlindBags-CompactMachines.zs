@@ -27,18 +27,6 @@ for i, toy in ferretCompMachCheapBlindBag {
      toy.addShiftTooltip(format.white("or block from Compact Machines."));
 }
 
-// BLIND BAGS - CompMach DECENT
-var ferretCompMachDecentBlindBag = [
-<ferretshinies:BlindBag:181>
-] as IItemStack[];
-
-for i, toy in ferretCompMachDecentBlindBag {
-     toy.addTooltip(format.green("A Ferret Business Blind Bag!"));
-     toy.addTooltip(format.aqua("Hold <SHIFT> to peek at the back."));
-     toy.addShiftTooltip(format.white("Contains a random Decent item"));
-     toy.addShiftTooltip(format.white("or block from Compact Machines."));
-}
-
 // BLIND BAGS - CompMach GOOD
 var ferretCompMachGoodBlindBag = [
 <ferretshinies:BlindBag:182>

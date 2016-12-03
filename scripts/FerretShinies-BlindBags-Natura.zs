@@ -19,27 +19,16 @@ var ferretNaturaCheapBlindBag = [
 <ferretshinies:BlindBag:63>,
 <ferretshinies:BlindBag:64>,
 <ferretshinies:BlindBag:65>,
-<ferretshinies:BlindBag:66>
-] as IItemStack[];
-
-for i, toy in ferretNaturaCheapBlindBag {
-     toy.addTooltip(format.green("A Ferret Business Blind Bag!"));
-     toy.addTooltip(format.aqua("Hold <SHIFT> to peek at the back."));
-     toy.addShiftTooltip(format.white("Contains a random Cheap item"));
-     toy.addShiftTooltip(format.white("or block from Natura."));
-}
-
-// BLIND BAGS - NATURA DECENT
-var ferretNaturaDecentBlindBag = [
+<ferretshinies:BlindBag:66>,
 <ferretshinies:BlindBag:67>,
 <ferretshinies:BlindBag:68>,
 <ferretshinies:BlindBag:69>,
 <ferretshinies:BlindBag:70>
 ] as IItemStack[];
 
-for i, toy in ferretNaturaDecentBlindBag {
+for i, toy in ferretNaturaCheapBlindBag {
      toy.addTooltip(format.green("A Ferret Business Blind Bag!"));
      toy.addTooltip(format.aqua("Hold <SHIFT> to peek at the back."));
-     toy.addShiftTooltip(format.white("Contains a random Decent item"));
+     toy.addShiftTooltip(format.white("Contains a random Cheap item"));
      toy.addShiftTooltip(format.white("or block from Natura."));
 }

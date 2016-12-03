@@ -138,7 +138,7 @@ var FMCMagic400 = [
 <ferretshinies:LayeredIconAsset:323>, <ferretshinies:LayeredIconAsset:324>,
 <Botania:pistonRelay>, <Botania:manaDetector>,
 <Thaumcraft:ItemResource:1>,
-<aura:auraNode>
+<aura:auraNode>, <aura:trampoline>
 ] as IItemStack[];
 
 for i, toy in FMCMagic400 {
@@ -154,7 +154,8 @@ var FMCMagic500 = [
 <Botania:fireRod>, <Botania:dirtRod>, <Botania:teruTeruBozu>, <Botania:miniIsland:*>, <Botania:platform>, <Botania:shinyFlower:*>, <Botania:forestDrum:1>, <Botania:distributor>, <Botania:unstableBlock:*>, <Botania:spreader:2>, <Botania:cobbleRod>,
 <ForbiddenMagic:GluttonyShard>,
 <Thaumcraft:blockJar:3>, <Thaumcraft:TrunkSpawner>, <Thaumcraft:blockCustomPlant:2>, <Thaumcraft:blockCustomPlant:3>,
-<ThaumicTinkerer:brightNitor>
+<ThaumicTinkerer:brightNitor>, 
+<aura:consumerBlockdye>
 ] as IItemStack[];
 
 for i, toy in FMCMagic500 {
@@ -174,7 +175,7 @@ var FMCMagic1000 = [
 <Thaumcraft:blockCustomPlant:4>, <Thaumcraft:blockEssentiaReservoir>, <Thaumcraft:ItemEldritchObject:1>,
 <ThaumicTinkerer:spawner>,
 <ThaumicExploration:everburnUrn>, 
-<aura:AuraCrystal>, <aura:consumerBlockfurnace>
+<aura:consumerBlockfurnace>, <aura:auraNodeblack>, <aura:auraNodeconserve>, <aura:auraNodecapacitor>, <aura:auraNodeorange>, <aura:auraNodeflux>, <aura:monitor>, <aura:consumerBlockfish>
 ] as IItemStack[];
 
 for i, toy in FMCMagic1000 {
@@ -243,7 +244,7 @@ var FMCMagic3500 = [
 <Botania:starfield>, 
 <ThaumicTinkerer:golemConnector>,
 <Thaumcraft:blockMetalDevice:2>,
-<aura:auraNodepump>
+<aura:auraNodepump>, <aura:auraNodepumpAlt>
 ] as IItemStack[];
 
 for i, toy in FMCMagic3500 {
@@ -256,7 +257,8 @@ for i, toy in FMCMagic3500 {
 var FMCMagic4000 = [
 <ferretshinies:LayeredIconAsset:303>, <ferretshinies:LayeredIconAsset:304>,
 <Thaumcraft:blockMirror:6>, 
-<Botania:redStringRelay>
+<Botania:redStringRelay>, 
+<aura:auraNodepumpProjectile>, <aura:auraNodepumpFall>, <aura:auraNodepumpProjectileAlt>, <aura:auraNodepumpFallAlt>
 ] as IItemStack[];
 
 for i, toy in FMCMagic4000 {
@@ -267,7 +269,8 @@ for i, toy in FMCMagic4000 {
 
 // Ferret Market Cost, Magic - 4,500
 var FMCMagic4500 = [
-<ferretshinies:LayeredIconAsset:331>, <ferretshinies:LayeredIconAsset:305>, <ferretshinies:LayeredIconAsset:332>
+<ferretshinies:LayeredIconAsset:331>, <ferretshinies:LayeredIconAsset:305>, <ferretshinies:LayeredIconAsset:332>, 
+<aura:auraNodecraftingPedestal>
 ] as IItemStack[];
 
 for i, toy in FMCMagic4500 {
@@ -281,7 +284,8 @@ var FMCMagic5000 = [
 <ferretshinies:LayeredIconAsset:346>,
 <ForbiddenMagic:NetherShard:1>,
 <Botania:virus>, <Botania:virus:1>,
-<Thaumcraft:blockCosmeticSolid:3>, <Thaumcraft:blockStoneDevice:12>, <Thaumcraft:blockCustomPlant:1>, <Thaumcraft:blockMetalDevice:7>
+<Thaumcraft:blockCosmeticSolid:3>, <Thaumcraft:blockStoneDevice:12>, <Thaumcraft:blockCustomPlant:1>, <Thaumcraft:blockMetalDevice:7>, 
+<aura:consumerBlockore>
 ] as IItemStack[];
 
 for i, toy in FMCMagic5000 {
@@ -294,7 +298,8 @@ for i, toy in FMCMagic5000 {
 var FMCMagic5500 = [
 <ferretshinies:LayeredIconAsset:347>, 
 <Thaumcraft:blockStoneDevice:9>,
-<ThaumicTinkerer:animationTablet>
+<ThaumicTinkerer:animationTablet>, 
+<aura:auraNodepumpRedstone>, <aura:auraNodepumpRedstoneAlt>
 ] as IItemStack[];
 
 for i, toy in FMCMagic5500 {
@@ -343,7 +348,8 @@ for i, toy in FMCMagic7000 {
 // Ferret Market Cost, Magic - 7,500
 var FMCMagic7500 = [
 <Thaumcraft:ItemResource:14>, 
-<ThaumicTinkerer:fireWater>, <ThaumicTinkerer:fireAir>, <ThaumicTinkerer:fireFire>, <ThaumicTinkerer:fireChaos>, <ThaumicTinkerer:fireOrder>, <ThaumicTinkerer:fireEarth>
+<ThaumicTinkerer:fireWater>, <ThaumicTinkerer:fireAir>, <ThaumicTinkerer:fireFire>, <ThaumicTinkerer:fireChaos>, <ThaumicTinkerer:fireOrder>, <ThaumicTinkerer:fireEarth>, 
+<aura:auraNodepumpLight>, <aura:auraNodepumpLightAlt>
 ] as IItemStack[];
 
 for i, toy in FMCMagic7500 {
@@ -392,7 +398,8 @@ for i, toy in FMCMagic9000 {
 
 // Ferret Market Cost, Magic - 9,500
 var FMCMagic9500 = [
-<ferretshinies:LayeredIconAsset:351>
+<ferretshinies:LayeredIconAsset:351>, 
+<aura:gemBlack>, <aura:gemViolet>, <aura:gemGreen>, <aura:gemBlue>, <aura:gemRed>, <aura:gemYellow>, <aura:gemOrange>, <aura:gemWhite>
 ] as IItemStack[];
 
 for i, toy in FMCMagic9500 {
@@ -527,7 +534,8 @@ for i, toy in FMCMagic15500 {
 
 // Ferret Market Cost, Magic - 16,000
 var FMCMagic16000 = [
-<Thaumcraft:blockLifter>
+<Thaumcraft:blockLifter>, 
+<aura:auraNodecraftingCenter>
 ] as IItemStack[];
 
 for i, toy in FMCMagic16000 {
@@ -636,7 +644,8 @@ var FMCMagic20500 = [
 <ferretshinies:LayeredIconAsset:290>,
 <Botania:overgrowthSeed>, <Botania:corporeaIndex>,
 <ThaumicTinkerer:aspectAnalyzer>,
-<ForbiddenMagic:NetherShard:3>
+<ForbiddenMagic:NetherShard:3>, 
+<aura:redHole>
 ] as IItemStack[];
 
 for i, toy in FMCMagic20500 {
@@ -893,7 +902,8 @@ for i, toy in FMCMagic38500 {
 
 // Ferret Market Cost, Magic - 39,500
 var FMCMagic39500 = [
-<ferretshinies:LayeredIconAsset:315>
+<ferretshinies:LayeredIconAsset:315>, 
+<aura:consumerBlockplant>, <aura:consumerBlockloot>, <aura:consumerBlockmob>, <aura:consumerBlockpotion>, <aura:consumerBlocknether>
 ] as IItemStack[];
 
 for i, toy in FMCMagic39500 {
@@ -944,6 +954,17 @@ for i, toy in FMCMagic46500 {
      <ore:zFMC46500>.add(toy);
      <ore:zFMCMagic46500>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =46,500=") + " | " + format.green("Magic ")+ ")"));
+}
+
+// Ferret Market Cost, Magic - 48,000
+var FMCMagic48000 = [
+<aura:consumerBlockenchant>
+] as IItemStack[];
+
+for i, toy in FMCMagic48000 {
+     <ore:zFMC48000>.add(toy);
+     <ore:zFMCMagic48000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =48,000=") + " | " + format.green("Magic ")+ ")"));
 }
 
 // Ferret Market Cost, Magic - 50,000
@@ -1105,6 +1126,17 @@ for i, toy in FMCMagic77500 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =77,500=") + " | " + format.green("Magic ")+ ")"));
 }
 
+// Ferret Market Cost, Magic - 78,000
+var FMCMagic78000 = [
+<aura:storageBookshelfCoordinator>
+] as IItemStack[];
+
+for i, toy in FMCMagic78000 {
+     <ore:zFMC78000>.add(toy);
+     <ore:zFMCMagic78000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =78,000=") + " | " + format.green("Magic ")+ ")"));
+}
+
 // Ferret Market Cost, Magic - 79,000
 var FMCMagic79000 = [
 <Thaumcraft:blockStoneDevice:5>
@@ -1114,6 +1146,28 @@ for i, toy in FMCMagic79000 {
      <ore:zFMC79000>.add(toy);
      <ore:zFMCMagic79000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =79,000=") + " | " + format.green("Magic ")+ ")"));
+}
+
+// Ferret Market Cost, Magic - 81,000
+var FMCMagic81000 = [
+<aura:consumerBlockoreAdv>
+] as IItemStack[];
+
+for i, toy in FMCMagic81000 {
+     <ore:zFMC81000>.add(toy);
+     <ore:zFMCMagic81000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =81,000=") + " | " + format.green("Magic ")+ ")"));
+}
+
+// Ferret Market Cost, Magic - 84,000
+var FMCMagic84000 = [
+<aura:consumerBlockangel>
+] as IItemStack[];
+
+for i, toy in FMCMagic84000 {
+     <ore:zFMC84000>.add(toy);
+     <ore:zFMCMagic84000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =84,000=") + " | " + format.green("Magic ")+ ")"));
 }
 
 // Ferret Market Cost, Magic - 85,000
@@ -1136,6 +1190,17 @@ for i, toy in FMCMagic110000 {
      <ore:zFMC110000>.add(toy);
      <ore:zFMCMagic110000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =110,000=") + " | " + format.green("Magic ")+ ")"));
+}
+
+// Ferret Market Cost, Magic - 116,000
+var FMCMagic116000 = [
+<aura:consumerBlockend>
+] as IItemStack[];
+
+for i, toy in FMCMagic116000 {
+     <ore:zFMC116000>.add(toy);
+     <ore:zFMCMagic116000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =116,000=") + " | " + format.green("Magic ")+ ")"));
 }
 
 // Ferret Market Cost, Magic - 135,000
@@ -1180,6 +1245,17 @@ for i, toy in FMCMagic210000 {
      <ore:zFMC210000>.add(toy);
      <ore:zFMCMagic210000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =210,000=") + " | " + format.green("Magic ")+ ")"));
+}
+
+// Ferret Market Cost, Magic - 218,000
+var FMCMagic218000 = [
+<aura:consumerBlockminer>
+] as IItemStack[];
+
+for i, toy in FMCMagic218000 {
+     <ore:zFMC218000>.add(toy);
+     <ore:zFMCMagic218000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =218,000=") + " | " + format.green("Magic ")+ ")"));
 }
 
 // Ferret Market Cost, Magic - 235,000

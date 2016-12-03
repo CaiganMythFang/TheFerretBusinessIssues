@@ -44,7 +44,8 @@ for i, toy in FMCMisc10 {
 // Ferret Market Cost, Misc - 50
 var FMCMisc50 = [
 <minecraft:detector_rail>, <minecraft:redstone_torch>,
-<IronChest:diamondCrystalUpgrade>
+<IronChest:diamondCrystalUpgrade>, 
+<MineFactoryReloaded:rail.cargo.pickup>, <MineFactoryReloaded:rail.cargo.dropoff>
 ] as IItemStack[];
 
 for i, toy in FMCMisc50 {
@@ -127,7 +128,8 @@ var FMCMisc1500 = [
 <minecraft:cauldron>, 
 <Natura:BrailPowered>, <Natura:BrailDetector>, <Natura:BrailActivator>,
 <IronChest:woodCopperUpgrade>, <IronChest:woodIronUpgrade>,
-<JABBA:upgradeCore:4>, <JABBA:upgradeCore:3>
+<JABBA:upgradeCore:4>, <JABBA:upgradeCore:3>, 
+<MineFactoryReloaded:rail.passenger.pickup>, <MineFactoryReloaded:rail.passenger.dropoff>
 ] as IItemStack[];
 
 for i, toy in FMCMisc1500 {

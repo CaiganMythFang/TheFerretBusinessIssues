@@ -81,7 +81,8 @@ for i, toy in FMCWeapon100 {
 // Ferret Market Cost, Weapon - 200
 var FMCWeapon200 = [
 <Botania:livingwoodBow>,
-<Thaumcraft:ItemSwordVoid>
+<Thaumcraft:ItemSwordVoid>, 
+<MineFactoryReloaded:potatolauncher>
 ] as IItemStack[];
 
 for i, toy in FMCWeapon200 {
@@ -105,7 +106,8 @@ for i, toy in FMCWeapon400 {
 
 // Ferret Market Cost, Weapon - 500
 var FMCWeapon500 = [
-<Thaumcraft:ItemSwordThaumium>
+<Thaumcraft:ItemSwordThaumium>, 
+<MineFactoryReloaded:needlegun.ammo.standard>, <MineFactoryReloaded:needlegun.ammo.sludge>, <MineFactoryReloaded:needlegun.ammo.sewage>, <MineFactoryReloaded:needlegun.ammo.pierce>, <MineFactoryReloaded:needlegun.ammo.fire>
 ] as IItemStack[];
 
 for i, toy in FMCWeapon500 {
@@ -118,13 +120,25 @@ for i, toy in FMCWeapon500 {
 var FMCWeapon1000 = [
 <EnderIO:item.darkSteel_sword>,
 <Botania:elementiumSword>, <Botania:enderDagger>, 
-<Thaumcraft:PrimalArrow:*>
+<Thaumcraft:PrimalArrow:*>,
+<MineFactoryReloaded:needlegun.ammo.lava>, <MineFactoryReloaded:rocket:1>
 ] as IItemStack[];
 
 for i, toy in FMCWeapon1000 {
      <ore:zFMC1000>.add(toy);
      <ore:zFMCWeapon1000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =1,000=") + " | " + format.green("Weapon ")+ ")"));
+}
+
+// Ferret Market Cost, Weapon - 2,000
+var FMCWeapon2000 = [
+<MineFactoryReloaded:rocket>
+] as IItemStack[];
+
+for i, toy in FMCWeapon2000 {
+     <ore:zFMC2000>.add(toy);
+     <ore:zFMCWeapon2000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =2,000=") + " | " + format.green("Weapon ")+ ")"));
 }
 
 // Ferret Market Cost, Weapon - 4,000
@@ -149,6 +163,17 @@ for i, toy in FMCWeapon5000 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5,000=") + " | " + format.green("Weapon ")+ ")"));
 }
 
+// Ferret Market Cost, Weapon - 6,500
+var FMCWeapon6500 = [
+<MineFactoryReloaded:needlegun>
+] as IItemStack[];
+
+for i, toy in FMCWeapon6500 {
+     <ore:zFMC6500>.add(toy);
+     <ore:zFMCWeapon6500>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =6,500=") + " | " + format.green("Weapon ")+ ")"));
+}
+
 // Ferret Market Cost, Weapon - 7,500
 var FMCWeapon7500 = [
 <Botania:thornChakram>
@@ -162,7 +187,8 @@ for i, toy in FMCWeapon7500 {
 
 // Ferret Market Cost, Weapon - 8,000
 var FMCWeapon8000 = [
-<Thaumcraft:ItemBowBone>
+<Thaumcraft:ItemBowBone>, 
+<MineFactoryReloaded:needlegun.ammo.anvil>
 ] as IItemStack[];
 
 for i, toy in FMCWeapon8000 {
@@ -268,6 +294,17 @@ for i, toy in FMCWeapon39500 {
      <ore:zFMC39500>.add(toy);
      <ore:zFMCWeapon39500>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =39,500=") + " | " + format.green("Weapon ")+ ")"));
+}
+
+// Ferret Market Cost, Weapon - 54,000
+var FMCWeapon54000 = [
+<MineFactoryReloaded:rocketlauncher>
+] as IItemStack[];
+
+for i, toy in FMCWeapon54000 {
+     <ore:zFMC54000>.add(toy);
+     <ore:zFMCWeapon54000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =54,000=") + " | " + format.green("Weapon ")+ ")"));
 }
 
 // Ferret Market Cost, Weapon - 148,000

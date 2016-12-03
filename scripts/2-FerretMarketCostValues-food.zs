@@ -23,7 +23,8 @@ var FMCFood5 = [
 <props:props:1>,
 <AgriCraft:seedCarrot>, <AgriCraft:seedPotato>, 
 <witchery:seedsartichoke>, <witchery:seedssnowbell>, <witchery:seedsbelladonna>,
-<ImmersiveEngineering:seed>
+<ImmersiveEngineering:seed>, 
+<MineFactoryReloaded:meat.nugget.raw>, <MineFactoryReloaded:meat.nugget.cooked>, <MineFactoryReloaded:milkbottle>
 ] as IItemStack[];
 
 for i, toy in FMCFood5 {
@@ -74,7 +75,8 @@ var FMCFood50 = [
 <minecraft:pumpkin_pie>, <minecraft:hay_block>, <minecraft:porkchop>, <minecraft:cooked_porkchop>, <minecraft:fish:0>, <minecraft:fish:1>, <minecraft:fish:2>, <minecraft:fish:3>, <minecraft:cooked_fished>, <minecraft:cooked_fished:1>, <minecraft:beef>, <minecraft:cooked_beef>, <minecraft:chicken>, <minecraft:cooked_chicken>, <minecraft:potato>, <minecraft:poisonous_potato>, <minecraft:baked_potato>,
 <Natura:wheatBag>, <Natura:barleyBag>, <Natura:carrotBag>, <Natura:cottonBag>,
 <Thaumcraft:TripleMeatTreat>,
-<GrimoireOfGaia:item.GrimoireOfGaia.FoodMeat>, <GrimoireOfGaia:item.GrimoireOfGaia.FoodBerryFire>, <GrimoireOfGaia:item.GrimoireOfGaia.FoodMeatMorsel>, <GrimoireOfGaia:item.GrimoireOfGaia.FoodCoalfish>, <GrimoireOfGaia:item.GrimoireOfGaia.FoodBerryHealth>
+<GrimoireOfGaia:item.GrimoireOfGaia.FoodMeat>, <GrimoireOfGaia:item.GrimoireOfGaia.FoodBerryFire>, <GrimoireOfGaia:item.GrimoireOfGaia.FoodMeatMorsel>, <GrimoireOfGaia:item.GrimoireOfGaia.FoodCoalfish>, <GrimoireOfGaia:item.GrimoireOfGaia.FoodBerryHealth>, 
+<MineFactoryReloaded:meat.ingot.raw>, <MineFactoryReloaded:meat.ingot.cooked>
 ] as IItemStack[];
 
 for i, toy in FMCFood50 {
@@ -123,7 +125,8 @@ for i, toy in FMCFood300 {
 
 // Ferret Market Cost, Food - 500
 var FMCFood500 = [
-<minecraft:milk_bucket>
+<minecraft:milk_bucket>, 
+<MineFactoryReloaded:brick:12>, <MineFactoryReloaded:brick:13>
 ] as IItemStack[];
 
 for i, toy in FMCFood500 {

@@ -2,7 +2,8 @@ import minetweaker.item.IItemStack;
 
 // Ferret Market Cost, Armor - 50
 var FMCArmor50 = [
-<minecraft:leather_helmet>, <minecraft:leather_boots>
+<minecraft:leather_helmet>, <minecraft:leather_boots>, 
+<MineFactoryReloaded:plastic.boots>, <MineFactoryReloaded:plastic.legs>, <MineFactoryReloaded:plastic.helm>
 ] as IItemStack[];
 
 for i, toy in FMCArmor50 {
@@ -15,7 +16,8 @@ for i, toy in FMCArmor50 {
 
 // Ferret Market Cost, Armor - 100
 var FMCArmor100 = [
-<minecraft:leather_chestplate>, <minecraft:leather_leggings>
+<minecraft:leather_chestplate>, <minecraft:leather_leggings>, 
+<MineFactoryReloaded:plastic.chest>
 ] as IItemStack[];
 
 for i, toy in FMCArmor100 {
