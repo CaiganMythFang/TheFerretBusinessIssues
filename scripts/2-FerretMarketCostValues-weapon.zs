@@ -141,6 +141,17 @@ for i, toy in FMCWeapon2000 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =2,000=") + " | " + format.green("Weapon ")+ ")"));
 }
 
+// Ferret Market Cost, Weapon - 3,000
+var FMCWeapon3000 = [
+<aura:angelsteelSword0>
+] as IItemStack[];
+
+for i, toy in FMCWeapon3000 {
+     <ore:zFMC3000>.add(toy);
+     <ore:zFMCWeapon3000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =3,000=") + " | " + format.green("Weapon ")+ ")"));
+}
+
 // Ferret Market Cost, Weapon - 4,000
 var FMCWeapon4000 = [
 <minecraft:golden_sword>
@@ -172,6 +183,17 @@ for i, toy in FMCWeapon6500 {
      <ore:zFMC6500>.add(toy);
      <ore:zFMCWeapon6500>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =6,500=") + " | " + format.green("Weapon ")+ ")"));
+}
+
+// Ferret Market Cost, Weapon - 7,000
+var FMCWeapon7000 = [
+<aura:angelsteelSword1>
+] as IItemStack[];
+
+for i, toy in FMCWeapon7000 {
+     <ore:zFMC7000>.add(toy);
+     <ore:zFMCWeapon7000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =7,000=") + " | " + format.green("Weapon ")+ ")"));
 }
 
 // Ferret Market Cost, Weapon - 7,500
@@ -206,6 +228,17 @@ for i, toy in FMCWeapon9000 {
      <ore:zFMC9000>.add(toy);
      <ore:zFMCWeapon9000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =9,000=") + " | " + format.green("Weapon ")+ ")"));
+}
+
+// Ferret Market Cost, Weapon - 10,000
+var FMCWeapon10000 = [
+<aura:swordThief>, <aura:transmutingSword>
+] as IItemStack[];
+
+for i, toy in FMCWeapon10000 {
+     <ore:zFMC10000>.add(toy);
+     <ore:zFMCWeapon10000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =10,000=") + " | " + format.green("Weapon ")+ ")"));
 }
 
 // Ferret Market Cost, Weapon - 13,500
@@ -252,6 +285,17 @@ for i, toy in FMCWeapon18500 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =18,500=") + " | " + format.green("Weapon ")+ ")"));
 }
 
+// Ferret Market Cost, Weapon - 19,000
+var FMCWeapon19000 = [
+<aura:angelsteelSword3>
+] as IItemStack[];
+
+for i, toy in FMCWeapon19000 {
+     <ore:zFMC19000>.add(toy);
+     <ore:zFMCWeapon19000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =19,000=") + " | " + format.green("Weapon ")+ ")"));
+}
+
 // Ferret Market Cost, Weapon - 24,000
 var FMCWeapon24000 = [
 <Thaumcraft:ItemSwordElemental>
@@ -261,6 +305,17 @@ for i, toy in FMCWeapon24000 {
      <ore:zFMC24000>.add(toy);
      <ore:zFMCWeapon24000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =24,000=") + " | " + format.green("Weapon ")+ ")"));
+}
+
+// Ferret Market Cost, Weapon - 26,500
+var FMCWeapon26500 = [
+<aura:comboSword>
+] as IItemStack[];
+
+for i, toy in FMCWeapon26500 {
+     <ore:zFMC26500>.add(toy);
+     <ore:zFMCWeapon26500>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =26,500=") + " | " + format.green("Weapon ")+ ")"));
 }
 
 // Ferret Market Cost, Weapon - 30,000
@@ -307,6 +362,17 @@ for i, toy in FMCWeapon54000 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =54,000=") + " | " + format.green("Weapon ")+ ")"));
 }
 
+// Ferret Market Cost, Weapon - 55,000
+var FMCWeapon55000 = [
+<aura:angelsteelSword4>
+] as IItemStack[];
+
+for i, toy in FMCWeapon55000 {
+     <ore:zFMC55000>.add(toy);
+     <ore:zFMCWeapon55000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =55,000=") + " | " + format.green("Weapon ")+ ")"));
+}
+
 // Ferret Market Cost, Weapon - 148,000
 var FMCWeapon148000 = [
 <ThaumicTinkerer:ichorSword>
@@ -316,6 +382,17 @@ for i, toy in FMCWeapon148000 {
      <ore:zFMC148000>.add(toy);
      <ore:zFMCWeapon148000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =148,000=") + " | " + format.green("Weapon ")+ ")"));
+}
+
+// Ferret Market Cost, Weapon - 162,000
+var FMCWeapon162000 = [
+<aura:angelsteelSword5>
+] as IItemStack[];
+
+for i, toy in FMCWeapon162000 {
+     <ore:zFMC162000>.add(toy);
+     <ore:zFMCWeapon162000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =162,000=") + " | " + format.green("Weapon ")+ ")"));
 }
 
 // Ferret Market Cost, Weapon - 374,000

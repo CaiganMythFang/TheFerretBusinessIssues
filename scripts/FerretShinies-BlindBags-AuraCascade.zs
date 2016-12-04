@@ -17,7 +17,9 @@ for i, toy in ferretAuraCascadeMasterBlindBag {
 
 // BLIND BAGS - AuraCascade CHEAP
 var ferretAuraCascadeCheapBlindBag = [
-<ferretshinies:BlindBag:314>
+<ferretshinies:BlindBag:314>,
+<ferretshinies:BlindBag:315>,
+<ferretshinies:BlindBag:316>
 ] as IItemStack[];
 
 for i, toy in ferretAuraCascadeCheapBlindBag {
@@ -29,8 +31,7 @@ for i, toy in ferretAuraCascadeCheapBlindBag {
 
 // BLIND BAGS - AuraCascade DECENT
 var ferretAuraCascadeDecentBlindBag = [
-<ferretshinies:BlindBag:315>,
-<ferretshinies:BlindBag:316>
+<ferretshinies:BlindBag:317>
 ] as IItemStack[];
 
 for i, toy in ferretAuraCascadeDecentBlindBag {
@@ -42,7 +43,6 @@ for i, toy in ferretAuraCascadeDecentBlindBag {
 
 // BLIND BAGS - AuraCascade GOOD
 var ferretAuraCascadeGoodBlindBag = [
-<ferretshinies:BlindBag:317>,
 <ferretshinies:BlindBag:318>
 ] as IItemStack[];
 

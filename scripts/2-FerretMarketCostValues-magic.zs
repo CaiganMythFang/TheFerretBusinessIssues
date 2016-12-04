@@ -124,7 +124,8 @@ var FMCMagic300 = [
 <minecraft:potion:8236>, <minecraft:potion:16387>, <minecraft:potion:16420>, <minecraft:potion:16425>, <minecraft:potion:16426>, <minecraft:potion:16451>, <minecraft:potion:16457>, <minecraft:potion:8233>, <minecraft:potion:16428>, 
 <Botania:grassSeeds:6>, <Botania:bellows>, <Botania:turntable>, <Botania:felPumpkin>, <Botania:phantomInk>,
 <Thaumcraft:ItemResource:9>, <Thaumcraft:ItemResource>, <Thaumcraft:ItemGolemPlacer:2>, <Thaumcraft:ItemGolemPlacer:4>,
-<ThaumicTinkerer:funnel>
+<ThaumicTinkerer:funnel>, 
+<aura:blackHole>, <aura:mirror>
 ] as IItemStack[];
 
 for i, toy in FMCMagic300 {
@@ -138,7 +139,7 @@ var FMCMagic400 = [
 <ferretshinies:LayeredIconAsset:323>, <ferretshinies:LayeredIconAsset:324>,
 <Botania:pistonRelay>, <Botania:manaDetector>,
 <Thaumcraft:ItemResource:1>,
-<aura:auraNode>, <aura:trampoline>
+<aura:auraNode>, <aura:trampoline>, <aura:basicBook>, <aura:denseBook>, <aura:superDenseBook>, <aura:lightBook>, <aura:veryLightBook>, <aura:superLightBook>, <aura:extremelyLightBook>, <aura:farmingBook>, <aura:veryDenseBook>, <aura:extremelyDenseBook>
 ] as IItemStack[];
 
 for i, toy in FMCMagic400 {
@@ -155,7 +156,7 @@ var FMCMagic500 = [
 <ForbiddenMagic:GluttonyShard>,
 <Thaumcraft:blockJar:3>, <Thaumcraft:TrunkSpawner>, <Thaumcraft:blockCustomPlant:2>, <Thaumcraft:blockCustomPlant:3>,
 <ThaumicTinkerer:brightNitor>, 
-<aura:consumerBlockdye>
+<aura:consumerBlockdye>, <aura:mobDropBook>
 ] as IItemStack[];
 
 for i, toy in FMCMagic500 {
@@ -202,7 +203,8 @@ var FMCMagic2000 = [
 <ferretshinies:LayeredIconAsset:300>, <ferretshinies:LayeredIconAsset:330>, <ferretshinies:LayeredIconAsset:301>,
 <minecraft:potion:8225>, <minecraft:potion:8257>, <minecraft:potion:16417>, <minecraft:potion:16449>, <minecraft:experience_bottle>, 
 <Botania:spellCloth>, <Botania:skyDirtRod>, <Botania:redStringContainer>, <Botania:redStringDispenser>, <Botania:redStringFertilizer>, <Botania:redStringInterceptor>, <Botania:redStringComparator>, <Botania:spreader:1>, <Botania:spreader>, 
-<Thaumcraft:blockJar:1>
+<Thaumcraft:blockJar:1>, 
+<aura:mineralBook>
 ] as IItemStack[];
 
 for i, toy in FMCMagic2000 {
@@ -373,7 +375,8 @@ for i, toy in FMCMagic8000 {
 
 // Ferret Market Cost, Magic - 8,500
 var FMCMagic8500 = [
-<Botania:diviningRod>, <Botania:avatar>, <Botania:hourglass>
+<Botania:diviningRod>, <Botania:avatar>, <Botania:hourglass>,
+<aura:modBook>
 ] as IItemStack[];
 
 for i, toy in FMCMagic8500 {
@@ -1095,7 +1098,7 @@ var FMCMagic75000 = [
 <chisel:beacon:*>,
 <Botania:pinkinator>, <Botania:kingKey>, <Botania:dice>, <Botania:flugelEye>,
 <ExtraUtilities:mini-soul:*>,
-<Thaumcraft:ItemEldritchObject:3>
+<Thaumcraft:ItemEldritchObject:3>, <ThaumicExploration:thinkTankJar>
 ] as IItemStack[];
 
 for i, toy in FMCMagic75000 {
@@ -1139,7 +1142,8 @@ for i, toy in FMCMagic78000 {
 
 // Ferret Market Cost, Magic - 79,000
 var FMCMagic79000 = [
-<Thaumcraft:blockStoneDevice:5>
+<Thaumcraft:blockStoneDevice:5>, 
+<aura:prismaticWand>
 ] as IItemStack[];
 
 for i, toy in FMCMagic79000 {

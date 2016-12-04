@@ -178,6 +178,17 @@ for i, toy in FMCAccessory8500 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =8,500=") + " | " + format.green("Accessory ")+ ")"));
 }
 
+// Ferret Market Cost, Accessory - 9,500
+var FMCAccessory9500 = [
+<aura:fairyCharm:0>, <aura:fairyCharm:2>, <aura:fairyCharm:4>, <aura:fairyCharm:5>, <aura:fairyCharm:6>, <aura:fairyCharm:8>, <aura:fairyCharm:9>, <aura:fairyCharm:10>, <aura:fairyCharm:12>, <aura:fairyCharm:14>, <aura:fairyCharm:15>, <aura:purpleAmulet>, <aura:orangeAmulet>, <aura:greenAmulet>, <aura:blueAmulet>, <aura:yellowAmulet>, <aura:redAmulet>
+] as IItemStack[];
+
+for i, toy in FMCAccessory9500 {
+     <ore:zFMC9500>.add(toy);
+     <ore:zFMCAccessory9500>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =9,500=") + " | " + format.green("Accessory ")+ ")"));
+}
+
 // Ferret Market Cost, Accessory - 10,000
 var FMCAccessory10000 = [
 <Thaumcraft:FocusPech>
@@ -187,6 +198,17 @@ for i, toy in FMCAccessory10000 {
      <ore:zFMC10000>.add(toy);
      <ore:zFMCAccessory10000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =10,000=") + " | " + format.green("Accessory ")+ ")"));
+}
+
+// Ferret Market Cost, Accessory - 10,500
+var FMCAccessory10500 = [
+<aura:fairyCharm:11>
+] as IItemStack[];
+
+for i, toy in FMCAccessory10500 {
+     <ore:zFMC10500>.add(toy);
+     <ore:zFMCAccessory10500>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =10,500=") + " | " + format.green("Accessory ")+ ")"));
 }
 
 // Ferret Market Cost, Accessory - 13,000
@@ -223,6 +245,17 @@ for i, toy in FMCAccessory14000 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =14,000=") + " | " + format.green("Accessory ")+ ")"));
 }
 
+// Ferret Market Cost, Accessory - 14,500
+var FMCAccessory14500 = [
+<aura:explosionRing>
+] as IItemStack[];
+
+for i, toy in FMCAccessory14500 {
+     <ore:zFMC14500>.add(toy);
+     <ore:zFMCAccessory14500>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =14,500=") + " | " + format.green("Accessory ")+ ")"));
+}
+
 // Ferret Market Cost, Accessory - 15,000
 var FMCAccessory15000 = [
 <ferretshinies:LayeredIconAsset:339>
@@ -249,7 +282,8 @@ for i, toy in FMCAccessory17000 {
 
 // Ferret Market Cost, Accessory - 17,500
 var FMCAccessory17500 = [
-<ferretshinies:LayeredIconAsset:341>
+<ferretshinies:LayeredIconAsset:341>,
+<aura:fairyCharm:3>
 ] as IItemStack[];
 
 for i, toy in FMCAccessory17500 {
@@ -351,7 +385,8 @@ for i, toy in FMCAccessory24000 {
 
 // Ferret Market Cost, Accessry - 25,500
 var FMCAccessory25500 = [
-<Botania:unholyCloak>
+<Botania:unholyCloak>,
+<aura:fairyCharm:1>
 ] as IItemStack[];
 
 for i, toy in FMCAccessory25500 {
@@ -384,7 +419,8 @@ for i, toy in FMCAccessory27000 {
 
 // Ferret Market Cost, Accessory - 27,500
 var FMCAccessory27500 = [
-<simplyjetpacks:jetpacksEIO:102>
+<simplyjetpacks:jetpacksEIO:102>,
+<aura:fairyCharm:16>
 ] as IItemStack[];
 
 for i, toy in FMCAccessory27500 {
@@ -451,13 +487,25 @@ for i, toy in FMCAccessory33000 {
 
 // Ferret Market Cost, Accessory - 33,500
 var FMCAccessory33500 = [
-<Thaumcraft:FocusExcavation>, <Thaumcraft:FocusTrade>
+<Thaumcraft:FocusExcavation>, <Thaumcraft:FocusTrade>,
+<aura:fairyCharm:13>
 ] as IItemStack[];
 
 for i, toy in FMCAccessory33500 {
      <ore:zFMC33500>.add(toy);
      <ore:zFMCAccessory33500>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =33,500=") + " | " + format.green("Accessory ")+ ")"));
+}
+
+// Ferret Market Cost, Accessory - 38,000
+var FMCAccessory38000 = [
+<aura:amuletFood>
+] as IItemStack[];
+
+for i, toy in FMCAccessory38000 {
+     <ore:zFMC38000>.add(toy);
+     <ore:zFMCAccessory38000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =38,000=") + " | " + format.green("Accessory ")+ ")"));
 }
 
 // Ferret Market Cost, Accessory - 38,500
@@ -583,15 +631,38 @@ for i, toy in FMCAccessory75000 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =75,000=") + " | " + format.green("Accessory ")+ ")"));
 }
 
+// Ferret Market Cost, Accessory - 76,000
+var FMCAccessory76000 = [
+<aura:angelStepBelt>
+] as IItemStack[];
+
+for i, toy in FMCAccessory76000 {
+     <ore:zFMC76000>.add(toy);
+     <ore:zFMCAccessory76000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =76,000=") + " | " + format.green("Accessory ")+ ")"));
+}
+
 // Ferret Market Cost, Accessory - 77,000
 var FMCAccessory77000 = [
-<simplyjetpacks:fluxpacks:4>
+<simplyjetpacks:fluxpacks:4>, 
+<aura:angelJumpAmulet>
 ] as IItemStack[];
 
 for i, toy in FMCAccessory77000 {
      <ore:zFMC77000>.add(toy);
      <ore:zFMCAccessory77000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =77,000=") + " | " + format.green("Accessory ")+ ")"));
+}
+
+// Ferret Market Cost, Accessory - 77,500
+var FMCAccessory77500 = [
+<aura:fairyCharm:7>
+] as IItemStack[];
+
+for i, toy in FMCAccessory77500 {
+     <ore:zFMC77500>.add(toy);
+     <ore:zFMCAccessory77500>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =77,500=") + " | " + format.green("Accessory ")+ ")"));
 }
 
 // Ferret Market Cost, Accessory - 84,000
@@ -647,6 +718,17 @@ for i, toy in FMCAccessory94000 {
      <ore:zFMC94000>.add(toy);
      <ore:zFMCAccessory94000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =94,000=") + " | " + format.green("Accessory ")+ ")"));
+}
+
+// Ferret Market Cost, Accessory - 95,000
+var FMCAccessory95000 = [
+<aura:fairyRing>
+] as IItemStack[];
+
+for i, toy in FMCAccessory95000 {
+     <ore:zFMC95000>.add(toy);
+     <ore:zFMCAccessory95000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =95,000=") + " | " + format.green("Accessory ")+ ")"));
 }
 
 // Ferret Market Cost, Accessory - 98,000

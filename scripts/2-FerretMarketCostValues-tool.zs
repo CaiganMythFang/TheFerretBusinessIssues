@@ -220,7 +220,7 @@ var FMCTool1000 = [
 <Thaumcraft:ItemResonator>,
 <OpenComputers:item:98>,
 <JABBA:mover>, <JABBA:hammer>,
-<aura:lexicon>, 
+<aura:lexicon>, <aura:angelsteelShovel0>, 
 <MineFactoryReloaded:syringe.slime>
 ] as IItemStack[];
 
@@ -279,7 +279,8 @@ var FMCTool3000 = [
 <Botania:signalFlare:*>,
 <EnderIO:itemCoordSelector>,
 <ExtraUtilities:scanner>, 
-<MineFactoryReloaded:rednet.meter:1>
+<MineFactoryReloaded:rednet.meter:1>,
+<aura:angelsteelAxe0>, <aura:angelsteelPickaxe0>, <aura:angelsteelShovel1>
 ] as IItemStack[];
 
 for i, toy in FMCTool3000 {
@@ -400,7 +401,8 @@ for i, toy in FMCTool8500 {
 // Ferret Market Cost, Tool - 9,000
 var FMCTool9000 = [
 <BiblioCraft:item.BiblioWayPointCompass>,
-<ExtraUtilities:builderswand>, <ExtraUtilities:erosionShovel>
+<ExtraUtilities:builderswand>, <ExtraUtilities:erosionShovel>,
+<aura:angelsteelAxe1>, <aura:angelsteelPickaxe1>, <aura:angelsteelShovel2>
 ] as IItemStack[];
 
 for i, toy in FMCTool9000 {
@@ -567,6 +569,17 @@ for i, toy in FMCTool26500 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =26,500=") + " | " + format.green("Tool ")+ ")"));
 }
 
+// Ferret Market Cost, Tool - 27,000
+var FMCTool27000 = [
+<aura:angelsteelAxe2>, <aura:angelsteelPickaxe2>, <aura:angelsteelShovel3>
+] as IItemStack[];
+
+for i, toy in FMCTool27000 {
+     <ore:zFMC27000>.add(toy);
+     <ore:zFMCTool27000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =27,000=") + " | " + format.green("Tool ")+ ")"));
+}
+
 // Ferret Market Cost, Tool - 27,500
 var FMCTool27500 = [
 <ExtraUtilities:destructionpickaxe>, <ExtraUtilities:defoliageAxe>
@@ -644,6 +657,17 @@ for i, toy in FMCTool61000 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =61,000=") + " | " + format.green("Tool ")+ ")"));
 }
 
+// Ferret Market Cost, Tool - 81,000
+var FMCTool81000 = [
+<aura:angelsteelAxe3>, <aura:angelsteelPickaxe3>, <aura:angelsteelShovel4>
+] as IItemStack[];
+
+for i, toy in FMCTool81000 {
+     <ore:zFMC81000>.add(toy);
+     <ore:zFMCTool81000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =81,000=") + " | " + format.green("Tool ")+ ")"));
+}
+
 // Ferret Market Cost, Tool - 98,000
 var FMCTool98000 = [
 <ThaumicTinkerer:placementMirror>
@@ -686,6 +710,17 @@ for i, toy in FMCTool238000 {
      <ore:zFMC238000>.add(toy);
      <ore:zFMCTool238000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =238,000=") + " | " + format.green("Tool ")+ ")"));
+}
+
+// Ferret Market Cost, Tool - 243,000
+var FMCTool243000 = [
+<aura:angelsteelAxe4>, <aura:angelsteelPickaxe4>, <aura:angelsteelShovel5>
+] as IItemStack[];
+
+for i, toy in FMCTool243000 {
+     <ore:zFMC243000>.add(toy);
+     <ore:zFMCTool243000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =243,000=") + " | " + format.green("Tool ")+ ")"));
 }
 
 // Ferret Market Cost, Tool - 249,000
@@ -741,4 +776,15 @@ for i, toy in FMCTool500000 {
      <ore:zFMC500000>.add(toy);
      <ore:zFMCTool500000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =500,000=") + " | " + format.green("Tool ")+ ")"));
+}
+
+// Ferret Market Cost, Tool - 729,000
+var FMCTool729000 = [
+<aura:angelsteelAxe5>, <aura:angelsteelPickaxe5>
+] as IItemStack[];
+
+for i, toy in FMCTool729000 {
+     <ore:zFMC729000>.add(toy);
+     <ore:zFMCTool729000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =729,000=") + " | " + format.green("Tool ")+ ")"));
 }

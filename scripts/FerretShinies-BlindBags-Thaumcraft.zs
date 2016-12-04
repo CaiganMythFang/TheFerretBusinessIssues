@@ -23,7 +23,15 @@ var ferretThaumcraftCheapBlindBag = [
 <ferretshinies:BlindBag:339>,
 <ferretshinies:BlindBag:340>,
 <ferretshinies:BlindBag:341>,
-<ferretshinies:BlindBag:342>
+<ferretshinies:BlindBag:342>,
+<ferretshinies:BlindBag:343>,
+<ferretshinies:BlindBag:344>,
+<ferretshinies:BlindBag:345>,
+<ferretshinies:BlindBag:346>,
+<ferretshinies:BlindBag:347>,
+<ferretshinies:BlindBag:348>,
+<ferretshinies:BlindBag:349>,
+<ferretshinies:BlindBag:350>
 ] as IItemStack[];
 
 for i, toy in ferretThaumcraftCheapBlindBag {
@@ -35,11 +43,8 @@ for i, toy in ferretThaumcraftCheapBlindBag {
 
 // BLIND BAGS - Thaumcraft DECENT
 var ferretThaumcraftDecentBlindBag = [
-<ferretshinies:BlindBag:343>,
-<ferretshinies:BlindBag:344>,
-<ferretshinies:BlindBag:345>,
-<ferretshinies:BlindBag:346>,
-<ferretshinies:BlindBag:347>
+<ferretshinies:BlindBag:395>,
+<ferretshinies:BlindBag:396>
 ] as IItemStack[];
 
 for i, toy in ferretThaumcraftDecentBlindBag {
@@ -51,8 +56,8 @@ for i, toy in ferretThaumcraftDecentBlindBag {
 
 // BLIND BAGS - Thaumcraft GOOD
 var ferretThaumcraftGoodBlindBag = [
-<ferretshinies:BlindBag:348>,
-<ferretshinies:BlindBag:349>
+<ferretshinies:BlindBag:397>,
+<ferretshinies:BlindBag:398>
 ] as IItemStack[];
 
 for i, toy in ferretThaumcraftGoodBlindBag {
@@ -64,7 +69,7 @@ for i, toy in ferretThaumcraftGoodBlindBag {
 
 // BLIND BAGS - Thaumcraft AMAZING
 var ferretThaumcraftAmazingBlindBag = [
-<ferretshinies:BlindBag:350>
+<ferretshinies:BlindBag:399>
 ] as IItemStack[];
 
 for i, toy in ferretThaumcraftAmazingBlindBag {

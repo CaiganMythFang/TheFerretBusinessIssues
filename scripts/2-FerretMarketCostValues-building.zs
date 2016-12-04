@@ -138,7 +138,7 @@ var FMCBuilding25 = [
 <chisel:carpet_block:*>, <chisel:carpet:*>, <chisel:factoryblock:*>, <chisel:factoryblock2:*>, <chisel:fantasyblock:*>, <chisel:fantasyblock2:*>, <chisel:grimstone:*>, <chisel:lavastone:*>, <chisel:road_line:*>, <chisel:technical:*>, <chisel:technical2:*>, <chisel:technical3:*>, <chisel:technical4:*>, <chisel:tyrian:*>, <chisel:woolen_clay:*>, <chisel:rebel:*>, <chisel:nation:*>,
 <Botania:pavement1Slab>, <Botania:reedBlock0Slab>, <Botania:thatch>, <Botania:customBrick1Slab>,
 <ExtraUtilities:cobblestone_compressed:1>, <ExtraUtilities:cobblestone_compressed:9>, <ExtraUtilities:cobblestone_compressed:12>,
-<Thaumcraft:blockCosmeticSolid:11>, <Thaumcraft:blockCosmeticSolid:12>, <Thaumcraft:blockCosmeticSolid:14>, <Thaumcraft:blockCosmeticSolid:15>, <Thaumcraft:blockEldritch:4>, <Thaumcraft:blockStairsEldritch>, <Thaumcraft:blockCosmeticSlabStone>, 
+<Thaumcraft:blockCosmeticSolid:11>, <Thaumcraft:blockCosmeticSolid:12>, <Thaumcraft:blockCosmeticSolid:14>, <Thaumcraft:blockCosmeticSolid:15>, <Thaumcraft:blockEldritch:4>, <Thaumcraft:blockStairsEldritch>, 
 <EnderIO:blockFusedQuartz:5>, 
 <MineFactoryReloaded:brick:3>, <MineFactoryReloaded:brick:9>, <MineFactoryReloaded:brick:14>
 ] as IItemStack[];
