@@ -65198,7 +65198,7 @@
         "OreDict": "",
         "Damage": 12
       },
-      "visibility": "HIDDEN",
+      "visibility": "NORMAL",
       "tasks": [
         {
           "partialMatch": true,
@@ -66345,7 +66345,7 @@
         "OreDict": "",
         "Damage": 56
       },
-      "visibility": "NORMAL",
+      "visibility": "HIDDEN",
       "tasks": [
         {
           "taskID": "bq_standard:checkbox"
@@ -66381,7 +66381,7 @@
         "OreDict": "",
         "Damage": 460
       },
-      "visibility": "NORMAL",
+      "visibility": "HIDDEN",
       "tasks": [
         {
           "partialMatch": true,
@@ -66496,7 +66496,7 @@
         "OreDict": "",
         "Damage": 25
       },
-      "visibility": "NORMAL",
+      "visibility": "HIDDEN",
       "tasks": [
         {
           "partialMatch": true,
@@ -66550,7 +66550,7 @@
         "OreDict": "",
         "Damage": 35
       },
-      "visibility": "NORMAL",
+      "visibility": "HIDDEN",
       "tasks": [
         {
           "taskID": "bq_standard:checkbox"
@@ -66966,7 +66966,7 @@
         "OreDict": "",
         "Damage": 76
       },
-      "visibility": "NORMAL",
+      "visibility": "HIDDEN",
       "tasks": [
         {
           "partialMatch": true,
@@ -67174,7 +67174,7 @@
         "OreDict": "",
         "Damage": 56
       },
-      "visibility": "NORMAL",
+      "visibility": "HIDDEN",
       "tasks": [
         {
           "partialMatch": true,

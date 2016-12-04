@@ -1602,9 +1602,32 @@ AgriCraft:cropDaisy, Daisy
 AgriCraft:cropCactus, Cactus
 AgriCraft:cropShroomRed, Red Mushroom
 AgriCraft:cropShroomBrown, Brown Mushroom
-aura:storageBookshelf, Storage Bookshelf
 aura:trampoline, Rebounding Enigma
+aura:consumerBlockfurnace, Cascading Smelter
+aura:consumerBlockplant, Cascading Grower
+aura:consumerBlockore, Cascading Processor
+aura:consumerBlockloot, Cascading Looter
+aura:consumerBlockmob, Cascading Spawner
+aura:consumerBlockangel, Cascading Synthesizer
+aura:consumerBlocknether, Ritual of the Nether
+aura:consumerBlockenchant, Kaleidoscopic Enchanter
+aura:consumerBlockpotion, Cascading Brewer
+aura:consumerBlockdye, Cascading Colorer
+aura:consumerBlockoreAdv, Prismatic Processor
+aura:consumerBlockminer, Cascading Miner
+aura:consumerBlockfish, Cascading Fisher
+aura:consumerBlockend, Ritual of the End
+aura:storageBookshelfCoordinator, Bookshelf Coordinator
+aura:magicRoad, Traveler's Bricks
+aura:monitor, Monitor
+aura:fortifiedDirt, Fortified Dirt
+aura:fortifiedWood, Fortified Planks
+aura:fortifiedGlass, Fortified Glass
+aura:fortifiedCobblestone, Fortified Cobblestone
+aura:fortifiedStone, Fortified Stone
+aura:fortifiedObsidian, Fortified Obsidian
 aura:fairyTorch, tile.fairyTorch.name
+aura:storageBookshelf, Storage Bookshelf
 aura:auraNode, Aura Node
 aura:auraNodepump, Burning Aura Pump
 aura:auraNodeblack, Aura Manipulator: Black
@@ -1624,29 +1647,6 @@ aura:auraNodepumpCreative, Creative Pump (Creative Only)
 aura:auraNodepumpLightAlt, Alternating Illumination Aura Pump
 aura:auraNodepumpRedstoneAlt, Alternating Redstone Aura Pump
 aura:auraNodeflux, Fluxing Node
-aura:fortifiedDirt, Fortified Dirt
-aura:fortifiedWood, Fortified Planks
-aura:fortifiedGlass, Fortified Glass
-aura:fortifiedCobblestone, Fortified Cobblestone
-aura:fortifiedStone, Fortified Stone
-aura:fortifiedObsidian, Fortified Obsidian
-aura:magicRoad, Traveler's Bricks
-aura:monitor, Monitor
-aura:storageBookshelfCoordinator, Bookshelf Coordinator
-aura:consumerBlockfurnace, Cascading Smelter
-aura:consumerBlockplant, Cascading Grower
-aura:consumerBlockore, Cascading Processor
-aura:consumerBlockloot, Cascading Looter
-aura:consumerBlockmob, Cascading Spawner
-aura:consumerBlockangel, Cascading Synthesizer
-aura:consumerBlocknether, Ritual of the Nether
-aura:consumerBlockenchant, Kaleidoscopic Enchanter
-aura:consumerBlockpotion, Cascading Brewer
-aura:consumerBlockdye, Cascading Colorer
-aura:consumerBlockoreAdv, Prismatic Processor
-aura:consumerBlockminer, Cascading Miner
-aura:consumerBlockfish, Cascading Fisher
-aura:consumerBlockend, Ritual of the End
 AWWayofTime:Altar, Blood Altar
 AWWayofTime:AlchemicalWizardrybloodRune:0, Blood Rune
 AWWayofTime:AlchemicalWizardrybloodRune:1, Rune of Augmented Capacity
@@ -2452,6 +2452,11 @@ Botania:pavement5SlabFull:0, Green Portuguese Pavement Slab
 Avaritia:Double_Craft, Compressed Crafting Table
 Avaritia:Triple_Craft, Double Compressed Crafting Table
 Avaritia:Dire_Crafting, Dire Crafting Table
+Avaritia:Crystal_Matrix, Crystal Matrix
+Avaritia:Resource_Block:0, Neutronium Block
+Avaritia:Resource_Block:1, Infinity Block
+Avaritia:Neutron_Collector, Neutron Collector
+Avaritia:Neutronium_Compressor, Neutronium Compressor
 avaritiaddons:CompressedChest, Compressed Chest
 avaritiaddons:InfinityChest, Infinity Chest
 avaritiaddons:ExtremeAutoCrafter, Dire Autocrafing Table
@@ -5998,7 +6003,7 @@ extracells:vibrantchamberfluid, Fluid Vibration Chamber
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Ender Collector
-ExtraUtilities:endConstructor:0, QED (Quantum Energy Device)
+ExtraUtilities:endConstructor:0, QED (Quantum Enrichment Device)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -6965,40 +6970,40 @@ ExtraTiC:blockFunStuff:0, Fairy Block
 ExtraTiC:blockFunStuff:1, Pokefennium Block
 ExtraTiC:blockFunStuff:2, RedAurum Block
 FlatSigns:blockFlatSign, Sign
-ThaumicTinkerer:enchanter, Osmotic Enchanter
-ThaumicTinkerer:fireEarth, Terra Imbued Fire
-ThaumicTinkerer:fireFire, Ignis Imbued Fire
-ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:fireWater, Aqua Imbued Fire
-ThaumicTinkerer:funnel, Essentia Funnel
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
+ThaumicTinkerer:magnet:0, Kinetic Attractor
+ThaumicTinkerer:magnet:1, Corporeal Attractor
 ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
 ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
 ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
-ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
-ThaumicTinkerer:fireAir, Aer Imbued Fire
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:repairer, Thaumic Restorer
+ThaumicTinkerer:animationTablet, Dynamism Tablet
+ThaumicTinkerer:interface, Transvector Interface
 ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
-ThaumicTinkerer:fireOrder, Ordo Imbued Fire
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
-ThaumicTinkerer:warpGate, Celestial Gateway
-ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
-ThaumicTinkerer:golemConnector, Golem Connector
-ThaumicTinkerer:dislocator, Transvector Dislocator
-ThaumicTinkerer:fireChaos, Perditio Imbued Fire
-ThaumicTinkerer:magnet:0, Kinetic Attractor
-ThaumicTinkerer:magnet:1, Corporeal Attractor
-ThaumicTinkerer:bedrockPortal, Bedrock Portal
-ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
+ThaumicTinkerer:repairer, Thaumic Restorer
 ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
 ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:warpGate, Celestial Gateway
+ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
+ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:enchanter, Osmotic Enchanter
 ThaumicTinkerer:aspectAnalyzer, Aspectalyzer
 ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
-ThaumicTinkerer:interface, Transvector Interface
-ThaumicTinkerer:forcefield, Forcefield
-ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:fireOrder, Ordo Imbued Fire
+ThaumicTinkerer:fireFire, Ignis Imbued Fire
+ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
+ThaumicTinkerer:fireEarth, Terra Imbued Fire
+ThaumicTinkerer:fireWater, Aqua Imbued Fire
 ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:spawner, Tablet of Necromancy
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
+ThaumicTinkerer:golemConnector, Golem Connector
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:funnel, Essentia Funnel
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:fireAir, Aer Imbued Fire
 ForbiddenMagic:ArcaneCake, Thaumic Cake
 ForbiddenMagic:WrathCage, Wrath Cage
 ForbiddenMagic:InkFlower, Umbral Rose
@@ -7161,10 +7166,6 @@ NetherOres:tile.netherores.ore.1:13, Nether Salt Ore
 NetherOres:tile.netherores.ore.1:14, Nether Saltpeter Ore
 NetherOres:tile.netherores.ore.1:15, Nether Magnesium Ore
 NetherOres:netherOresBlockHellfish, tile.netherores.hellfish.name
-NuclearCraft:liquidHeliumBlock, Liquid Helium
-NuclearCraft:fusionPlasmaBlock, Fusion Plasma
-NuclearCraft:steamBlock, Steam
-NuclearCraft:denseSteamBlock, Dense Steam
 minecraft:record_13, Music Disc
 minecraft:record_cat, Music Disc
 minecraft:record_blocks, Music Disc
@@ -7177,6 +7178,10 @@ minecraft:record_strad, Music Disc
 minecraft:record_ward, Music Disc
 minecraft:record_11, Music Disc
 minecraft:record_wait, Music Disc
+NuclearCraft:liquidHeliumBlock, Liquid Helium
+NuclearCraft:fusionPlasmaBlock, Fusion Plasma
+NuclearCraft:steamBlock, Steam
+NuclearCraft:denseSteamBlock, Dense Steam
 NuclearCraft:superdenseSteamBlock, Superdense Steam
 NuclearCraft:blockOre:0, Copper Ore
 NuclearCraft:blockOre:1, Tin Ore
@@ -8817,6 +8822,9 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Yellow Portuguese Pavement
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Green Portuguese Pavement Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Compressed Crafting Table
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Double Compressed Crafting Table
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Crystal Matrix
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Neutronium Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Infinity Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Eucalyptus Wood
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Sakura Wood
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Ghostwood
@@ -12239,6 +12247,30 @@ Avaritia:Resource:4, Neutronium Ingot
 Avaritia:Resource:5, Infinity Catalyst
 Avaritia:Resource:6, Infinity Ingot
 Avaritia:Resource:7, Record Fragment
+Avaritia:Singularity:0, Iron Singularity
+Avaritia:Singularity:1, Golden Singularity
+Avaritia:Singularity:2, Lapis Singularity
+Avaritia:Singularity:3, Redstone Singularity
+Avaritia:Singularity:4, Nether Quartz Singularity
+Avaritia:Singularity:5, Copper Singularity
+Avaritia:Singularity:6, Tin Singularity
+Avaritia:Singularity:7, Leaden Singularity
+Avaritia:Singularity:8, Silver Singularity
+Avaritia:Singularity:9, Nickel Singularity
+Avaritia:Infinity_Pickaxe, World Breaker
+Avaritia:Infinity_Sword, Sword of the Cosmos
+Avaritia:Skull_Sword, Skullfire Sword
+Avaritia:Ultimate_Stew, Ultimate Stew
+Avaritia:Cosmic_Meatballs, Cosmic Meatballs
+Avaritia:Endest_Pearl, Endest Pearl
+Avaritia:Infinity_Helm, Infinity Helmet
+Avaritia:Infinity_Chest, Infinity Breastplate
+Avaritia:Infinity_Pants, Infinity Pants
+Avaritia:Infinity_Shoes, Infinity Boots
+Avaritia:Matter_Cluster, Matter Cluster
+Avaritia:Infinity_Bow, Longbow of the Heavens
+Avaritia:Infinity_Shovel, Planet Eater
+Avaritia:Infinity_Axe, Nature's Ruin
 Backpack:backpack:0, Backpack
 Backpack:backpack:1, Black Backpack
 Backpack:backpack:2, Red Backpack
@@ -14571,7 +14603,7 @@ props:props:97, Spider Candle
 props:props:98, Stuffed Spider
 props:props:99, Beer Keg
 props:props:100, Large Beer Keg
-props:props:101, Horrizontal Barrel
+props:props:101, Horizontal Barrel
 props:props:102, Big Anchor
 props:props:103, Anchor
 props:props:104, Luggage
@@ -14937,7 +14969,7 @@ props:props:467, Pew Right
 props:props:468, Pew Middle
 props:props:469, Pew Left
 props:props:470, Kneeler
-props:props:471, Old TV
+props:props:471, TV Old
 props:props:472, Fire Alarm
 props:props:473, Table Clock
 props:props:474, Laptop
@@ -14958,7 +14990,7 @@ props:props:488, Small Coin Pile Gold
 props:props:489, Small Coin Pile Silver
 props:props:490, Patron Doll ChJees
 props:props:491, Patron Doll Xaw4
-props:props:492, JourneyMap Wall Sconce
+props:props:492, Journeymap Wall Sconce
 props:props:493, Skelleton 1
 props:props:494, Skelleton 2
 props:props:495, Skelleton 3
@@ -15308,7 +15340,6 @@ props:props:840, Sack Salt
 props:props:841, Sack Tornado Spice
 props:props:842, Sack Green Tea
 props:props:843, Sack Taelnia Spice
-props:props:844, Chain Link Fence
 props:props:845, Cash Register
 props:props:846, Garden Swing Left
 props:props:847, Garden Swing Left Brown
@@ -15398,7 +15429,6 @@ props:props:931, Patron Doll Misty Striker
 props:props:932, Patron Doll The Great Orator
 props:props:933, Patron Doll tuglowz
 props:props:934, Patron Doll Strange_Penguin
-props:props:935, Curtains
 props:props:951, Beach Chair
 props:props:952, Beach Chair Brown
 props:props:953, Beach Chair Orange
@@ -15432,6 +15462,64 @@ props:props:980, Beach Umbrella Yellow
 props:props:981, Beach Umbrella Coral
 props:props:982, Beach Umbrella Cyan
 props:props:983, Cooler
+props:props:984, Cactus Chair
+props:props:985, Lamp Post 1
+props:props:986, Lamp Post 2
+props:props:987, Hillhouse Chair Brown
+props:props:988, Hillhouse Chair Orange
+props:props:989, Hillhouse Chair Purple
+props:props:990, Hillhouse Chair Blue
+props:props:991, Hillhouse Chair Lime
+props:props:992, Hillhouse Chair Green
+props:props:993, Hillhouse Chair Fuchsia
+props:props:994, Hillhouse Chair Light Blue
+props:props:995, Hillhouse Chair Razzle
+props:props:996, Hillhouse Chair Red
+props:props:997, Hillhouse Chair Pink
+props:props:998, Hillhouse Chair Black
+props:props:999, Hillhouse Chair Yellow
+props:props:1000, Hillhouse Chair Coral
+props:props:1001, Hillhouse Chair Cyan
+props:props:1002, Ant Chair Brown
+props:props:1003, Ant Chair Orange
+props:props:1004, Ant Chair Purple
+props:props:1005, Ant Chair Blue
+props:props:1006, Ant Chair Lime
+props:props:1007, Ant Chair Green
+props:props:1008, Ant Chair Fuchsia
+props:props:1009, Ant Chair Light Blue
+props:props:1010, Ant Chair Razzle
+props:props:1011, Ant Chair Red
+props:props:1012, Ant Chair Pink
+props:props:1013, Ant Chair Black
+props:props:1014, Ant Chair Yellow
+props:props:1015, Ant Chair Coral
+props:props:1016, Ant Chair Cyan
+props:props:1017, Wassily Chair Brown
+props:props:1018, Wassily Chair Orange
+props:props:1019, Wassily Chair Purple
+props:props:1020, Wassily Chair Blue
+props:props:1021, Wassily Chair Lime
+props:props:1022, Wassily Chair Green
+props:props:1023, Wassily Chair Fuchsia
+props:props:1024, Wassily Chair Light Blue
+props:props:1025, Wassily Chair Razzle
+props:props:1026, Wassily Chair Red
+props:props:1027, Wassily Chair Pink
+props:props:1028, Wassily Chair Black
+props:props:1029, Wassily Chair Yellow
+props:props:1030, Wassily Chair Coral
+props:props:1031, Wassily Chair Cyan
+props:props:1032, Clawfoot Tub
+props:props:1033, Lounge Chair
+props:props:1035, CandleHolder
+props:props:1036, AlchemyTable
+props:props:1037, ArcheryTarget
+props:props:1038, Cow Skull
+props:props:1039, Patron Doll sarsum33
+props:props:1040, Fallen Soldier Tribute
+props:props:1041, Banana Split
+props:props:1043, Fire Pit
 props:clay:0, Red Crafting Clay
 props:clay:1, Blue Crafting Clay
 props:clay:2, Green Crafting Clay
@@ -21234,15 +21322,15 @@ ThermalDynamics:cover:0, Cactus Cover
 ThermalDynamics:cover:0, Red Mushroom Cover
 ThermalDynamics:cover:0, Brown Mushroom Cover
 ThermalDynamics:cover:0, Rebounding Enigma Cover
-ThermalDynamics:cover:0, tile.fairyTorch.name Cover
+ThermalDynamics:cover:0, Traveler's Bricks Cover
+ThermalDynamics:cover:0, Monitor Cover
 ThermalDynamics:cover:0, Fortified Dirt Cover
 ThermalDynamics:cover:0, Fortified Planks Cover
 ThermalDynamics:cover:0, Fortified Glass Cover
 ThermalDynamics:cover:0, Fortified Cobblestone Cover
 ThermalDynamics:cover:0, Fortified Stone Cover
 ThermalDynamics:cover:0, Fortified Obsidian Cover
-ThermalDynamics:cover:0, Traveler's Bricks Cover
-ThermalDynamics:cover:0, Monitor Cover
+ThermalDynamics:cover:0, tile.fairyTorch.name Cover
 ThermalDynamics:cover:0, Blood Rune Cover
 ThermalDynamics:cover:0, Rune of Augmented Capacity Cover
 ThermalDynamics:cover:0, Rune of Dislocation Cover
@@ -21808,6 +21896,9 @@ ThermalDynamics:cover:0, Green Portuguese Pavement Slab Cover
 ThermalDynamics:cover:0, Green Portuguese Pavement Slab Cover
 ThermalDynamics:cover:0, Compressed Crafting Table Cover
 ThermalDynamics:cover:0, Double Compressed Crafting Table Cover
+ThermalDynamics:cover:0, Crystal Matrix Cover
+ThermalDynamics:cover:0, Neutronium Block Cover
+ThermalDynamics:cover:0, Infinity Block Cover
 ThermalDynamics:cover:0, Crops Cover
 ThermalDynamics:cover:0, Raspberry Bush Cover
 ThermalDynamics:cover:0, Blueberry Bush Cover
@@ -24833,22 +24924,22 @@ ThermalDynamics:cover:0, Molten Constantan Cover
 ThermalDynamics:cover:0, Fairy Block Cover
 ThermalDynamics:cover:0, Pokefennium Block Cover
 ThermalDynamics:cover:0, RedAurum Block Cover
-ThermalDynamics:cover:0, Terra Imbued Fire Cover
-ThermalDynamics:cover:0, Ignis Imbued Fire Cover
-ThermalDynamics:cover:0, Aqua Imbued Fire Cover
+ThermalDynamics:cover:0, Bedrock Portal Cover
 ThermalDynamics:cover:0, Block of Smokey Quartz Cover
 ThermalDynamics:cover:0, Chiseled Smokey Quartz Block Cover
 ThermalDynamics:cover:0, Pillar Smokey Quartz Block Cover
-ThermalDynamics:cover:0, Aer Imbued Fire Cover
 ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
-ThermalDynamics:cover:0, Ordo Imbued Fire Cover
-ThermalDynamics:cover:0, tile.nitorGas.name Cover
-ThermalDynamics:cover:0, tile.gaseousLight.name Cover
-ThermalDynamics:cover:0, Perditio Imbued Fire Cover
-ThermalDynamics:cover:0, Bedrock Portal Cover
 ThermalDynamics:cover:0, Smokey Quartz Slab Cover
 ThermalDynamics:cover:0, Smokey Quartz Slab Cover
 ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
+ThermalDynamics:cover:0, Ordo Imbued Fire Cover
+ThermalDynamics:cover:0, Ignis Imbued Fire Cover
+ThermalDynamics:cover:0, tile.gaseousLight.name Cover
+ThermalDynamics:cover:0, Terra Imbued Fire Cover
+ThermalDynamics:cover:0, Aqua Imbued Fire Cover
+ThermalDynamics:cover:0, Perditio Imbued Fire Cover
+ThermalDynamics:cover:0, tile.nitorGas.name Cover
+ThermalDynamics:cover:0, Aer Imbued Fire Cover
 ThermalDynamics:cover:0, Thaumic Cake Cover
 ThermalDynamics:cover:0, Umbral Rose Cover
 ThermalDynamics:cover:0, Nether Star Block Cover

@@ -177,11 +177,11 @@
             "imageWidth" : 88,
             "imageHeight" : 31,
             "alignment" : "top_center",
-            "tooltip" : "Open Known Issues Document.",
+            "tooltip" : "Open the Issues GitHub for The Ferret Business.",
             "action" : 
             {
                 "type" : "openLink",
-                "link" : "https://docs.google.com/document/d/1UV6OMU8c3rDAZCix7OjxYdjdVk5odugwIm415nTbV08/edit?usp=sharing"
+                "link" : "https://github.com/CaiganMythFang/TheFerretBusinessIssues/issues"
             }
         },
         
