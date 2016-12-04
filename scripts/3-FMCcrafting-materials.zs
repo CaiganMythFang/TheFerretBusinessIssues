@@ -99,6 +99,7 @@ recipes.addShapeless(<ferretshinies:LayeredIconAsset:5> * 30, [<ferretshinies:La
 recipes.addShapeless(<ferretshinies:LayeredIconAsset:5> * 40, [<ferretshinies:LayeredIconAsset:17>]);
 recipes.addShapeless(<ferretshinies:LayeredIconAsset:5> * 50, [<ferretshinies:LayeredIconAsset:18>]);
 recipes.addShapeless(<ferretshinies:LayeredIconAsset:18> * 2, [<ferretshinies:LayeredIconAsset:355>]);
+recipes.addShapeless(<ferretshinies:LayeredIconAsset:355> * 2, [<ferretshinies:LayeredIconAsset:400>]);
 
 // --------------------------
 // 1 FMC Crate

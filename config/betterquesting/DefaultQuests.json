@@ -1,5 +1,5 @@
 {
-  "editMode": true,
+  "editMode": false,
   "hardcore": false,
   "defLives": 3,
   "maxLives": 10,
@@ -65992,7 +65992,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "NORMAL",
+      "visibility": "HIDDEN",
       "tasks": [
         {
           "partialMatch": true,
@@ -66002,6 +66002,12 @@
           "requiredItems": [
             {
               "id": "appliedenergistics2:tile.BlockController",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:bedrock",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -66129,7 +66135,7 @@
     {
       "questID": 561,
       "name": "Applied Energistics",
-      "description": "--------\n    Hello §k....§re §k ...§r Josh§k ..........§r and new§k .......§r invention f§k ........§r storage §k ......§r Crystal §k ...............§r items §k ....§r pure§k .........§r data §k .....................§r crystals §k ...........§r grow §k ............................§r space §k ............§r room §k ......§r boxes!\n--------\n\n    Linguist Larry : Welcome to the Applied Energistics lab, Bandit. As you can see, this is about the average amount I\u0027m able to translate from these strange transmissions we\u0027ve been getting.\n    Dataologist Dante : They started as soon as you arrived in that location and repeat every night around 1 AM.\n    Linguist Larry : They don\u0027t seem to be a distress beacon, but it\u0027s a little hard to tell as the transmissions seem to be... corrupted and distorted. \n    Dataologist Danta : Well, there should be enough to work with at least... it\u0027s talking about Crystals as data storage, right? Well... Bandit, could you grab some Nether Quartz and a Diamond while we try to translate more?",
+      "description": "§c§o[NOTE : This questline is unfinished currently]§r\n--------\n    Hello §k....§re §k ...§r Josh§k ..........§r and new§k .......§r invention f§k ........§r storage §k ......§r Crystal §k ...............§r items §k ....§r pure§k .........§r data §k .....................§r crystals §k ...........§r grow §k ............................§r space §k ............§r room §k ......§r boxes!\n--------\n\n    Linguist Larry : Welcome to the Applied Energistics lab, Bandit. As you can see, this is about the average amount I\u0027m able to translate from these strange transmissions we\u0027ve been getting.\n    Dataologist Dante : They started as soon as you arrived in that location and repeat every night around 1 AM.\n    Linguist Larry : They don\u0027t seem to be a distress beacon, but it\u0027s a little hard to tell as the transmissions seem to be... corrupted and distorted. \n    Dataologist Danta : Well, there should be enough to work with at least... it\u0027s talking about Crystals as data storage, right? Well... Bandit, could you grab some Nether Quartz and a Diamond while we try to translate more?",
       "isMain": false,
       "isSilent": true,
       "lockedProgress": true,
@@ -67763,11 +67769,6 @@
           "id": 60,
           "x": 0,
           "y": 78
-        },
-        {
-          "id": 502,
-          "x": 0,
-          "y": 114
         }
       ]
     },
@@ -69560,16 +69561,6 @@
           "id": 564,
           "x": 220,
           "y": 60
-        },
-        {
-          "id": 565,
-          "x": 244,
-          "y": 92
-        },
-        {
-          "id": 566,
-          "x": 268,
-          "y": 92
         },
         {
           "id": 567,

@@ -2306,6 +2306,16 @@ found in the core file.
       </output>
     </recipe>
 
+    <recipe name="200K - Goods" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="400" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="4" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="41" number="40" />
+      </output>
+    </recipe>
+
     <recipe name="Sealed Iron Shipment" energyCost="100">
       <input>
         <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="436" />
@@ -2666,6 +2676,126 @@ found in the core file.
       <output>
         <itemStack modID="Thaumcraft" itemName="blockCustomOre" itemMeta="7" number="1" />
         <itemStack modID="Thaumcraft" itemName="blockCustomOre" itemMeta="7" number="1" chance="0.1" />
+      </output>
+    </recipe>
+
+    <recipe name="Researchology - Rotted Bone" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="26" number="10" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="15" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Researchology - Mystical Powder" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="27" number="10" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="15" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Researchology - Insectoid Leg" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="28" number="10" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="15" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Researchology - Slime Heart" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="29" number="10" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="15" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Researchology - Wriggling Tentacle" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="30" number="10" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="15" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Researchology - Creepy Flesh" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="31" number="10" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="15" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Researchology - Shimmering Scales" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="32" number="10" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="15" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Researchology - Broken Tooth" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="33" number="10" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="15" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Researchology - Fur Tuft" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="34" number="10" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="15" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Researchology - Hide Sample" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="35" number="10" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="15" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Researchology - Downy Feather" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="36" number="10" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="15" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Researchology - Tinged Leaf" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="37" number="10" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="15" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
       </output>
     </recipe>
     

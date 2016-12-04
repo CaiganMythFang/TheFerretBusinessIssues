@@ -1,9 +1,9 @@
-ThaumicExploration:soulBrazier,1,0
-Thaumcraft:WandRod,1,100
-ThaumicExploration:transmutationCore,1,0
-ThaumicExploration:transmutationStaffCore,1,0
-ThaumicTinkerer:focusRecall,1,0
-Thaumcraft:FocusPrimal,1,0
-ThaumicTinkerer:focusShadowbeam,1,0
-Thaumcraft:FocusWarding,1,0
-Thaumcraft:blockStoneDevice,1,5
+TConstruct:cutlass,1,0,{InfiTool:{BaseDurability:98,Head:1,BaseAttack:5,ToolEXP:0L,Built:1b,HarvestLevel:1,Attack:5,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,ToolLevel:1,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:98,Modifiers:1},RepairCost:2,display:{Name:"Ferret Business Utility Blade"}}
+HardcoreQuesting:quest_book,1,0,{}
+minecraft:book,1,0,{RepairCost:2,display:{Name:"Empty Journal"}}
+minecraft:string,1,0,{RepairCost:2,display:{Name:"Pocket String"}}
+harvestcraft:sushiItem,5,0
+Botania:brewVial,1,0,{RepairCost:2,display:{Name:"Heavily Caffeinated Soda"},brewKey:"speed"}
+minecraft:compass,1,0
+minecraft:torch,16,0
+BiblioCraft:item.BiblioClipboard,1,0,{RepairCost:2,page1:{title:"Teleportation Test 71c1",taskStates:[1,1,1,2,2,0,0,0,0,],tasks:{task5:"DO NOT TOUCH RED B...",task6:"""",task7:"""",task8:"""",task9:"""",task1:"Equip Assistant",task2:"Check Power Reading",task3:"Adjust Omega level",task4:"Relay Danger Caution"}},display:{Name:"Testing Checklist"},totalPages:1,currentPage:1}
