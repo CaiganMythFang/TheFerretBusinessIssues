@@ -7054,7 +7054,7 @@
     {
       "questID": 78,
       "name": "QUEST TABLET FIRMWARE UPDATE",
-      "description": "    Greetings, §3§lBandit§r! Your §lQ.U.E.S.T. Tablet§r is a constantly evolving piece of hardware. But without a constant WiFi connection to our servers, it cannot easily update its firmware for new, exciting changes!\n    But, you can easily update it when an §4§l§nUPDATE§r happens by checking the box to the right and hitting Claim below. It will update the firmware for you.\n------------------------------------------\n§l§nCURRENT FIRMWARE VERSION§o§r : 0.2.1 Beta A\n------------------------------------------\n§o    Better Questing does not automatically update older worlds when the default quest database updates.\n    This quest lets you reset it within the QUEST Tablet, or you can simply run /bq_admin default load yourself.",
+      "description": "    Greetings, §3§lBandit§r! Your §lQ.U.E.S.T. Tablet§r is a constantly evolving piece of hardware. But without a constant WiFi connection to our servers, it cannot easily update its firmware for new, exciting changes!\n    But, you can easily update it when an §4§l§nUPDATE§r happens by checking the box to the right and hitting Claim below. It will update the firmware for you.\n------------------------------------------\n§l§nCURRENT FIRMWARE VERSION§o§r : 0.2.1 Release\n------------------------------------------\n§o    Better Questing does not automatically update older worlds when the default quest database updates.\n    This quest lets you reset it within the QUEST Tablet, or you can simply run /bq_admin default load yourself.",
       "isMain": false,
       "isSilent": true,
       "lockedProgress": false,
