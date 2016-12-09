@@ -361,226 +361,226 @@ recipes.addShapeless(SpecialThaumCrate25, [emptycrate, ira]);
 
 /////// WISP ESSENCES
 
-wispaer.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispaer.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispaer.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispaer]);
 
-wispterra.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispterra.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispterra.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispterra]);
 
-wispignis.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispignis.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispignis.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispignis]);
 
-wispaqua.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispaqua.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispaqua.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispaqua]);
 
-wispordo.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispordo.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispordo.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispordo]);
 
-wispperditio.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispperditio.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispperditio.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispperditio]);
 
-wispvacuos.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispvacuos.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispvacuos.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispvacuos]);
 
-wisplux.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wisplux.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wisplux.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wisplux]);
 
-wisptempestas.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wisptempestas.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wisptempestas.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wisptempestas]);
 
-wispmotus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispmotus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispmotus.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispmotus]);
 
-wispgelum.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispgelum.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispgelum.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispgelum]);
 
-wispvitreus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispvitreus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispvitreus.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispvitreus]);
 
-wispvictus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispvictus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispvictus.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispvictus]);
 
-wispvenenum.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispvenenum.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispvenenum.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispvenenum]);
 
-wisppotentia.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wisppotentia.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wisppotentia.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wisppotentia]);
 
-wisppermutatio.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wisppermutatio.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wisppermutatio.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wisppermutatio]);
 
-wispmetallum.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispmetallum.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispmetallum.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispmetallum]);
 
-wispmortuus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispmortuus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispmortuus.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispmortuus]);
 
-wispvolatus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispvolatus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispvolatus.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispvolatus]);
 
-wisptenebrae.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wisptenebrae.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wisptenebrae.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wisptenebrae]);
 
-wispsano.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispsano.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispsano.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispsano]);
 
-wispiter.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispiter.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispiter.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispiter]);
 
-wisppraecantatio.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wisppraecantatio.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wisppraecantatio.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wisppraecantatio]);
 
-wisplimus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wisplimus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wisplimus.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wisplimus]);
 
-wispherba.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispherba.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispherba.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispherba]);
 
-wisparbor.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wisparbor.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wisparbor.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wisparbor]);
 
-wispbestia.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispbestia.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispbestia.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispbestia]);
 
-wispfames.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispfames.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispfames.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispfames]);
 
-wispvinculum.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispvinculum.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispvinculum.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispvinculum]);
 
-wisptempus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wisptempus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wisptempus.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wisptempus]);
 
-wispspiritus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispspiritus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispspiritus.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispspiritus]);
 
-wispalienis.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispalienis.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispalienis.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispalienis]);
 
-wispauram.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispauram.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispauram.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispauram]);
 
-wispvitium.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispvitium.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispvitium.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispvitium]);
 
-wispcorpus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispcorpus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispcorpus.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispcorpus]);
 
-wispexanimis.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispexanimis.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispexanimis.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispexanimis]);
 
-wispinfernus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispinfernus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispinfernus.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispinfernus]);
 
-wispsuperbia.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispsuperbia.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispsuperbia.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispsuperbia]);
 
-wispgula.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispgula.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispgula.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispgula]);
 
-wispcognitio.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispcognitio.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispcognitio.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispcognitio]);
 
-wispsensus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispsensus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispsensus.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispsensus]);
 
-wispluxuria.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispluxuria.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispluxuria.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispluxuria]);
 
-wispdesidia.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispdesidia.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispdesidia.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispdesidia]);
 
-wisphumanus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wisphumanus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wisphumanus.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wisphumanus]);
 
-wispinvidia.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispinvidia.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispinvidia.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispinvidia]);
 
-wispmessis.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispmessis.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispmessis.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispmessis]);
 
-wispperfodio.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispperfodio.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispperfodio.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispperfodio]);
 
-wispinstrumentum.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispinstrumentum.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispinstrumentum.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispinstrumentum]);
 
-wisplucrum.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wisplucrum.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wisplucrum.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wisplucrum]);
 
-wispmeto.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispmeto.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispmeto.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispmeto]);
 
-wisptelum.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wisptelum.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wisptelum.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wisptelum]);
 
-wisptutamen.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wisptutamen.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wisptutamen.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wisptutamen]);
 
-wispfabrico.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispfabrico.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispfabrico.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispfabrico]);
 
-wisppannus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wisppannus.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wisppannus.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wisppannus]);
 
-wispmachina.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispmachina.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispmachina.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispmachina]);
 
-wispira.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5=") + " | " + format.green("Magic ")+ ")"));
+wispira.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =50=") + " | " + format.green("Magic ")+ ")"));
 wispira.addTooltip(format.red("Thaumcraft Aspect materials must be individually crated!"));
 recipes.addShapeless(SpecialThaumCrate5, [emptycrate, wispira]);

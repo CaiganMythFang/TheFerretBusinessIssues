@@ -120,7 +120,8 @@ var FMCComponent50 = [
 <Botania:manaResource:6>, <Botania:craftPattern:0>,
 <Thaumcraft:ItemResource:17>, <Thaumcraft:ItemResource:7>,
 <ThaumicTinkerer:darkQuartzItem>, 
-<MineFactoryReloaded:needlegun.ammo.empty>
+<MineFactoryReloaded:needlegun.ammo.empty>,
+<Forestry:canEmpty>
 ] as IItemStack[];
 
 for i, toy in FMCComponent50 {
@@ -140,7 +141,8 @@ var FMCComponent100 = [
 <Thaumcraft:WandCap>, <Thaumcraft:WandCap:3>, <Thaumcraft:WandCap:6>, <Thaumcraft:WandCap:8>, <Thaumcraft:ItemGolemDecoration:2>, <Thaumcraft:ItemGolemDecoration:3>,
 <ThaumicExploration:blankSeal:*>, <ThaumicExploration:chestSeal:*>, <ThaumicExploration:chestSealLinked:*>, <ThaumicExploration:jarSeal:*>,
 <StorageDrawers:upgradeVoid>, 
-<MineFactoryReloaded:detcord>
+<MineFactoryReloaded:detcord>,
+<Railcraft:part.tie>
 ] as IItemStack[];
 
 for i, toy in FMCComponent100 {
@@ -160,7 +162,8 @@ var FMCComponent200 = [
 <BiblioCraft:item.BiblioChase>, 
 <ImmersiveEngineering:shader>,
 <StorageDrawers:upgrade:4>, <StorageDrawers:upgradeStatus:1>, <StorageDrawers:upgradeRedstone>, <StorageDrawers:upgradeRedstone:1>, <StorageDrawers:upgradeRedstone:2>,
-<MineFactoryReloaded:pinkslime.block>, <MineFactoryReloaded:pinkslime:1>, <MineFactoryReloaded:brick:15>
+<MineFactoryReloaded:pinkslime.block>, <MineFactoryReloaded:pinkslime:1>, <MineFactoryReloaded:brick:15>,
+<Railcraft:part.rail>
 ] as IItemStack[];
 
 for i, toy in FMCComponent200 {
@@ -187,7 +190,8 @@ var FMCComponent400 = [
 <EnderIO:itemMaterial:7>,
 <Botania:craftPattern:8>,
 <Thaumcraft:ItemGolemCore:100>, <Thaumcraft:ItemGolemCore:5>,
-<CompactMachines:shrinker>, <CompactMachines:enlarger>
+<CompactMachines:shrinker>, <CompactMachines:enlarger>,
+<Railcraft:part.railbed>
 ] as IItemStack[];
 
 for i, toy in FMCComponent400 {
@@ -233,7 +237,8 @@ var FMCComponent1000 = [
 <ThaumicTinkerer:soulMould>,
 <ImmersiveEngineering:material:11>,
 <StorageDrawers:upgrade:2>,
-<MineFactoryReloaded:upgrade.radius:1>, <MineFactoryReloaded:upgrade.radius:2>, <MineFactoryReloaded:upgrade.radius:3>, <MineFactoryReloaded:upgrade.radius:4>
+<MineFactoryReloaded:upgrade.radius:1>, <MineFactoryReloaded:upgrade.radius:2>, <MineFactoryReloaded:upgrade.radius:3>, <MineFactoryReloaded:upgrade.radius:4>,
+<Railcraft:part.rail:1>
 ] as IItemStack[];
 
 for i, toy in FMCComponent1000 {

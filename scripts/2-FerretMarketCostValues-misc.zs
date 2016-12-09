@@ -43,9 +43,10 @@ for i, toy in FMCMisc10 {
 
 // Ferret Market Cost, Misc - 50
 var FMCMisc50 = [
-<minecraft:detector_rail>, <minecraft:redstone_torch>,
+<minecraft:redstone_torch>,
 <IronChest:diamondCrystalUpgrade>, 
-<MineFactoryReloaded:rail.cargo.pickup>, <MineFactoryReloaded:rail.cargo.dropoff>
+<MineFactoryReloaded:rail.cargo.pickup>, <MineFactoryReloaded:rail.cargo.dropoff>,
+<minecraft:rail>
 ] as IItemStack[];
 
 for i, toy in FMCMisc50 {
@@ -58,7 +59,7 @@ for i, toy in FMCMisc50 {
 
 // Ferret Market Cost, Misc - 100
 var FMCMisc100 = [
-<minecraft:rail>
+<minecraft:detector_rail>
 ] as IItemStack[];
 
 for i, toy in FMCMisc100 {
@@ -90,6 +91,17 @@ for i, toy in FMCMisc300 {
      <ore:zFMC300>.add(toy);
      <ore:zFMCMisc300>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =300=") + " | " + format.green("Misc ")+ ")"));
+}
+
+// Ferret Market Cost, Misc - 400
+var FMCMisc400 = [
+<minecraft:golden_rail>
+] as IItemStack[];
+
+for i, toy in FMCMisc400 {
+     <ore:zFMC400>.add(toy);
+     <ore:zFMCMisc400>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =400=") + " | " + format.green("Misc ")+ ")"));
 }
 
 // Ferret Market Cost, Misc - 500
@@ -140,7 +152,7 @@ for i, toy in FMCMisc1500 {
 
 // Ferret Market Cost, Misc - 2,000
 var FMCMisc2000 = [
-<minecraft:tnt_minecart>, <minecraft:hopper_minecart>, <minecraft:golden_rail>
+<minecraft:tnt_minecart>, <minecraft:hopper_minecart>
 ] as IItemStack[];
 
 for i, toy in FMCMisc2000 {

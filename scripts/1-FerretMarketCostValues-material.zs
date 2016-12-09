@@ -176,7 +176,9 @@ var FMC100 = [
 <Botania:quartz:5>, <Botania:quartz:2>, 
 <Thaumcraft:blockCustomPlant:5>, <Thaumcraft:ItemResource:16>,
 <ForbiddenMagic:FMResource>,
-<GrimoireOfGaia:item.GrimoireOfGaia.Fragment>
+<GrimoireOfGaia:item.GrimoireOfGaia.Fragment>,
+<Railcraft:fluid.creosote.bottle>,
+<ImmersiveEngineering:fluidContainers>
 ] as IItemStack[];
 
 for i, toy in FMC100 {
@@ -201,7 +203,8 @@ var FMC200 = [
 <ProjRed|Core:projectred.core.part:52>, <ProjRed|Core:projectred.core.part:53>,
 <Botania:manaResource:22>, <Botania:quartzTypeMana>, <Botania:quartzTypeRed>, <Botania:prismarine>, <Botania:manaResource>, <Botania:quartzTypeLavender>, <Botania:quartzTypeSunny>, 
 <simplyjetpacks:components:66>,
-<GrimoireOfGaia:item.GrimoireOfGaia.Shard:3>
+<GrimoireOfGaia:item.GrimoireOfGaia.Shard:3>,
+<Railcraft:fluid.creosote.can>
 ] as IItemStack[];
 
 for i, toy in FMC200 {
@@ -258,7 +261,9 @@ var FMC500 = [
 <ferretshinies:LayeredIconAsset:4>,
 <Thaumcraft:ItemNugget:16>,
 <GrimoireOfGaia:item.GrimoireOfGaia.Shard:1>, 
-<MineFactoryReloaded:bucket.sludge>, <MineFactoryReloaded:bucket.sewage>, <MineFactoryReloaded:bucket.biofuel>, <MineFactoryReloaded:bucket.pinkslime>, <MineFactoryReloaded:bucket.chocolatemilk>, <MineFactoryReloaded:bucket.mushroomsoup>
+<MineFactoryReloaded:bucket.sludge>, <MineFactoryReloaded:bucket.sewage>, <MineFactoryReloaded:bucket.biofuel>, <MineFactoryReloaded:bucket.pinkslime>, <MineFactoryReloaded:bucket.chocolatemilk>, <MineFactoryReloaded:bucket.mushroomsoup>,
+<Railcraft:fluid.creosote.bucket>,
+<ImmersiveEngineering:fluidContainers:1>
 ] as IItemStack[];
 
 for i, toy in FMC500 {
