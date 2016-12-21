@@ -121,7 +121,8 @@ var FMCComponent50 = [
 <Thaumcraft:ItemResource:17>, <Thaumcraft:ItemResource:7>,
 <ThaumicTinkerer:darkQuartzItem>, 
 <MineFactoryReloaded:needlegun.ammo.empty>,
-<Forestry:canEmpty>
+<Forestry:canEmpty>,
+<catwalks:steelgrate>
 ] as IItemStack[];
 
 for i, toy in FMCComponent50 {

@@ -3898,15 +3898,6 @@
       "visibility": "NORMAL",
       "tasks": [
         {
-          "scoreName": "Shop_Loyalty",
-          "type": "dummy",
-          "target": 250,
-          "unitConversion": 1.0,
-          "unitSuffix": "",
-          "operation": "MORE_OR_EQUAL",
-          "taskID": "bq_standard:scoreboard"
-        },
-        {
           "partialMatch": true,
           "ignoreNBT": true,
           "consume": true,
@@ -3973,15 +3964,6 @@
       "visibility": "NORMAL",
       "tasks": [
         {
-          "scoreName": "Shop_Loyalty",
-          "type": "dummy",
-          "target": 750,
-          "unitConversion": 1.0,
-          "unitSuffix": "",
-          "operation": "MORE_OR_EQUAL",
-          "taskID": "bq_standard:scoreboard"
-        },
-        {
           "partialMatch": true,
           "ignoreNBT": true,
           "consume": true,
@@ -4014,13 +3996,6 @@
             }
           ],
           "rewardID": "bq_standard:item"
-        },
-        {
-          "score": "Shop_Loyalty",
-          "type": "dummy",
-          "value": 1,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
         }
       ],
       "preRequisites": [
@@ -4054,15 +4029,6 @@
       },
       "visibility": "NORMAL",
       "tasks": [
-        {
-          "scoreName": "Shop_Loyalty",
-          "type": "dummy",
-          "target": 1500,
-          "unitConversion": 1.0,
-          "unitSuffix": "",
-          "operation": "MORE_OR_EQUAL",
-          "taskID": "bq_standard:scoreboard"
-        },
         {
           "partialMatch": true,
           "ignoreNBT": true,
@@ -4129,15 +4095,6 @@
       },
       "visibility": "NORMAL",
       "tasks": [
-        {
-          "scoreName": "Shop_Loyalty",
-          "type": "dummy",
-          "target": 2500,
-          "unitConversion": 1.0,
-          "unitSuffix": "",
-          "operation": "MORE_OR_EQUAL",
-          "taskID": "bq_standard:scoreboard"
-        },
         {
           "partialMatch": true,
           "ignoreNBT": true,
@@ -7054,7 +7011,7 @@
     {
       "questID": 78,
       "name": "QUEST TABLET FIRMWARE UPDATE",
-      "description": "    Greetings, §3§lBandit§r! Your §lQ.U.E.S.T. Tablet§r is a constantly evolving piece of hardware. But without a constant WiFi connection to our servers, it cannot easily update its firmware for new, exciting changes!\n    But, you can easily update it when an §4§l§nUPDATE§r happens by checking the box to the right and hitting Claim below. It will update the firmware for you.\n------------------------------------------\n§l§nCURRENT FIRMWARE VERSION§o§r : 0.2.1 Release\n------------------------------------------\n§o    Better Questing does not automatically update older worlds when the default quest database updates.\n    This quest lets you reset it within the QUEST Tablet, or you can simply run /bq_admin default load yourself.",
+      "description": "    Greetings, §3§lBandit§r! Your §lQ.U.E.S.T. Tablet§r is a constantly evolving piece of hardware. But without a constant WiFi connection to our servers, it cannot easily update its firmware for new, exciting changes!\n    But, you can easily update it when an §4§l§nUPDATE§r happens by checking the box to the right and hitting Claim below. It will update the firmware for you.\n------------------------------------------\n§l§nCURRENT FIRMWARE VERSION§o§r : 0.2.2 Beta\n------------------------------------------\n§o    Better Questing does not automatically update older worlds when the default quest database updates.\n    This quest lets you reset it within the QUEST Tablet, or you can simply run /bq_admin default load yourself.",
       "isMain": false,
       "isSilent": true,
       "lockedProgress": false,
@@ -8346,6 +8303,186 @@
       ],
       "preRequisites": [
         5
+      ]
+    },
+    {
+      "questID": 93,
+      "name": "[ADMIN] SCOREBOARD AND PROGRESS RESET",
+      "description": "§oWith 0.2.2, the Scoreboard function is no longer used to avoid a serious crash issue with Better Questing.\n\nPlayers should either use this quest, or use the following commands to clear the scoreboard and reset their questing progress properly. The item is only obtainable with commands, or Mod/OP status. §4§l\n\nNOTE THAT USING THIS QUEST METHOD WILL SOFT CRASH YOUR GAME. YOU CAN LOAD BACK INTO THE WORLD IMMEDIATELY.\n\nIT IS SUGGESTED YOU USE THE COMMANDS BELOW INSTEAD.§r§o§r\n\n/scoreboard objectives remove Job_Reputation\n/scoreboard objectives remove Trader_Renown\n/scoreboard objectives remove Shop_Rank\n/bq_admin reset all playername\n(replace playername with your Minecraft name!)",
+      "isMain": false,
+      "isSilent": true,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:nether_star",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "command": "/scoreboard objectives remove Job_Reputation",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command"
+        },
+        {
+          "command": "/scoreboard objectives remove Trader_Renown",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command"
+        },
+        {
+          "command": "/scoreboard objectives remove Shop_Rank",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command"
+        },
+        {
+          "command": "/bq_admin reset all VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command"
+        }
+      ],
+      "preRequisites": [
+        78
+      ]
+    },
+    {
+      "questID": 94,
+      "name": "Catwalks",
+      "description": "    Now, when I\u0027m building something, I know I have trouble reaching high ceilings, rooftops, or more. Ladders are only so useful (I swear, they are out for blood if I ever try going DOWN them...), and Jetpacks are finicky indoors and use fuel. I COULD make a pole out of some random material like some kind of nerd (A strange creature Explorer Erin brought back last year. We don\u0027t talk about it now...).\n    Instead, large construction projects usually require something easily set up and torn down. Something easily modified and expanded depending on the project. And to that, here at The Ferret Business, we use...Catwalks!\n    There are a variety of Catwalks we use, each one easily modifiable and torn down when done with. To start with, you\u0027ll need a handy dandy Blowtorch, and some of these simple to make Steel Grates, which are most of the structure of the Catwalks.",
+      "isMain": false,
+      "isSilent": true,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "catwalks:blowtorch",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "catwalks:blowtorch",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "catwalks:steelgrate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        3
       ]
     },
     {
@@ -10682,6 +10819,113 @@
       ]
     },
     {
+      "questID": 128,
+      "name": "Walking Above",
+      "description": "    Scaffolds and Catwalks are excellent for aiding in building for a few reasons. Like I said before, they are easy to make, easy to tear down, and customizable.\n    To start with, Scaffolds help get you to high places. If you Sneak + Right Click a Scaffold onto one side of an existing Scaffold, it will add it to the OTHER side. You can extend a line of Scaffolds out this way!\n    The sides of Scaffolds also act like Ladders, but not ordinary ones! You climb up them faster, sure, but you also don\u0027t slide back down them like normal. To go down the side of a Scaffold, use Sneak. This lets you hang onto the side of a Scaffold to build or work on something, instead of requiring a flat platform to stand on.\n    When you have Scaffolds up to the height you want, you can then use Catwalks. You can usually place the first Catwalk down under your feet, which sets up the railings around you. These are higher than you can normally jump (for safety reasons!). You can then extend out the Catwalk by simply Right Clicking another Catwalk against the inside railing in the direction you want to go. You can keep Right Clicking to extend the Catwalk out even further without moving this way as well.\n    When you have the Catwalks built out to where you want, you can then Sneak + Right Click a Scaffold at the floor of a Catwalk to place it underneath. Right Click the Blowtorch on the floor to to remove the Catwalk\u0027s floor, then you can extend the Scaffold out normally.\n    Right Clicking a Blowtorch on one of the railings will remove it, enabling you to drop off the side, or reach a non-catwalk platform you have.",
+      "isMain": false,
+      "isSilent": true,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "catwalks:catwalk_unlit",
+        "Count": 64,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "catwalks:scaffold",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "catwalks:catwalk_unlit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        94
+      ]
+    },
+    {
       "questID": 129,
       "name": "ReplaceMe9",
       "description": "No Description",
@@ -10726,6 +10970,137 @@
       ],
       "rewards": [],
       "preRequisites": []
+    },
+    {
+      "questID": 130,
+      "name": "Better Access",
+      "description": "    Builder\u0027s Scaffolds work similarly to normal Scaffolds except one bonus : If you Right Click any other block onto the Scaffold, it swaps it out. This is a great way to lay out a lot of Scaffolds as placeholder material you can climb and then replace them with the proper building materials. You can either craft Builder\u0027s Scaffolds, or Right Click a placed Scaffold with your Blowtorch to swap between Builders and normal.\n    Placing Scaffolds as ladders to get down from your Catwalks is all well and good, but it can get dangerous. Instead, you can use these Caged Ladders to create a path down. Right Click one onto the floor of a Catwalk to place it underneath, then a Blowtorch to remove the Catwalk floor. You can then Sneak + Right Click more Caged Ladders downward back to the floor. Caged Ladders work just like climbing or decending Scaffolds, just note you\u0027ll need to use your Blowtorch to cut an opening to get out at the bottom of the Ladder.\n    Support Columns work similarly to Scaffolds, but are more for looks than use. You can climb them, but they are much slower than a normal Ladders.",
+      "isMain": false,
+      "isSilent": true,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "catwalks:cagedLadder_north_unlit",
+        "Count": 64,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "catwalks:scaffold",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "catwalks:cagedLadder_north_unlit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "catwalks:support_column",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        128
+      ]
     },
     {
       "questID": 131,
@@ -11104,8 +11479,8 @@
     },
     {
       "questID": 137,
-      "name": "Mass Supply - Sushi",
-      "description": "    This will be the initial test of the Mass Supply system, to verify the profibility.                                     The task is simple : provide 1,000 Sushi. This will test both our refridgeration storage methods, and your mass produce production methods.",
+      "name": "Customized Railings",
+      "description": "    Catwalks have a few ways you can improve them. Things like Caution Tape can be Right Clicked onto a Catwalk to add warning tape to it.\n    As well, Right Clicking some Rope Lights onto a Catwalk will light them up for you. Great when you don\u0027t have interior lighting installed yet!\n    Sneak + Right Clicking an empty hand on a Catwalk with either customization will remove it.",
       "isMain": false,
       "isSilent": true,
       "lockedProgress": false,
@@ -11122,8 +11497,8 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "harvestcraft:sushiItem",
-        "Count": 1,
+        "id": "catwalks:cautionTape",
+        "Count": 64,
         "OreDict": "",
         "Damage": 0
       },
@@ -11132,12 +11507,27 @@
         {
           "partialMatch": true,
           "ignoreNBT": true,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "harvestcraft:sushiItem",
-              "Count": 1000,
+              "id": "catwalks:cautionTape",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "catwalks:ropeLight",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -11148,100 +11538,65 @@
       "rewards": [
         {
           "rewards": [
-            {
-              "id": "ferretshinies:BlindBag",
-              "Count": 7,
-              "OreDict": "",
-              "Damage": 143
-            },
-            {
-              "id": "ferretshinies:NullToken",
-              "Count": 25,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "ferretshinies:NullToken",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 47
-            },
-            {
-              "id": "ferretshinies:NullToken",
-              "Count": 11,
-              "OreDict": "",
-              "Damage": 41
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        138
-      ]
-    },
-    {
-      "questID": 138,
-      "name": "Mass Supply System",
-      "description": "    We have a new level of contract we\u0027re exploring with our Traders, especially ones with access to their own factories. You...with all your space, you can easily build your own factory. It\u0027d be a good way to get more coins, that\u0027s for sure, and give you something to do while the eggheads around here try to get you home.                        This system utilizes the Quest Delivery System, or QDS. You can pipe items into it to teleport to us, but you will need to select the Mass Supply quest first and bind it to the QDS.                                        It is also important to note : any items sent through the QDS get added to our inventory system. Do not send items through it you want back.",
-      "isMain": false,
-      "isSilent": true,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "HardcoreQuesting:item_barrel",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "NORMAL",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
             {
               "id": "ferretshinies:NullToken",
               "Count": 10,
               "OreDict": "",
               "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
+            },
             {
-              "id": "HardcoreQuesting:item_barrel",
+              "id": "HardcoreQuesting:bags",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 101
             }
           ],
           "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        128
+      ]
     },
     {
-      "questID": 142,
-      "name": "Mass Supply - Surv. Generator",
-      "description": "    This will be the initial test of the Mass Supply system, to verify the profibility.                                     The task is simple : provide 1,000 Survivalist Generators. This will test your multi-step factory abilities and our storage and distribution methods for these products on this scale.",
+      "questID": 138,
+      "name": "A Different Kind of Rail",
+      "description": "    Catwalks and Scaffolds aren\u0027t the only thing you can construct up high. Sturdy Rails enable you to build suspended minecart tracks. \n    When you place down one of these Sturdy Rails, you can Right Click a rail on top of it to extend the rail forward. If you Sneak + Right Click the top of a Rail, it will place one above it, and then connect and create a ramp upwards. Likewise, Sneak + Right Clicking on the underside of a rail will place and create a ramp downward. You will need to break one of the rails to clear the path, however.\n    Any of the Rails that use Redstone, you can Right Click with a Blowtorch to toggle it on or off.",
       "isMain": false,
       "isSilent": true,
       "lockedProgress": false,
@@ -11258,8 +11613,8 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "ExtraUtilities:generator",
-        "Count": 1,
+        "id": "catwalks:sturdy_rail_powered",
+        "Count": 20,
         "OreDict": "",
         "Damage": 0
       },
@@ -11268,12 +11623,39 @@
         {
           "partialMatch": true,
           "ignoreNBT": true,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "ExtraUtilities:generator",
-              "Count": 1000,
+              "id": "catwalks:sturdy_rail",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "catwalks:sturdy_rail_detector",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "catwalks:sturdy_rail_powered",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "catwalks:sturdy_rail",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
@@ -11285,36 +11667,70 @@
         {
           "rewards": [
             {
-              "id": "ferretshinies:BlindBag",
+              "id": "ferretshinies:NullToken",
               "Count": 30,
               "OreDict": "",
-              "Damage": 143
+              "Damage": 0
             },
             {
-              "id": "ferretshinies:NullToken",
+              "id": "HardcoreQuesting:bags",
               "Count": 1,
               "OreDict": "",
-              "Damage": 49
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
             },
             {
               "id": "ferretshinies:NullToken",
-              "Count": 54,
+              "Count": 6,
               "OreDict": "",
-              "Damage": 41
+              "Damage": 101
             }
           ],
           "rewardID": "bq_standard:item"
         },
         {
-          "score": "Trader_Renown",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
         }
       ],
       "preRequisites": [
-        138
+        128
       ]
     },
     {
@@ -11551,78 +11967,6 @@
       ]
     },
     {
-      "questID": 147,
-      "name": "Mass Supply - Armor Stands",
-      "description": "    This will be the initial test of the Mass Supply system, to verify the profibility.                                     The task is simple : provide 1,000 Armor Stands. This will test our odd item shape storage abilities.",
-      "isMain": false,
-      "isSilent": true,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "BiblioCraft:Armor Stand",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "NORMAL",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "BiblioCraft:Armor Stand",
-              "Count": 1000,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "ferretshinies:BlindBag",
-              "Count": 15,
-              "OreDict": "",
-              "Damage": 143
-            },
-            {
-              "id": "ferretshinies:NullToken",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 48
-            },
-            {
-              "id": "ferretshinies:NullToken",
-              "Count": 22,
-              "OreDict": "",
-              "Damage": 41
-            }
-          ],
-          "rewardID": "bq_standard:item"
-        }
-      ],
-      "preRequisites": [
-        138
-      ]
-    },
-    {
       "questID": 150,
       "name": "Large Order - Survival Generator",
       "description": "    Not all things we order from factories are for selling. Survivalist Generators are fairly cheap, simple devices for generating power, but are far from robust enough to run entire shops or factories.\n    What they ARE useful for is for aiding disaster struck areas. We are planning on sending these generators as part of Ferritarium Aid projects anywhere we can.",
@@ -11688,13 +12032,6 @@
             }
           ],
           "rewardID": "bq_standard:item"
-        },
-        {
-          "score": "Reputation (2)",
-          "type": "dummy",
-          "value": 5,
-          "relative": true,
-          "rewardID": "bq_standard:scoreboard"
         }
       ],
       "preRequisites": [
@@ -64928,7 +65265,7 @@
       "name": "To the Meteors!",
       "description": "--------\n    §k.........§r power §k.......§rtus Quartz§k...........§r antastic Meteorite Compass §k.....................§r locate §k.........§r Sky Stone Meteors§k................§r plates §k.....................§r collect all four Inscription Plates§k............§r\n--------\n\n    Dataologist Dante : Bandit, we\u0027ve deciphered a bit more of the transmission. There are these Meteorites scattered around the world, which apparently contain Inscription Plates we\u0027ll need to continue our research.\n    Linguist Lenny : Given some of the trasnmission context, we were able to use a Charged Certus Quartz to fashion ourselves what is called a Meteorite Compass. Fascinating!\n    Dataologist Dante : Proprieter Penny gave us some Certus Quartz samples she found, as well as some of this black stone that gave off a similar signature. The Meteorite Compass always pointed towards the nearest chunk of it unless it was in a box or bag!\n    Linguist Lenny : She also gave us a couple of the Inscription Plates the transmission talks about. They were found inside the black stone, and she says she had a bunch more, as well.\n    Dataologist Dante : Too bad she refused to just send you a set. Sorry, Bandit, she runs the shop with an iron power glove. She\u0027ll happily sell you the plates though, if you don\u0027t want to go Meteor Hunting!\n    Linguist Lenny : She also grinned when she said she had a lot of that stone. Sky Stone, we\u0027re calling it, since it looks to be part of those meteors.\n    Dataologist Dante : Well, either way, collect all four plates, some Sky Stone, and a Sky Stone Chest when you can.",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -65095,7 +65432,7 @@
       "name": "Crystals!",
       "description": "--------\n   §k......§r al Certus Quartz §k..................§r artz §k........§r find §k.....§r over §k.....§r world! §k......§r amaz§k............§r confi§k...........§r  product§k.............§r r Certus Quartz! §k................§r lines §k..................§r your order!\n    §k..........§r act §k.............§r get §k...........§r Charged Certus Quartz §k..........§r energizes §k.........§r devices we\u0027re §k.............§r\n--------\n\n    Dataologist Dante : Interesting, it seems the transmission is bouncing off of these Certus Quartz deposits in your world. That might be why they are being distorted?\n    Linguist Larry : Possibly, but the original source may be corrupted as well. I\u0027m finding more references to this Certus Quartz in the transmissions as well.\n    Dataologist Dante : I\u0027d say it\u0027s time to gather some of this Certus Quartz for more research. Bandit, the QUEST Tablet scanner shows Certus Quartz is scattered underground, slightly uncommon. The Charged Certus Quartz is a bit rarer, but should be around the same depths.\n    Linguist Larry : These Certus Quartz Crystals... I\u0027d check with Penny in the TFB Corporate Catalog. She might be selling any extra the Business has collected from other dimensional mining operations.",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -65202,7 +65539,7 @@
       "name": "Fluix Crystals",
       "description": "--------\n    §k...§r know §k.....§r Charged Certus Quartz §k.....§r put §k.....§r Redstone §k.........§r Nether Quartz into §k....§r Water §k.....§r creating Fluix Crystals§k....§r what §k....§r with them? §k...§r glad §k....§r ask§k...§r\n    §k......§r hard §k.....§r Sky Stone §k.......§r patented §k......§r fantastic §k.....§r Stick§k......§ry §k.......§r Pistons §k...§r Fluix Crystal§k...§r make §k....§r Inscriber§k...§r press §k....§r hardest of materials with §k....§r Plates!\n--------\n\n    Linguist Lenny : I think I\u0027m starting to get a better handle on this strange language, even with the distortion and corruption. \n    Dataologist Dante : And I\u0027m starting to work out this technology it\u0027s talking about. Watch, if we drop a Charged Certus Quartz, a Redstone Dust, and a Nether Quartz a pool of water....\n    Linguist Lenny : Hey, that\u0027s kind of pretty. What\u0027d the transmission call it... a Fluix Crystal? Looks like it\u0027ll be useful.\n    Dataologist Dante : I agree. The other part of the transmission mentioned a few things...and I figured out a device that should be close to what it was describing. The Inscriber should be a useful device when we figure out how to power it.\n    Linguist Lenny : Wait, it doesn\u0027t take RF Energy?\n    Dataologist Dante : It does, but it seems to be one of the few test machines I\u0027ve made that does so far. Let\u0027s keep listening to the transmissions, maybe we can figure something out for the other machines...",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -65318,7 +65655,7 @@
       "name": "Form Before Function",
       "description": "--------\n    §k...§r you know?§k......§r these Crystals §k......§r useful §k........§r offer§k...§r fantastic decorative §k........§r\n    §k.......§r strong §k..§r support §k....§r Stairs §k..§rSlabs §k...§r fantastic as Pillars§k......§r Bricks §k..........§r\n--------\n\n    Linguist Larry : Not much new stuff in this transmission, at least when it comes to figuring out these devices and other things.\n    Dataologist Dante : Hmm, looks to be talking about turning these materials into building materials. StairS? I guess if they are pretty, some architect can make use of them.\n    Linguist Larry : Bandit, I wouldn\u0027t ask you to waste too many materials on these, but theres a bunch more things you can make than just these three things.",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -65419,7 +65756,7 @@
       "name": "Charged Up",
       "description": "--------\n   §k.....§r power tools §k......§r charged§k............§r special Charger! §k........§r charge §k......§r Quartz §k..............§r\n--------\n\n    Linguist Larry : What a short transmission.\n    Dataologist Dante : True, but it sounds like we can charge Certus Quartz ourselves. But the prototype charger I have here doesn\u0027t work.\n    Linguist Larry : Try using Fluix Crystals as components. I get the feeling that\u0027s the only way it would work.\n    Dataologist Dante : Hm, possibly. Still not working... no wait, there we go. I had to set the Charger on top of the energy source. Some sort of proprietary system? Weird for just a bunch of Crystals...\n    Linguist Larry : But not really out of place. But hey, it looks like it\u0027ll charge RF Energy tools as well as Certus Quartz. That should definitely help you out, Bandit. ",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -65508,7 +65845,7 @@
       "name": "Growing Supply",
       "description": "--------\n    §k......§r know §k......§rur Certus Quartz §k........§r so incred§k.....§r can §k....§r grow §k.......§r special §k......§r sand§k.....§r Certus Dust§k.....§r Water§k....§r crystaliza§k.....§r takes §k......§r hours §k.....§ratented for§k......§r not decay §k......§r inexhaustable §k....§r\n--------\n\n    Dataologist Dante : Interesting, this communication seems to suggest that we can grow more Certus Quartz.\n    Linguist Larry : Not surprised, you never grew rock candy as a little kit?\n    Dataologist Dante : You can do that? Dang, glad I didn\u0027t know that, I would probably have fake teeth by now if I did.\n    Linguist Larry : Yeah, should be pretty simple. So, it says to combine Certus Dust and Sand... the Quartz Grindstone should get us the Dust easily. Now mix and... yeah, that worked pretty well. One Certus Quartz Seed.\n    Dataologist Dante : Then you just put it in some water, yeah? Here, I had maintenance install a small pond in the corner, since it seems we\u0027re working with some unique technology.\n    Linguist Larry : Not the weirdest thing I\u0027ve seen in the labs here. Okay, the seed is in the water. Got the scanner going?\n    Dataologist Dante : Sure. And looks like it works. Scanner is showing a very slow but steady increase in size. Estimation says a couple hours.\n    Linguist Larry : Hm, the data says the structure is more Pure. Should be usable in most of the same applications. Hey, Bandit, I bet you can do the same with Fluix Crystals. And maybe even Nether Quartz. That should help you out with limited materials.",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -65631,7 +65968,7 @@
       "name": "The ME Network",
       "description": "--------\n    §k.......§r shown §k..........§r tip §k......§r iceberg§k.......§r comes together §k..........§r thing §k.......§r call §k.....§r Mat§k..§r E§k....§r Network!\n    §k.......§r ME Network §k.......§r simple§k...........§r Quartz Fiber §k....§r hook §k........§r devices together§k...........§r supply power §k.......§r connected devices §k.......§r Energy Acceptor§k.....§r converts RF §k.....§r into AE §k.....§r efficient§k.....§r\n    §k.....§r store extra AE §k.......§r Energy Cell §k.........§r \n--------\n\n    Dataologist Dante : I\u0027ve requested some schematics from the other tech branches of The Ferret Business. These transmissions aren\u0027t getting any easier to translate unfortunately.\n    Linguist Larry : Dishearteningly so. What I can figure from this one is that you can use Fluix crystals and Certus Quartz to create... a network?\n    Dataologist Dante : M. E. Network. Massive Energy? No... Matter Energy?\n    Linguist Larry : What? But Matter and Energy are two different things...\n    Dataologist Dante : There\u0027s theories about that. But, deciphering this transmission, it sounds like theres a few devices that can be used in an ME Network, and it has its own power type. AE Energy. Let me put some of this together...\n    Linguist Larry : Another power type? What\u0027s that make, five now? We really need to make a solid standard....\n    Dataologist Dante : And then we would have six types. At least they are easy to convert between... except this AE. Looks like I can put RF Energy into the ME Network, but I can\u0027t pull it out. The Quartz Fiber transfers energy over the entire network, but only power our Applied Energistics devices it looks like.\n    Linguist Larry : That\u0027s slightly annoying. So, RF Energy goes into the Energy Acceptor here, which turns it into AE Energy, which can be stored in the Energy Cell?\n    Dataologist Dante : Correct.",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -65764,7 +66101,7 @@
       "name": "Better Inscribing",
       "description": "--------\n    §k..§r wait! §k........§r Inscriber too simple §k...............§r get §k.......§rAdvanced Inscriber!\n    §k...§r hooking §k....§r ME Network, §k.......§r import and export §k..§r any side §k.......§r multiple Speed upgrades §k....§r work faster!\n--------\n\n    Dataologist Dante : A short transmission. Looks like we can upgrade the Inscriber?\n    Linguist Larry : Sounds like it. What was wrong with the normal one?\n    Dataologist Dante : Well, I tried hooking it up to some of our standard automation conduits and stuff. It was very picky about which side had which input or output. This Advanced Inscriber sounds like it solves that issue.\n    Linguist Larry : What are Speed upgrades?\n    Dataologist Dante : Not sure. None of the transmissions we\u0027ve deciphered mention them... do they?",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -65866,7 +66203,7 @@
       "name": "Acceleration",
       "description": "--------\n    §k....§r know §k......§r going to say§k..........§r Crystal Seeds §k.....§r hours to grow§k...........§r free§k....§r not be §k.........§r slow §k............§r\n    §k......§r power §k...........§r ME Network§k....§r speed §k..........§r growth rate§k......§r upgrade §k....§r Quartz Fiber§k......§r Glass Cables §k..........§r Fluix Crystals§k.....§r incredible §k....§r Crystal Growth Accelerator!\n    Hook §k.....§r top or bottom§k....§r water it touches §k....§r supercharged, speeding §k......§r Crystal Seeds §k.........§r\n    Not fast §k......§r multiple §k.........§r Act §k...§r we\u0027ll §k.....§r three for §k.....§r two! §k....§r throw §k....§r extra §k...........§r Crystal Seeds for you!\n--------\n\n    Dataologist Dante : The more we understand on these transmissions, the more confused I get.\n    Linguist Larry : Hopefully we can get an uncorrupted transmission at some point. \n    Dataologist Dante : Well, for now, we have another one to decipher. Hmm, it looks like this one is talking about those Crystal Seeds.\n    Linguist Larry : The ones that take hours to grow.\n    Dataologist Dante : Yep, but it looks like we can speed it up. Hmm... yeah, looks like we can use the Fluix Crystals to upgrade Quartz Fiber into ME Glass Cables.\n    Linguist Larry : To what benefit?\n    Dataologist Dante : Not sure yet. But looks like I can dye the cables. I don\u0027t like them being... bare like that though.\n    Linguist Larry : Why not wrap them in some Wool?\n    Dataologist Dante : ME Covered Cable? Why not. That\u0027d be a great way to run two different cable lines next to each other without connecting them, as well.\n    Linguist Larry : Good. What about this Crystal Growth Accelerator? Sounds like something especially helpful for Bandit here. Time is money, and time is survival as well.\n    Dataologist Dante : Let me try a few things with this new cable... oh, turning the Fluix Crystals into a Fluix Block gives us a solid base... some Iron... ah, there we go!\n    Linguist Larry : Wow, the scans say those Crystal Seeds ARE growing a good deal faster!\n    Dataologist Dante : And the transmission sounds like the effect stacks. Bandit, do note that the ME Cable has to connect to the top or bottom of these. The water that\u0027s charged is directly adjacent to the Accelerator too. I bet you can come up with a pretty compact design to really speed up the growth.",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -65989,7 +66326,7 @@
       "name": "The ME Controller",
       "description": "§1Josh§r: I think i found a way to make a controller to control all of the various applications of the ME system! I will pass you over the schematics and try and see if it works!",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -66046,7 +66383,7 @@
       "name": "Ore Doubling",
       "description": "--------\n    §k...........§r useful §k............§r crafty §k..........§r running out §k........§rrite metals §k..........§r going §k..........§r gold mines §k............§r grind §k............§r invention§k...................§r Quartz§k..........§r Grindstone! §k............§r no electricity §k...........§r simple §k.........§r Wooden Crank §k........§r\n--------\n\n    Dataologist Dante : Well that\u0027s interesting.\n    Linguist Lenny : What?\n    Dataologist Dante : One of the Deep miners popped in, hearing that we finally found a use for this Certus Quartz. \n    Linguist Lenny : The ones who wear heavy armor and weapons to go mining?\n    Dataologist Dante : Yep! He looked at our research, grabbed a handful of Certus Quartz, stuffed it into a wood and stone box with a Gear, slapped a a Wooden Crank onto it, and...\n    Linguist Lenny : They\u0027re always very strange. What the hell was he making?\n    Dataologist Dante : Let me finish, okay? He stuffed an Iron Ore into it and started turning the crank, like a Jack n the Box. Just kept Right Clicking the crank. Suddenly, a bunch of Iron Dust popped out. He popped out a pocket Smelter...\n    Linguist Lenny : They just keep those in their pocket? Weird.\n    Dataologist Dante : Right? Well, he smelted it on the spot, and got two normal sized Iron Ingots out of one Iron Ore!\n    Linguist Lenny : Now that\u0027s useful.",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -66237,7 +66574,7 @@
       "name": "Better Growth",
       "description": "--------\n   §k.......§r probably asking \"But §k...§rstill §k.......§r drop §k.....§r Seeds §k......§r water§k...§r risky§k.......§r accidently pick §k...§r up!\"\n    §k......§r newest prod§k...§r help§k...........§r Crystal Growth Chamber §k........§r enclosed §k.......§r Crystal Seed growing §k.....§r can §k....§r mix Fluix Crystals §k..........§r input §k.....§r ingredients!\n    §k.......§rzing new machine §k....§raccept §k......§rSpeed upgrades!\n--------\n\n    Dataologist Dante : Another short one. Not much new for the lexicon I take it?\n    Linguist Larry : A little new, a little changed, a little marked \u0027probably wrong\u0027 unfortunately. But thats how translating unknown languages goes some times.\n    Dataologist Dante : Test, retest, retest, confirm. I hear ya. Let\u0027s see... this sounds like theres an upgraded version of the Crystal Growth Accelerator? A Chamber instead.\n    Linguist Larry : Right, safer than just leaving the seeds sitting in the water. Easier to control.\n    Dataologist Dante : Right! Looks like we can pipe in the ingredients to make Fluix Crystals too. That\u0027s helpful. But another mention of Speed Upgrades. I should probably figure those out.",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -66339,7 +66676,7 @@
       "name": "Channels",
       "description": "§1Josh:§r The ME Controller from my tests allows up to 32 channels.. I have yet to fully understan where and HOW it get\u0027s it\u0027s 32 channels... the cables you are probably using does not allow up to 32 yet, only up to 8 and thats where this Dense cables come into use..",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -66375,7 +66712,7 @@
       "name": "P2P",
       "description": "§1Josh:§r\nP2P\u0027s are a bit special. they allow a couple of items to pass through from 1 tunnel to the other tunnel. they also help to cut down on the amount of channels required for.. Example 32 Disk Drives.\n\nP2P 101:\nto connect 2 p2p\u0027s together, make sure it is the following\n- Same type of p2p tunnel (ME \u003c-/-\u003e RF)\n- Both are powered and on the same network\nStep 1:\nget yourself a §lMemory Card§r\nStep 2:\nSHIFT-Right click on 1 of the P2P (it should say settings stored)\nStep 3:\nright click on the other p2p and should say (\u0027successfuly loaded settings\u0027)\nif all goes well it should be linked! Try it!\nOh! To clear it, shift right click with the memory card in the air or any block that does not accept p2p.",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -66426,7 +66763,7 @@
       "name": "New Quest",
       "description": "No Description",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -66474,7 +66811,7 @@
       "name": "New Quest",
       "description": "No Description",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -66522,7 +66859,7 @@
       "name": "Better, Faster,Storonger",
       "description": "§1Josh§r: Yes! Cards! I know that does\u0027t sound exciting but they are able to unlock more capabilities or make a particular bus/block more inteligent The basics is that you will need Try crafting a couple of §5Basic and Advanced Cards§r and send them over so that i can have a look.",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -66576,7 +66913,7 @@
       "name": "Ad-Hoc Networks",
       "description": "§1Josh:§r It seems that all these blocks seems to be able to be connected even though the Controller is no present.They all need power via a §lPower acceptor§r. However they can go only up to 8 busses/Blocks that uses AE Channels before the entire system fails.",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -66612,7 +66949,7 @@
       "name": "Circuit and Processor",
       "description": "--------\n   §k......§r deeper §k............§r power §k.....§r Inscriber, Plates§k...§r ingredients§k..........§r imprint §k......§r circuitry patterns §k.........§r digitally conductive §k........§r Pure Certus Quartz, Diamonds, and Gold§k.....§r\n    §k....§r press together §k.........§r Printed Silicon, Circuit§k....§r Redstone§k.........§r make §k....§r Processors§k.....§r\n--------\n\n    Linguist Larry : Every time I think we\u0027ve got a handle on the language in these transmissions, it gets stranger.\n    Dataologist Dante : I wonder if the corruption in the transmissions is a big part of that.\n    Linguist Larry : It could also be local slang. Or even worse, abbreviations.\n    Dataologist Dante : I D K, don\u0027t you like talking about your B F...\n    Linguist Larry : No no no. Sorry about that Bandit, the QUEST Tablet doesn\u0027t quite transcribe the sounds of my brain shutting off.\n    Dataologist Dante : Right, sorry, not su... wait, what\u0027s that phrase there? \"digitally conductive\"? I get the feeling its not talking about internet stuff like data transfer rate. \n    Linguist Larry : Me either. It sounds like we can use the Inscriber and those Plates to make Circuits, which we can then make Processors out of.\n    Dataologist Dante : Huh, well I guess 3D printing is already making its way to homes, why not powerful processor presses?",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -66760,7 +67097,7 @@
       "name": "Dust to Silicone",
       "description": "--------\n   §k.....§r Quartz Grindstone §k...........§r break down §k.........§r you to break §k.....§r patented Certus Quartz§k.....§r other fantastic §k............§r Fluix Crystals, Nether Qua§k...............§r\n    §k.....§r can use §k...........§r Inscriber §k..§rlicon Press Plate, §k..........§r turn Silicon §k.....§r Printed Circuit!\n    §k.....§r Quartz Dust be used for? §k.........§r mixing §k.....§r Glass §k.......§r better Quartz Glass§k............§r get it to Glow§k............§r quite Vibrant!\n--------\n\n    Linguist Larry : Hrm. This transmission was easier to decode. Lots of repeated words. That helps the lexicon at least.\n    Dataologist Dante : Great! This one is easier to figure out at least. Looks like grinding Certus Quartz and other things will get us Dust. And we can use that dust to make things like Quartz Glass.\n    Linguist Larry : Vibrant... hey, try adding some Glowstone Dust to the Quartz Glass too. \n    Dataologist Dante : More dust eh? Not a bad idea.\n    Linguist Larry : Well, Bandit, might as well grind down some Nether Quartz and Sky Stone as well. Maybe you can find a use for it soon. In the meantime, what about the Inscriber it\u0027s talking about, Dante?\n    Dataologist Dante : That\u0027s the only part of the transmission that\u0027s not clear. You don\u0027t grind Sand into Silicone, you Smelt it.\n    Linguist Larry : Translation error? Well, the next part is clearer then. Looks like we can turn the Silicone into a Printed Circuit with the Inscriber.",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -66910,7 +67247,7 @@
       "name": "Moar Capacity!",
       "description": "§1Josh§r: When the §lBasic cards§r are combined with Certus, They seem to be able to influence the amount of items a bus can remember.",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -66958,7 +67295,7 @@
       "name": "New Quest",
       "description": "No Description",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -67006,7 +67343,7 @@
       "name": "Dense Cables!",
       "description": "§1Josh:§rDense Cables! these cables can hold up to 32 channels and are like the super highways of your soon-to-be ME network.",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -67054,7 +67391,7 @@
       "name": "New Quest",
       "description": "No Description",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -67102,7 +67439,7 @@
       "name": "Acceleration Cards",
       "description": "§1Josh:§r When Fluix Crystals combine with These Advanced Cards, They seem to be able to speed up the bus/block in question... Intresting...",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -67150,7 +67487,7 @@
       "name": "New Quest",
       "description": "No Description",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -67198,7 +67535,7 @@
       "name": "Getting Crafty!",
       "description": "§1Josh:§r To simply put, the Crafting card allow certain blocks/bus\u0027s To Craft items.",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -67246,7 +67583,7 @@
       "name": "Smart Cables",
       "description": "§1Josh§r: Smart cables are smarter in the sense that they display to you the amount of channels used on the cable itself.",
       "isMain": false,
-      "isSilent": false,
+      "isSilent": true,
       "lockedProgress": false,
       "simultaneous": false,
       "globalParticipation": 0.0,
@@ -67453,11 +67790,16 @@
         {
           "id": 13,
           "x": 0,
-          "y": 0
+          "y": 40
         },
         {
           "id": 78,
-          "x": 30,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 93,
+          "x": 32,
           "y": 0
         }
       ]
@@ -68162,28 +68504,28 @@
         },
         {
           "id": 202,
-          "x": 72,
+          "x": 268,
           "y": 200
         },
         {
           "id": 203,
-          "x": 104,
+          "x": 236,
           "y": 200
         },
         {
           "id": 204,
-          "x": 168,
-          "y": 200
+          "x": 236,
+          "y": 168
         },
         {
           "id": 205,
-          "x": 136,
-          "y": 200
+          "x": 204,
+          "y": 168
         },
         {
           "id": 206,
-          "x": 200,
-          "y": 200
+          "x": 268,
+          "y": 168
         },
         {
           "id": 207,
@@ -68289,6 +68631,31 @@
           "id": 232,
           "x": 0,
           "y": 132
+        },
+        {
+          "id": 94,
+          "x": 0,
+          "y": 200
+        },
+        {
+          "id": 128,
+          "x": 32,
+          "y": 200
+        },
+        {
+          "id": 130,
+          "x": 32,
+          "y": 168
+        },
+        {
+          "id": 137,
+          "x": 0,
+          "y": 168
+        },
+        {
+          "id": 138,
+          "x": 64,
+          "y": 168
         }
       ]
     },

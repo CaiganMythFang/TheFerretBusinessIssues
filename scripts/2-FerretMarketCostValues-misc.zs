@@ -59,7 +59,8 @@ for i, toy in FMCMisc50 {
 
 // Ferret Market Cost, Misc - 100
 var FMCMisc100 = [
-<minecraft:detector_rail>
+<minecraft:detector_rail>,
+<catwalks:sturdy_rail>
 ] as IItemStack[];
 
 for i, toy in FMCMisc100 {
@@ -72,7 +73,8 @@ for i, toy in FMCMisc100 {
 var FMCMisc200 = [
 <minecraft:activator_rail>, <minecraft:firework_charge>,
 <ImmersiveEngineering:shaderBag>,
-<JABBA:upgradeStructural:4>
+<JABBA:upgradeStructural:4>,
+<catwalks:sturdy_rail_detector>
 ] as IItemStack[];
 
 for i, toy in FMCMisc200 {
@@ -84,7 +86,8 @@ for i, toy in FMCMisc200 {
 // Ferret Market Cost, Misc - 300
 var FMCMisc300 = [
 <minecraft:fireworks>, <minecraft:saddle>,
-<JABBA:upgradeSide:1>
+<JABBA:upgradeSide:1>,
+<catwalks:sturdy_rail_activator>
 ] as IItemStack[];
 
 for i, toy in FMCMisc300 {
@@ -108,7 +111,8 @@ for i, toy in FMCMisc400 {
 var FMCMisc500 = [
 <JABBA:upgradeCore>, <JABBA:upgradeCore:7>,
 <IronChest:diamondObsidianUpgrade>,
-<EnderIO:blockEnderRail>
+<EnderIO:blockEnderRail>,
+<catwalks:sturdy_rail_powered>
 ] as IItemStack[];
 
 for i, toy in FMCMisc500 {

@@ -201,7 +201,8 @@ var FMCTool500 = [
 <CarpentersBlocks:itemCarpentersHammer>,
 <Thaumcraft:ItemPickThaumium>, <Thaumcraft:ItemAxeThaumium>, <Thaumcraft:ItemSanitySoap>,
 <ThaumicTinkerer:gasRemover>, 
-<MineFactoryReloaded:syringe.zombie>, <MineFactoryReloaded:fishingrod>
+<MineFactoryReloaded:syringe.zombie>, <MineFactoryReloaded:fishingrod>,
+<catwalks:blowtorch>
 ] as IItemStack[];
 
 for i, toy in FMCTool500 {
