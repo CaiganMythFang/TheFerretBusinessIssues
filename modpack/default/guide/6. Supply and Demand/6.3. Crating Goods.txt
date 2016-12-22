@@ -1,10 +1,10 @@
-§l 4.3 - Crating Goods §r
+§l 6.3 - Crating Goods §r
 
 When you've found some items you can crate and ship, you'll need a shipping crate!
 
 {"image":"2.3.craterecipe.png", "width":100, "height":50}
 
-Craft a stack of them simply with some wooden planks and a Silver Coin (to stamp them with the Ferret Business logo).
+Craft a stack of them simply with some wooden planks and a Silver Coin (to stamp them with the Ferret Business logo. You'll get the coin back). You can replace the Silver Coin with another Empty Shipping Crate as well.
 
 The smallest value crate you can ship to The Ferret Business is 1,000 FMC. 
  

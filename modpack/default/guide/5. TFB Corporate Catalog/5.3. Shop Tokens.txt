@@ -1,0 +1,13 @@
+§l 5.3 - Trader Chits §r
+
+The Corporate Shop has a Shop Loyalty system in place to reward frequent purchasers. By purchasing items of sufficient value, you recieve Shop Tokens. Roughly every 5 Shop Vouchers an item is worth, equals 1 Shop Token.
+
+You can make larger Shop Tokens by combining two of the same value.
+
+{"image":"3.4-tokencombos.png", "width":80, "height":200}
+
+Shop Tokens can be turned in via your QUEST Tablet, in the [FRD] Ferret Resources Dept.
+
+Raising your Shop Loyalty earns you better exchange rates for your Shop Vouchers. 
+
+See Section 4 of this Guide for more information about Marks.

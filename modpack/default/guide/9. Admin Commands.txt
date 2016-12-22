@@ -30,25 +30,3 @@ You can find this by holding SHIFT when hovering your mouse over the quest. Ther
     
 /hqm hardcore disable
     If HQM's Hardcore Mode was enabled, this will disable it.
-
---- §lReputation (Scoreboard) Commands§r ---
-
-Better Questing uses the vanilla Scoreboard system for tracking Reputation. This makes it easy to update and change reputation when necessary.
-
-/scoreboard players list
-    This will list all players who are currently on the reputation tracks.
-/scoreboard players list playername
-    This will list all the reputation scores for (playername)
-
-/scoreboard players add playername objectivename count
-/scoreboard players remove playername objectivename count
-/scoreboard players set playername objectivename count
-    The above commands are used for editing a player's score.
-    objectivename needs to be one of the following three :
-        Job_Reputation
-        Shop_Loyalty
-        Trader_Renown
-    count is how much you are changing it by.
-        add will add count to the current score
-        remove will subtract count to the current score
-        set will set the current score to count.

@@ -1,4 +1,4 @@
-§l 4.3 - Trader Chits §r
+§l 6.5 - Trader Chits §r
 
 As you ship higher value items, you can start to collect Trader Chits. These signify successful trades with The Ferret Business, and can be turned in via your QUEST Tablet in the [H]Supply and Demand section.
 
@@ -12,6 +12,4 @@ You can make larger Trader chits by combining two of the same value.
 
 Trader Chits can be turned in via your QUEST Tablet, in the Ferret Resources Dept.
 
-The lowest value chit you can turn in is Bronze, which is value 8. Collecting higher level chits, though, give you bigger rewards. A 16 value Trader Chit is worth more than two 8 Value chits.
-
-The largest value chit is the Awakened Draconium Chit, and is worth the most.
+See Section 4 of this Guide for more information on Marks.

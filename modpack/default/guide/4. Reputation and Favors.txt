@@ -1,0 +1,32 @@
+§l 4.0 - Reputation and Favors §r
+
+Whether you are assisting in Research, Purchasing items, or Crating and Shipping items, you are doing work for The Ferret Business and being compensated. The compensation usually comes in three forms : Silver Coins, Blind Bags, and Marks.
+
+--- §lMarks§r ---
+
+Marks come in three varieties : 
+    Questing and Research earns you Job Chips.
+    Purchasing items from the Catalog earns you Shop Tokens.
+    Crating items and Shipping them earns you Trader Chits.
+    
+Each Mark represents a job well done. You earn more Marks the bigger the job. These Marks are their own form of currency in The Ferret Business, and can be traded much like Silver Coins can be, though they are not as useful outside the company.
+
+--- §lUtilizing Marks§r ---
+
+The [FRD] Ferret Resources Dept section of your QUEST Tablet contains two ways to redeem your Marks. You can either turn them in to advance your Reputation along the respective Track, or exchange them for Favors in the form of Silver Coins and Blind Bags.
+
+Each Mark can be combined with another of equal value and type to get the next step up. Combining a Stone Job Chip with another Stone Job Chip will get you a Copper Job Chip. Two Copper Job Chips will get you an Iron Job Chip. And so on. If you need a smaller value Mark, craft it alone to break it back into two.
+
+The largest value Mark is the Awakened Draconium Mark, and is worth the most.
+
+--- §lReputation Tracks§r ---
+
+The first thing you can turn Marks in for is Reputation. Each rank of Reputation requires a specific amount of a Mark to obtain.
+
+Advancing along each track earns you bigger rewards, as well as unlocks various bonuses. These bonuses include better Shop exchange rates, quests, and possibly more.
+
+--- §lFavors§r ---
+
+If you are in need of Coins more than you are of Reputation, you can exchange them for Favors instead. These quests are always repeatable, and the bigger Mark you turn in, the bigger the reward usually. A single Thaumium Mark is worth more than 4 Silver marks, for example.
+
+The smallest Mark you can turn in for Favors is the Bronze Mark.
