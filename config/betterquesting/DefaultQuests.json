@@ -11265,7 +11265,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "HIDDEN",
+      "visibility": "NORMAL",
       "tasks": [
         {
           "partialMatch": true,
@@ -11391,7 +11391,7 @@
           "Energy:3": 0
         }
       },
-      "visibility": "HIDDEN",
+      "visibility": "NORMAL",
       "tasks": [
         {
           "partialMatch": true,
@@ -11902,7 +11902,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "HIDDEN",
+      "visibility": "NORMAL",
       "tasks": [
         {
           "partialMatch": true,
@@ -12063,7 +12063,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "HIDDEN",
+      "visibility": "NORMAL",
       "tasks": [
         {
           "partialMatch": true,
@@ -20750,7 +20750,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "HIDDEN",
+      "visibility": "NORMAL",
       "tasks": [
         {
           "partialMatch": true,
@@ -24560,7 +24560,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "HIDDEN",
+      "visibility": "NORMAL",
       "tasks": [
         {
           "partialMatch": true,
@@ -56486,7 +56486,7 @@
           "Energy:3": 0
         }
       },
-      "visibility": "HIDDEN",
+      "visibility": "NORMAL",
       "tasks": [
         {
           "partialMatch": true,
@@ -56718,7 +56718,7 @@
           "Energy:3": 0
         }
       },
-      "visibility": "HIDDEN",
+      "visibility": "NORMAL",
       "tasks": [
         {
           "partialMatch": true,
@@ -60507,7 +60507,7 @@
           "Energy:3": 0
         }
       },
-      "visibility": "HIDDEN",
+      "visibility": "NORMAL",
       "tasks": [
         {
           "partialMatch": true,
@@ -60620,7 +60620,7 @@
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "HIDDEN",
+      "visibility": "NORMAL",
       "tasks": [
         {
           "partialMatch": true,
