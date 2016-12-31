@@ -4,3 +4,5 @@
 compactstorage:chestBuilder
 compactstorage:compactChest
 Thaumcraft:blockAiry
+malisisdoors:rustyHatch
+StacksOnStacks:ingotPile
