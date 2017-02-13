@@ -3866,8 +3866,7 @@
         }
       ],
       "preRequisites": [
-        36,
-        507
+        36
       ]
     },
     {
@@ -3933,7 +3932,8 @@
         }
       ],
       "preRequisites": [
-        37
+        37,
+        508
       ]
     },
     {
@@ -3999,7 +3999,8 @@
         }
       ],
       "preRequisites": [
-        38
+        38,
+        510
       ]
     },
     {
@@ -4065,7 +4066,8 @@
         }
       ],
       "preRequisites": [
-        39
+        39,
+        512
       ]
     },
     {
@@ -4131,7 +4133,8 @@
         }
       ],
       "preRequisites": [
-        40
+        40,
+        514
       ]
     },
     {
@@ -5713,7 +5716,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": -1,
+      "repeatTime": 0,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -7560,7 +7563,7 @@
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
-      "repeatTime": -1,
+      "repeatTime": 0,
       "sounds": {
         "complete": "random.levelup",
         "update": "random.levelup"
@@ -56602,7 +56605,7 @@
           "Energy:3": 0
         }
       },
-      "visibility": "NORMAL",
+      "visibility": "HIDDEN",
       "tasks": [
         {
           "partialMatch": true,
