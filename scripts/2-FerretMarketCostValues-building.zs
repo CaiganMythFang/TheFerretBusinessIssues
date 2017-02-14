@@ -75,7 +75,8 @@ var FMCBuilding2 = [
 <EnderIO:blockFusedQuartz:1>, <EnderIO:itemFusedQuartzFrame>,
 <ThaumicTinkerer:platform>, 
 <MineFactoryReloaded:stainedglass.pane:*>, <MineFactoryReloaded:stone:8>, <MineFactoryReloaded:stone:9>, <MineFactoryReloaded:stone:10>, <MineFactoryReloaded:stone:11>,
-<catwalks:cautionTape>
+<catwalks:cautionTape>,
+<appliedenergistics2:tile.SkyStoneSmallBrickSlabBlock>, <appliedenergistics2:tile.SkyStoneBrickSlabBlock>, <appliedenergistics2:tile.SkyStoneSlabBlock>, <appliedenergistics2:tile.SkyStoneBlockSlabBlock>
 ] as IItemStack[];
 
 for i, toy in FMCBuilding2 {
@@ -96,7 +97,8 @@ var FMCBuilding5 = [
 <Botania:pavement3Slab>, <Botania:livingrock:2>, <Botania:livingwood:2>, <Botania:dreamwood:2>, <Botania:dreamwood0Wall>, <Botania:elfGlassPane>, <Botania:bifrostPermPane>, <Botania:customBrick3Slab>, <Botania:shimmerrock0Slab>, <Botania:shimmerwoodPlanks0Slab>, <Botania:pavement5Slab>, <Botania:manaGlass>,
 <ExtraUtilities:decorativeBlock1:10>,
 <EnderIO:itemConduitFacade>, 
-<MineFactoryReloaded:stainedglass.block:*>, <MineFactoryReloaded:brick:0>, <MineFactoryReloaded:brick:4>, <MineFactoryReloaded:brick:10>, <MineFactoryReloaded:brick:5>, <MineFactoryReloaded:brick:11>, <MineFactoryReloaded:farmland>, <aura:fortifiedGlass>
+<MineFactoryReloaded:stainedglass.block:*>, <MineFactoryReloaded:brick:0>, <MineFactoryReloaded:brick:4>, <MineFactoryReloaded:brick:10>, <MineFactoryReloaded:brick:5>, <MineFactoryReloaded:brick:11>, <MineFactoryReloaded:farmland>, <aura:fortifiedGlass>,
+<appliedenergistics2:tile.BlockSkyStone>, <appliedenergistics2:tile.BlockSkyStone:1>, <appliedenergistics2:tile.BlockSkyStone:2>, <appliedenergistics2:tile.BlockSkyStone:3>
 ] as IItemStack[];
 
 for i, toy in FMCBuilding5 {
@@ -119,7 +121,8 @@ var FMCBuilding10 = [
 <Botania:pavement3Stairs>, <Botania:pavement:3>, <Botania:customBrick:3>, <Botania:shimmerwoodPlanks>, <Botania:dreamwood0Stairs>, <Botania:customBrick3Stairs>, <Botania:pavement:5>, <Botania:pavement5Stairs>, <Botania:shimmerrock0Stairs>, <Botania:shimmerwoodPlanks0Stairs>, <Botania:thatch0Slab>, <Botania:elfGlass>, <Botania:bifrostPerm>, <Botania:shimmerrock>,
 <ExtraUtilities:curtains>, <ExtraUtilities:decorativeBlock1:6>, <ExtraUtilities:decorativeBlock2:10>, <ExtraUtilities:cobblestone_compressed:14>, 
 <MineFactoryReloaded:vinescaffold>, 
-<aura:magicRoad>
+<aura:magicRoad>,
+<appliedenergistics2:tile.SkyStoneSmallBrickStairBlock>, <appliedenergistics2:tile.SkyStoneBlockStairBlock>, <appliedenergistics2:tile.SkyStoneStairBlock>, <appliedenergistics2:tile.SkyStoneBrickStairBlock>
 ] as IItemStack[];
 
 for i, toy in FMCBuilding10 {
@@ -166,7 +169,8 @@ var FMCBuilding50 = [
 <CompactMachines:innerwalldecor>, <CompactMachines:interfacedecor>, 
 <MineFactoryReloaded:plastic:*>, 
 <aura:fortifiedObsidian>,
-<catwalks:cagedLadder_north_unlit>, <catwalks:scaffold>, <catwalks:scaffold:1>, <catwalks:catwalk_unlit>
+<catwalks:cagedLadder_north_unlit>, <catwalks:scaffold>, <catwalks:scaffold:1>, <catwalks:catwalk_unlit>,
+<appliedenergistics2:tile.BlockQuartzGlass>, <appliedenergistics2:tile.BlockSkyChest>
 ] as IItemStack[];
 
 for i, toy in FMCBuilding50 {
@@ -251,7 +255,8 @@ var FMCBuilding500 = [
 <Botania:customBrick:4>, <Botania:customBrick:5>, <Botania:customBrick:6>, <Botania:customBrick:7>, <Botania:customBrick:8>, <Botania:customBrick:9>, <Botania:customBrick:10>, <Botania:customBrick:11>, <Botania:customBrick:12>, <Botania:customBrick:13>, <Botania:customBrick:14>, <Botania:customBrick:15>, <Botania:quartzStairsBlaze>, <Botania:quartzStairsElf>,
 <ThermalExpansion:Glass:1>,
 <Thaumcraft:blockCosmeticSlabStone>, 
-<MineFactoryReloaded:brick:1>, <MineFactoryReloaded:brick:7>
+<MineFactoryReloaded:brick:1>, <MineFactoryReloaded:brick:7>,
+<appliedenergistics2:tile.BlockQuartzLamp>
 ] as IItemStack[];
 
 for i, toy in FMCBuilding500 {
@@ -268,7 +273,8 @@ var FMCBuilding1000 = [
 <chisel:arcane:*>,
 <malisisdoors:iron_trapdoor>,
 <ExtraUtilities:color_redstoneLight:*>, <ExtraUtilities:decorativeBlock2:7>, <ExtraUtilities:color_lightgem:*>, <ExtraUtilities:color_blockCoal:*>,
-<EnderIO:blockFusedQuartz:3>
+<EnderIO:blockFusedQuartz:3>, 
+<appliedenergistics2:tile.QuartzPillarSlabBlock>, <appliedenergistics2:tile.QuartzSlabBlock>, <appliedenergistics2:tile.ChiseledQuartzSlabBlock>
 ] as IItemStack[];
 
 for i, toy in FMCBuilding1000 {
@@ -285,7 +291,8 @@ var FMCBuilding1500 = [
 <ThermalExpansion:Glass>,
 <Thaumcraft:blockStairsArcaneStone>,
 <malisisdoors:rustyHatch>,
-<Botania:seaLamp>
+<Botania:seaLamp>,
+<appliedenergistics2:tile.BlockQuartz>, <appliedenergistics2:tile.BlockQuartzPillar>, <appliedenergistics2:tile.BlockQuartzChiseled>
 ] as IItemStack[];
 
 for i, toy in FMCBuilding1500 {
@@ -300,7 +307,8 @@ var FMCBuilding2000 = [
 <chisel:iron_block:*>, <chisel:iron2:*>,
 <chisel:bronzeblock:*>, <chisel:copperblock:*>, <chisel:tinblock:*>,
 <ExtraUtilities:etherealglass:3>, <ExtraUtilities:etherealglass:4>, <ExtraUtilities:etherealglass:5>, <ExtraUtilities:etherealglass:2>, <ExtraUtilities:etherealglass:1>, <ExtraUtilities:etherealglass>, <ExtraUtilities:greenscreen:*>, <ExtraUtilities:cobblestone_compressed:3>, 
-<BiblioCraft:BiblioIronLamp:0>, <BiblioCraft:BiblioIronLamp:1>, <BiblioCraft:BiblioIronLamp:2>, <BiblioCraft:BiblioIronLamp:3>, <BiblioCraft:BiblioIronLamp:4>, <BiblioCraft:BiblioIronLamp:5>, <BiblioCraft:BiblioIronLamp:6>, <BiblioCraft:BiblioIronLamp:7>, <BiblioCraft:BiblioIronLamp:8>, <BiblioCraft:BiblioIronLamp:9>, <BiblioCraft:BiblioIronLamp:10>, <BiblioCraft:BiblioIronLamp:11>, <BiblioCraft:BiblioIronLamp:12>, <BiblioCraft:BiblioIronLamp:13>, <BiblioCraft:BiblioIronLamp:14>, <BiblioCraft:BiblioIronLamp:15>
+<BiblioCraft:BiblioIronLamp:0>, <BiblioCraft:BiblioIronLamp:1>, <BiblioCraft:BiblioIronLamp:2>, <BiblioCraft:BiblioIronLamp:3>, <BiblioCraft:BiblioIronLamp:4>, <BiblioCraft:BiblioIronLamp:5>, <BiblioCraft:BiblioIronLamp:6>, <BiblioCraft:BiblioIronLamp:7>, <BiblioCraft:BiblioIronLamp:8>, <BiblioCraft:BiblioIronLamp:9>, <BiblioCraft:BiblioIronLamp:10>, <BiblioCraft:BiblioIronLamp:11>, <BiblioCraft:BiblioIronLamp:12>, <BiblioCraft:BiblioIronLamp:13>, <BiblioCraft:BiblioIronLamp:14>, <BiblioCraft:BiblioIronLamp:15>,
+<appliedenergistics2:tile.FluixSlabBlock>
 ] as IItemStack[];
 
 for i, toy in FMCBuilding2000 {
@@ -314,7 +322,8 @@ var FMCBuilding2500 = [
 <chisel:steelblock:*>, <chisel:thaumium:*>,
 <ExtraUtilities:cobblestone_compressed:11>,
 <EnderIO:blockReinforcedObsidian>, 
-<MineFactoryReloaded:brick:2>, <MineFactoryReloaded:brick:8>
+<MineFactoryReloaded:brick:2>, <MineFactoryReloaded:brick:8>,
+<appliedenergistics2:tile.QuartzPillarStairBlock>, <appliedenergistics2:tile.QuartzStairBlock>, <appliedenergistics2:tile.ChiseledQuartzStairBlock>
 ] as IItemStack[];
 
 for i, toy in FMCBuilding2500 {
@@ -336,7 +345,8 @@ for i, toy in FMCBuilding3500 {
 
 // Ferret Market Cost, Material - 4,000
 var FMCBuilding4000 = [
-<Thaumcraft:blockCosmeticOpaque>, <Thaumcraft:blockCosmeticOpaque:1>
+<Thaumcraft:blockCosmeticOpaque>, <Thaumcraft:blockCosmeticOpaque:1>,
+<appliedenergistics2:tile.BlockFluix>
 ] as IItemStack[];
 
 for i, toy in FMCBuilding4000 {
@@ -379,6 +389,17 @@ for i, toy in FMCBuilding5500 {
      <ore:zFMC5500>.add(toy);
      <ore:zFMCBuilding5500>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =5,500=") + " | " + format.green("Building ")+ ")"));
+}
+
+// Ferret Market Cost, Material - 6,000
+var FMCBuilding6000 = [
+<appliedenergistics2:tile.FluixStairBlock>
+] as IItemStack[];
+
+for i, toy in FMCBuilding6000 {
+     <ore:zFMC6000>.add(toy);
+     <ore:zFMCBuilding6000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =6,000=") + " | " + format.green("Building ")+ ")"));
 }
 
 // Ferret Market Cost, Material - 8,500

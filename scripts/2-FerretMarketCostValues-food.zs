@@ -24,7 +24,8 @@ var FMCFood5 = [
 <AgriCraft:seedCarrot>, <AgriCraft:seedPotato>, 
 <witchery:seedsartichoke>, <witchery:seedssnowbell>, <witchery:seedsbelladonna>,
 <ImmersiveEngineering:seed>, 
-<MineFactoryReloaded:meat.nugget.raw>, <MineFactoryReloaded:meat.nugget.cooked>, <MineFactoryReloaded:milkbottle>
+<MineFactoryReloaded:meat.nugget.raw>, <MineFactoryReloaded:meat.nugget.cooked>, <MineFactoryReloaded:milkbottle>,
+<appliedenergistics2:item.ItemMultiMaterial:4>
 ] as IItemStack[];
 
 for i, toy in FMCFood5 {

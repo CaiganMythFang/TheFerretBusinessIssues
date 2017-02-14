@@ -98,7 +98,8 @@ for i, toy in FMCMisc300 {
 
 // Ferret Market Cost, Misc - 400
 var FMCMisc400 = [
-<minecraft:golden_rail>
+<minecraft:golden_rail>,
+<extracells:walrus>
 ] as IItemStack[];
 
 for i, toy in FMCMisc400 {
@@ -112,7 +113,8 @@ var FMCMisc500 = [
 <JABBA:upgradeCore>, <JABBA:upgradeCore:7>,
 <IronChest:diamondObsidianUpgrade>,
 <EnderIO:blockEnderRail>,
-<catwalks:sturdy_rail_powered>
+<catwalks:sturdy_rail_powered>,
+<appliedenergistics2:tile.BlockTinyTNT>
 ] as IItemStack[];
 
 for i, toy in FMCMisc500 {

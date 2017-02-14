@@ -154,7 +154,8 @@ var FMC50 = [
 <Botania:manaResource:16>, <Botania:quartz:1>, <Botania:quartz:3>, <Botania:quartz:4>, <Botania:quartz:6>, <Botania:manaResource:19>, <Botania:manaResource:10>, 
 <ThaumicTinkerer:mobAspect:0>, <ThaumicTinkerer:mobAspect:1>, <ThaumicTinkerer:mobAspect:2>, <ThaumicTinkerer:mobAspect:3>, <ThaumicTinkerer:mobAspect:4>, <ThaumicTinkerer:mobAspect:5>, <ThaumicTinkerer:mobAspect:6>, <ThaumicTinkerer:mobAspect:7>, <ThaumicTinkerer:mobAspect:8>, <ThaumicTinkerer:mobAspect:9>, <ThaumicTinkerer:mobAspect:10>, <ThaumicTinkerer:mobAspect:11>, <ThaumicTinkerer:mobAspect:12>, <ThaumicTinkerer:mobAspect:13>, <ThaumicTinkerer:mobAspect:14>, <ThaumicTinkerer:mobAspect:15>, <ThaumicTinkerer:mobAspect:16>,
 <GrimoireOfGaia:item.GrimoireOfGaia.Shard>,
-<Forestry:apatite>
+<Forestry:apatite>,
+<ImmersiveEngineering:metal:18>
 ] as IItemStack[];
 
 for i, toy in FMC50 {

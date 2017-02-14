@@ -31,7 +31,8 @@ for i, toy in FMCComponenthalf {
 
 // Ferret Market Cost, Material - 1
 var FMCComponent1 = [
-<BuildCraft|Core:woodenGearItem>
+<BuildCraft|Core:woodenGearItem>,
+<appliedenergistics2:item.ItemMultiMaterial:20>, <appliedenergistics2:item.ItemMultiMaterial:6>
 ] as IItemStack[];
 
 for i, toy in FMCComponent1 {
@@ -49,7 +50,8 @@ var FMCComponent2 = [
 <BuildCraft|Core:stoneGearItem>,
 <Natura:barleyFood:5>,
 <openmodularturrets:barrelTierOne>,
-<Thaumcraft:ItemEssence>
+<Thaumcraft:ItemEssence>,
+<appliedenergistics2:item.ItemPaintBall:*>
 ] as IItemStack[];
 
 for i, toy in FMCComponent2 {
@@ -64,7 +66,8 @@ for i, toy in FMCComponent2 {
 var FMCComponent5 = [
 <EnderIO:itemMachinePart:1>, <Botania:manaResource:3>, <Botania:vial>,
 <Thaumcraft:WandRod>, 
-<MineFactoryReloaded:ceramicdye:*>
+<MineFactoryReloaded:ceramicdye:*>,
+<appliedenergistics2:item.ItemMultiMaterial:45>
 ] as IItemStack[];
 
 for i, toy in FMCComponent5 {
@@ -122,7 +125,8 @@ var FMCComponent50 = [
 <ThaumicTinkerer:darkQuartzItem>, 
 <MineFactoryReloaded:needlegun.ammo.empty>,
 <Forestry:canEmpty>,
-<catwalks:steelgrate>
+<catwalks:steelgrate>,
+<appliedenergistics2:item.ItemMultiPart:120>
 ] as IItemStack[];
 
 for i, toy in FMCComponent50 {
@@ -143,7 +147,8 @@ var FMCComponent100 = [
 <ThaumicExploration:blankSeal:*>, <ThaumicExploration:chestSeal:*>, <ThaumicExploration:chestSealLinked:*>, <ThaumicExploration:jarSeal:*>,
 <StorageDrawers:upgradeVoid>, 
 <MineFactoryReloaded:detcord>,
-<Railcraft:part.tie>
+<Railcraft:part.tie>, 
+<OpenComputers:item:24>
 ] as IItemStack[];
 
 for i, toy in FMCComponent100 {
@@ -164,7 +169,8 @@ var FMCComponent200 = [
 <ImmersiveEngineering:shader>,
 <StorageDrawers:upgrade:4>, <StorageDrawers:upgradeStatus:1>, <StorageDrawers:upgradeRedstone>, <StorageDrawers:upgradeRedstone:1>, <StorageDrawers:upgradeRedstone:2>,
 <MineFactoryReloaded:pinkslime.block>, <MineFactoryReloaded:pinkslime:1>, <MineFactoryReloaded:brick:15>,
-<Railcraft:part.rail>
+<Railcraft:part.rail>,
+<appliedenergistics2:item.ItemMultiMaterial:16>, <appliedenergistics2:item.ItemMultiMaterial:21>
 ] as IItemStack[];
 
 for i, toy in FMCComponent200 {
@@ -177,7 +183,9 @@ for i, toy in FMCComponent200 {
 var FMCComponent300 = [
 <ExtraUtilities:pipes.1>, <ExtraUtilities:pipes:10>, 
 <Botania:rune:7>, <Botania:rune:6>, <Botania:craftPattern:6>, <Botania:craftPattern:7>,
-<MineFactoryReloaded:upgrade.radius:11>
+<MineFactoryReloaded:upgrade.radius:11>,
+<appliedenergistics2:item.ItemMultiMaterial:23>,
+<OpenComputers:item:30>, <OpenComputers:item:32>
 ] as IItemStack[];
 
 for i, toy in FMCComponent300 {
@@ -192,7 +200,8 @@ var FMCComponent400 = [
 <Botania:craftPattern:8>,
 <Thaumcraft:ItemGolemCore:100>, <Thaumcraft:ItemGolemCore:5>,
 <CompactMachines:shrinker>, <CompactMachines:enlarger>,
-<Railcraft:part.railbed>
+<Railcraft:part.railbed>,
+<OpenComputers:item:25>
 ] as IItemStack[];
 
 for i, toy in FMCComponent400 {
@@ -211,9 +220,11 @@ var FMCComponent500 = [
 <ThermalDynamics:ThermalDynamics_0:3>, <ThermalExpansion:Frame:12>, 
 <simplyjetpacks:components>, 
 <Botania:rune:2>,
-<OpenComputers:item:23>, <OpenComputers:item:24>,
+<OpenComputers:item:23>, <OpenComputers:item:33>,
 <StorageDrawers:upgradeStatus:2>,
-<MineFactoryReloaded:upgrade.radius:7>, <MineFactoryReloaded:rednet.memorycard>
+<MineFactoryReloaded:upgrade.radius:7>, <MineFactoryReloaded:rednet.memorycard>,
+<appliedenergistics2:item.ItemCrystalSeed:1200>,
+<extracells:pattern.fluid>
 ] as IItemStack[];
 
 for i, toy in FMCComponent500 {
@@ -225,7 +236,7 @@ for i, toy in FMCComponent500 {
 // Ferret Market Cost, Component - 1,000
 var FMCComponent1000 = [
 <openmodularturrets:barrelTierTwo>,
-<appliedenergistics2:item.ItemCrystalSeed>,
+<appliedenergistics2:item.ItemCrystalSeed>, <appliedenergistics2:item.ItemMultiMaterial:39>, <appliedenergistics2:item.ItemMultiMaterial:47>, <appliedenergistics2:item.ItemMultiMaterial:42>, <appliedenergistics2:item.ItemViewCell>,
 <Botania:lens:15>, <Botania:lens:5>, <Botania:lens:4>, <Botania:lens:2>, <Botania:lens:1>, <Botania:lens>,
 <ThermalFoundation:material:128>, <ThermalFoundation:material:137>,
 <simplyjetpacks:armorPlatings:11>, 
@@ -254,7 +265,8 @@ var FMCComponent1500 = [
 <EnderIO:itemGliderWing>, <EnderIO:itemMaterial:9>, 
 <Botania:lens:21>, <Botania:lens:19>, <Botania:lens:13>, <Botania:lens:9>, <Botania:lens:3>, <Botania:lens:12>, <Botania:lens:6>, <Botania:lens:16>,
 <ExtraUtilities:enderQuarryUpgrade>, <ExtraUtilities:nodeUpgrade>, <ExtraUtilities:nodeUpgrade:9>, 
-<Thaumcraft:ItemGolemDecoration:7>, <Thaumcraft:ItemGolemDecoration:5>
+<Thaumcraft:ItemGolemDecoration:7>, <Thaumcraft:ItemGolemDecoration:5>,
+<appliedenergistics2:item.ItemMultiMaterial:43>, <appliedenergistics2:item.ItemMultiMaterial:44>
 ] as IItemStack[];
 
 for i, toy in FMCComponent1500 {
@@ -271,7 +283,9 @@ var FMCComponent2000 = [
 <EnderIO:itemMachinePart>, <EnderIO:itemExtractSpeedUpgrade>, <ExtraUtilities:enderQuarryUpgrade:3>, <EnderIO:itemFunctionUpgrade>, <EnderIO:itemExtractSpeedUpgrade:1>,
 <ExtraUtilities:enderQuarryUpgrade:9>, <ExtraUtilities:nodeUpgrade:10>, <ExtraUtilities:enderQuarryUpgrade:1>,
 <Thaumcraft:ItemGolemCore:8>, <Thaumcraft:ItemGolemDecoration>, <Thaumcraft:ItemResource:8>, <Thaumcraft:ItemResource:10>, 
-<MineFactoryReloaded:upgrade.radius>, <MineFactoryReloaded:upgrade.logic>
+<MineFactoryReloaded:upgrade.radius>, <MineFactoryReloaded:upgrade.logic>,
+<appliedenergistics2:item.ItemMultiMaterial:18>, <appliedenergistics2:item.ItemMultiMaterial:22>, <appliedenergistics2:item.ItemMultiMaterial:48>,
+<OpenComputers:item:13>
 ] as IItemStack[];
 
 for i, toy in FMCComponent2000 {
@@ -285,7 +299,9 @@ var FMCComponent2500 = [
 <simplyjetpacks:components:21>, 
 <openmodularturrets:ioBus>,
 <Botania:lens:18>,
-<Thaumcraft:ItemGolemDecoration:6>
+<Thaumcraft:ItemGolemDecoration:6>,
+<appliedenergistics2:item.ItemMultiMaterial:25>, <appliedenergistics2:item.ItemMultiMaterial:13>, <appliedenergistics2:item.ItemMultiMaterial:14>, <appliedenergistics2:item.ItemMultiMaterial:15>, <appliedenergistics2:item.ItemMultiMaterial:19>, <appliedenergistics2:item.ItemMultiMaterial:27>, <appliedenergistics2:item.ItemMultiMaterial:53>, <appliedenergistics2:item.ItemMultiMaterial:26>,
+<extracells:storage.casing:1>
 ] as IItemStack[];
 
 for i, toy in FMCComponent2500 {
@@ -298,7 +314,9 @@ for i, toy in FMCComponent2500 {
 var FMCComponent3000 = [
 <Botania:lens:10>, 
 <ExtraUtilities:nodeUpgrade:8>, 
-<Thaumcraft:ItemGolemCore:10>
+<Thaumcraft:ItemGolemCore:10>,
+<appliedenergistics2:item.ItemMultiMaterial:35>, <appliedenergistics2:item.ItemMultiMaterial:52>, <appliedenergistics2:item.ToolMemoryCard>,
+<extracells:storage.component:4>, <extracells:storage.component:11>
 ] as IItemStack[];
 
 for i, toy in FMCComponent3000 {
@@ -326,7 +344,9 @@ var FMCComponent4000 = [
 <simplyjetpacks:armorPlatings:12>, <simplyjetpacks:armorPlatings:2>,
 <Thaumcraft:blockMetalDevice:9>, <Thaumcraft:ItemEldritchObject>, <Thaumcraft:blockMetalDevice:3>, 
 <EnderIO:itemGliderWing:1>,
-<StorageDrawers:upgrade:6>
+<StorageDrawers:upgrade:6>,
+<appliedenergistics2:item.ItemBasicStorageCell.1k>,
+<extracells:storage.physical:4>
 ] as IItemStack[];
 
 for i, toy in FMCComponent4000 {
@@ -386,7 +406,8 @@ for i, toy in FMCComponent6500 {
 // Ferret Market Cost, Component - 7,000
 var FMCComponent7000 = [
 <simplyjetpacks:armorPlatings:13>, <simplyjetpacks:components:22>,
-<EnderIO:itemBasicCapacitor:1>
+<EnderIO:itemBasicCapacitor:1>,
+<appliedenergistics2:item.ItemMultiMaterial:9>
 ] as IItemStack[];
 
 for i, toy in FMCComponent7000 {
@@ -398,7 +419,9 @@ for i, toy in FMCComponent7000 {
 // Ferret Market Cost, Component - 7,500
 var FMCComponent7500 = [
 <ExtraUtilities:enderQuarryUpgrade:2>,
-<EnderIO:itemFrankenSkull>
+<EnderIO:itemFrankenSkull>,
+<appliedenergistics2:item.ItemMultiMaterial:41>,
+<extracells:storage.fluid>
 ] as IItemStack[];
 
 for i, toy in FMCComponent7500 {
@@ -425,7 +448,8 @@ for i, toy in FMCComponent8000 {
 // Ferret Market Cost, Component - 8,500
 var FMCComponent8500 = [
 <ThermalExpansion:Frame:4>,
-<ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:0>, <ExtraUtilities:unstableingot:1>
+<ExtraUtilities:unstableingot:2>, <ExtraUtilities:unstableingot:0>, <ExtraUtilities:unstableingot:1>,
+<appliedenergistics2:item.ItemMultiMaterial:17>, <appliedenergistics2:item.ItemMultiMaterial:24>
 ] as IItemStack[];
 
 for i, toy in FMCComponent8500 {
@@ -438,7 +462,9 @@ for i, toy in FMCComponent8500 {
 var FMCComponent9000 = [
 <EnderIO:itemFrankenSkull:3>,
 <simplyjetpacks:components:62>,
-<ThaumicTinkerer:focusFlight>, <Thaumcraft:ItemGolemUpgrade:*>
+<ThaumicTinkerer:focusFlight>, <Thaumcraft:ItemGolemUpgrade:*>,
+<appliedenergistics2:item.ItemMultiMaterial:28>, <appliedenergistics2:item.ItemMultiMaterial:29>, <appliedenergistics2:item.ItemMultiMaterial:31>,
+<extracells:storage.casing:2>
 ] as IItemStack[];
 
 for i, toy in FMCComponent9000 {
@@ -449,7 +475,9 @@ for i, toy in FMCComponent9000 {
 
 // Ferret Market Cost, Component - 9,500
 var FMCComponent9500 = [
-<EnderIO:itemMaterial:10>
+<EnderIO:itemMaterial:10>,
+<appliedenergistics2:item.ItemMultiMaterial:36>, <appliedenergistics2:item.ItemMultiMaterial:30>,
+<extracells:storage.component:5>, <extracells:storage.component:12>
 ] as IItemStack[];
 
 for i, toy in FMCComponent9500 {
@@ -471,7 +499,9 @@ for i, toy in FMCComponent10000 {
 
 // Ferret Market Cost, Component - 10,500
 var FMCComponent10500 = [
-<ThaumicExploration:sojournerCapUncharged>
+<ThaumicExploration:sojournerCapUncharged>,
+<appliedenergistics2:item.ItemBasicStorageCell.4k>,
+<extracells:oc.upgrade:2>
 ] as IItemStack[];
 
 for i, toy in FMCComponent10500 {
@@ -495,7 +525,8 @@ for i, toy in FMCComponent11000 {
 // Ferret Market Cost, Component - 12,000
 var FMCComponent12000 = [
 <ThaumicTinkerer:focusHeal>,
-<simplyjetpacks:components:63>
+<simplyjetpacks:components:63>,
+<extracells:storage.gas:0>
 ] as IItemStack[];
 
 for i, toy in FMCComponent12000 {
@@ -520,7 +551,8 @@ for i, toy in FMCComponent12500 {
 // Ferret Market Cost, Component - 13,000
 var FMCComponent13000 = [
 <openmodularturrets:barrelTierThree>,
-<ThaumicTinkerer:focusDislocation>
+<ThaumicTinkerer:focusDislocation>,
+<appliedenergistics2:item.ToolBiometricCard>
 ] as IItemStack[];
 
 for i, toy in FMCComponent13000 {
@@ -529,9 +561,22 @@ for i, toy in FMCComponent13000 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =13,000=") + " | " + format.green("Components ")+ ")"));
 }
 
+// Ferret Market Cost, Component - 14,000
+var FMCComponent14000 = [
+<extracells:storage.fluid:1>
+] as IItemStack[];
+
+for i, toy in FMCComponent14000 {
+     <ore:zFMC14000>.add(toy);
+     <ore:zFMCComponent14000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =14,000=") + " | " + format.green("Components ")+ ")"));
+}
+
 // Ferret Market Cost, Component - 15,000
 var FMCComponent15000 = [
-<Thaumcraft:WandRod:1>, <Thaumcraft:WandRod:3>, <Thaumcraft:WandRod:5>, <Thaumcraft:WandRod:7>
+<Thaumcraft:WandRod:1>, <Thaumcraft:WandRod:3>, <Thaumcraft:WandRod:5>, <Thaumcraft:WandRod:7>,
+<appliedenergistics2:item.ToolPortableCell>,
+<extracells:storage.fluid.portable>, <extracells:storage.gas.portable>
 ] as IItemStack[];
 
 for i, toy in FMCComponent15000 {
@@ -614,7 +659,8 @@ for i, toy in FMCComponent18000 {
 
 // Ferret Market Cost, Component - 18,500
 var FMCComponent18500 = [
-<Botania:lens:8>
+<Botania:lens:8>,
+<extracells:storage.gas:1>
 ] as IItemStack[];
 
 for i, toy in FMCComponent18500 {
@@ -735,6 +781,17 @@ for i, toy in FMCComponent26000 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =26,000=") + " | " + format.green("Components ")+ ")"));
 }
 
+// Ferret Market Cost, Component - 28,500
+var FMCComponent28500 = [
+<extracells:storage.casing>
+] as IItemStack[];
+
+for i, toy in FMCComponent28500 {
+     <ore:zFMC28500>.add(toy);
+     <ore:zFMCComponent28500>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =28,500=") + " | " + format.green("Components ")+ ")"));
+}
+
 // Ferret Market Cost, Component - 29,500
 var FMCComponent29500 = [
 <CompactMachines:resizingcube>
@@ -825,9 +882,21 @@ for i, toy in FMCComponent35500 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =35,500=") + " | " + format.green("Components ")+ ")"));
 }
 
+// Ferret Market Cost, Component - 36,000
+var FMCComponent36000 = [
+<extracells:storage.gas:2>
+] as IItemStack[];
+
+for i, toy in FMCComponent36000 {
+     <ore:zFMC36000>.add(toy);
+     <ore:zFMCComponent36000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =36,000=") + " | " + format.green("Components ")+ ")"));
+}
+
 // Ferret Market Cost, Component - 37,000
 var FMCComponent37000 = [
-<simplyjetpacks:components:13>
+<simplyjetpacks:components:13>,
+<extracells:storage.component:6>, <extracells:storage.component:13>
 ] as IItemStack[];
 
 for i, toy in FMCComponent37000 {
@@ -838,7 +907,8 @@ for i, toy in FMCComponent37000 {
 
 // Ferret Market Cost, Component - 37,500
 var FMCComponent37500 = [
-<MineFactoryReloaded:upgrade.logic:2>
+<MineFactoryReloaded:upgrade.logic:2>,
+<appliedenergistics2:item.ItemMultiMaterial:32>
 ] as IItemStack[];
 
 for i, toy in FMCComponent37500 {
@@ -849,13 +919,25 @@ for i, toy in FMCComponent37500 {
 
 // Ferret Market Cost, Component - 38,500
 var FMCComponent38500 = [
-<openmodularturrets:chamberTierFive>
+<openmodularturrets:chamberTierFive>,
+<appliedenergistics2:item.ItemMultiMaterial:37>, <appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>
 ] as IItemStack[];
 
 for i, toy in FMCComponent38500 {
      <ore:zFMC38500>.add(toy);
      <ore:zFMCComponent38500>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =38,500=") + " | " + format.green("Components ")+ ")"));
+}
+
+// Ferret Market Cost, Component - 39,500
+var FMCComponent39500 = [
+<appliedenergistics2:item.ItemBasicStorageCell.16k>
+] as IItemStack[];
+
+for i, toy in FMCComponent39500 {
+     <ore:zFMC39500>.add(toy);
+     <ore:zFMCComponent39500>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =39,500=") + " | " + format.green("Components ")+ ")"));
 }
 
 // Ferret Market Cost, Component - 40,000
@@ -878,6 +960,17 @@ for i, toy in FMCComponent40500 {
      <ore:zFMC40500>.add(toy);
      <ore:zFMCComponent40500>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =40,500=") + " | " + format.green("Components ")+ ")"));
+}
+
+// Ferret Market Cost, Component - 41,500
+var FMCComponent41500 = [
+<extracells:storage.fluid:2>
+] as IItemStack[];
+
+for i, toy in FMCComponent41500 {
+     <ore:zFMC41500>.add(toy);
+     <ore:zFMCComponent41500>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =41,500=") + " | " + format.green("Components ")+ ")"));
 }
 
 // Ferret Market Cost, Component - 48,000
@@ -1080,6 +1173,61 @@ for i, toy in FMCComponent118000 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =118,000=") + " | " + format.green("Components ")+ ")"));
 }
 
+// Ferret Market Cost, Component - 120,000
+var FMCComponent120000 = [
+<extracells:storage.component:7>, <extracells:storage.component:14>
+] as IItemStack[];
+
+for i, toy in FMCComponent120000 {
+     <ore:zFMC120000>.add(toy);
+     <ore:zFMCComponent120000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =120,000=") + " | " + format.green("Components ")+ ")"));
+}
+
+// Ferret Market Cost, Component - 124,000
+var FMCComponent124000 = [
+<extracells:storage.fluid:3>
+] as IItemStack[];
+
+for i, toy in FMCComponent124000 {
+     <ore:zFMC124000>.add(toy);
+     <ore:zFMCComponent124000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =124,000=") + " | " + format.green("Components ")+ ")"));
+}
+
+// Ferret Market Cost, Component - 125,000
+var FMCComponent125000 = [
+<appliedenergistics2:item.ItemMultiMaterial:38>
+] as IItemStack[];
+
+for i, toy in FMCComponent125000 {
+     <ore:zFMC125000>.add(toy);
+     <ore:zFMCComponent125000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =125,000=") + " | " + format.green("Components ")+ ")"));
+}
+
+// Ferret Market Cost, Component - 126,000
+var FMCComponent126000 = [
+<appliedenergistics2:item.ItemBasicStorageCell.64k>
+] as IItemStack[];
+
+for i, toy in FMCComponent126000 {
+     <ore:zFMC126000>.add(toy);
+     <ore:zFMCComponent126000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =126,000=") + " | " + format.green("Components ")+ ")"));
+}
+
+// Ferret Market Cost, Component - 129,000
+var FMCComponent129000 = [
+<extracells:storage.gas:3>
+] as IItemStack[];
+
+for i, toy in FMCComponent129000 {
+     <ore:zFMC129000>.add(toy);
+     <ore:zFMCComponent129000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =129,000=") + " | " + format.green("Components ")+ ")"));
+}
+
 // Ferret Market Cost, Component - 131,000
 var FMCComponent131000 = [
 <ThaumicTinkerer:kamiResource:5>
@@ -1093,13 +1241,25 @@ for i, toy in FMCComponent131000 {
 
 // Ferret Market Cost, Component - 160,000
 var FMCComponent160000 = [
-<simplyjetpacks:components:69>
+<simplyjetpacks:components:69>,
+<appliedenergistics2:item.ItemMultiMaterial:33>
 ] as IItemStack[];
 
 for i, toy in FMCComponent160000 {
      <ore:zFMC160000>.add(toy);
      <ore:zFMCComponent160000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =160,000=") + " | " + format.green("Components ")+ ")"));
+}
+
+// Ferret Market Cost, Component - 161,000
+var FMCComponent161000 = [
+<appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>
+] as IItemStack[];
+
+for i, toy in FMCComponent161000 {
+     <ore:zFMC161000>.add(toy);
+     <ore:zFMCComponent161000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =161,000=") + " | " + format.green("Components ")+ ")"));
 }
 
 // Ferret Market Cost, Component - 163,000
@@ -1155,4 +1315,225 @@ for i, toy in FMCComponent277000 {
      <ore:zFMC277000>.add(toy);
      <ore:zFMCComponent277000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =277,000=") + " | " + format.green("Components ")+ ")"));
+}
+
+// Ferret Market Cost, Component - 371,000
+var FMCComponent371000 = [
+<extracells:storage.component:8>, <extracells:storage.component:15>
+] as IItemStack[];
+
+for i, toy in FMCComponent371000 {
+     <ore:zFMC371000>.add(toy);
+     <ore:zFMCComponent371000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =371,000=") + " | " + format.green("Components ")+ ")"));
+}
+
+// Ferret Market Cost, Component - 375,000
+var FMCComponent375000 = [
+<extracells:storage.fluid:4>
+] as IItemStack[];
+
+for i, toy in FMCComponent375000 {
+     <ore:zFMC375000>.add(toy);
+     <ore:zFMCComponent375000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =375,000=") + " | " + format.green("Components ")+ ")"));
+}
+
+// Ferret Market Cost, Component - 380,000
+var FMCComponent380000 = [
+<extracells:storage.gas:4>
+] as IItemStack[];
+
+for i, toy in FMCComponent380000 {
+     <ore:zFMC380000>.add(toy);
+     <ore:zFMCComponent380000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =380,000=") + " | " + format.green("Components ")+ ")"));
+}
+
+// Ferret Market Cost, Component - 387,000
+var FMCComponent387000 = [
+<extracells:storage.component:0>
+] as IItemStack[];
+
+for i, toy in FMCComponent387000 {
+     <ore:zFMC387000>.add(toy);
+     <ore:zFMCComponent387000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =387,000=") + " | " + format.green("Components ")+ ")"));
+}
+
+// Ferret Market Cost, Component - 416,000
+var FMCComponent416000 = [
+<extracells:storage.physical:0>
+] as IItemStack[];
+
+for i, toy in FMCComponent416000 {
+     <ore:zFMC416000>.add(toy);
+     <ore:zFMCComponent416000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =416,000=") + " | " + format.green("Components ")+ ")"));
+}
+
+// Ferret Market Cost, Component - 650,000
+var FMCComponent650000 = [
+<appliedenergistics2:item.ItemMultiMaterial:34>
+] as IItemStack[];
+
+for i, toy in FMCComponent650000 {
+     <ore:zFMC650000>.add(toy);
+     <ore:zFMCComponent650000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =650,000=") + " | " + format.green("Components ")+ ")"));
+}
+
+// Ferret Market Cost, Component - 651,000
+var FMCComponent651000 = [
+<appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>
+] as IItemStack[];
+
+for i, toy in FMCComponent651000 {
+     <ore:zFMC651000>.add(toy);
+     <ore:zFMCComponent651000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =651,000=") + " | " + format.green("Components ")+ ")"));
+}
+
+// Ferret Market Cost, Component - 1,124,000
+var FMCComponent1124000 = [
+<extracells:storage.component:9>, <extracells:storage.component:16>
+] as IItemStack[];
+
+for i, toy in FMCComponent1124000 {
+     <ore:zFMC1124000>.add(toy);
+     <ore:zFMCComponent1124000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =1,124,000=") + " | " + format.green("Components ")+ ")"));
+     toy.addTooltip(format.red("NOTE : Not Crateable Yet!"));
+}
+
+// Ferret Market Cost, Component - 1,128,000
+var FMCComponent1128000 = [
+<extracells:storage.fluid:5>
+] as IItemStack[];
+
+for i, toy in FMCComponent1128000 {
+     <ore:zFMC1128000>.add(toy);
+     <ore:zFMCComponent1128000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =1,128,000=") + " | " + format.green("Components ")+ ")"));
+     toy.addTooltip(format.red("NOTE : Not Crateable Yet!"));
+}
+
+// Ferret Market Cost, Component - 1,133,000
+var FMCComponent1133000 = [
+<extracells:storage.gas:5>
+] as IItemStack[];
+
+for i, toy in FMCComponent1133000 {
+     <ore:zFMC1133000>.add(toy);
+     <ore:zFMCComponent1133000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =1,133,000=") + " | " + format.green("Components ")+ ")"));
+     toy.addTooltip(format.red("NOTE : Not Crateable Yet!"));
+}
+
+// Ferret Market Cost, Component - 1,173,000
+var FMCComponent1173000 = [
+<extracells:storage.component:1>
+] as IItemStack[];
+
+for i, toy in FMCComponent1173000 {
+     <ore:zFMC1173000>.add(toy);
+     <ore:zFMCComponent1173000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =1,173,000=") + " | " + format.green("Components ")+ ")"));
+     toy.addTooltip(format.red("NOTE : Not Crateable Yet!"));
+}
+
+// Ferret Market Cost, Component - 1,202,000
+var FMCComponent1202000 = [
+<extracells:storage.physical:1>
+] as IItemStack[];
+
+for i, toy in FMCComponent1202000 {
+     <ore:zFMC1202000>.add(toy);
+     <ore:zFMCComponent1202000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =1,202,000=") + " | " + format.green("Components ")+ ")"));
+     toy.addTooltip(format.red("NOTE : Not Crateable Yet!"));
+}
+
+// Ferret Market Cost, Component - 3,383,000
+var FMCComponent3383000 = [
+<extracells:storage.component:10>, <extracells:storage.component:17>
+] as IItemStack[];
+
+for i, toy in FMCComponent3383000 {
+     <ore:zFMC3383000>.add(toy);
+     <ore:zFMCComponent3383000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =3,383,000=") + " | " + format.green("Components ")+ ")"));
+     toy.addTooltip(format.red("NOTE : Not Crateable Yet!"));
+}
+
+// Ferret Market Cost, Component - 3,387,000
+var FMCComponent3387000 = [
+<extracells:storage.fluid:6>
+] as IItemStack[];
+
+for i, toy in FMCComponent3387000 {
+     <ore:zFMC3387000>.add(toy);
+     <ore:zFMCComponent3387000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =3,387,000=") + " | " + format.green("Components ")+ ")"));
+     toy.addTooltip(format.red("NOTE : Not Crateable Yet!"));
+}
+
+// Ferret Market Cost, Component - 3,392,000
+var FMCComponent3392000 = [
+<extracells:storage.gas:6>
+] as IItemStack[];
+
+for i, toy in FMCComponent3392000 {
+     <ore:zFMC3392000>.add(toy);
+     <ore:zFMCComponent3392000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =3,392,000=") + " | " + format.green("Components ")+ ")"));
+     toy.addTooltip(format.red("NOTE : Not Crateable Yet!"));
+}
+
+// Ferret Market Cost, Component - 3,531,000
+var FMCComponent3531000 = [
+<extracells:storage.component:2>
+] as IItemStack[];
+
+for i, toy in FMCComponent3531000 {
+     <ore:zFMC3531000>.add(toy);
+     <ore:zFMCComponent3531000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =3,531,000=") + " | " + format.green("Components ")+ ")"));
+     toy.addTooltip(format.red("NOTE : Not Crateable Yet!"));
+}
+
+// Ferret Market Cost, Component - 3,560,000
+var FMCComponent3560000 = [
+<extracells:storage.physical:2>
+] as IItemStack[];
+
+for i, toy in FMCComponent3560000 {
+     <ore:zFMC3560000>.add(toy);
+     <ore:zFMCComponent3560000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =3,560,000=") + " | " + format.green("Components ")+ ")"));
+     toy.addTooltip(format.red("NOTE : Not Crateable Yet!"));
+}
+
+// Ferret Market Cost, Component - 10,605,000
+var FMCComponent10605000 = [
+<extracells:storage.component:3>
+] as IItemStack[];
+
+for i, toy in FMCComponent10605000 {
+     <ore:zFMC10605000>.add(toy);
+     <ore:zFMCComponent10605000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =10,605,000=") + " | " + format.green("Components ")+ ")"));
+     toy.addTooltip(format.red("NOTE : Not Crateable Yet!"));
+}
+
+// Ferret Market Cost, Component - 10,644,000
+var FMCComponent10644000 = [
+<extracells:storage.physical:3>
+] as IItemStack[];
+
+for i, toy in FMCComponent10644000 {
+     <ore:zFMC10644000>.add(toy);
+     <ore:zFMCComponent10644000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =10,644,000=") + " | " + format.green("Components ")+ ")"));
+     toy.addTooltip(format.red("NOTE : Not Crateable Yet!"));
 }

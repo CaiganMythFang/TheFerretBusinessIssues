@@ -69,7 +69,8 @@ for i, toy in FMCWeapon50 {
 
 // Ferret Market Cost, Weapon - 100
 var FMCWeapon100 = [
-<Natura:natura.bow.ghostwood>, <Natura:natura.bow.bloodwood>, <Natura:natura.bow.darkwood>, <Natura:natura.bow.fusewood>
+<Natura:natura.bow.ghostwood>, <Natura:natura.bow.bloodwood>, <Natura:natura.bow.darkwood>, <Natura:natura.bow.fusewood>,
+<appliedenergistics2:item.ToolNetherQuartzSword>
 ] as IItemStack[];
 
 for i, toy in FMCWeapon100 {
@@ -143,7 +144,8 @@ for i, toy in FMCWeapon2000 {
 
 // Ferret Market Cost, Weapon - 3,000
 var FMCWeapon3000 = [
-<aura:angelsteelSword0>
+<aura:angelsteelSword0>,
+<appliedenergistics2:item.ToolCertusQuartzSword>, <appliedenergistics2:item.ToolChargedStaff>
 ] as IItemStack[];
 
 for i, toy in FMCWeapon3000 {
@@ -250,6 +252,17 @@ for i, toy in FMCWeapon13500 {
      <ore:zFMC13500>.add(toy);
      <ore:zFMCWeapon13500>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =13,500=") + " | " + format.green("Weapon ")+ ")"));
+}
+
+// Ferret Market Cost, Weapon - 16,500
+var FMCWeapon16500 = [
+<appliedenergistics2:item.ToolMassCannon>
+] as IItemStack[];
+
+for i, toy in FMCWeapon16500 {
+     <ore:zFMC16500>.add(toy);
+     <ore:zFMCWeapon16500>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =16,500=") + " | " + format.green("Weapon ")+ ")"));
 }
 
 // Ferret Market Cost, Weapon - 17,000

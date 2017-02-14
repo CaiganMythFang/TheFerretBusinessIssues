@@ -48,7 +48,8 @@ var FMCTool2 = [
 <Natura:Natura.workbench:*>, <Natura:natura.pickaxe.ghostwood>, <Natura:natura.pickaxe.darkwood>, <Natura:natura.pickaxe.fusewood>, <Natura:natura.pickaxe.darkwood>, <Natura:natura.axe.ghostwood>, <Natura:natura.axe.darkwood>, <Natura:natura.axe.fusewood>, <Natura:natura.axe.darkwood>, <Natura:natura.kama.ghostwood>, <Natura:natura.kama.darkwood>, <Natura:natura.kama.fusewood>, <Natura:natura.kama.darkwood>,
 <ExtraUtilities:spike_base_wood>,
 <Thaumcraft:blockTable:15>, 
-<MineFactoryReloaded:plastic.cup>
+<MineFactoryReloaded:plastic.cup>,
+<appliedenergistics2:tile.BlockCrank>
 ] as IItemStack[];
 
 for i, toy in FMCTool2 {
@@ -115,7 +116,8 @@ var FMCTool50 = [
 <BiblioCraft:item.BiblioClipboard>,
 <ExtraUtilities:glove>,
 <StorageDrawers:tape>, 
-<MineFactoryReloaded:xpextractor>, <MineFactoryReloaded:straw>
+<MineFactoryReloaded:xpextractor>, <MineFactoryReloaded:straw>,
+<appliedenergistics2:item.ToolNetherQuartzSpade>
 ] as IItemStack[];
 
 for i, toy in FMCTool50 {
@@ -132,7 +134,8 @@ var FMCTool100 = [
 <chisel:obsidianChisel>,
 <OpenBlocks:infoBook>,
 <Thaumcraft:ItemShovelVoid>,
-<ThaumicTinkerer:spellCloth>
+<ThaumicTinkerer:spellCloth>,
+<appliedenergistics2:item.ToolNetherQuartzHoe>
 ] as IItemStack[];
 
 for i, toy in FMCTool100 {
@@ -151,7 +154,8 @@ var FMCTool200 = [
 <BiblioCraft:item.HandDrill>,
 <Botania:obedienceStick>, <Botania:glassPick>, <Botania:slingshot>, <Botania:manasteelShovel>, 
 <CarpentersBlocks:itemCarpentersChisel>,
-<Thaumcraft:ArcaneDoorKey>, <Thaumcraft:ItemHoeVoid>
+<Thaumcraft:ArcaneDoorKey>, <Thaumcraft:ItemHoeVoid>,
+<appliedenergistics2:item.ToolNetherQuartzAxe>, <appliedenergistics2:item.ToolNetherQuartzPickaxe>
 ] as IItemStack[];
 
 for i, toy in FMCTool200 {
@@ -167,7 +171,8 @@ var FMCTool300 = [
 <Botania:manaInkwell>, 
 <EnderIO:itemYetaWrench>, <EnderIO:itemModItemFilter>,
 <Thaumcraft:ItemShovelThaumium>, <Thaumcraft:ItemPickVoid>, <Thaumcraft:ItemAxeVoid>, <Thaumcraft:ItemThaumonomicon>, 
-<MineFactoryReloaded:rednet.meter>, <MineFactoryReloaded:syringe.empty>, <MineFactoryReloaded:syringe.health>
+<MineFactoryReloaded:rednet.meter>, <MineFactoryReloaded:syringe.empty>, <MineFactoryReloaded:syringe.health>,
+<appliedenergistics2:item.ToolNetherQuartzCuttingKnife>, <appliedenergistics2:item.ToolNetherQuartzWrench>
 ] as IItemStack[];
 
 for i, toy in FMCTool300 {
@@ -222,7 +227,8 @@ var FMCTool1000 = [
 <OpenComputers:item:98>,
 <JABBA:mover>, <JABBA:hammer>,
 <aura:lexicon>, <aura:angelsteelShovel0>, 
-<MineFactoryReloaded:syringe.slime>
+<MineFactoryReloaded:syringe.slime>,
+<appliedenergistics2:item.ToolNetworkTool>
 ] as IItemStack[];
 
 for i, toy in FMCTool1000 {
@@ -238,7 +244,8 @@ var FMCTool1500 = [
 <ExtraUtilities:endMarker>, 
 <Thaumcraft:ArcaneDoorKey:1>, 
 <Botania:craftingHalo>, <Botania:elementiumPick>, <Botania:elementiumAxe>, <Botania:openBucket>, <Botania:slimeBottle>, 
-<MineFactoryReloaded:safarinet.launcher>
+<MineFactoryReloaded:safarinet.launcher>,
+<appliedenergistics2:item.ToolCertusQuartzSpade>
 ] as IItemStack[];
 
 for i, toy in FMCTool1500 {
@@ -266,7 +273,8 @@ var FMCTool2500 = [
 <Botania:baubleBox>, 
 <ExtraUtilities:golden_lasso>, 
 <EnderIO:blockTank:1>, 
-<MineFactoryReloaded:syringe.growth>
+<MineFactoryReloaded:syringe.growth>,
+<appliedenergistics2:tile.BlockSkyCompass>
 ] as IItemStack[];
 
 for i, toy in FMCTool2500 {
@@ -281,7 +289,8 @@ var FMCTool3000 = [
 <EnderIO:itemCoordSelector>,
 <ExtraUtilities:scanner>, 
 <MineFactoryReloaded:rednet.meter:1>,
-<aura:angelsteelAxe0>, <aura:angelsteelPickaxe0>, <aura:angelsteelShovel1>
+<aura:angelsteelAxe0>, <aura:angelsteelPickaxe0>, <aura:angelsteelShovel1>,
+<appliedenergistics2:item.ToolCertusQuartzCuttingKnife>, <appliedenergistics2:item.ToolCertusQuartzHoe>
 ] as IItemStack[];
 
 for i, toy in FMCTool3000 {
@@ -312,6 +321,17 @@ for i, toy in FMCTool4000 {
      <ore:zFMC4000>.add(toy);
      <ore:zFMCTool4000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =4,000=") + " | " + format.green("Tool ")+ ")"));
+}
+
+// Ferret Market Cost, Tool - 4,500
+var FMCTool4500 = [
+<appliedenergistics2:item.ToolCertusQuartzAxe>, <appliedenergistics2:item.ToolCertusQuartzPickaxe>
+] as IItemStack[];
+
+for i, toy in FMCTool4500 {
+     <ore:zFMC4500>.add(toy);
+     <ore:zFMCTool4500>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =4,500=") + " | " + format.green("Tool ")+ ")"));
 }
 
 // Ferret Market Cost, Tool - 5,000
@@ -372,6 +392,17 @@ for i, toy in FMCTool7000 {
      <ore:zFMC7000>.add(toy);
      <ore:zFMCTool7000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =7,000=") + " | " + format.green("Tool ")+ ")"));
+}
+
+// Ferret Market Cost, Magic - 7,500
+var FMCTool7500 = [
+<appliedenergistics2:item.ToolCertusQuartzWrench>
+] as IItemStack[];
+
+for i, toy in FMCTool7500 {
+     <ore:zFMC7500>.add(toy);
+     <ore:zFMCTool7500>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =7,500=") + " | " + format.green("Tool ")+ ")"));
 }
 
 // Ferret Market Cost, Tool - 8,000
@@ -446,6 +477,28 @@ for i, toy in FMCTool12000 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =12,000=") + " | " + format.green("Tool ")+ ")"));
 }
 
+// Ferret Market Cost, Tool - 14,500
+var FMCTool14500 = [
+<appliedenergistics2:item.ToolEntropyManipulator>
+] as IItemStack[];
+
+for i, toy in FMCTool14500 {
+     <ore:zFMC14500>.add(toy);
+     <ore:zFMCTool14500>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =14,500=") + " | " + format.green("Tool ")+ ")"));
+}
+
+// Ferret Market Cost, Tool - 15,500
+var FMCTool15500 = [
+<appliedenergistics2:item.ToolColorApplicator>
+] as IItemStack[];
+
+for i, toy in FMCTool15500 {
+     <ore:zFMC15500>.add(toy);
+     <ore:zFMCTool15500>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =15,500=") + " | " + format.green("Tool ")+ ")"));
+}
+
 // Ferret Market Cost, Tool - 16,000
 var FMCTool16000 = [
 <Thaumcraft:ItemCompassStone>
@@ -471,7 +524,8 @@ for i, toy in FMCTool16500 {
 
 // Ferret Market Cost, Tool - 17,000
 var FMCTool17000 = [
-<minecraft:diamond_hoe>
+<minecraft:diamond_hoe>,
+<ae2stuff:WirelessKit>
 ] as IItemStack[];
 
 for i, toy in FMCTool17000 {
@@ -636,6 +690,17 @@ for i, toy in FMCTool32500 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =32,500=") + " | " + format.green("Tool ")+ ")"));
 }
 
+// Ferret Market Cost, Tool - 34,000
+var FMCTool34000 = [
+<ae2stuff:Visualiser>
+] as IItemStack[];
+
+for i, toy in FMCTool34000 {
+     <ore:zFMC34000>.add(toy);
+     <ore:zFMCTool34000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =34,000=") + " | " + format.green("Tool ")+ ")"));
+}
+
 // Ferret Market Cost, Tool - 44,000
 var FMCTool44000 = [
 <ExtraUtilities:spike_base_diamond>
@@ -645,6 +710,28 @@ for i, toy in FMCTool44000 {
      <ore:zFMC44000>.add(toy);
      <ore:zFMCTool44000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =44,000=") + " | " + format.green("Tool ")+ ")"));
+}
+
+// Ferret Market Cost, Tool - 53,500
+var FMCTool53500 = [
+<appliedenergistics2:item.ToolWirelessTerminal>, <extracells:terminal.fluid.wireless>, <extracells:terminal.gas.wireless>
+] as IItemStack[];
+
+for i, toy in FMCTool53500 {
+     <ore:zFMC53500>.add(toy);
+     <ore:zFMCTool53500>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =53,500=") + " | " + format.green("Tool ")+ ")"));
+}
+
+// Ferret Market Cost, Tool - 59,000
+var FMCTool59000 = [
+<extracells:terminal.universal.wireless>
+] as IItemStack[];
+
+for i, toy in FMCTool59000 {
+     <ore:zFMC59000>.add(toy);
+     <ore:zFMCTool59000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =59,000=") + " | " + format.green("Tool ")+ ")"));
 }
 
 // Ferret Market Cost, Tool - 61,000
