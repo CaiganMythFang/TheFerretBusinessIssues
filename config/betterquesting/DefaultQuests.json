@@ -1,5 +1,5 @@
 {
-  "editMode": false,
+  "editMode": true,
   "hardcore": false,
   "defLives": 3,
   "maxLives": 10,
@@ -11734,6 +11734,165 @@
       ],
       "preRequisites": [
         128
+      ]
+    },
+    {
+      "questID": 139,
+      "name": "Crystal Tools",
+      "description": "--------\n    §k........§rs Certus Quar§k.......§rng? There a§k.........§ro with §k..........§r cables you can §k.........§r strong§k....§r Anchor solid handho§k..........§r ladder!\n    Not en§k..........§rsome tools §k.....§r instead. A useful §k......§r Wrench, whi§k......§r dealing with §k....§r machines§k.....§rget the Quartz Knife§k......§r cutting§k......§r take any Iron In§k......§r Inscriber Name Plat§k.......§rtz can make a sharp Sword §k...§r Pickaxe or Shovel.\n--------\n    Dataologist Dante : This one seems short, but the scrambled sections appear to be a lot larger.\n    Linguist Larry : Does that mean the signal is getting weaker?\n    Dataologist Dante : The equipment says otherwise. Maybe we\u0027re just not translating something properly?\n    Linguist Larry : Could be. Let\u0027s see... sounds like its talking about those cables we\u0027ve been working on. And some Certus Quartz Tools?\n    Dataologist Dante : Yeah, I recognize mention of a Wrench and a Knife. Those are pretty easy to make... there. \n    Linguist Larry : Nice, handy skill there. That Wrench looks as solid as any other machine Wrench. How\u0027d you learn to make those so fast?\n    Dataologist Dante : Kit Scouts and survival training. \n    Linguist Larry : Interesting! That knife looks really sharp. Here, it said something about working with Iron. Oh, hey. It cut it like butter. \n    Dataologist Dante : Hm, it said the cables were strong handholds? Here, these rods look about right, so... Hey, no kidding. These Cable Anchors plug right into the sides of the ME Cable and can be climbed.\n    Linguist Larry : Uh, let\u0027s not push our luck. Hop down, I don\u0027t want you falling onto the table covered in sharp Quartz or anything.\n    Dataologist Dante : Right, right. Hm, looks like I can cut an Iron Ingot another way by Right Clicking the Quartz Knife. A cut here, a shave here and... \n    Linguist Larry : A plate with your name on it... oh! An Inscriber Name Plate, perfect size for the Inscriber. Nice.\n    Dataologist Dante : Yep, looks like we can make tools with either Certus Quartz or Nether Quartz. \n    Linguist Larry : Certus Quartz is probably sturdier. It\u0027s still surprising me. And... Dante?\n    Dataologist Dante : Yes?\n    Linguist Larry : What\u0027s that?\n    Dataologist Dante : Oh, um... I was testing the Quartz Dust and made a Tiny TNT thing. Smaller boom, but still a boom.\n    Linguist Larry : What is this, TNT for ants?\n    Dataologist Dante : ...really?",
+      "isMain": false,
+      "isSilent": true,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ToolCertusQuartzWrench",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ToolCertusQuartzCuttingKnife",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "appliedenergistics2:item.ToolCertusQuartzWrench",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 120
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 21
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ToolNetherQuartzSword",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "appliedenergistics2:item.ToolCertusQuartzSpade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockTinyTNT",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        558,
+        555
       ]
     },
     {
@@ -66239,6 +66398,12 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 16
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 36
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -69991,8 +70156,8 @@
         },
         {
           "id": 559,
-          "x": 184,
-          "y": 92
+          "x": 188,
+          "y": 72
         },
         {
           "id": 558,
@@ -70093,6 +70258,11 @@
           "id": 566,
           "x": 252,
           "y": 108
+        },
+        {
+          "id": 139,
+          "x": 188,
+          "y": 112
         }
       ]
     },
