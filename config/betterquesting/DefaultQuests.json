@@ -11739,7 +11739,7 @@
     {
       "questID": 139,
       "name": "Crystal Tools",
-      "description": "--------\n    §k........§rs Certus Quar§k.......§rng? There a§k.........§ro with §k..........§r cables you can §k.........§r strong§k....§r Anchor solid handho§k..........§r ladder!\n    Not en§k..........§rsome tools §k.....§r instead. A useful §k......§r Wrench, whi§k......§r dealing with §k....§r machines§k.....§rget the Quartz Knife§k......§r cutting§k......§r take any Iron In§k......§r Inscriber Name Plat§k.......§rtz can make a sharp Sword §k...§r Pickaxe or Shovel.\n--------\n    Dataologist Dante : This one seems short, but the scrambled sections appear to be a lot larger.\n    Linguist Larry : Does that mean the signal is getting weaker?\n    Dataologist Dante : The equipment says otherwise. Maybe we\u0027re just not translating something properly?\n    Linguist Larry : Could be. Let\u0027s see... sounds like its talking about those cables we\u0027ve been working on. And some Certus Quartz Tools?\n    Dataologist Dante : Yeah, I recognize mention of a Wrench and a Knife. Those are pretty easy to make... there. \n    Linguist Larry : Nice, handy skill there. That Wrench looks as solid as any other machine Wrench. How\u0027d you learn to make those so fast?\n    Dataologist Dante : Kit Scouts and survival training. \n    Linguist Larry : Interesting! That knife looks really sharp. Here, it said something about working with Iron. Oh, hey. It cut it like butter. \n    Dataologist Dante : Hm, it said the cables were strong handholds? Here, these rods look about right, so... Hey, no kidding. These Cable Anchors plug right into the sides of the ME Cable and can be climbed.\n    Linguist Larry : Uh, let\u0027s not push our luck. Hop down, I don\u0027t want you falling onto the table covered in sharp Quartz or anything.\n    Dataologist Dante : Right, right. Hm, looks like I can cut an Iron Ingot another way by Right Clicking the Quartz Knife. A cut here, a shave here and... \n    Linguist Larry : A plate with your name on it... oh! An Inscriber Name Plate, perfect size for the Inscriber. Nice.\n    Dataologist Dante : Yep, looks like we can make tools with either Certus Quartz or Nether Quartz. \n    Linguist Larry : Certus Quartz is probably sturdier. It\u0027s still surprising me. And... Dante?\n    Dataologist Dante : Yes?\n    Linguist Larry : What\u0027s that?\n    Dataologist Dante : Oh, um... I was testing the Quartz Dust and made a Tiny TNT thing. Smaller boom, but still a boom.\n    Linguist Larry : What is this, TNT for ants?\n    Dataologist Dante : ...really?",
+      "description": "--------\n    §k........§rs Certus Quar§k.......§rng? There a§k.........§ro with §k..........§r cables you can §k.........§r strong§k....§r Anchor solid handho§k..........§r ladder!\n    Not en§k..........§rsome tools §k.....§r instead. A useful §k......§r Wrench, whi§k......§r dealing with §k....§r machines§k.....§rget the Quartz Knife§k......§r cutting§k......§r take any Iron In§k......§r Inscriber Name Plat§k.......§rtz can make a sharp Sword §k...§r Pickaxe or Shovel.\n    §k....§r liquids §k.......§rur Certus Quartz Tank §k......§ry temp§k.....§r lava to cryothemum!\n    §k.....§r Charged Certus Quartz Fixtures l§k.....§rd light up the area n§k........§r\n    §k.....§r light sensitive§k..........§r Light Detecting Fixture §k......§r Redstone Signal §k.....§r light level §k.......§r\n    §k.......§r ME Cables §k.....§r lighting §k....§rIlluminated Panels §k......§r variety §k....§r place them on any ME Cab§k.......§r\n--------\n    Dataologist Dante : The scrambled sections appear to be a lot larger.\n    Linguist Larry : Does that mean the signal is getting weaker?\n    Dataologist Dante : The equipment says otherwise. Maybe we\u0027re just not translating something properly?\n    Linguist Larry : Could be. Let\u0027s see... sounds like its talking about those cables we\u0027ve been working on. And some Certus Quartz Tools?\n    Dataologist Dante : Yeah, I recognize mention of a Wrench and a Knife. Those are pretty easy to make... there. \n    Linguist Larry : Nice, handy skill there. That Wrench looks as solid as any other machine Wrench. How\u0027d you learn to make those so fast?\n    Dataologist Dante : Kit Scouts and survival training. \n    Linguist Larry : Interesting! That knife looks really sharp. Here, it said something about working with Iron. Oh, hey. It cut it like butter. \n    Dataologist Dante : Hm, it said the cables were strong handholds? Here, these rods look about right, so... Hey, no kidding. These Cable Anchors plug right into the sides of the ME Cable and can be climbed.\n    Linguist Larry : Uh, let\u0027s not push our luck. Hop down, I don\u0027t want you falling onto the table covered in sharp Quartz or anything.\n    Dataologist Dante : Right, right. Hm, looks like I can cut an Iron Ingot another way by Right Clicking the Quartz Knife. A cut here, a shave here and... \n    Linguist Larry : A plate with your name on it... oh! An Inscriber Name Plate, perfect size for the Inscriber. Nice.\n    Dataologist Dante : Yep, looks like we can make tools with either Certus Quartz or Nether Quartz. \n    Linguist Larry : Certus Quartz is probably sturdier. It\u0027s still surprising me.\n    Dataologist Dante : Looks like its sturdy enough to make a liquid tank that can hold even lava. \n    Linguist Larry :  And cryoth... cry... that super cold liquid. I can never remember the name. \n    Dataologist Dante : Me either, its a mouthful. What else do we have... ah, some light based tools. A light fixture?\n    Linguist Larry : Yeah, looks sort of like a new age torch sconce or something. And THAT sounds like a Daylight Sensor in a way.\n    Dataologist Dante : The Light Detecting Fixture, not really an inventive name, but at least its clear. I think I like the sound of the Illuminated Panels the best, since they sit on the ME Cables.\n    Linguist Larry : Agreed. And... Dante?\n    Dataologist Dante : Yes?\n    Linguist Larry : What\u0027s that?\n    Dataologist Dante : Oh, um... I was testing the Quartz Dust and made a Tiny TNT thing. Smaller boom, but still a boom.\n    Linguist Larry : What is this, TNT for ants?\n    Dataologist Dante : ...really?",
       "isMain": false,
       "isSilent": true,
       "lockedProgress": false,
@@ -11822,6 +11822,66 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "extracells:certustank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockQuartzTorch",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockLightDetector",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 180
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -66491,8 +66551,8 @@
     },
     {
       "questID": 559,
-      "name": "The ME Controller",
-      "description": "§1Josh§r: I think i found a way to make a controller to control all of the various applications of the ME system! I will pass you over the schematics and try and see if it works!",
+      "name": "Data Storage Basics",
+      "description": "--------\n    §k.....§rnted ME Cable §k......§r more than §k...§r data and power §k...........§r 8 channels of da§k....§r complex machines §k...§r part of the ME Network §k.....§rsee this data flow§k...§r Smart Cables§k......§r visualize the data §k....§r\n   §k....§r overloading your ME network §k.........§r special ME Toggle Bus to disconnect §k....§r Redstone Signal!\n    §k.....§r more than §k.....§r data and information §k.....§r store items DIGITAL§k..§r need an ME Chest §k.........§r connect §k...§r ME Network to power §k.......§r special Storage Cells§k......§rles, components§k...§r stored §k.......§r into the ME Chest §k......§r it!\n    §k.....§r multiple §k...§r Storage Cells§k....§r access them all§k........§r with the ME Terminal §k.......§rnect it to §k.......§r cable§k....§r all storage on that network will be availa§k.....§r\n   §k......§rur Storage Cells §k........§r variety of sizes!\n--------\n\n    Linguist Larry : Wow, things are getting much more complex. Here, the notes from this message I was able to work out.\n    Dataologist Dante : A lot here. Starting from the top... it sounds like these ME Cables have 8 channels... so it\u0027s like 8 cables in one?\n    Linguist Larry : Right, but only for \u0027complex\u0027 machines. Probably things that require more than simple power.\n    Dataologist Dante : Don\u0027t have anything like that yet I think, so let\u0027s move on. Smart Cable... ah, a way to visualize each channel being used? Hard to test without machines that use channels yet.\n    Linguist Larry : Same thing with this Toggle Bus it talks about. Pretty standard electronics piece, just need to rework it to fit on ME Cables. \n    Dataologist Dante : And using a Redstone Signal on it closes the cable. Pretty useful for cutting off side networks from overloading the system.\n    Linguist Larry : Mhmm. Hey, reading the next section, I think we found something that\u0027ll use those channels! I think I can decipher part of an image... There. Looks like part of some schematics and some text.\n    Dataologist Dante : ME... Chest? Storage Cells? Terminal? Hmmm. There\u0027s a number there too. \"Call (80....\". Strange\n    Linguist Larry : Oh wait, these look like part data sheets. Maybe that\u0027s a reference number for whatever alien database these came from.\n    Dataologist Dante : Possibly. We can dig into that later. Lets scan the schematics with our equipment and see what we can come up with...\n    Linguist Larry : That didn\u0027t take long. Looks like the basic storage medium is the Storage Cell, and the basic device is the ME Chest.\n    Dataologist Dante : Oh nice. Hooked it up to the network. The ME Chest just holds a single Storage Cell, which you can put in by Right Clicking the side of the chest. To open it up, Right Click the top of the Chest.\n    Linguist Larry : Oh wow, a digital display? With sorting and search functions. That... is a lot better than what I was thinking. Here, let me toss a bunch of stuff in there and see how much fits.\n    Dataologist Dante : Hmm... Aha. The Storage Cell has a panel on it showing some information. It looks like each cell can hold 64 different items, but each item takes... digital space. 500 stones only take 1 item slot, but more data than 20 bricks.\n    Linguist Larry : Okay, that makes the ME Terminal way more useful, then. A bunch of chests and Storage Cells on a single network can be accessed on the Terminal when it is placed on a cable.\n    Dataologist Dante : And that\u0027s where channels come in I\u0027m guessing. It transfers the data to the Terminal to regenerate the items for you. Amazing...\n    Linguist Larry : That just means one thing then...\n    Dataologist Dante : Yeah, we\u0027ll need bigger Storage Cells...",
       "isMain": false,
       "isSilent": true,
       "lockedProgress": false,
@@ -66509,36 +66569,162 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "appliedenergistics2:tile.BlockController",
+        "id": "appliedenergistics2:item.ItemBasicStorageCell.1k",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
       },
-      "visibility": "HIDDEN",
+      "visibility": "NORMAL",
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "appliedenergistics2:tile.BlockController",
+              "id": "appliedenergistics2:item.ItemMultiPart",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 56
             },
             {
-              "id": "minecraft:bedrock",
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 80
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockChest",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemBasicStorageCell.1k",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 380
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemBasicStorageCell.4k",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
       "preRequisites": [
         554,
         557,
@@ -66871,9 +67057,7 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [
-        559
-      ]
+      "preRequisites": []
     },
     {
       "questID": 564,
@@ -66922,14 +67106,12 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [
-        559
-      ]
+      "preRequisites": []
     },
     {
       "questID": 565,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Intermediate Storage",
+      "description": "--------\n    §k.......§rchest§k....§r not enough space? §k.....§r compact? §k....§rst in an ME Drive§k......§r hold 10 Storage Cell§k.....§r\n    \"But what §k....§r and other storage §k....§r?\" §k.....§r Well, w§k........§r the §k....§r\n    §k....§r ask §k.....§r. \"Is there a§k.......§r crafting table §k.....§r?\"  §k....§r the ME Crafting Terminal! \n    §k....§r important materials are stocked §k........§r use an ME Level Emitter §k.......§r emit a Redstone Signal §k.....§r isn\u0027t enough §k....§r in stock§k.........§r next step with an ME Storage Monitor§k.....§r see an item§k....§r in your ME system §k.....§r display!\n    \"But the item §k....§r can I pull §k.....§r Terminal?\" Good §k....§r an even §k......§r is the ME Conversion Monitor! Special Formation§k.......§r Annihilation Cores §k.......§rallow Deposit or withdraw §k....§r items from your network§k.....§r\n--------\n    Linguist Larry : Interesting, sounds like this communication is actually a private one between two individuals. The tone of the quotes there is different from the rest of it.\n    Dataologist Dante : Looks like it. A Drive... wonder if they are talking about a network server bay? Let me get an assistant to drag one of our empty bays up from storage...\n    Linguist Larry : What\u0027s that?\n    Dataologist Dante : One minute, I\u0027ll show you. Swapping the cables here and there and... perfect! 10 Storage Cell slots, just like advertised.\n    Linguist Larry : Oh nice. Much better than having a chest for every Storage Cell, or worse, swapping them constantly.\n    Dataologist Dante : Looks like we can upgrade the ME Terminal with a crafting grid. Should especially be handy for you, Bandit.\n    Linguist Larry : Definitely. We can use that now as well since we\u0027re building up new machines a lot while researching these messages. This Level Emitter... I\u0027m not sure how useful it\u0027d be normally. You just choose an item and select how much you want to want to track, and whether it should emit a Redstone Signal if its above or below that value. \n    Dataologist Dante : Actually that sounds good for automation. Not really my field though.\n    Linguist Larry : Kit Scouts didn\u0027t teach that?\n    Dataologist Dante : Well, maybe if people regularly got stuck in the predicament Bandit did, well...\n    Linguist Larry : Right right, sorry. Back on topic! Looks like you can go further with a Storage Monitor? Sounds way more useful than a Level Emitter for normal use.\n    Dataologist Dante : Hm, a little testing and... oh, a wrench right... okay, I get how it works now. You can Right Click an item onto it to display how many you have in your Network. Right Click with a Wrench to \u0027lock\u0027 or \u0027unlock\u0027 your choice, or Right Click with an empty hand to clear it.\n    Linguist Larry : Oh good, sounds like there\u0027s an even better one than that as well.\n    Dataologist Dante : Hm, Conversion Monitor? Terminal... Ahh, looks like components that can convert Matter on the fly. Shouldn\u0027t be hard to whip up a design based on some of the other concepts we\u0027ve learned.\n    Linguist Larry : Hm, then you can make sort of a combination Terminal and Storage Monitor? Oh, I see what you are doing... try connecting that there. \n    Dataologist Dante : Yep, there we go. ME Conversion Monitor. Select and lock an item like the Storage Monitor, then you can Right Click to try to pull a stack of that item out, or Sneak + Right Click to put your held item back into the network.\n    Linguist Larry : Oh, uh. Don\u0027t Sneak + Right Click while carrying a wrench. It\u0027ll just pop the panel back off...",
       "isMain": false,
       "isSilent": true,
       "lockedProgress": false,
@@ -66946,7 +67128,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:nether_star",
+        "id": "appliedenergistics2:tile.BlockDrive",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -66955,29 +67137,145 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
+          "ignoreNBT": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "ferretshinies:NullToken",
+              "id": "appliedenergistics2:tile.BlockDrive",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 360
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 280
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 400
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 44
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 43
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 420
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
       "preRequisites": [
         559
       ]
     },
     {
       "questID": 566,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Compatable Access",
+      "description": "--------\n    §k.....§r other §k...§rs machines? §k....§r with the ME Interface§k......§r acts as a container, drawing items from §k...§r ME Network and importing items §k.....§r interface! Comes in §k....§r Block and Flat!\n    §k...§r other containers§k.....§r part of your ME Network§k...§rexport specific items §k....§r ME Storage Bus! Point it at your containers §k......§r to import items §k....§r export items into the container.\n    Want §k...§r placing and harvesting materials §k......§r ME Formation Plane will place Blocks §k....§r while the ME Annihilation Plane will break §k.....§r down items, §k......§r Redstone Ore into §k....§r Dust§k...§r combining it §k....§rented Fluix Pearl§k.....§r preserve the original §k...§r block!\n    §k......§r available §k....§r ME IO Port§k...§r for transfering items §k.....§r multiple Storage Cells!\n    §k.....§r slim §k...§r Energy Cell and ME Drive §k.......§r Fixtures. §k....§r less capacity §k........§r easier to fit §k.....§r\n--------\n    Dataologist Dante : Hey, I looked over the translation of the last transmission here. Already came up with some of the ideas it brings up. Nothing too different with what we\u0027ve already got.\n    Linguist Larry : Hm, an Interface? Should be useful hooking up non ME machines to your Network. And two styles, thats new. Both full block and a flat panel? Nice.\n    Dataologist Dante : Yeah. You can select items to export from your Network into the Interface for other machines to grab. If a machine or pipe pulls into the Interface and its not full, it\u0027ll put the items into the ME Network instead. Not sure what the rest of the interface components do yet, though. Probably something in another transmission. \n    Linguist Larry : Well, lets come back to that then. This is more immediately useful by the looks of it though. ME Storage Bus? Means we don\u0027t have to replace our storage stuff already in place.\n    Dataologist Dante : Exactly! Can configure it to pull items in the inventory into the ME Network, or export specific items into the inventory.\n    Linguist Larry : Useful. The heck are these things though? A some blocks of wood keep appearing and dissappearing.\n    Dataologist Dante : That panel there is the ME Formation Plane, can be configured to grab a specific block from your ME network and materialize it in front of it. The ME Annihilation Plane there does the opposite, it dematerializes a block in front of it and throws it back into your system.\n    Linguist Larry : And that one?\n    Dataologist Dante : The ME Identity Annihilation Plane. I\u0027m not sure what it does, but it works similar to the normal one.\n    Linguist Larry : Hmm, let me look at the translation... Ah, right, it keeps the original form of the material. So say if some Salt Ore were dematerialized by the normal Annihilation Plane, it\u0027d break into piles of salt, but the Identity one keeps it as a Salt Ore.\n    Dataologist Dante : Identity is just a weird tag to add onto it... but they ARE aliens I guess? Oh, right, this here is the ME IO Port. Pretty handy if you ask me.\n    Linguist Larry : And it does...?\n    Dataologist Dante : Basically you can choose to draw items from, or dump items into, your ME Network, from Storage Cells placed into the IO Port. Great if you make bigger Storage Cells and need to clean up your Drives.\n    Linguist Larry : Like hard drives. Get a new, much bigger drive, and transfer four tiny hard drive\u0027s worth of data onto one giant one. \n    Dataologist Dante : Bingo. Speaking of of condensing things, these transmissions clued me in on making Panel versions of the Energy Cell and ME Drive. Helps keep things compact. Not as much space on them though...",
       "isMain": false,
       "isSilent": true,
       "lockedProgress": false,
@@ -66994,8 +67292,8 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:nether_star",
-        "Count": 1,
+        "id": "appliedenergistics2:tile.BlockInterface",
+        "Count": 2,
         "OreDict": "",
         "Damage": 0
       },
@@ -67003,23 +67301,190 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
+          "ignoreNBT": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "ferretshinies:NullToken",
+              "id": "appliedenergistics2:tile.BlockInterface",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 220
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 320
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 300
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 301
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockIOPort",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "extracells:part.base",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "extracells:part.base",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Epic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 40,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Epic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 40,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
       "preRequisites": [
-        559
+        565
       ]
     },
     {
@@ -67072,14 +67537,12 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [
-        559
-      ]
+      "preRequisites": []
     },
     {
       "questID": 568,
-      "name": "Ad-Hoc Networks",
-      "description": "§1Josh:§r It seems that all these blocks seems to be able to be connected even though the Controller is no present.They all need power via a §lPower acceptor§r. However they can go only up to 8 busses/Blocks that uses AE Channels before the entire system fails.",
+      "name": "The Crafting CPU",
+      "description": "--------\n    §k....§rastic ME System §k......§r more §k....§r store §k......§r data§k.....§r can §k........§r automate §k....§r crafting §k...§r heart of this system §k.....§r Crafting CPU§k...§r  component blocks§k.......§r highly configurable §k...§r\n    §k....§r basic block §k...§r Crafting Unit§k..§r provides structure and connect§k......§r all components of §k....§r CPU!\n    §k.....§r need §k......§r data storage for crafting §k...§r handled by §k......§r Crafting Storage §k....§r in 1k, 4k, §k...§r bigger§k...§re for complex tasks!\n    To speed up §k...§r multi-tasking §k........§r Crafting Co-Processor Unit§k...§r crafting order §k......§r multiple §k...§r parts §k..§r Unit will parallelize tasks §k........§r\n    §k.....§r Crafting CPU §k...§r parts§k......§r put them together §k...§r cuboid §k....§r faces of the machine turn into plusses§k...§r formed!\n    §k.....§r can start setting up your automated craft§k...§r core §k.....§r is §k...§r Pattern system. These Blank Patterns §k......§r imprinted with a crafting task§k...§r can be reused as well §k.......§r hold them §k...§r Sneak + Right Clicking.\n    §k.....§r imprint §k...§r to hook up a ME Pattern Terminal §k...§r ME Network§k...§r middle §k......§r Pattern creation area§k...§r slot at the right §k.......§r Blank Patterns§k...§r crafting recipe §k...§r down arrow §k.......§r imprint the pattern §k...§r toggle between Crafting and Processing§k........§r button to the right §k..§r patterns§k...§r such as smelting recipes§k.....§r simpler machine we §k...§r Pattern Encoder§k...§r only §k...§r crafting tasks.\n    §k......§r utilize §k........§r Encoded pattern§k....§r use our ama§k...§r the Molecular Assembler. Hook§k.....§r ME Network and place the Encoded §k......§r can request the item §k....§r from any Interface§k...§r most §k.....§r take §k...§r ME Interfaces §k...§rcan provide multiple Molelcular Assemblers §k.......§r don\u0027t contain one§k..........§r\n--------\n    Dataologist Dante : Another transmission where it\u0027s a lot clearer in parts. Is that making it easier to translate?\n    Linguist Larry : Sort of. The more I dig into the language, the more confusing it gets. Rules that contradict each other, words that mean the same thing or different things...\n    Dataologist Dante : Sounds like our language.\n    Linguist Larry : Yeah. Oh well, there\u0027s enough here to work on some more ME Network things. Looks like an... automated crafting thing this time?\n    Dataologist Dante : I agree. Let\u0027s see, trying to decode the blueprints. And... there. Looks like this Crafting CPU is the brain of this.\n    Linguist Larry : Crafting CPU? Definitely. Looks like you put it together with Crafting Units...\n    Dataologist Dante : Which are basic structure blocks.\n    Linguist Larry : Crafting Storage...\n    Dataologist Dante :  Providing processing power.\n    Linguist Larry : Yep, and the Crafting Co-Processor Unit.\n    Dataologist Dante : Hm... Ah I see, its like multi-core processing. Enables the system to do more tasks at once.\n    Linguist Larry : Right, so we toss all these together into a sort of cube shape and... oh hey, the faces of the machien blocks changed. \n    Dataologist Dante : Looks like it\u0027s formed the Crafting CPU? As long as it doesn\u0027t form a head or arms or anything...\n    Linguist Larry : No lion robots here, though that\u0027d be cool. Alright, it\u0027s wired into the ME Network. What\u0027s next, something about Patterns?\n    Dataologist Dante : Looks like blueprints, in a way. Yeah, data blueprints. Take this Blank Pattern, and place it into either the ME Pattern Terminal or the Pattern Encoder, show it a recipe, and it can imprint it as a blueprint. Neat.\n    Linguist Larry : Oops, I encoded the recipe wrong. What\u0027s it say here... here, you can clear it by holding it and Shift + Right Clicking to turn an Encoded Pattern back into a Blank one.\n    Dataologist Dante : Good cause those Patterns aren\u0027t as cheap as paper. Here, I set up a Molecular Assembler on the network. Hand me the pattern and... there, slotted in. Let me look at the Terminal here and... oh, I see it. Bread, cheese, meat, mayo... and a button for a sandwich. Cute... and good thinking, I\u0027m hungry. \n    Linguist Larry : Yep, this way we can keep working and have a snack at the same time. Feels kind of odd to be rematerializing food.\n    Dataologist Dante : It\u0027s like Star Trek. I\u0027m okay with that. Okay, it\u0027s bringing up ME Interfaces again. We still have one from earlier hooked up, let me move the Assembler over and mess with it a bit...\n    Linguist Larry : Mhmhmm... sorry, should have stocked drink too. Looks like the ME Interface holds a bunch of patterns itself, and any Molecular Assemblers touching it can access the patterns.\n    Dataologist Dante : Oh, combined with Co-Processing units and stuff, it cuts down on the amount of channels used. Good, very good. Let\u0027s go get a drink...",
       "isMain": false,
       "isSilent": true,
       "lockedProgress": false,
@@ -67096,20 +67559,184 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "appliedenergistics2:item.ItemMultiPart",
-        "Count": 1,
+        "id": "appliedenergistics2:tile.BlockCraftingUnit",
+        "Count": 2,
         "OreDict": "",
-        "Damage": 35
+        "Damage": 1
       },
-      "visibility": "HIDDEN",
+      "visibility": "NORMAL",
       "tasks": [
         {
-          "taskID": "bq_standard:checkbox"
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockCraftingUnit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockCraftingStorage",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "appliedenergistics2:tile.BlockCraftingStorage",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockCraftingUnit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 52
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 340
+            },
+            {
+              "id": "ae2stuff:Encoder",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockMolecularAssembler",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
       "preRequisites": [
-        559
+        566
       ]
     },
     {
@@ -67454,9 +68081,7 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [
-        567
-      ]
+      "preRequisites": []
     },
     {
       "questID": 572,
@@ -67502,13 +68127,11 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [
-        567
-      ]
+      "preRequisites": []
     },
     {
       "questID": 573,
-      "name": "Dense Cables!",
+      "name": "Gaseous ME Systems",
       "description": "§1Josh:§rDense Cables! these cables can hold up to 32 channels and are like the super highways of your soon-to-be ME network.",
       "isMain": false,
       "isSilent": true,
@@ -67526,10 +68149,10 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "appliedenergistics2:item.ItemMultiPart",
+        "id": "extracells:storage.casing",
         "Count": 1,
         "OreDict": "",
-        "Damage": 76
+        "Damage": 2
       },
       "visibility": "HIDDEN",
       "tasks": [
@@ -67551,7 +68174,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        563
+        565
       ]
     },
     {
@@ -67598,9 +68221,7 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [
-        567
-      ]
+      "preRequisites": []
     },
     {
       "questID": 575,
@@ -67646,9 +68267,7 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [
-        567
-      ]
+      "preRequisites": []
     },
     {
       "questID": 576,
@@ -67694,9 +68313,7 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [
-        567
-      ]
+      "preRequisites": []
     },
     {
       "questID": 577,
@@ -67742,14 +68359,12 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [
-        567
-      ]
+      "preRequisites": []
     },
     {
       "questID": 578,
-      "name": "Smart Cables",
-      "description": "§1Josh§r: Smart cables are smarter in the sense that they display to you the amount of channels used on the cable itself.",
+      "name": "Fluidic ME Systems",
+      "description": "--------\n    §k.....§rtented ME System §k...§r more than §k........§r object data§k.....§r fluids as well! \n    §k......§r access the stored fluids §k.  .§r ME Fluid Terminal§k..§r spots for containers §k..§r adding or removing §k..§r \n    §k..§r store fluids§k....§r special drives§k....§r Fluid Storage Housing and some Storage Component§k......§r drives §k....§r sizes!\n    §k...§r the ME Fluid Level Emitter §k....§r Redstone Signal depending on fluid levels§k......§r\n    The Fluid Storage Mon§k....§rdisplay the amount §k...§r set§k....§r Right Click a bucket of the fluid §k......§r then a Wrench §k.....§r\n    §k....§r the Fluid Conversion Monitor§k......§r set and lock in a liquid§k....§r use an empty bucket §k.....§r from storage!\n--------\n    Dataologist Dante : Here, some blueprints from this transmission. This one is looking really good.\n    Linguist Larry : Oh? Let me check... oh, this ME system can also do Fluids? That\u0027s... big. Really big.\n    Dataologist Dante : Definitely. No separate tanks for each liquid. No separate pipes either. Nice and compact.\n    Linguist Larry : So liquids have a their own storage drives and interfaces. Keeps them from getting too cluttered I guess.\n    Dataologist Dante : Yep, they match up to the normal item data ones. ME Terminal to ME Fluid Terminal, ME Drives to ME Fluid Drives, etc. Looks like the fluid terminal has slots to input and output liquid in its interface. Handy.\n    Linguist Larry : Look, ME Fluid Level Emitter too. And the Storage and Conversion Monitors as well.\n    Dataologist Dante : Just like the normal ones, except you Right Click with a bucket of the liquid you want to track and THEN lock it with a wrench.\n    Linguist Larry : So for the Conversion Monitor, just Right Click an empty Bucket on it and... hey, look, water. Neat.",
       "isMain": false,
       "isSilent": true,
       "lockedProgress": false,
@@ -67766,12 +68381,12 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "appliedenergistics2:item.ItemMultiPart",
-        "Count": 1,
+        "id": "extracells:storage.casing",
+        "Count": 4,
         "OreDict": "",
-        "Damage": 56
+        "Damage": 1
       },
-      "visibility": "HIDDEN",
+      "visibility": "NORMAL",
       "tasks": [
         {
           "partialMatch": true,
@@ -67780,18 +68395,166 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "appliedenergistics2:item.ItemMultiPart",
+              "id": "extracells:part.base",
               "Count": 1,
               "OreDict": "",
-              "Damage": 56
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "extracells:storage.casing",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "extracells:storage.component",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "extracells:storage.component",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "extracells:storage.fluid",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            },
+            {
+              "id": "extracells:storage.fluid",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {}
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "extracells:part.base",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "extracells:part.base",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "extracells:part.base",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
             }
           ],
           "taskID": "bq_standard:retrieval"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
       "preRequisites": [
-        563
+        565
       ]
     }
   ],
@@ -70156,7 +70919,7 @@
         },
         {
           "id": 559,
-          "x": 188,
+          "x": 184,
           "y": 72
         },
         {
@@ -70181,23 +70944,23 @@
         },
         {
           "id": 563,
-          "x": 220,
-          "y": 12
+          "x": 292,
+          "y": 112
         },
         {
           "id": 564,
-          "x": 220,
-          "y": 60
+          "x": 256,
+          "y": 112
         },
         {
           "id": 567,
-          "x": 228,
-          "y": 168
+          "x": 256,
+          "y": 32
         },
         {
           "id": 568,
-          "x": 184,
-          "y": 12
+          "x": 220,
+          "y": 32
         },
         {
           "id": 569,
@@ -70211,57 +70974,57 @@
         },
         {
           "id": 571,
-          "x": 204,
-          "y": 168
+          "x": 184,
+          "y": 192
         },
         {
           "id": 572,
-          "x": 228,
-          "y": 192
+          "x": 328,
+          "y": 32
         },
         {
           "id": 574,
-          "x": 204,
-          "y": 192
+          "x": 232,
+          "y": 200
         },
         {
           "id": 575,
-          "x": 252,
-          "y": 144
+          "x": 328,
+          "y": 72
         },
         {
           "id": 576,
-          "x": 252,
-          "y": 192
+          "x": 292,
+          "y": 32
         },
         {
           "id": 577,
-          "x": 252,
-          "y": 168
+          "x": 328,
+          "y": 112
         },
         {
           "id": 573,
-          "x": 244,
-          "y": 12
+          "x": 292,
+          "y": 72
         },
         {
           "id": 578,
-          "x": 268,
-          "y": 12
+          "x": 256,
+          "y": 72
         },
         {
           "id": 565,
-          "x": 252,
-          "y": 84
+          "x": 220,
+          "y": 72
         },
         {
           "id": 566,
-          "x": 252,
-          "y": 108
+          "x": 220,
+          "y": 112
         },
         {
           "id": 139,
-          "x": 188,
+          "x": 184,
           "y": 112
         }
       ]
