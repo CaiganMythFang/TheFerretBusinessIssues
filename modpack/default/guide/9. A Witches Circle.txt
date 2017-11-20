@@ -1,0 +1,16 @@
+§l 9.0 - A Witches Circle §r
+
+Mistress Weatherwand here. I have added this little guide to your...well, guide. If you are not in search of a "Stone Circle", you may be some time in the future. 
+
+{"image":"4.1-circle-perspective.png", "width":200, "height":120}
+
+Witchcraft books may refer to "Stone Circles" or "Circle of Standing Stones". They can be found all over the place, in almost any world. Witches tend to gather there, as do monsterous creatures.
+
+The true difference though, is the circle pictured above is one I created with my own hands! I mean, they do have to come from somewhere, child, why not from us?
+
+Ahem. You will need some simple components : a stack of cobblestone, a bucket of water, and 8 Chiseled Stone Bricks.
+
+{"image":"4.1-circle-topdown.png", "width":200, "height":120}
+
+Place the Chiseled Stone Bricks in a 3x3 circle in the center, filling the middle with the Water. Then six blocks from the center in each cardinal direction, construct the stone circle. It is a 3 block high circle, keep in mind.
+

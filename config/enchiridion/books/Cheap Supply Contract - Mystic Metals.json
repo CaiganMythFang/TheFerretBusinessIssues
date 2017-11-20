@@ -1,0 +1,190 @@
+{
+  "book": [
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "contracts/cheap-contract.png",
+            "xPos": 70,
+            "yPos": -48,
+            "width": 270.0,
+            "height": 264.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "Thaumcraft:ItemResource 2",
+            "xPos": 87,
+            "yPos": 22,
+            "width": 28.0,
+            "height": 28.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Thaumium Ingot",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FF000000",
+            "xPos": 123,
+            "yPos": 24,
+            "width": 68.0,
+            "height": 19.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "2",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FFFF0000",
+            "xPos": 185,
+            "yPos": 41,
+            "width": 16.0,
+            "height": 6.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "Thaumcraft:blockCosmeticSolid 4",
+            "xPos": 211,
+            "yPos": 22,
+            "width": 28.0,
+            "height": 28.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Thaumium Block",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FF000000",
+            "xPos": 247,
+            "yPos": 24,
+            "width": 69.0,
+            "height": 21.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "2",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FFFF0000",
+            "xPos": 309,
+            "yPos": 41,
+            "width": 16.0,
+            "height": 6.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "Botania:manaResource 0",
+            "xPos": 87,
+            "yPos": 55,
+            "width": 28.0,
+            "height": 28.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Manasteel Ingot",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FF000000",
+            "xPos": 123,
+            "yPos": 57,
+            "width": 67.0,
+            "height": 20.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "2",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FFFF0000",
+            "xPos": 185,
+            "yPos": 74,
+            "width": 17.0,
+            "height": 5.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "Botania:storage 0",
+            "xPos": 211,
+            "yPos": 55,
+            "width": 28.0,
+            "height": 28.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Block of Manasteel",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FF000000",
+            "xPos": 247,
+            "yPos": 57,
+            "width": 68.0,
+            "height": 22.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "2",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FFFF0000",
+            "xPos": 309,
+            "yPos": 74,
+            "width": 17.0,
+            "height": 5.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Gathering enough power for some of these materials is tough! A tiny shipment could really boost my research!",
+            "wrap": 0,
+            "size": 0.9,
+            "color": "FF000000",
+            "xPos": 149,
+            "yPos": 167,
+            "width": 183.0,
+            "height": 51.0
+          }
+        }
+      ],
+      "pageName": ""
+    }
+  ],
+  "uniqueName": "Cheap Supply Contract - Mystic Metals",
+  "color": 5655097,
+  "showBackground": false,
+  "showArrows": false,
+  "showNumber": false,
+  "iconPass1": "",
+  "iconPass2": "",
+  "iconColorisePass1": true,
+  "iconColorisePass2": true,
+  "iconColorPass1": 5655097,
+  "iconColorPass2": 5655097,
+  "language": "en_US",
+  "displayName": "Cheap Supply Contract - Mystic Metals",
+  "displayInCreative": true
+}

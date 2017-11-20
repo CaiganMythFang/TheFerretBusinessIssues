@@ -1,0 +1,190 @@
+{
+  "book": [
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "contracts/good-contract.png",
+            "xPos": 70,
+            "yPos": -48,
+            "width": 270.0,
+            "height": 264.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ferretblocks:compressed_gold",
+            "xPos": 87,
+            "yPos": 22,
+            "width": 28.0,
+            "height": 28.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Compressed Gold Block",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FF000000",
+            "xPos": 123,
+            "yPos": 24,
+            "width": 68.0,
+            "height": 19.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "1",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FFFF0000",
+            "xPos": 185,
+            "yPos": 41,
+            "width": 16.0,
+            "height": 6.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ferretblocks:compressed_silver",
+            "xPos": 211,
+            "yPos": 22,
+            "width": 28.0,
+            "height": 28.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Compressed Silver Block",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FF000000",
+            "xPos": 247,
+            "yPos": 24,
+            "width": 69.0,
+            "height": 21.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "1",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FFFF0000",
+            "xPos": 309,
+            "yPos": 41,
+            "width": 16.0,
+            "height": 6.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ferretblocks:compressed_electrum",
+            "xPos": 87,
+            "yPos": 55,
+            "width": 28.0,
+            "height": 28.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Compressed Electrum Block",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FF000000",
+            "xPos": 123,
+            "yPos": 57,
+            "width": 67.0,
+            "height": 20.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "1",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FFFF0000",
+            "xPos": 185,
+            "yPos": 74,
+            "width": 17.0,
+            "height": 5.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ThermalFoundation:material 69",
+            "xPos": 211,
+            "yPos": 55,
+            "width": 28.0,
+            "height": 28.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Shiny Ingot",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FF000000",
+            "xPos": 247,
+            "yPos": 57,
+            "width": 68.0,
+            "height": 22.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "3",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FFFF0000",
+            "xPos": 309,
+            "yPos": 74,
+            "width": 17.0,
+            "height": 5.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "We require an order of fancy metal ingots, particularly materials good for both jewelry and intricate circuits, as well as other fine works.",
+            "wrap": 0,
+            "size": 0.9,
+            "color": "FF000000",
+            "xPos": 149,
+            "yPos": 167,
+            "width": 183.0,
+            "height": 51.0
+          }
+        }
+      ],
+      "pageName": ""
+    }
+  ],
+  "uniqueName": "Good Supply Contract - Really Fancy Metal",
+  "color": 29372,
+  "showBackground": false,
+  "showArrows": false,
+  "showNumber": false,
+  "iconPass1": "",
+  "iconPass2": "",
+  "iconColorisePass1": true,
+  "iconColorisePass2": true,
+  "iconColorPass1": 29372,
+  "iconColorPass2": 29372,
+  "language": "en_US",
+  "displayName": "Good Supply Contract - Really Fancy Metal",
+  "displayInCreative": true
+}

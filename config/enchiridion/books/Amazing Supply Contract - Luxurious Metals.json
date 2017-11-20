@@ -1,0 +1,190 @@
+{
+  "book": [
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "contracts/amazing-contract.png",
+            "xPos": 70,
+            "yPos": -48,
+            "width": 270.0,
+            "height": 264.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ferretblocks:compressed_gold",
+            "xPos": 87,
+            "yPos": 22,
+            "width": 28.0,
+            "height": 28.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Compressed Gold Block",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FF000000",
+            "xPos": 123,
+            "yPos": 24,
+            "width": 68.0,
+            "height": 19.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "1",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FFFF0000",
+            "xPos": 185,
+            "yPos": 41,
+            "width": 16.0,
+            "height": 6.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ferretblocks:compressed_silver",
+            "xPos": 211,
+            "yPos": 22,
+            "width": 28.0,
+            "height": 28.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Compressed Silver Block",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FF000000",
+            "xPos": 247,
+            "yPos": 24,
+            "width": 69.0,
+            "height": 21.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "1",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FFFF0000",
+            "xPos": 309,
+            "yPos": 41,
+            "width": 16.0,
+            "height": 6.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ferretblocks:compressed_electrum",
+            "xPos": 87,
+            "yPos": 55,
+            "width": 28.0,
+            "height": 28.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Compressed Electrum Block",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FF000000",
+            "xPos": 123,
+            "yPos": 57,
+            "width": 67.0,
+            "height": 20.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "3",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FFFF0000",
+            "xPos": 185,
+            "yPos": 74,
+            "width": 17.0,
+            "height": 5.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "ferretblocks:compressed_platinum",
+            "xPos": 211,
+            "yPos": 55,
+            "width": 28.0,
+            "height": 28.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Compressed Platinum Block",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FF000000",
+            "xPos": 247,
+            "yPos": 57,
+            "width": 68.0,
+            "height": 22.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "3",
+            "wrap": 0,
+            "size": 0.79999995,
+            "color": "FFFF0000",
+            "xPos": 309,
+            "yPos": 74,
+            "width": 17.0,
+            "height": 5.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "We are requesting a large amount of metals, basic and alloyed, that work well for high tech circuitry.",
+            "wrap": 0,
+            "size": 0.9,
+            "color": "FF000000",
+            "xPos": 149,
+            "yPos": 167,
+            "width": 183.0,
+            "height": 51.0
+          }
+        }
+      ],
+      "pageName": ""
+    }
+  ],
+  "uniqueName": "Amazing Supply Contract - Luxurious Metals",
+  "color": 6697881,
+  "showBackground": false,
+  "showArrows": false,
+  "showNumber": false,
+  "iconPass1": "",
+  "iconPass2": "",
+  "iconColorisePass1": true,
+  "iconColorisePass2": true,
+  "iconColorPass1": 6697881,
+  "iconColorPass2": 6697881,
+  "language": "en_US",
+  "displayName": "Amazing Supply Contract - Luxurious Metals",
+  "displayInCreative": true
+}

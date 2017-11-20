@@ -17,7 +17,7 @@ print(<HardcoreQuesting:quest_book>.displayName); // prints the original name
 <HardcoreQuesting:bags:4>.addTooltip(format.darkPurple("This Blind Bag will usually be Amazing"));
 
 
-<questbook:questBook>.displayName = "Q.U.E.S.T. Tablet v2";
-<questbook:questBook>.addTooltip(format.lightPurple("This is the most useful tool any assistant and/or "));
-<questbook:questBook>.addTooltip(format.lightPurple("researcher of The Ferret Business can ever have!"));
-<questbook:questBook>.addTooltip(format.darkRed("Q.U.E.S.T. Tablet also accessable via ~ key by default."));
+<questbook:ItemQuestBook>.displayName = "Q.U.E.S.T. Tablet v2";
+<questbook:ItemQuestBook>.addTooltip(format.lightPurple("This is the most useful tool any assistant and/or "));
+<questbook:ItemQuestBook>.addTooltip(format.lightPurple("researcher of The Ferret Business can ever have!"));
+<questbook:ItemQuestBook>.addTooltip(format.darkRed("Q.U.E.S.T. Tablet also accessable via ~ key by default."));

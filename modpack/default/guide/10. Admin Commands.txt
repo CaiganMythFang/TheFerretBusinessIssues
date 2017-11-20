@@ -1,0 +1,32 @@
+§l 10.0 - Administrative Commands §r
+
+There are many helpful commands a player can use to help fix things. 
+
+For now, this section will only cover Better Questing commands, but more will be added later.
+ 
+--- §lQuest ID§r ---
+Many commands require knowing the ID of a Quest.
+
+You can find this by holding SHIFT when hovering your mouse over the quest. There will be a number after the quest name, which is the QuestID
+
+--- §lQuest Progress Commands§r ---
+
+/bq_admin reset all playername
+    This will reset (playername)'s quest progress. Leave playername blank to reset ALL player's quest progress
+
+/bq_admin reset QuestID playername
+    This will reset the specific quest for (playername)
+    
+/bq_admin complete QuestID playername
+    This will mark the specific quest completed for (playername) 
+
+--- §lOther Questing Commands§r ---
+
+/bq_admin edit
+    This will drop you in and out of edit mode.
+    
+/hqm quest
+    Activate questing mode for HQM, to make the TFB Corporate Shop accessable. (usually necessary if you have to clear HardcoreQuesting data for some reason)
+    
+/hqm hardcore disable
+    If HQM's Hardcore Mode was enabled, this will disable it.

@@ -48,60 +48,80 @@ recipes.addShapeless(<ferretshinies:NullToken:76> * 2, [<ferretshinies:NullToken
 
 // Bronze Chit
 <ferretshinies:NullToken:79>.addTooltip(format.green("A Ferret Business Shop Token."));
+<ferretshinies:NullToken:79>.addTooltip(format.darkPurple("Can exchange for Silver Coins in an EnderIO SAG Mill,"));
+<ferretshinies:NullToken:79>.addTooltip(format.darkPurple("or Reputation Tracks in the Q.U.E.S.T. Tablet."));
 <ferretshinies:NullToken:79>.addTooltip(format.white("Represents 8 points worth of Shop purchases. Combine "));
 <ferretshinies:NullToken:79>.addTooltip(format.white("two equal value Shop Tokens to make a larger Token,"));
 <ferretshinies:NullToken:79>.addTooltip(format.white("or craft alone to break it down into smaller Tokens."));
 
 // Steel Chit
 <ferretshinies:NullToken:80>.addTooltip(format.green("A Ferret Business Shop Token."));
+<ferretshinies:NullToken:80>.addTooltip(format.darkPurple("Can exchange for Silver Coins in an EnderIO SAG Mill,"));
+<ferretshinies:NullToken:80>.addTooltip(format.darkPurple("or Reputation Tracks in the Q.U.E.S.T. Tablet."));
 <ferretshinies:NullToken:80>.addTooltip(format.white("Represents 16 points worth of Shop purchases. Combine "));
 <ferretshinies:NullToken:80>.addTooltip(format.white("two equal value Shop Tokens to make a larger Token,"));
 <ferretshinies:NullToken:80>.addTooltip(format.white("or craft alone to break it down into smaller Tokens."));
 
 // Silver Chit
 <ferretshinies:NullToken:81>.addTooltip(format.green("A Ferret Business Shop Token."));
+<ferretshinies:NullToken:81>.addTooltip(format.darkPurple("Can exchange for Silver Coins in an EnderIO SAG Mill,"));
+<ferretshinies:NullToken:81>.addTooltip(format.darkPurple("or Reputation Tracks in the Q.U.E.S.T. Tablet."));
 <ferretshinies:NullToken:81>.addTooltip(format.white("Represents 32 points worth of Shop purchases. Combine "));
 <ferretshinies:NullToken:81>.addTooltip(format.white("two equal value Shop Tokens to make a larger Token,"));
 <ferretshinies:NullToken:81>.addTooltip(format.white("or craft alone to break it down into smaller Tokens."));
 
 // Gold Chit
 <ferretshinies:NullToken:82>.addTooltip(format.green("A Ferret Business Shop Token."));
+<ferretshinies:NullToken:82>.addTooltip(format.darkPurple("Can exchange for Silver Coins in an EnderIO SAG Mill,"));
+<ferretshinies:NullToken:82>.addTooltip(format.darkPurple("or Reputation Tracks in the Q.U.E.S.T. Tablet."));
 <ferretshinies:NullToken:82>.addTooltip(format.white("Represents 64 points worth of Shop purchases. Combine "));
 <ferretshinies:NullToken:82>.addTooltip(format.white("two equal value Shop Tokens to make a larger Token,"));
 <ferretshinies:NullToken:82>.addTooltip(format.white("or craft alone to break it down into smaller Tokens."));
 
 // Thaumium Chit
 <ferretshinies:NullToken:83>.addTooltip(format.green("A Ferret Business Shop Token."));
+<ferretshinies:NullToken:83>.addTooltip(format.darkPurple("Can exchange for Silver Coins in an EnderIO SAG Mill,"));
+<ferretshinies:NullToken:83>.addTooltip(format.darkPurple("or Reputation Tracks in the Q.U.E.S.T. Tablet."));
 <ferretshinies:NullToken:83>.addTooltip(format.white("Represents 128 points worth of Shop purchases. Combine "));
 <ferretshinies:NullToken:83>.addTooltip(format.white("two equal value Shop Tokens to make a larger Token,"));
 <ferretshinies:NullToken:83>.addTooltip(format.white("or craft alone to break it down into smaller Tokens."));
 
 // Diamond Chit
 <ferretshinies:NullToken:84>.addTooltip(format.green("A Ferret Business Shop Token."));
+<ferretshinies:NullToken:84>.addTooltip(format.darkPurple("Can exchange for Silver Coins in an EnderIO SAG Mill,"));
+<ferretshinies:NullToken:84>.addTooltip(format.darkPurple("or Reputation Tracks in the Q.U.E.S.T. Tablet."));
 <ferretshinies:NullToken:84>.addTooltip(format.white("Represents 256 points worth of Shop purchases. Combine "));
 <ferretshinies:NullToken:84>.addTooltip(format.white("two equal value Shop Tokens to make a larger Token,"));
 <ferretshinies:NullToken:84>.addTooltip(format.white("or craft alone to break it down into smaller Tokens."));
 
 // Obsidian Chit
 <ferretshinies:NullToken:85>.addTooltip(format.green("A Ferret Business Shop Token."));
+<ferretshinies:NullToken:85>.addTooltip(format.darkPurple("Can exchange for Silver Coins in an EnderIO SAG Mill,"));
+<ferretshinies:NullToken:85>.addTooltip(format.darkPurple("or Reputation Tracks in the Q.U.E.S.T. Tablet."));
 <ferretshinies:NullToken:85>.addTooltip(format.white("Represents 512 points worth of Shop purchases. Combine "));
 <ferretshinies:NullToken:85>.addTooltip(format.white("two equal value Shop Tokens to make a larger Token,"));
 <ferretshinies:NullToken:85>.addTooltip(format.white("or craft alone to break it down into smaller Tokens."));
 
 // Enderium Chit
 <ferretshinies:NullToken:86>.addTooltip(format.green("A Ferret Business Shop Token."));
+<ferretshinies:NullToken:86>.addTooltip(format.darkPurple("Can exchange for Silver Coins in an EnderIO SAG Mill,"));
+<ferretshinies:NullToken:86>.addTooltip(format.darkPurple("or Reputation Tracks in the Q.U.E.S.T. Tablet."));
 <ferretshinies:NullToken:86>.addTooltip(format.white("Represents 1,024 points worth of Shop purchases. Combine "));
 <ferretshinies:NullToken:86>.addTooltip(format.white("two equal value Shop Tokens to make a larger Token,"));
 <ferretshinies:NullToken:86>.addTooltip(format.white("or craft alone to break it down into smaller Tokens."));
 
 // Manyullyn Chit
 <ferretshinies:NullToken:87>.addTooltip(format.green("A Ferret Business Shop Token."));
+<ferretshinies:NullToken:87>.addTooltip(format.darkPurple("Can exchange for Silver Coins in an EnderIO SAG Mill,"));
+<ferretshinies:NullToken:87>.addTooltip(format.darkPurple("or Reputation Tracks in the Q.U.E.S.T. Tablet."));
 <ferretshinies:NullToken:87>.addTooltip(format.white("Represents 2,048 points worth of Shop purchases. Combine "));
 <ferretshinies:NullToken:87>.addTooltip(format.white("two equal value Shop Tokens to make a larger Token,"));
 <ferretshinies:NullToken:87>.addTooltip(format.white("or craft alone to break it down into smaller Tokens."));
 
 // Awakened Draconium Chit
 <ferretshinies:NullToken:88>.addTooltip(format.green("A Ferret Business Shop Token."));
+<ferretshinies:NullToken:88>.addTooltip(format.darkPurple("Can exchange for Silver Coins in an EnderIO SAG Mill,"));
+<ferretshinies:NullToken:88>.addTooltip(format.darkPurple("or Reputation Tracks in the Q.U.E.S.T. Tablet."));
 <ferretshinies:NullToken:88>.addTooltip(format.white("Represents 4,096 points worth of Shop purchases. This "));
 <ferretshinies:NullToken:88>.addTooltip(format.white("is the highest tier Shop Token. Craft it alone"));
 <ferretshinies:NullToken:88>.addTooltip(format.white("to break it into smaller Tokens."));

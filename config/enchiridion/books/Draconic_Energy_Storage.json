@@ -628,9 +628,6 @@
       "pageName": ""
     }
   ],
-  "displayNames": {
-    "en_US": "Draconic Energy Storage Guide"
-  },
   "uniqueName": "Draconic_Energy_Storage",
   "color": 8585208,
   "showBackground": true,
@@ -640,7 +637,9 @@
   "iconPass2": "",
   "iconColorisePass1": false,
   "iconColorisePass2": false,
-  "displayName": "Draconic Energy Storage Guide",
   "iconColorPass1": 0,
-  "iconColorPass2": 0
+  "iconColorPass2": 0,
+  "language": "en_US",
+  "displayName": "Draconic Energy Storage Guide",
+  "displayInCreative": true
 }

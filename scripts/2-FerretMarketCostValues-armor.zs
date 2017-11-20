@@ -158,6 +158,17 @@ for i, toy in FMCArmor4000 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =4,000=") + " | " + format.green("Armor ")+ ")"));
 }
 
+// Ferret Market Cost, Armor - 4,500
+var FMCArmor4500 = [
+<witchery:witchhat>
+] as IItemStack[];
+
+for i, toy in FMCArmor4500 {
+     <ore:zFMC4500>.add(toy);
+     <ore:zFMCArmor4500>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =4,500=") + " | " + format.green("Armor ")+ ")"));
+}
+
 // Ferret Market Cost, Armor - 5,000
 var FMCArmor5000 = [
 <Thaumcraft:ItemHelmetCultistLeaderPlate>, <Thaumcraft:ItemChestplateCultistLeaderPlate>, <Thaumcraft:ItemLeggingsCultistLeaderPlate>
@@ -189,6 +200,17 @@ for i, toy in FMCArmor6500 {
      <ore:zFMC6500>.add(toy);
      <ore:zFMCArmor6500>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =6,500=") + " | " + format.green("Armor ")+ ")"));
+}
+
+// Ferret Market Cost, Armor - 7,000
+var FMCArmor7000 = [
+<witchery:witchrobe>
+] as IItemStack[];
+
+for i, toy in FMCArmor7000 {
+     <ore:zFMC7000>.add(toy);
+     <ore:zFMCArmor7000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.lightPurple(" =7,000=") + " | " + format.green("Armor ")+ ")"));
 }
 
 // Ferret Market Cost, Armor - 7,500

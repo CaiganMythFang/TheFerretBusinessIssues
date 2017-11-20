@@ -1404,6 +1404,7 @@ minecraft:spawn_egg:100, Spawn Horse
 minecraft:spawn_egg:120, Spawn Villager
 minecraft:spawn_egg:6, Spawn Nuclear Monster
 minecraft:spawn_egg:7, Spawn Paul
+minecraft:spawn_egg:23, Spawn Brian
 minecraft:spawn_egg:6396, Spawn Demon
 minecraft:spawn_egg:6397, Spawn Mandrake
 minecraft:spawn_egg:6398, Spawn Treefyd
@@ -1602,9 +1603,20 @@ AgriCraft:cropDaisy, Daisy
 AgriCraft:cropCactus, Cactus
 AgriCraft:cropShroomRed, Red Mushroom
 AgriCraft:cropShroomBrown, Brown Mushroom
-aura:monitor, Monitor
-aura:storageBookshelf, Storage Bookshelf
-aura:storageBookshelfCoordinator, Bookshelf Coordinator
+aura:consumerBlockfurnace, Cascading Smelter
+aura:consumerBlockplant, Cascading Grower
+aura:consumerBlockore, Cascading Processor
+aura:consumerBlockloot, Cascading Looter
+aura:consumerBlockmob, Cascading Spawner
+aura:consumerBlockangel, Cascading Synthesizer
+aura:consumerBlocknether, Ritual of the Nether
+aura:consumerBlockenchant, Kaleidoscopic Enchanter
+aura:consumerBlockpotion, Cascading Brewer
+aura:consumerBlockdye, Cascading Colorer
+aura:consumerBlockoreAdv, Prismatic Processor
+aura:consumerBlockminer, Cascading Miner
+aura:consumerBlockfish, Cascading Fisher
+aura:consumerBlockend, Ritual of the End
 aura:auraNode, Aura Node
 aura:auraNodepump, Burning Aura Pump
 aura:auraNodeblack, Aura Manipulator: Black
@@ -1624,29 +1636,18 @@ aura:auraNodepumpCreative, Creative Pump (Creative Only)
 aura:auraNodepumpLightAlt, Alternating Illumination Aura Pump
 aura:auraNodepumpRedstoneAlt, Alternating Redstone Aura Pump
 aura:auraNodeflux, Fluxing Node
+aura:fairyTorch, tile.fairyTorch.name
+aura:trampoline, Rebounding Enigma
 aura:fortifiedDirt, Fortified Dirt
 aura:fortifiedWood, Fortified Planks
 aura:fortifiedGlass, Fortified Glass
 aura:fortifiedCobblestone, Fortified Cobblestone
 aura:fortifiedStone, Fortified Stone
 aura:fortifiedObsidian, Fortified Obsidian
-aura:trampoline, Rebounding Enigma
-aura:fairyTorch, tile.fairyTorch.name
+aura:storageBookshelfCoordinator, Bookshelf Coordinator
 aura:magicRoad, Traveler's Bricks
-aura:consumerBlockfurnace, Cascading Smelter
-aura:consumerBlockplant, Cascading Grower
-aura:consumerBlockore, Cascading Processor
-aura:consumerBlockloot, Cascading Looter
-aura:consumerBlockmob, Cascading Spawner
-aura:consumerBlockangel, Cascading Synthesizer
-aura:consumerBlocknether, Ritual of the Nether
-aura:consumerBlockenchant, Kaleidoscopic Enchanter
-aura:consumerBlockpotion, Cascading Brewer
-aura:consumerBlockdye, Cascading Colorer
-aura:consumerBlockoreAdv, Prismatic Processor
-aura:consumerBlockminer, Cascading Miner
-aura:consumerBlockfish, Cascading Fisher
-aura:consumerBlockend, Ritual of the End
+aura:storageBookshelf, Storage Bookshelf
+aura:monitor, Monitor
 AWWayofTime:Altar, Blood Altar
 AWWayofTime:AlchemicalWizardrybloodRune:0, Blood Rune
 AWWayofTime:AlchemicalWizardrybloodRune:1, Rune of Augmented Capacity
@@ -2459,7 +2460,7 @@ Avaritia:Neutron_Collector, Neutron Collector
 Avaritia:Neutronium_Compressor, Neutronium Compressor
 avaritiaddons:CompressedChest, Compressed Chest
 avaritiaddons:InfinityChest, Infinity Chest
-avaritiaddons:ExtremeAutoCrafter, Dire Autocrafing Table
+avaritiaddons:ExtremeAutoCrafter, Dire Autocrafting Table
 Natura:N Crops, Crops
 Natura:BerryBush:12, Raspberry Bush
 Natura:BerryBush:13, Blueberry Bush
@@ -3403,7 +3404,7 @@ BinnieCore:storage:2, Bronze Compartment
 BinnieCore:storage:3, Iron Compartment
 BinnieCore:storage:4, Gold Compartment
 BinnieCore:storage:5, Diamond Compartment
-Botany:flower, tile.flower.name
+Botany:flower, Flower
 Botany:plant:0, Weeds
 Botany:plant:1, Long Weeds
 Botany:plant:2, Very Long Weeds
@@ -3467,18 +3468,6 @@ Botany:ceramic, tile.ceramic.name
 Botany:stained, tile.stained.name
 Botany:ceramicPattern, tile.ceramicPattern.name
 Botany:ceramicBrick, tile.ceramicBrick.name
-ExtraBees:ectoplasm, Ectoplasm
-ExtraBees:hive:0, Water Hive
-ExtraBees:hive:1, Rock Hive
-ExtraBees:hive:2, Nether Hive
-ExtraBees:hive:3, Marble Hive
-ExtraBees:alveary:0, Mutator
-ExtraBees:alveary:1, Frame Housing
-ExtraBees:alveary:2, Rain Shield
-ExtraBees:alveary:3, Alveary Lighting
-ExtraBees:alveary:4, Electrical Stimulator
-ExtraBees:alveary:5, Hatchery
-ExtraBees:alveary:6, Alveary Transmission
 ExtraTrees:planks, tile.planks.name
 ExtraTrees:fence, Fence
 ExtraTrees:multifence, tile.multifence.name
@@ -3527,21 +3516,30 @@ ExtraTrees:stainedglass, Stained Glass
 ExtraTrees:machine:0, Lumbermill
 ExtraTrees:machine:1, Woodworker
 ExtraTrees:machine:2, Panelworker
-ExtraTrees:machine:4, Fruit Press
-ExtraTrees:machine:5, Brewery
-ExtraTrees:machine:6, Distillery
-ExtraTrees:machine:7, Glassworker
-ExtraTrees:machine:8, Tileworker
+ExtraTrees:machine:3, Glassworker
+ExtraTrees:machine:4, Tileworker
 Genetics:machine:0, Isolator
 Genetics:machine:1, Sequencer
 Genetics:machine:2, Polymeriser
 Genetics:machine:3, Inoculator
 Genetics:labMachine:0, Lab Stand
-Genetics:labMachine:1, Analyser
+Genetics:labMachine:1, Analyzer
 Genetics:labMachine:2, Incubator
 Genetics:labMachine:3, Genepool
 Genetics:labMachine:4, Acclimatiser
 Genetics:advMachine:0, Splicer
+ExtraBees:ectoplasm, Ectoplasm
+ExtraBees:hive:0, Water Hive
+ExtraBees:hive:1, Rock Hive
+ExtraBees:hive:2, Nether Hive
+ExtraBees:hive:3, Marble Hive
+ExtraBees:alveary:0, Mutator
+ExtraBees:alveary:1, Frame Housing
+ExtraBees:alveary:2, Rain Shield
+ExtraBees:alveary:3, Alveary Lighting
+ExtraBees:alveary:4, Electrical Stimulator
+ExtraBees:alveary:5, Hatchery
+ExtraBees:alveary:6, Alveary Transmission
 BuildCraft|Core:eternalSpring:0, Water Spring
 BuildCraft|Core:eternalSpring:1, Oil Spring
 BuildCraft|Core:buildToolBlock, tile.buildToolBlock.name
@@ -3553,17 +3551,6 @@ BuildCraft|Core:markerBlock, Land Mark
 BuildCraft|Core:pathMarkerBlock, Path Mark
 BuildCraft|Transport:filteredBufferBlock, Filtered Buffer
 BuildCraft|Transport:pipeBlock, tile.pipeBlock.name
-BuildCraft|Silicon:laserBlock, Laser
-BuildCraft|Silicon:laserTableBlock:0, Assembly Table
-BuildCraft|Silicon:laserTableBlock:1, Advanced Crafting Table
-BuildCraft|Silicon:laserTableBlock:2, Integration Table
-BuildCraft|Silicon:laserTableBlock:3, Charging Table
-BuildCraft|Silicon:laserTableBlock:4, Programming Table
-BuildCraft|Silicon:laserTableBlock:5, Stamping Table
-BuildCraft|Silicon:packagerBlock, Recipe Packager
-BuildCraft|Energy:blockOil, Oil
-BuildCraft|Energy:blockFuel, Fuel
-BuildCraft|Energy:blockRedPlasma, tile.blockRedPlasma.name
 BuildCraft|Factory:miningWellBlock, Mining Well
 BuildCraft|Factory:plainPipeBlock, Mining Pipe
 BuildCraft|Factory:autoWorkbenchBlock, Auto Workbench
@@ -3572,6 +3559,19 @@ BuildCraft|Factory:pumpBlock, Pump
 BuildCraft|Factory:floodGateBlock, Flood Gate
 BuildCraft|Factory:refineryBlock, Refinery
 BuildCraft|Factory:blockHopper, Chute
+BuildCraft|Silicon:laserBlock, Laser
+BuildCraft|Silicon:laserTableBlock:0, Assembly Table
+BuildCraft|Silicon:laserTableBlock:1, Advanced Crafting Table
+BuildCraft|Silicon:laserTableBlock:2, Integration Table
+BuildCraft|Silicon:laserTableBlock:3, Charging Table
+BuildCraft|Silicon:laserTableBlock:4, Programming Table
+BuildCraft|Silicon:laserTableBlock:5, Stamping Table
+BuildCraft|Silicon:packagerBlock, Recipe Packager
+BuildCraft|Robotics:zonePlan, Zone Planner
+BuildCraft|Robotics:requester, Requester
+BuildCraft|Energy:blockOil, Oil
+BuildCraft|Energy:blockFuel, Fuel
+BuildCraft|Energy:blockRedPlasma, tile.blockRedPlasma.name
 BuildCraft|Builders:machineBlock, Quarry
 BuildCraft|Builders:fillerBlock, Filler
 BuildCraft|Builders:frameBlock, Frame
@@ -3579,8 +3579,6 @@ BuildCraft|Builders:builderBlock, Builder Block
 BuildCraft|Builders:architectBlock, Architect Table
 BuildCraft|Builders:libraryBlock, Electronic Library
 BuildCraft|Builders:constructionMarkerBlock, Construction Mark
-BuildCraft|Robotics:zonePlan, Zone Planner
-BuildCraft|Robotics:requester, Requester
 Railcraft:fluid.creosote, Creosote
 Railcraft:fluid.steam, Steam
 Railcraft:residual.heat, Residual Heat
@@ -5923,9 +5921,11 @@ computronics:computronics.cipher_advanced, Advanced Cipher Block
 computronics:computronics.radar, Radar
 computronics:computronics.colorfulLamp, Colorful Lamp
 computronics:computronics.locomotiveRelay, Digital Locomotive Relay
-computronics:computronics.digitalBox, Digital Signal Receiver Box
+computronics:computronics.digitalReceiverBox, Digital Signal Receiver Box
+computronics:computronics.digitalControllerBox, Digital Signal Controller Box
 computronics:computronics.detector, Detector - Digital
 computronics:computronics.ticketMachine, Ticket Machine
+computronics:computronics.speechBox, Speech Box
 props:blockProps, tile.null.name
 props:blockFake, tile.null.name
 DraconicEvolution:xRayBlock, Distortion Flame
@@ -5990,9 +5990,10 @@ enhancedportals:dbs:0, Dimensional Bridge Stabilizer
 enhancedportals:decor_frame, Bordered Quartz
 enhancedportals:decor_dbs, Ender-Infused Metal
 enhancedportals:dbs_empty, Dimensional Bridge Stabilizer (Empty)
-exoticbirds:egg_sorter, Egg Sorter
-exoticbirds:nest, Empty Nest
+exoticbirds:egg_sorter, Egg Identifier
+exoticbirds:nest, Nest
 exoticbirds:phoenix_egg, Phoenix Egg
+exoticbirds:egg_incubator, Egg Incubator
 extracells:certustank, extracells.block.certustank.name
 extracells:walrus, Walrus
 extracells:fluidcrafter, ME Fluid Assembler
@@ -6003,7 +6004,7 @@ extracells:vibrantchamberfluid, Fluid Vibration Chamber
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Ender Collector
-ExtraUtilities:endConstructor:0, QED (Quark/Electron Director)
+ExtraUtilities:endConstructor:0, QED (Quantum Ender Device)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -6970,40 +6971,40 @@ ExtraTiC:blockFunStuff:0, Fairy Block
 ExtraTiC:blockFunStuff:1, Pokefennium Block
 ExtraTiC:blockFunStuff:2, RedAurum Block
 FlatSigns:blockFlatSign, Sign
-ThaumicTinkerer:bedrockPortal, Bedrock Portal
-ThaumicTinkerer:magnet:0, Kinetic Attractor
-ThaumicTinkerer:magnet:1, Corporeal Attractor
+ThaumicTinkerer:animationTablet, Dynamism Tablet
+ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
+ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
+ThaumicTinkerer:funnel, Essentia Funnel
 ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
 ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
 ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
-ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:interface, Transvector Interface
-ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
-ThaumicTinkerer:repairer, Thaumic Restorer
-ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
-ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
-ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
-ThaumicTinkerer:warpGate, Celestial Gateway
-ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
-ThaumicTinkerer:dislocator, Transvector Dislocator
-ThaumicTinkerer:enchanter, Osmotic Enchanter
-ThaumicTinkerer:aspectAnalyzer, Aspectalyzer
+ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
 ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ThaumicTinkerer:magnet:0, Kinetic Attractor
+ThaumicTinkerer:magnet:1, Corporeal Attractor
+ThaumicTinkerer:fireEarth, Terra Imbued Fire
+ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
+ThaumicTinkerer:fireAir, Aer Imbued Fire
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
+ThaumicTinkerer:interface, Transvector Interface
+ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:repairer, Thaumic Restorer
+ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:golemConnector, Golem Connector
+ThaumicTinkerer:fireWater, Aqua Imbued Fire
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
+ThaumicTinkerer:aspectAnalyzer, Aspectalyzer
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:spawner, Tablet of Necromancy
+ThaumicTinkerer:warpGate, Celestial Gateway
+ThaumicTinkerer:enchanter, Osmotic Enchanter
+ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
 ThaumicTinkerer:fireOrder, Ordo Imbued Fire
 ThaumicTinkerer:fireFire, Ignis Imbued Fire
-ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
-ThaumicTinkerer:fireEarth, Terra Imbued Fire
-ThaumicTinkerer:fireWater, Aqua Imbued Fire
-ThaumicTinkerer:platform, Ethereal Platform
-ThaumicTinkerer:forcefield, Forcefield
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
-ThaumicTinkerer:golemConnector, Golem Connector
-ThaumicTinkerer:fireChaos, Perditio Imbued Fire
-ThaumicTinkerer:funnel, Essentia Funnel
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
-ThaumicTinkerer:fireAir, Aer Imbued Fire
 ForbiddenMagic:ArcaneCake, Thaumic Cake
 ForbiddenMagic:WrathCage, Wrath Cage
 ForbiddenMagic:InkFlower, Umbral Rose
@@ -7133,6 +7134,18 @@ MekanismGenerators:Reactor:3, Reactor Port
 MekanismGenerators:Reactor:4, Reactor Logic Adapter
 MekanismGenerators:ReactorGlass:0, Reactor Glass
 MekanismGenerators:ReactorGlass:1, Laser Focus Matrix
+minecraft:record_13, Music Disc
+minecraft:record_cat, Music Disc
+minecraft:record_blocks, Music Disc
+minecraft:record_chirp, Music Disc
+minecraft:record_far, Music Disc
+minecraft:record_mall, Music Disc
+minecraft:record_mellohi, Music Disc
+minecraft:record_stal, Music Disc
+minecraft:record_strad, Music Disc
+minecraft:record_ward, Music Disc
+minecraft:record_11, Music Disc
+minecraft:record_wait, Music Disc
 NetherOres:tile.netherores.ore.0:0, Nether Coal Ore
 NetherOres:tile.netherores.ore.0:1, Nether Diamond Ore
 NetherOres:tile.netherores.ore.0:2, Nether Gold Ore
@@ -7166,18 +7179,6 @@ NetherOres:tile.netherores.ore.1:13, Nether Salt Ore
 NetherOres:tile.netherores.ore.1:14, Nether Saltpeter Ore
 NetherOres:tile.netherores.ore.1:15, Nether Magnesium Ore
 NetherOres:netherOresBlockHellfish, tile.netherores.hellfish.name
-minecraft:record_13, Music Disc
-minecraft:record_cat, Music Disc
-minecraft:record_blocks, Music Disc
-minecraft:record_chirp, Music Disc
-minecraft:record_far, Music Disc
-minecraft:record_mall, Music Disc
-minecraft:record_mellohi, Music Disc
-minecraft:record_stal, Music Disc
-minecraft:record_strad, Music Disc
-minecraft:record_ward, Music Disc
-minecraft:record_11, Music Disc
-minecraft:record_wait, Music Disc
 NuclearCraft:liquidHeliumBlock, Liquid Helium
 NuclearCraft:fusionPlasmaBlock, Fusion Plasma
 NuclearCraft:steamBlock, Steam
@@ -7382,6 +7383,42 @@ OpenBlocks:sky:1, Sky Block
 OpenBlocks:xpshower, XP Shower
 OpenBlocks:goldenegg, Golden Egg
 OpenBlocks:scaffolding, Scaffolding
+openmodularturrets:baseTierWood, Turret Base (Tier 1) 
+openmodularturrets:baseTierOneBlock, Turret Base (Tier 2) 
+openmodularturrets:baseTierTwoBlock, Turret Base (Tier 3) 
+openmodularturrets:baseTierThreeBlock, Turret Base (Tier 4) 
+openmodularturrets:baseTierFourBlock, Turret Base (Tier 5) 
+openmodularturrets:expanderPowerTierOne, Base Power Expander (Tier 1)
+openmodularturrets:expanderPowerTierTwo, Base Power Expander (Tier 2)
+openmodularturrets:expanderPowerTierThree, Base Power Expander (Tier 3)
+openmodularturrets:expanderPowerTierFour, Base Power Expander (Tier 4)
+openmodularturrets:expanderPowerTierFive, Base Power Expander (Tier 5)
+openmodularturrets:expanderInvTierOne, Base Inventory Expander (Tier 1)
+openmodularturrets:expanderInvTierTwo, Base Inventory Expander (Tier 2)
+openmodularturrets:expanderInvTierThree, Base Inventory Expander (Tier 3)
+openmodularturrets:expanderInvTierFour, Base Inventory Expander (Tier 4)
+openmodularturrets:expanderInvTierFive, Base Inventory Expander (Tier 5)
+openmodularturrets:hardWallTierOne, Hard Wall (Tier 1)
+openmodularturrets:hardWallTierTwo, Hard Wall (Tier 2)
+openmodularturrets:hardWallTierThree, Hard Wall (Tier 3)
+openmodularturrets:hardWallTierFour, Hard Wall (Tier 4)
+openmodularturrets:hardWallTierFive, Hard Wall (Tier 5)
+openmodularturrets:fenceTierOne, Fence (Tier 1)
+openmodularturrets:fenceTierTwo, Fence (Tier 2)
+openmodularturrets:fenceTierThree, Fence (Tier 3)
+openmodularturrets:fenceTierFour, Fence (Tier 4)
+openmodularturrets:fenceTierFive, Fence (Tier 5)
+openmodularturrets:disposeItemTurret, Disposable Item Turret
+openmodularturrets:potatoCannonTurret, Potato Cannon Turret
+openmodularturrets:machineGunTurret, Gun Turret
+openmodularturrets:incendiaryTurret, Incendiary Turret
+openmodularturrets:grenadeTurret, Grenade Launcher Turret
+openmodularturrets:relativisticTurret, Relativistic Turret
+openmodularturrets:rocketTurret, Rocket Launcher Turret
+openmodularturrets:teleporterTurret, Teleporter Turret
+openmodularturrets:laserTurret, Laser Turret
+openmodularturrets:railGunTurret, Rail Gun Turret
+openmodularturrets:leverBlock, Basic Turret Base Crank
 RandomThings:playerinterface, Player Interface
 RandomThings:creativePlayerInterface, Creative Player Interface
 RandomThings:fluidDisplay, Fluid Display
@@ -10585,10 +10622,10 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Brownstone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Fairy Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Pokefennium Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - RedAurum Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Smokey Quartz
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Smokey Quartz Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Pillar Smokey Quartz Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Nether Star Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Planks
@@ -10642,6 +10679,11 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Antimatter Bomb
 appliedenergistics2:item.ItemFacade:0, Cable Facade - EMP Bomb
 appliedenergistics2:item.ItemFacade:0, Cable Facade - EMP Bomb
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Elevator
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Hard Wall (Tier 1)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Hard Wall (Tier 2)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Hard Wall (Tier 3)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Hard Wall (Tier 4)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Hard Wall (Tier 5)
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Machine Frame
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Machine Base
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Dimensional Shard Ore
@@ -13013,125 +13055,33 @@ BigReactors:BRIngot:9, Ludicrite Dust
 BigReactors:bucketYellorium, Fluid Yellorium Bucket
 BigReactors:bucketCyanite, Fluid Cyanite Bucket
 BigReactors:BRDebugTool, BeefTronic™ Diagnostics Tool
-BinnieCore:containerBucket:64, extrabees.acid Bucket
-BinnieCore:containerBucket:65, extrabees.poison Bucket
-BinnieCore:containerBucket:66, extrabees.glacial Bucket
 BinnieCore:containerBucket:128, Sap Bucket
 BinnieCore:containerBucket:129, Resin Bucket
 BinnieCore:containerBucket:130, Latex Bucket
 BinnieCore:containerBucket:131, Turpentine Bucket
-BinnieCore:containerCapsule:64, extrabees.acid Capsule
-BinnieCore:containerCapsule:65, extrabees.poison Capsule
-BinnieCore:containerCapsule:66, extrabees.glacial Capsule
+BinnieCore:containerBucket:64, Acid Bucket
+BinnieCore:containerBucket:65, Poison Bucket
+BinnieCore:containerBucket:66, Nitrogen Bucket
 BinnieCore:containerCapsule:128, Sap Capsule
 BinnieCore:containerCapsule:129, Resin Capsule
 BinnieCore:containerCapsule:130, Latex Capsule
 BinnieCore:containerCapsule:131, Turpentine Capsule
-BinnieCore:containerRefractory:64, extrabees.acid Capsule
-BinnieCore:containerRefractory:65, extrabees.poison Capsule
-BinnieCore:containerRefractory:66, extrabees.glacial Capsule
-BinnieCore:containerCan:64, extrabees.acid Can
-BinnieCore:containerCan:65, extrabees.poison Can
-BinnieCore:containerCan:66, extrabees.glacial Can
+BinnieCore:containerCapsule:64, Acid Capsule
+BinnieCore:containerCapsule:65, Poison Capsule
+BinnieCore:containerCapsule:66, Nitrogen Capsule
+BinnieCore:containerRefractory:64, Acid Capsule
+BinnieCore:containerRefractory:65, Poison Capsule
+BinnieCore:containerRefractory:66, Nitrogen Capsule
 BinnieCore:containerCan:128, Sap Can
 BinnieCore:containerCan:129, Resin Can
 BinnieCore:containerCan:130, Latex Can
 BinnieCore:containerCan:131, Turpentine Can
-BinnieCore:containerGlass:256, Apple Juice Bottle
-BinnieCore:containerGlass:257, Apricot Juice Bottle
-BinnieCore:containerGlass:258, Banana Juice Bottle
-BinnieCore:containerGlass:259, Cherry Juice Bottle
-BinnieCore:containerGlass:260, Elderberry Juice Bottle
-BinnieCore:containerGlass:261, Lemon Juice Bottle
-BinnieCore:containerGlass:262, Lime Juice Bottle
-BinnieCore:containerGlass:263, Orange Juice Bottle
-BinnieCore:containerGlass:264, Peach Juice Bottle
-BinnieCore:containerGlass:265, Plum Juice Bottle
-BinnieCore:containerGlass:266, Carrot Juice Bottle
-BinnieCore:containerGlass:267, Tomato Juice Bottle
-BinnieCore:containerGlass:268, Cranberry Juice Bottle
-BinnieCore:containerGlass:269, Grapefruit Juice Bottle
-BinnieCore:containerGlass:270, Olive Oil Bottle
-BinnieCore:containerGlass:271, Pineapple Juice Bottle
-BinnieCore:containerGlass:272, Pear Juice Bottle
-BinnieCore:containerGlass:273, White Grape Juice Bottle
-BinnieCore:containerGlass:274, Red Grape Juice Bottle
-BinnieCore:containerGlass:384, Cider Bottle
-BinnieCore:containerGlass:385, Apricot Wine Bottle
-BinnieCore:containerGlass:386, Banana Wine Bottle
-BinnieCore:containerGlass:387, Cherry Wine Bottle
-BinnieCore:containerGlass:388, Elderberry Wine Bottle
-BinnieCore:containerGlass:389, Peach Cider Bottle
-BinnieCore:containerGlass:390, Pear Cider Bottle
-BinnieCore:containerGlass:391, Plum Wine Bottle
-BinnieCore:containerGlass:392, Carrot Wine Bottle
-BinnieCore:containerGlass:393, White Wine Bottle
-BinnieCore:containerGlass:394, Red Wine Bottle
-BinnieCore:containerGlass:395, Sparkling Wine Bottle
-BinnieCore:containerGlass:396, Agave Wine Bottle
-BinnieCore:containerGlass:397, Fermented Potatoes Bottle
-BinnieCore:containerGlass:398, Citrus Wine Bottle
-BinnieCore:containerGlass:399, Cranberry Wine Bottle
-BinnieCore:containerGlass:400, Pineapple Wine Bottle
-BinnieCore:containerGlass:401, Tomato Wine Bottle
-BinnieCore:containerGlass:402, Fruit Wine Bottle
-BinnieCore:containerGlass:403, Ale Bottle
-BinnieCore:containerGlass:404, Lager Bottle
-BinnieCore:containerGlass:405, Wheat Beer Bottle
-BinnieCore:containerGlass:406, Rye Beer Bottle
-BinnieCore:containerGlass:407, Corn Beer Bottle
-BinnieCore:containerGlass:408, Stout Bottle
-BinnieCore:containerGlass:409, Fermented Grain Mash Bottle
-BinnieCore:containerGlass:410, Fermented Wheat Mash Bottle
-BinnieCore:containerGlass:411, Fermented Rye Mash Bottle
-BinnieCore:containerGlass:412, Fermented Corn Mash Bottle
-BinnieCore:containerGlass:512, Neutral Spirit Bottle
-BinnieCore:containerGlass:513, Vodka Bottle
-BinnieCore:containerGlass:514, White Rum Bottle
-BinnieCore:containerGlass:515, Dark Rum Bottle
-BinnieCore:containerGlass:516, Whiskey Bottle
-BinnieCore:containerGlass:517, Bourbon Bottle
-BinnieCore:containerGlass:518, Rye Whiskey Bottle
-BinnieCore:containerGlass:519, Wheat Whiskey Bottle
-BinnieCore:containerGlass:520, Fortified Wine Bottle
-BinnieCore:containerGlass:521, Tequila Bottle
-BinnieCore:containerGlass:522, Brandy Bottle
-BinnieCore:containerGlass:523, Apple Brandy Bottle
-BinnieCore:containerGlass:524, Pear Brandy Bottle
-BinnieCore:containerGlass:525, Apricot Brandy Bottle
-BinnieCore:containerGlass:526, Plum Brandy Bottle
-BinnieCore:containerGlass:527, Cherry Brandy Bottle
-BinnieCore:containerGlass:528, Elderberry Brandy Bottle
-BinnieCore:containerGlass:529, Citrus Brandy Bottle
-BinnieCore:containerGlass:530, Fruit Brandy Bottle
-BinnieCore:containerGlass:531, Cachaca Bottle
-BinnieCore:containerGlass:532, Gin Bottle
-BinnieCore:containerGlass:533, Apple Liquor Bottle
-BinnieCore:containerGlass:534, Pear Liquor Bottle
-BinnieCore:containerGlass:535, Cherry Liquor Bottle
-BinnieCore:containerGlass:536, Elderberry Liquor Bottle
-BinnieCore:containerGlass:537, Apricot Liquor Bottle
-BinnieCore:containerGlass:538, Fruit Liquor Bottle
-BinnieCore:containerGlass:640, Almond Liqueur Bottle
-BinnieCore:containerGlass:641, Orange Liqueur Bottle
-BinnieCore:containerGlass:642, Banana Liqueur Bottle
-BinnieCore:containerGlass:643, Chocolate Liqueur Bottle
-BinnieCore:containerGlass:644, Mint Liqueur Bottle
-BinnieCore:containerGlass:645, Hazelnut Liqueur Bottle
-BinnieCore:containerGlass:646, Cinnamon Liqueur Bottle
-BinnieCore:containerGlass:647, Coffee Liqueur Bottle
-BinnieCore:containerGlass:648, Melon Liqueur Bottle
-BinnieCore:containerGlass:649, Anise Liqueur Bottle
-BinnieCore:containerGlass:650, Peach Liqueur Bottle
-BinnieCore:containerGlass:651, Lemon Liqueur Bottle
-BinnieCore:containerGlass:652, Herbal Liqueur Bottle
-BinnieCore:containerGlass:653, Cherry Liqueur Bottle
-BinnieCore:containerGlass:654, Blackcurrant Liqueur Bottle
-BinnieCore:containerGlass:655, Blackberry Liqueur Bottle
-BinnieCore:containerGlass:656, Raspberry Liqueur Bottle
+BinnieCore:containerCan:64, Acid Can
+BinnieCore:containerCan:65, Poison Can
+BinnieCore:containerCan:66, Nitrogen Can
 BinnieCore:containerCylinder:768, Growth Medium Cylinder
 BinnieCore:containerCylinder:769, Bacteria Cylinder
-BinnieCore:containerCylinder:770, Polymerising Bacteria Cylinder
+BinnieCore:containerCylinder:770, Polymerized Bacteria Cylinder
 BinnieCore:containerCylinder:771, Raw DNA Cylinder
 BinnieCore:containerCylinder:772, Bacteria Vector Cylinder
 BinnieCore:genesis, item.genesis.name
@@ -13142,322 +13092,206 @@ Botany:trowelStone, Stone Trowel
 Botany:trowelIron, Iron Trowel
 Botany:trowelDiamond, Diamond Trowel
 Botany:trowelGold, Gold Trowel
-Botany:insulatedTube, item.insulatedTube.name
+Botany:insulatedTube:0, Cooper Insulated Tube
+Botany:insulatedTube:128, Cooper Insulated Tube
+Botany:insulatedTube:256, Cooper Insulated Tube
+Botany:insulatedTube:384, Cooper Insulated Tube
+Botany:insulatedTube:512, Cooper Insulated Tube
+Botany:insulatedTube:640, Cooper Insulated Tube
+Botany:insulatedTube:1, Tin Insulated Tube
+Botany:insulatedTube:129, Tin Insulated Tube
+Botany:insulatedTube:257, Tin Insulated Tube
+Botany:insulatedTube:385, Tin Insulated Tube
+Botany:insulatedTube:513, Tin Insulated Tube
+Botany:insulatedTube:641, Tin Insulated Tube
+Botany:insulatedTube:2, Bronze Insulated Tube
+Botany:insulatedTube:130, Bronze Insulated Tube
+Botany:insulatedTube:258, Bronze Insulated Tube
+Botany:insulatedTube:386, Bronze Insulated Tube
+Botany:insulatedTube:514, Bronze Insulated Tube
+Botany:insulatedTube:642, Bronze Insulated Tube
+Botany:insulatedTube:3, Iron Insulated Tube
+Botany:insulatedTube:131, Iron Insulated Tube
+Botany:insulatedTube:259, Iron Insulated Tube
+Botany:insulatedTube:387, Iron Insulated Tube
+Botany:insulatedTube:515, Iron Insulated Tube
+Botany:insulatedTube:643, Iron Insulated Tube
 Botany:soilMeter, item.soilMeter.name
 Botany:misc:0, Ash Powder
-Botany:misc:1, Wood Pulp Powder
+Botany:misc:1, Pulp Powder
 Botany:misc:2, Mulch Powder
 Botany:misc:3, Sulphur Powder
-Botany:misc:4, Fertiliser Powder
+Botany:misc:4, Fertilizer Powder
 Botany:misc:5, Compost Powder
 Botany:misc:6, Mortar
 Botany:misc:7, Weedkiller
-Botany:encylopedia, item.encylopedia.name
-Botany:encylopediaIron, item.encylopediaIron.name
-Botany:pigment:0, Aquamarine Pigment
-Botany:pigment:1, Black Pigment
-Botany:pigment:2, Deep Blue Pigment
-Botany:pigment:3, Red-Brown Pigment
-Botany:pigment:4, Dull Blue Pigment
-Botany:pigment:5, Light Brown Pigment
-Botany:pigment:6, Coral Pigment
-Botany:pigment:7, Crimson Pigment
-Botany:pigment:8, Cyan Pigment
-Botany:pigment:9, Dark Bronze Pigment
-Botany:pigment:10, Gray Pigment
-Botany:pigment:11, Dark Green Pigment
-Botany:pigment:12, Dark Beige Pigment
-Botany:pigment:13, Dark Olive Pigment
-Botany:pigment:14, Red-Orange Pigment
-Botany:pigment:15, Dark Salmon Pigment
-Botany:pigment:16, Dull Green Pigment
-Botany:pigment:17, Dark Slate Pigment
-Botany:pigment:18, Dark Teal Pigment
-Botany:pigment:19, Turquoise Pigment
-Botany:pigment:20, Purple Pigment
-Botany:pigment:21, Deep Pink Pigment
-Botany:pigment:22, Light Blue Pigment
-Botany:pigment:23, Dark Gray Pigment
-Botany:pigment:24, Blue Pigment
-Botany:pigment:25, Gold Pigment
-Botany:pigment:26, Bronze Pigment
-Botany:pigment:27, Dim Gray Pigment
-Botany:pigment:28, Green Pigment
-Botany:pigment:29, Pink Pigment
-Botany:pigment:30, Brick Red Pigment
-Botany:pigment:31, Indigo Pigment
-Botany:pigment:32, Beige Pigment
-Botany:pigment:33, Alice Blue Pigment
-Botany:pigment:34, Pale Yellow Pigment
-Botany:pigment:35, Light Gray Pigment
-Botany:pigment:36, Dark Turquoise Pigment
-Botany:pigment:37, Pale Blue Pigment
-Botany:pigment:38, Lime Pigment
-Botany:pigment:39, Light Green Pigment
-Botany:pigment:40, Magenta Pigment
-Botany:pigment:41, Maroon Pigment
-Botany:pigment:42, Light Mint Pigment
-Botany:pigment:43, Light Purple Pigment
-Botany:pigment:44, Light Slate Pigment
-Botany:pigment:45, Mint Pigment
-Botany:pigment:46, Purple-Red Pigment
-Botany:pigment:47, Pale Rose Pigment
-Botany:pigment:48, Navy Pigment
-Botany:pigment:49, Dark Yellow Pigment
-Botany:pigment:50, Olive Pigment
-Botany:pigment:51, Orange Pigment
-Botany:pigment:52, Pale Green Pigment
-Botany:pigment:53, Pale Turquoise Pigment
-Botany:pigment:54, Dull Pink Pigment
-Botany:pigment:55, Tan Pigment
-Botany:pigment:56, Pale Pink Pigment
-Botany:pigment:57, Light Mauve Pigment
-Botany:pigment:58, Dark Purple Pigment
-Botany:pigment:59, Red Pigment
-Botany:pigment:60, Dull Red Pigment
-Botany:pigment:61, Royal Blue Pigment
-Botany:pigment:62, Salmon Pigment
-Botany:pigment:63, Pale Brown Pigment
-Botany:pigment:64, Dark Mint Pigment
-Botany:pigment:65, Brown Pigment
-Botany:pigment:66, Sky Blue Pigment
-Botany:pigment:67, Slate Blue Pigment
-Botany:pigment:68, Slate Pigment
-Botany:pigment:69, Spring Green Pigment
-Botany:pigment:70, Steel Blue Pigment
-Botany:pigment:71, Pale Tan Pigment
-Botany:pigment:72, Teal Pigment
-Botany:pigment:73, Pale Purple Pigment
-Botany:pigment:74, Light Turquoise Pigment
-Botany:pigment:75, Mauve Pigment
-Botany:pigment:76, Pale Orange Pigment
-Botany:pigment:77, White Pigment
-Botany:pigment:78, Yellow Pigment
-Botany:pigment:79, Yellow-Green Pigment
-Botany:clay:0, Aquamarine Clay
-Botany:clay:1, Black Clay
-Botany:clay:2, Deep Blue Clay
-Botany:clay:3, Red-Brown Clay
-Botany:clay:4, Dull Blue Clay
-Botany:clay:5, Light Brown Clay
-Botany:clay:6, Coral Clay
-Botany:clay:7, Crimson Clay
-Botany:clay:8, Cyan Clay
-Botany:clay:9, Dark Bronze Clay
-Botany:clay:10, Gray Clay
-Botany:clay:11, Dark Green Clay
-Botany:clay:12, Dark Beige Clay
-Botany:clay:13, Dark Olive Clay
-Botany:clay:14, Red-Orange Clay
-Botany:clay:15, Dark Salmon Clay
-Botany:clay:16, Dull Green Clay
-Botany:clay:17, Dark Slate Clay
-Botany:clay:18, Dark Teal Clay
-Botany:clay:19, Turquoise Clay
-Botany:clay:20, Purple Clay
-Botany:clay:21, Deep Pink Clay
-Botany:clay:22, Light Blue Clay
-Botany:clay:23, Dark Gray Clay
-Botany:clay:24, Blue Clay
-Botany:clay:25, Gold Clay
-Botany:clay:26, Bronze Clay
-Botany:clay:27, Dim Gray Clay
-Botany:clay:28, Green Clay
-Botany:clay:29, Pink Clay
-Botany:clay:30, Brick Red Clay
-Botany:clay:31, Indigo Clay
-Botany:clay:32, Beige Clay
-Botany:clay:33, Alice Blue Clay
-Botany:clay:34, Pale Yellow Clay
-Botany:clay:35, Light Gray Clay
-Botany:clay:36, Dark Turquoise Clay
-Botany:clay:37, Pale Blue Clay
-Botany:clay:38, Lime Clay
-Botany:clay:39, Light Green Clay
-Botany:clay:40, Magenta Clay
-Botany:clay:41, Maroon Clay
-Botany:clay:42, Light Mint Clay
-Botany:clay:43, Light Purple Clay
-Botany:clay:44, Light Slate Clay
-Botany:clay:45, Mint Clay
-Botany:clay:46, Purple-Red Clay
-Botany:clay:47, Pale Rose Clay
-Botany:clay:48, Navy Clay
-Botany:clay:49, Dark Yellow Clay
-Botany:clay:50, Olive Clay
-Botany:clay:51, Orange Clay
-Botany:clay:52, Pale Green Clay
-Botany:clay:53, Pale Turquoise Clay
-Botany:clay:54, Dull Pink Clay
-Botany:clay:55, Tan Clay
-Botany:clay:56, Pale Pink Clay
-Botany:clay:57, Light Mauve Clay
-Botany:clay:58, Dark Purple Clay
-Botany:clay:59, Red Clay
-Botany:clay:60, Dull Red Clay
-Botany:clay:61, Royal Blue Clay
-Botany:clay:62, Salmon Clay
-Botany:clay:63, Pale Brown Clay
-Botany:clay:64, Dark Mint Clay
-Botany:clay:65, Brown Clay
-Botany:clay:66, Sky Blue Clay
-Botany:clay:67, Slate Blue Clay
-Botany:clay:68, Slate Clay
-Botany:clay:69, Spring Green Clay
-Botany:clay:70, Steel Blue Clay
-Botany:clay:71, Pale Tan Clay
-Botany:clay:72, Teal Clay
-Botany:clay:73, Pale Purple Clay
-Botany:clay:74, Light Turquoise Clay
-Botany:clay:75, Mauve Clay
-Botany:clay:76, Pale Orange Clay
-Botany:clay:77, White Clay
-Botany:clay:78, Yellow Clay
-Botany:clay:79, Yellow-Green Clay
-ExtraBees:hiveFrame.cocoa, item.hiveFrame.name
-ExtraBees:hiveFrame.cage, item.hiveFrame.name
-ExtraBees:hiveFrame.soul, item.hiveFrame.name
-ExtraBees:hiveFrame.clay, item.hiveFrame.name
-ExtraBees:hiveFrame.debug, item.hiveFrame.name
-ExtraBees:honeyComb:0, Barren Comb
-ExtraBees:honeyComb:1, Rotten Comb
-ExtraBees:honeyComb:2, Bone Comb
-ExtraBees:honeyComb:3, Oily Comb
-ExtraBees:honeyComb:4, Fossilised Comb
-ExtraBees:honeyComb:5, Petroleum Comb
-ExtraBees:honeyComb:6, Damp Comb
-ExtraBees:honeyComb:7, Milky Comb
-ExtraBees:honeyComb:8, Fruity Comb
-ExtraBees:honeyComb:9, Seedy Comb
-ExtraBees:honeyComb:10, Alcoholic Comb
-ExtraBees:honeyComb:11, Rocky Comb
-ExtraBees:honeyComb:12, Energetic Comb
-ExtraBees:honeyComb:13, Amber Comb
-ExtraBees:honeyComb:14, Static Comb
-ExtraBees:honeyComb:15, Iron Comb
-ExtraBees:honeyComb:16, Golden Comb
-ExtraBees:honeyComb:17, Copper Comb
-ExtraBees:honeyComb:18, Tin Comb
-ExtraBees:honeyComb:19, Silver Comb
-ExtraBees:honeyComb:21, Radioactive Comb
-ExtraBees:honeyComb:22, Clay Comb
-ExtraBees:honeyComb:23, Old Comb
-ExtraBees:honeyComb:24, Fungal Comb
-ExtraBees:honeyComb:25, Tar Comb
-ExtraBees:honeyComb:26, Latex Comb
-ExtraBees:honeyComb:27, Brimstone Comb
-ExtraBees:honeyComb:28, Venomous Comb
-ExtraBees:honeyComb:29, Mucous Comb
-ExtraBees:honeyComb:30, Blaze Comb
-ExtraBees:honeyComb:31, Caffeinated Comb
-ExtraBees:honeyComb:32, Glacial Comb
-ExtraBees:honeyComb:36, Shadow Comb
-ExtraBees:honeyComb:37, Leaden Comb
-ExtraBees:honeyComb:40, Zinc Comb
-ExtraBees:honeyComb:41, Titanium Comb
-ExtraBees:honeyComb:42, Tungsten Comb
-ExtraBees:honeyComb:45, Platinum Comb
-ExtraBees:honeyComb:46, Lapis Comb
-ExtraBees:honeyComb:52, Emerald Comb
-ExtraBees:honeyComb:53, Ruby Comb
-ExtraBees:honeyComb:54, Sapphire Comb
-ExtraBees:honeyComb:56, Diamond Comb
-ExtraBees:honeyComb:57, Red Tinted Comb
-ExtraBees:honeyComb:58, Yellow Tinted Comb
-ExtraBees:honeyComb:59, Blue Tinted Comb
-ExtraBees:honeyComb:60, Green Tinted Comb
-ExtraBees:honeyComb:61, Black Tinted Comb
-ExtraBees:honeyComb:62, White Tinted Comb
-ExtraBees:honeyComb:63, Brown Tinted Comb
-ExtraBees:honeyComb:64, Orange Tinted Comb
-ExtraBees:honeyComb:65, Cyan Tinted Comb
-ExtraBees:honeyComb:66, Purple Tinted Comb
-ExtraBees:honeyComb:67, Gray Tinted Comb
-ExtraBees:honeyComb:68, Light Blue Tinted Comb
-ExtraBees:honeyComb:69, Pink Tinted Comb
-ExtraBees:honeyComb:70, Lime Green Tinted Comb
-ExtraBees:honeyComb:71, Magenta Tinted Comb
-ExtraBees:honeyComb:72, Light Gray Tinted Comb
-ExtraBees:honeyComb:73, Nickel Comb
-ExtraBees:honeyComb:75, Glowing Comb
-ExtraBees:honeyComb:76, Unstable Comb
-ExtraBees:honeyComb:79, Decomposed Comb
-ExtraBees:honeyComb:80, Dusty Comb
-ExtraBees:honeyComb:81, Certus Comb
-ExtraBees:honeyComb:82, Shimmering Comb
-ExtraBees:honeyComb:83, Yellorium Comb
-ExtraBees:honeyComb:84, Cyanite Comb
-ExtraBees:honeyComb:85, Blutonium Comb
-ExtraBees:propolis:0, Watery Propolis
-ExtraBees:propolis:1, Oily Propolis
-ExtraBees:propolis:2, Petroleum Propolis
-ExtraBees:propolis:7, Creosote Propolis
-ExtraBees:honeyDrop:1, Acidic Drop
-ExtraBees:honeyDrop:2, Venomous Drop
-ExtraBees:honeyDrop:3, Juicy Drop
-ExtraBees:honeyDrop:5, Kelvin Drop
-ExtraBees:honeyDrop:6, Milkdew
-ExtraBees:honeyDrop:7, Nutdew
-ExtraBees:honeyDrop:8, Tipsy Drop
-ExtraBees:honeyDrop:13, Red Tinted Honey
-ExtraBees:honeyDrop:14, Yellow Tinted Honey
-ExtraBees:honeyDrop:15, Blue Tinted Honey
-ExtraBees:honeyDrop:16, Green Tinted Honey
-ExtraBees:honeyDrop:17, Black Tinted Honey
-ExtraBees:honeyDrop:18, White Tinted Honey
-ExtraBees:honeyDrop:19, Brown Tinted Honey
-ExtraBees:honeyDrop:20, Orange Tinted Honey
-ExtraBees:honeyDrop:21, Cyan Tinted Honey
-ExtraBees:honeyDrop:22, Purple Tinted Honey
-ExtraBees:honeyDrop:23, Gray Tinted Honey
-ExtraBees:honeyDrop:24, Light Blue Tinted Honey
-ExtraBees:honeyDrop:25, Pink Tinted Honey
-ExtraBees:honeyDrop:26, Lime Green Tinted Honey
-ExtraBees:honeyDrop:27, Magenta Tinted Honey
-ExtraBees:honeyDrop:28, Light Gray Tinted Honey
-ExtraBees:honeyCrystal, item.honeyCrystal.name
-ExtraBees:honeyCrystalEmpty, item.honeyCrystalEmpty.name
-ExtraBees:dictionary, item.dictionary.name
-ExtraBees:misc:0, Scented Gear
-ExtraBees:misc:1, Diamond Fragment
-ExtraBees:misc:2, Emerald Fragment
-ExtraBees:misc:5, Lapis Fragment
-ExtraBees:misc:6, Iron Grains
-ExtraBees:misc:7, Gold Grains
-ExtraBees:misc:8, Silver Grains
-ExtraBees:misc:9, Platinum Grains
-ExtraBees:misc:10, Copper Grains
-ExtraBees:misc:11, Tin Grains
-ExtraBees:misc:12, Nickel Grains
-ExtraBees:misc:13, Lead Grains
-ExtraBees:misc:17, Radioactive Fragments
-ExtraBees:misc:18, Coal Grains
-ExtraBees:misc:19, Red Dye
-ExtraBees:misc:20, Yellow Dye
-ExtraBees:misc:21, Blue Dye
-ExtraBees:misc:22, Green Dye
-ExtraBees:misc:23, White Dye
-ExtraBees:misc:24, Black Dye
-ExtraBees:misc:25, Brown Dye
-ExtraBees:misc:26, Clay Dust
-ExtraBees:misc:27, Yellorium Grains
-ExtraBees:misc:28, Blutonium Grains
-ExtraBees:misc:29, Cyanite Grains
+Botany:pigment:0, Pigment
+Botany:pigment:1, Pigment
+Botany:pigment:2, Pigment
+Botany:pigment:3, Pigment
+Botany:pigment:4, Pigment
+Botany:pigment:5, Pigment
+Botany:pigment:6, Pigment
+Botany:pigment:7, Pigment
+Botany:pigment:8, Pigment
+Botany:pigment:9, Pigment
+Botany:pigment:10, Pigment
+Botany:pigment:11, Pigment
+Botany:pigment:12, Pigment
+Botany:pigment:13, Pigment
+Botany:pigment:14, Pigment
+Botany:pigment:15, Pigment
+Botany:pigment:16, Pigment
+Botany:pigment:17, Pigment
+Botany:pigment:18, Pigment
+Botany:pigment:19, Pigment
+Botany:pigment:20, Pigment
+Botany:pigment:21, Pigment
+Botany:pigment:22, Pigment
+Botany:pigment:23, Pigment
+Botany:pigment:24, Pigment
+Botany:pigment:25, Pigment
+Botany:pigment:26, Pigment
+Botany:pigment:27, Pigment
+Botany:pigment:28, Pigment
+Botany:pigment:29, Pigment
+Botany:pigment:30, Pigment
+Botany:pigment:31, Pigment
+Botany:pigment:32, Pigment
+Botany:pigment:33, Pigment
+Botany:pigment:34, Pigment
+Botany:pigment:35, Pigment
+Botany:pigment:36, Pigment
+Botany:pigment:37, Pigment
+Botany:pigment:38, Pigment
+Botany:pigment:39, Pigment
+Botany:pigment:40, Pigment
+Botany:pigment:41, Pigment
+Botany:pigment:42, Pigment
+Botany:pigment:43, Pigment
+Botany:pigment:44, Pigment
+Botany:pigment:45, Pigment
+Botany:pigment:46, Pigment
+Botany:pigment:47, Pigment
+Botany:pigment:48, Pigment
+Botany:pigment:49, Pigment
+Botany:pigment:50, Pigment
+Botany:pigment:51, Pigment
+Botany:pigment:52, Pigment
+Botany:pigment:53, Pigment
+Botany:pigment:54, Pigment
+Botany:pigment:55, Pigment
+Botany:pigment:56, Pigment
+Botany:pigment:57, Pigment
+Botany:pigment:58, Pigment
+Botany:pigment:59, Pigment
+Botany:pigment:60, Pigment
+Botany:pigment:61, Pigment
+Botany:pigment:62, Pigment
+Botany:pigment:63, Pigment
+Botany:pigment:64, Pigment
+Botany:pigment:65, Pigment
+Botany:pigment:66, Pigment
+Botany:pigment:67, Pigment
+Botany:pigment:68, Pigment
+Botany:pigment:69, Pigment
+Botany:pigment:70, Pigment
+Botany:pigment:71, Pigment
+Botany:pigment:72, Pigment
+Botany:pigment:73, Pigment
+Botany:pigment:74, Pigment
+Botany:pigment:75, Pigment
+Botany:pigment:76, Pigment
+Botany:pigment:77, Pigment
+Botany:pigment:78, Pigment
+Botany:pigment:79, Pigment
+Botany:clay:0, Clay
+Botany:clay:1, Clay
+Botany:clay:2, Clay
+Botany:clay:3, Clay
+Botany:clay:4, Clay
+Botany:clay:5, Clay
+Botany:clay:6, Clay
+Botany:clay:7, Clay
+Botany:clay:8, Clay
+Botany:clay:9, Clay
+Botany:clay:10, Clay
+Botany:clay:11, Clay
+Botany:clay:12, Clay
+Botany:clay:13, Clay
+Botany:clay:14, Clay
+Botany:clay:15, Clay
+Botany:clay:16, Clay
+Botany:clay:17, Clay
+Botany:clay:18, Clay
+Botany:clay:19, Clay
+Botany:clay:20, Clay
+Botany:clay:21, Clay
+Botany:clay:22, Clay
+Botany:clay:23, Clay
+Botany:clay:24, Clay
+Botany:clay:25, Clay
+Botany:clay:26, Clay
+Botany:clay:27, Clay
+Botany:clay:28, Clay
+Botany:clay:29, Clay
+Botany:clay:30, Clay
+Botany:clay:31, Clay
+Botany:clay:32, Clay
+Botany:clay:33, Clay
+Botany:clay:34, Clay
+Botany:clay:35, Clay
+Botany:clay:36, Clay
+Botany:clay:37, Clay
+Botany:clay:38, Clay
+Botany:clay:39, Clay
+Botany:clay:40, Clay
+Botany:clay:41, Clay
+Botany:clay:42, Clay
+Botany:clay:43, Clay
+Botany:clay:44, Clay
+Botany:clay:45, Clay
+Botany:clay:46, Clay
+Botany:clay:47, Clay
+Botany:clay:48, Clay
+Botany:clay:49, Clay
+Botany:clay:50, Clay
+Botany:clay:51, Clay
+Botany:clay:52, Clay
+Botany:clay:53, Clay
+Botany:clay:54, Clay
+Botany:clay:55, Clay
+Botany:clay:56, Clay
+Botany:clay:57, Clay
+Botany:clay:58, Clay
+Botany:clay:59, Clay
+Botany:clay:60, Clay
+Botany:clay:61, Clay
+Botany:clay:62, Clay
+Botany:clay:63, Clay
+Botany:clay:64, Clay
+Botany:clay:65, Clay
+Botany:clay:66, Clay
+Botany:clay:67, Clay
+Botany:clay:68, Clay
+Botany:clay:69, Clay
+Botany:clay:70, Clay
+Botany:clay:71, Clay
+Botany:clay:72, Clay
+Botany:clay:73, Clay
+Botany:clay:74, Clay
+Botany:clay:75, Clay
+Botany:clay:76, Clay
+Botany:clay:77, Clay
+Botany:clay:78, Clay
+Botany:clay:79, Clay
 ExtraTrees:database, item.database.name
 ExtraTrees:databaseMoth, item.databaseMoth.name
 ExtraTrees:misc:1, Sawdust
 ExtraTrees:misc:2, Bark
 ExtraTrees:misc:3, Proven Gear
 ExtraTrees:misc:4, Wood Polish
-ExtraTrees:misc:5, Hops
-ExtraTrees:misc:6, Yeast
-ExtraTrees:misc:7, Lager Yeast
-ExtraTrees:misc:8, Wheat Grain
-ExtraTrees:misc:9, Barley Grain
-ExtraTrees:misc:10, Rye Grain
-ExtraTrees:misc:11, Corn Grain
-ExtraTrees:misc:12, Roasted Grain
-ExtraTrees:misc:13, Glass Fittings
+ExtraTrees:misc:5, Glass Fittings
 ExtraTrees:food:0, Crabapple
 ExtraTrees:food:1, Orange
 ExtraTrees:food:2, Kumquat
@@ -13520,22 +13354,6 @@ ExtraTrees:food:58, Starfruit
 ExtraTrees:food:59, Candlenut
 ExtraTrees:hammer, item.hammer.name
 ExtraTrees:durableHammer, item.durableHammer.name
-ExtraTrees:drink:0, Beer Mug
-ExtraTrees:drink:0, Pint Glass
-ExtraTrees:drink:0, Snifter Glass
-ExtraTrees:drink:0, extratrees.item.glassware.flute
-ExtraTrees:drink:0, Cocktail Glass
-ExtraTrees:drink:0, Cordial Glass
-ExtraTrees:drink:0, Collins Glass
-ExtraTrees:drink:0, Highball Glass
-ExtraTrees:drink:0, Hurricane Glass
-ExtraTrees:drink:0, Margarita Glass
-ExtraTrees:drink:0, Old Fashioned Glass
-ExtraTrees:drink:0, Wine Glass
-ExtraTrees:drink:0, Shot Glass
-ExtraTrees:drink:0, Sherry Glass
-ExtraTrees:drink:0, Coupe Glass
-ExtraTrees:drink:0, Glass of Red Wine
 Genetics:serumArray, item.serumArray.name
 Genetics:misc:0, Reinforced Casing
 Genetics:misc:1, DNA Dye
@@ -13555,6 +13373,64 @@ Genetics:database, item.database.name
 Genetics:analyst, item.analyst.name
 Genetics:registry, item.registry.name
 Genetics:masterRegistry, item.masterRegistry.name
+ExtraBees:hiveFrame.cocoa, item.hiveFrame.name
+ExtraBees:hiveFrame.cage, item.hiveFrame.name
+ExtraBees:hiveFrame.soul, item.hiveFrame.name
+ExtraBees:hiveFrame.clay, item.hiveFrame.name
+ExtraBees:hiveFrame.debug, item.hiveFrame.name
+ExtraBees:propolis:0, Watery Propolis
+ExtraBees:propolis:1, Oily Propolis
+ExtraBees:propolis:2, Petroleum Propolis
+ExtraBees:propolis:3, Creosote Propolis
+ExtraBees:honeyDrop:1, Acidic Drop
+ExtraBees:honeyDrop:2, Venomous Drop
+ExtraBees:honeyDrop:3, Juicy Drop
+ExtraBees:honeyDrop:4, Kelvin Drop
+ExtraBees:honeyDrop:5, Milkdew
+ExtraBees:honeyDrop:6, Nutdew
+ExtraBees:honeyDrop:7, Tipsy Drop
+ExtraBees:honeyDrop:8, Red Tinted Honey
+ExtraBees:honeyDrop:9, Yellow Tinted Honey
+ExtraBees:honeyDrop:10, Blue Tinted Honey
+ExtraBees:honeyDrop:11, Green Tinted Honey
+ExtraBees:honeyDrop:12, Black Tinted Honey
+ExtraBees:honeyDrop:13, White Tinted Honey
+ExtraBees:honeyDrop:14, Brown Tinted Honey
+ExtraBees:honeyDrop:15, Orange Tinted Honey
+ExtraBees:honeyDrop:16, Cyan Tinted Honey
+ExtraBees:honeyDrop:17, Purple Tinted Honey
+ExtraBees:honeyDrop:18, Gray Tinted Honey
+ExtraBees:honeyDrop:19, Light Blue Tinted Honey
+ExtraBees:honeyDrop:20, Pink Tinted Honey
+ExtraBees:honeyDrop:21, Lime Green Tinted Honey
+ExtraBees:honeyDrop:22, Magenta Tinted Honey
+ExtraBees:honeyDrop:23, Light Gray Tinted Honey
+ExtraBees:dictionary, item.dictionary.name
+ExtraBees:misc:0, Scented Gear
+ExtraBees:misc:1, Diamond Fragment
+ExtraBees:misc:2, Emerald Fragment
+ExtraBees:misc:5, Lapis Fragment
+ExtraBees:misc:6, Iron Grains
+ExtraBees:misc:7, Gold Grains
+ExtraBees:misc:8, Silver Grains
+ExtraBees:misc:9, Platinum Grains
+ExtraBees:misc:10, Copper Grains
+ExtraBees:misc:11, Tin Grains
+ExtraBees:misc:12, Nickel Grains
+ExtraBees:misc:13, Lead Grains
+ExtraBees:misc:17, Radioactive Fragments
+ExtraBees:misc:18, Coal Grains
+ExtraBees:misc:19, Red Dye
+ExtraBees:misc:20, Yellow Dye
+ExtraBees:misc:21, Blue Dye
+ExtraBees:misc:22, Green Dye
+ExtraBees:misc:23, White Dye
+ExtraBees:misc:24, Black Dye
+ExtraBees:misc:25, Brown Dye
+ExtraBees:misc:26, Clay Dust
+ExtraBees:misc:27, Yellorium Grains
+ExtraBees:misc:28, Blutonium Grains
+ExtraBees:misc:29, Cyanite Grains
 BuildCraft|Core:wrenchItem, Wrench
 BuildCraft|Core:mapLocation, Map Location
 BuildCraft|Core:list:0, List
@@ -13656,13 +13532,13 @@ BuildCraft|Silicon:redstoneChipset:6, Redstone Comp Chipset
 BuildCraft|Silicon:redstoneChipset:7, Emerald Chipset
 BuildCraft|Silicon:package, Package
 BuildCraft|Silicon:redstoneCrystal, Redstone Crystal
+BuildCraft|Robotics:robot, Robot
+BuildCraft|Robotics:robotStation, item.robotStation.name
+BuildCraft|Robotics:redstone_board, Redstone Board
 BuildCraft|Energy:bucketOil, Oil Bucket
 BuildCraft|Energy:bucketFuel, Fuel Bucket
 BuildCraft|Builders:templateItem, Template
 BuildCraft|Builders:blueprintItem, Blueprint
-BuildCraft|Robotics:robot, Robot
-BuildCraft|Robotics:robotStation, item.robotStation.name
-BuildCraft|Robotics:redstone_board, Redstone Board
 BuildCraft|Compat:item.buildcraftPipe.pipeitemspropolis:0, Apiarist's Pipe
 Railcraft:fluid.creosote.bucket, Creosote Bucket
 Railcraft:fluid.creosote.bottle, Creosote Bottle
@@ -13714,7 +13590,7 @@ Railcraft:part.plate:0, Iron Plate
 Railcraft:part.plate:1, Steel Plate
 Railcraft:part.plate:2, Tin Plate
 Railcraft:part.plate:3, Copper Plate
-Railcraft:part.plate:4, item.railcraft.part.plate.lead.name
+Railcraft:part.plate:4, Lead Plate
 Railcraft:dust:0, Obsidian Dust
 Railcraft:dust:1, Sulfur
 Railcraft:dust:2, Saltpeter
@@ -13738,6 +13614,7 @@ Railcraft:cart.track.relayer:0, Track Relayer Cart
 Railcraft:cart.undercutter:0, Undercutter Cart
 Railcraft:cart.track.layer:0, Track Layer Cart
 Railcraft:cart.track.remover:0, Track Remover Cart
+Railcraft:tool.notepad, Trackman's Notepad
 Railcraft:cart.tank:0, Tank Cart
 Railcraft:cart.cargo:0, Cargo Cart
 Railcraft:tool.crowbar.magic, Thaumium Crowbar
@@ -14124,6 +14001,7 @@ OpenComputers:item:100, Hover Upgrade (Tier 2)
 OpenComputers:item:53, Inventory Upgrade
 OpenComputers:item:61, Inventory Controller Upgrade
 OpenComputers:item:85, Leash Upgrade
+OpenComputers:item:112, MFU
 OpenComputers:item:36, Navigation Upgrade
 OpenComputers:item:75, Piston Upgrade
 OpenComputers:item:35, Sign I/O Upgrade
@@ -14489,6 +14367,7 @@ computronics:computronics.tape:5, Cassette Tape
 computronics:computronics.tape:6, Cassette Tape
 computronics:computronics.tape:8, Cassette Tape
 computronics:computronics.parts:0, Tape Track
+computronics:computronics.portableTapeDrive, Portable Tape Drive
 computronics:computronics.relaySensor, Digital Relay Sensor
 computronics:computronics.ocParts:0, Camera Upgrade
 computronics:computronics.ocParts:1, Chat Upgrade
@@ -14498,6 +14377,14 @@ computronics:computronics.ocParts:4, Spoofing Card
 computronics:computronics.ocParts:5, Beep Card
 computronics:computronics.ocParts:6, Self-Destructing Card
 computronics:computronics.ocParts:7, Colorful Upgrade
+computronics:computronics.ocParts:8, Noise Card
+computronics:computronics.ocParts:9, Sound Card
+computronics:computronics.ocParts:10, Light Board
+computronics:computronics.ocParts:11, Server Self-Destructor
+computronics:computronics.ocParts:12, Rack Capacitor
+computronics:computronics.ocParts:13, Switch Board
+computronics:computronics.ocParts:14, Speech Upgrade
+computronics:computronics.ocSpecialParts:0, Magical Memory (Creative)
 computronics:computronics.partsForestry:0, Caustic Comb
 computronics:computronics.partsForestry:1, Caustic Drop
 computronics:computronics.droneStation, Drone Docking Station
@@ -14585,7 +14472,7 @@ props:props:79, Pumpkin 3
 props:props:80, Door Barricade
 props:props:81, Rubik's Cube Shuffled
 props:props:82, Picnic Table Left
-props:props:83, Picnic Table Centre
+props:props:83, Picnic Table Center
 props:props:84, Picnic Table Right
 props:props:85, Gravestone 1
 props:props:86, Gravestone 2
@@ -14763,7 +14650,7 @@ props:props:257, Table Lamp Purple
 props:props:258, Table Lamp Blue
 props:props:259, Table Lamp LightBlue
 props:props:260, Cheese Wheel
-props:props:261, Wheel Barrel
+props:props:261, Wheelbarrow
 props:props:262, Dart Board
 props:props:263, Chalk Board
 props:props:264, Perfume Blue
@@ -14977,10 +14864,10 @@ props:props:475, Credenza Right
 props:props:476, Credenza Left
 props:props:477, Cart 1
 props:props:478, Cart 2
-props:props:479, Wheelbarrel Coal
-props:props:480, Wheelbarrel Feed
-props:props:481, Wheelbarrel Rocks
-props:props:482, Wheelbarrel Jugs
+props:props:479, Wheelbarrow Coal
+props:props:480, Wheelbarrow Feed
+props:props:481, Wheelbarrow Rocks
+props:props:482, Wheelbarrow Jugs
 props:props:483, Wooden Table 2
 props:props:484, Stock
 props:props:485, Cannon
@@ -15010,7 +14897,7 @@ props:props:508, Decobench
 props:props:509, Dresser
 props:props:510, Sideboard
 props:props:511, Wardrobe
-props:props:512, BurialUrn
+props:props:512, Burial Urn
 props:props:513, Fishing net
 props:props:514, Anatomical Doll
 props:props:515, Dungeon Skeleton 1
@@ -15019,7 +14906,7 @@ props:props:517, Dungeon Skeleton 3
 props:props:518, Trophy Zombie
 props:props:519, Trophy Deer
 props:props:520, Trophy Bear
-props:props:521, birdcage
+props:props:521, Birdcage
 props:props:522, PotatoPile
 props:props:523, CarrotPile
 props:props:524, Milk Jug
@@ -15036,7 +14923,7 @@ props:props:534, Patron Doll Gellegbs
 props:props:535, Dungeon Skeleton 4
 props:props:536, Hanging Pheasants
 props:props:537, White Hammock
-props:props:538, BookandQuill
+props:props:538, Book and Quill
 props:props:539, Lectern
 props:props:540, FishHanging
 props:props:541, Minotaur Doll
@@ -15122,7 +15009,7 @@ props:props:621, Bottom Cabinet Corner Left Dark
 props:props:622, Broom Cabinet
 props:props:623, Top Cabinet Glass Dark
 props:props:624, Top Cabinet Dark
-props:props:625, Water pump
+props:props:625, Water Pump
 props:props:626, Fridge Large
 props:props:627, Fridge Small
 props:props:628, Dish Rack
@@ -15410,15 +15297,6 @@ props:props:912, Mexican Cupboard Cyan
 props:props:913, Mexican Cupboard Pink
 props:props:914, Mexican Cupboard Blue
 props:props:915, Mexican Cupboard Purple
-props:props:916, Mexican Shelf
-props:props:917, Mexican Shelf Fuchisa
-props:props:918, Mexican Shelf Orange
-props:props:919, Mexican Shelf Green
-props:props:920, Mexican Shelf Red
-props:props:921, Mexican Shelf Cyan
-props:props:922, Mexican Shelf Pink
-props:props:923, Mexican Shelf Blue
-props:props:924, Mexican Shelf Purple
 props:props:925, Hanging Peppers
 props:props:926, Star Pinata
 props:props:927, Joker Star Pinata
@@ -15519,7 +15397,399 @@ props:props:1038, Cow Skull
 props:props:1039, Patron Doll sarsum33
 props:props:1040, Fallen Soldier Tribute
 props:props:1041, Banana Split
+props:props:1042, HotTub
 props:props:1043, Fire Pit
+props:props:1044, Adventsljusstake White
+props:props:1045, Adventsljusstake Red
+props:props:1046, Adventsljusstake Black
+props:props:1047, Nativity Scene
+props:props:1048, Patron Doll Crueldog
+props:props:1049, White Mantel
+props:props:1050, Wood Mantel Light
+props:props:1051, Wood Mantel Medium
+props:props:1052, Wood Mantel Dark
+props:props:1053, Tinsel 1
+props:props:1054, Tinsel with Baubles Red
+props:props:1055, Tinsel with Baubles Yellow
+props:props:1056, Tinsel with Baubles Blue
+props:props:1057, Stocking 1
+props:props:1058, Stocking 2
+props:props:1059, Chocolate Chip Cookie Plate
+props:props:1060, Sugar Cookie Plate
+props:props:1061, Snickerdoodle Cookie Plate
+props:props:1062, Raisin Cookie Plate
+props:props:1063, Cherry Pie
+props:props:1064, Key Lime Pie
+props:props:1065, Blueberry Pie
+props:props:1066, Apple Pie
+props:props:1067, Baking Table
+props:props:1068, Menorah
+props:props:1069, Pool Chair
+props:props:1070, Pulpit
+props:props:1071, Fireplace tools
+props:props:1072, Urinal
+props:props:1073, Modern Toilet
+props:props:1074, Umbrella Basket
+props:props:1075, Video Camera
+props:props:1076, Drum Set
+props:props:1077, Drum Set Dark Blue
+props:props:1078, Drum Set Orange
+props:props:1079, Drum Set Purple
+props:props:1080, Drum Set Blue
+props:props:1081, Drum Set Lime
+props:props:1082, Drum Set Green
+props:props:1083, Drum Set Fuchsia
+props:props:1084, Drum Set Light Blue
+props:props:1085, DrumSet Razzle
+props:props:1086, Drum Set Red
+props:props:1087, DrumSet Pink
+props:props:1088, Drum Set Black
+props:props:1089, Drum Set Yellow
+props:props:1090, Drum Set Coral
+props:props:1091, Drum Set Cyan
+props:props:1092, Drum Set Gray
+props:props:1093, Bar Stool 1
+props:props:1094, Bar Stool 1 Dark Blue
+props:props:1095, Bar Stool 1 Orange
+props:props:1096, Bar Stool 1 Purple
+props:props:1097, Bar Stool 1 Blue
+props:props:1098, Bar Stool 1 Lime
+props:props:1099, Bar Stool 1 Green
+props:props:1100, Bar Stool 1 Fuchsia
+props:props:1101, Bar Stool 1 Light Blue
+props:props:1102, Bar Stool 1 Razzle
+props:props:1103, Bar Stool 1 Red
+props:props:1104, Bar Stool 1 Pink
+props:props:1105, Bar Stool 1 Black
+props:props:1106, Bar Stool 1 Yellow
+props:props:1107, Bar Stool 1 Coral
+props:props:1108, Bar Stool 1 Cyan
+props:props:1109, Bar Stool 1 Gray
+props:props:1110, Dryer
+props:props:1111, Washer
+props:props:1112, Small Flat TV
+props:props:1113, Medium Flat TV
+props:props:1114, Large Flat TV
+props:props:1115, Polaroid 1000
+props:props:1116, Billiard Rack
+props:props:1117, Roadwork Barrier
+props:props:1118, Concrete Barrier
+props:props:1119, Shopping Cart
+props:props:1120, Trash Bin
+props:props:1121, Trash Bin Blue
+props:props:1122, Trash Bin Green
+props:props:1123, Trash Bin Yellow
+props:props:1124, Metal Desk
+props:props:1125, Wood Desk 2
+props:props:1126, Dumpster
+props:props:1127, Car Park Barrier
+props:props:1128, Lavabo
+props:props:1129, Road cone
+props:props:1130, Table Lamp 2
+props:props:1131, Table Lamp 2 Dark Blue
+props:props:1132, Table Lamp 2 Orange
+props:props:1133, Table Lamp 2 Purple
+props:props:1134, Table Lamp 2 Blue
+props:props:1135, Table Lamp 2 Lime
+props:props:1136, Table Lamp 2 Green
+props:props:1137, Table Lamp 2 Fuchsia
+props:props:1138, Table Lamp 2 Light Blue
+props:props:1139, Table Lamp 2 Razzle
+props:props:1140, Table Lamp 2 Red
+props:props:1141, Table Lamp 2 Pink
+props:props:1142, Table Lamp 2 Black
+props:props:1143, Table Lamp 2 Yellow
+props:props:1144, Table Lamp 2 Coral
+props:props:1145, Table Lamp 2 Cyan
+props:props:1146, Table Lamp 2 Gray
+props:props:1147, Office Chair 1
+props:props:1148, Office Chair 1 Dark Blue
+props:props:1149, Office Chair 1 Orange
+props:props:1150, Office Chair 1 Purple
+props:props:1151, Office Chair 1 Blue
+props:props:1152, Office Chair 1 Lime
+props:props:1153, Office Chair 1 Green
+props:props:1154, Office Chair 1 Fuchsia
+props:props:1155, Office Chair 1 Light Blue
+props:props:1156, Office Chair 1 Razzle
+props:props:1157, Office Chair 1 Red
+props:props:1158, Office Chair 1 Pink
+props:props:1159, Office Chair 1 Black
+props:props:1160, Office Chair 1 Yellow
+props:props:1161, Office Chair 1 Coral
+props:props:1162, Office Chair 1 Cyan
+props:props:1163, Office Chair 1 Gray
+props:props:1164, Office Chair 2
+props:props:1165, Office Chair 2 Dark Blue
+props:props:1166, Office Chair 2 Orange
+props:props:1167, Office Chair 2 Purple
+props:props:1168, Office Chair 2 Blue
+props:props:1169, Office Chair 2 Lime
+props:props:1170, Office Chair 2 Green
+props:props:1171, Office Chair 2 Fuchsia
+props:props:1172, Office Chair 2 Light Blue
+props:props:1173, Office Chair 2 Razzle
+props:props:1174, Office Chair 2 Red
+props:props:1175, Office Chair 2 Pink
+props:props:1176, Office Chair 2 Black
+props:props:1177, Office Chair 2 Yellow
+props:props:1178, Office Chair 2 Coral
+props:props:1179, Office Chair 2 Cyan
+props:props:1180, Office Chair 2 Gray
+props:props:1181, Desk Lamp
+props:props:1182, Desk Lamp Dark Blue
+props:props:1183, Desk Lamp Orange
+props:props:1184, Desk Lamp Purple
+props:props:1185, Desk Lamp Blue
+props:props:1186, Desk Lamp Lime
+props:props:1187, Desk Lamp Green
+props:props:1188, Desk Lamp Fuchsia
+props:props:1189, Desk Lamp Light Blue
+props:props:1190, Desk Lamp Razzle
+props:props:1191, Desk Lamp Red
+props:props:1192, Desk Lamp Pink
+props:props:1193, Desk Lamp Black
+props:props:1194, Desk Lamp Yellow
+props:props:1195, Desk Lamp Coral
+props:props:1196, Desk Lamp Cyan
+props:props:1197, Desk Lamp Gray
+props:props:1198, Door 1 Left
+props:props:1199, Door 1 Right
+props:props:1200, Door 1 Right Medium
+props:props:1201, Door 1 Left Medium
+props:props:1202, Door 1 Left Dark
+props:props:1203, Door 1 Right Dark
+props:props:1204, Door 2 Left Light
+props:props:1205, Door 2 Right Light
+props:props:1206, Door 2 Left Medium
+props:props:1207, Door 2 Right Medium
+props:props:1208, Door 2 Left Dark
+props:props:1209, Door 2 Right Dark
+props:props:1210, Door 3 Left
+props:props:1211, Door 3 Right
+props:props:1212, Hanging Lamp
+props:props:1213, Cogniac Bottle
+props:props:1214, Basket with Baguettes
+props:props:1215, Market Register
+props:props:1216, Corkboard
+props:props:1217, Door 4 Left
+props:props:1218, Door 4 Left Dark Blue
+props:props:1219, Door 4 Left Orange
+props:props:1220, Door 4 Left Purple
+props:props:1221, Door 4 Left Blue
+props:props:1222, Door 4 Left Lime
+props:props:1223, Door 4 Left Green
+props:props:1224, Door 4 Left Fuchsia
+props:props:1225, Door 4 Left Light Blue
+props:props:1226, Door 4 Left Razzle
+props:props:1227, Door 4 Left Red
+props:props:1228, Door 4 Left Pink
+props:props:1229, Door 4 Left Black
+props:props:1230, Door 4 Left Yellow
+props:props:1231, Door 4 Left Coral
+props:props:1232, Door 4 Left Cyan
+props:props:1233, Door 4 Left Gray
+props:props:1234, Door 4 Right
+props:props:1235, Door 4 Right Dark Blue
+props:props:1236, Door 4 Right Orange
+props:props:1237, Door 4 Right Purple
+props:props:1238, Door 4 Right Blue
+props:props:1239, Door 4 Right Lime
+props:props:1240, Door 4 Right Green
+props:props:1241, Door 4 Right Fuchsia
+props:props:1242, Door 4 Right Light Blue
+props:props:1243, Door 4 Right Razzle
+props:props:1244, Door 4 Right Red
+props:props:1245, Door 4 Right Pink
+props:props:1246, Door 4 Right Black
+props:props:1247, Door 4 Right Yellow
+props:props:1248, Door 4 Right Coral
+props:props:1249, Door 4 Right Cyan
+props:props:1250, Door 4 Right Gray
+props:props:1251, Door 5 Left
+props:props:1252, Door 5 Right
+props:props:1253, Rotary Phone
+props:props:1254, Upright Piano
+props:props:1255, Ingolf Chair White
+props:props:1256, Ingolf Chair Black
+props:props:1257, Ingolf Chair Light
+props:props:1258, Ingolf Chair Medium
+props:props:1259, Ingolf Chair Dark
+props:props:1260, Industrial Ceiling Lamp
+props:props:1261, Glass Desk
+props:props:1262, Industrial TV Stand White
+props:props:1263, Industrial TV Stand Black
+props:props:1264, Industrial TV Stand Light
+props:props:1265, Industrial TV Stand Medium
+props:props:1266, Industrial TV Stand Dark
+props:props:1267, Borje Chair White
+props:props:1268, Borje Chair White Dark Blue
+props:props:1269, Borje Chair White Orange
+props:props:1270, Borje Chair White Purple
+props:props:1271, Borje Chair White Blue
+props:props:1272, Borje Chair White Lime
+props:props:1273, Borje Chair White Green
+props:props:1274, Borje Chair White Fuchsia
+props:props:1275, Borje Chair White Light Blue
+props:props:1276, Borje Chair White Razzle
+props:props:1277, Borje Chair White Red
+props:props:1278, Borje Chair White Pink
+props:props:1279, Borje Chair White Black
+props:props:1280, Borje Chair White Yellow
+props:props:1281, Borje Chair White Coral
+props:props:1282, Borje Chair White Cyan
+props:props:1283, Borje Chair White Gray
+props:props:1284, Borje Chair Black
+props:props:1285, Borje Chair Black Dark Blue
+props:props:1286, Borje Chair Black Orange
+props:props:1287, Borje Chair Black Purple
+props:props:1288, Borje Chair Black Blue
+props:props:1289, Borje Chair Black Lime
+props:props:1290, Borje Chair Black Green
+props:props:1291, Borje Chair Black Fuchsia
+props:props:1292, Borje Chair Black Light Blue
+props:props:1293, Borje Chair Black Razzle
+props:props:1294, Borje Chair Black Red
+props:props:1295, Borje Chair Black Pink
+props:props:1296, Borje Chair Black Black
+props:props:1297, Borje Chair Black Yellow
+props:props:1298, Borje Chair Black Coral
+props:props:1299, Borje Chair Black Cyan
+props:props:1300, Borje Chair Black Gray
+props:props:1301, Borje Chair Light
+props:props:1302, Borje Chair Light Dark Blue
+props:props:1304, Borje Chair Light Orange
+props:props:1305, Borje Chair Light Purple
+props:props:1306, Borje Chair Light Blue
+props:props:1307, Borje Chair Light Lime
+props:props:1308, Borje Chair Light Green
+props:props:1309, Borje Chair Light Fuchsia
+props:props:1310, Borje Chair Light Light Blue
+props:props:1311, Borje Chair Light Razzle
+props:props:1312, Borje Chair Light Red
+props:props:1313, Borje Chair Light Pink
+props:props:1314, Borje Chair Light Black
+props:props:1315, Borje Chair Light Yellow
+props:props:1316, Borje Chair Light Coral
+props:props:1317, Borje Chair Light Cyan
+props:props:1318, Borje Chair Light Gray
+props:props:1319, Borje Chair Medium
+props:props:1320, Borje Chair Medium Dark Blue
+props:props:1321, Borje Chair Medium Orange
+props:props:1322, Borje Chair Medium Purple
+props:props:1323, Borje Chair Medium Blue
+props:props:1324, Borje Chair Medium Lime
+props:props:1325, Borje Chair Medium Green
+props:props:1326, Borje Chair Medium Fuchsia
+props:props:1327, Borje Chair Medium Medium Blue
+props:props:1328, Borje Chair Medium Razzle
+props:props:1329, Borje Chair Medium Red
+props:props:1330, Borje Chair Medium Pink
+props:props:1331, Borje Chair Medium Black
+props:props:1332, Borje Chair Medium Yellow
+props:props:1333, Borje Chair Medium Coral
+props:props:1334, Borje Chair Medium Cyan
+props:props:1335, Borje Chair Medium Gray
+props:props:1336, Borje Chair Dark
+props:props:1337, Borje Chair Dark Dark Blue
+props:props:1338, Borje Chair Dark Orange
+props:props:1339, Borje Chair Dark Purple
+props:props:1340, Borje Chair Dark Blue
+props:props:1341, Borje Chair Dark Lime
+props:props:1342, Borje Chair Dark Green
+props:props:1343, Borje Chair Dark Fuchsia
+props:props:1344, Borje Chair Dark Light Blue
+props:props:1345, Borje Chair Dark Razzle
+props:props:1346, Borje Chair Dark Red
+props:props:1347, Borje Chair Dark Pink
+props:props:1348, Borje Chair Dark Black
+props:props:1349, Borje Chair Dark Yellow
+props:props:1350, Borje Chair Dark Coral
+props:props:1351, Borje Chair Dark Cyan
+props:props:1352, Borje Chair Dark Gray
+props:props:1353, Industrial Chair
+props:props:1354, Industrial Chair Dark Blue
+props:props:1355, Industrial Chair Orange
+props:props:1356, Industrial Chair Purple
+props:props:1357, Industrial Chair Blue
+props:props:1358, Industrial Chair Lime
+props:props:1359, Industrial Chair Green
+props:props:1360, Industrial Chair Fuchsia
+props:props:1361, Industrial Chair Light Blue
+props:props:1362, Industrial Chair Razzle
+props:props:1363, Industrial Chair Red
+props:props:1364, Industrial Chair Pink
+props:props:1365, Industrial Chair Black
+props:props:1366, Industrial Chair Yellow
+props:props:1367, Industrial Chair Coral
+props:props:1368, Industrial Chair Cyan
+props:props:1369, Industrial Chair Gray
+props:props:1370, Industrial Sofa
+props:props:1371, Industrial Sofa Dark Blue
+props:props:1372, Industrial Sofa Orange
+props:props:1373, Industrial Sofa Purple
+props:props:1374, Industrial Sofa Blue
+props:props:1375, Industrial Sofa Lime
+props:props:1376, Industrial Sofa Green
+props:props:1377, Industrial Sofa Fuchsia
+props:props:1378, Industrial Sofa Light Blue
+props:props:1379, Industrial Sofa Razzle
+props:props:1380, Industrial Sofa Red
+props:props:1381, Industrial Sofa Pink
+props:props:1382, Industrial Sofa Black
+props:props:1383, Industrial Sofa Yellow
+props:props:1384, Industrial Sofa Coral
+props:props:1385, Industrial Sofa Cyan
+props:props:1386, Industrial Sofa Gray
+props:props:1387, Industrial FootLamp
+props:props:1388, Industrial FootLamp Dark Blue
+props:props:1389, Industrial FootLamp Orange
+props:props:1390, Industrial FootLamp Purple
+props:props:1391, Industrial FootLamp Blue
+props:props:1392, Industrial FootLamp Lime
+props:props:1393, Industrial FootLamp Green
+props:props:1394, Industrial FootLamp Fuchsia
+props:props:1395, Industrial FootLamp Light Blue
+props:props:1396, Industrial FootLamp Razzle
+props:props:1397, Industrial FootLamp Red
+props:props:1398, Industrial FootLamp Pink
+props:props:1399, Industrial FootLamp Black
+props:props:1400, Industrial FootLamp Yellow
+props:props:1401, Industrial FootLamp Coral
+props:props:1402, Industrial FootLamp Cyan
+props:props:1403, Industrial FootLamp Gray
+props:props:1404, Office Chair 3
+props:props:1405, Office Chair 3 Black
+props:props:1406, Tulip Vase
+props:props:1407, Tulip Vase Dark Blue
+props:props:1408, Tulip Vase Orange
+props:props:1409, Tulip Vase Purple
+props:props:1410, Tulip Vase Blue
+props:props:1411, Tulip Vase Lime
+props:props:1412, Tulip Vase Green
+props:props:1413, Tulip Vase Fuchsia
+props:props:1414, Tulip Vase Light Blue
+props:props:1415, Tulip Vase Razzle
+props:props:1416, Tulip Vase Red
+props:props:1417, Tulip Vase Pink
+props:props:1418, Tulip Vase Yellow
+props:props:1419, Tulip Vase Coral
+props:props:1420, Tulip Vase Cyan
+props:props:1421, Industrial Coffee Table Light
+props:props:1422, Industrial Coffee Table Medium
+props:props:1423, Industrial Coffee Table Dark
+props:props:1424, Industrial Table 1 Light
+props:props:1425, Industrial Table 1 Medium
+props:props:1426, Industrial Table 1 Dark
+props:props:1427, Industrial Table 2 Light
+props:props:1428, Industrial Table 2 Medium
+props:props:1429, Industrial Table 2 Dark
+props:props:1430, Hanging Lamp Short
+props:props:1431, Piano Stool
+props:props:1432, Patron Doll Oddles
+props:props:1433, Patron Doll Hazardrar
+props:props:1434, Patron Doll Cottonbaler
+props:props:1435, Patron Doll thatdesiree
 props:clay:0, Red Crafting Clay
 props:clay:1, Blue Crafting Clay
 props:clay:2, Green Crafting Clay
@@ -15594,15 +15864,31 @@ DraconicEvolution:magnet:1, Awakened Item Dislocator
 DraconicEvolution:dezilsMarshmallow, Dezil's Marshmallow
 Enchiridion:items:1, Book Binder
 Enchiridion2:book:0, Create New Book
+Enchiridion2:book:0, Decent Supply Contract - Some Fancy Metal
 Enchiridion2:book:0, Test_Book_3
 Enchiridion2:book:0, Ritual of Dragon Awakening
+Enchiridion2:book:0, Cheap Supply Contract - Mystic Metals
+Enchiridion2:book:0, Decent Supply Contract - Magical Metals
+Enchiridion2:book:0, Draconic Energy Storage Guide
+Enchiridion2:book:0, Decent Supply Contract - Kinda Metal
+Enchiridion2:book:0, Good Supply Contract - How Metal
+Enchiridion2:book:0, Amazing Supply Contract - Metal Wizardry
+Enchiridion2:book:0, Cheap Supply Contract - Pretty Gems
+Enchiridion2:book:0, Create New Book
+Enchiridion2:book:0, Good Supply Contract - Really Fancy Metal
+Enchiridion2:book:0, Cheap Supply Contract - A Little Metal
+Enchiridion2:book:0, Amazing Supply Contract - Luxurious Metals
+Enchiridion2:book:0, Amazing Supply Contract - That is Metal
 Enchiridion2:book:0, Ferret Business Contract Guide
+Enchiridion2:book:0, Good Supply Contract - Occult Metals
+Enchiridion2:book:0, Decent Supply Contract - Gems That Sparkle
+Enchiridion2:book:0, Good Supply Contract - Fanciful Gemstones
+Enchiridion2:book:0, Amazing Supply Contract - The Gem Trade
 Enchiridion2:book:0, Ferret Business Assistant Handbook
+Enchiridion2:book:0, Ritual of Dragon Summoning
+Enchiridion2:book:0, Cheap Supply Contract - Fancy A Little Metal
 Enchiridion2:book:0, Aura Cascade Primer by Wiggles
 Enchiridion2:book:0, Create New Book
-Enchiridion2:book:0, Ritual of Dragon Summoning
-Enchiridion2:book:0, Create New Book
-Enchiridion2:book:0, Draconic Energy Storage Guide
 enhancedportals:wrench, Wrench
 enhancedportals:nanobrush, Nanobrush
 enhancedportals:glasses, Glasses
@@ -15627,7 +15913,10 @@ enhancedportals:blank_portal_module, Blank Portal Module
 enhancedportals:blank_upgrade, Blank Upgrade
 enhancedportals:manual, ENHANCED PORTALS: wormhole tunneling
 enhancedportals:nuggetDiamond, Diamond Nugget
+exoticbirds:bird_book, Bird Encyclopedia
 exoticbirds:peacock_feather, Peacock Feather
+exoticbirds:phoenix_dust, Phoenix Dust
+exoticbirds:phoenix_feather, Phoenix Feather
 exoticbirds:peafowl_egg, Peafowl Egg
 exoticbirds:hummingbird_egg, Hummingbird Egg
 exoticbirds:woodpecker_egg, Woodpecker Egg
@@ -15638,12 +15927,6 @@ exoticbirds:swan_egg, Swan Egg
 exoticbirds:parrot_egg, Parrot Egg
 exoticbirds:cassowary_egg, Cassowary Egg
 exoticbirds:magpie_egg, Magpie Egg
-exoticbirds:birdmeat_small, Raw Small Bird Meat
-exoticbirds:cooked_birdmeat_small, Cooked Small Bird Meat
-exoticbirds:birdmeat_large, Raw Large Bird Meat
-exoticbirds:cooked_birdmeat_large, Cooked Large Bird Meat
-exoticbirds:eggshell, Eggshell
-exoticbirds:bird_book, Encyclopedia of Birds
 exoticbirds:kiwi_egg, Kiwi Egg
 exoticbirds:vulture_egg, Vulture Egg
 exoticbirds:flamingo_egg, Flamingo Egg
@@ -15656,32 +15939,48 @@ exoticbirds:seagull_egg, Seagull Egg
 exoticbirds:pigeon_egg, Pigeon Egg
 exoticbirds:penguin_egg, Penguin Egg
 exoticbirds:duck_egg, Duck Egg
-exoticbirds:phoenix_dust, Phoenix Dust
-exoticbirds:phoenix_feather, Phoenix Feather
+exoticbirds:heron_egg, Heron Egg
+exoticbirds:booby_egg, Booby Egg
+exoticbirds:cardinal_egg, Cardinal Egg
+exoticbirds:bluejay_egg, Blue Jay Egg
+exoticbirds:robin_egg, Robin Egg
+exoticbirds:crane_egg, Crane Egg
 exoticbirds:mystery_egg, Unidentified Egg
-exoticbirds:bird_spawn_egg:0, Spawn Peafowl
-exoticbirds:bird_spawn_egg:1, Spawn Hummingbird
-exoticbirds:bird_spawn_egg:2, Spawn Woodpecker
-exoticbirds:bird_spawn_egg:3, Spawn Kingfisher
-exoticbirds:bird_spawn_egg:4, Spawn Roadrunner
-exoticbirds:bird_spawn_egg:5, Spawn Toucan
-exoticbirds:bird_spawn_egg:6, Spawn Swan
-exoticbirds:bird_spawn_egg:7, Spawn Parrot
-exoticbirds:bird_spawn_egg:8, Spawn Cassowary
-exoticbirds:bird_spawn_egg:9, Spawn Magpie
-exoticbirds:bird_spawn_egg:10, Spawn Vulture
-exoticbirds:bird_spawn_egg:11, Spawn Kiwi
-exoticbirds:bird_spawn_egg:12, Spawn Flamingo
+exoticbirds:bird_spawn_egg:0, Spawn Cassowary
+exoticbirds:bird_spawn_egg:1, Spawn Duck
+exoticbirds:bird_spawn_egg:2, Spawn Flamingo
+exoticbirds:bird_spawn_egg:3, Spawn Gouldian Finch
+exoticbirds:bird_spawn_egg:4, Spawn Hummingbird
+exoticbirds:bird_spawn_egg:5, Spawn Kingfisher
+exoticbirds:bird_spawn_egg:6, Spawn Kiwi
+exoticbirds:bird_spawn_egg:7, Spawn Lyrebird
+exoticbirds:bird_spawn_egg:8, Spawn Magpie
+exoticbirds:bird_spawn_egg:9, Spawn Ostrich
+exoticbirds:bird_spawn_egg:10, Spawn Owl
+exoticbirds:bird_spawn_egg:11, Spawn Parrot
+exoticbirds:bird_spawn_egg:12, Spawn Peafowl
 exoticbirds:bird_spawn_egg:13, Spawn Pelican
-exoticbirds:bird_spawn_egg:14, Spawn Owl
-exoticbirds:bird_spawn_egg:15, Spawn Lyrebird
-exoticbirds:bird_spawn_egg:16, Spawn Ostrich
-exoticbirds:bird_spawn_egg:17, Spawn Gouldian Finch
+exoticbirds:bird_spawn_egg:14, Spawn Penguin
+exoticbirds:bird_spawn_egg:15, Spawn Phoenix
+exoticbirds:bird_spawn_egg:16, Spawn Pigeon
+exoticbirds:bird_spawn_egg:17, Spawn Roadrunner
 exoticbirds:bird_spawn_egg:18, Spawn Seagull
-exoticbirds:bird_spawn_egg:19, Spawn Pigeon
-exoticbirds:bird_spawn_egg:20, Spawn Penguin
-exoticbirds:bird_spawn_egg:21, Spawn Duck
-exoticbirds:bird_spawn_egg:22, Spawn Phoenix
+exoticbirds:bird_spawn_egg:19, Spawn Swan
+exoticbirds:bird_spawn_egg:20, Spawn Toucan
+exoticbirds:bird_spawn_egg:21, Spawn Vulture
+exoticbirds:bird_spawn_egg:22, Spawn Woodpecker
+exoticbirds:bird_spawn_egg:23, Spawn Heron
+exoticbirds:bird_spawn_egg:24, Spawn Booby
+exoticbirds:bird_spawn_egg:25, Spawn Cardinal
+exoticbirds:bird_spawn_egg:26, Spawn Blue Jay
+exoticbirds:bird_spawn_egg:27, Spawn Robin
+exoticbirds:bird_spawn_egg:28, Spawn Crane
+exoticbirds:eggshell, Eggshell
+exoticbirds:birdmeat_small, Raw Small Bird Meat
+exoticbirds:cooked_birdmeat_small, Cooked Small Bird Meat
+exoticbirds:birdmeat_large, Raw Large Bird Meat
+exoticbirds:cooked_birdmeat_large, Cooked Large Bird Meat
+exoticbirds:shoulder_parrot, Tame Macaw
 extracells:part.base:0, ME Fluid Export Bus
 extracells:part.base:1, ME Fluid Import Bus
 extracells:part.base:2, ME Fluid Storage Bus
@@ -18700,6 +18999,8 @@ MagicBees:beeNugget:1, Copper Nugget
 MagicBees:beeNugget:2, Tin Nugget
 MagicBees:beeNugget:3, Silver Nugget
 MagicBees:beeNugget:4, Lead Nugget
+MagicBees:beeNugget:5, Diamond Shard
+MagicBees:beeNugget:6, Emerald Shard
 MagicBees:magnet:0, Mysterious Magnet
 MagicBees:magnet:2, Mysterious Magnet
 MagicBees:magnet:4, Mysterious Magnet
@@ -20520,7 +20821,42 @@ OpenBlocks:spongeonastick, Sponge
 OpenBlocks:pedometer, Pedometer
 OpenBlocks:epicEraser, Epic Eraser
 OpenBlocks:wrench, Big Metal Bar
-questbook:questBook, Quest Book
+openmodularturrets:bulletThrowable, Throwable Bullet
+openmodularturrets:grenadeThrowable, Throwable Grenade
+openmodularturrets:accuraccyUpgradeItem, Upgrade - Accuracy
+openmodularturrets:efficiencyUpgradeItem, Upgrade - Efficiency
+openmodularturrets:fireRateUpgradeItem, Upgrade - Fire Rate
+openmodularturrets:rangeUpgradeItem, Upgrade - Range
+openmodularturrets:scattershotUpgradeItem, Upgrade - Scattershot
+openmodularturrets:redstoneReactorAddon, Addon - Redstone Reactor
+openmodularturrets:damageAmpAddon, Addon - Damage Boost
+openmodularturrets:solarPanelAddon, Addon - Solar Generator
+openmodularturrets:recyclerAddon, Addon - Recycler
+openmodularturrets:concealerAddon, Addon - Turret Concealer
+openmodularturrets:potentiaAddon, Addon - Potentia Converter
+openmodularturrets:serialPortAddon, Addon - Serial Port
+openmodularturrets:bulletCraftable, Ammo - Bullet
+openmodularturrets:blazingClayCraftable, Ammo - Blazing Clay
+openmodularturrets:grenadeCraftable, Ammo - Grenade
+openmodularturrets:rocketCraftable, Ammo - Rocket
+openmodularturrets:ferroSlug, Ammo - Ferro-Magnetic Slug
+openmodularturrets:sensorTierOneItem, Sensor (Tier 1)
+openmodularturrets:sensorTierTwoItem, Sensor (Tier 2)
+openmodularturrets:sensorTierThreeItem, Sensor (Tier 3)
+openmodularturrets:sensorTierFourItem, Sensor (Tier 4)
+openmodularturrets:sensorTierFiveItem, Sensor (Tier 5)
+openmodularturrets:barrelTierOne, Barrel (Tier 1)
+openmodularturrets:barrelTierTwo, Barrel (Tier 2)
+openmodularturrets:barrelTierThree, Barrel (Tier 3)
+openmodularturrets:barrelTierFour, Barrel (Tier 4)
+openmodularturrets:barrelTierFive, Barrel (Tier 5)
+openmodularturrets:chamberTierOne, Chamber (Tier 1)
+openmodularturrets:chamberTierTwo, Chamber (Tier 2)
+openmodularturrets:chamberTierThree, Chamber (Tier 3)
+openmodularturrets:chamberTierFour, Chamber (Tier 4)
+openmodularturrets:chamberTierFive, Chamber (Tier 5)
+openmodularturrets:ioBus, IO Bus
+questbook:ItemQuestBook, Quest Book
 RandomThings:biomeCapsule, Biome Capsule
 RandomThings:biomePainter:0, Biome Painter
 RandomThings:whitestone:0, White Stone [Uncharged]
@@ -21321,16 +21657,16 @@ ThermalDynamics:cover:0, Daisy Cover
 ThermalDynamics:cover:0, Cactus Cover
 ThermalDynamics:cover:0, Red Mushroom Cover
 ThermalDynamics:cover:0, Brown Mushroom Cover
-ThermalDynamics:cover:0, Monitor Cover
+ThermalDynamics:cover:0, tile.fairyTorch.name Cover
+ThermalDynamics:cover:0, Rebounding Enigma Cover
 ThermalDynamics:cover:0, Fortified Dirt Cover
 ThermalDynamics:cover:0, Fortified Planks Cover
 ThermalDynamics:cover:0, Fortified Glass Cover
 ThermalDynamics:cover:0, Fortified Cobblestone Cover
 ThermalDynamics:cover:0, Fortified Stone Cover
 ThermalDynamics:cover:0, Fortified Obsidian Cover
-ThermalDynamics:cover:0, Rebounding Enigma Cover
-ThermalDynamics:cover:0, tile.fairyTorch.name Cover
 ThermalDynamics:cover:0, Traveler's Bricks Cover
+ThermalDynamics:cover:0, Monitor Cover
 ThermalDynamics:cover:0, Blood Rune Cover
 ThermalDynamics:cover:0, Rune of Augmented Capacity Cover
 ThermalDynamics:cover:0, Rune of Dislocation Cover
@@ -22249,10 +22585,10 @@ ThermalDynamics:cover:0, Marble Hive Cover
 ThermalDynamics:cover:0, Water Spring Cover
 ThermalDynamics:cover:0, Oil Spring Cover
 ThermalDynamics:cover:0, tile.buildToolBlock.name Cover
+ThermalDynamics:cover:0, Mining Pipe Cover
 ThermalDynamics:cover:0, Oil Cover
 ThermalDynamics:cover:0, Fuel Cover
 ThermalDynamics:cover:0, tile.blockRedPlasma.name Cover
-ThermalDynamics:cover:0, Mining Pipe Cover
 ThermalDynamics:cover:0, Frame Cover
 ThermalDynamics:cover:0, Creosote Cover
 ThermalDynamics:cover:0, Steam Cover
@@ -24924,22 +25260,22 @@ ThermalDynamics:cover:0, Molten Constantan Cover
 ThermalDynamics:cover:0, Fairy Block Cover
 ThermalDynamics:cover:0, Pokefennium Block Cover
 ThermalDynamics:cover:0, RedAurum Block Cover
-ThermalDynamics:cover:0, Bedrock Portal Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
 ThermalDynamics:cover:0, Block of Smokey Quartz Cover
 ThermalDynamics:cover:0, Chiseled Smokey Quartz Block Cover
 ThermalDynamics:cover:0, Pillar Smokey Quartz Block Cover
-ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, tile.gaseousLight.name Cover
 ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
+ThermalDynamics:cover:0, Terra Imbued Fire Cover
+ThermalDynamics:cover:0, Perditio Imbued Fire Cover
+ThermalDynamics:cover:0, Aer Imbued Fire Cover
+ThermalDynamics:cover:0, Bedrock Portal Cover
+ThermalDynamics:cover:0, Aqua Imbued Fire Cover
+ThermalDynamics:cover:0, tile.nitorGas.name Cover
 ThermalDynamics:cover:0, Ordo Imbued Fire Cover
 ThermalDynamics:cover:0, Ignis Imbued Fire Cover
-ThermalDynamics:cover:0, tile.gaseousLight.name Cover
-ThermalDynamics:cover:0, Terra Imbued Fire Cover
-ThermalDynamics:cover:0, Aqua Imbued Fire Cover
-ThermalDynamics:cover:0, Perditio Imbued Fire Cover
-ThermalDynamics:cover:0, tile.nitorGas.name Cover
-ThermalDynamics:cover:0, Aer Imbued Fire Cover
 ThermalDynamics:cover:0, Thaumic Cake Cover
 ThermalDynamics:cover:0, Umbral Rose Cover
 ThermalDynamics:cover:0, Nether Star Block Cover
@@ -25062,6 +25398,16 @@ ThermalDynamics:cover:0, Sponge Cover
 ThermalDynamics:cover:0, Path Cover
 ThermalDynamics:cover:0, Rope Ladder Cover
 ThermalDynamics:cover:0, Scaffolding Cover
+ThermalDynamics:cover:0, Hard Wall (Tier 1) Cover
+ThermalDynamics:cover:0, Hard Wall (Tier 2) Cover
+ThermalDynamics:cover:0, Hard Wall (Tier 3) Cover
+ThermalDynamics:cover:0, Hard Wall (Tier 4) Cover
+ThermalDynamics:cover:0, Hard Wall (Tier 5) Cover
+ThermalDynamics:cover:0, Fence (Tier 1) Cover
+ThermalDynamics:cover:0, Fence (Tier 2) Cover
+ThermalDynamics:cover:0, Fence (Tier 3) Cover
+ThermalDynamics:cover:0, Fence (Tier 4) Cover
+ThermalDynamics:cover:0, Fence (Tier 5) Cover
 ThermalDynamics:cover:0, Fertilized Dirt Cover
 ThermalDynamics:cover:0, Fertilized Dirt Cover
 ThermalDynamics:cover:0, Lapis Lamp Cover

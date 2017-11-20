@@ -2798,6 +2798,312 @@ found in the core file.
         <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
       </output>
     </recipe>
+
+    <recipe name="Redeem Bronze Job Chip" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="104" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Steel Job Chip" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="105" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="5" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Silver Job Chip" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="106" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="12" />
+      </output>
+
+    <recipe name="Redeem Gold Job Chip" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="107" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="26" />
+        <itemStack modID="HardcoreQuesting" itemName="bags" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Thaumium Job Chip" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="108" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="8" />
+        <itemStack modID="HardcoreQuesting" itemName="bags" itemMeta="0" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Diamond Job Chip" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="109" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="2" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="28" />
+        <itemStack modID="HardcoreQuesting" itemName="bags" itemMeta="1" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Obsidian Job Chip" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="110" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="5" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="32" />
+        <itemStack modID="HardcoreQuesting" itemName="bags" itemMeta="1" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Enderium Job Chip" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="111" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="12" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="14" />
+        <itemStack modID="HardcoreQuesting" itemName="bags" itemMeta="2" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Manyullyn Job Chip" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="112" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="26" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="31" />
+        <itemStack modID="HardcoreQuesting" itemName="bags" itemMeta="3" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Awakened Draconium Job Chip" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="113" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="61" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="22" />
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="74" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Bronze Shop Token" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="79" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Steel Shop Token" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="80" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="5" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Silver Shop Token" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="81" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="12" />
+      </output>
+
+    <recipe name="Redeem Gold Shop Token" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="82" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="26" />
+        <itemStack modID="HardcoreQuesting" itemName="bags" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Thaumium Shop Token" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="83" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="8" />
+        <itemStack modID="HardcoreQuesting" itemName="bags" itemMeta="0" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Diamond Shop Token" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="84" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="2" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="28" />
+        <itemStack modID="HardcoreQuesting" itemName="bags" itemMeta="1" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Obsidian Shop Token" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="85" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="5" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="32" />
+        <itemStack modID="HardcoreQuesting" itemName="bags" itemMeta="1" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Enderium Shop Token" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="86" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="12" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="14" />
+        <itemStack modID="HardcoreQuesting" itemName="bags" itemMeta="2" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Manyullyn Shop Token" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="87" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="26" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="31" />
+        <itemStack modID="HardcoreQuesting" itemName="bags" itemMeta="3" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Awakened Draconium Shop Token" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="88" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="61" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="22" />
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="74" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Bronze Trader Chit" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="44" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Steel Trader Chit" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="45" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="5" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Silver Trader Chit" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="46" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="12" />
+      </output>
+
+    <recipe name="Redeem Gold Trader Chit" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="47" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="26" />
+        <itemStack modID="HardcoreQuesting" itemName="bags" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Thaumium Trader Chit" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="48" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="8" />
+        <itemStack modID="HardcoreQuesting" itemName="bags" itemMeta="0" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Diamond Trader Chit" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="49" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="2" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="28" />
+        <itemStack modID="HardcoreQuesting" itemName="bags" itemMeta="1" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Obsidian Trader Chit" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="50" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="5" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="32" />
+        <itemStack modID="HardcoreQuesting" itemName="bags" itemMeta="1" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Enderium Trader Chit" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="51" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="12" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="14" />
+        <itemStack modID="HardcoreQuesting" itemName="bags" itemMeta="2" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Manyullyn Trader Chit" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="52" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="26" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="31" />
+        <itemStack modID="HardcoreQuesting" itemName="bags" itemMeta="3" number="1" />
+      </output>
+    </recipe>
+
+    <recipe name="Redeem Awakened Draconium Trader Chit" energyCost="5000">
+      <input>
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="53" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="61" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="22" />
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="74" number="1" />
+      </output>
+    </recipe>
     
 </recipeGroup> 
  </SAGMillRecipes>
