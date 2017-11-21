@@ -2681,11 +2681,11 @@ found in the core file.
 
     <recipe name="Researchology - Rotted Bone" energyCost="5000">
       <input>
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="26" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="26" number="20" />
       </input>      
       <output>
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="15" />
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="1" />
       </output>
     </recipe>
 
@@ -2694,8 +2694,8 @@ found in the core file.
         <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="27" number="10" />
       </input>      
       <output>
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="15" />
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="1" />
       </output>
     </recipe>
 
@@ -2704,8 +2704,8 @@ found in the core file.
         <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="28" number="10" />
       </input>      
       <output>
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="15" />
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="1" />
       </output>
     </recipe>
 
@@ -2714,8 +2714,8 @@ found in the core file.
         <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="29" number="10" />
       </input>      
       <output>
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="15" />
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="1" />
       </output>
     </recipe>
 
@@ -2724,8 +2724,8 @@ found in the core file.
         <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="30" number="10" />
       </input>      
       <output>
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="15" />
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="1" />
       </output>
     </recipe>
 
@@ -2734,8 +2734,8 @@ found in the core file.
         <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="31" number="10" />
       </input>      
       <output>
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="15" />
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="1" />
       </output>
     </recipe>
 
@@ -2744,8 +2744,8 @@ found in the core file.
         <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="32" number="10" />
       </input>      
       <output>
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="15" />
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="1" />
       </output>
     </recipe>
 
@@ -2754,8 +2754,8 @@ found in the core file.
         <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="33" number="10" />
       </input>      
       <output>
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="15" />
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="1" />
       </output>
     </recipe>
 
@@ -2764,8 +2764,8 @@ found in the core file.
         <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="34" number="10" />
       </input>      
       <output>
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="15" />
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="1" />
       </output>
     </recipe>
 
@@ -2774,8 +2774,8 @@ found in the core file.
         <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="35" number="10" />
       </input>      
       <output>
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="15" />
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="1" />
       </output>
     </recipe>
 
@@ -2784,8 +2784,8 @@ found in the core file.
         <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="36" number="10" />
       </input>      
       <output>
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="15" />
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="1" />
       </output>
     </recipe>
 
@@ -2794,8 +2794,8 @@ found in the core file.
         <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="37" number="10" />
       </input>      
       <output>
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="15" />
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="2" />
+        <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="101" number="1" />
       </output>
     </recipe>
 

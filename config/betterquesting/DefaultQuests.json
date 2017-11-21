@@ -1883,15 +1883,15 @@
             "Damage": 79
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Bronze Shop Token",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
-          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth. Four §3§lBronze Tokens§r are worth less than a single §3§lSilver Token§r. Four §3§lSilver Tokens§r are worth less than a single §3§lThaumium Token§r, and so on.\n     You must spend at least 3 §2§lShop Vouchers§r in one purchase to earn a §2§lShop Token§r. The smallest §3§lShop Token§r you can turn in is a §5§lBronze Shop Token§r. Larger value tokens can also earn you bonuses in the form of §5§lBlind Bags§r! \n    You will receive 2 §2§lSilver Coins§r."
+          "isSilent": false,
+          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth. Four §3§lBronze Tokens§r are worth less than a single §3§lSilver Token§r. Four §3§lSilver Tokens§r are worth less than a single §3§lThaumium Token§r, and so on.\n     You must spend at least 3 §2§lShop Vouchers§r in one purchase to earn a §2§lShop Token§r. The smallest §3§lShop Token§r you can turn in is a §5§lBronze Shop Token§r. Larger value tokens can also earn you bonuses in the form of §5§lBlind Bags§r! \n    You will receive 2 §2§lSilver Coins§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Token via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -2331,7 +2331,7 @@
             "Damage": 104
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Bronze Job Chip",
@@ -2339,7 +2339,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 2 §2§lSilver Coins§r."
+          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 2 §2§lSilver Coins§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chip via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -3128,7 +3128,7 @@
             "Damage": 105
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Steel Job Chip",
@@ -3136,7 +3136,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 5 §2§lSilver Coins§r."
+          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 5 §2§lSilver Coins§r. \n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chip via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -3195,12 +3195,12 @@
           "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
-          "name": "[WIP]Bubble Bubble",
+          "name": "Cauldron Bubble",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "[[§4§l§nNO QUESTS YET§r]]\n    You can submit materials to help this research branch for the future, and immediately gain access to its questline when it becomes available."
+          "desc": "    Bandit, I\u0027ve noticed scans detecting some very... pointy hatted individuals. And as you know, a pointy hat means witches are afoot!\n    I want to get you in contact with Mistress Weatherwand, who can hopefully help you along the path of Witchcraft and Warlockery."
         }
       },
       "tasks": [
@@ -3871,15 +3871,15 @@
             "Damage": 54
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Explanation of Benefits",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
-          "desc": "    Nice to meet you, §d§lBandit§r. As I explained in my greeting, I am §3§lRecruiter Rodney§r, one of the heads of the §3§lFR Department§r here. §3§lCaigan§r has tasked me with working out how to do employee benefits with your... special situation. I am pleased to note that, working with other departments in The §3§lFerret Business§r, I have devised multiple systems that work around the... limited functionality of your §3§lQUEST Tablet§r teleporter.\n    The first of which is handling how to get you better access to the §3§lCorporate Catalog§r and its §3§lShop Loyalty§r program : \n    1) To purchase items from the §3§lCorporate Catalog§r, you must use §2§lShop Vouchers§r.\n    2) I will convert at an §3§lExchange Rate§r of 10 §5§lSilver Coins§r to 1 §2§lShop Voucher§r.\n    3) Each purchase earns you a §lShop Token§r, depending on the value of the purchase.\n    4) Collect and turn in §lShop Tokens§r for§3§l Shop Loyalty§r, earning you better §3§lExchange Rates§r.\n    As well, when I give you a §2§lShop Voucher§r, I will also give you some §2§lExchange Tokens§r, equal to the rank of your §3§lShop Loyalty§r. I will explain how to use these elsewhere."
+          "isSilent": false,
+          "desc": "    Nice to meet you, §d§lBandit§r. As I explained in my greeting, I am §3§lRecruiter Rodney§r, one of the heads of the §3§lFR Department§r here. §3§lCaigan§r has tasked me with working out how to do employee benefits with your... special situation. I am pleased to note that, working with other departments in The §3§lFerret Business§r, I have devised multiple systems that work around the... limited functionality of your §3§lQUEST Tablet§r teleporter.\n    The first of which is handling how to get you better access to the §3§lCorporate Catalog§r and its §3§lShop Loyalty§r program : \n    1) To purchase items from the §3§lCorporate Catalog§r, you must use §2§lShop Vouchers§r.\n    2) I will convert at an §3§lExchange Rate§r of 10 §5§lSilver Coins§r to 1 §2§lShop Voucher§r.\n    3) Each purchase earns you a §lShop Token§r, depending on the value of the purchase.\n    4) Collect and turn in §lShop Tokens§r for§3§l Shop Loyalty§r, earning you better §3§lExchange Rates§r.\n    As well, when I give you a §2§lShop Voucher§r, I will also give you some §2§lExchange Tokens§r, equal to the rank of your §3§lShop Loyalty§r. I will explain how to use these elsewhere.\n    §l§oNOTE§r§o : Completing this quest and having the Exchange Token in your inventory when you open your TFB Corporate catalog will unlock the ability to purchase more in the Special and Administrative store section.§r"
         }
       },
       "tasks": [
@@ -3941,15 +3941,15 @@
             "Damage": 55
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Tin Exchange Rate",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
-          "desc": "    §3§lExchange Rate Tier : §3§lTin§r gives you a §2§lShop Voucher§r for every 9 §5§lSilver Coins§r."
+          "isSilent": false,
+          "desc": "    §3§lExchange Rate Tier : §3§lTin§r gives you a §2§lShop Voucher§r for every 9 §5§lSilver Coins§r.\n    §l§oNOTE§r§o : Completing this quest and having the Exchange Token in your inventory when you open your TFB Corporate catalog will unlock the ability to purchase more in the Special and Administrative store section.§r"
         }
       },
       "tasks": [
@@ -4011,7 +4011,7 @@
             "Damage": 56
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Iron Exchange Rate",
@@ -4019,7 +4019,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    §3§lExchange Rate Tier : §3§lIron§r gives you a §2§lShop Voucher§r for every 8 §5§lSilver Coins§r."
+          "desc": "    §3§lExchange Rate Tier : §3§lIron§r gives you a §2§lShop Voucher§r for every 8 §5§lSilver Coins§r.\n    §l§oNOTE§r§o : Completing this quest and having the Exchange Token in your inventory when you open your TFB Corporate catalog will unlock the ability to purchase more in the Special and Administrative store section.§r"
         }
       },
       "tasks": [
@@ -4082,7 +4082,7 @@
             "Damage": 57
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Steel Exchange Rate",
@@ -4090,7 +4090,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    §3§lExchange Rate Tier : §3§lSteel§r gives you a §2§lShop Voucher§r for every 7 §5§lSilver Coins§r."
+          "desc": "    §3§lExchange Rate Tier : §3§lSteel§r gives you a §2§lShop Voucher§r for every 7 §5§lSilver Coins§r.\n    §l§oNOTE§r§o : Completing this quest and having the Exchange Token in your inventory when you open your TFB Corporate catalog will unlock the ability to purchase more in the Special and Administrative store section.§r"
         }
       },
       "tasks": [
@@ -4153,15 +4153,15 @@
             "Damage": 58
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Emerald Exchange Rate",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
-          "desc": "    §3§lExchange Rate Tier : §3§lEmerald§ §r gives you a §2§lShop Voucher§r for every 6 §5§lSilver Coins§r."
+          "isSilent": false,
+          "desc": "    §3§lExchange Rate Tier : §3§lEmerald§ §r gives you a §2§lShop Voucher§r for every 6 §5§lSilver Coins§r.\n    §l§oNOTE§r§o : Completing this quest and having the Exchange Token in your inventory when you open your TFB Corporate catalog will unlock the ability to purchase more in the Special and Administrative store section.§r"
         }
       },
       "tasks": [
@@ -4224,7 +4224,7 @@
             "Damage": 59
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Diamond Exchange Rate",
@@ -4232,7 +4232,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    §3§lExchange Rate Tier : §3§lDiamond§r gives you a §2§lShop Voucher§r for every 5 §5§lSilver Coins§r. This is the highest §3§lExchange Rate Tier§r you can achieve."
+          "desc": "    §3§lExchange Rate Tier : §3§lDiamond§r gives you a §2§lShop Voucher§r for every 5 §5§lSilver Coins§r. This is the highest §3§lExchange Rate Tier§r you can achieve.\n    §l§oNOTE§r§o : Completing this quest and having the Exchange Token in your inventory when you open your TFB Corporate catalog will unlock the ability to purchase more in the Special and Administrative store section.§r"
         }
       },
       "tasks": [
@@ -4295,15 +4295,15 @@
             "Damage": 80
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Steel Shop Token",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
-          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 5 §2§lSilver Coins§r."
+          "isSilent": false,
+          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 5 §2§lSilver Coins§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Token via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -4359,15 +4359,15 @@
             "Damage": 81
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Silver Shop Token",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
-          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 12 §2§lSilver Coins§r."
+          "isSilent": false,
+          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 12 §2§lSilver Coins§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Token via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -4423,15 +4423,15 @@
             "Damage": 82
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Gold Shop Token",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
-          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 26 §2§lSilver Coins§.§r and 1 §2§lBasic Blind Bag of Blind Bags."
+          "isSilent": false,
+          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 26 §2§lSilver Coins§.§r and 1 §2§lBasic Blind Bag of Blind Bags.§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Token via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -4499,7 +4499,7 @@
             "Damage": 83
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Thaumium Shop Token",
@@ -4507,7 +4507,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 58 §2§lSilver Coins§r and 2 §2§lBasic Blind Bags of Blind Bags§r."
+          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 58 §2§lSilver Coins§r and 2 §2§lBasic Blind Bags of Blind Bags§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Token via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -4581,15 +4581,15 @@
             "Damage": 84
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Diamond Shop Token",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
-          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 128 §2§lSilver Coins§r and 1 §2§lGood Blind Bag of Blind Bags."
+          "isSilent": false,
+          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 128 §2§lSilver Coins§r and 1 §2§lGood Blind Bag of Blind Bags.§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Token via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -4663,7 +4663,7 @@
             "Damage": 85
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Obsidian Shop Token",
@@ -4671,7 +4671,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 282 §2§lSilver Coins§r and 2 §2§lGood Blind Bags of Blind Bags§r."
+          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 282 §2§lSilver Coins§r and 2 §2§lGood Blind Bags of Blind Bags§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Token via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -4745,15 +4745,15 @@
             "Damage": 86
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Enderium Shop Token",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
-          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 614 §2§lSilver Coins§r and 1 §2§lGreat Blind Bag of Blind Bags§r."
+          "isSilent": false,
+          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 614 §2§lSilver Coins§r and 1 §2§lGreat Blind Bag of Blind Bags§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Token via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -4827,7 +4827,7 @@
             "Damage": 87
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Manyullyn Shop Token",
@@ -4835,7 +4835,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 1,300 §2§lSilver Coins§r and 1 §2§lEpic Blind Bag of Blind Bags§r."
+          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 1,300 §2§lSilver Coins§r and 1 §2§lEpic Blind Bag of Blind Bags§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Token via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -4909,7 +4909,7 @@
             "Damage": 88
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Awakened Draconium Shop Token",
@@ -4917,7 +4917,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 3,072 §2§lSilver Coins§r and 1 of each §2§lBlind Bag of Blind Bags§r."
+          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 3,072 §2§lSilver Coins§r and 1 of each §2§lBlind Bag of Blind Bags§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Token via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -5191,15 +5191,15 @@
             "Damage": 143
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Bagging Up Coins",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
-          "desc": "    As you do more and more §lresearch§r and §lsell§r more §lmaterials§r to §3§lThe Business§r, I expect you\u0027ll have a whole lot of §5§lSilver Coins§r. If you want, I can easily §2§lBag§r them up for you. It makes storing them much easier. \n    You can also put them into an §4§lEnder IO§r §3§lSAG Mill§r to automatically bag them for you.\n    To retrieve the §5§lSilver Coins§r, hold the §2§lBag of Coins§r and §l§nRight Click§r, or you can craft the bag back into 50 §5§lSilver Coins§r."
+          "isSilent": false,
+          "desc": "    As you do more and more §lresearch§r and §lsell§r more §lmaterials§r to §3§lThe Business§r, I expect you\u0027ll have a whole lot of §5§lSilver Coins§r. If you want, I can easily §2§lBag§r them up for you. It makes storing them much easier. \n    Now that you know this, I will note you can also put them into an §4§lEnder IO§r §3§lSAG Mill§r to automatically bag them for you.\n    To retrieve the §5§lSilver Coins§r, hold the §2§lBag of Coins§r and §l§nRight Click§r, or you can craft the bag back into 50 §5§lSilver Coins§r."
         }
       },
       "tasks": [
@@ -5263,7 +5263,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    See those Exchange Tokens I just gave you? Well, since I forsee us exchanging a whole lot of money soon, I had to work out a temporary solution, as constantly sending things your QUEST Tablet could get... tedious.\n    To that end, I\u0027ve convinced Engineer Erin of the EnderI/O lab to add a little extra to his Alloy Smelter and SAG Mill designs. With the Alloy Smelter, you can put in one of these Exchange Tokens and the appropriate amount of Silver Coins, and it will ship them to me, and send back a Shop Voucher. (Proprieter Penny will cover the SAG Mill in your Corporate Catalog)\n    This is only temporary until we can design a set of machines specifically for this... unique... situation."
+          "desc": "    See those Exchange Tokens I just gave you? Well, since I forsee us exchanging a whole lot of money soon, I had to work out a temporary solution, as constantly sending things your QUEST Tablet could get... tedious.\n    To that end, I\u0027ve convinced Engineer Erin of the EnderI/O lab to add a little extra to his Alloy Smelter and SAG Mill designs. With the Alloy Smelter, you can put in one of these Exchange Tokens and the appropriate amount of Silver Coins, and it will ship them to me, and send back a Shop Voucher. (Proprieter Penny will cover the SAG Mill in your Corporate Catalog)\n    Once you have an Exchange Token, you can duplicate them easily by placing one alone in most any Crafting Grid. They are useless without Silver Coins to exchange as well, so...\n    This is only temporary until we can design a set of machines specifically for this... unique... situation."
         }
       },
       "tasks": [
@@ -6805,15 +6805,15 @@
             "Damage": 106
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Silver Job Chip",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
-          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 12 §2§lSilver Coins§r."
+          "isSilent": false,
+          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 12 §2§lSilver Coins§r.§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chip via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -6872,7 +6872,7 @@
             }
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Awakened Multitool",
@@ -7001,7 +7001,7 @@
             "Damage": 107
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Gold Job Chip",
@@ -7009,7 +7009,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 26 §2§lSilver Coins§.§r and 1 §2§lBasic Blind Bag of Blind Bags.§r"
+          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 26 §2§lSilver Coins§.§r and 1 §2§lBasic Blind Bag of Blind Bags.§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chip via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -7263,15 +7263,15 @@
             "Damage": 108
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Thaumium Job Chip",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
-          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 58 §2§lSilver Coins§.§r and 2 §2§lBasic Blind Bag of Blind Bags.§r"
+          "isSilent": false,
+          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 58 §2§lSilver Coins§.§r and 2 §2§lBasic Blind Bag of Blind Bags.§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chip via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -7345,15 +7345,15 @@
             "Damage": 31
           },
           "snd_update": "random.levelup",
-          "repeatTime": 300,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "QUEST TABLET FIRMWARE UPDATE",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
-          "desc": "    Greetings, §3§lBandit§r! Your §lQ.U.E.S.T. Tablet§r is a constantly evolving piece of hardware. But without a constant WiFi connection to our servers, it cannot easily update its firmware for new, exciting changes!\n    But, you can easily update it when an §4§l§nUPDATE§r happens by checking the box to the right and hitting Claim below. It will update the firmware for you.\n------------------------------------------\n§l§nCURRENT FIRMWARE VERSION§o§r : 0.2.5 BETA V1\n------------------------------------------\n§o    Better Questing does not automatically update older worlds when the default quest database updates.\n    This quest lets you reset it within the QUEST Tablet, or you can simply run /bq_admin default load yourself."
+          "isSilent": false,
+          "desc": "    Greetings, §3§lBandit§r! Your §lQ.U.E.S.T. Tablet§r is a constantly evolving piece of hardware. But without a constant WiFi connection to our servers, it cannot easily update its firmware for new, exciting changes!\n    But, you can easily update it when an §4§l§nUPDATE§r happens by checking the box to the right and hitting Claim below. It will update the firmware for you.\n------------------------------------------\n§l§nCURRENT FIRMWARE VERSION§o§r : 0.2.5 BETA V2\n------------------------------------------\n§o    Better Questing does not automatically update older worlds when the default quest database updates.\n    This quest lets you reset it within the QUEST Tablet, or you can simply run /bq_admin default load yourself."
         }
       },
       "tasks": [
@@ -7371,11 +7371,18 @@
           "index": 0
         },
         {
-          "command": "/say VAR_NAME updated the QUEST Tablet firmware to v0.2.0 Beta B",
+          "command": "/say VAR_NAME updated the QUEST Tablet firmware to v0.2.5 Beta V2",
           "hideCommand": false,
           "viaPlayer": false,
           "rewardID": "bq_standard:command",
           "index": 1
+        },
+        {
+          "command": "/bq_admin reset 78 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": true,
+          "rewardID": "bq_standard:command",
+          "index": 2
         }
       ],
       "preRequisites": [
@@ -7398,14 +7405,14 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "The Core",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "    Our research has been requiring more and more RF Energy to harness the power of Draconium, so we\u0027ve had to make a few side projects to expand our research into new technology.\n    This side tangent has become amazingly evolutionary in the field of Energy Storage! With this, we can store not just millions, but BILLIONS, even Trillions, of RF Energy!\n    There is way more to it than I can explain over the QUEST Tablet. I am rewriting the documentation I came up with. For now, consult the tablet you can get from the Safety Matches research."
         }
       },
@@ -7672,15 +7679,15 @@
             "Damage": 109
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Diamond Job Chip",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
-          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 128 §2§lSilver Coins§.§r and 1 §2§lGood Blind Bag of Blind Bags.§r"
+          "isSilent": false,
+          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 128 §2§lSilver Coins§.§r and 1 §2§lGood Blind Bag of Blind Bags.§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chip via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -7754,15 +7761,15 @@
             "Damage": 110
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Obsidian Job Chip",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
-          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 282 §2§lSilver Coins§.§r and 2 §2§lGood Blind Bag of Blind Bags.§r"
+          "isSilent": false,
+          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 282 §2§lSilver Coins§.§r and 2 §2§lGood Blind Bag of Blind Bags.§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chip via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -7836,7 +7843,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Round the World",
@@ -7918,14 +7925,14 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Penultimate Research",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "    Greetings, Bandit. it has been a while since I last contacted you. I am Caigan, CEO of The Ferret Business. I\u0027m extremely pleased at all the progress you\u0027ve done! It has really helped us improve so many things, get new products on the market, and learn way more about teleportation technology than we\u0027ve thought possible.\n    Unfortunately, this has not lead us to a way to get you home. Discover new dimensions and travel to and from them? Sure, we can do that now. Teleport large distances on the same world with very little cost? Yes, we can do that now too thanks to you.\n    But... your predicament has stumped all of our researchers and myself. I\u0027ve taken a personal interest in you, and have created a small team with my very best researchers. I feel the only way to get you home is to delve into the more... mythical... approaches.\n    Our research does not come free. The materials for this are very rare, and I\u0027m going to have to scour some obscure locations for them. But I will give you this for the initial investment. May it be a light to you in dark places, when all other lights go out.\n    Sorry, I always wanted to use that quote! Here, this Safety Match is the first step in my research. It may look like a normal match, but it will create a fire that burns hot, but does not spread. Each match only ignites one fire, but if you put 9 of them together into a Matchbox, you mystically get way more fires!"
         }
       },
@@ -8008,14 +8015,14 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "A Core of Power",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "    We need a good way to harness the strength and power of Draconium. One of my researchers suggested that we could shape the metal into a mystical symbol, like a medal.\n    The mystical nature of the shape helps to contain the power into what we are calling a basic Draconium Core.\n    There isn\u0027t much you can do with a basic Draconic Core, but if you combine four of them with a Nether Star, you get a much more poweful item we call a Wyvern Core.\n    Both of these are key components in Energy Cores, which will be needed for further research."
         }
       },
@@ -8078,15 +8085,15 @@
             "Damage": 111
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Enderium Job Chip",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
-          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 614 §2§lSilver Coins§.§r and 1 §2§lGreat Blind Bag of Blind Bags.§r"
+          "isSilent": false,
+          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 614 §2§lSilver Coins§.§r and 1 §2§lGreat Blind Bag of Blind Bags.§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chip via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -8163,14 +8170,14 @@
             }
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Wyvern Battery",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "    The Wyvern Energy Core and the power of the Wyvern Tools has shown that we can harness Draconium to store RF Energy in massive amounts.\n    We are currently persuing this line of research, and the first thing we\u0027ve come up with for you is the Wyvern Flux Capacitor, which works much like the other Flux Capacitors you may know of.\n    Though, I think comparing them is like comparing an AA Battery to a Car Battery... The Wyvern Flux Capacitor can hold 80 MILLION RF Energy, which is great because Wyvern Tools are very power hungry."
         }
       },
@@ -8248,14 +8255,14 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Creature Feature",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "    You may have noticed, if you\u0027ve been using your Wyvern weapons, that very rarely, a tiny version of a creature you slaughter will pop out of their corpse.\n    This, we\u0027ve found, is a miniature version of that creature\u0027s Soul. The simplest thing you can do with this Soul is to Shift + Right Click it on the ground to summon another of that creature, but this consumes the soul.\n    Thanks to some study by the Draconic researchers here, we\u0027ve discovered you can use a Draconic Core on any Mob Spawner in your world to \u0027stabilize it\u0027, enabling you to move it around by breaking it with a Draconic tool. \n    You can then place it and Right Click a Mob Soul onto it to have that Stabilized Mob Spawner start spawning that creature. Various items will improve the Mob Spawner when you Right Click them onto it :\n      Wyvern Core : Tier 2 Upgrade\n      Awakened Core : Tier 3 Upgrade\n      Nether Star : Removes requiring a player within 16 blocks.\n      Notch Apple : Removes spawning restrictions (light, etc)\n    When you break a Stabilized Mob Spawner, you will get back all the upgrades EXCEPT the Mob Soul.\n    To help with your new ability to summon a large amount of creatures, we\u0027ve come up with a Mob Grinder. The Mob Grinder is a special machine that will kill creatures in a 7x7 area in front of it. It can be powered with normal furnace Fuel, or with RF Energy."
         }
       },
@@ -8352,7 +8359,7 @@
             "Damage": 112
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Manyullyn Job Chip",
@@ -8360,7 +8367,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 1,300 §2§lSilver Coins§.§r and 1 §2§lEpic Blind Bag of Blind Bags.§r"
+          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 1,300 §2§lSilver Coins§.§r and 1 §2§lEpic Blind Bag of Blind Bags.§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chip via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -8434,7 +8441,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Dislocated Existance",
@@ -8504,14 +8511,14 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Dislocational Control",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "    Delving deeper into the teleportation research, we\u0027ve found a way to compress the power of the Charm of Dislocation and improve on it.\n    The improvements on the Charm of Dislocation are amazing! You can now use it to record multiple locations and choose between them. Just like the normal Charm, it can record your current position, dimension, and direction facing.\n    The Enhanced Charm of Dislocation utilizes the power of Ender Pearls to enhance its teleportation abilities. You can feed it Ender Pearls via the interface.\n    This also has the improved benefit of unlimited uses... as long as you power it properly!"
         }
       },
@@ -8586,15 +8593,15 @@
             "Damage": 113
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Awakened Draconium Job Chip",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
-          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 3,072 §2§lSilver Coins§.§r and 1 of each §2§l Blind Bag of Blind Bags.§r"
+          "isSilent": false,
+          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 3,072 §2§lSilver Coins§.§r and 1 of each §2§l Blind Bag of Blind Bags.§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chip via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -8908,14 +8915,14 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Dragon Cube",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "    Draconium itself is fairly expensive, but since you\u0027ve done a lot for The Business, you\u0027ve probably got a lot of Trade Vouchers available, right? Well, to save you hitting buttons again and again in your QUEST Tablet, you can purchase a Block of Draconium with a single purchase. It doesn\u0027t change how much it costs or how much Loyalty you earn, but it saves clicking so much!"
         }
       },
@@ -8984,7 +8991,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Dragon Gate",
@@ -9438,7 +9445,7 @@
             "Damage": 47
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Gold Trader Chit",
@@ -9446,7 +9453,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 26 §2§lSilver Coins§.§r and 1 §2§lBasic Blind Bag of Blind Bags."
+          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 26 §2§lSilver Coins§.§r and 1 §2§lBasic Blind Bag of Blind Bags.§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chit via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -9514,15 +9521,15 @@
             "Damage": 48
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Thaumium Trader Chit",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
-          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 58 §2§lSilver Coins§r and 2 §2§lBasic Blind Bags of Blind Bags§r."
+          "isSilent": false,
+          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 58 §2§lSilver Coins§r and 2 §2§lBasic Blind Bags of Blind Bags§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chit via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -9596,15 +9603,15 @@
             "Damage": 49
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Diamond Trader Chit",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
-          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 128 §2§lSilver Coins§r and 1 §2§lGood Blind Bag of Blind Bags."
+          "isSilent": false,
+          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 128 §2§lSilver Coins§r and 1 §2§lGood Blind Bag of Blind Bags.§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chit via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -9748,15 +9755,15 @@
             "Damage": 44
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Bronze Trader Chit",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
-          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has. Four §3§lBronze[8] Chits§r are worth less than a single §3§lSilver[32] Chit§r. Four §3§lSilver[32] Chits§r are worth less than a single §3§lThaumium[128] Chit§r, and so on.\n    The minimum §3§lTrader Chit§r you can turn in is a §5§lBronze Trader Chit§r.\n    You will receive 2 §2§lSilver Coins.§r"
+          "isSilent": false,
+          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has. Four §3§lBronze[8] Chits§r are worth less than a single §3§lSilver[32] Chit§r. Four §3§lSilver[32] Chits§r are worth less than a single §3§lThaumium[128] Chit§r, and so on.\n    The minimum §3§lTrader Chit§r you can turn in is a §5§lBronze Trader Chit§r.\n    You will receive 2 §2§lSilver Coins.§r§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chit via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -10016,7 +10023,7 @@
             "Damage": 51
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Enderium Trader Chit",
@@ -10024,7 +10031,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 614 §2§lSilver Coins§r and 1 §2§lGreat Blind Bag of Blind Bags§r."
+          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 614 §2§lSilver Coins§r and 1 §2§lGreat Blind Bag of Blind Bags§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chit via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -10518,15 +10525,15 @@
             "Damage": 53
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Awakened Draconium Trader Chit",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
-          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 3,072 §2§lSilver Coins§r and 1 of each §2§lBlind Bag of Blind Bags§r."
+          "isSilent": false,
+          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 3,072 §2§lSilver Coins§r and 1 of each §2§lBlind Bag of Blind Bags§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chit via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -10870,7 +10877,7 @@
             "Damage": 52
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Manyullyn Trader Chit",
@@ -10878,7 +10885,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 1,300 §2§lSilver Coins§r and 1 §2§lEpic Blind Bag of Blind Bags§r."
+          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 1,300 §2§lSilver Coins§r and 1 §2§lEpic Blind Bag of Blind Bags§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chit via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -11022,15 +11029,15 @@
             "Damage": 50
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Obsidian Trader Chit",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
-          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 282 §2§lSilver Coins§r and 2 §2§lGood Blind Bags of Blind Bags§r."
+          "isSilent": false,
+          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 282 §2§lSilver Coins§r and 2 §2§lGood Blind Bags of Blind Bags§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chit via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -11174,15 +11181,15 @@
             "Damage": 46
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Silver Trader Chit",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
-          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 12 §2§lSilver Coins§r."
+          "isSilent": false,
+          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 12 §2§lSilver Coins§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chit via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -11308,15 +11315,15 @@
             "Damage": 45
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Redeem Steel Trader Chit",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
-          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 5 §2§lSilver Coins.§r"
+          "isSilent": false,
+          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 5 §2§lSilver Coins.§r§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chit via an EnderIO SAG Mill, though!§r"
         }
       },
       "tasks": [
@@ -11820,14 +11827,14 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Bones of Dragons",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "    The initial idea for my train of research was some of the data I gathered from your world. Specifically, the place you call The End is (or was?) home to a creature of legend : a Dragon. If it exists in your world, surely it exists in others?\n    Sure, we have two legged dragons walking about The Business sometimes (they are especially insightful into magical research), but they are nothing like their ancient, mythical ancestors.\n    My research thus far has unconvered what the ancient people called The Bones of Dragons : a mystical metal that is some of the strongest, most magical we\u0027ve ever seen.\n    Thanks to some fairly dangerous research, my team is able to create this metal. Only in tiny batches, and with very expensive ingredients, but we\u0027ve stockpiled enough to start selling it to you. Both to help us with costs, and to have you utilize it for more research.\n    There are a few things you can do with Draconium, but my suggestion? Make some Tinker\u0027s Tools with it, you won\u0027t be disappointed!"
         }
       },
@@ -11858,32 +11865,20 @@
               "Count": 15,
               "OreDict": "",
               "Damage": 76
-            }
-          ],
-          "rewardID": "bq_standard:item",
-          "index": 0
-        },
-        {
-          "choices": [
+            },
             {
               "id": "DraconicEvolution:draconiumIngot",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
-            },
-            {
-              "id": "DraconicEvolution:draconiumDust",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
             }
           ],
-          "rewardID": "bq_standard:choice",
-          "index": 1
+          "rewardID": "bq_standard:item",
+          "index": 0
         }
       ],
       "preRequisites": [
-        84
+        603
       ],
       "questID": 134
     },
@@ -11954,7 +11949,7 @@
             }
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Tools of the Wyvern",
@@ -11962,7 +11957,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    Draconium is a fantastic material, able to tap into and utilize so much potential power and magic. Hopefully we can unlock its secrets, and it will guide us to getting you out of there, and open up even more doors for all of us.\n    Shaping it into Cores was an excellent first step, and we\u0027ve been able to expand upon it. You can make more powerful Cores of varying types just by combining a few together with other powerful materials.\n    We\u0027ve created some powerful lab equipment that enables us to empower some basic tools with Draconic potential : We simply call them Wyvern Tools. Why? Wyverns were, according to some lore, Lesser Dragons. They were Draconic in nature, but not to the mystical levels of full Dragons.\n    Don\u0027t underestimate Wyverns though, as these tools are extremely powerful in their own right. The machinery to create them is expensive, not to mention the other magical materials we need to harness the energy."
+          "desc": "    Draconium is a fantastic material, able to tap into and utilize so much potential power and magic. Hopefully we can unlock its secrets, and it will guide us to getting you out of there, and open up even more doors for all of us.\n    Shaping it into Cores was an excellent first step, and we\u0027ve been able to expand upon it. You can make more powerful Cores of varying types just by combining a few together with other powerful materials.\n    We\u0027ve created some powerful lab equipment that enables us to empower some basic tools with Draconic potential : We simply call them Wyvern Tools. Why? Wyverns were, according to some lore, Lesser Dragons. They were Draconic in nature, but not to the mystical levels of full Dragons.\n    Don\u0027t underestimate Wyverns though, as these tools are extremely powerful in their own right. The machinery to create them is expensive, not to mention the other magical materials we need to harness the energy.\n    Initially we will offer you the Pickaxe, but afterwards you can purchase the other tools from your Corporate Catalog."
         }
       },
       "tasks": [
@@ -11998,7 +11993,13 @@
       ],
       "rewards": [
         {
-          "choices": [
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 76
+            },
             {
               "id": "DraconicEvolution:wyvernPickaxe",
               "Count": 1,
@@ -12007,43 +12008,6 @@
               "tag": {
                 "Energy:3": 0
               }
-            },
-            {
-              "id": "DraconicEvolution:wyvernShovel",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Energy:3": 0
-              }
-            },
-            {
-              "id": "DraconicEvolution:wyvernBow",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {}
-            },
-            {
-              "id": "DraconicEvolution:wyvernSword",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Energy:3": 0
-              }
-            }
-          ],
-          "rewardID": "bq_standard:choice",
-          "index": 0
-        },
-        {
-          "rewards": [
-            {
-              "id": "ferretshinies:NullToken",
-              "Count": 30,
-              "OreDict": "",
-              "Damage": 76
             }
           ],
           "rewardID": "bq_standard:item",
@@ -13241,14 +13205,14 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Large Order - Sushi",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "    Sushi is always in high demand amongst the Ferret Business. It is a regular, highly popular item in our own cafeterias, and we specialize in speedy, one hour delivery in most major cities.\n    Yes, this Large Order was created and approved specifically by the CEO. Why do you ask?"
         }
       },
@@ -13329,7 +13293,7 @@
           "name": "Delivery System",
           "isGlobal": "false",
           "lockedProgress": false,
-          "autoClaim": true,
+          "autoClaim": false,
           "isSilent": true,
           "desc": "    Crating various goods to ship to us is profitable, but thinking on the smaller scale. With the size of The Ferret Business, we are in constant need of large amounts of items, fluids, and more.\n    To submit these things, we have a few special tools you can use, Bandit.\n    The first is the Object Submission Station (OSS). Right Clicking it will bring up the interface, showing you all your current quests in which you submit items to us. Scroll through to find ones marked Large Order, hit the Checkmark to activate it, and you can use any piping system or move items into the OSS directly from your inventory. You can craft multiple OSS\u0027s to work on different tasks as well.\n    The second is the RF Submission Station (RFSS). It works similarly, but is used specifically for RF Supply quests."
         }
@@ -13393,7 +13357,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Simple Draconic Devices",
@@ -14011,7 +13975,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Large Order - Survival Generator",
@@ -14424,7 +14388,7 @@
         }
       ],
       "preRequisites": [
-        365
+        602
       ],
       "questID": 152
     },
@@ -14443,7 +14407,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "A Powerful Charge",
@@ -14805,14 +14769,14 @@
             "Damage": 30
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "MATERIAL - WRIGGLING TENTACLE",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "Material :  §5§lWriggling Tentacle§r\nAmount :   20\nTargets : §3§lSquids§r, §3§lGhasts§r, and other creatures with §lwhip-like§r appendages.\nBounty :   1 §2§lBag of Coins§r, 1 §2§lJob Chip§r"
         }
       },
@@ -14875,14 +14839,14 @@
             "Damage": 26
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "MATERIAL - ROTTED BONE",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "Material :  §5§lRotted Bones§r\nAmount :   20\nTargets : §3§lSkeletons§r, §3§lZombies§r, and other §lUndead§r Creatures\nBounty :   1 §2§lBag of Coins§r, 1 §2§lJob Chip§r"
         }
       },
@@ -14945,14 +14909,14 @@
             "Damage": 27
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "MATERIAL - MYSTICAL POWDER",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "Material :  §5§lMystical Powder§r\nAmount :   20\nTargets : §3§lWitches§r, §3§lDemons§r, and other §lmagical§r creatures.\nBounty :   1 §2§lBag of Coins§r, 1 §2§lJob Chip§r"
         }
       },
@@ -15015,7 +14979,7 @@
             "Damage": 31
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "MATERIAL -  CREEPY FLESH",
@@ -15085,14 +15049,14 @@
             "Damage": 32
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "MATERIAL - SHIMMERING SCALES",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "Material :  §5§lShimmering Scale§r\nAmount :   20\nTargets : Any §lfish§r or §lreptiles§r.\nBounty :   1 §2§lBag of Coins§r, 1 §2§lJob Chip§r"
         }
       },
@@ -15155,14 +15119,14 @@
             "Damage": 29
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "MATERIAL - SLIME HEART",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "Material :  §5§lSlime Heart§r\nAmount :   20\nTargets : Any §lgelatinous§r creature.\nBounty :   1 §2§lBag of Coins§r, 1 §2§lJob Chip§r"
         }
       },
@@ -15225,7 +15189,7 @@
             "Damage": 28
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "MATERIAL - INSECTOID LEG",
@@ -15295,14 +15259,14 @@
             "Damage": 33
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "MATERIAL - BROKEN TOOTH",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "Material :  §5§lBroken Tooth§r\nAmount :   20\nTargets : Any §lhumanoid§r.\nBounty :   1 §2§lBag of Coins§r, 1 §2§lJob Chip§r"
         }
       },
@@ -15365,14 +15329,14 @@
             "Damage": 36
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "MATERIAL - DOWNY FEATHER",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "Material :  §5§lDowny Feather§r\nAmount :   20\nTargets : Any §5§lchicken§r or other §lbird§r.\nBounty :   1 §2§lBag of Coins§r, 1 §2§lJob Chip§r"
         }
       },
@@ -15435,7 +15399,7 @@
             "Damage": 37
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "MATERIAL - TINGED LEAF",
@@ -15505,14 +15469,14 @@
             "Damage": 35
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "MATERIAL - HIDE SAMPLE",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "Material :  §5§lHide Sample§r\nAmount :   20\nTargets : Any §5§lcows§r, §5§lpigs§r, or other §lbarely-furred§r animal.\nBounty :   1 §2§lBag of Coins§r, 1 §2§lJob Chip§r"
         }
       },
@@ -15575,7 +15539,7 @@
             "Damage": 34
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "MATERIAL - FUR TUFT",
@@ -18634,7 +18598,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Large Order - Armor Stands",
@@ -24132,14 +24096,14 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Somewhat Dislocated",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "    With the research into teleportation and the Dislocation Charm continuing, we looked into ways to mount the Charm into a machine, as well as other ways to teleport and distort reality. \n    First, we wanted a way to teleport to a destination saved in the Disloaction Charm, but leave the Charm behind for others to use, and we\u0027ve succeeded in making a... well, a magical pedastal for your Dislocation Charms. The bonus of using the Dislocation Pedastal is that it will not consume charges on your Charms. If you rename the basic Charm in an Anvil, or have a destination set with the Enhanced version, it will display the name of the location above the Pedastal when you place the Charm in it.\n    The second thing we discovered is that we could replace the head of an Arrow with an Ender Pearl, but it can only be fired with one of the Draconic Bows. It also is a whole lot more dangerous... bring some safe falling gear at minimum...\n    The final thing we\u0027ve learned is how to make a Draconic Flame, which seems to distort whatever its placed against, allowing us to peer through it like a magic mirror."
         }
       },
@@ -24319,7 +24283,7 @@
         }
       ],
       "preRequisites": [
-        365
+        602
       ],
       "questID": 224
     },
@@ -28639,14 +28603,14 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Helpful Devices",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "    Our further research into Draconium and dragons in general has come up with a bunch more helpful devices you might like!\n    The Advanced Player Detector is an improved version of the Player Detector. 20 block range, lets you camoflauge it, and has an Inverted Redstone Signal mode to save you wiring space! It also has a white/blacklist so you can add your trusted assistants to it and not have them set up off some sort of protective failsafe!\n    Then we have the Disenchanter. You can take a magical item and place it in the left slot, an empty book in the center slot, and hit the Transfer button and voila, the top listed enchant has been moved to the book! Careful, as this damages the magical item! You can cut down or outright prevent the damage by surrounding the Disenchanting table with bookshelves.\n    Last but not least is the Draconic Chest. It bends space and time so has a giant inventory, as well as a crafting bench inside that. On top of that, it also has a furnace inside of it, which will double Ores smelted inside it. You can hold the chest and Shift + Right Click to change its color before setting it down."
         }
       },
@@ -49201,247 +49165,6 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "ferretshinies:IconAsset",
-            "Count": 1,
-            "OreDict": "",
-            "Damage": 51
-          },
-          "snd_update": "random.levelup",
-          "repeatTime": -1,
-          "globalShare": true,
-          "questLogic": "AND",
-          "name": "Witchery",
-          "isGlobal": "false",
-          "lockedProgress": false,
-          "autoClaim": true,
-          "isSilent": true,
-          "desc": "    Ah yes, welcome §c§lBandit§r. As I said, my name is §3§lWitch Weatherwand§r.\n    §4§lWitchery§r is more than just witchcraft. §lMixing§r magical ingredients, §lchanting§r spells,§l stiring§r cauldrons is only half of it. The other half is §lheadology§r: knowing how to manipulate not only the world, but yourself and those around you.\n    Don\u0027t give me that look, I know what you are thinking. How do you get a stubborn young kit to eat his vitamins without realizing it? How do you get the old ferret to take his medicine while he\u0027s being stubborn? How do you get the bully to stop without ever hurting them or tattling on them?\n    §lHeadology§r. \n    See my §lpointed hat§r? That says §lwitch§r to you, does it not? Immediately you think it and act accordingly. I could be just a frail, old woman who likes §lconical headware§r, without a speck of magic or knowledge.\n    That\u0027s §lheadology§r too.\n    That is neither here nor there for now, §c§lchild§r. We need to start with the §lfundamentals§r. Go search the §lTall Grass§r. You should find §5§lfive seeds§r that you\u0027ll need to start gardens for : \n    §5§lBelladona§r and §5§lSnowbell Seeds§r can be grown in normal §lfarmland§r. The former will grow into§5§l Belladonna Flowers§r, while the latter will give you §lSnowballs§r...and occasionally an §5§lIcy Needle§r.\n    §5§lWater Artichoke§r must be grown atop §lwater§r, and will give you §5§lWater Artichoke Globes§r.\n    §5§lMandrake§r is the the special one of the bunch. §5§lMandrake Root§r is often shaped like a §lhuman§r, and you will find that they can be §ljust as lively§r. Carry a§l sword§r or§l shovel§r,§c§l child§r, their voices can be§l nauseating§r to hear. Harvest§l plenty§r of seeds and the fully grown components, for you will need a good amount of them. \n    Take §lone§r of each of these §lseeds§r, for example. Combine them into what we call §5§lAnnointing Paste§r. Place down a plain§l Cauldron§r, and §l§nRight Click §rthe §5§lPaste§r onto it to turn it into your first tool : The §5§lWitches Cauldron§r. Break it with a §lpickaxe§r and let me§l examine§r it, Bandit, before we continue.\n    The use of a §5§lWitches Cauldron§r is much like a normal cauldron : §lLight a fire§r beneath it, and fill it with§l water§r. §l Add ingredients§r to the§l brew§r or concoction you seek to make when the water§l boils§r. If all goes well, after a few moments the recipe will complete.\n    Hm? Ah yes, I did say §l5 seeds§r. I did not include the §lfifth seed §rearlier, as it is not used for §5§lAnnointing Paste§r. I speak of§5§l Garlic§r. Unlike the others, it does not have a separate seed; the §lgarlic bulb§r itself is basically a §lseed pod§r, each clove able to produce more §5§lGarlic§r!\n    §lHands on§r experience is the best way to learn §lWitchcraft§r and §lHeadology§r... but I admit some are better at learning from§l books§r. You can craft the first of the books called§l Witchcraft : Herbology§r, which will detail these and many other§l plants§r we shall deal with, §c§lBandit§r."
-        }
-      },
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "groupDetect": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "witchery:seedsbelladonna",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "witchery:ingredient",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 21
-            },
-            {
-              "id": "witchery:seedssnowbell",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "witchery:ingredient",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 78
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 0
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "groupDetect": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "witchery:seedsartichoke",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "witchery:ingredient",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 69
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 1
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "groupDetect": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "witchery:seedsmandrake",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "witchery:ingredient",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 22
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 2
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "groupDetect": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "witchery:ingredient",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 153
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 3
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "groupDetect": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "witchery:cauldron",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 4
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "groupDetect": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "witchery:garlic",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 5
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "groupDetect": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "witchery:ingredient",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 81,
-              "tag": {
-                "CurrentPage:3": 0
-              }
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 6
-        }
-      ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "ferretshinies:NullToken",
-              "Count": 15,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "HardcoreQuesting:bags",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "RepairCost:4": 2,
-                "display:10": {
-                  "Name:8": "Basic Blind Bag of Blind Bags"
-                }
-              }
-            },
-            {
-              "id": "ferretshinies:NullToken",
-              "Count": 3,
-              "OreDict": "",
-              "Damage": 101
-            }
-          ],
-          "rewardID": "bq_standard:item",
-          "index": 0
-        },
-        {
-          "choices": [
-            {
-              "id": "ferretshinies:NullToken",
-              "Count": 15,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "HardcoreQuesting:bags",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "RepairCost:4": 2,
-                "display:10": {
-                  "Name:8": "Basic Blind Bag of Blind Bags"
-                }
-              }
-            }
-          ],
-          "rewardID": "bq_standard:choice",
-          "index": 1
-        }
-      ],
-      "preRequisites": [
-        30
-      ],
-      "questID": 365
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "snd_complete": "random.levelup",
-          "taskLogic": "AND",
-          "partySingleReward": false,
-          "isMain": false,
-          "simultaneous": false,
-          "icon": {
             "id": "CompactMachines:interfaceitem",
             "Count": 1,
             "OreDict": "",
@@ -62137,164 +61860,6 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
-            "id": "ferretshinies:IconAsset",
-            "Count": 1,
-            "OreDict": "",
-            "Damage": 44
-          },
-          "snd_update": "random.levelup",
-          "repeatTime": -1,
-          "globalShare": true,
-          "questLogic": "AND",
-          "name": "Unnamed",
-          "isGlobal": "false",
-          "lockedProgress": false,
-          "autoClaim": false,
-          "isSilent": true,
-          "desc": "No Description"
-        }
-      },
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "groupDetect": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "ferretshinies:IconAsset",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 53
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 0
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "groupDetect": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "ferretshinies:IconAsset",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 53
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 1
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "groupDetect": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "ferretshinies:IconAsset",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 53
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 2
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "groupDetect": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "ferretshinies:IconAsset",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 53
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 3
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "groupDetect": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "ferretshinies:IconAsset",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 53
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 4
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "groupDetect": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "ferretshinies:IconAsset",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 53
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 5
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "groupDetect": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "ferretshinies:IconAsset",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 53
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 6
-        }
-      ],
-      "rewards": [],
-      "preRequisites": [
-        19,
-        21,
-        31,
-        33,
-        32,
-        23
-      ],
-      "questID": 438
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "snd_complete": "random.levelup",
-          "taskLogic": "AND",
-          "partySingleReward": false,
-          "isMain": false,
-          "simultaneous": false,
-          "icon": {
             "id": "fluxedCrystals:upgradeEfficiency",
             "Count": 1,
             "OreDict": "",
@@ -63167,14 +62732,14 @@
             }
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Armor of the Wyvern",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "    Now that we have Wyvern Tools, its only logical that the next step we take is to make armor with Draconium and the various Cores. Just like the tools, Wyvern Armor needs to be charged with RF Energy to function. \n    It is a fantastic thing to note, though : By wearing a FULL Set of Wyvern Armor, you become completely immune to fire!"
         }
       },
@@ -63930,7 +63495,7 @@
             }
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Awakened Tools",
@@ -64845,14 +64410,14 @@
             }
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Awakened Weapons",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "    The sheer power of Awakened Draconium can be harnessed in many ways, but one that should definitely benefit you would be to have it forged into powerful weapons."
         }
       },
@@ -68665,6 +68230,7 @@
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "HIDDEN",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -68709,92 +68275,6 @@
         34
       ],
       "questID": 478
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "snd_complete": "random.levelup",
-          "taskLogic": "AND",
-          "partySingleReward": false,
-          "isMain": false,
-          "simultaneous": false,
-          "icon": {
-            "id": "ferretshinies:IconAsset",
-            "Count": 1,
-            "OreDict": "",
-            "Damage": 43
-          },
-          "snd_update": "random.levelup",
-          "repeatTime": -1,
-          "globalShare": true,
-          "questLogic": "AND",
-          "name": "Unnamed",
-          "isGlobal": "false",
-          "lockedProgress": false,
-          "autoClaim": false,
-          "isSilent": true,
-          "desc": "No Description"
-        }
-      },
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "groupDetect": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "ferretshinies:IconAsset",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 53
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 0
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "groupDetect": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "ferretshinies:IconAsset",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 53
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 1
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "groupDetect": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "ferretshinies:IconAsset",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 53
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 2
-        }
-      ],
-      "rewards": [],
-      "preRequisites": [
-        32,
-        23
-      ],
-      "questID": 479
     },
     {
       "properties": {
@@ -69312,7 +68792,7 @@
             }
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Awakened Armor",
@@ -69656,14 +69136,14 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Initial Signal",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "    So we\u0027ve been testing some things with Draconium, looking to further our research. We\u0027ve found lots of great things already, but also come across some small, relatively cheap devices that could help you.\n    These are some fairly cheap items to make, especially when you consider how much the rest of this research is.\n    First up, a Potentiometer, which can emit a variable strength Redstone Signal between 0 and 15.\n    Then we have the Rain Sensor, which will emit a Redstone Signal when its, well... raining of course.\n    Last we have the Player Detector, which will emit a Redstone Signal when you or another assistant gets within about 10 blocks."
         }
       },
@@ -69909,6 +69389,7 @@
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "HIDDEN",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -69918,7 +69399,7 @@
             "Damage": 0
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "A Pack of Draconics",
@@ -73851,7 +73332,7 @@
             "Damage": 89
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "MATERIAL - ROTTED BONE (x25)",
@@ -73921,14 +73402,14 @@
             "Damage": 90
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "MATERIAL - MYSTICAL POWDER (x25)",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "Material :  §5§lMystical Powder§r\nAmount :   500\nTargets : §3§lWitches§r, §3§lDemons§r, and other §lmagical§r creatures.\nBounty :   30 §2§lBag of Coins§r, 30 §2§lJob Chips§r"
         }
       },
@@ -73991,14 +73472,14 @@
             "Damage": 91
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "MATERIAL - INSECTOID LEG (x25)",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "Material :  §5§lInsectoid Leg§r\nAmount :   500\nTargets : Any §5§lspider§r or other §linsect§r.\nBounty :   30 §2§lBag of Coins§r, 30 §2§lJob Chips§r"
         }
       },
@@ -74061,14 +73542,14 @@
             "Damage": 92
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "MATERIAL - SLIME HEART (x25)",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "Material :  §5§lSlime Heart§r\nAmount :   500\nTargets : Any §lgelatinous§r creature.\nBounty :   30 §2§lBag of Coins§r, 30 §2§lJob Chips§r"
         }
       },
@@ -74131,7 +73612,7 @@
             "Damage": 93
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "MATERIAL - WRIGGLING TENTACLE (x25)",
@@ -74201,7 +73682,7 @@
             "Damage": 94
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "MATERIAL -  CREEPY FLESH (x25)",
@@ -74271,7 +73752,7 @@
             "Damage": 95
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "MATERIAL - SHIMMERING SCALES (x25)",
@@ -74341,14 +73822,14 @@
             "Damage": 96
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "MATERIAL - BROKEN TOOTH (x25)",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "Material :  §5§lBroken Tooth§r\nAmount :   500\nTargets : Any §lhumanoid§r.\nBounty :   30 §2§lBag of Coins§r, 30 §2§lJob Chips§r"
         }
       },
@@ -74411,7 +73892,7 @@
             "Damage": 97
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "MATERIAL - FUR TUFT (x25)",
@@ -74481,14 +73962,14 @@
             "Damage": 98
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "MATERIAL - HIDE SAMPLE (x25)",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "Material :  §5§lHide Sample§r\nAmount :   500\nTargets : Any §5§lcows§r, §5§lpigs§r, or other §lbarely-furred§r animal.\nBounty :   30 §2§lBag of Coins§r, 30 §2§lJob Chips§r"
         }
       },
@@ -74551,14 +74032,14 @@
             "Damage": 99
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "MATERIAL - DOWNY FEATHER (x25)",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "Material :  §5§lDowny Feather§r\nAmount :   500\nTargets : Any §5§lchicken§r or other §lbird§r.\nBounty :   30 §2§lBag of Coins§r, 30 §2§lJob Chips§r"
         }
       },
@@ -74621,7 +74102,7 @@
             "Damage": 100
           },
           "snd_update": "random.levelup",
-          "repeatTime": 0,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "MATERIAL - TINGED LEAF (x25)",
@@ -74691,14 +74172,14 @@
             "Damage": 31
           },
           "snd_update": "random.levelup",
-          "repeatTime": 20,
+          "repeatTime": -1,
           "globalShare": true,
           "questLogic": "AND",
           "name": "Reputation and Favors",
           "isGlobal": "false",
           "lockedProgress": false,
           "autoClaim": false,
-          "isSilent": true,
+          "isSilent": false,
           "desc": "    I believe by now you\u0027ve received some Job Chips, or even some Shop Tokens or Trader Chits, correct? In a normal corporation, we\u0027d track an employee\u0027s accomplishments digitally in a Permanent Record. Here in The Ferret Business, though, we like having a... physical component to things. Thus, the three tokens.\n    For assistanting in various Research, you earn Job Chips. For buying goods from the TFB Corporate Catalog, you earn Shop Tokens. And for crating and shipping items, you earn Trader Chits. You can combine two of the same value token to get the next value up, or you can craft a token on its own to break it down.\n    Having a physical item to represent your accomplishments enables you to trade and barter them with other employees. Unfortunately, your situation makes it difficult to barter with other employees effectively, so I\u0027ve come up with something else : \n    Collect and combine these tokens, and you can turn them in to bolster your Reputation, which will advance you along the three Career tracks. \n    Alternatively, you can use the tokens as Favors instead, forgoing the Reputation boost and instead getting Silver Coins and Blind Bags in return."
         }
       },
@@ -84091,6 +83572,280 @@
         582
       ],
       "questID": 601
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ferretshinies:IconAsset",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 51
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Witchery",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "    Ah yes, welcome §c§lBandit§r. As I said, my name is §3§lWitch Weatherwand§r.\n    §4§lWitchery§r is more than just witchcraft. §lMixing§r magical ingredients, §lchanting§r spells,§l stiring§r cauldrons is only half of it. The other half is §lheadology§r: knowing how to manipulate not only the world, but yourself and those around you.\n    Don\u0027t give me that look, I know what you are thinking. How do you get a stubborn young kit to eat his vitamins without realizing it? How do you get the old ferret to take his medicine while he\u0027s being stubborn? How do you get the bully to stop without ever hurting them or tattling on them?\n    §lHeadology§r. \n    See my §lpointed hat§r? That says §lwitch§r to you, does it not? Immediately you think it and act accordingly. I could be just a frail, old woman who likes §lconical headware§r, without a speck of magic or knowledge.\n    That\u0027s §lheadology§r too.\n    That is neither here nor there for now, §c§lchild§r. We need to start with the §lfundamentals§r. Go search the §lTall Grass§r. You should find §5§lfive seeds§r that you\u0027ll need to start gardens for : \n    §5§lBelladona§r and §5§lSnowbell Seeds§r can be grown in normal §lfarmland§r. The former will grow into§5§l Belladonna Flowers§r, while the latter will give you §lSnowballs§r...and occasionally an §5§lIcy Needle§r.\n    §5§lWater Artichoke§r must be grown atop §lwater§r, and will give you §5§lWater Artichoke Globes§r.\n    §5§lMandrake§r is the the special one of the bunch. §5§lMandrake Root§r is often shaped like a §lhuman§r, and you will find that they can be §ljust as lively§r. Carry a§l sword§r or§l shovel§r,§c§l child§r, their voices can be§l nauseating§r to hear. Harvest§l plenty§r of seeds and the fully grown components, for you will need a good amount of them. \n    Take §lone§r of each of these §lseeds§r, for example. Combine them into what we call §5§lAnnointing Paste§r. Place down a plain§l Cauldron§r, and §l§nRight Click §rthe §5§lPaste§r onto it to turn it into your first tool : The §5§lWitches Cauldron§r. Break it with a §lpickaxe§r and let me§l examine§r it, Bandit, before we continue.\n    The use of a §5§lWitches Cauldron§r is much like a normal cauldron : §lLight a fire§r beneath it, and fill it with§l water§r. §l Add ingredients§r to the§l brew§r or concoction you seek to make when the water§l boils§r. If all goes well, after a few moments the recipe will complete.\n    Hm? Ah yes, I did say §l5 seeds§r. I did not include the §lfifth seed §rearlier, as it is not used for §5§lAnnointing Paste§r. I speak of§5§l Garlic§r. Unlike the others, it does not have a separate seed; the §lgarlic bulb§r itself is basically a §lseed pod§r, each clove able to produce more §5§lGarlic§r!\n    §lHands on§r experience is the best way to learn §lWitchcraft§r and §lHeadology§r... but I admit some are better at learning from§l books§r. You can craft the first of the books called§l Witchcraft : Herbology§r, which will detail these and many other§l plants§r we shall deal with, §c§lBandit§r."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:seedsbelladonna",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 21
+            },
+            {
+              "id": "witchery:seedssnowbell",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 78
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:seedsartichoke",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 69
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:seedsmandrake",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "witchery:ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 22
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 153
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 3
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:cauldron",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 4
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:garlic",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 5
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "witchery:ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 81
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 6
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        30
+      ],
+      "questID": 602
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "Botania:cosmetic",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 31
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "IMPORTANT NOTE",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": false,
+          "desc": "    §oDue to a bug in the latest versions of Better Questing 2 (which fixed a lot of OTHER issues, thankfully), Repeatability of quests had to be disabled.\n    For a workaround, please keep your TFB Corporate Catalog on hand, and open it when you get items you wish to purchase more of.\n    For example, if you wished to purchase more Draconium Ingots, keep one in your inventory and then open your Corporate Catalog.\n    All Draconic Evolution items will be purchasable in the Special and Administrative shop section."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        84
+      ],
+      "questID": 603
     }
   ],
   "questLines": [
@@ -84746,7 +84501,7 @@
           "name": "[FRD] Large Scale Orders",
           "bg_image": "",
           "bg_size": 256,
-          "desc": "    §3§lRecruiter Rodney§r here. Raw materials are not the only thing we sell in the Ferret Business, we also sell a wide variety of merchandise. You\u0027ve probably seen the Supply and Demand system in place from §3§lProprieter Penny§r, which is good for supplying us with a small variety of items.\n    I, instead, handle the large volume purchases. The ones that handle thousands upon thousands of a single item. These are distributed among our many chains of stores, and I coordinate the logistics of this.\n    If you are in need of even more coins than just providing small crates of goods, then please look at what I am in need of currently."
+          "desc": "    §3§lRecruiter Rodney§r here. Raw materials are not the only thing we sell in the Ferret Business, we also sell a wide variety of merchandise. You\u0027ve probably seen the Supply and Demand system in place from §3§lProprieter Penny§r, which is good for supplying us with a small variety of items.\n    I, instead, handle the large volume purchases. The ones that handle thousands upon thousands of a single item. These are distributed among our many chains of stores, and I coordinate the logistics of this.\n    If you are in need of even more coins than just providing small crates of goods, then please look at what I am in need of currently.\n    For now, you can only complete each order once. This may change in the future!"
         }
       },
       "quests": [
@@ -84874,20 +84629,20 @@
           "name": "[FRD] Researchology",
           "bg_image": "",
           "bg_size": 256,
-          "desc": "INITIALIZING INTERFACE\n...\nSCANNING IDENTIFICATION\n...\nGREETINGS §d§lBANDIT§r\n   I AM §3§lM-A8301-X819§r, OR §3§lM.A.X.§r FOR SHORT. I AM PART OF A NEW SYSTEM FOR THE FERRET RESOURCES DEPARTMENT.\n   I CATALOGUE AND DISTRIBUTE §5§lRESEARCH MATERIALS§r TO MANY LABORATORIES WITHIN §3§lTHE FERRET BUSINESS§r. I AM NOW AUTHORIZED BY THE §3§lCEO§r TO GIVE YOU §2§lPAYMENT§r, KNOWN AS A §2§lBOUNTY§r, FOR PROVIDING VARIOUS §5§lRESEARCH MATERIALS§r."
+          "desc": "INITIALIZING INTERFACE. SCANNING IDENTIFICATION\n...\n\u003e GREETINGS §d§lBANDIT§r\n    I AM §3§lM-A8301-X819§r, OR §3§lM.A.X.§r FOR SHORT. I AM PART OF A NEW SYSTEM FOR THE FERRET RESOURCES DEPARTMENT.\n    I CATALOGUE AND DISTRIBUTE §5§lRESEARCH MATERIALS§r TO MANY LABORATORIES WITHIN §3§lTHE FERRET BUSINESS§r. I AM NOW AUTHORIZED BY THE §3§lCEO§r TO GIVE YOU §2§lPAYMENT§r, KNOWN AS A §2§lBOUNTY§r, FOR PROVIDING VARIOUS §5§lRESEARCH MATERIALS§r.\n    EACH LISTING HERE MAY ONLY BE COMPLETED ONCE. THE LARGER ORDERS GIVE A BONUS IN REWARD. YOU MAY STILL SUBMIT AS MANY RESEARCH MATERIALS AS YOU COLLECT BY INSERTING THEM INTO AN ENDER IO SAG MILL."
         }
       },
       "quests": [
         {
           "size": 24,
           "x": 0,
-          "y": 162,
+          "y": 160,
           "id": 160
         },
         {
           "size": 24,
-          "x": 258,
-          "y": 162,
+          "x": 260,
+          "y": 160,
           "id": 544
         },
         {
@@ -84898,8 +84653,8 @@
         },
         {
           "size": 24,
-          "x": 114,
-          "y": 162,
+          "x": 116,
+          "y": 160,
           "id": 162
         },
         {
@@ -84911,13 +84666,13 @@
         {
           "size": 24,
           "x": 228,
-          "y": 162,
+          "y": 160,
           "id": 164
         },
         {
           "size": 24,
           "x": 228,
-          "y": 54,
+          "y": 52,
           "id": 165
         },
         {
@@ -84928,49 +84683,49 @@
         },
         {
           "size": 24,
-          "x": 30,
-          "y": 1,
+          "x": 32,
+          "y": 0,
           "id": 533
         },
         {
           "size": 24,
-          "x": 30,
-          "y": 54,
+          "x": 32,
+          "y": 56,
           "id": 534
         },
         {
           "size": 24,
-          "x": 30,
+          "x": 32,
           "y": 108,
           "id": 535
         },
         {
           "size": 24,
-          "x": 30,
-          "y": 162,
+          "x": 32,
+          "y": 160,
           "id": 536
         },
         {
           "size": 24,
-          "x": 144,
+          "x": 148,
           "y": 0,
           "id": 537
         },
         {
           "size": 24,
-          "x": 144,
-          "y": 54,
+          "x": 148,
+          "y": 52,
           "id": 538
         },
         {
           "size": 24,
-          "x": 114,
+          "x": 116,
           "y": 0,
           "id": 155
         },
         {
           "size": 24,
-          "x": 144,
+          "x": 148,
           "y": 108,
           "id": 539
         },
@@ -84982,43 +84737,43 @@
         },
         {
           "size": 24,
-          "x": 144,
-          "y": 162,
+          "x": 148,
+          "y": 160,
           "id": 540
         },
         {
           "size": 24,
           "x": 0,
-          "y": 54,
+          "y": 56,
           "id": 157
         },
         {
           "size": 24,
-          "x": 258,
+          "x": 260,
           "y": 0,
           "id": 541
         },
         {
           "size": 24,
-          "x": 114,
-          "y": 54,
+          "x": 116,
+          "y": 52,
           "id": 158
         },
         {
           "size": 24,
-          "x": 258,
-          "y": 54,
+          "x": 260,
+          "y": 52,
           "id": 542
         },
         {
           "size": 24,
-          "x": 114,
+          "x": 116,
           "y": 108,
           "id": 159
         },
         {
           "size": 24,
-          "x": 258,
+          "x": 260,
           "y": 108,
           "id": 543
         }
@@ -87006,12 +86761,6 @@
         },
         {
           "size": 24,
-          "x": 140,
-          "y": 52,
-          "id": 438
-        },
-        {
-          "size": 24,
           "x": 28,
           "y": 56,
           "id": 439
@@ -87280,7 +87029,7 @@
         },
         {
           "size": 24,
-          "x": 180,
+          "x": 184,
           "y": 0,
           "id": 451
         },
@@ -87292,8 +87041,8 @@
         },
         {
           "size": 24,
-          "x": 136,
-          "y": 208,
+          "x": 144,
+          "y": 204,
           "id": 452
         },
         {
@@ -87304,8 +87053,8 @@
         },
         {
           "size": 24,
-          "x": 180,
-          "y": 208,
+          "x": 184,
+          "y": 204,
           "id": 453
         },
         {
@@ -87335,18 +87084,18 @@
         {
           "size": 24,
           "x": 344,
-          "y": 208,
+          "y": 204,
           "id": 585
         },
         {
           "size": 24,
           "x": 384,
-          "y": 208,
+          "y": 204,
           "id": 586
         },
         {
           "size": 24,
-          "x": 136,
+          "x": 144,
           "y": 164,
           "id": 587
         },
@@ -87389,12 +87138,12 @@
         {
           "size": 24,
           "x": 424,
-          "y": 208,
+          "y": 204,
           "id": 594
         },
         {
           "size": 24,
-          "x": 136,
+          "x": 144,
           "y": 0,
           "id": 595
         },
@@ -87413,7 +87162,7 @@
         {
           "size": 24,
           "x": 304,
-          "y": 208,
+          "y": 204,
           "id": 598
         },
         {
@@ -87424,7 +87173,7 @@
         },
         {
           "size": 24,
-          "x": 44,
+          "x": 64,
           "y": 0,
           "id": 152
         },
@@ -87442,37 +87191,43 @@
         },
         {
           "size": 24,
-          "x": 88,
+          "x": 104,
           "y": 40,
           "id": 154
         },
         {
           "size": 24,
-          "x": 88,
+          "x": 24,
+          "y": 40,
+          "id": 602
+        },
+        {
+          "size": 24,
+          "x": 104,
           "y": 120,
           "id": 222
         },
         {
           "size": 24,
-          "x": 44,
+          "x": 64,
           "y": 80,
           "id": 224
         },
         {
           "size": 24,
-          "x": 180,
+          "x": 184,
           "y": 120,
           "id": 225
         },
         {
           "size": 24,
           "x": 264,
-          "y": 208,
+          "y": 204,
           "id": 481
         },
         {
           "size": 24,
-          "x": 136,
+          "x": 144,
           "y": 80,
           "id": 226
         },
@@ -87484,7 +87239,7 @@
         },
         {
           "size": 24,
-          "x": 88,
+          "x": 104,
           "y": 0,
           "id": 547
         },
@@ -87502,13 +87257,7 @@
         },
         {
           "size": 24,
-          "x": 4,
-          "y": 40,
-          "id": 365
-        },
-        {
-          "size": 24,
-          "x": 136,
+          "x": 144,
           "y": 40,
           "id": 441
         },
@@ -87520,7 +87269,7 @@
         },
         {
           "size": 24,
-          "x": 180,
+          "x": 184,
           "y": 40,
           "id": 443
         },
@@ -87538,7 +87287,7 @@
         },
         {
           "size": 24,
-          "x": 180,
+          "x": 184,
           "y": 164,
           "id": 447
         }
@@ -87552,7 +87301,7 @@
           "name": "Special Research",
           "bg_image": "",
           "bg_size": 256,
-          "desc": "    Greetings, �d�lBandit�r, my name is �3�lCaigan�r. You\u0027ve done a lot for �3�lThe Ferret Business�r so far, a real asset! We have much to discuss though..."
+          "desc": "    Greetings, §d§lBandit§r, my name is §3§lCaigan§r. You\u0027ve done a lot for §3§lThe Ferret Business§r so far, a real asset! We have much to discuss though..."
         }
       },
       "quests": [
@@ -87672,6 +87421,12 @@
         },
         {
           "size": 24,
+          "x": 52,
+          "y": 0,
+          "id": 603
+        },
+        {
+          "size": 24,
           "x": 104,
           "y": 28,
           "id": 95
@@ -87764,14 +87519,7 @@
           "desc": "    [WORK IN PROGRESS]                   This questline is not finished yet.  It will be added in a future update."
         }
       },
-      "quests": [
-        {
-          "size": 24,
-          "x": 127,
-          "y": 84,
-          "id": 438
-        }
-      ],
+      "quests": [],
       "lineID": 19,
       "order": 19
     },
@@ -87784,14 +87532,7 @@
           "desc": "    [WORK IN PROGRESS]                   This questline is not finished yet.  It will be added in a future update."
         }
       },
-      "quests": [
-        {
-          "size": 24,
-          "x": 67,
-          "y": 133,
-          "id": 438
-        }
-      ],
+      "quests": [],
       "lineID": 20,
       "order": 20
     },
@@ -87817,14 +87558,7 @@
           "desc": "    [WORK IN PROGRESS]                   This questline is not finished yet.  It will be added in a future update."
         }
       },
-      "quests": [
-        {
-          "size": 24,
-          "x": 46,
-          "y": 146,
-          "id": 438
-        }
-      ],
+      "quests": [],
       "lineID": 22,
       "order": 22
     },
@@ -87837,20 +87571,7 @@
           "desc": "    [WORK IN PROGRESS]                   This questline is not finished yet.  It will be added in a future update."
         }
       },
-      "quests": [
-        {
-          "size": 24,
-          "x": 65,
-          "y": 108,
-          "id": 438
-        },
-        {
-          "size": 24,
-          "x": 103,
-          "y": 107,
-          "id": 479
-        }
-      ],
+      "quests": [],
       "lineID": 23,
       "order": 23
     },
@@ -87889,20 +87610,7 @@
           "desc": "    [WORK IN PROGRESS]                   This questline is not finished yet.  It will be added in a future update."
         }
       },
-      "quests": [
-        {
-          "size": 24,
-          "x": 40,
-          "y": 150,
-          "id": 438
-        },
-        {
-          "size": 24,
-          "x": 69,
-          "y": 158,
-          "id": 479
-        }
-      ],
+      "quests": [],
       "lineID": 26,
       "order": 26
     },
@@ -87928,20 +87636,7 @@
           "desc": "    [WORK IN PROGRESS]                   This questline is not finished yet.  It will be added in a future update."
         }
       },
-      "quests": [
-        {
-          "size": 24,
-          "x": 168,
-          "y": 74,
-          "id": 438
-        },
-        {
-          "size": 24,
-          "x": 198,
-          "y": 73,
-          "id": 479
-        }
-      ],
+      "quests": [],
       "lineID": 28,
       "order": 28
     },

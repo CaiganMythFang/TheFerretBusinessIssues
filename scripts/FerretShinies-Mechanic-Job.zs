@@ -144,6 +144,5 @@ var ferretResearchology = [
 for i, toy in ferretResearchology {
      toy.addTooltip(format.green("The researchers at The Ferret Business may"));
      toy.addTooltip(format.green("be interested in obtaining this! Submit it"));
-     toy.addTooltip(format.green("via your QUEST Tablet or Ender IO SAG Mill!"));
-     toy.addTooltip(format.red("Note : SAG Mill provides lower compensation."));
+     toy.addTooltip(format.green("via your Q.U.E.S.T. Tablet or Ender IO SAG Mill!"));
 }
