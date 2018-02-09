@@ -112,7 +112,7 @@ for i, toy in FMC122000 {
 
 // Ferret Market Cost, Ferret Blocks - 162,000
 var FMC162000 = [
-<ferretblocks:compressed_cyanite>, <ferretblocks:compressed_yellorium>, <ferretblocks:compressed_iron_double>, <ferretblocks:compressed_tin_double>, <ferretblocks:compressed_bronze_double>, <ferretblocks:compressed_copper_double>, <ferretblocks:compressed_manasteel_double>, <ferretblocks:compressed_gold>, <ferretblocks:compressed_lead>, <ferretblocks:compressed_invar>, <ferretblocks:compressed_electrum>, <ferretblocks:compressed_soularium>, <ferretblocks:compressed_silver>, <ferretblocks:compressed_electrical_steel_double>, <ferretblocks:compressed_aluminum_brass>, <ferretblocks:compressed_refinedglowstone>, <ferretblocks:compressed_uranium>, <ferretblocks:compressed_toughalloy>
+<ferretblocks:compressed_cyanite>, <ferretblocks:compressed_yellorium>, <ferretblocks:compressed_iron_double>, <ferretblocks:compressed_tin_double>, <ferretblocks:compressed_bronze_double>, <ferretblocks:compressed_copper_double>, <ferretblocks:compressed_manasteel_double>, <ferretblocks:compressed_gold>, <ferretblocks:compressed_lead>, <ferretblocks:compressed_invar>, <ferretblocks:compressed_electrum>, <ferretblocks:compressed_soularium>, <ferretblocks:compressed_silver>, <ferretblocks:compressed_electrical_steel_double>, <ferretblocks:compressed_aluminum_brass>, <ferretblocks:compressed_refinedglowstone>, <ferretblocks:compressed_uranium>
 ] as IItemStack[];
 
 for i, toy in FMC162000 {
@@ -168,6 +168,16 @@ var FMC405000 = [
 for i, toy in FMC405000 {
      <ore:zFMC405000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =405,000=") + " )"));
+}
+
+// Ferret Market Cost, Ferret Blocks - 450,000
+var FMC450000 = [
+<ferretblocks:compressed_toughalloy>
+] as IItemStack[];
+
+for i, toy in FMC450000 {
+     <ore:zFMC450000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =450,000=") + " )"));
 }
 
 // Ferret Market Cost, Ferret Blocks - 671,000
@@ -244,7 +254,7 @@ for i, toy in FMC1215000 {
 
 // Ferret Market Cost, Ferret Blocks - 1,458,000
 var FMC1458000 = [
-<ferretblocks:compressed_cyanite_double>, <ferretblocks:compressed_yellorium_double>, <ferretblocks:compressed_gold_double>, <ferretblocks:compressed_lead_double>, <ferretblocks:compressed_invar_double>, <ferretblocks:compressed_electrum_double>, <ferretblocks:compressed_silver_double>, <ferretblocks:compressed_soularium_double>, <ferretblocks:compressed_aluminum_brass_double>, <ferretblocks:compressed_refinedglowstone_double>, <ferretblocks:compressed_uranium_double>, <ferretblocks:compressed_toughalloy_double>
+<ferretblocks:compressed_cyanite_double>, <ferretblocks:compressed_yellorium_double>, <ferretblocks:compressed_gold_double>, <ferretblocks:compressed_lead_double>, <ferretblocks:compressed_invar_double>, <ferretblocks:compressed_electrum_double>, <ferretblocks:compressed_silver_double>, <ferretblocks:compressed_soularium_double>, <ferretblocks:compressed_aluminum_brass_double>, <ferretblocks:compressed_refinedglowstone_double>, <ferretblocks:compressed_uranium_double>
 ] as IItemStack[];
 
 for i, toy in FMC1458000 {
@@ -305,6 +315,17 @@ var FMC3645000 = [
 for i, toy in FMC3645000 {
      <ore:zFMC3645000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =3,645,000=") + " )"));
+    toy.addTooltip(format.darkRed("This item cannot be crated and shipped yet! Coming Soon!"));
+}
+
+// Ferret Market Cost, Ferret Blocks - 4,050,000
+var FMC4050000 = [
+<ferretblocks:compressed_toughalloy_double>
+] as IItemStack[];
+
+for i, toy in FMC4050000 {
+     <ore:zFMC4050000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =4,050,000=") + " )"));
     toy.addTooltip(format.darkRed("This item cannot be crated and shipped yet! Coming Soon!"));
 }
 

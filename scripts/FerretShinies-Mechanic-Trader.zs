@@ -164,6 +164,7 @@ var ferretExchangeToken = [
 for i, toy in ferretExchangeToken {
      toy.addTooltip(format.green("Ferret Business Shop Loyalty Tokens! "));
      toy.addTooltip(format.darkPurple("Place into a Crafting grid to duplicate!"));
+     toy.addTooltip(format.darkPurple("TEMP : Open Shop Catalog while having this in inventory."));
      toy.addTooltip(format.green("Combine with Silver Coins in EnderIO Alloy Smelter to"));
      toy.addTooltip(format.green("automatically convert them into Shop Vouchers!"));
 }

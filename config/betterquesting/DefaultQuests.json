@@ -1891,7 +1891,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth. Four §3§lBronze Tokens§r are worth less than a single §3§lSilver Token§r. Four §3§lSilver Tokens§r are worth less than a single §3§lThaumium Token§r, and so on.\n     You must spend at least 3 §2§lShop Vouchers§r in one purchase to earn a §2§lShop Token§r. The smallest §3§lShop Token§r you can turn in is a §5§lBronze Shop Token§r. Larger value tokens can also earn you bonuses in the form of §5§lBlind Bags§r! \n    You will receive 2 §2§lSilver Coins§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Token via an EnderIO SAG Mill, though!§r"
+          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth. Four §3§lBronze Tokens§r are worth less than a single §3§lSilver Token§r. Four §3§lSilver Tokens§r are worth less than a single §3§lThaumium Token§r, and so on.\n     You must spend at least 3 §2§lShop Vouchers§r in one purchase to earn a §2§lShop Token§r. The smallest §3§lShop Token§r you can turn in is a §5§lBronze Shop Token§r. Larger value tokens can also earn you bonuses in the form of §5§lBlind Bags§r! \n    You will receive 2 §2§lSilver Coins§r."
         }
       },
       "tasks": [
@@ -1925,6 +1925,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 18 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -2339,7 +2346,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 2 §2§lSilver Coins§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chip via an EnderIO SAG Mill, though!§r"
+          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 2 §2§lSilver Coins§r."
         }
       },
       "tasks": [
@@ -2373,6 +2380,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 22 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -3136,7 +3150,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 5 §2§lSilver Coins§r. \n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chip via an EnderIO SAG Mill, though!§r"
+          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 5 §2§lSilver Coins§r."
         }
       },
       "tasks": [
@@ -3170,6 +3184,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 29 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -3879,7 +3900,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "    Nice to meet you, §d§lBandit§r. As I explained in my greeting, I am §3§lRecruiter Rodney§r, one of the heads of the §3§lFR Department§r here. §3§lCaigan§r has tasked me with working out how to do employee benefits with your... special situation. I am pleased to note that, working with other departments in The §3§lFerret Business§r, I have devised multiple systems that work around the... limited functionality of your §3§lQUEST Tablet§r teleporter.\n    The first of which is handling how to get you better access to the §3§lCorporate Catalog§r and its §3§lShop Loyalty§r program : \n    1) To purchase items from the §3§lCorporate Catalog§r, you must use §2§lShop Vouchers§r.\n    2) I will convert at an §3§lExchange Rate§r of 10 §5§lSilver Coins§r to 1 §2§lShop Voucher§r.\n    3) Each purchase earns you a §lShop Token§r, depending on the value of the purchase.\n    4) Collect and turn in §lShop Tokens§r for§3§l Shop Loyalty§r, earning you better §3§lExchange Rates§r.\n    As well, when I give you a §2§lShop Voucher§r, I will also give you some §2§lExchange Tokens§r, equal to the rank of your §3§lShop Loyalty§r. I will explain how to use these elsewhere.\n    §l§oNOTE§r§o : Completing this quest and having the Exchange Token in your inventory when you open your TFB Corporate catalog will unlock the ability to purchase more in the Special and Administrative store section.§r"
+          "desc": "    Nice to meet you, §d§lBandit§r. As I explained in my greeting, I am §3§lRecruiter Rodney§r, one of the heads of the §3§lFR Department§r here. §3§lCaigan§r has tasked me with working out how to do employee benefits with your... special situation. I am pleased to note that, working with other departments in The §3§lFerret Business§r, I have devised multiple systems that work around the... limited functionality of your §3§lQUEST Tablet§r teleporter.\n    The first of which is handling how to get you better access to the §3§lCorporate Catalog§r and its §3§lShop Loyalty§r program : \n    1) To purchase items from the §3§lCorporate Catalog§r, you must use §2§lShop Vouchers§r.\n    2) I will convert at an §3§lExchange Rate§r of 10 §5§lSilver Coins§r to 1 §2§lShop Voucher§r.\n    3) Each purchase earns you a §lShop Token§r, depending on the value of the purchase.\n    4) Collect and turn in §lShop Tokens§r for§3§l Shop Loyalty§r, earning you better §3§lExchange Rates§r.\n    As well, when I give you a §2§lShop Voucher§r, I will also give you some §2§lExchange Tokens§r, equal to the rank of your §3§lShop Loyalty§r. I will explain how to use these elsewhere."
         }
       },
       "tasks": [
@@ -3919,6 +3940,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 36 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -3949,7 +3977,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "    §3§lExchange Rate Tier : §3§lTin§r gives you a §2§lShop Voucher§r for every 9 §5§lSilver Coins§r.\n    §l§oNOTE§r§o : Completing this quest and having the Exchange Token in your inventory when you open your TFB Corporate catalog will unlock the ability to purchase more in the Special and Administrative store section.§r"
+          "desc": "    §3§lExchange Rate Tier : §3§lTin§r gives you a §2§lShop Voucher§r for every 9 §5§lSilver Coins§r."
         }
       },
       "tasks": [
@@ -3989,6 +4017,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 37 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -4019,7 +4054,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    §3§lExchange Rate Tier : §3§lIron§r gives you a §2§lShop Voucher§r for every 8 §5§lSilver Coins§r.\n    §l§oNOTE§r§o : Completing this quest and having the Exchange Token in your inventory when you open your TFB Corporate catalog will unlock the ability to purchase more in the Special and Administrative store section.§r"
+          "desc": "    §3§lExchange Rate Tier : §3§lIron§r gives you a §2§lShop Voucher§r for every 8 §5§lSilver Coins§r."
         }
       },
       "tasks": [
@@ -4059,6 +4094,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 38 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -4090,7 +4132,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    §3§lExchange Rate Tier : §3§lSteel§r gives you a §2§lShop Voucher§r for every 7 §5§lSilver Coins§r.\n    §l§oNOTE§r§o : Completing this quest and having the Exchange Token in your inventory when you open your TFB Corporate catalog will unlock the ability to purchase more in the Special and Administrative store section.§r"
+          "desc": "    §3§lExchange Rate Tier : §3§lSteel§r gives you a §2§lShop Voucher§r for every 7 §5§lSilver Coins§r."
         }
       },
       "tasks": [
@@ -4130,6 +4172,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 39 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -4161,7 +4210,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "    §3§lExchange Rate Tier : §3§lEmerald§ §r gives you a §2§lShop Voucher§r for every 6 §5§lSilver Coins§r.\n    §l§oNOTE§r§o : Completing this quest and having the Exchange Token in your inventory when you open your TFB Corporate catalog will unlock the ability to purchase more in the Special and Administrative store section.§r"
+          "desc": "    §3§lExchange Rate Tier : §3§lEmerald§ §r gives you a §2§lShop Voucher§r for every 6 §5§lSilver Coins§r."
         }
       },
       "tasks": [
@@ -4201,6 +4250,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 40 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -4232,7 +4288,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    §3§lExchange Rate Tier : §3§lDiamond§r gives you a §2§lShop Voucher§r for every 5 §5§lSilver Coins§r. This is the highest §3§lExchange Rate Tier§r you can achieve.\n    §l§oNOTE§r§o : Completing this quest and having the Exchange Token in your inventory when you open your TFB Corporate catalog will unlock the ability to purchase more in the Special and Administrative store section.§r"
+          "desc": "    §3§lExchange Rate Tier : §3§lDiamond§r gives you a §2§lShop Voucher§r for every 5 §5§lSilver Coins§r. This is the highest §3§lExchange Rate Tier§r you can achieve."
         }
       },
       "tasks": [
@@ -4272,6 +4328,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 41 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -4303,7 +4366,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 5 §2§lSilver Coins§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Token via an EnderIO SAG Mill, though!§r"
+          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 5 §2§lSilver Coins§r."
         }
       },
       "tasks": [
@@ -4337,6 +4400,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 42 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -4367,7 +4437,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 12 §2§lSilver Coins§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Token via an EnderIO SAG Mill, though!§r"
+          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 12 §2§lSilver Coins§r."
         }
       },
       "tasks": [
@@ -4401,6 +4471,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 43 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -4431,7 +4508,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 26 §2§lSilver Coins§.§r and 1 §2§lBasic Blind Bag of Blind Bags.§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Token via an EnderIO SAG Mill, though!§r"
+          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 26 §2§lSilver Coins§.§r and 1 §2§lBasic Blind Bag of Blind Bags.§r"
         }
       },
       "tasks": [
@@ -4477,6 +4554,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 44 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -4507,7 +4591,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 58 §2§lSilver Coins§r and 2 §2§lBasic Blind Bags of Blind Bags§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Token via an EnderIO SAG Mill, though!§r"
+          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 58 §2§lSilver Coins§r and 2 §2§lBasic Blind Bags of Blind Bags§r."
         }
       },
       "tasks": [
@@ -4559,6 +4643,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 45 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -4589,7 +4680,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 128 §2§lSilver Coins§r and 1 §2§lGood Blind Bag of Blind Bags.§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Token via an EnderIO SAG Mill, though!§r"
+          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 128 §2§lSilver Coins§r and 1 §2§lGood Blind Bag of Blind Bags.§r"
         }
       },
       "tasks": [
@@ -4641,6 +4732,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 46 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -4671,7 +4769,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 282 §2§lSilver Coins§r and 2 §2§lGood Blind Bags of Blind Bags§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Token via an EnderIO SAG Mill, though!§r"
+          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 282 §2§lSilver Coins§r and 2 §2§lGood Blind Bags of Blind Bags§r."
         }
       },
       "tasks": [
@@ -4723,6 +4821,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 47 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -4753,7 +4858,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 614 §2§lSilver Coins§r and 1 §2§lGreat Blind Bag of Blind Bags§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Token via an EnderIO SAG Mill, though!§r"
+          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 614 §2§lSilver Coins§r and 1 §2§lGreat Blind Bag of Blind Bags§r."
         }
       },
       "tasks": [
@@ -4805,6 +4910,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 48 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -4835,7 +4947,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 1,300 §2§lSilver Coins§r and 1 §2§lEpic Blind Bag of Blind Bags§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Token via an EnderIO SAG Mill, though!§r"
+          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 1,300 §2§lSilver Coins§r and 1 §2§lEpic Blind Bag of Blind Bags§r."
         }
       },
       "tasks": [
@@ -4887,6 +4999,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 49 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -4917,7 +5036,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 3,072 §2§lSilver Coins§r and 1 of each §2§lBlind Bag of Blind Bags§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Token via an EnderIO SAG Mill, though!§r"
+          "desc": "    Buying items in the Corporate Catalog earns you §3§lShop Tokens§r. By combining two of the same value, you get a larger §lToken§r. The larger the §lToken§r you redeem, the more §2§lShop Loyalty§r it is worth.  \n    You will receive 3,072 §2§lSilver Coins§r and 1 of each §2§lBlind Bag of Blind Bags§r."
         }
       },
       "tasks": [
@@ -5017,6 +5136,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 50 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -5233,6 +5359,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 52 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -5771,6 +5904,7 @@
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "HIDDEN",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -5829,6 +5963,7 @@
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "HIDDEN",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -5887,6 +6022,7 @@
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "HIDDEN",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -5945,6 +6081,7 @@
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "HIDDEN",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -6003,6 +6140,7 @@
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "HIDDEN",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -6813,7 +6951,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 12 §2§lSilver Coins§r.§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chip via an EnderIO SAG Mill, though!§r"
+          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 12 §2§lSilver Coins§r.§r"
         }
       },
       "tasks": [
@@ -6847,6 +6985,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 73 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -6978,6 +7123,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 74 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -7009,7 +7161,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 26 §2§lSilver Coins§.§r and 1 §2§lBasic Blind Bag of Blind Bags.§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chip via an EnderIO SAG Mill, though!§r"
+          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 26 §2§lSilver Coins§.§r and 1 §2§lBasic Blind Bag of Blind Bags.§r"
         }
       },
       "tasks": [
@@ -7055,6 +7207,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 75 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -7271,7 +7430,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 58 §2§lSilver Coins§.§r and 2 §2§lBasic Blind Bag of Blind Bags.§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chip via an EnderIO SAG Mill, though!§r"
+          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 58 §2§lSilver Coins§.§r and 2 §2§lBasic Blind Bag of Blind Bags.§r"
         }
       },
       "tasks": [
@@ -7323,6 +7482,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 77 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -7471,6 +7637,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 79 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -7687,7 +7860,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 128 §2§lSilver Coins§.§r and 1 §2§lGood Blind Bag of Blind Bags.§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chip via an EnderIO SAG Mill, though!§r"
+          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 128 §2§lSilver Coins§.§r and 1 §2§lGood Blind Bag of Blind Bags.§r"
         }
       },
       "tasks": [
@@ -7739,6 +7912,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 81 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -7769,7 +7949,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 282 §2§lSilver Coins§.§r and 2 §2§lGood Blind Bag of Blind Bags.§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chip via an EnderIO SAG Mill, though!§r"
+          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 282 §2§lSilver Coins§.§r and 2 §2§lGood Blind Bag of Blind Bags.§r"
         }
       },
       "tasks": [
@@ -7821,6 +8001,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 82 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -7903,6 +8090,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 83 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -7991,6 +8185,13 @@
           ],
           "rewardID": "bq_standard:choice",
           "index": 1
+        },
+        {
+          "command": "/bq_admin reset 84 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 2
         }
       ],
       "preRequisites": [
@@ -8063,6 +8264,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 85 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -8093,7 +8301,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 614 §2§lSilver Coins§.§r and 1 §2§lGreat Blind Bag of Blind Bags.§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chip via an EnderIO SAG Mill, though!§r"
+          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 614 §2§lSilver Coins§.§r and 1 §2§lGreat Blind Bag of Blind Bags.§r"
         }
       },
       "tasks": [
@@ -8145,6 +8353,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 86 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -8233,6 +8448,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 87 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -8337,6 +8559,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 88 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -8367,7 +8596,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 1,300 §2§lSilver Coins§.§r and 1 §2§lEpic Blind Bag of Blind Bags.§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chip via an EnderIO SAG Mill, though!§r"
+          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 1,300 §2§lSilver Coins§.§r and 1 §2§lEpic Blind Bag of Blind Bags.§r"
         }
       },
       "tasks": [
@@ -8419,6 +8648,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 89 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -8571,6 +8807,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 91 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -8601,7 +8844,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 3,072 §2§lSilver Coins§.§r and 1 of each §2§l Blind Bag of Blind Bags.§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chip via an EnderIO SAG Mill, though!§r"
+          "desc": "    §3§lJob Chips§r are earned by assisting in Research, or submitting Research Materials.\n    By combining two of the same value, you get a larger §lChip§r. The larger the §lChip§r you redeem, the more §2§lJob Reputation§r it is worth. Four §3§lBronze Chips§r are worth less than a single §3§lSilver Chip§r. Four §3§lSilver Chips§r are worth less than a single §3§lThaumium Chip§r, and so on.\n    You will receive 3,072 §2§lSilver Coins§.§r and 1 of each §2§l Blind Bag of Blind Bags.§r"
         }
       },
       "tasks": [
@@ -8701,6 +8944,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 92 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -8969,6 +9219,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 95 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -9057,6 +9314,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 96 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -9453,7 +9717,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 26 §2§lSilver Coins§.§r and 1 §2§lBasic Blind Bag of Blind Bags.§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chit via an EnderIO SAG Mill, though!§r"
+          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 26 §2§lSilver Coins§.§r and 1 §2§lBasic Blind Bag of Blind Bags.§r"
         }
       },
       "tasks": [
@@ -9499,6 +9763,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 103 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -9529,7 +9800,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 58 §2§lSilver Coins§r and 2 §2§lBasic Blind Bags of Blind Bags§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chit via an EnderIO SAG Mill, though!§r"
+          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 58 §2§lSilver Coins§r and 2 §2§lBasic Blind Bags of Blind Bags§r."
         }
       },
       "tasks": [
@@ -9581,6 +9852,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 104 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -9611,7 +9889,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 128 §2§lSilver Coins§r and 1 §2§lGood Blind Bag of Blind Bags.§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chit via an EnderIO SAG Mill, though!§r"
+          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 128 §2§lSilver Coins§r and 1 §2§lGood Blind Bag of Blind Bags.§r"
         }
       },
       "tasks": [
@@ -9663,6 +9941,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 105 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -9763,7 +10048,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has. Four §3§lBronze[8] Chits§r are worth less than a single §3§lSilver[32] Chit§r. Four §3§lSilver[32] Chits§r are worth less than a single §3§lThaumium[128] Chit§r, and so on.\n    The minimum §3§lTrader Chit§r you can turn in is a §5§lBronze Trader Chit§r.\n    You will receive 2 §2§lSilver Coins.§r§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chit via an EnderIO SAG Mill, though!§r"
+          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has. Four §3§lBronze[8] Chits§r are worth less than a single §3§lSilver[32] Chit§r. Four §3§lSilver[32] Chits§r are worth less than a single §3§lThaumium[128] Chit§r, and so on.\n    The minimum §3§lTrader Chit§r you can turn in is a §5§lBronze Trader Chit§r.\n    You will receive 2 §2§lSilver Coins.§r§r"
         }
       },
       "tasks": [
@@ -9797,6 +10082,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 107 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -10031,7 +10323,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 614 §2§lSilver Coins§r and 1 §2§lGreat Blind Bag of Blind Bags§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chit via an EnderIO SAG Mill, though!§r"
+          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 614 §2§lSilver Coins§r and 1 §2§lGreat Blind Bag of Blind Bags§r."
         }
       },
       "tasks": [
@@ -10083,6 +10375,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 111 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -10533,7 +10832,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 3,072 §2§lSilver Coins§r and 1 of each §2§lBlind Bag of Blind Bags§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chit via an EnderIO SAG Mill, though!§r"
+          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 3,072 §2§lSilver Coins§r and 1 of each §2§lBlind Bag of Blind Bags§r."
         }
       },
       "tasks": [
@@ -10633,6 +10932,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 118 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -10885,7 +11191,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 1,300 §2§lSilver Coins§r and 1 §2§lEpic Blind Bag of Blind Bags§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chit via an EnderIO SAG Mill, though!§r"
+          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 1,300 §2§lSilver Coins§r and 1 §2§lEpic Blind Bag of Blind Bags§r."
         }
       },
       "tasks": [
@@ -10937,6 +11243,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 121 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -11037,7 +11350,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 282 §2§lSilver Coins§r and 2 §2§lGood Blind Bags of Blind Bags§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chit via an EnderIO SAG Mill, though!§r"
+          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 282 §2§lSilver Coins§r and 2 §2§lGood Blind Bags of Blind Bags§r."
         }
       },
       "tasks": [
@@ -11089,6 +11402,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 123 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -11189,7 +11509,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 12 §2§lSilver Coins§r.\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chit via an EnderIO SAG Mill, though!§r"
+          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 12 §2§lSilver Coins§r."
         }
       },
       "tasks": [
@@ -11223,6 +11543,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 125 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -11323,7 +11650,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": false,
-          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 5 §2§lSilver Coins.§r§r\n    §o§lNOTE§r §o:§r §oYou may only complete this quest once due to a bug. You can still exchange the Chit via an EnderIO SAG Mill, though!§r"
+          "desc": "    Fulfilling §lContracts§r succesfully earns you §3§lTrader Chits§r. By combining two of the same value, you get a larger §lchit§r. The larger the §lchit §ryou redeem, the more value it has.\n    You will receive 5 §2§lSilver Coins.§r§r"
         }
       },
       "tasks": [
@@ -11357,6 +11684,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 127 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -11875,10 +12209,17 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 134 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
-        603
+        84
       ],
       "questID": 134
     },
@@ -11957,7 +12298,7 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    Draconium is a fantastic material, able to tap into and utilize so much potential power and magic. Hopefully we can unlock its secrets, and it will guide us to getting you out of there, and open up even more doors for all of us.\n    Shaping it into Cores was an excellent first step, and we\u0027ve been able to expand upon it. You can make more powerful Cores of varying types just by combining a few together with other powerful materials.\n    We\u0027ve created some powerful lab equipment that enables us to empower some basic tools with Draconic potential : We simply call them Wyvern Tools. Why? Wyverns were, according to some lore, Lesser Dragons. They were Draconic in nature, but not to the mystical levels of full Dragons.\n    Don\u0027t underestimate Wyverns though, as these tools are extremely powerful in their own right. The machinery to create them is expensive, not to mention the other magical materials we need to harness the energy.\n    Initially we will offer you the Pickaxe, but afterwards you can purchase the other tools from your Corporate Catalog."
+          "desc": "    Draconium is a fantastic material, able to tap into and utilize so much potential power and magic. Hopefully we can unlock its secrets, and it will guide us to getting you out of there, and open up even more doors for all of us.\n    Shaping it into Cores was an excellent first step, and we\u0027ve been able to expand upon it. You can make more powerful Cores of varying types just by combining a few together with other powerful materials.\n    We\u0027ve created some powerful lab equipment that enables us to empower some basic tools with Draconic potential : We simply call them Wyvern Tools. Why? Wyverns were, according to some lore, Lesser Dragons. They were Draconic in nature, but not to the mystical levels of full Dragons.\n    Don\u0027t underestimate Wyverns though, as these tools are extremely powerful in their own right. The machinery to create them is expensive, not to mention the other magical materials we need to harness the energy."
         }
       },
       "tasks": [
@@ -11999,7 +12340,13 @@
               "Count": 30,
               "OreDict": "",
               "Damage": 76
-            },
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 1
+        },
+        {
+          "choices": [
             {
               "id": "DraconicEvolution:wyvernPickaxe",
               "Count": 1,
@@ -12008,10 +12355,44 @@
               "tag": {
                 "Energy:3": 0
               }
+            },
+            {
+              "id": "DraconicEvolution:wyvernShovel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Energy:3": 0
+              }
+            },
+            {
+              "id": "DraconicEvolution:wyvernSword",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Energy:3": 0
+              }
+            },
+            {
+              "id": "DraconicEvolution:wyvernBow",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Energy:3": 0
+              }
             }
           ],
-          "rewardID": "bq_standard:item",
-          "index": 1
+          "rewardID": "bq_standard:choice",
+          "index": 2
+        },
+        {
+          "command": "/bq_admin reset 136 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 3
         }
       ],
       "preRequisites": [
@@ -13265,6 +13646,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 144 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -13429,6 +13817,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 1
+        },
+        {
+          "command": "/bq_admin reset 146 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 2
         }
       ],
       "preRequisites": [
@@ -14029,6 +14424,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 150 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -14479,6 +14881,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 1
+        },
+        {
+          "command": "/bq_admin reset 153 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 2
         }
       ],
       "preRequisites": [
@@ -14817,6 +15226,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 155 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -14887,6 +15303,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 156 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -14957,6 +15380,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 157 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -15027,6 +15457,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 158 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -15097,6 +15534,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 159 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -15167,6 +15611,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 160 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -15237,6 +15688,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 161 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -15307,6 +15765,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 162 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -15377,6 +15842,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 163 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -15447,6 +15919,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 164 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -15517,6 +15996,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 165 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -15587,6 +16073,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 166 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -18652,6 +19145,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 188 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -24162,6 +24662,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 1
+        },
+        {
+          "command": "/bq_admin reset 223 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 2
         }
       ],
       "preRequisites": [
@@ -28675,6 +29182,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 1
+        },
+        {
+          "command": "/bq_admin reset 253 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 2
         }
       ],
       "preRequisites": [
@@ -49165,6 +49679,117 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
+            "id": "cookingbook:recipebook",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "Cooking for Blockheads",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "[§3§lHead Chef Charlie§r]\n    Ah, §d§lBandit§l§r, I am currently conversing with §3§lFood Critic Candy§r on comparing old kitchens to new ones. Classic versus modern, see?\n[§3§lFood Critic Candy§r]\n    More that he\u0027s trying to strike up conversation to distract me from showing him these new kitchen designs.\n[§3§lHead Chef Charlie§r]\n    Which I don\u0027t need. Our kitchen is top of the line, these rustic looking things wouldn\u0027t work for my restaurant...\n[§3§lFood Critic Candy§r]\n    ...because these are meant for one or two ferret kitchens, not giant kitchens like yours.\n[§3§lHead Chef Charlie§r]\n    Well why didn\u0027t you say so!?\n[§3§lFood Critic Candy§r]\n    Sigh... §d§lBandit§r, while I get §3§lCharlie§r up to speed here, why don\u0027t you get a couple §lCookbooks§r§r ready? The §4§lCooking for Blockheads§r kitchen line should definitely help you in your current situation.\n\n    There are two §lbooks§r you\u0027ll need to start with : \n    1) §5§lCooking for Blockheads I§r, which will §llist recipes§r.\n    2) §5§lCooking for Blockheads II§r, which will let you §lcraft recipes§r.\n    Both books only show you §lrecipes§r you can make with ingredients in your §linventory§r, though! Quite handy to know what you can make on the spot, no?\n    If you want to craft the food with the §5§lCooking for Blockheads II§r book, select it, then §lLeft Click §ron it again to create it."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "cookingbook:recipebook",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "cookingbook:recipebook",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        11
+      ],
+      "questID": 365
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
             "id": "CompactMachines:interfaceitem",
             "Count": 1,
             "OreDict": "",
@@ -61860,6 +62485,128 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
+            "id": "cookingbook:cookingtable",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "The Kitchen Counter",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "[§3§lHead Chef Charlie§r]\n    Hmmm, Candy has brought me up to date on the purpose of this... §4§lCooking for Blockheads§r? Kind of insulting, no?\n[§3§lFood Critic Candy§r]\n    It\u0027s a hipper term with young chefs right now. Related to some really popular §lgame§r they all play. But they also have passion for §lcooking§r, so marketing...\n[§3§lHead Chef Charlie§r]\n    Oh, marketing. Explains everything, don\u0027t need to say any more. Always poking at our...\n[§3§lFood Critic Candy§r]\n    Anyways, it isn\u0027t really a concern for §d§lBandit§r here. The proper concern is how to utilize this new kitchen line, right?\n[§3§lHead Chef Charlie§r]\n    Oh. Yes yes. So the main piece is the §5§lCooking Table§r?\n[§3§lFood Critic Candy§r]\n    Right. It works just like the §lCooking for Blockheads II§r book. It\u0027ll only §lshow recipes§r you can make with §lingredients in your inventory§r.\n[§3§lHead Chef Charlie§r]\n    Ah, only minorly useful if you can do the same with that book, no? What if you need to §lcook§r part of the dish?\n[§3§lFood Critic Candy§r]\n    That\u0027s where the §5§lCooking Oven§r comes in! As long as it is §lplaced next to§r any other part of this kitchen line, recipes that utilize the §5§lOven§r will show up.\n[§3§lHead Chef Charlie§r]\n    Hmm, it takes a moment, but it is §lmuch faster§r cooking than with a normal §lFurnace§r. Inspecting it, the §5§lOven§r appears to cook up to §l9 pieces§r at a time? Marvelous.\n    Ahh, I also see where the patented §3§lFerret Business§r teleportation shenanigans come into play. Do all the pieces work likewise?\n[§3§lFood Critic Candy§r]\n    Yep, any part of the §4§lCooking for Blockheads§r line, as long as they are §ltouching§r each other, §lconnect§r.\n    You\u0027ll have to put §lfuel§r into the §5§lOven§r §lby hand§r, though. Safety reasons, according to mark...\n[§3§lHead Chef Charlie§r]\n    Yes yes always marketting. That is fine. I see there are §lfour storage spots§r on the §5§lOven§r. What are they for?\n[§3§lFood Critic Candy§r]\n    Oh, you can §lstore§r some §lpots and pans§r in those. Recipes that §lrequire§r them will see them and §lshow the appropriate recipes§r.\n[§3§lHead Chef Charlie§r]\n    Fantastic."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "cookingbook:cookingtable",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "cookingbook:cookingoven",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        365
+      ],
+      "questID": 438
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
             "id": "fluxedCrystals:upgradeEfficiency",
             "Count": 1,
             "OreDict": "",
@@ -62828,6 +63575,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 1
+        },
+        {
+          "command": "/bq_admin reset 444 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 2
         }
       ],
       "preRequisites": [
@@ -63591,6 +64345,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 1
+        },
+        {
+          "command": "/bq_admin reset 449 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 2
         }
       ],
       "preRequisites": [
@@ -64486,6 +65247,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 1
+        },
+        {
+          "command": "/bq_admin reset 454 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 2
         }
       ],
       "preRequisites": [
@@ -68285,6 +69053,152 @@
           "isMain": false,
           "simultaneous": false,
           "icon": {
+            "id": "cookingbook:fridge",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": false,
+          "questLogic": "AND",
+          "name": "A Place for Things",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "[§3§lHead Chef Charlie§r]\n    A place to mix ingredients and place to cook ingredients. What about §lwashing§r ingredients? Or adding §lWater§r?\n[§3§lFood Critic Candy§r]\n    Ah, install a §5§lSink§r to the kitchen line and it\u0027ll §lautomatically§r provide §lWater§r to any recipe that calls for it. You can also §lRight Click§r an §lEmpty Bucket§r onto the §5§lSink§r to fill it with §lWater§r!\n[§3§lHead Chef Charlie§r]\n    What about a place to §lstore§r ingredients and tools? With how many ingredients a recipe takes, one\u0027s pockets can get quite full, no?\n[§3§lFood Critic Candy§r]\n    Well for that, use a §5§lFridge§r for food, and a §5§lTool Rack§r for §ltools§r! Just open the §5§lFridge§r with an §lempty hand§r, or §lRight Click§r a §ltool§r onto the §5§lTool Rack§r.\n[§3§lHead Chef Charlie§r]\n    Would not a §5§lFridge§r cool heated ingredients?\n[§3§lFood Critic Candy§r]\n    It\u0027s actually a §lsmart§r §5§lFridge§r. It keeps foods hot or cold for you, no need to worry about §lsorting§r.\n[§3§lHead Chef Charlie§r]\n    W... wait. It isn\u0027t connected to the §lInternet§r, is it?\n[§3§lFood Critic Candy§r]\n    No.\n[§3§lHead Chef Charlie§r]\n    Oh. I was slightly hoping it would be. The §lCooking with Blockheads I and II§r books are helpful, but only if you have the ingredients on hand. What if I §ldo not know§r the recipe?\n[§3§lFood Critic Candy§r]\n    We have a book just for that. It\u0027s called the §5§l#NoFilter§r edition, it shows §lall food recipes§r the §4§lCooking for Blockheads§r kitchen line can cook!\n[§3§lHead Chef Charlie§r]\n    A §lhashtag§r... I am now sorry I asked..."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "cookingbook:sink",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "cookingbook:fridge",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "cookingbook:toolrack",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "cookingbook:recipebook",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        11,
+        438
+      ],
+      "questID": 479
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
             "id": "TravellersGear:simpleGear",
             "Count": 1,
             "OreDict": "",
@@ -68670,6 +69584,7 @@
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "HIDDEN",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -68722,6 +69637,7 @@
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "HIDDEN",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -68888,6 +69804,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 1
+        },
+        {
+          "command": "/bq_admin reset 485 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 2
         }
       ],
       "preRequisites": [
@@ -68901,6 +69824,7 @@
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "HIDDEN",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -68959,6 +69883,7 @@
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "HIDDEN",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -69017,6 +69942,7 @@
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "HIDDEN",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -69075,6 +70001,7 @@
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "HIDDEN",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -69202,6 +70129,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 1
+        },
+        {
+          "command": "/bq_admin reset 490 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 2
         }
       ],
       "preRequisites": [
@@ -69215,6 +70149,7 @@
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "HIDDEN",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -69273,6 +70208,7 @@
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "HIDDEN",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -69331,6 +70267,7 @@
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "HIDDEN",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -69447,6 +70384,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 494 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -73380,6 +74324,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 533 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -73450,6 +74401,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 534 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -73520,6 +74478,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 535 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -73590,6 +74555,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 536 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -73660,6 +74632,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 537 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -73730,6 +74709,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 538 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -73800,6 +74786,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 539 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -73870,6 +74863,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 540 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -73940,6 +74940,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 541 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -74010,6 +75017,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 542 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -74080,6 +75094,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 543 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -74150,6 +75171,13 @@
           ],
           "rewardID": "bq_standard:item",
           "index": 0
+        },
+        {
+          "command": "/bq_admin reset 544 VAR_NAME",
+          "hideCommand": false,
+          "viaPlayer": false,
+          "rewardID": "bq_standard:command",
+          "index": 1
         }
       ],
       "preRequisites": [
@@ -74201,6 +75229,7 @@
           "snd_complete": "random.levelup",
           "taskLogic": "AND",
           "partySingleReward": false,
+          "visibility": "HIDDEN",
           "isMain": false,
           "simultaneous": false,
           "icon": {
@@ -83809,43 +84838,6 @@
         30
       ],
       "questID": 602
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "snd_complete": "random.levelup",
-          "taskLogic": "AND",
-          "partySingleReward": false,
-          "isMain": false,
-          "simultaneous": false,
-          "icon": {
-            "id": "Botania:cosmetic",
-            "Count": 1,
-            "OreDict": "",
-            "Damage": 31
-          },
-          "snd_update": "random.levelup",
-          "repeatTime": -1,
-          "globalShare": false,
-          "questLogic": "AND",
-          "name": "IMPORTANT NOTE",
-          "lockedProgress": false,
-          "autoClaim": false,
-          "isSilent": false,
-          "desc": "    §oDue to a bug in the latest versions of Better Questing 2 (which fixed a lot of OTHER issues, thankfully), Repeatability of quests had to be disabled.\n    For a workaround, please keep your TFB Corporate Catalog on hand, and open it when you get items you wish to purchase more of.\n    For example, if you wished to purchase more Draconium Ingots, keep one in your inventory and then open your Corporate Catalog.\n    All Draconic Evolution items will be purchasable in the Special and Administrative shop section."
-        }
-      },
-      "tasks": [
-        {
-          "taskID": "bq_standard:checkbox",
-          "index": 0
-        }
-      ],
-      "rewards": [],
-      "preRequisites": [
-        84
-      ],
-      "questID": 603
     }
   ],
   "questLines": [
@@ -84501,7 +85493,7 @@
           "name": "[FRD] Large Scale Orders",
           "bg_image": "",
           "bg_size": 256,
-          "desc": "    §3§lRecruiter Rodney§r here. Raw materials are not the only thing we sell in the Ferret Business, we also sell a wide variety of merchandise. You\u0027ve probably seen the Supply and Demand system in place from §3§lProprieter Penny§r, which is good for supplying us with a small variety of items.\n    I, instead, handle the large volume purchases. The ones that handle thousands upon thousands of a single item. These are distributed among our many chains of stores, and I coordinate the logistics of this.\n    If you are in need of even more coins than just providing small crates of goods, then please look at what I am in need of currently.\n    For now, you can only complete each order once. This may change in the future!"
+          "desc": "    §3§lRecruiter Rodney§r here. Raw materials are not the only thing we sell in the §5§lFerret Business§r, we also sell a wide variety of merchandise. You\u0027ve probably seen the§l Supply and Demand§r system in place from §3§lProprieter Penny§r, which is good for supplying us with a small variety of items.\n    I, instead, handle the large volume purchases. The ones that handle thousands upon thousands of a single item. These are distributed among our many chains of stores, and I coordinate the logistics of this.\n    If you are in need of even more coins than just providing small crates of goods, then please look at what I am in need of currently.\n    You can complete any order BUT RF Energy orders multiple times. "
         }
       },
       "quests": [
@@ -84629,7 +85621,7 @@
           "name": "[FRD] Researchology",
           "bg_image": "",
           "bg_size": 256,
-          "desc": "INITIALIZING INTERFACE. SCANNING IDENTIFICATION\n...\n\u003e GREETINGS §d§lBANDIT§r\n    I AM §3§lM-A8301-X819§r, OR §3§lM.A.X.§r FOR SHORT. I AM PART OF A NEW SYSTEM FOR THE FERRET RESOURCES DEPARTMENT.\n    I CATALOGUE AND DISTRIBUTE §5§lRESEARCH MATERIALS§r TO MANY LABORATORIES WITHIN §3§lTHE FERRET BUSINESS§r. I AM NOW AUTHORIZED BY THE §3§lCEO§r TO GIVE YOU §2§lPAYMENT§r, KNOWN AS A §2§lBOUNTY§r, FOR PROVIDING VARIOUS §5§lRESEARCH MATERIALS§r.\n    EACH LISTING HERE MAY ONLY BE COMPLETED ONCE. THE LARGER ORDERS GIVE A BONUS IN REWARD. YOU MAY STILL SUBMIT AS MANY RESEARCH MATERIALS AS YOU COLLECT BY INSERTING THEM INTO AN ENDER IO SAG MILL."
+          "desc": "INITIALIZING INTERFACE. SCANNING IDENTIFICATION\n...\n\u003e GREETINGS §d§lBANDIT§r\n    I AM §3§lM-A8301-X819§r, OR §3§lM.A.X.§r FOR SHORT. I AM PART OF A NEW SYSTEM FOR THE FERRET RESOURCES DEPARTMENT.\n    I CATALOGUE AND DISTRIBUTE §5§lRESEARCH MATERIALS§r TO MANY LABORATORIES WITHIN §3§lTHE FERRET BUSINESS§r. I AM NOW AUTHORIZED BY THE §3§lCEO§r TO GIVE YOU §2§lPAYMENT§r, KNOWN AS A §2§lBOUNTY§r, FOR PROVIDING VARIOUS §5§lRESEARCH MATERIALS§r.\n    THE LARGER ORDERS GIVE A BONUS IN REWARD. YOU MAY SUBMIT AS MANY RESEARCH MATERIALS AS YOU COLLECT BY INSERTING THEM INTO AN §4§lENDER IO§r §lSAG MILL§r AS AN ALTERNATIVE SUBMISSION METHOD."
         }
       },
       "quests": [
@@ -86731,7 +87723,7 @@
           "name": "Soul Food",
           "bg_image": "",
           "bg_size": 256,
-          "desc": "    Welcome, welcome to the �3�lCafe la Ferret�r! Here, we create all sorts of delicacies, from the familiar to the strange!\n    We are a trio of researchers who are working on new foods, from planting to plate! We\u0027d like to thank you for introducing us to even more �lfoods�r to expand our palettes with, Bandit.  \n    Who are we, you ask? We would be: �3�lMaster Gardener Grey�r, �3�lHead Chef Charlie�r, and �3�lFood Critic Candy�r, at your service!"
+          "desc": "    Welcome, welcome to the §3§lCafe la Ferret§r! Here, we create all sorts of delicacies, from the familiar to the strange!\n    We are a trio of researchers who are working on new foods, from planting to plate! We\u0027d like to thank you for introducing us to even more §lfoods§r to expand our palettes with, Bandit.  \n    Who are we, you ask? We would be: §3§lMaster Gardener Grey§r, §3§lHead Chef Charlie§r, and §3§lFood Critic Candy§r, at your service!"
         }
       },
       "quests": [
@@ -86761,9 +87753,27 @@
         },
         {
           "size": 24,
+          "x": 144,
+          "y": 32,
+          "id": 438
+        },
+        {
+          "size": 24,
           "x": 28,
           "y": 56,
           "id": 439
+        },
+        {
+          "size": 24,
+          "x": 144,
+          "y": 0,
+          "id": 365
+        },
+        {
+          "size": 24,
+          "x": 144,
+          "y": 64,
+          "id": 479
         }
       ],
       "lineID": 13,
@@ -87418,12 +88428,6 @@
           "x": 104,
           "y": 124,
           "id": 91
-        },
-        {
-          "size": 24,
-          "x": 52,
-          "y": 0,
-          "id": 603
         },
         {
           "size": 24,

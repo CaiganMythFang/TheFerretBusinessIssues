@@ -2824,6 +2824,7 @@ found in the core file.
       <output>
         <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="12" />
       </output>
+    </recipe>
 
     <recipe name="Redeem Gold Job Chip" energyCost="5000">
       <input>
@@ -2926,6 +2927,7 @@ found in the core file.
       <output>
         <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="12" />
       </output>
+    </recipe>
 
     <recipe name="Redeem Gold Shop Token" energyCost="5000">
       <input>
@@ -3028,6 +3030,7 @@ found in the core file.
       <output>
         <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number="12" />
       </output>
+    </recipe>
 
     <recipe name="Redeem Gold Trader Chit" energyCost="5000">
       <input>
@@ -3104,6 +3107,5 @@ found in the core file.
         <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="74" number="1" />
       </output>
     </recipe>
-    
 </recipeGroup> 
  </SAGMillRecipes>

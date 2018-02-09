@@ -82,7 +82,7 @@ for i, toy in FMC8500 {
 
 // Ferret Market Cost, NuclearCraft - 18,000
 var FMC18000 = [
-<NuclearCraft:blockBlock:2>, <NuclearCraft:blockBlock:4>, <NuclearCraft:blockBlock:7>
+<NuclearCraft:blockBlock:2>, <NuclearCraft:blockBlock:4>
 ] as IItemStack[];
 
 for i, toy in FMC18000 {
@@ -108,4 +108,14 @@ var FMC40500 = [
 for i, toy in FMC40500 {
      <ore:zFMC40500>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =40,500=") + " )"));
+}
+
+// Ferret Market Cost, NuclearCraft - 50,000
+var FMC50000 = [
+<NuclearCraft:blockBlock:7>
+] as IItemStack[];
+
+for i, toy in FMC50000 {
+     <ore:zFMC50000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =50,000=") + " )"));
 }

@@ -1,0 +1,32 @@
+{
+ "bagType": "PRIZE",
+ "name": "Grand Prize Bag",
+ "rarityType": "epic",
+ "stackList": [
+ {
+ "name": "HardcoreQuesting:bags",
+ "metadata": 0,
+ "amount": 1
+ },
+ {
+ "name": "HardcoreQuesting:bags",
+ "metadata": 1,
+ "amount": 1
+ },
+ {
+ "name": "HardcoreQuesting:bags",
+ "metadata": 2,
+ "amount": 1
+ },
+ {
+ "name": "HardcoreQuesting:bags",
+ "metadata": 3,
+ "amount": 1
+ },
+ {
+ "name": "HardcoreQuesting:bags",
+ "metadata": 4,
+ "amount": 1
+ }
+ ]
+}
