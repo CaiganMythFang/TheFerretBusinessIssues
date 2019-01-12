@@ -606,7 +606,9 @@
       ],
       "blocklist": [
         "minecraft:clay",
-        "minecraft:gravel"
+        "minecraft:gravel",
+        "minecraft:soul_sand",
+        "natura:heatsand"
       ]
     }
   }

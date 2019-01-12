@@ -10,6 +10,21 @@ allseed.add(<harvestcraft:okraseedItem:0>);
 allseed.add(<harvestcraft:cottonseedItem:0>);
 allseed.add(<harvestcraft:riceseedItem:0>);
 
+//Mochi Recipe
+recipes.addShapeless(<harvestcraft:mochiItem>, [<ore:toolMixingbowl>, <ore:dyePink>, <ore:dyeLime>, <ore:dyeLightBlue>, <ore:cropRice>, <ore:listAllicecream>]);
+
+//Rainbow Curry recipe
+recipes.addShapeless(<harvestcraft:rainbowcurryItem>, [<ore:toolSkillet>, <ore:cropRice>, <ore:dyeRed>, <ore:dyeYellow>, <ore:dyeOrange>, <ore:dyeGreen>, <ore:dyePurple>, <ore:dyeCyan>]);
+
+//Paneer and Paneer Tikka Masala Recipes
+recipes.addShapeless(<harvestcraft:paneertikkamasalaItem>, [<harvestcraft:saucepanItem>.giveBack(<harvestcraft:saucepanItem>), <ore:foodPaneer>, <ore:foodGarammasala>, <ore:foodCoconutcream>, <ore:cropOnion>, <ore:cropBellpepper>, <ore:cropTomato>, <ore:cropGinger>, <ore:foodCurrypowder>]);
+recipes.addShapeless(<harvestcraft:paneerItem>, [<harvestcraft:potItem>.giveBack(<harvestcraft:potItem>), <ore:listAllmilk>, <ore:foodVinegar>, <harvestcraft:lemonaideItem>]);
+
+//Gooseberry Yogurt recipe
+recipes.addShapeless(<harvestcraft:gooseberryyogurtItem>, [<ore:cropGooseberry>, <ore:foodPlainyogurt>]);
+
+//Add Garden Recipes
+
 recipes.addShaped(<harvestcraft:tropicalgarden:0>, [[<ore:listAllseed>, <ore:dyeYellow>, <ore:listAllseed>], [<ore:listAllseed>, <minecraft:dye:15>, <ore:listAllseed>], [<ore:listAllseed>, <minecraft:dye:15>, <ore:listAllseed>]]);
 
 recipes.addShaped(<harvestcraft:grassgarden:0>, [[<ore:listAllseed>, <ore:dyeLime>, <ore:listAllseed>], [<ore:listAllseed>, <minecraft:dye:15>, <ore:listAllseed>], [<ore:listAllseed>, <minecraft:dye:15>, <ore:listAllseed>]]);

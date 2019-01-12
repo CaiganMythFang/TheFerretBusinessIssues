@@ -12,6 +12,18 @@ for i, toy in FMC25 {
 	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
+// Ferret Market Cost, Railcraft - 50
+var FMC50 = [
+<Railcraft:dust:2>
+] as IItemStack[];
+
+for i, toy in FMC50 {
+     <ore:zFMC50>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =50=") + " )"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+	 toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
+}
+
 // Ferret Market Cost, Railcraft - 100
 var FMC100 = [
 <Railcraft:part.tie>, <Railcraft:fluid.creosote.bottle>

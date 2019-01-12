@@ -1604,8 +1604,12 @@ AgriCraft:cropDaisy, Daisy
 AgriCraft:cropCactus, Cactus
 AgriCraft:cropShroomRed, Red Mushroom
 AgriCraft:cropShroomBrown, Brown Mushroom
+aura:monitor, Monitor
+aura:magicRoad, Traveler's Bricks
+aura:storageBookshelfCoordinator, Bookshelf Coordinator
 aura:fairyTorch, tile.fairyTorch.name
 aura:storageBookshelf, Storage Bookshelf
+aura:trampoline, Rebounding Enigma
 aura:consumerBlockfurnace, Cascading Smelter
 aura:consumerBlockplant, Cascading Grower
 aura:consumerBlockore, Cascading Processor
@@ -1645,10 +1649,6 @@ aura:fortifiedGlass, Fortified Glass
 aura:fortifiedCobblestone, Fortified Cobblestone
 aura:fortifiedStone, Fortified Stone
 aura:fortifiedObsidian, Fortified Obsidian
-aura:storageBookshelfCoordinator, Bookshelf Coordinator
-aura:magicRoad, Traveler's Bricks
-aura:monitor, Monitor
-aura:trampoline, Rebounding Enigma
 AWWayofTime:Altar, Blood Altar
 AWWayofTime:AlchemicalWizardrybloodRune:0, Blood Rune
 AWWayofTime:AlchemicalWizardrybloodRune:1, Rune of Augmented Capacity
@@ -6005,7 +6005,7 @@ extracells:vibrantchamberfluid, Fluid Vibration Chamber
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Ender Collector
-ExtraUtilities:endConstructor:0, QED (Quite Elegant Device)
+ExtraUtilities:endConstructor:0, QED (Quantum Entanglement Doohicky)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -6972,40 +6972,40 @@ ExtraTiC:blockFunStuff:0, Fairy Block
 ExtraTiC:blockFunStuff:1, Pokefennium Block
 ExtraTiC:blockFunStuff:2, RedAurum Block
 FlatSigns:blockFlatSign, Sign
-ThaumicTinkerer:enchanter, Osmotic Enchanter
-ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
 ThaumicTinkerer:magnet:0, Kinetic Attractor
 ThaumicTinkerer:magnet:1, Corporeal Attractor
+ThaumicTinkerer:spawner, Tablet of Necromancy
+ThaumicTinkerer:animationTablet, Dynamism Tablet
+ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
 ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
 ThaumicTinkerer:dislocator, Transvector Dislocator
 ThaumicTinkerer:aspectAnalyzer, Aspectalyzer
-ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
-ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
-ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
-ThaumicTinkerer:repairer, Thaumic Restorer
-ThaumicTinkerer:golemConnector, Golem Connector
-ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:interface, Transvector Interface
-ThaumicTinkerer:fireEarth, Terra Imbued Fire
-ThaumicTinkerer:funnel, Essentia Funnel
-ThaumicTinkerer:fireFire, Ignis Imbued Fire
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
-ThaumicTinkerer:fireWater, Aqua Imbued Fire
-ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
-ThaumicTinkerer:platform, Ethereal Platform
-ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
-ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
-ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
 ThaumicTinkerer:bedrockPortal, Bedrock Portal
-ThaumicTinkerer:fireAir, Aer Imbued Fire
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:fireWater, Aqua Imbued Fire
 ThaumicTinkerer:warpGate, Celestial Gateway
 ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
 ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
-ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ThaumicTinkerer:repairer, Thaumic Restorer
+ThaumicTinkerer:fireEarth, Terra Imbued Fire
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:enchanter, Osmotic Enchanter
+ThaumicTinkerer:funnel, Essentia Funnel
+ThaumicTinkerer:fireAir, Aer Imbued Fire
+ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:fireFire, Ignis Imbued Fire
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
 ThaumicTinkerer:fireOrder, Ordo Imbued Fire
+ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
+ThaumicTinkerer:interface, Transvector Interface
+ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
+ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
+ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
+ThaumicTinkerer:golemConnector, Golem Connector
+ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
 ForbiddenMagic:ArcaneCake, Thaumic Cake
 ForbiddenMagic:WrathCage, Wrath Cage
 ForbiddenMagic:InkFlower, Umbral Rose
@@ -7420,6 +7420,29 @@ openmodularturrets:teleporterTurret, Teleporter Turret
 openmodularturrets:laserTurret, Laser Turret
 openmodularturrets:railGunTurret, Rail Gun Turret
 openmodularturrets:leverBlock, Basic Turret Base Crank
+ProjectE:interdiction_torch, Interdiction Torch
+ProjectE:condenser_mk2, Energy Condenser MK2
+ProjectE:rm_furnace_lit, Red Matter Furnace
+ProjectE:dm_furnace_lit, Dark Matter Furnace
+ProjectE:dm_pedestal, Dark Matter Pedestal
+ProjectE:nova_catalyst, Nova Catalyst
+ProjectE:nova_cataclysm, Nova Cataclysm
+ProjectE:alchemical_chest, Alchemical Chest
+ProjectE:transmutation_table, Transmutation Table
+ProjectE:condenser_mk1, Energy Condenser
+ProjectE:rm_furnace, Red Matter Furnace
+ProjectE:dm_furnace, Dark Matter Furnace
+ProjectE:matter_block:0, Dark Matter Block
+ProjectE:matter_block:1, Red Matter Block
+ProjectE:fuel_block:0, Alchemical Coal Block
+ProjectE:fuel_block:1, Mobius Fuel Block
+ProjectE:fuel_block:2, Aeternalis Fuel Block
+ProjectE:collector_mk1, Energy Collector MK1
+ProjectE:collector_mk2, Energy Collector MK2
+ProjectE:collector_mk3, Energy Collector MK3
+ProjectE:relay_mk1, Anti-Matter Relay MK1
+ProjectE:relay_mk2, Anti-Matter Relay MK2
+ProjectE:relay_mk3, Anti-Matter Relay MK3
 RandomThings:playerinterface, Player Interface
 RandomThings:creativePlayerInterface, Creative Player Interface
 RandomThings:fluidDisplay, Fluid Display
@@ -10628,10 +10651,10 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Brownstone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Fairy Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Pokefennium Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - RedAurum Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Smokey Quartz
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Smokey Quartz Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Pillar Smokey Quartz Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Nether Star Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Planks
@@ -10690,6 +10713,13 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Hard Wall (Tier 2)
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Hard Wall (Tier 3)
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Hard Wall (Tier 4)
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Hard Wall (Tier 5)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Nova Catalyst
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Nova Cataclysm
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Dark Matter Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Matter Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Alchemical Coal Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Mobius Fuel Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Aeternalis Fuel Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Machine Frame
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Machine Base
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Dimensional Shard Ore
@@ -19089,6 +19119,7 @@ gendustry:LiquidDNABucket, Liquid DNA Bucket
 gendustry:LiquidDNACan, Liquid DNA Can
 gendustry:ProteinBucket, Protein Bucket
 gendustry:ProteinCan, Protein Can
+guideapi:ItemLostPage:0, Lost Page
 GunCus:item.quickKnife, Quick Knife
 GunCus:item.magFiller, Manual Magazine Filler
 GunCus:item.boxpart, Box Part
@@ -20865,6 +20896,100 @@ openmodularturrets:chamberTierThree, Chamber (Tier 3)
 openmodularturrets:chamberTierFour, Chamber (Tier 4)
 openmodularturrets:chamberTierFive, Chamber (Tier 5)
 openmodularturrets:ioBus, IO Bus
+ProjectE:item.pe_philosophers_stone, Philosopher's Stone
+ProjectE:item.pe_alchemical_bag:0, Alchemical Bag (White)
+ProjectE:item.pe_alchemical_bag:1, Alchemical Bag (Orange)
+ProjectE:item.pe_alchemical_bag:2, Alchemical Bag (Magenta)
+ProjectE:item.pe_alchemical_bag:3, Alchemical Bag (Light Blue)
+ProjectE:item.pe_alchemical_bag:4, Alchemical Bag (Yellow)
+ProjectE:item.pe_alchemical_bag:5, Alchemical Bag (Lime)
+ProjectE:item.pe_alchemical_bag:6, Alchemical Bag (Pink)
+ProjectE:item.pe_alchemical_bag:7, Alchemical Bag (Gray)
+ProjectE:item.pe_alchemical_bag:8, Alchemical Bag (Light Gray)
+ProjectE:item.pe_alchemical_bag:9, Alchemical Bag (Cyan)
+ProjectE:item.pe_alchemical_bag:10, Alchemical Bag (Purple)
+ProjectE:item.pe_alchemical_bag:11, Alchemical Bag (Blue)
+ProjectE:item.pe_alchemical_bag:12, Alchemical Bag (Brown)
+ProjectE:item.pe_alchemical_bag:13, Alchemical Bag (Green)
+ProjectE:item.pe_alchemical_bag:14, Alchemical Bag (Red)
+ProjectE:item.pe_alchemical_bag:15, Alchemical Bag (Black)
+ProjectE:item.pe_repair_talisman, Repair Talisman
+ProjectE:item.pe_klein_star:0, Klein Star Ein
+ProjectE:item.pe_klein_star:1, Klein Star Zwei
+ProjectE:item.pe_klein_star:2, Klein Star Drei
+ProjectE:item.pe_klein_star:3, Klein Star Vier
+ProjectE:item.pe_klein_star:4, Klein Star Sphere
+ProjectE:item.pe_klein_star:5, Klein Star Omega
+ProjectE:item.pe_fuel:0, Alchemical Coal
+ProjectE:item.pe_fuel:1, Mobius Fuel
+ProjectE:item.pe_fuel:2, Aeternalis Fuel
+ProjectE:item.pe_covalence_dust:0, Low Covalence Dust
+ProjectE:item.pe_covalence_dust:1, Medium Covalence Dust
+ProjectE:item.pe_covalence_dust:2, High Covalence Dust
+ProjectE:item.pe_matter:0, Dark Matter
+ProjectE:item.pe_matter:1, Red Matter
+ProjectE:item.pe_dm_pick, Dark Matter Pickaxe
+ProjectE:item.pe_dm_axe, Dark Matter Axe
+ProjectE:item.pe_dm_shovel, Dark Matter Shovel
+ProjectE:item.pe_dm_sword, Dark Matter Sword
+ProjectE:item.pe_dm_hoe, Dark Matter Hoe
+ProjectE:item.pe_dm_shears, Dark Matter Shears
+ProjectE:item.pe_dm_hammer, Dark Matter Hammer
+ProjectE:item.pe_rm_pick, Red Matter Pickaxe
+ProjectE:item.pe_rm_axe, Red Matter Axe
+ProjectE:item.pe_rm_shovel, Red Matter Shovel
+ProjectE:item.pe_rm_sword, Red Matter Sword
+ProjectE:item.pe_rm_hoe, Red Matter Hoe
+ProjectE:item.pe_rm_shears, Red Matter Shears
+ProjectE:item.pe_rm_hammer, Red Matter Hammer
+ProjectE:item.pe_rm_katar, Red Katar
+ProjectE:item.pe_rm_morning_star, Red Morningstar
+ProjectE:item.pe_dm_armor_0, Dark Matter Helmet
+ProjectE:item.pe_dm_armor_1, Dark Matter Chestplate
+ProjectE:item.pe_dm_armor_2, Dark Matter Leggings
+ProjectE:item.pe_dm_armor_3, Dark Matter Boots
+ProjectE:item.pe_rm_armor_0, Red Matter Helmet
+ProjectE:item.pe_rm_armor_1, Red Matter Chestplate
+ProjectE:item.pe_rm_armor_2, Red Matter Leggings
+ProjectE:item.pe_rm_armor_3, Red Matter Boots
+ProjectE:item.pe_gem_armor_0, Gem Helmet
+ProjectE:item.pe_gem_armor_1, Gem Chestplate
+ProjectE:item.pe_gem_armor_2, Gem Leggings
+ProjectE:item.pe_gem_armor_3, Gem Boots
+ProjectE:item.pe_ring_iron_band, Iron Band
+ProjectE:item.pe_black_hole:0, Black Hole Band
+ProjectE:item.pe_archangel_smite:0, Archangel's Smite
+ProjectE:item.pe_harvest_god:0, Harvest Goddess Band
+ProjectE:item.pe_ignition:0, Ignition Ring
+ProjectE:item.pe_zero_ring, Zero Ring
+ProjectE:item.pe_swrg, Swiftwolf's Rending Gale
+ProjectE:item.pe_time_watch, Watch of Flowing Time
+ProjectE:item.pe_gem_density, Gem of Eternal Density
+ProjectE:item.pe_divining_rod_1, Divining Rod (low)
+ProjectE:item.pe_divining_rod_2, Divining Rod (medium)
+ProjectE:item.pe_divining_rod_3, Divining Rod (high)
+ProjectE:item.pe_mercurial_eye, Mercurial Eye
+ProjectE:item.pe_void_ring, Void Ring
+ProjectE:item.pe_arcana_ring, Ring of Arcana
+ProjectE:item.pe_body_stone:0, Body Stone
+ProjectE:item.pe_soul_stone:0, Soul Stone
+ProjectE:item.pe_mind_stone:0, Mind Stone
+ProjectE:item.pe_life_stone:0, Life Stone
+ProjectE:item.pe_evertide_amulet, Evertide Amulet
+ProjectE:item.pe_volcanite_amulet, Volcanite Amulet
+ProjectE:item.pe_water_orb, Water Orb
+ProjectE:item.pe_lava_orb, Lava Orb
+ProjectE:item.pe_loot_ball, Loot Ball
+ProjectE:item.pe_randomizer, Randomizer Orb
+ProjectE:item.pe_lens_explosive, Explosive Lens
+ProjectE:item.pe_fire_projectile, item.pe_fire_projectile.name
+ProjectE:item.pe_wind_projectile, item.pe_wind_projectile.name
+ProjectE:item.pe_destruction_catalyst, Destruction Catalyst
+ProjectE:item.pe_hyperkinetic_lens, Hyperkinetic Lens
+ProjectE:item.pe_catalitic_lens, Catalytic Lens
+ProjectE:item.pe_tome, Tome of Knowledge
+ProjectE:item.pe_transmutation_tablet, Transmutation Tablet
+ProjectE:item.pe_manual, Book of the Alchemist [WIP]
 questbook:ItemQuestBook, Quest Book
 RandomThings:biomeCapsule, Biome Capsule
 RandomThings:biomePainter:0, Biome Painter
@@ -21667,16 +21792,16 @@ ThermalDynamics:cover:0, Daisy Cover
 ThermalDynamics:cover:0, Cactus Cover
 ThermalDynamics:cover:0, Red Mushroom Cover
 ThermalDynamics:cover:0, Brown Mushroom Cover
+ThermalDynamics:cover:0, Monitor Cover
+ThermalDynamics:cover:0, Traveler's Bricks Cover
 ThermalDynamics:cover:0, tile.fairyTorch.name Cover
+ThermalDynamics:cover:0, Rebounding Enigma Cover
 ThermalDynamics:cover:0, Fortified Dirt Cover
 ThermalDynamics:cover:0, Fortified Planks Cover
 ThermalDynamics:cover:0, Fortified Glass Cover
 ThermalDynamics:cover:0, Fortified Cobblestone Cover
 ThermalDynamics:cover:0, Fortified Stone Cover
 ThermalDynamics:cover:0, Fortified Obsidian Cover
-ThermalDynamics:cover:0, Traveler's Bricks Cover
-ThermalDynamics:cover:0, Monitor Cover
-ThermalDynamics:cover:0, Rebounding Enigma Cover
 ThermalDynamics:cover:0, Blood Rune Cover
 ThermalDynamics:cover:0, Rune of Augmented Capacity Cover
 ThermalDynamics:cover:0, Rune of Dislocation Cover
@@ -25270,22 +25395,22 @@ ThermalDynamics:cover:0, Molten Constantan Cover
 ThermalDynamics:cover:0, Fairy Block Cover
 ThermalDynamics:cover:0, Pokefennium Block Cover
 ThermalDynamics:cover:0, RedAurum Block Cover
-ThermalDynamics:cover:0, Perditio Imbued Fire Cover
+ThermalDynamics:cover:0, tile.gaseousLight.name Cover
+ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
 ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
+ThermalDynamics:cover:0, Bedrock Portal Cover
+ThermalDynamics:cover:0, Aqua Imbued Fire Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, Terra Imbued Fire Cover
+ThermalDynamics:cover:0, Perditio Imbued Fire Cover
+ThermalDynamics:cover:0, Aer Imbued Fire Cover
+ThermalDynamics:cover:0, Ignis Imbued Fire Cover
+ThermalDynamics:cover:0, Ordo Imbued Fire Cover
 ThermalDynamics:cover:0, Block of Smokey Quartz Cover
 ThermalDynamics:cover:0, Chiseled Smokey Quartz Block Cover
 ThermalDynamics:cover:0, Pillar Smokey Quartz Block Cover
-ThermalDynamics:cover:0, Terra Imbued Fire Cover
-ThermalDynamics:cover:0, Ignis Imbued Fire Cover
 ThermalDynamics:cover:0, tile.nitorGas.name Cover
-ThermalDynamics:cover:0, Aqua Imbued Fire Cover
-ThermalDynamics:cover:0, tile.gaseousLight.name Cover
-ThermalDynamics:cover:0, Bedrock Portal Cover
-ThermalDynamics:cover:0, Aer Imbued Fire Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
-ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
-ThermalDynamics:cover:0, Ordo Imbued Fire Cover
 ThermalDynamics:cover:0, Thaumic Cake Cover
 ThermalDynamics:cover:0, Umbral Rose Cover
 ThermalDynamics:cover:0, Nether Star Block Cover
@@ -25418,6 +25543,14 @@ ThermalDynamics:cover:0, Fence (Tier 2) Cover
 ThermalDynamics:cover:0, Fence (Tier 3) Cover
 ThermalDynamics:cover:0, Fence (Tier 4) Cover
 ThermalDynamics:cover:0, Fence (Tier 5) Cover
+ThermalDynamics:cover:0, Nova Catalyst Cover
+ThermalDynamics:cover:0, Nova Cataclysm Cover
+ThermalDynamics:cover:0, Transmutation Table Cover
+ThermalDynamics:cover:0, Dark Matter Block Cover
+ThermalDynamics:cover:0, Red Matter Block Cover
+ThermalDynamics:cover:0, Alchemical Coal Block Cover
+ThermalDynamics:cover:0, Mobius Fuel Block Cover
+ThermalDynamics:cover:0, Aeternalis Fuel Block Cover
 ThermalDynamics:cover:0, Fertilized Dirt Cover
 ThermalDynamics:cover:0, Fertilized Dirt Cover
 ThermalDynamics:cover:0, Lapis Lamp Cover

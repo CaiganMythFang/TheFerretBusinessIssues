@@ -1,0 +1,66 @@
+{
+  "comment": "Various default values for OreDictionary Names",
+  "values": {
+    "before": {
+      //trees
+      "OD|logWood": 2,
+      "OD|plankWood": 1,
+      "OD|treeSapling": 1,
+      "OD|stickWood": 1,
+      "OD|treeLeaves": 1,
+
+      "OD|blockGlass": 1,
+      "OD|blockCloth": 25,
+
+      //building stuff
+      "OD|stone": 1,
+      "OD|cobblestone": 1,
+
+      //gems and dusts
+      "OD|gemDiamond": 8500,
+      "OD|dustRedstone": 50,
+      "OD|dustGlowstone": 300,
+      "OD|dustCoal": 100,
+      "OD|dustCharcoal": 2,
+      "OD|dustSulfur": 25,
+
+      /*TC*/
+      "OD|ingotThaumium": 300,
+      /*Ender IO*/
+      "OD|itemSilicon": 1,
+      /*Mekanism*/
+      "OD|ingotOsmium": 1500,
+
+      //AE2
+      "OD|crystalCertusQuartz": 1500,
+      "OD|crystalFluix": 1000,
+      "OD|dustCertusQuartz": 1500,
+      "OD|dustFluix": 1000,
+
+      //BOP-ProjectRed
+      "OD|gemRuby": 8500,
+      "OD|gemSapphire": 8500,
+      "OD|gemPeridot": 8500,
+      "OD|blockMarble": 1,
+
+      //TE
+      "OD|blockGlassHardened": 1500,
+
+      //IC2 BigReactors
+      "OD|itemRubber": 10,
+      "OD|ingotUranium": 2000,
+      "OD|ingotCyanite": 2000,
+
+      //Thaumcraft
+      "OD|shardAir": 7500,
+      "OD|shardFire":7500,
+      "OD|shardWater": 7500,
+      "OD|shardEarth": 7500,
+      "OD|shardOrder": 7500,
+      "OD|shardEntropy": 7500,
+
+      //Forbidden Magic
+      "OD|shardNether": 7500
+    }
+  }
+}

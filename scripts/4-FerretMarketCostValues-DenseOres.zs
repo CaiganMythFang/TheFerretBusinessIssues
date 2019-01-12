@@ -59,13 +59,3 @@ for i, toy in FMC26000 {
      <ore:zFMC26000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =26,000=") + " )"));
 }
-
-// Ferret Market Cost, Dense Ores - 27,000
-var FMC27000 = [
-<denseores:block0:3>
-] as IItemStack[];
-
-for i, toy in FMC27000 {
-     <ore:zFMC27000>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =27,000=") + " )"));
-}
