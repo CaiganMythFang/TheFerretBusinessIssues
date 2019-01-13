@@ -1,3 +1,32 @@
+import minetweaker.item.IItemStack;
+
+// Tool Forge Ore Dictionary
+var ToolForgeOre = [
+<TConstruct:ToolForgeBlock:0>, <TConstruct:ToolForgeBlock:10>, <TConstruct:ToolForgeBlock:2>, <TConstruct:ToolForgeBlock:11>, <TConstruct:ToolForgeBlock:3>, <TConstruct:ToolForgeBlock:13>, <TConstruct:ToolForgeBlock:4>, <TConstruct:ToolForgeBlock:12>, <TConstruct:ToolForgeBlock:5>, <TConstruct:ToolForgeBlock:6>, <TConstruct:ToolForgeBlock:7>, <TConstruct:ToolForgeBlock:8>, <TConstruct:ToolForgeBlock:1>, <TConstruct:ToolForgeBlock:9>
+] as IItemStack[];
+
+for i, toy in ToolForgeOre {
+	<ore:toolforge>.add(toy);
+}
+
+// Part Builder Ore Dictionary
+var PartBuilderOre = [
+<TConstruct:ToolStationBlock:1>, <TConstruct:ToolStationBlock:2>, <TConstruct:ToolStationBlock:3>, <TConstruct:ToolStationBlock:4>
+] as IItemStack[];
+
+for i, toy in PartBuilderOre {
+	<ore:partbuilder>.add(toy);
+}
+
+// Stencil Table Ore Dictionary
+var StencilTableOre = [
+<TConstruct:ToolStationBlock:10>, <TConstruct:ToolStationBlock:12>, <TConstruct:ToolStationBlock:11>, <TConstruct:ToolStationBlock:13>
+] as IItemStack[];
+
+for i, toy in StencilTableOre {
+	<ore:stenciltable>.add(toy);
+}
+
 // Add Green Heart Canister crafting
 recipes.addShapeless(<TConstruct:heartCanister:6>, [<TConstruct:heartCanister:5>, <TConstruct:heartCanister:4>, <TConstruct:diamondApple>]);
 
