@@ -2,7 +2,7 @@ import minetweaker.item.IItemStack;
 
 // Ferret Market Cost, Tinkers Construct - 0.25
 var FMCquarter = [
-<TConstruct:decoration.multibrick:3>, <TConstruct:decoration.multibrickfancy:3>, <TConstruct:decoration.multibrickfancy:14>, <TConstruct:decoration.multibrickfancy:15>
+<TConstruct:decoration.multibrick:3>, <TConstruct:decoration.multibrickfancy:3>, <TConstruct:decoration.multibrickfancy:14>, <TConstruct:decoration.multibrickfancy:15>, <TConstruct:pickaxeHead:1>
 ] as IItemStack[];
 
 for i, toy in FMCquarter {
