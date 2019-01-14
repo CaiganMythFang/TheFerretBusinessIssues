@@ -1,5 +1,14 @@
 import minetweaker.item.IItemStack;
 
+// Landmine Ore Dictionary
+var LandmineOre = [
+<TConstruct:Redstone.Landmine>, <TConstruct:Redstone.Landmine:1>, <TConstruct:Redstone.Landmine:2>, <TConstruct:Redstone.Landmine:3>
+] as IItemStack[];
+
+for i, toy in LandmineOre {
+	<ore:landmine>.add(toy);
+}
+
 // Barricade Ore Dictionary
 var BarricadeOre = [
 <TConstruct:trap.barricade.oak>, <TConstruct:trap.barricade.birch>, <TConstruct:trap.barricade.spruce>, <TConstruct:trap.barricade.jungle>
