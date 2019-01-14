@@ -14,7 +14,7 @@ for i, toy in FMCquarter {
 
 // Ferret Market Cost, Tinkers Construct - 0.5
 var FMChalf = [
-<TConstruct:blankPattern>
+<TConstruct:blankPattern>, <TConstruct:Pattern:3>, <TConstruct:Pattern:2>, <TConstruct:woodPattern:7>, <TConstruct:woodPattern:1>, <TConstruct:woodPattern:11>, <TConstruct:woodPattern:13>, <TConstruct:woodPattern:14>, <TConstruct:woodPattern:16>, <TConstruct:woodPattern:19>, <TConstruct:woodPattern:23>, <TConstruct:Pattern:1>, <TConstruct:woodPattern:8>, <TConstruct:woodPattern:10>, <TConstruct:woodPattern:3>, <TConstruct:woodPattern:4>, <TConstruct:woodPattern:6>, <TConstruct:woodPattern:17>, <TConstruct:woodPattern:20>, <TConstruct:woodPattern:24>, <TConstruct:Pattern:0>, <TConstruct:woodPattern:9>, <TConstruct:woodPattern:2>, <TConstruct:woodPattern:12>, <TConstruct:woodPattern:5>, <TConstruct:woodPattern:15>, <TConstruct:woodPattern:18>, <TConstruct:woodPattern:22>, <TConstruct:woodPattern:25>, <TConstruct:woodPattern:21>
 ] as IItemStack[];
 
 for i, toy in FMChalf {
