@@ -1,5 +1,23 @@
 import minetweaker.item.IItemStack;
 
+// Metal Cast Ore Dictionary
+var MetalCastOre = [
+<TConstruct:blankPattern:1>, <TConstruct:blankPattern:2>
+] as IItemStack[];
+
+for i, toy in MetalCastOre {
+	<ore:metalcasts>.add(toy);
+}
+
+// Ore Berry Bush Ore Dictionary
+var OreBerryOre = [
+<TConstruct:ore.berries.one:9>, <TConstruct:ore.berries.one:10>, <TConstruct:ore.berries.one:8>, <TConstruct:ore.berries.two:8>, <TConstruct:ore.berries.two:9>, <TConstruct:ore.berries.one:11>
+] as IItemStack[];
+
+for i, toy in OreBerryOre {
+	<ore:oreberrybush>.add(toy);
+}
+
 // Tool Forge Ore Dictionary
 var ToolForgeOre = [
 <TConstruct:ToolForgeBlock:0>, <TConstruct:ToolForgeBlock:10>, <TConstruct:ToolForgeBlock:2>, <TConstruct:ToolForgeBlock:11>, <TConstruct:ToolForgeBlock:3>, <TConstruct:ToolForgeBlock:13>, <TConstruct:ToolForgeBlock:4>, <TConstruct:ToolForgeBlock:12>, <TConstruct:ToolForgeBlock:5>, <TConstruct:ToolForgeBlock:6>, <TConstruct:ToolForgeBlock:7>, <TConstruct:ToolForgeBlock:8>, <TConstruct:ToolForgeBlock:1>, <TConstruct:ToolForgeBlock:9>
