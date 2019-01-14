@@ -1,5 +1,17 @@
 import minetweaker.item.IItemStack;
 
+// Ferret Market Cost, Mekanism - 10
+var FMC10 = [
+<Mekanism:OtherDust:6>
+] as IItemStack[];
+
+for i, toy in FMC10 {
+     <ore:zFMC10>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =10=") + " )"));
+     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
+      toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
+}
+
 // Ferret Market Cost, Mekanism - 25
 var FMC25 = [
 <Mekanism:OtherDust:3>
@@ -20,18 +32,6 @@ var FMC200 = [
 for i, toy in FMC200 {
      <ore:zFMC200>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =200=") + " )"));
-}
-
-// Ferret Market Cost, Mekanism - 50
-var FMC50 = [
-<Mekanism:OtherDust:6>
-] as IItemStack[];
-
-for i, toy in FMC50 {
-     <ore:zFMC50>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =50=") + " )"));
-     toy.addTooltip(format.lightPurple("Can only crate with equal values."));
-      toy.addTooltip(format.lightPurple("Please refer to the inventory guide."));
 }
 
 // Ferret Market Cost, Mekanism - 1,000
