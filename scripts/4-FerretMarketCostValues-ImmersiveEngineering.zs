@@ -90,8 +90,7 @@ for i, toy in FMC1000 {
 
 // Ferret Market Cost, Immersive Engineering - 2,000
 var FMC2000 = [
-<ImmersiveEngineering:metal:13>, <ImmersiveEngineering:metal:3>, <ImmersiveEngineering:metal:6>, <ImmersiveEngineering:storage>, <ImmersiveEngineering:metal:12>, <ImmersiveEngineering:metal:2>, <ImmersiveEngineering:metal:1>,
-<ImmersiveEngineering:storage:7>
+<ImmersiveEngineering:metal:13>, <ImmersiveEngineering:metal:3>, <ImmersiveEngineering:metal:6>, <ImmersiveEngineering:storage>, <ImmersiveEngineering:metal:12>, <ImmersiveEngineering:metal:2>, <ImmersiveEngineering:storage:7>
 ] as IItemStack[];
 
 for i, toy in FMC2000 {
@@ -101,7 +100,7 @@ for i, toy in FMC2000 {
 
 // Ferret Market Cost, Immersive Engineering - 2,500
 var FMC2500 = [
-<ImmersiveEngineering:metal:15>, <ImmersiveEngineering:metal:5>
+<ImmersiveEngineering:metal:1>, <ImmersiveEngineering:metal:15>, <ImmersiveEngineering:metal:5>
 ] as IItemStack[];
 
 for i, toy in FMC2500 {
