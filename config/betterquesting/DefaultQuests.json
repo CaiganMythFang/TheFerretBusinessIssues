@@ -103589,6 +103589,6320 @@
         696
       ],
       "questID": 727
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:fluid.molten.iron",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Tinker\u0027s Construct",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:CraftingStation",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:Armor.DryingRack",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        24
+      ],
+      "questID": 728
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:blankPattern",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Crafting Perfection",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:blankPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:ToolStationBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:ToolStationBlock",
+              "Count": 1,
+              "OreDict": "partbuilder",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:ToolStationBlock",
+              "Count": 1,
+              "OreDict": "stenciltable",
+              "Damage": 10
+            },
+            {
+              "id": "TConstruct:ToolStationBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:manualBook",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 3
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        728
+      ],
+      "questID": 729
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:CraftingSlab",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Slabify",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:CraftingSlab",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:FurnaceSlab",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:WoolSlab1",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        729
+      ],
+      "questID": 730
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:materials",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "You Who Smelt It...",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:CraftedSoil",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:materials",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "TConstruct:Smeltery",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:Smeltery",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:LavaTank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:manualBook",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 3
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        729
+      ],
+      "questID": 731
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:SearedBlock",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "...Cast...It?",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:Smeltery",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "TConstruct:SearedBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "TConstruct:SearedBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:SearedBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:LavaTank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "TConstruct:LavaTank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        731
+      ],
+      "questID": 732
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:metalPattern",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Shaping Metal",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:Smeltery",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "TConstruct:blankPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:metalPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:manualBook",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        732
+      ],
+      "questID": 733
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:woodPattern",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Piecing It Together",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:woodPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:pickaxeHead",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:pickaxe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BaseDurability:3": 65,
+                  "Head:3": 1,
+                  "BaseAttack:3": 2,
+                  "Built:1": 1,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:3": 1,
+                  "Attack:3": 2,
+                  "RenderHead:3": 1,
+                  "ModDurability:5": 0.0,
+                  "Handle:3": 1,
+                  "Broken:1": 0,
+                  "Shoddy:5": 1.0,
+                  "RenderHandle:3": 1,
+                  "Accessory:3": 1,
+                  "MiningSpeed:3": 400,
+                  "RenderAccessory:3": 1,
+                  "ToolLevel:3": 1,
+                  "Unbreaking:3": 0,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "Modifiers:3": 1,
+                  "TotalDurability:3": 65
+                },
+                "display:10": {
+                  "Name:8": "§fStone Pickaxe"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        729
+      ],
+      "questID": 734
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:materials",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 6
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Worldly Modifications",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:materials",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "TConstruct:materials",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 26
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        734
+      ],
+      "questID": 735
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:materials",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 8
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Hellish Modifications",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:materials",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "TConstruct:materials",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "TConstruct:goldHead",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        735
+      ],
+      "questID": 736
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:heartCanister",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Heart of Blood",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:diamondApple",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:heartCanister",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:heartCanister",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:heartCanister",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 45,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Epic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 45,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Epic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        736,
+        733
+      ],
+      "questID": 737
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:heartCanister",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 4
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Heart of Gold",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:heartCanister",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:heartCanister",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Lgndry Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Lgndry Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        737
+      ],
+      "questID": 738
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:heartCanister",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 6
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Heart of Envy",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:heartCanister",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:heartCanister",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Lgndry Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Lgndry Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        738
+      ],
+      "questID": 739
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:SearedBrick",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 3
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "The Basic Metals",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:SearedBrick",
+              "Count": 1,
+              "OreDict": "oreCopper",
+              "Damage": 3
+            },
+            {
+              "id": "TConstruct:SearedBrick",
+              "Count": 1,
+              "OreDict": "oreTin",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        728
+      ],
+      "questID": 740
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:materials",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 14
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "The Not Basic Metals(and Alloys!)",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:materials",
+              "Count": 1,
+              "OreDict": "ingotAluminum",
+              "Damage": 11
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:materials",
+              "Count": 1,
+              "OreDict": "ingotBronze",
+              "Damage": 13
+            },
+            {
+              "id": "TConstruct:materials",
+              "Count": 1,
+              "OreDict": "ingotAluminumBrass",
+              "Damage": 14
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:materials",
+              "Count": 1,
+              "OreDict": "ingotObsidian",
+              "Damage": 18
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        740,
+        732
+      ],
+      "questID": 741
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:SearedBrick",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "The Hot Metals",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:materials",
+              "Count": 1,
+              "OreDict": "ingotAlumite",
+              "Damage": 15
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:SearedBrick",
+              "Count": 1,
+              "OreDict": "oreCobalt",
+              "Damage": 1
+            },
+            {
+              "id": "TConstruct:SearedBrick",
+              "Count": 1,
+              "OreDict": "oreArdite",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        741
+      ],
+      "questID": 742
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TMechworks:RedstoneMachine",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Mechanical Devices",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TMechworks:RedstoneMachine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TMechworks:RedstoneMachine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TMechworks:LengthWire",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TMechworks:SignalBus",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TMechworks:SignalTerminal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 3
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        733
+      ],
+      "questID": 743
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TMechworks:RedstoneMachine",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 3
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Advanced Mechanicals",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TMechworks:RedstoneMachine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TMechworks:RedstoneMachine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        743
+      ],
+      "questID": 744
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:ToolForgeBlock",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "The Better Forge",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:ToolForgeBlock",
+              "Count": 1,
+              "OreDict": "toolforge",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:materials",
+              "Count": 1,
+              "OreDict": "itemRawRubber",
+              "Damage": 36
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 40,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Epic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 40,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Epic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        733
+      ],
+      "questID": 745
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:metalPattern",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Metal and Shiny",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:metalPattern",
+              "Count": 1,
+              "OreDict": "metalcasts",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:pickaxeHead",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:pickaxe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BaseDurability:3": 324,
+                  "Head:3": 2,
+                  "BaseAttack:3": 3,
+                  "Built:1": 1,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:3": 2,
+                  "Attack:3": 3,
+                  "RenderHead:3": 2,
+                  "ModDurability:5": 0.0,
+                  "Handle:3": 2,
+                  "Broken:1": 0,
+                  "Shoddy:5": 0.0,
+                  "RenderHandle:3": 2,
+                  "Accessory:3": 2,
+                  "MiningSpeed:3": 600,
+                  "RenderAccessory:3": 2,
+                  "ToolLevel:3": 1,
+                  "Unbreaking:3": 1,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "Modifiers:3": 1,
+                  "TotalDurability:3": 324
+                },
+                "display:10": {
+                  "Name:8": "§fIron Pickaxe"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        733
+      ],
+      "questID": 746
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:materials",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 5
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Strength of Purple",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:materials",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        742
+      ],
+      "questID": 747
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:chisel",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "InfiTool:10": {
+                "BaseDurability:3": 65,
+                "Head:3": 1,
+                "BaseAttack:3": 1,
+                "Built:1": 1,
+                "ToolEXP:4": 0,
+                "HarvestLevel:3": 1,
+                "Attack:3": 1,
+                "RenderHead:3": 1,
+                "ModDurability:5": 0.0,
+                "Handle:3": 1,
+                "Broken:1": 0,
+                "Shoddy:5": 1.0,
+                "RenderHandle:3": 1,
+                "MiningSpeed:3": 400,
+                "ToolLevel:3": 1,
+                "Unbreaking:3": 0,
+                "Damage:3": 0,
+                "BonusDurability:3": 0,
+                "Modifiers:3": 1,
+                "TotalDurability:3": 65
+              },
+              "display:10": {
+                "Name:8": "§fStone Chisel"
+              }
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Chiseling Looks",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:chisel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BaseDurability:3": 65,
+                  "Head:3": 1,
+                  "BaseAttack:3": 1,
+                  "Built:1": 1,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:3": 1,
+                  "Attack:3": 1,
+                  "RenderHead:3": 1,
+                  "ModDurability:5": 0.0,
+                  "Handle:3": 1,
+                  "Broken:1": 0,
+                  "Shoddy:5": 1.0,
+                  "RenderHandle:3": 1,
+                  "MiningSpeed:3": 400,
+                  "ToolLevel:3": 1,
+                  "Unbreaking:3": 0,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "Modifiers:3": 1,
+                  "TotalDurability:3": 65
+                },
+                "display:10": {
+                  "Name:8": "§fStone Chisel"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:decoration.multibrick",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:decoration.multibrickfancy",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        734
+      ],
+      "questID": 748
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:strangeFood",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Squishy Lands",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:slime.sapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:strangeFood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:jerky",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:MeatBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 3
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        728
+      ],
+      "questID": 749
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:materials",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 17
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Unconventional Material",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:materials",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:CraftedSoil",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:CraftedSoil",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:materials",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "TConstruct:materials",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 17
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:materials",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 34
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 3
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        749,
+        741
+      ],
+      "questID": 750
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:strangeFood",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Donations",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:strangeFood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:jerky",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        749,
+        733
+      ],
+      "questID": 751
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:trap.barricade.jungle",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "A Pointy Defense",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:trap.barricade.jungle",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:slime.channel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:trap.punji",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:slime.pad",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 3
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        749
+      ],
+      "questID": 752
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:Redstone.Landmine",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "An Explosive Defense",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:explosive.slime",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:Redstone.Landmine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        752,
+        733
+      ],
+      "questID": 753
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:ore.berries.one",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 11
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "These Taste Metallic",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:ore.berries.one",
+              "Count": 1,
+              "OreDict": "oreberrybush",
+              "Damage": 11
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        728
+      ],
+      "questID": 754
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "IguanaTweaksTConstruct:clayBucketFired",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Plain Tools",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "IguanaTweaksTConstruct:clayBucketFired",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:decoration.stonetorch",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:decoration.stoneladder",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:rail.wood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 3
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        728
+      ],
+      "questID": 755
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:helmetWood",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Plain(ly odd) Armor",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:helmetWood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:chestplateWood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:leggingsWood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:bootsWood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        755
+      ],
+      "questID": 756
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:knapsack",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Special Equipment",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:knapsack",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:travelGoggles",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "TinkerArmor:10": {
+                  "BaseDurability:3": 1035,
+                  "BaseDefense:6": 0.0,
+                  "Built:1": 1,
+                  "MaxDefense:6": 4.0,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "Modifiers:3": 3,
+                  "TotalDurability:3": 1035,
+                  "ModDurability:5": 0.0,
+                  "DamageReduction:6": 0.0,
+                  "Broken:1": 0
+                }
+              }
+            },
+            {
+              "id": "TConstruct:travelWings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "TinkerArmor:10": {
+                  "BaseDurability:3": 1035,
+                  "BaseDefense:6": 2.0,
+                  "Built:1": 1,
+                  "MaxDefense:6": 8.0,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "Modifiers:3": 3,
+                  "TotalDurability:3": 1035,
+                  "ModDurability:5": 0.0,
+                  "DamageReduction:6": 0.0,
+                  "Broken:1": 0
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:travelGlove",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "TinkerAccessory:10": {
+                  "BaseDurability:3": 500,
+                  "Built:1": 1,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "Modifiers:3": 5,
+                  "TotalDurability:3": 500,
+                  "ModDurability:5": 0.0,
+                  "Broken:1": 0
+                }
+              }
+            },
+            {
+              "id": "TConstruct:travelBoots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "TinkerArmor:10": {
+                  "BaseDurability:3": 1035,
+                  "BaseDefense:6": 2.0,
+                  "Built:1": 1,
+                  "MaxDefense:6": 6.0,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "Modifiers:3": 3,
+                  "TotalDurability:3": 1035,
+                  "ModDurability:5": 0.0,
+                  "DamageReduction:6": 0.0,
+                  "Broken:1": 0
+                }
+              }
+            },
+            {
+              "id": "TConstruct:travelBelt",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "TinkerAccessory:10": {
+                  "BaseDurability:3": 500,
+                  "Built:1": 1,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "Modifiers:3": 5,
+                  "TotalDurability:3": 500,
+                  "ModDurability:5": 0.0,
+                  "Broken:1": 0
+                }
+              }
+            },
+            {
+              "id": "TConstruct:travelVest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "TinkerArmor:10": {
+                  "BaseDurability:3": 1035,
+                  "BaseDefense:6": 4.0,
+                  "Built:1": 1,
+                  "MaxDefense:6": 10.0,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "Modifiers:3": 3,
+                  "TotalDurability:3": 1035,
+                  "ModDurability:5": 0.0,
+                  "DamageReduction:6": 0.0,
+                  "Broken:1": 0
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        756,
+        733
+      ],
+      "questID": 757
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:materials",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 37
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "A Different Cast",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:CastingChannel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:CraftedSoil",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:materials",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 37
+            },
+            {
+              "id": "TConstruct:LavaTankNether",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        740,
+        732
+      ],
+      "questID": 758
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:CraftedSoil",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 4
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "New Grounds",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:SpeedBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:CraftedSoil",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:CraftedSoil",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        729
+      ],
+      "questID": 759
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:shovel",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "InfiTool:10": {
+                "BaseDurability:3": 65,
+                "Head:3": 1,
+                "BaseAttack:3": 3,
+                "Built:1": 1,
+                "ToolEXP:4": 0,
+                "HarvestLevel:3": 1,
+                "Attack:3": 3,
+                "RenderHead:3": 1,
+                "ModDurability:5": 0.0,
+                "Handle:3": 1,
+                "Broken:1": 0,
+                "Shoddy:5": 1.0,
+                "RenderHandle:3": 1,
+                "MiningSpeed:3": 400,
+                "ToolLevel:3": 1,
+                "Unbreaking:3": 0,
+                "Damage:3": 0,
+                "BonusDurability:3": 0,
+                "Modifiers:3": 1,
+                "TotalDurability:3": 65
+              },
+              "display:10": {
+                "Name:8": "§fStone Shovel"
+              }
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Regular Tools",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:shovel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BaseDurability:3": 65,
+                  "Head:3": 1,
+                  "BaseAttack:3": 3,
+                  "Built:1": 1,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:3": 1,
+                  "Attack:3": 3,
+                  "RenderHead:3": 1,
+                  "ModDurability:5": 0.0,
+                  "Handle:3": 1,
+                  "Broken:1": 0,
+                  "Shoddy:5": 1.0,
+                  "RenderHandle:3": 1,
+                  "MiningSpeed:3": 400,
+                  "ToolLevel:3": 1,
+                  "Unbreaking:3": 0,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "Modifiers:3": 1,
+                  "TotalDurability:3": 65
+                },
+                "display:10": {
+                  "Name:8": "§fStone Shovel"
+                }
+              }
+            },
+            {
+              "id": "TConstruct:hatchet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BaseDurability:3": 65,
+                  "Head:3": 1,
+                  "BaseAttack:3": 4,
+                  "Built:1": 1,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:3": 1,
+                  "Attack:3": 4,
+                  "RenderHead:3": 1,
+                  "ModDurability:5": 0.0,
+                  "Handle:3": 1,
+                  "Broken:1": 0,
+                  "Shoddy:5": 1.0,
+                  "RenderHandle:3": 1,
+                  "MiningSpeed:3": 400,
+                  "ToolLevel:3": 1,
+                  "Unbreaking:3": 0,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "Modifiers:3": 1,
+                  "TotalDurability:3": 65
+                },
+                "display:10": {
+                  "Name:8": "§fStone Hatchet"
+                }
+              }
+            },
+            {
+              "id": "TConstruct:mattock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "MiningSpeed2:3": 400,
+                  "BaseDurability:3": 98,
+                  "Head:3": 1,
+                  "BaseAttack:3": 4,
+                  "Built:1": 1,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:3": 1,
+                  "Attack:3": 4,
+                  "RenderHead:3": 1,
+                  "ModDurability:5": 0.0,
+                  "Handle:3": 1,
+                  "Broken:1": 0,
+                  "Shoddy:5": 1.0,
+                  "RenderHandle:3": 1,
+                  "Accessory:3": 1,
+                  "MiningSpeed:3": 400,
+                  "RenderAccessory:3": 1,
+                  "ToolLevel:3": 1,
+                  "Unbreaking:3": 0,
+                  "HarvestLevel2:3": 1,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "Modifiers:3": 1,
+                  "TotalDurability:3": 98
+                },
+                "display:10": {
+                  "Name:8": "§fStone Mattock"
+                }
+              }
+            },
+            {
+              "id": "TConstruct:frypan",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BaseDurability:3": 65,
+                  "Head:3": 1,
+                  "BaseAttack:3": 3,
+                  "Built:1": 1,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:3": 1,
+                  "Attack:3": 3,
+                  "RenderHead:3": 1,
+                  "ModDurability:5": 0.0,
+                  "Handle:3": 1,
+                  "Broken:1": 0,
+                  "Shoddy:5": 1.0,
+                  "RenderHandle:3": 1,
+                  "MiningSpeed:3": 400,
+                  "ToolLevel:3": 1,
+                  "Unbreaking:3": 0,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "Modifiers:3": 1,
+                  "TotalDurability:3": 65
+                },
+                "display:10": {
+                  "Name:8": "§fStone Frying Pan"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        734
+      ],
+      "questID": 760
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:broadsword",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "InfiTool:10": {
+                "BaseDurability:3": 78,
+                "Head:3": 1,
+                "BaseAttack:3": 5,
+                "Built:1": 1,
+                "ToolEXP:4": 0,
+                "HarvestLevel:3": 1,
+                "Attack:3": 5,
+                "RenderHead:3": 1,
+                "ModDurability:5": 0.0,
+                "Handle:3": 1,
+                "Broken:1": 0,
+                "Shoddy:5": 1.0,
+                "RenderHandle:3": 1,
+                "Accessory:3": 1,
+                "MiningSpeed:3": 400,
+                "RenderAccessory:3": 1,
+                "ToolLevel:3": 1,
+                "Unbreaking:3": 0,
+                "Damage:3": 0,
+                "BonusDurability:3": 0,
+                "Modifiers:3": 1,
+                "TotalDurability:3": 78
+              },
+              "display:10": {
+                "Name:8": "§fStone Broadsword"
+              }
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Regular Weapons",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:broadsword",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BaseDurability:3": 78,
+                  "Head:3": 1,
+                  "BaseAttack:3": 5,
+                  "Built:1": 1,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:3": 1,
+                  "Attack:3": 5,
+                  "RenderHead:3": 1,
+                  "ModDurability:5": 0.0,
+                  "Handle:3": 1,
+                  "Broken:1": 0,
+                  "Shoddy:5": 1.0,
+                  "RenderHandle:3": 1,
+                  "Accessory:3": 1,
+                  "MiningSpeed:3": 400,
+                  "RenderAccessory:3": 1,
+                  "ToolLevel:3": 1,
+                  "Unbreaking:3": 0,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "Modifiers:3": 1,
+                  "TotalDurability:3": 78
+                },
+                "display:10": {
+                  "Name:8": "§fStone Broadsword"
+                }
+              }
+            },
+            {
+              "id": "TConstruct:longsword",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BaseDurability:3": 65,
+                  "Head:3": 1,
+                  "BaseAttack:3": 5,
+                  "Built:1": 1,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:3": 1,
+                  "Attack:3": 5,
+                  "RenderHead:3": 1,
+                  "ModDurability:5": 0.0,
+                  "Handle:3": 1,
+                  "Broken:1": 0,
+                  "Shoddy:5": 1.0,
+                  "RenderHandle:3": 1,
+                  "Accessory:3": 1,
+                  "MiningSpeed:3": 400,
+                  "RenderAccessory:3": 1,
+                  "ToolLevel:3": 1,
+                  "Unbreaking:3": 0,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "Modifiers:3": 1,
+                  "TotalDurability:3": 65
+                },
+                "display:10": {
+                  "Name:8": "§fStone Longsword"
+                }
+              }
+            },
+            {
+              "id": "TConstruct:rapier",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BaseDurability:3": 45,
+                  "Head:3": 1,
+                  "BaseAttack:3": 3,
+                  "Built:1": 1,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:3": 1,
+                  "Attack:3": 3,
+                  "RenderHead:3": 1,
+                  "ModDurability:5": 0.0,
+                  "Handle:3": 1,
+                  "Broken:1": 0,
+                  "Shoddy:5": 1.0,
+                  "RenderHandle:3": 1,
+                  "Accessory:3": 1,
+                  "MiningSpeed:3": 400,
+                  "RenderAccessory:3": 1,
+                  "ToolLevel:3": 1,
+                  "Unbreaking:3": 0,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "Modifiers:3": 1,
+                  "TotalDurability:3": 45
+                },
+                "display:10": {
+                  "Name:8": "§fStone Rapier"
+                }
+              }
+            },
+            {
+              "id": "TConstruct:dagger",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BaseDurability:3": 65,
+                  "Head:3": 1,
+                  "BaseAttack:3": 2,
+                  "Built:1": 1,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:3": 1,
+                  "Attack:3": 2,
+                  "RenderHead:3": 1,
+                  "ModDurability:5": 0.0,
+                  "Handle:3": 1,
+                  "Broken:1": 0,
+                  "Shoddy:5": 1.0,
+                  "RenderHandle:3": 1,
+                  "Accessory:3": 1,
+                  "MiningSpeed:3": 400,
+                  "RenderAccessory:3": 1,
+                  "ToolLevel:3": 1,
+                  "Unbreaking:3": 0,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "Modifiers:3": 1,
+                  "TotalDurability:3": 65
+                },
+                "display:10": {
+                  "Name:8": "§fStone Dagger"
+                }
+              }
+            },
+            {
+              "id": "TConstruct:battlesign",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BaseDurability:3": 65,
+                  "Head:3": 1,
+                  "BaseAttack:3": 2,
+                  "Built:1": 1,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:3": 1,
+                  "Attack:3": 2,
+                  "RenderHead:3": 1,
+                  "ModDurability:5": 0.0,
+                  "Handle:3": 1,
+                  "Broken:1": 0,
+                  "Shoddy:5": 1.0,
+                  "RenderHandle:3": 1,
+                  "MiningSpeed:3": 400,
+                  "ToolLevel:3": 1,
+                  "Unbreaking:3": 0,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "Modifiers:3": 2,
+                  "TotalDurability:3": 65
+                },
+                "display:10": {
+                  "Name:8": "§fStone Battle Sign"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        734
+      ],
+      "questID": 761
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:ShortBow",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "InfiTool:10": {
+                "BaseDurability:3": 196,
+                "BaseAttack:3": 2,
+                "DrawSpeed:3": 81,
+                "ToolEXP:4": 0,
+                "Built:1": 1,
+                "HarvestLevel:3": 1,
+                "RenderHead:3": 1,
+                "ModDurability:5": 0.0,
+                "Shoddy:5": 0.6666667,
+                "RenderHandle:3": 0,
+                "Accessory:3": 1,
+                "MiningSpeed:3": 400,
+                "Unbreaking:3": 0,
+                "HarvestLevel2:3": 1,
+                "Damage:3": 0,
+                "BonusDurability:3": 0,
+                "TotalDurability:3": 196,
+                "MiningSpeed2:3": 400,
+                "BaseDrawSpeed:3": 81,
+                "Head:3": 1,
+                "Attack:3": 2,
+                "Handle:3": 0,
+                "Broken:1": 0,
+                "RenderAccessory:3": 1,
+                "ToolLevel:3": 1,
+                "FlightSpeed:5": 1.0,
+                "Modifiers:3": 1
+              },
+              "display:10": {
+                "Name:8": "§fStone Shortbow"
+              }
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Regular Ranged Weapons",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:bowstring",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TConstruct:ShortBow",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BaseDurability:3": 196,
+                  "BaseAttack:3": 2,
+                  "DrawSpeed:3": 81,
+                  "ToolEXP:4": 0,
+                  "Built:1": 1,
+                  "HarvestLevel:3": 1,
+                  "RenderHead:3": 1,
+                  "ModDurability:5": 0.0,
+                  "Shoddy:5": 0.6666667,
+                  "RenderHandle:3": 0,
+                  "Accessory:3": 1,
+                  "MiningSpeed:3": 400,
+                  "Unbreaking:3": 0,
+                  "HarvestLevel2:3": 1,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "TotalDurability:3": 196,
+                  "MiningSpeed2:3": 400,
+                  "BaseDrawSpeed:3": 81,
+                  "Head:3": 1,
+                  "Attack:3": 2,
+                  "Handle:3": 0,
+                  "Broken:1": 0,
+                  "RenderAccessory:3": 1,
+                  "ToolLevel:3": 1,
+                  "FlightSpeed:5": 1.0,
+                  "Modifiers:3": 1
+                },
+                "display:10": {
+                  "Name:8": "§fStone Shortbow"
+                }
+              }
+            },
+            {
+              "id": "TConstruct:ArrowAmmo",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BreakChance:5": 0.2,
+                  "BaseDurability:3": 131,
+                  "BaseAttack:3": 1,
+                  "ToolEXP:4": 0,
+                  "Built:1": 1,
+                  "HarvestLevel:3": 1,
+                  "RenderHead:3": 1,
+                  "ModDurability:5": 0.0,
+                  "Shoddy:5": 1.0,
+                  "RenderHandle:3": 0,
+                  "Accuracy:5": 95.0,
+                  "Accessory:3": 0,
+                  "MiningSpeed:3": 400,
+                  "Unbreaking:3": 0,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "TotalDurability:3": 131,
+                  "Head:3": 1,
+                  "Attack:3": 1,
+                  "Handle:3": 0,
+                  "Broken:1": 0,
+                  "Mass:5": 3.05,
+                  "Ammo:3": 14,
+                  "RenderAccessory:3": 0,
+                  "ToolLevel:3": 1,
+                  "Modifiers:3": 0
+                },
+                "display:10": {
+                  "Name:8": "§fStone Arrows"
+                }
+              }
+            },
+            {
+              "id": "TConstruct:ThrowingKnife",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BaseDurability:3": 65,
+                  "Head:3": 1,
+                  "BaseAttack:3": 2,
+                  "Built:1": 1,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:3": 1,
+                  "Attack:3": 2,
+                  "RenderHead:3": 1,
+                  "ModDurability:5": 0.0,
+                  "Handle:3": 1,
+                  "Broken:1": 0,
+                  "Shoddy:5": 1.0,
+                  "RenderHandle:3": 1,
+                  "Ammo:3": 7,
+                  "MiningSpeed:3": 400,
+                  "ToolLevel:3": 1,
+                  "Unbreaking:3": 0,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "Modifiers:3": 1,
+                  "TotalDurability:3": 65
+                },
+                "display:10": {
+                  "Name:8": "§fStone Throwing Knife"
+                }
+              }
+            },
+            {
+              "id": "TConstruct:Javelin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BaseDurability:3": 6,
+                  "Head:3": 1,
+                  "BaseAttack:3": 4,
+                  "Built:1": 1,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:3": 1,
+                  "Attack:3": 4,
+                  "RenderHead:3": 1,
+                  "ModDurability:5": 0.0,
+                  "Handle:3": 1,
+                  "Broken:1": 0,
+                  "Shoddy:5": 1.0,
+                  "RenderHandle:3": 1,
+                  "Ammo:3": 2,
+                  "Accessory:3": 1,
+                  "MiningSpeed:3": 400,
+                  "RenderAccessory:3": 1,
+                  "ToolLevel:3": 1,
+                  "Unbreaking:3": 0,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "Modifiers:3": 1,
+                  "TotalDurability:3": 6
+                },
+                "display:10": {
+                  "Name:8": "§fStone Javelin"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        761
+      ],
+      "questID": 762
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:hammer",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "InfiTool:10": {
+                "RenderExtra:3": 1,
+                "BaseDurability:3": 589,
+                "BaseAttack:3": 3,
+                "ToolEXP:4": 0,
+                "Built:1": 1,
+                "HarvestLevel:3": 1,
+                "HarvestLevelExtra:3": 1,
+                "RenderHead:3": 1,
+                "ModDurability:5": 0.0,
+                "MiningSpeedExtra:3": 400,
+                "Shoddy:5": 1.0,
+                "RenderHandle:3": 1,
+                "Accessory:3": 1,
+                "MiningSpeed:3": 400,
+                "Unbreaking:3": 0,
+                "HarvestLevel2:3": 1,
+                "Damage:3": 0,
+                "BonusDurability:3": 0,
+                "TotalDurability:3": 589,
+                "MiningSpeed2:3": 400,
+                "Head:3": 1,
+                "Attack:3": 3,
+                "Handle:3": 1,
+                "Broken:1": 0,
+                "Extra:3": 1,
+                "RenderAccessory:3": 1,
+                "ToolLevel:3": 1,
+                "Modifiers:3": 1
+              },
+              "display:10": {
+                "Name:8": "§fStone Hammer"
+              }
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Advanced Tools",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:hammer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "RenderExtra:3": 1,
+                  "BaseDurability:3": 589,
+                  "BaseAttack:3": 3,
+                  "ToolEXP:4": 0,
+                  "Built:1": 1,
+                  "HarvestLevel:3": 1,
+                  "HarvestLevelExtra:3": 1,
+                  "RenderHead:3": 1,
+                  "ModDurability:5": 0.0,
+                  "MiningSpeedExtra:3": 400,
+                  "Shoddy:5": 1.0,
+                  "RenderHandle:3": 1,
+                  "Accessory:3": 1,
+                  "MiningSpeed:3": 400,
+                  "Unbreaking:3": 0,
+                  "HarvestLevel2:3": 1,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "TotalDurability:3": 589,
+                  "MiningSpeed2:3": 400,
+                  "Head:3": 1,
+                  "Attack:3": 3,
+                  "Handle:3": 1,
+                  "Broken:1": 0,
+                  "Extra:3": 1,
+                  "RenderAccessory:3": 1,
+                  "ToolLevel:3": 1,
+                  "Modifiers:3": 1
+                },
+                "display:10": {
+                  "Name:8": "§fStone Hammer"
+                }
+              }
+            },
+            {
+              "id": "TConstruct:lumberaxe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "RenderExtra:3": 1,
+                  "BaseDurability:3": 368,
+                  "BaseAttack:3": 2,
+                  "ToolEXP:4": 0,
+                  "Built:1": 1,
+                  "HarvestLevel:3": 1,
+                  "RenderHead:3": 1,
+                  "ModDurability:5": 0.0,
+                  "Shoddy:5": 1.0,
+                  "RenderHandle:3": 1,
+                  "Accessory:3": 1,
+                  "MiningSpeed:3": 400,
+                  "Unbreaking:3": 0,
+                  "HarvestLevel2:3": 1,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "TotalDurability:3": 368,
+                  "MiningSpeed2:3": 400,
+                  "Head:3": 1,
+                  "Attack:3": 2,
+                  "Handle:3": 1,
+                  "Broken:1": 0,
+                  "Extra:3": 1,
+                  "RenderAccessory:3": 1,
+                  "ToolLevel:3": 1,
+                  "Modifiers:3": 1
+                },
+                "display:10": {
+                  "Name:8": "§fStone Lumber Axe"
+                }
+              }
+            },
+            {
+              "id": "TConstruct:excavator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "RenderExtra:3": 1,
+                  "BaseDurability:3": 405,
+                  "BaseAttack:3": 4,
+                  "ToolEXP:4": 0,
+                  "Built:1": 1,
+                  "HarvestLevel:3": 1,
+                  "RenderHead:3": 1,
+                  "ModDurability:5": 0.0,
+                  "Shoddy:5": 1.0,
+                  "RenderHandle:3": 1,
+                  "Accessory:3": 1,
+                  "MiningSpeed:3": 400,
+                  "Unbreaking:3": 0,
+                  "HarvestLevel2:3": 1,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "TotalDurability:3": 405,
+                  "MiningSpeed2:3": 400,
+                  "Head:3": 1,
+                  "Attack:3": 4,
+                  "Handle:3": 1,
+                  "Broken:1": 0,
+                  "Extra:3": 1,
+                  "RenderAccessory:3": 1,
+                  "ToolLevel:3": 1,
+                  "Modifiers:3": 1
+                },
+                "display:10": {
+                  "Name:8": "§fStone Excavator"
+                }
+              }
+            },
+            {
+              "id": "TConstruct:scythe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "RenderExtra:3": 1,
+                  "BaseDurability:3": 393,
+                  "Head:3": 1,
+                  "BaseAttack:3": 5,
+                  "Built:1": 1,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:3": 1,
+                  "Attack:3": 5,
+                  "RenderHead:3": 1,
+                  "ModDurability:5": 0.0,
+                  "Handle:3": 1,
+                  "Broken:1": 0,
+                  "Shoddy:5": 1.0,
+                  "RenderHandle:3": 1,
+                  "Accessory:3": 1,
+                  "Extra:3": 1,
+                  "MiningSpeed:3": 400,
+                  "RenderAccessory:3": 1,
+                  "ToolLevel:3": 1,
+                  "Unbreaking:3": 0,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "Modifiers:3": 1,
+                  "TotalDurability:3": 393
+                },
+                "display:10": {
+                  "Name:8": "§fStone Scythe"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        760,
+        733
+      ],
+      "questID": 763
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:cutlass",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "InfiTool:10": {
+                "BaseDurability:3": 98,
+                "Head:3": 1,
+                "BaseAttack:3": 5,
+                "Built:1": 1,
+                "ToolEXP:4": 0,
+                "HarvestLevel:3": 1,
+                "Attack:3": 5,
+                "RenderHead:3": 1,
+                "ModDurability:5": 0.0,
+                "Handle:3": 1,
+                "Broken:1": 0,
+                "Shoddy:5": 1.0,
+                "RenderHandle:3": 1,
+                "Accessory:3": 1,
+                "MiningSpeed:3": 400,
+                "RenderAccessory:3": 1,
+                "ToolLevel:3": 1,
+                "Unbreaking:3": 0,
+                "Damage:3": 0,
+                "BonusDurability:3": 0,
+                "Modifiers:3": 1,
+                "TotalDurability:3": 98
+              },
+              "display:10": {
+                "Name:8": "§fStone Cutlass"
+              }
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Advanced Weapons",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:woodPattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 22
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:cleaver",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "RenderExtra:3": 1,
+                  "BaseDurability:3": 368,
+                  "BaseAttack:3": 6,
+                  "ToolEXP:4": 0,
+                  "Built:1": 1,
+                  "HarvestLevel:3": 1,
+                  "RenderHead:3": 1,
+                  "ModDurability:5": 0.0,
+                  "Shoddy:5": 1.0,
+                  "RenderHandle:3": 1,
+                  "Accessory:3": 1,
+                  "MiningSpeed:3": 400,
+                  "Unbreaking:3": 0,
+                  "HarvestLevel2:3": 1,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "TotalDurability:3": 368,
+                  "MiningSpeed2:3": 400,
+                  "Head:3": 1,
+                  "Attack:3": 6,
+                  "Handle:3": 1,
+                  "Broken:1": 0,
+                  "Extra:3": 1,
+                  "RenderAccessory:3": 1,
+                  "ToolLevel:3": 1,
+                  "Modifiers:3": 1
+                },
+                "display:10": {
+                  "Name:8": "§fStone Cleaver"
+                }
+              }
+            },
+            {
+              "id": "TConstruct:battleaxe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "RenderExtra:3": 1,
+                  "BaseDurability:3": 368,
+                  "BaseAttack:3": 6,
+                  "ToolEXP:4": 0,
+                  "Built:1": 1,
+                  "HarvestLevel:3": 1,
+                  "RenderHead:3": 1,
+                  "ModDurability:5": 0.0,
+                  "Shoddy:5": 1.0,
+                  "RenderHandle:3": 1,
+                  "Accessory:3": 1,
+                  "MiningSpeed:3": 400,
+                  "Unbreaking:3": 0,
+                  "HarvestLevel2:3": 1,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "TotalDurability:3": 368,
+                  "MiningSpeed2:3": 400,
+                  "Head:3": 1,
+                  "Attack:3": 6,
+                  "Handle:3": 1,
+                  "Broken:1": 0,
+                  "Extra:3": 1,
+                  "RenderAccessory:3": 1,
+                  "ToolLevel:3": 1,
+                  "Modifiers:3": 1
+                },
+                "display:10": {
+                  "Name:8": "§fStone Battleaxe"
+                }
+              }
+            },
+            {
+              "id": "TConstruct:cutlass",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BaseDurability:3": 98,
+                  "Head:3": 1,
+                  "BaseAttack:3": 5,
+                  "Built:1": 1,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:3": 1,
+                  "Attack:3": 5,
+                  "RenderHead:3": 1,
+                  "ModDurability:5": 0.0,
+                  "Handle:3": 1,
+                  "Broken:1": 0,
+                  "Shoddy:5": 1.0,
+                  "RenderHandle:3": 1,
+                  "Accessory:3": 1,
+                  "MiningSpeed:3": 400,
+                  "RenderAccessory:3": 1,
+                  "ToolLevel:3": 1,
+                  "Unbreaking:3": 0,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "Modifiers:3": 1,
+                  "TotalDurability:3": 98
+                },
+                "display:10": {
+                  "Name:8": "§fStone Cutlass"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        761,
+        733
+      ],
+      "questID": 764
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TConstruct:Crossbow",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "InfiTool:10": {
+                "RenderExtra:3": 1,
+                "BaseDurability:3": 65,
+                "BaseAttack:3": 1,
+                "DrawSpeed:3": 168,
+                "ToolEXP:4": 0,
+                "Built:1": 1,
+                "HarvestLevel:3": 1,
+                "RenderHead:3": 1,
+                "ModDurability:5": 0.0,
+                "Shoddy:5": 0.75,
+                "RenderHandle:3": 1,
+                "Accessory:3": 0,
+                "MiningSpeed:3": 400,
+                "Unbreaking:3": 0,
+                "Damage:3": 0,
+                "BonusDurability:3": 0,
+                "TotalDurability:3": 65,
+                "BaseDrawSpeed:3": 168,
+                "Head:3": 1,
+                "Attack:3": 1,
+                "Handle:3": 1,
+                "Broken:1": 0,
+                "Extra:3": 1,
+                "RenderAccessory:3": 0,
+                "ToolLevel:3": 1,
+                "FlightSpeed:5": 1.5,
+                "Modifiers:3": 1
+              },
+              "display:10": {
+                "Name:8": "§fStone Crossbow"
+              }
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Advanced Ranged Weapons",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:manualBook",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:Crossbow",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "RenderExtra:3": 1,
+                  "BaseDurability:3": 65,
+                  "BaseAttack:3": 1,
+                  "DrawSpeed:3": 168,
+                  "ToolEXP:4": 0,
+                  "Built:1": 1,
+                  "HarvestLevel:3": 1,
+                  "RenderHead:3": 1,
+                  "ModDurability:5": 0.0,
+                  "Shoddy:5": 0.75,
+                  "RenderHandle:3": 1,
+                  "Accessory:3": 0,
+                  "MiningSpeed:3": 400,
+                  "Unbreaking:3": 0,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "TotalDurability:3": 65,
+                  "BaseDrawSpeed:3": 168,
+                  "Head:3": 1,
+                  "Attack:3": 1,
+                  "Handle:3": 1,
+                  "Broken:1": 0,
+                  "Extra:3": 1,
+                  "RenderAccessory:3": 0,
+                  "ToolLevel:3": 1,
+                  "FlightSpeed:5": 1.5,
+                  "Modifiers:3": 1
+                },
+                "display:10": {
+                  "Name:8": "§fStone Crossbow"
+                }
+              }
+            },
+            {
+              "id": "TConstruct:BoltAmmo",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BreakChance:5": 0.1,
+                  "BaseDurability:3": 125,
+                  "BaseAttack:3": 2,
+                  "ToolEXP:4": 0,
+                  "Built:1": 1,
+                  "HarvestLevel:3": 2,
+                  "RenderHead:3": 2,
+                  "ModDurability:5": 0.0,
+                  "Shoddy:5": 0.5,
+                  "RenderHandle:3": 1,
+                  "Accuracy:5": 97.5,
+                  "Accessory:3": 0,
+                  "MiningSpeed:3": 600,
+                  "Unbreaking:3": 1,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "TotalDurability:3": 125,
+                  "Head:3": 2,
+                  "Attack:3": 2,
+                  "Handle:3": 1,
+                  "Broken:1": 0,
+                  "Mass:5": 6.375,
+                  "Ammo:3": 13,
+                  "RenderAccessory:3": 0,
+                  "ToolLevel:3": 1,
+                  "Modifiers:3": 0
+                },
+                "display:10": {
+                  "Name:8": "§fIron Bolts"
+                }
+              }
+            },
+            {
+              "id": "TConstruct:Shuriken",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "RenderExtra:3": 1,
+                  "BaseDurability:3": 327,
+                  "BaseAttack:3": 3,
+                  "ToolEXP:4": 0,
+                  "Built:1": 1,
+                  "HarvestLevel:3": 1,
+                  "HarvestLevelExtra:3": 1,
+                  "RenderHead:3": 1,
+                  "ModDurability:5": 0.0,
+                  "MiningSpeedExtra:3": 400,
+                  "Shoddy:5": 1.0,
+                  "RenderHandle:3": 1,
+                  "Accessory:3": 1,
+                  "MiningSpeed:3": 400,
+                  "Unbreaking:3": 0,
+                  "MiningSpeedHandle:3": 400,
+                  "HarvestLevel2:3": 1,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "TotalDurability:3": 327,
+                  "MiningSpeed2:3": 400,
+                  "Head:3": 1,
+                  "HarvestLevelHandle:3": 1,
+                  "Attack:3": 3,
+                  "Handle:3": 1,
+                  "Broken:1": 0,
+                  "Ammo:3": 33,
+                  "Extra:3": 1,
+                  "RenderAccessory:3": 1,
+                  "ToolLevel:3": 1,
+                  "Modifiers:3": 1
+                },
+                "display:10": {
+                  "Name:8": "§fStone Shuriken"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        764
+      ],
+      "questID": 765
     }
   ],
   "questLines": [
@@ -107729,7 +114043,236 @@
           "desc": "    [WORK IN PROGRESS]                   This questline is not finished yet.  It will be added in a future update."
         }
       },
-      "quests": [],
+      "quests": [
+        {
+          "size": 24,
+          "x": 160,
+          "y": 0,
+          "id": 728
+        },
+        {
+          "size": 24,
+          "x": 160,
+          "y": 36,
+          "id": 729
+        },
+        {
+          "size": 24,
+          "x": 124,
+          "y": 0,
+          "id": 730
+        },
+        {
+          "size": 24,
+          "x": 160,
+          "y": 72,
+          "id": 731
+        },
+        {
+          "size": 24,
+          "x": 160,
+          "y": 108,
+          "id": 732
+        },
+        {
+          "size": 24,
+          "x": 160,
+          "y": 144,
+          "id": 733
+        },
+        {
+          "size": 24,
+          "x": 232,
+          "y": 0,
+          "id": 734
+        },
+        {
+          "size": 24,
+          "x": 304,
+          "y": 0,
+          "id": 735
+        },
+        {
+          "size": 24,
+          "x": 304,
+          "y": 36,
+          "id": 736
+        },
+        {
+          "size": 24,
+          "x": 304,
+          "y": 144,
+          "id": 737
+        },
+        {
+          "size": 24,
+          "x": 340,
+          "y": 180,
+          "id": 738
+        },
+        {
+          "size": 24,
+          "x": 304,
+          "y": 180,
+          "id": 739
+        },
+        {
+          "size": 24,
+          "x": 196,
+          "y": 0,
+          "id": 740
+        },
+        {
+          "size": 24,
+          "x": 196,
+          "y": 72,
+          "id": 741
+        },
+        {
+          "size": 24,
+          "x": 196,
+          "y": 144,
+          "id": 742
+        },
+        {
+          "size": 24,
+          "x": 304,
+          "y": 72,
+          "id": 743
+        },
+        {
+          "size": 24,
+          "x": 304,
+          "y": 108,
+          "id": 744
+        },
+        {
+          "size": 24,
+          "x": 160,
+          "y": 180,
+          "id": 745
+        },
+        {
+          "size": 24,
+          "x": 124,
+          "y": 144,
+          "id": 746
+        },
+        {
+          "size": 24,
+          "x": 196,
+          "y": 180,
+          "id": 747
+        },
+        {
+          "size": 24,
+          "x": 340,
+          "y": 0,
+          "id": 748
+        },
+        {
+          "size": 24,
+          "x": 88,
+          "y": 0,
+          "id": 749
+        },
+        {
+          "size": 24,
+          "x": 88,
+          "y": 72,
+          "id": 750
+        },
+        {
+          "size": 24,
+          "x": 88,
+          "y": 144,
+          "id": 751
+        },
+        {
+          "size": 24,
+          "x": 124,
+          "y": 36,
+          "id": 752
+        },
+        {
+          "size": 24,
+          "x": 124,
+          "y": 108,
+          "id": 753
+        },
+        {
+          "size": 24,
+          "x": 88,
+          "y": 36,
+          "id": 754
+        },
+        {
+          "size": 24,
+          "x": 268,
+          "y": 0,
+          "id": 755
+        },
+        {
+          "size": 24,
+          "x": 340,
+          "y": 36,
+          "id": 756
+        },
+        {
+          "size": 24,
+          "x": 340,
+          "y": 144,
+          "id": 757
+        },
+        {
+          "size": 24,
+          "x": 88,
+          "y": 108,
+          "id": 758
+        },
+        {
+          "size": 24,
+          "x": 124,
+          "y": 72,
+          "id": 759
+        },
+        {
+          "size": 24,
+          "x": 268,
+          "y": 36,
+          "id": 760
+        },
+        {
+          "size": 24,
+          "x": 232,
+          "y": 36,
+          "id": 761
+        },
+        {
+          "size": 24,
+          "x": 196,
+          "y": 36,
+          "id": 762
+        },
+        {
+          "size": 24,
+          "x": 268,
+          "y": 108,
+          "id": 763
+        },
+        {
+          "size": 24,
+          "x": 232,
+          "y": 108,
+          "id": 764
+        },
+        {
+          "size": 24,
+          "x": 196,
+          "y": 108,
+          "id": 765
+        }
+      ],
       "lineID": 24,
       "order": 26
     },
