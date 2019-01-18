@@ -109903,6 +109903,119 @@
         764
       ],
       "questID": 765
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ExtraTiC:funStuffIngot",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Strength of Fantasy",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ExtraTiC:funStuffIngot",
+              "Count": 1,
+              "OreDict": "ingotFairy",
+              "Damage": 0
+            },
+            {
+              "id": "ExtraTiC:funStuffIngot",
+              "Count": 1,
+              "OreDict": "ingotPokefennium",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        742,
+        751
+      ],
+      "questID": 766
     }
   ],
   "questLines": [
@@ -114106,14 +114219,14 @@
         },
         {
           "size": 24,
-          "x": 340,
+          "x": 304,
           "y": 180,
           "id": 738
         },
         {
           "size": 24,
           "x": 304,
-          "y": 180,
+          "y": 216,
           "id": 739
         },
         {
@@ -114160,13 +114273,13 @@
         },
         {
           "size": 24,
-          "x": 196,
-          "y": 180,
+          "x": 160,
+          "y": 216,
           "id": 747
         },
         {
           "size": 24,
-          "x": 340,
+          "x": 52,
           "y": 0,
           "id": 748
         },
@@ -114214,13 +114327,13 @@
         },
         {
           "size": 24,
-          "x": 340,
-          "y": 36,
+          "x": 52,
+          "y": 108,
           "id": 756
         },
         {
           "size": 24,
-          "x": 340,
+          "x": 52,
           "y": 144,
           "id": 757
         },
@@ -114271,6 +114384,12 @@
           "x": 196,
           "y": 108,
           "id": 765
+        },
+        {
+          "size": 24,
+          "x": 124,
+          "y": 180,
+          "id": 766
         }
       ],
       "lineID": 24,
