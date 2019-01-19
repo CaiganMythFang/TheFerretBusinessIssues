@@ -1,5 +1,25 @@
 import minetweaker.item.IItemStack;
 
+// Ferret Market Cost, Twilight Forest - 500
+var FMC500 = [
+<TwilightForest:item.fieryBlood>, <TwilightForest:item.fieryTears>
+] as IItemStack[];
+
+for i, toy in FMC500 {
+     <ore:zFMC500>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =500=") + " )"));
+}
+
+// Ferret Market Cost, Twilight Forest - 1,000
+var FMC1000 = [
+<TwilightForest:item.fieryIngot>
+] as IItemStack[];
+
+for i, toy in FMC1000 {
+     <ore:zFMC1000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =1,000=") + " )"));
+}
+
 // Ferret Market Cost, Twilight Forest 10
 var FMC10 = [
 <TwilightForest:item.torchberries>
