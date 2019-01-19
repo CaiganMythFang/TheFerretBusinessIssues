@@ -70,6 +70,7 @@ var FMC320000 = [
 for i, toy in FMC320000 {
      <ore:zFMC320000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =320,000=") + " )"));
+}
 
 
 // Ferret Market Cost, Avaritia - ERROR
