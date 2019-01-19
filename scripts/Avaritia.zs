@@ -15,14 +15,16 @@ recipes.remove(<avaritiaddons:ExtremeAutoCrafter:0>);
 <avaritiaddons:ExtremeAutoCrafter:0>.addTooltip(format.green("An automated version of the Ferret Business Workbench."));
 recipes.addShaped(<avaritiaddons:ExtremeAutoCrafter>, [[<ore:gearIron>, <Avaritia:Dire_Crafting>, <ore:gearIron>], [<Avaritia:Dire_Crafting>, <minecraft:piston>, <Avaritia:Dire_Crafting>], [<ore:gearIron>, <Avaritia:Dire_Crafting>, <ore:gearIron>]]);
 
+//
+
 // Remove all other recipes
 
 var avaritiarecipes = [
+<Avaritia:Resource:5>, 
+<Avaritia:Resource:6>,
 <Avaritia:Neutronium_Compressor:0>,
 <Avaritia:infinitato:0>,
 <Avaritia:Neutron_Collector:0>,
-<Avaritia:Resource:5>,
-<Avaritia:Resource:6>,
 <Avaritia:Infinity_Shovel:0>,
 <Avaritia:Ultimate_Stew:0>,
 <Avaritia:Endest_Pearl:0>,
@@ -45,11 +47,13 @@ for i, toy in avaritiarecipes {
      toy.addTooltip(format.red("this. It may become available later!"));
 }
 
+//
+
 var avaritiarecipes2 = [
 <Avaritia:Crystal_Matrix:0>,
 <Avaritia:Resource_Block:0>,
 <Avaritia:Resource_Block:1>,
-<Avaritia:Resource:0>,
+<Avaritia:Resource:0>, 
 <Avaritia:Resource:1>,
 <Avaritia:Resource:2>, 
 <Avaritia:Resource:3>, 

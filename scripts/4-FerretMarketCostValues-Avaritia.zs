@@ -51,3 +51,34 @@ for i, toy in FMC40500 {
      <ore:zFMC40500>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =40,500=") + " )"));
 }
+
+// Ferret Market Cost, Avaritia - 42,500
+var FMC42500 = [
+<Avaritia:Resource:0>
+] as IItemStack[];
+
+for i, toy in FMC42500 {
+     <ore:zFMC42500>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =42,500=") + " )"));
+}
+
+// Ferret Market Cost, Avaritia - 320,000
+var FMC320000 = [
+<Avaritia:Resource:1>
+] as IItemStack[];
+
+for i, toy in FMC320000 {
+     <ore:zFMC320000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =320,000=") + " )"));
+
+
+// Ferret Market Cost, Avaritia - ERROR
+var FMCerror = [
+<Avaritia:Resource:5>, <Avaritia:Resource:6>
+] as IItemStack[];
+
+for i, toy in FMCerror {
+     <ore:zFMCerror>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.red(" =ERROR=") + " )"));
+     toy.addTooltip(format.darkRed("WARNING : UNABLE TO SHIP"));
+}
