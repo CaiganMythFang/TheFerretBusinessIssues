@@ -110016,6 +110016,139 @@
         751
       ],
       "questID": 766
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "harvestcraft:onionItem",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "It\u0027s Just Some Dust!",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    §4§o[Text will be added in a future update!]§r\n\n   Why.... are you crying? What? Wait, why are you chopping onions at the part builder anyways?!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TConstruct:frypan",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "InfiTool:10": {
+                  "BaseDurability:3": 3,
+                  "Head:3": 186,
+                  "BaseAttack:3": 8,
+                  "Built:1": 1,
+                  "ToolEXP:4": 0,
+                  "HarvestLevel:3": 0,
+                  "Attack:3": 8,
+                  "RenderHead:3": 186,
+                  "ModDurability:5": 0.0,
+                  "Handle:3": 186,
+                  "Broken:1": 0,
+                  "Shoddy:5": 0.0,
+                  "RenderHandle:3": 186,
+                  "MiningSpeed:3": 90,
+                  "ToolLevel:3": 1,
+                  "Unbreaking:3": 0,
+                  "Damage:3": 0,
+                  "BonusDurability:3": 0,
+                  "Modifiers:3": 1,
+                  "TotalDurability:3": 3
+                },
+                "display:10": {
+                  "Name:8": "§fTear Jerker Frying Pan"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        729
+      ],
+      "questID": 767
     }
   ],
   "questLines": [
@@ -114390,6 +114523,12 @@
           "x": 124,
           "y": 180,
           "id": 766
+        },
+        {
+          "size": 24,
+          "x": 52,
+          "y": 36,
+          "id": 767
         }
       ],
       "lineID": 24,
