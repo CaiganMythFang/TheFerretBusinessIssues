@@ -100,6 +100,16 @@ for i, toy in FMC81000 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =81,000=") + " )"));
 }
 
+// Ferret Market Cost, Extra TiC - 105,000
+var FMC105000 = [
+<ExtraTiC:extra.bucket:14>
+] as IItemStack[];
+
+for i, toy in FMC105000 {
+     <ore:zFMC105000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =105,000=") + " )"));
+}
+
 // Ferret Market Cost, Extra TiC - 122,000
 var FMC122000 = [
 <ExtraTiC:BowLimb:185>
