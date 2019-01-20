@@ -44,7 +44,7 @@ for i, toy in FMC1500 {
 
 // Ferret Market Cost, Tinkers Construct - 2,000
 var FMC2000 = [
-<TConstruct:MetalBlock:9>, <TConstruct:MetalBlock:4>, <TConstruct:MetalBlock:3>, <TConstruct:MetalBlock:5>, <TConstruct:materials:42>, <TConstruct:materials:14>, <TConstruct:buckets:2>, <TConstruct:materials:25>, <TConstruct:buckets:0>, <TConstruct:buckets:15>, <TConstruct:buckets:3>, <TConstruct:decoration.multibrick:5>, <TConstruct:buckets:12>, <TConstruct:buckets:7>, <TConstruct:decoration.multibrickfancy:5>
+
 ] as IItemStack[];
 
 for i, toy in FMC2000 {
@@ -64,7 +64,7 @@ for i, toy in FMC2500 {
 
 // Ferret Market Cost, Tinkers Construct - 3,000
 var FMC3000 = [
-<TConstruct:travelBoots>
+
 ] as IItemStack[];
 
 for i, toy in FMC3000 {
@@ -74,7 +74,7 @@ for i, toy in FMC3000 {
 
 // Ferret Market Cost, Tinkers Construct - 3,500
 var FMC3500 = [
-<TConstruct:buckets:23>, <TConstruct:Redstone.Landmine:3>, <TConstruct:knapsack>, <TConstruct:MetalBlock:10>
+
 ] as IItemStack[];
 
 for i, toy in FMC3500 {
@@ -94,7 +94,7 @@ for i, toy in FMC4000 {
 
 // Ferret Market Cost, Tinkers Construct - 4,500
 var FMC4500 = [
-<TConstruct:materials:15>
+
 ] as IItemStack[];
 
 for i, toy in FMC4500 {
@@ -114,7 +114,7 @@ for i, toy in FMC5000 {
 
 // Ferret Market Cost, Tinkers Construct - 5,500
 var FMC5500 = [
-<TConstruct:travelBelt>
+
 ] as IItemStack[];
 
 for i, toy in FMC5500 {
@@ -134,7 +134,7 @@ for i, toy in FMC7000 {
 
 // Ferret Market Cost, Tinkers Construct - 7,500
 var FMC7500 = [
-<TConstruct:materials:7>, <TConstruct:buckets:27>, <TConstruct:buckets:28>
+
 ] as IItemStack[];
 
 for i, toy in FMC7500 {
@@ -144,7 +144,7 @@ for i, toy in FMC7500 {
 
 // Ferret Market Cost, Tinkers Construct - 8,000
 var FMC8000 = [
-<TConstruct:ToolForgeBlock:0>, <TConstruct:ToolForgeBlock:13>, <TConstruct:ToolForgeBlock:7>, <TConstruct:ToolForgeBlock:9>, <TConstruct:ToolForgeBlock:8>, <TConstruct:CraftingSlab:5>
+
 ] as IItemStack[];
 
 for i, toy in FMC8000 {
@@ -154,7 +154,7 @@ for i, toy in FMC8000 {
 
 // Ferret Market Cost, Tinkers Construct - 8,500
 var FMC8500 = [
-<TConstruct:decoration.multibrickfancy:7>, <TConstruct:decoration.multibrick:7>
+
 ] as IItemStack[];
 
 for i, toy in FMC8500 {
@@ -164,7 +164,7 @@ for i, toy in FMC8500 {
 
 // Ferret Market Cost, Tinkers Construct - 9,000
 var FMC9000 = [
-<TConstruct:materials:26>
+
 ] as IItemStack[];
 
 for i, toy in FMC9000 {
@@ -184,7 +184,7 @@ for i, toy in FMC10500 {
 
 // Ferret Market Cost, Tinkers Construct - 11,000
 var FMC11000 = [
-<TConstruct:buckets:26>
+
 ] as IItemStack[];
 
 for i, toy in FMC11000 {
@@ -214,7 +214,7 @@ for i, toy in FMC17500 {
 
 // Ferret Market Cost, Tinkers Construct - 18,000
 var FMC18000 = [
-<TConstruct:MetalBlock:7>, <TConstruct:buckets:4>
+
 ] as IItemStack[];
 
 for i, toy in FMC18000 {
@@ -254,7 +254,7 @@ for i, toy in FMC69500 {
 
 // Ferret Market Cost, Tinkers Construct - 34,000
 var FMC34000 = [
-<TConstruct:diamondApple>
+
 ] as IItemStack[];
 
 for i, toy in FMC34000 {
@@ -274,7 +274,7 @@ for i, toy in FMC35000 {
 
 // Ferret Market Cost, Tinkers Construct - 36,000
 var FMC36000 = [
-<TConstruct:ToolForgeBlock:3>
+
 ] as IItemStack[];
 
 for i, toy in FMC36000 {
@@ -284,7 +284,7 @@ for i, toy in FMC36000 {
 
 // Ferret Market Cost, Tinkers Construct - 44,000
 var FMC44000 = [
-<TConstruct:heartCanister:2>
+
 ] as IItemStack[];
 
 for i, toy in FMC44000 {
@@ -294,7 +294,7 @@ for i, toy in FMC44000 {
 
 // Ferret Market Cost, Tinkers Construct - 45,000
 var FMC45000 = [
-<TConstruct:MetalBlock:0>, <TConstruct:MetalBlock:1>, <TConstruct:decoration.multibrickmetal:6>, <TConstruct:decoration.multibrickmetal:2>, <TConstruct:decoration.multibrickmetal:1>, <TConstruct:decoration.multibrickmetal:5>
+
 ] as IItemStack[];
 
 for i, toy in FMC45000 {
@@ -304,7 +304,7 @@ for i, toy in FMC45000 {
 
 // Ferret Market Cost, Tinkers Construct -70,000
 var FMC70000 = [
-<TConstruct:buckets:9>
+
 ] as IItemStack[];
 
 for i, toy in FMC70000 {
@@ -314,7 +314,7 @@ for i, toy in FMC70000 {
 
 // Ferret Market Cost, Tinkers Construct -72,000
 var FMC72000 = [
-<TConstruct:ToolForgeBlock:11>, <TConstruct:ToolForgeBlock:1>
+
 ] as IItemStack[];
 
 for i, toy in FMC72000 {
@@ -324,7 +324,7 @@ for i, toy in FMC72000 {
 
 // Ferret Market Cost, Tinkers Construct -90,000
 var FMC90000 = [
-<TConstruct:MetalBlock:2>, <TConstruct:ToolForgeBlock:10>, <TConstruct:decoration.multibrickmetal:3>, <TConstruct:decoration.multibrickmetal:7>
+
 ] as IItemStack[];
 
 for i, toy in FMC90000 {
@@ -334,7 +334,7 @@ for i, toy in FMC90000 {
 
 // Ferret Market Cost, Tinkers Construct -126,000
 var FMC126000 = [
-<TConstruct:ToolForgeBlock:12>
+
 ] as IItemStack[];
 
 for i, toy in FMC126000 {
@@ -344,7 +344,7 @@ for i, toy in FMC126000 {
 
 // Ferret Market Cost, Tinkers Construct -150,000
 var FMC150000 = [
-<TConstruct:heartCanister:5>
+
 ] as IItemStack[];
 
 for i, toy in FMC150000 {
@@ -354,7 +354,7 @@ for i, toy in FMC150000 {
 
 // Ferret Market Cost, Tinkers Construct -180,000
 var FMC180000 = [
-<TConstruct:ToolForgeBlock:5>, <TConstruct:ToolForgeBlock:4>
+
 ] as IItemStack[];
 
 for i, toy in FMC180000 {
@@ -364,40 +364,10 @@ for i, toy in FMC180000 {
 
 // Ferret Market Cost, Tinkers Construct -189,000
 var FMC189000 = [
-<TConstruct:heartCanister:4>
+
 ] as IItemStack[];
 
 for i, toy in FMC189000 {
      <ore:zFMC189000>.add(toy);
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =189,000=") + " )"));
-}
-
-// Ferret Market Cost, Tinkers Construct -298,000
-var FMC298000 = [
-<TConstruct:ToolForgeBlock:2>
-] as IItemStack[];
-
-for i, toy in FMC298000 {
-     <ore:zFMC298000>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =298,000=") + " )"));
-}
-
-// Ferret Market Cost, Tinkers Construct -360,000
-var FMC360000 = [
-<TConstruct:ToolForgeBlock:6>
-] as IItemStack[];
-
-for i, toy in FMC360000 {
-     <ore:zFMC360000>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =360,000=") + " )"));
-}
-
-// Ferret Market Cost, Tinkers Construct -373,000
-var FMC373000 = [
-<TConstruct:heartCanister:6>
-] as IItemStack[];
-
-for i, toy in FMC373000 {
-     <ore:zFMC373000>.add(toy);
-     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =373,000=") + " )"));
 }

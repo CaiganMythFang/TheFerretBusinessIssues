@@ -42,6 +42,16 @@ for i, toy in FMC1000 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =1,000=") + " )"));
 }
 
+// Ferret Market Cost, Twilight Forest - 3,000
+var FMC3000 = [
+<TwilightForest:item.steeleafIngot>
+] as IItemStack[];
+
+for i, toy in FMC3000 {
+     <ore:zFMC3000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =3,000=") + " )"));
+}
+
 // Ferret Market Cost, Twilight Forest 10
 var FMC10 = [
 <TwilightForest:item.torchberries>
