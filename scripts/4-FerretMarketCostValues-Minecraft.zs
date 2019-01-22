@@ -286,6 +286,16 @@ for i, toy in FMC18000 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =18,000=") + " )"));
 }
 
+// Ferret Market Cost, Minecraft - 25,500
+var FMC25500 = [
+<minecraft:diamond_pickaxe>, <minecraft:diamond_axe>
+] as IItemStack[];
+
+for i, toy in FMC25500 {
+     <ore:zFMC25500>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =25,500=") + " )"));
+}
+
 // Ferret Market Cost, Minecraft - 50,000
 var FMC50000 = [
 <minecraft:dragon_egg>
