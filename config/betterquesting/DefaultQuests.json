@@ -114990,6 +114990,532 @@
         786
       ],
       "questID": 798
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "Ztones:auroraBlock",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "ZTones",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    The design world is full of trends and fads. New works are built upon old designs, mixing in a designer or artists own personal spins. Sometimes these innovations circle right back around to the original, which becomes popular again. \n    ZTones designs are built off of Chisel\u0027s...kind of. They are more abstract in design, I would argue, and use a unique way to cycle through them.\n    But first we have to make some!\n    ZTone blocks all start with Aurora, a mix of glass an various dyes. This Aurora is then housed in Stone to create the basic ZTone Tile.\n    Now take your Chisel and put in a ZTone Tile. You can choose between a variety of basic ZTone designs!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Ztones:auroraBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Ztones:stoneTile",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        214
+      ],
+      "questID": 799
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "Ztones:tile.zomeBlock",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Cycling in Style",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    Now that you have a ZTone design of your choice (with fancy name!), you\u0027ll notice the ZTone also has a number! Every ZTone design has a range of options for it, usually either color or slight style differences. For example, grab a Zome (0) for me!\n    Now you could just plop that Zome (0) back into your Chisel to see your options, but like I mentioned, ZTones have a unique way to select between them!\n    Hold the Zome (0) in your hand. Hold either Alt or Ctrl, then use your Mousewheel to scroll through the different styles that design has! Zome\u0027s styles are all alternate colors, so cycle over to the Purple one for me!\n    Not liking any of the styles of the specific ZTone you chose? Just put the Ztone in a crafting grid to turn it back into a ZTone Tile!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Ztones:tile.zomeBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Ztones:tile.zomeBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        799
+      ],
+      "questID": 800
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "Ztones:cleanDirt",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "ZTone Utility",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    ZTone\u0027s designer included a few useful blocks for the avid home decorator!\n    The first is Garden Soil, a special soil that does not require water!\n    Next is the Booster. Walking over it will speed you up for a short bit, great for walkways around large projects.\n    Final is the Flat Lamp. It comes in a few colors, but all three can be placed on walls and ceilings, as well as on the floor, to light up the area."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Ztones:cleanDirt",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Ztones:booster",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Ztones:lampf",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        799
+      ],
+      "questID": 801
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "Ztones:hunger",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "ZTone Oddities",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    ZTone\u0027s designer also included a few... odd... things in their catalogue.\n    The first is an MSG pill that makes you hungry. While odd at first, with some of the more magical food creations our cafeteria puts out, wouldn\u0027t you want to be able to eat more of it for a boost?\n    Next is these smaller, quite Mini, chunks of Coal and Charcoal. It seems odd you\u0027d want to break down an easier to carry piece of coal, but the benefit is you don\u0027t waste an entire piece just to cook yourself a single bit of bacon!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Ztones:hunger",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Ztones:minicharcoal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Ztones:minicoal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        799
+      ],
+      "questID": 802
     }
   ],
   "questLines": [
@@ -116065,15 +116591,81 @@
       "quests": [
         {
           "size": 24,
-          "x": 72,
-          "y": 100,
-          "id": 192
+          "x": 32,
+          "y": 200,
+          "id": 128
         },
         {
           "size": 24,
           "x": 32,
+          "y": 168,
+          "id": 130
+        },
+        {
+          "size": 24,
+          "x": 0,
+          "y": 168,
+          "id": 137
+        },
+        {
+          "size": 24,
+          "x": 64,
+          "y": 168,
+          "id": 138
+        },
+        {
+          "size": 24,
+          "x": 136,
           "y": 200,
-          "id": 128
+          "id": 151
+        },
+        {
+          "size": 24,
+          "x": 236,
+          "y": 0,
+          "id": 799
+        },
+        {
+          "size": 24,
+          "x": 268,
+          "y": 0,
+          "id": 800
+        },
+        {
+          "size": 24,
+          "x": 236,
+          "y": 32,
+          "id": 801
+        },
+        {
+          "size": 24,
+          "x": 268,
+          "y": 32,
+          "id": 802
+        },
+        {
+          "size": 24,
+          "x": 30,
+          "y": 24,
+          "id": 189
+        },
+        {
+          "size": 24,
+          "x": 136,
+          "y": 100,
+          "id": 190
+        },
+        {
+          "size": 24,
+          "x": 136,
+          "y": 68,
+          "id": 191
+        },
+        {
+          "size": 24,
+          "x": 72,
+          "y": 100,
+          "id": 192
         },
         {
           "size": 24,
@@ -116086,12 +116678,6 @@
           "x": 136,
           "y": 164,
           "id": 194
-        },
-        {
-          "size": 24,
-          "x": 32,
-          "y": 168,
-          "id": 130
         },
         {
           "size": 24,
@@ -116137,21 +116723,9 @@
         },
         {
           "size": 24,
-          "x": 0,
-          "y": 168,
-          "id": 137
-        },
-        {
-          "size": 24,
           "x": 268,
           "y": 200,
           "id": 202
-        },
-        {
-          "size": 24,
-          "x": 64,
-          "y": 168,
-          "id": 138
         },
         {
           "size": 24,
@@ -116215,8 +116789,8 @@
         },
         {
           "size": 24,
-          "x": 16,
-          "y": 20,
+          "x": 0,
+          "y": 24,
           "id": 213
         },
         {
@@ -116230,12 +116804,6 @@
           "x": 104,
           "y": 0,
           "id": 215
-        },
-        {
-          "size": 24,
-          "x": 136,
-          "y": 200,
-          "id": 151
         },
         {
           "size": 24,
@@ -116263,8 +116831,8 @@
         },
         {
           "size": 24,
-          "x": 200,
-          "y": 0,
+          "x": 72,
+          "y": 30,
           "id": 220
         },
         {
@@ -116314,24 +116882,6 @@
           "x": 0,
           "y": 132,
           "id": 232
-        },
-        {
-          "size": 24,
-          "x": 252,
-          "y": 20,
-          "id": 189
-        },
-        {
-          "size": 24,
-          "x": 136,
-          "y": 100,
-          "id": 190
-        },
-        {
-          "size": 24,
-          "x": 136,
-          "y": 68,
-          "id": 191
         }
       ],
       "lineID": 5,
