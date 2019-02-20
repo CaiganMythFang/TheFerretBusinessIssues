@@ -2,6 +2,31 @@
   "_name": "GrimoireOfGaia.Witch",
   "drops": [
     {
+      "_comment": "Remove Book of Memory",
+      "function": "all",
+      "functions": [
+        {
+          "_comment": "Remove Book of Memory",
+          "function": "remove",
+          "id": "GrimoireOfGaia:item.GrimoireOfGaia.MiscBook"
+        }
+      ]
+    },
+    {
+      "_comment": "Add Book of Memory back, super rare",
+      "function": "if_recently_hit",
+      "count": 0.005,
+      "functions": [
+        {
+          "_comment": "Add Book of Memory back, super rare",
+          "function": "add",
+          "id": "GrimoireOfGaia:item.GrimoireOfGaia.MiscBook",
+          "damage": "0",
+          "count": "1"
+        }
+      ]
+    },
+    {
       "_comment": "Drop Mystical Powder",
       "function": "if_recently_hit",
       "count": 0.25,
