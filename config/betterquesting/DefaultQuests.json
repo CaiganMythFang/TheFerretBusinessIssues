@@ -58136,44 +58136,10 @@
           "lockedProgress": false,
           "autoClaim": false,
           "isSilent": true,
-          "desc": "    The Hyperenergetic Nitor shows us that we can take Alchemical infusions even further. Wiggles is very insistant in me warning you, though, that some of the research you are about to learn can be VERY DANGEROUS. For reasons of legality and totally NOT because I hate paperwork from accidents, the Q.U.E.S.T. Tablet will automatically be labelling the dangerous items. \n    Now, there are six types of Imbued Fire. Four of them are very dangerous if used wrong. Ordo is one of the safer Imbued Fires. If you make a pile of Ores and Right Click the Ordo Imbued Fire onto it, the flames will consume the Ore, and leave around three times the Metal behind.\n    Did you use Imbued Fire wrong? Do you need to contain it? Well, Wiggles and I did warn you. You can \u0027try\u0027 to put out the magical fire with the use of Perdito Imbued Fire, but if it\u0027s spread too wide it is probably too late.\n    When you Research all of the Infused Fires, you can then Research something a bit safer. You can infuse normal Seeds with any of the six basic elements. When you grow them, you\u0027ll get Infused Grains. When you grow different Aspects in the same soil, they can fuse into Combined Aspect seeds. Infused Seeds will also draw aspects from adjacent plants. The Thauminomicon has more information on how this system works.\n    Have a lot of worn down tools you don\u0027t want to trash and rebuild from scratch? Well, the Thaumic Restorer can definitely help out. Hooking up an Essentia Tube system with jars of Instrumentum Essentia to the Restorer will enable it to repair tools you place into it.\n    �lWIGGLES NOTE : �r�oThe Thaumic Restorer infusion does not always work. We haven\u0027t figured out why, but you can make it in the Arcane Workbench instead!�r"
+          "desc": "    The Hyperenergetic Nitor shows us that we can take Alchemical infusions even further. Wiggles is very insistant in me warning you, though, that some of the research you are about to learn can be VERY DANGEROUS. For reasons of legality and totally NOT because I hate paperwork from accidents, the Q.U.E.S.T. Tablet will automatically be labelling the dangerous items. \n    §4§o[§lFERRET BUSINESS OSHA TEAM§r§4§o : Imbued Fire has been banned from the premises after a mishap in which the entire gymnasium had been replaced with cake. Tasty, but the opposite of what the gym is for. Imbued Fires are still craftable, but they cannot be used.]§r\n    When you Research all of the Infused Fires, you can then Research something a bit safer. You can infuse normal Seeds with any of the six basic elements. When you grow them, you\u0027ll get Infused Grains. When you grow different Aspects in the same soil, they can fuse into Combined Aspect seeds. Infused Seeds will also draw aspects from adjacent plants. The Thauminomicon has more information on how this system works.\n    Have a lot of worn down tools you don\u0027t want to trash and rebuild from scratch? Well, the Thaumic Restorer can definitely help out. Hooking up an Essentia Tube system with jars of Instrumentum Essentia to the Restorer will enable it to repair tools you place into it.\n    �lWIGGLES NOTE : �r�oThe Thaumic Restorer infusion does not always work. We haven\u0027t figured out why, but you can make it in the Arcane Workbench instead!�r"
         }
       },
       "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "groupDetect": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "ThaumicTinkerer:fireOrder",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 0
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "groupDetect": true,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "ThaumicTinkerer:fireChaos",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 1
-        },
         {
           "partialMatch": true,
           "ignoreNBT": true,
