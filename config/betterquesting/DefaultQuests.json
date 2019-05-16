@@ -120584,6 +120584,58 @@
         832
       ],
       "questID": 845
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:diamond",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Returning Home",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : Bandit, just in case you get lost in the Twilight Forest and forgot to set a waypoint for the portal home, you can just remake the Twilight Portal anywhere. Remember, 2x2 still water, surrounded by flowers, and throw a Diamond into the water. Scans show Diamond Ore is as plentiful as in your Overworld. But I\u0027ll send you a Diamond for free, just in case."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:diamond",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        17,
+        810
+      ],
+      "questID": 846
     }
   ],
   "questLines": [
@@ -125763,6 +125815,12 @@
           "x": 112,
           "y": 80,
           "id": 845
+        },
+        {
+          "size": 24,
+          "x": 208,
+          "y": 208,
+          "id": 846
         },
         {
           "size": 24,
