@@ -116210,6 +116210,4380 @@
         807
       ],
       "questID": 808
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:tile.TFFirefly",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "A Moonlit Walk",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    Hey Bandit, we\u0027re getting strange readings on the scanner. Well, kind of readings, kind of messages. They are kind of cryptic and are tagged with the name Benimatic which... oh. One of our researchers apparently recognized and ran off really excited?\n    Oh, there she is.  She says she has a quest for you : collect a Poppy, a Dandelion, and a red Mushroom, as well as a Diamond. You can hold onto the Diamond, but send her the other plants!\n    I\u0027m not sure why she called it a quest but... oh. OH. Of course. Well, I\u0027m not going to spoil the surprise so...\n    Get her the stuff she asks, Bandit. Let\u0027s just say she\u0027s really good at what she does, but it can be pretty... intense. Oh and have fun!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": true,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:red_flower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:yellow_flower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:red_mushroom",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:diamond",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        10
+      ],
+      "questID": 809
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "ferretshinies:IconAsset",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 49
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "[Prologue]",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM Gem : Bandit! Glad to see you here. Everyone else is getting set up and loading into the game now. We can get started then. Make sure your character sheet is finished and...\n    [Voice] : Gem.\n    GM Gem : ...you have enough equipment and...\n    [Voice] : GEM!\n    GM Gem : What? I\u0027m just... oh! Right, sorry. I forgot about your situation so uh... one minute and.... Okay. We can go over the really really short summary for you.\n    [Voice] : Gem...\n    GM Gem : Okay, as short as I can make it. Yeesh. We\u0027re kind of a unique set of labs that work together. We use a simulated Virtual Reality environment to explore, research, and examine locations we can\u0027t send a team to directly.\n    [Voice] : Usually we send robots, drones, etc, but... neither is a choice this time. So we\u0027ll build the Virtual world using the data from your Q.U.E.S.T. Tablet.\n    GM Gem : There\u0027s a lot of data, but we can\u0027t really get like... High Def view through your eyeballs, right? So we\u0027re going to translate the data through one of our team building programs... an RPG.\n    [Voice] : We\u0027ll be playing along. Its more fun that way. Plus we haven\u0027t had an RPG session since last year...\n    GM Gem : Right! Okay, everyone is loaded into the Home Area. Please introduce yourself.\n    Fighter : Sigh... I\u0027m Foster, forgotten diety researcher. I play a basic Fighter.\n    Artificer : Amber, astral artifact specialist. I\u0027m an Artificer.\n    Mage : Max, magic monster researcher. Surprise, I\u0027m a Mage!\n    Gunslinger : Grisom, gruesome artifact researcher. Gunslinger.\n    GM Gem : And I\u0027m Gem, the Game Master. I\u0027ll handle describing everything, working out the research data, and then guiding everyone forward. In character of course. Lets get started..."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        809
+      ],
+      "questID": 810
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:tile.TFFirefly",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "The Twilight Forest",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : The great explorer Benimatic left a legacy behind, having found another world, much unlike our own. A world in perpetual twilight, steeped in magic and danger. They left only a few clues for those who have the adventuring spirit. Only Bandit the Hero had pieced together the clues, gathering a party of adventurers and setting forth.\n    Fighter : At least we didn\u0027t meet in an Inn again...\n    GM : Bandit dug a 2x2 pit in the grass, one block deep. Into the pit they placed four buckets of water, so that the water lay still. They planted twelve plants on the surrounding blocks, a mixture of flowers and mushrooms.\n    Mage : Most plants should work. Just make sure they frame the pool.\n    GM : And finally, a payment to the Gods must be made. A diamond, dropped into the still waters, will open the path to the Twilight Forest.\n    Mage : The water will turn purple, according to Benimatic. Just jump in, Bandit!\n    GM : The party, one after another, steps into the shimmering pool, everything going dark. The party comes to, standing in a forest. The trees stretch high above, higher than any of them have seen before. Bright yellow lights dot the trees, providing bursts of light in the soft twilight. \n    Fighter : Huh, interesting. Bandit, could you collect one of those? They look like fireflies, just the size of your head! Interesting!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:diamond",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:tile.TFFirefly",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        810
+      ],
+      "questID": 811
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:tile.TFLog",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "The Forest",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : The Fighter reaches up and grabs one of the large fireflies from the nearest tree. It flutters its wings a bit, but calms down. He takes out an empty glass bottle from his bag, placing the firefly into it.\n    Artificer : Hey, thats a good idea. They are pretty tame, so a Firefly Jar makes a great portable light source!\n    Mage : Huh, looks like they survive off the latent magic in the air....\n    Gunslinger : Let\u0027s gather some wood. We may need some for a campfire later, or shelter if we\u0027re going to be here a while...\n    Artificer : Also a good idea. Bandit, it looks like there are two kinds of trees unique to this area. Just gather some logs to see what they are like.\n    GM : The party looks around. The Twilight Oak Wood is the easiest to find, being everywhere they looked. The Canopy Tree was a little more rare, but easy to find. Even though the Twilight Oaks were tall, the Canopy Trees touched the heavens. Interestingly, they seemed to be hollow inside. Perhaps one could climb inside them if they were brave enough."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:tile.TFFireflyJar",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:tile.TFLog",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TwilightForest:tile.TFLog",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        811
+      ],
+      "questID": 812
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.tfFeather",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "To The Canopy",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : As the party explores the nearby forest, they notice the variety of creatures that call it their home. Some are familiar, many feathered fliers flit about the treetops. Deer graze through the vegetation on the forest floor. Unlike the Overworld from where they came, this seemed... tame. Benematic the explorer warned of the dangers, but the worst thing the party has found was a zombie, seeming quite lost.\n    Mage : Well, he was right about one thing. We\u0027ve been exploring for a while and its still twilight. Kind of spooky.\n    Gunslinger : Given the rules of Bandit\u0027s entire dimension, I don\u0027t think they will be able to sleep to pass the time either. It\u0027s never night time.\n    Fighter : We need to find a landmark. I\u0027ve seen some sort of tower poking over the canopy. I want to climb to the top of one of those Canopy trees. That\u0027ll give us a good view, and we can collect some Canopy Tree Saplings as well.\n    Artificer : I think we should hunt some of the local deer. We will need food soon, the lack of a light cycle will effect our sense of time.\n    Mage : And I\u0027m going to see about collecting some Raven\u0027s Feathers. They should be good magus foci for later. I feel we\u0027re going to need them soon.\n    GM : And so the party split up to attend to different tasks. One climbed to the high canopy to survey the land and collect saplings. One went hunting to bolster the party\u0027s food supplies. And those remained went about the difficult task of hunting the flighty Raven for its feathers."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:tile.TFSapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.venisonRaw",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.tfFeather",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        812
+      ],
+      "questID": 813
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:written_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "pages:9": {
+                "8": "magician. Such a person would likely hide themselves in an extreme environment, far away.\n\nBased on my logic, I would expect to find such a person somewhere on the glacier, perhaps in some sort of fortress there..."
+              },
+              "author:8": "A Forgotten Explorer",
+              "title:8": "Notes on an the Highlands"
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Wrong Turns?",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : The party explores the forest, traveling towards points in the distance that catch their eye. At the large tower, a pulsing red force blocks their vision. It prevents the Artificer\u0027s pick from chipping at the brick wall.\n    Artificer : Magic defenses?\n    GM : Along another path, the rain is a solid wall in front of them. Stepping into it burns them, through every layer of armor they could don, even while underground.\n    Mage : What even....\n    GM : Each time the attempted to venture deeper through these dangers, a small blue creature attacked them, attempting to distract them from leaving the area.\n    Fighter : Begone, evil creature!\n    GM : Upon the deathblow, a book tumbled out of the creatures pocket. It was signed by a Forgotten Explorer, and reading through it talked of various creatures and places.\n    Gunslinger : Interesting. Each book gives us a clue on how to proceed. Why?\n    Mage : Maybe Benimatic left some clues for those \u0027brave enough\u0027 to find this place?\n    Artificer : Or its part of the inherent magic of this place?"
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        812
+      ],
+      "questID": 814
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.torchberries",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "To the Root",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : The forest was full of curious places to explore. Openings in the rolling hills lead down into caves, the walls glittering with ores. Roots from the various trees hung down from the cave ceilings, and bioluminescent plants clung to walls, providing more light in the low twilight.\n    Gunslinger : These trees have extensive Roots. See? They go well into the ground, and then some fill the caves. Intriguing.\n    Mage : Those cave ones seem a lot different, more like Root Strands. Let\u0027s gather both to examine.\n    Artificer : Look here. These are pretty bright. They taste like... eugh. But... hm... Hey, they make good Torches!\n    Mage : A good idea. We can call them Torchberries. \n    GM : The party traveled a bit deeper into the cave. They noticed some of the ores and plants were different than the rest.\n    Fighter : This... guys! It looks like the fabled Draconic Ore! Quick, Artificer! Gunslinger, get a Furnace going, if I\u0027m right, we\u0027ve found riches! Gunslinger, collect some of those berries too! They look similar!\n    GM : Some of the strange ore was collected and a smelting Furnace built. No matter how hot the party got the ore, it never melted or changed.\n    Fighter : Sigh, this is stupid. Why does this even exist?!\n    Mage : Benematic warned of this. Things aren\u0027t always what they seem.\n    Artificer : Lets call this Trollsteinn. And these berries taste like trash, and don\u0027t even do anything like the Torchberries. Heck, even the vines can\u0027t be turned into sticks!\n    Gunslinger : Trollvinr and Trollber. Might as well call them similarly.\n    Fighter : This isn\u0027t even a good troll, ugh."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:tile.TFRoots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TwilightForest:tile.TFPlant",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.torchberries",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:tile.TrollVidr",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TwilightForest:tile.TrollBer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TwilightForest:tile.TrollSteinn",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        812
+      ],
+      "questID": 815
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.magicMap",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Snake Way",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : Gathering and examining a few of the uniqute materials of the Twilight Forest, the Mage notices that the Torchberries seemed to react when brought close to the Raven\u0027s Feather.\n    Mage : The magic in both seems to be... sympathetic?\n    Artificer : Hand them here. Gunslinger, give me some of that Glowstone Dust... just a little... Voila!\n    Gunslinger : You made a glowing feather.\n    Fighter : Pretty, but...\n    Mage : Wait, it seems to put off some stronger magic vibes now... It almost looks like a wizard\u0027s quill like that...\n    Artificer : Hmmm. I have some paper. I\u0027ll need a few minutes.\n    GM : The party watched as the Artificer worked. As she held the glowing feather, it quickly became clear what it was truely made for : as a Magic Map Focus. Surrounded in paper, it became a Blank Magic Map. When the Artificer Right Clicked while holding it, the map began to fill itself in, marking important locations.\n    Mage : What a great idea. A magic pen to cartographic the local area.\n    Fighter : Is... that an actual word?\n    Gunslinger : More importantly, its showing us points of interest.\n    Artificer : And our location... though I think its confused on which way we are looking.\n    GM : The party discusses for a bit, walking around and watching as the map filled out more and more. The map showed the land as different shades of green. Some of them were areas the party had attempted to enter earlier, only for magical forces to push them back.\n    Fighter : Hm...this snake head looking mark. Thats in an area we can go.\n    Gunslinger : And the mysterious book we found mentioned a Naga we needed to find. That is where we shall find them, I wager.\n    Mage : A good plan.\n    GM : The party approached the walled courtyard. The walls were an unbroken square surrounding it, motifs of snakes adorning the moss covered brick and stone. The part broke through a corner of the wall, ready for anything, though only birds seemed to occupy the pillar filled courtyard. But as they approached the center, a giant snake burst out of nowhere, bearing down on the party!\n    Gunslinger : Spread out! Aim for the head!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.magicMapFocus",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.emptyMagicMap",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.nagaScale",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        813,
+        815,
+        814
+      ],
+      "questID": 816
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.trophy",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "A Crowned Tower",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : With a snickersnap, Bandit swings and beheads the Naga. The body dissolves, leaving behind a handful of large scales and the trophy head. As each party member touches a scale, a tingling of power fills them for a moment.\n    Artificer : Whoa, interesting. Anyone else feel that?\n    Gunslinger : Yes. According to this book, we should now be able to enter the big tower we saw earlier, where the red force obstructed us.\n    Fighter : Lets do this.\n    GM : The party set off, approaching the tall tower that jutted over the canopy. Smaller towers branched off again and again from the main tower, looking like a strange stone tree. \n    Mage : There doesn\u0027t seem to be a front door. How do we...\n    GM : Without a word, the Artificer strode to the closest wall and knocked a hole in it with one of her many devices.\n    Mage : Not a bad idea, I guess...\n    GM : The party broke into a side tower, where thick cobwebs glistened in the darkness. The rattle of bone and zombie moan echoed from the darkness. Torches were planted to give light as the party carved through the skeletons and zombies. Among the creatures that flowed in from the main tower were floating books, mystical runes falling from the pages as magic bolts of energy assaulted the party.\n    Gunslinger : Look, the center tower has a spiral staircase. Ascending it should funnel the creatures to our fronts and backs and be easier to fend off.\n    Fighter : Go go, push through!\n    Mage : Watch your step, this staircase is falling apart!\n    Artificer : The path branches out. A double helix staircase?\n    Mage : Don\u0027t split up. We can backtrack later. Lots more enemies coming up!\n    Fighter : Agh, they are coming in from the side towers now. Block em up with wood, we\u0027ll clean it after we reach the top.\n    Gunslinger : There, I see the top. A glass floor. Tons of paintings.\n    Mage : Gee I wonder if a wizard lives here.\n    Fighter : Or an eccentric millionare.\n    GM : From below, the top floor was empty, save for the candleabra and paintings covering every wall. The moment the Fighter\u0027s head entered the room, a magic glow filled the center of the room. A purple robed being materialized quickly, orbs of ender and flame floating around it\u0027s head, golden shields circling around its body. A withered, undead face turned to the party, a crown glowing on its bony features.\n    Artificer : Worse, a Lich! \n    Gunslinger : Quick, dispatch the adds before they overrun us.\n    Fighter : What are those, mirror images? My sword isn\u0027t doing junk to any of them! Yikes, watch out for those orbs!\n    Mage : Damnit, those shields. Try getting it to shoot itself with an orb!\n    Fighter : No, better idea. Batter up! Send em back where they came from!\n    Artificer : Good! Deflect the ender orb back! It destroys a shield! Avoid the fireballs!\n    Mage : Now you warn me! Wait, shields down! Now we got adds!\n    Fighter : Damnit, there\u0027s too many. I can\u0027t get a good swing on the lich!\n    Gunslinger : Focus on them, he\u0027s gotta run outta juice at some point!\n    Artificer : I\u0027m not sure thats how it wo... wait, he\u0027s got a sword!\n    Fighter : Finally! Come on, bring it! YAH!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.scepterTwilight",
+              "Count": 1,
+              "OreDict": "twilightscepter",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        816
+      ],
+      "questID": 817
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.plateNaga",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Being Green",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : The party takes a bit to rest and inspect some of the items they\u0027ve obtained during their early steps into the Twilight Forest.\n    Artificer : Hm, these Naga Scales... I think I can fashion them into some nice armor.\n    GM : The Artificer takes the collected scales and pulls out her her crafting kit. An hour later, she lays out a tunic made from the scales. Each party member inspects the tunic, nodding in appreciation of the craftsmanship.\n    Artificer : Tada, a Naga Scale Tunic! If I had a couple more scales, I could make a matching pair of Naga Scale Leggings!\n    Gunslinger : A nice green color blends in with the environment.\n    Mage : Very nice, but too heavy for my liking, I\u0027ll let someone else take it.\n    Fighter : Not as nice as my metal breastplate. I\u0027m good.\n    GM : The Gunslinger and Artificer debate over who gets it. In the end, they play jan ken pon to see who gets them."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.plateNaga",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        816
+      ],
+      "questID": 818
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:tile.HugeLilyPad",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Mah Swamp",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : With a mighty blow, the Fighter cuts the Lich in half, the magic escaping its crumbling body. The Scepter it once used to assault the party with orbs of Ender and Flame falls to the floor, along with the trophy of its head and some golden armor.\n    Fighter : That... was a rough fight... dang it hit hard...\n    Mage : Sit down. I\u0027ll tend to your wounds. We need to rest for a bit anyways, I\u0027m almost out of spells...\n    Gunslinger : The Artificer and I will clear out the adjoining rooms and put up some boards for the night. Or day. Or... the next eight hours.\n    GM : The party sets up some barriers and rests for what would usually be a night, taking guard shifts in case the Lich wasn\u0027t really dead. The Scepter of Twilight, dropped by the Lich, was examined by everyone in the morning, the familiar tingle of magic rushing through them. Another path had opened, perhaps?\n    Gunslinger : Hey, this Scepter fires off those Ender orbs. Nice. Should come in handy.\n    Artificer : Yep, I examined it. Looks like once it runs out, we can just combine it with an Ender Pearl to recharge it and go blasting off again.\n    Mage : It looked like the Lich had three scepters though... One to summon Zombies, and another to drain our health along with this Twilight Scepter...\n    Artificer : I guess if we fight more of them, we might get a different scepter? \n    GM : Rested and fed, the party ventures back out into the Twilight Forest, heading to to the next location hinted in the various books dropped by the Kobolds who hounded them occasionally : the Swamps.\n    Mage : Ugh, at least the giant swarms of insects aren\u0027t stopping us anymore.\n    Artificer : Yeah, just these smaller ones. Ew.\n    Fighter : Ugh, I hate dredging through swampy terrain in metal armor. \n    Artificer : These giant lily pads... hey, we can collect them and use them to move from one piece of solid land to another!\n    Gunslinger : We can use these Mangrove Wood logs to make bridges as well.\n    Fighter : Uuughh. What are we even looking for?\n    Mage : Benimatic writes that what we seek is in the center of the swamp, below the surface a Labrynth sits and a challenge awaits.\n    Gunslinger : Oh boy I bet I know what we\u0027re gonna face...\n    GM : The party tredges through the swamps, towards the small hills towards the middle. There, they find caves that break the surface, down into the darkness below. The rough tunnel walls soon turn into smooth grey brick and circle patterned floors : the Labrynth."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:tile.HugeLilyPad",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TwilightForest:tile.TFLog",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        817
+      ],
+      "questID": 819
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.mazeMapFocus",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Of Mazes and Minotaurs",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : The party descends into the maze of the Labrynth. The grey walls and floor make each room, each hallway blend into each other. The party gets turned around multiple times as they explore, having to backtrack and find a new path to go. Constantly, the party is assaulted by minotaurs, giant insects, and slimes that blend into the grey of the brickwork.\n    Fighter : Ugh, is there no end to these dang things?!\n    Gunslinger : I\u0027m running low on ammo here.\n    Mage : Dangit. Wait, what did that minotaur drop? Let me see that. Yeah... it\u0027s giving off the same energy as the Raven\u0027s Feather!\n    Artificer : Hand it here, quick. And cover me while I put this together. One Maze Map Focus, a pile of paper, and... voila! One Blank Maze Map.\n    Gunslinger : Here, I\u0027m out of bullets now. Give me the map and I\u0027ll guide us through this place.\n    GM : The party fought through the first level of the labyrinth, the Gunslinger guiding them to the larger rooms. Smaller rooms hid trapped treasures, but careful breaking and grabbing of falling blocks prevented the large explosions from happening. Before long, the party had found a large room with a barred pit to the lower level.\n    Artificer : Where the heck are the stairs?\n    Fighter : We might have missed them. \n    Gunslinger : This map is not that helpful. This might be our only way down.\n    Artificer : Good thing I\u0027ve got rope!\n    Mage : Because of course you do.\n    GM : The party put together the rope and some sticks and made themselves a rope ladder. Ten Meters, Twenty Meters, the drop was dangerous, and below them they could see the various monsters gathering. Steeling themselves, the Fighter went first, then leapt into the fray with a loud battle cry. Behind him, the others lobbed magical shots to back up the Fighter, the Gunslinger carefully aiming with the Scepter of Twilight. The room was cleared quickly, and the party regrouped.\n    Gunslinger : The map only shows the first floor. Perhaps we can make a second one. Do we have another Maze Map Focus?\n    Artificer : Already ahead of you. And voila, another map, here you go!\n    Gunslinger : Okay and... that way!\n    GM : The party set out again, carving their way through the second level of the Labyrinth. Large mushrooms dominated some rooms and hallways, and more slimes than ever hounded the party. Finally, they reached a room sealed by fenceposts, inside an actual four legged minotaur raged back and forth upon seeing the party, its fur red and covered in mushrooms.\n    Mage : A... mooshrotaur? Mushroomtaur? Minoshroom. Let\u0027s go with that.\n    Fighter : Lets call it lunch. I could go for steak and mushrooms..."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.mazeMapFocus",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.emptyMazeMap",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.meefStroganoff",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        819
+      ],
+      "questID": 820
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.mazebreakerPick",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "ench:9": {
+                "10": {
+                  "lvl:2": 2,
+                  "id:2": 35
+                }
+              }
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Treasure?!",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : With the Minshroom dead, the party picks their way back towards the Rope Ladder and the surface. However, the Gunslinger, staring intently at the Maze Map, stops them.\n    Gunslinger : Wait. Whats this... blank area?\n    Artificer : Where?\n    Gunslinger : Here, see? Marked solid walls.\n    Mage : So? Its solid walls.\n    Fighter : Wait, do you think...\n    Mage : Oh. OH! Yeah, duh. Treasure room. \n    Artificer : Let\u0027s go. Wish I had a Sticky Piston to carefully pull the walls out but, eh, we\u0027ll be careful."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.minotaurAxe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        820
+      ],
+      "questID": 821
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.fieryBlood",
+            "Count": 9,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "A Head of the Game",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : Standing his ground, the Gunslinger stares down the charging Minoshroom. At the last second, he sidesteps, bringing his revolver up in one hand, the Scepter of Twilight in the other. Twin shots finish off the Minoshroom. \n    Gunslinger : My last bullet... let\u0027s get out of here...\n    GM : Back in the swamp, the party regroups around a campfire. The Minshroom had dropped its deadly Minotaur Axe, as well as a few bowls of strange stew. Away from the dark, dangerous Labyrinth, the party examines the bowls of Meef Stroganoff.\n    Fighter : I\u0027m starving. Give me that bowl, I just want to smell it... wh...whoa.\n    Mage : You okay there?\n    Fighter : Yeah. Here, you just need a big nose full of this, you\u0027ll see!\n    Mage : This better not be... oh. Wow, that\u0027s smells so good. And there\u0027s that magic tingling. Its so satisfying to feel. Is that weird to say?\n    Gunslinger : Ah, that means we can venture into a new area. Where are we going to next?\n    Artificer : Hey, looks like we\u0027re going to more swamps...\n    Fighter : Please no.\n    Artificer : Fire Swamps.\n    Fighter : Whyyyy...\n    GM : After a few hours rest, the party breaks camp and heads off. In the distance, they could see the deep greens of the swamp give way to deep reds, jets of flame and smoke could be seen in the distance. Swords and spells at the ready, the party pressed into the much warmer swampland.\n    Fighter : Uugh, I don\u0027t what I hate more. The cold swamp or the hot swamp.\n    Gunslinger : What should we be searching f...\n    GM : A roar cuts through the swamp. Towards the rough center of the swamp a large mound can be seen, birds scattering every which way from it as another roar echoes through. The party looks at each other, then rushes forward, circling the hill to look for an opening. The other side of the hill is broken open like an egg, a three headed creature towering over the party. Each head roars out in turn, staring down the party.\n    Fighter : Aw come on. \n    Mage : At least we aren\u0027t in an enclosed arena this time. Lets go!\n    Gunslinger : Watch the heads! Spread out a bit!\n    Fighter : Argh, my flaming sword doesn\u0027t stop the heads from doubling when I chop one off!\n    Artificer : Deflect the fireballs back at it!\n    Fighter : That\u0027s not doing enough. We need to hit the main body. \n    Mage : Wait, cutting off heads seems to be weakening it.\n    Fighter : But that\u0027s making even more heads!\n    Gunslinger : It has to run out some time. Go for the heads!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.fieryBlood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        820
+      ],
+      "questID": 822
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:tile.TFFireJet",
+            "Count": 2,
+            "OreDict": "",
+            "Damage": 8
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Smoke and Fire",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : The Hydra defeated, the party explores the swamp further, searching for more interesting sights. Near the Hydra\u0027s broken hill, the party comes across what looks like a dent and a scorchmark in the grass.\n    Fighter : What is...\n    GM : Without warning, a pillar of flame bursts straight to the sky, knocking the party back. After a few seconds, the flames cut off, leaving the grass slightly scorched like before.\n    Gunslinger : That was close...\n    Mage : What are you doing?\n    Artificer : Hold on. Can I... yep! Look, its some magical material. I can just dig it out with a pickaxe.\n    Mage : Whoa wait, you aren\u0027t going to carry that with you, are you?\n    GM : The Artificer did, as when harvested, the Fire Jet became inert. Later, after more adventures in the Twilight Forest, the Artificer pulled the Fire Jet out and examined it. She looked over some of the Towerwood they had gathered, and realized she could use it to make a more controllable version.\n    Artificer : See? Now it needs a Redstone Pulse to activate. Much safer.\n    Gunslinger : An Enacased Fire Jet? Interesting.\n    Artificer : We should go back to the fire swamp some time, I saw some Smoking Blocks I could probably do the same thing with.\n    Fighter : Do... do we have to?"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:tile.TFFireJet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:tile.TFFireJet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        822,
+        832
+      ],
+      "questID": 823
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:tile.TFLog",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 3
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "A Twilight in the Woods",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : Five heads, six heads, seven heads, the party attacks the Hydra relentlessly, dodging fireball and flaming breaths. Eventually, the Hydra collapses, dissolving away and leaving a pool of blood, some cooked meat, and a head as a Trophy. The blood shrinks down, transforming into slender bottles of Fiery Blood, quite warm to the touch.\n    Fighter : Man, these would have been nice in the cold swamp.\n    Mage : Keep hold of them. We\u0027ll probably go somewhere cold again with our luck. Plus hey. Tingle time.\n    Gunslinger : Indeed. Looks like we\u0027re going to... hm... a Dark Forest?\n    Artificer : Oh no, was that that forest with all the creepy ghost tentacles that looked like whacky flailing...\n    Fighter : Man don\u0027t remind me, that was creepy.\n    Gunslinger : With this Fiery Blood they should be gone. But Dark Forest, well... anyone got some Night Vision potions?\n    Artificer : Lets camp for a while. We need to restock, and I\u0027ll whip up some potions for us.\n    GM : The party recovers from the grueling fight, eating some of the Hydra Chops which were cooked perfectly. The Gunslinger forges some more ammo from the metals in the broken hill, while the Artificer brews up some night vision potions in preperation. Consulting the Magic Map, the party heads off to the darker areas, surmising thats where they would find the Dark Forest.\n    Mage : Wow, this is really dark. Here, bottoms up.\n    Artificer : Carrot flavored? Really?\n    Gunslinger : The map shows two symbols within the dark forest. Which should we explore first?\n    Mage : Hm, these T looking symbols, theres a bunch more of them. And one is pretty close.\n    Fighter : Looks like a helmet.\n    Artificer : Either way, let\u0027s go. Wait, let me grab some of this Darkwood here. Might be useful later.\n    GM : The party presses deeper into the dense, dark forest. Eventually they came upon what looked like ancient ruins, most of the buildings having fallen long ago, only the walkways and low walls having survived. The party carefully explored the ruins, until they found a small chamber. Part of the floor had red circles on it, reminding them of the red magic protecting the Lich\u0027s Tower. Adjacent to the floor sat a pedestal, each side of it having the image of a creature\u0027s head on it.\n    Mage : Huh. The Lich, the Naga, the Hydra... what is this for?\n    Fighter : Looks like a Trophy Pedestal. Hey, I got this Hydra Head here. Should I put it on the Pedestal?\n    Gunslinger : Let\u0027s... just step back first. Go ahead Fighter...\n    GM : The moment the Hydra\u0027s head was placed onto the Latent Trophy Pedestal, it awakened, and the red ringed floor collapsed, revealing the main part of the Ruins underneath.\n    Artificer : Down we go again..."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:tile.TFLog",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        822
+      ],
+      "questID": 824
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.phantomHelm",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "ench:9": {
+                "10": {
+                  "lvl:2": 4,
+                  "id:2": 4
+                }
+              }
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Night Knight Nite",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : As a group, the party drops down into the underground ruins. A few Helmet Crabs assault them, their homes disturbed. Quickly dispatched, the metal shells on their back drop down and are quickly collected.\n    Artificer : Hmmm. There isn\u0027t much metal in just one of these, but... no, I\u0027ll worry about that later. Come on.\n    GM : The group begins to explore the twisting, vast ruins. Not as bad as the Labyrinth, but without a proper map it was slow. Around a turn in one hallway they were met with a large, heavily armored Knight, tower shield at the ready as he charged forward.\n    Gunslinger : Knights! Is it undead? Why is it here?\n    Mage : Questions later. Blast it now.\n    Fighter : Yah! H...wait, I sheared it in half, its hollow. Haunted?!\n    Artificer : No, the legs have something... is that a goblin? Seriously?\n    Gunslinger : How does it....\n    Mage : More questions later, more blasting now.\n    GM : The party trudges deeper into the winding corridors of the ruins, fighting various different armored goblins. They attempted to find stairs that went deeper, but many of them lead to dead ends. A wide open room dropped into a large pool of lava, a thin walkway surrounding it below. They could see a doorway off one of the walkways.\n    Artificer : Good thing I collected this wood. Ladders coming right up...\n    GM : Even these lead to various dead ends, though some of them contained treasure chests at the least. Eventually, one path finally lead to a room sealed off by Iron Bars. Inside, the party could see armored Knights floating all around rows of coffins.\n    Mages : Knight Phantoms, and their final resting place.\n    Fighter : Time to lay them to rest... charge!\n    GM : The party struck fast. One Knight Phantom would morph into a stronger ghost, flinging pickaxes in every direction, while the rest of the Knights protected it, reforming when dispatched. Each time the powerful Phantom was struck down, another of the Phantoms changed, taking its place."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.armorShards",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.phantomHelm",
+              "Count": 1,
+              "OreDict": "phantomarmor",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        824
+      ],
+      "questID": 825
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.knightMetal",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Recycled and Reused",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : With a moment to breath with the Knight Phantom\u0027s dispatched, the Artificer pulls out the pile of Armor Shards they had collected. She got the help of the Gunslinger to get a Furnace going, combining some into an Armor Shard Cluster and smelting it. Given that the metal shards originally came from the various suits of armor the goblins had stolen and the hermit crabs had used, they decided to call it Knightmetal.\n    Artificer : Voila! We can use these Knightmetal Ingots and create some weapons and armor! See? A Knightly Helm!\n    Fighter : Now you\u0027re talking my speed."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.shardCluster",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.knightMetal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.knightlyHelm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        825
+      ],
+      "questID": 826
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.steeleafIngot",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "A Leaf in the Forge",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : The endlessly winding corridors of the Labyrinth yield a multitude of monsters for the party to defeat, but also many hidden treasures. In many of the treasure chests, large thick leaves sit among metal ingots and weapons.\n    Fighter : Leaves? What are... wow these are kind of heavy for leaves.\n    Gunslinger : And strong. I can\u0027t bend one with my bare hands.\n    Artificer : Let me see. Oh interesting. It feels like a leaf, but is strong like steel, though much lighter. Stealeef?\n    Mage : A good idea for a name. Can you make anything with it?\n    Artificer : Yeah, just need my crafting kit and... a bend here... a bit of heat here... and voila! A Steeleaf Plate! Should be able to make weapons too!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.steeleafIngot",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.steeleafPlate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": {
+                  "10": {
+                    "lvl:2": 2,
+                    "id:2": 3
+                  }
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        820
+      ],
+      "questID": 827
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.emptyOreMap",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "A Treasure MAP?",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : In the swamp outside the Labyrinth, while the party rests at a campfire, the Artificer stares intently at the now useless Maze Map.\n    Gunslinger : You can leave that behind now. \n    Artificer : Maybe. But its so useful. It tracked all the mushrooms and plants in the Labyrinth as well. If I could just...\n    Mage : ...harness it for another purpose? That\u0027s a good idea!\n    Artificer : Look, I think I can tune it to locating Ores if I break down the essence of some metals and gemstones into it. I figure a Block of Iron, Block of Gold, and Block of Diamond would be enough.\n    Fighter : Whoa wait that\u0027s kind of rich. I don\u0027t like all that being taken from the party\u0027s supplies unless we know it\u0027ll work...\n    Artificer : I\u0027ll use my own. Artificing is expensive, and if I can have a map of Ores... Voila! The Maze/Ore Map!\n    Gunslinger : Right Click it. Hey its showing the area around here. That\u0027s grass, that\u0027s stone... what\u0027s the pink stuff?\n    Artificer : Hmm... here. Fighter, could you break out your shovel?\n    Fighter : Yeah yeah, one sec. Hey, there\u0027s some Iron Ore here! I\u0027ll grab it all, might be useful later.\n    Artificer : Hey, the pink spots vanished on the map. Interesting! Looks like it shows the ores nearby!\n    Fighter : Wait, let me see the map. Someone follow me, I\u0027m gonna go into the Labyrinth a bit and see if it changes...\n    Mage : Here\u0027s some light. Let\u0027s see... no, it\u0027s not changing. It\u0027s still showing the surface above us.\n    Fighter : And it isn\u0027t showing this Copper Ore I\u0027m literally rubbing the map against. \n    Mage : Guess it only shows a bit above and below the altitude you activate it."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.emptyOreMap",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 40,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Epic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 40,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Epic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        821
+      ],
+      "questID": 828
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.ironwoodBoots",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "ench:9": {
+                "10": {
+                  "lvl:2": 1,
+                  "id:2": 2
+                }
+              }
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Strong Like Iron",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : The party explores the forest, searching for the path to take next. Part of their journey brings them underground, where some of the roots stand out from the rest, a slight greenish glint to them.\n    Mage : Hey, these roots seem more alive than the rest of them. With magic I mean.\n    Artificer : Hmm, I see that too. I\u0027ll call it Liveroot. Hey, gather all you can guys, I have an idea.\n    GM : Handfulls of Liveroot were gathered and piled next to the Artificer, who began blending them together with Iron and Gold. She took the resulting mixture, which she called Raw Ironwood Materials and smelted them in a Furnace into an Ironwood Ingot. Her crafting kit was opened and tools quickly worked over the warm metal.\n    Artificer : Voila! Ironwood! A blend of nature and metal! Here, a pair of boots for someone. Gunslinger, catch.\n    Gunslinger : Wait, did those boots just float?\n    Mage : Yeah, looks like they got a Feather Falling enchantment on them.\n    Artificer : Looks like the materials imbue magic into them automatically. Interesting!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.liveRoot",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TwilightForest:item.ironwoodRaw",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.ironwoodIngot",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.ironwoodBoots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": {
+                  "10": {
+                    "lvl:2": 1,
+                    "id:2": 2
+                  }
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        816
+      ],
+      "questID": 829
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.towerKey",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "The Twilight Tower",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : The Mage\u0027s hands crackle with electricity, the lightning arcing across the room and striking the final Phantom, breaking it into wisps of smoke to finish it off. A chest materializes in the center of the tomb, filled with magically enhanced versions of the Phantom\u0027s armor and weapons.\n    Artificer : Tingle tingle. Guess we just needed to put the Phantoms to rest this time.\n    Mage : Right. Sounds like the next stop is some mansion in the middle of this forest. Let\u0027s get going.\n    GM : The party climbed back out of the ruins, stopping long enough for a bit of food and to let the Artificer brew up a bunch more Night Vision potions. Checking their map, they climbed deeper and deeper into the forest, until they came upon buildings made of brown wood and tan stone. Search as they might, there was no obvious door.\n    Fighter : Dang, I can\u0027t break any of the walls. That\u0027d be too easy I guess.\n    Gunslinger : These red colored blocks. What if I tap it then... no... Right Click it. Ah, a doorway!\n    Mage : Of course, hidden walls in plain sight. Well, not really hidden, the red should have clued us in at first.\n    GM : Inside they found some burning pyres lighting the main room, a spiral staircase going up floor by floor. As they ascended, the party walked past waterfalls or aquariums, they weren\u0027t sure which they were originally. Alchemy areas, libraries, the mansion was filled with various rooms, all seemingly empty. The higher they went, the more twisty the rooms and corridors became, and the more treasures they began to find.\n    Fighter : Where is everyone? I\u0027m getting a bad feeling about this...\n    Mage : What is this?\n    GM : At the highest point of the stairs, it opened up into a tall room. Darkwood rafters crisscrossed back and forth. The little flames of monster spawners could be seen dotting the path. Ghasts could be seen amongst the rafters, their strange cries echoing in the large room.\n    Gunslinger : That explains that. Time to climb.\n    GM : As the party climbed, they realized the Ghasts were tiny versions of the giant monsters they had encountered before. Their exploding fireballs, however, were as destructive as ever. Eventually, the party ascended even higher. Rooms full of Blazes, blacksmithing rooms, miniature mazes, the mansion had so much in it. Eventually, they reached a Vanishing Wall they could not open, the corners of it having a different shape of red symbol.\n    Mage : Ugh, looks like we need a key. Let\u0027s start searching..."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.towerKey",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        825
+      ],
+      "questID": 830
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.carminite",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Red Danger",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : As the party descends the Dark Tower, they stop in one of the extravegant rooms and settle down to rest for the night. The tower was a grueling climb, and they were all worn out and needed rest.\n    Artificer : Hey, this wall here looks a bit... weak. Like something was chewing on it.\n    Gunslinger : Termites?\n    Artificer : Stronger than my lumber axe? Maybe... here, I wonder if I can break it...\n    Fighter : What the hell is that?!\n    Artificer : Thats a big termite! Quick, kill it!\n    Gunslinger : Pretty weak, I expected it to be tough if it ate through THAT wall...\n    Mage : Let\u0027s call it a Borer. Whats that powdery stuff? Borer Essence?\n    Artificer : Hmm, strong magical properties. Mix it with a few things... no... how about... wait, those experiments, I know... ah, voila! I\u0027ll call it uh... Carminite. Reminds me of a certain mysterious red cloaked figure.\n    Mage : Not a bad idea. Can you make equipment out of it?\n    Artificer : No, too much energy for that. It\u0027s more like Redstone... which gives me an idea.\n    GM : The Artificer alternated between working and sleeping, eventually coming out of a side room with a big smile on her face. Behind her, the small room was mostly destroyed, the clouds visible in the sky.\n    Mage : What in the hell happened?\n    Artificer : First thing\u0027s first. Here, we got our own versions of the Vanishing and Reappearing Blocks that this mansion uses for doors. Guess they are made out of Carminite? Or I got close enough I guess.\n    Fighter : Thats... neat but what happened...\n    Artificer : And then this block! The Carminite Builder! It\u0027ll place down temporary blocks in the direction of the Redstone Signal that activates it!\n    Gunslinger : What happened to that room?\n    Artificer : Oh uh... That\u0027s from the Carminite Reactor. I found out surrounding it in Redstone Blocks makes it go sort of... Super Critical? I thought it generated Diamond and Gold blocks, but that was just a mirage. It sucked in half the room and then exploded into those miniature Ghasts.\n    Fighter : Let\u0027s not... make that again, okay?"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.borerEssence",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TwilightForest:item.carminite",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:tile.TFTowerDevice",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "TwilightForest:tile.TFTowerDevice",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:tile.TFTowerDevice",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "TwilightForest:tile.TFTowerDevice",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 12
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Lgndry Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Lgndry Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        832
+      ],
+      "questID": 831
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.trophy",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 3
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "The Sky Cries",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : Scouring the mansion tower, the party dives into the various mini towers adjoining it. Traps, tricks, and more await them as they fight their way through. Eventually, however, they return to the locked door, four Tower Keys in hand.\n    Mage : Okay, everyone take one, and Right Click it on a corner. Ready? One two go!\n    GM : Each party member touched their key to the corner vanishing block. They lit up a greenish yellow and stayed like that, the Tower Keys vanishing. The Mage touched the center block, and the door opened up in front of them. The climb continued, the party finding more Tower Keys and more loot. The monsters seemed to get more plentiful as well, relentlessly harassing the party. Eventually they reached another large, open room, beams of red light bouncing around.\n    Artificer : It\u0027s coming from those boxes up there. They aren\u0027t hurting the little ghasts they bounce through, so what is it for...\n    Gunslinger : I\u0027m going to build up to one of them and inspect it. I don\u0027t want to start climbing un... hey! I can\u0027t build anything, it just pops back into my hand.\n    Mage : Oh fun, an anti-building magical field? I guess those boxes are the emitter.\n    Fighter : Parkour time?\n    Gunslinger : Sigh. Parkour time...\n    GM : The party carefully worked up the room, using special devices that projected temporary walkways for them. Some of them got the Artificer close enough to break the Anti-Builder block, but there was always another one just out of reach until they reached the top. From there, another locked doorway required another Tower Key search. The higher they went, the more the tower looked as though it was taken over by the Nether, Netherrack and flames open large holes in the walls and floor.\n    Mage : I wonder if the rich dude played with a bit too much fire, like an ancient relic.\n    Artificer : Or tried summoning something...\n    GM : Their suspicions would grow more likely as they reached various rooms which held research devices. Setups that looked dangerous, so they avoided them. Just above the experimentation rooms, however, the tower opened up to the sky. And as they stepped onto what had become the rooftop, a massive Ghast appeared, stained with blood and staring down at them.\n    Artificer : Wow, its almost like I\u0027m a wizard...\n    Mage : Hey!\n    Fighter : Whoa, it shotguns those fireballs!\n    Gunslinger : Usual Ghast tactics. It can\u0027t destroy the floor, just dodge the fire! And the little ghasts! Wait why\u0027d it stop shooting at us? Damnit, I\u0027m out of bullets AND Scepter charges right now.\n    Artificer : Hey, these side rooms have some sort of trap thing! \"Anti Ghast Trap\"? The pressure plate does nothing!\n    Fighter : Wait, kill the little ghasts near them, it absorbs their power!\n    Mage : This one is smoking now, step on the plate!\n    Artificer : Wow its seriously like from that movie, thats... awesome and silly. Hit it now!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.trophy",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        830
+      ],
+      "questID": 832
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.arcticFur",
+            "Count": 4,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Winter Wonders",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : The Gunslinger jumps onto the Pressure Plate, activating the last Ghast Trap, pulling the gigantic Ur-Ghast down to it. The Artificer takes a big leap from a higher up ledge, slamming her magic mace down onto the creature, bursting it with a howling pop. A chest materializes at the center tower, containing small bottles of Fiery Tears, as well as a mini version of the Ur-Ghast as a trophy.\n    Gunslinger : And now... we decend I guess. Unless you have enough for a floating potion maybe?\n    Artificer : I wish... wait, with the Ur-Ghast dead, maybe we can... Yeah, I can start breaking the walls down. Just very slowly.\n    Fighter : Or we could all along, cause thats just REALLY slow...\n    Artificer : Either way, we can take some shortcuts this way.\n    GM : The party decended the tower, sometimes cutting through the floor to avoid various traps or monsters they went around earlier. As usual, the journey down was much faster. Outside, they set up camp to rest and restock, the Gunslinger especially. The Mage looked over one of the books they had found, humming.\n    Mage : Get your warm clothing ready, sounds like we\u0027re going to a glacier next.\n    Fighter : As long as it isn\u0027t really wet and cold, just cold...\n    GM : The party ventures forth after resting, traveling through hill and forest. They watched the Magic Map fill out as they explored, looking for a new terrain color to show up. Eventually the map had filled out fully, the same shades of green and brown going from edge to edge.\n    Gunslinger : What now? The map only shows so much.\n    Mage : I believe the map works much like it does in Bandit\u0027s Overworld. We need to travel off the edge of the map until our icon becomes a dot, then make a new map. We still have some Raven\u0027s Feathers right?\n    GM : The party rested for a few hours before continuing on into the unknown. A new map was made, and more lands of the Twilight Forest were explored. Eventually, spots of white terrain began to appear on the map, and the party adjusted course directly to it.\n    Fighter : What is this, a glacier? Geez it\u0027s cold...\n    Mage : Watch your step, there\u0027s ice all over the place.\n    Gunslinger : Any clue what... watch out! \n    Artificer : Is that an abominal snowman? Seriously?!\n    Fighter : Hey put me down you overgrown rug!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.arcticFur",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        832
+      ],
+      "questID": 833
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.alphaFur",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Snow Rage",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : With the Fighter raised up over it\u0027s head, the Yeti roared out a challenge to the others. In response, the Gunslinger\u0027s revolver spun out of its holster and two shots rapidly took the creature down. More of the large monsters came towards them, each dispatched in quick form.\n    Mage : Well at least it\u0027s never night here. Seeing one of those coming out of the darkness at you would be terrifying.\n    Artificer : Agreed. Could you grab some of their fur for me?\n    Fighter : Sure thing.\n    Gunslinger : Hmm, the map shows a darker blue center to this area. There\u0027s what look like... igloo? Icons here and here.\n    Mage : That one there is... just over that hill there I think. No, wait, it IS that hill. Let\u0027s check that out first.\n    GM : The party gathered what Arctic Fur they could from the fallen Yeti before continuing on. The hill loomed tall over them as they approached it, and they decided to skirt around the base of it. They encountered more and more Yeti as they explored, until they came up to a large opening in the side of the hill. The cave looked to stretch from one side to the other, the twilight from both ends showing a group of Yeti inside, all standing around a much larger, stronger looking one.\n    Mage : Is that an ice crown on it?\n    Gunslinger : No, merely horns by the look of it. \n    Fighter : Are you s... watch out! It\u0027s coughing up hairballs at us!\n    Artificer : What? It\u0027s not a cat! Those are ice balls! Stay away, they are freezing cold!\n    Mage : This ice floor is... yikes that one almost hit me!\n    Fighter : Take that, and that and... Ouch!\n    Gunslinger : Back up, its in a rage!\n    Mage : More like a tantrum, its just jumping and flailing its arms angrily!\n    Artificer : It\u0027s knocking blocks of ice off the ceiling! \n    Fighter : Hey, it exhausted itself! Attack now!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.alphaFur",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        833
+      ],
+      "questID": 834
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.yetiHelm",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "ench:9": {
+                "10": {
+                  "lvl:2": 2,
+                  "id:2": 0
+                }
+              }
+            }
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Warmth in the Cold",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : Outside of the Alpha Yeti\u0027s hill, the party camps for a few hours to rest and replenish stock. The Artificer collects all the pieces of Yeti fur, looking over the two piles.\n    Artificer : The Alpha Yeti fur is much thicker and heavier... but there\u0027s a lot less of it. Where\u0027s my leatherworking kit...\n    Mage : It\u0027s got some weird ice magic coursing through it. If it\u0027s like the other materials we\u0027ve found, it should result in some interesting armor.\n    Artificer : Exactly! Now, a cut here, a stitch here, some careful stretching here... voila! A jacket and a helmet!\n    Gunslinger : I like that jacket. Does not look constricting like plate. \n    Artificer : Just an Arctic Jacket. Arctic Fur from the normal Yeti is pretty tough material.\n    Fighter : And the helmet?\n    Artificer : Alpha Yeti Fur is a bit harder to work with, but I was able to replicate it\u0027s head horns nicely. And watch, punch the helmet for me.\n    Fighter : Sure... yikes! That\u0027s cold!\n    Mage : Interesting, it chills any attacker that strikes it. Here, let me take that. I think being able to slip away from a slowed monster will give me time to cast spells more often."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.yetiHelm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ench:9": {
+                  "10": {
+                    "lvl:2": 2,
+                    "id:2": 0
+                  }
+                }
+              }
+            },
+            {
+              "id": "TwilightForest:item.arcticPlate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        833,
+        834
+      ],
+      "questID": 835
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:tile.TFAuroraBrick",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "The Palace of Ice",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : Dodging the falling blocks of ice, the party waited for the Alpha Yeti to tire itself out. As soon as it slumped down, breathing heavily, the party all struck at once. In a puff of snow and smoke, the Alpha Yeti was vanquished, large chunks of ice and fur sliding across the cavern floor.\n    Artificer : Tingle tingle folks. Hey, grab those for me please.\n    Mage : This fur is really heavy. And really warm!\n    Gunslinger : What are those snow cubes?\n    Mage : One second... oh there we go. They are like the big iceballs he was puking at us. Holding and Right Clicking it throws it out. Might be good way to disperse a crowd of monsters.\n    Fighter : Like in the labyrinth. That would of been nice.\n    Gunslinger : Okay, let\u0027s take a breather outside and figure out our next destination.\n    GM : Outside, the group settled down at a campfire. The Gunslinger forged ammo, the Artificer toyed with the various Furs they had collected, and the Fighter repaired the party\u0027s gear. The Mage looked over the map and the mysterious journals they had collected, nodding.\n    Mage : Just like the tower, our goal is the center of the snow lands. Everyone ready?\n    GM : And off the party went, trekking through the snow, eyes scanning the map and the horizon. In the distance, they could see a tower of blue and green ice looming over the land, sitting atop a high wall of ice.\n    Gunslinger : I was kidding about the glacier earlier...\n    GM : The party reached the base of the glacier, the light glowing through the thick wall of ice. The Artificer scraped at a bit of the wall, then cupped her hands around her eyes and looked close at the ice.\n    Artificer : Wow, I can see all the way to the other side. Bad news is I don\u0027t see any stairs I don\u0027t think... \n    Mage : Hard way then I guess. No flight potions?\n    Artificer : Only for me, unfortunately. How do we want to do this? Staircase? Ladder? Nerdpole?\n    Gunslinger : We will most likely need to descend afterwards.\n    Artificer : Stairs it is.\n    GM : The Artificer explored the base of the glacier a bit until a flat enough section was found. Taking out her pickaxe, she began to carve the ice out... but a single strike brought a torrent of water out.\n    Artificer : Seriously? This waterfall just appeared when I hit the ice. Damn magical protections.\n    Mage : Let\u0027s get to chopping, this\u0027ll take a while...\n    GM : The party set to chopping down the nearby trees, building a quick staircase up the side of the glacier. When they finally reached the top, they were met with dozens of eyes staring at them. \n    Fighter : Penguins?\n    Mage : Cute... but very creepy. \n    Gunslinger : There is the ice tower. The colors are quite pretty as well, but I also feel... uneasy looking at them.\n    Artificer : I agree... let me collect a couple of these blocks here. They don\u0027t look to be protected by magic."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:tile.TFAuroraBrick",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 15,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Basic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        834
+      ],
+      "questID": 836
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.trophy",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 4
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Queen\u0027s Tower",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : The party located the entrance to the ice tower easily in a smaller side tower, entering into a empty waiting room. They traversed a bridge, the Aurora Blocks around them shifting colors the further they traveled towards the main tower. Inside, they found pillars and a spiral staircase, which they immediately began to ascend.\n    Fighter : What is with this? They built some of the floors really low, I have to chop them out to continue.\n    Mage : What\u0027s that noise? What\u0027s THAT thing?\n    Artificer : Ugh, magical constructs. Hit it hard and fast before...\n    Fighter : It\u0027s glowing!\n    Mage : What?\n    Artificer : Self destruct?! Everyone back!\n    Fighter : Whoa, it transformed the area to glass!\n    Gunslinger : That is strange. Why?\n    Artificer : Maybe they are Unstable! Not part of the design.\n    Gunslinger : Still, strange.\n    GM : The party ascended the tower room by room, shifting back and forth between side towers. Various magical constructs assaulted them, the higher they got the better armored they became. Some of the rooms were nothing but pillars and platforms, making the party carefully move their way upwards.\n    Fighter : Whoever puts jumping puzzles in their tower is getting yeeted off of it...\n    Mage : I... did you really use that word?\n    Fighter : What? Okay fine, Yeetus Throw. That better?\n    Mage : No.\n    Artificer : No.\n    Gunslinger : No.\n    GM : Higher and higher they went, until finally they reached a tower room full of ice and snow platforms. They could not find an easy way up, unfortunately, but there were no more side rooms to bypass the challenge.\n    Mage : Looks like we\u0027re carving our way upwards.\n    Gunslinger : Careful! Some of these blocks are from the glacier itself by the looks of it. They\u0027ll turn to water and wash us back down.\n    Fighter : Ugh, I said I didn\u0027t want to be cold AND wet!\n    GM : Finally at the top of the tower, a woman flying in a cloud of ice charged at them, various ice constructs  floating towards them.\n    Gunslinger : A queen of ice? \n    Fighter : Watch it, she\u0027s got a lot of monsters with her!\n    Mage : Keep them off me, I can\u0027t cast!\n    Artificer : It\u0027s hard to hit her around that ice chariot thing! Look, her wounds are healing?!\n    Mage : Dangit, keep these off me. I\u0027ll have to hit her hard and fast. Let\u0027s see if you like a little fire...\n    Fighter : That\u0027s good, she\u0027s pretty... WHOA watch out! She\u0027s trying to stomp us!\n    Gunslinger : She\u0027s destroying her own tower as well! Keep it up!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.trophy",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 40,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Epic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 40,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Epic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        836
+      ],
+      "questID": 837
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.magicBeans",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Trolled Again",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : Each smash of the Snow Queen\u0027s ice cloud dropped the battle lower and lower in the tower, until they reached the spiraling platforms of the jumping puzzles. With a better chance to prepare, the party surrounded her, and the Fighter tricked her into  smashing a heavy platform, leaving her at just the right height for the Gunslinger, Mage, and Artificer to strike her from three sides, finishing her off. The ice cloud dispersed in a flurry of snow, leaving behind the Snow Queen\u0027s head as a trophy, as well as a magical bow.\n    Mage : Hm, this isn\u0027t the bow she was carrying earlier. I wonder if she has multiple?\n    Fighter : Wouldn\u0027t be surprised. Let\u0027s get out of here, the cold is starting to make me tired...\n    Artificer : Already way ahead of you. Here, everyone gather close. I have enough ingredients for a few Splash Feather Fall potions. Fighter, open a hole, then everyone leap straight out and keep floating forward.\n    GM : The Fighter knocked a hole in the side of the tower before moving over to the group. Nodding, the Artificer threw the potion at the floor, the swirling particles enveloping the party. One by one they lept out, floating outward and downward, gliding over the glacier, and eventually over the side of it and back into the snowy forest beyond. Everyone landed slightly apart, regathering and setting up camp to figure out their next destination.\n    Gunslinger : Hm, I looked over the journals. Remember those fake Draconium looking ores?\n    Artificer : The Trollstein?\n    Gunslinger : Right. It seems if we followed those into the burning underground rain area, we should come across some Trolls. They apparently carry magically imbued beans that will lead us to our next destination.\n    Fighter : I swear if this leads to a giant or something...\n    GM : The party broke camp after a few hours, setting out again. They looked over the map, crossing out the symbols they\u0027ve already visited, then realizing what they thought were teeth were actually stalagtites, and where they should head next. As they neared the destination, the hills in the distance rose up high, and cave openings could be seen dotting the hillsides. They chose one, then began their descent downwards, watching as the narrow caves quickly opened up to larger caverns, the sounds of monsters echoing back and forth.\n    Mage : Thank goodness for light spells... Torches on the right walls, lets make sure we can find our way out...\n    GM : The party pushed deeper and lower, fighting their way through swathes of monsters. They met and dispatched half a dozen Trolls, none dropping anything even resembling beans.\n    Artificer : Ugh, how rare are these things? I wonder if Proprieter Penny has any stashed away... I\u0027ll send her a message real quick.\n    Fighter : Let\u0027s just keep chopping our way through in the meantime, it\u0027ll take her a while to dig through the stocks."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.magicBeans",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        837
+      ],
+      "questID": 838
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.giantPick",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "A Giant Problem",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : After over an hour of traversing the winding caverns and fighting off waves of monsters, a Troll finally dropped a small bag of colorful beans. Without a word, the party picked it up and followed their trail of torches back to the surface. Outside, they set up camp again and relaxed, using one of the thick Canopy trees to shelter them from the rain. The Gunslinger poured over the texts again, rustling the bag of Magic Beans in the other hand, while the Artificer brewed up a few potions.\n    Mage : Any idea where to next?\n    Gunslinger : Hm, it seems like the Fighter is actually a wizard.\n    Fighter : Huh?\n    Gunslinger : We must plant these beans in some Uberous Soil, underneath the floating home of giants.\n    Fighter : Oh come on!\n    Mage : Oh boy. Where do we find that?\n    Gunslinger : It just says somewhere in these Highlands, under the thickest clouds.\n    Artificer : I wish I had the ingredients for some Flying potions, we could have skipped the Troll Caverns I bet.\n    Fighter : At least it isn\u0027t the glacier...\n    GM : The party set out, scanning both the map and the skies as they explored. Eventually a large, thick ball of clouds caught their attention, and they traveled towards it. Beneath it, the ground looked like wet farmland flecked with green spots.\n    Artificer : Ah, I take it this is the Uberous Soil. Gunslinger, Right Click those Magic Beans on some of that soil.\n    Gunslinger : Will do...hey, it just made a platform of stalks. Not a tall beanstalk...\n    Mage : Strange. Keep trying, there\u0027s plenty of beans left.\n    GM : The Gunslinger continued to plant the beans in the Uberous Soil, until finally a giant beanstalk enveloped him, the muffled yells of surprise coming from inside it. Quickly, the other three chopped the Gunslinger free, who brushed bits of plantmatter off, breathing heavily.\n    Gunslinger : Next time... stand way back before planting... or have an axe... that was not fun...\n    Artificer : Good thing we were here. Though I guess it\u0027s climbing time. Reeeallly wish I had some Fly potions...\n    Fighter : Or a jetpack...\n    GM : The party ascended the spiraling beanstalk, seeming to cllimb forever. At the top, the thick clouds stopped them, but they found a pickaxe carved through them like they were stone. On top of the clouds, the looked up... and up... upon a simple cobblestone house, only gigantic.\n    Fighter : Seriously, giants. With giant cobblestone.  I\u0027m just... dissappointed I think. I... look out, a giant!\n    Mage : Whoa, careful! Hey... that\u0027s a giant version of you!\n    Fighter : No kidding, this is freaky weird. Quick, attack me! I mean, giant me! I bet I have some awesome loot inside this house!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.giantPick",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        838
+      ],
+      "questID": 839
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.lampOfCinders",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Back Below",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : Leaping into the battle, the Fighter blocked the giant pickaxe swings from his giant doppelganger, until finally it was dispatched. The giant pickaxe thudded into the thick clouds, which the Artificer grabbed immediately.\n    Artificer : Wow, for being so huge and made of stone, this isn\u0027t that heavy.\n    Gunslinger : We\u0027ll need it for the next step, according to the journals. I... wait, where did...\n    Fighter : Here! Hey, out of my way me! Yah!\n    GM : The rest of the party circled the giant building until they found the doorway, where they saw the Fighter finished off an armored version of himself, giant stone sword falling to the ground.\n    Fighter : Whaaat, it\u0027s empty! No treasure! How uncool of me, dangit.\n    Gunslinger : Worry not, we have what we need to break into the Giant\u0027s Vault.\n    Fighter : Wait, where is that?\n    Gunslinger : Directly below this floating home, under the forest floor. Seek the Mushroom Forests it says.\n    Fighter : Uuugh, more troll caves?\n    Mage : More troll caves...\n    GM : The party used another Feather Fall potion to descend to the forest floor. Nearby, a large hole in the ground opened up into the troll caves, and immediately they could see giant mushrooms dotting the cavern floor, and the deep deep purple and black of Obsidian cubes among them.\n    Gunslinger : Are those the giant\u0027s vaults?\n    Mage : No idea, let\u0027s go check. This is kind of small for being owned by a giant though...\n    Artificer : The Giant\u0027s Pickaxe can\u0027t even touch it. My normal pick can. Hey there\u0027s some treasure inside, but its pretty mundane. Other than lots of Magic beans...\n    Fighter : God dangit that\u0027s mean. We spent hours just looking for ONE bag...\n    Gunslinger : It happens. At least... hey, over there. That looks much more like a Giant\u0027s Vault.\n    Fighter : It just looks like...\n    Mage : Giant Obsidian. Yep. Let\u0027s go!\n    GM : The party made their way to the much larger Obsidian cube. The Artificer\u0027s own pickaxe didn\u0027t even scratch the surface, but the Giant\u0027s Pickaxe chipped away slowly and steadily at it. Eventually they broke their way inside the Vault, and opened the chests within."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.giantPick",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        839
+      ],
+      "questID": 840
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:tile.TFThornRose",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Thorned and Scorned",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : With a final crunch of stone on obsidian, the vault was opened. The Artificer carefully stepped inside, checking for traps. After it was cleared, the chest were searched, coming up with mostly just Magic Beans, seeds, and a bit of Uberous Soil. \n    Fighter : Really? Couldn\u0027t giant me have stashed some diamonds or something?\n    Artificer : For once I agree with... wait I found something. A... lamp?\n    Gunslinger : Oil? Electric?\n    Artificer : Genie type.\n    Fighter : That\u0027s more like it! Quick, make a wish! Get us a million diamonds!\n    Artificer : It... isn\u0027t working. Hold on. Let\u0027s just try uh...\n    GM : The Artificer examined and tried various things to summon the genie, but nothing happened. The Artificer then dropped the lamp on accident, picking it back up. She felt a familiar tingling course through her body.\n    Artificer : Whoa, okay. That was weird. I guess you need to pick it up off the ground for it to work properly.\n    Fighter : Genie genie genie, come on!\n    Artificer : I don\u0027t think its that kind of lamp anymore. Its really warm and... whoa. I just held Right Click with it, then let go and little flames surrounded me. \n    Gunslinger : Well, it didn\u0027t light us on fire. My guess its for how we get through the next area, as the journal mentions it as a \u0027land of thorns\u0027.\n    Mage : Interesting. Let\u0027s go, this cave is starting to get really gloomy.\n    GM : The party left the caves, consulting the map and starting to head to the center of the Highlands. They weren\u0027t down in the Troll Caves too long this time, though the Gunslinger noted that the Stalagtites icon they thought was for just the caves earlier, actually marked out the location of the Giant\u0027s cloud home and the Mushroom forest below. The party didn\u0027t have to travel far to the reach the higher hills in the center, covered in nasty looking thorns from the bottom of the hill all the way up to the base of the tower atop it.\n    Fighter : Man, who needs some ridiculous fake genie lamp. I have a good axe here and we\u0027ll just carve our way through. Watch and... hey! The thorns expanded outward when I chopped some down!\n    Mage : Of course they did. Magic thorn brambles. Hey, try that lamp now.\n    Artificer : Okay. And voila, here we... go! Hey, the thorns turned grey.\n    Mage : It looks like ash.\n    Fighter : But they are still there. No, wait, they just crumble if you touch them. Weird.\n    Gunslinger : But effective. We should call that the Lamp of Cinders, since it seems to burn away the thorns.\n    Mage : Good idea. Hey, see those Rose looking things? Grab one for me.\n    Artificer : I don\u0027t think those are good for anything.\n    Mage : Sure they are, they are pretty. I\u0027m gonna give it to a friend of mine."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:tile.TFThornRose",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 35,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        840
+      ],
+      "questID": 841
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:tile.ForceField",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "The Depths of the White Tower",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : With the Lamp of Cinders, the party climbed the mountain much easier, burning the thorns away that blocked their journey. At the top, the white bricked towers looming over them. They explored a bit until they found a large set of doors in one of the side towers, made from the vanishing blocks they were quite familiar with.\n    Gunslinger : This is the only entrance I can see. \n    Artificer : Weapons ready folks, time to climb again.\n    Fighter : Please no more jumping puzzles...\n    GM : The party began to climb the staircases of the stark, white, empty tower rooms. They regularly had to move over bridges between towers, their ascent reaching the top of their current tower, or finding a dead end.\n    Artificer : Where are all the monsters?\n    Fighter : And I feel like we\u0027re just going in circles. We haven\u0027t even reached the main tower yet!\n    Mage : Wait, lets go onto one of the bridges. I wonder...\n    Gunslinger : Hm... a maze?\n    Mage : Right! Look, see, we\u0027ll have to climb down and up and across to different towers to reach the center.\n    Fighter : Ugh fine. Lets just go.\n    GM : Eventually the party finally found the correct route and entered the main tower. Inside the vast room sat a large, glowing box of what looked like pink glass, Reappearing Block Doors on two sides of it. Inside it they could see a staircase leading down. \n    Gunslinger : Why is the glass here? It looks magical but it just... breaks like glass. The doorways work like normal though.\n    Artificer : Something feels very... unfinished here. Where is everything?\n    Fighter : Wait, I hear noises coming from down there. Maybe some monsters finally?\n    Mage : Only one way to find out.\n    GM : Down and down they went. The clean, white walls gave way to dark grey stone. The lower they went, the more noises they heard, until they reached another large room. More of the pink glass was framed by white blocks with pink runes glowing on them. Unlike the pink glass, they couldn\u0027t break the Runic Blocks. More doorways lead them deeper into the tower\u0027s basement, where more colors of the glass and runic blocks could be found. But no monsters. They searched the colored glass rooms, but only the pink glass ones lead to more staircases, until finally one of those staircases ended over a long drop and a giant room. Bats flittered about in it, but still no actual monsters.\n    Artificer : Wait, there\u0027s a sign I think. I have a spyglass, let me just dig it out...\n    Fighter : That\u0027s a long way down. Should we use a feather fall potion?\n    Artificer : I don\u0027t want to go down there if... yeah no, lets not go down there. It\u0027s silly. Everyone back up.\n    Gunslinger : What did it say?\n    Artificer : The sign just says : \"Mini boss 2\".\n    Mage : So its... an unfinished dungeon?\n    GM : That\u0027s kind of anticlimactic...\n    Fighter : What do you mean, you... wait, right. This isn\u0027t something you made. Sorry. Let\u0027s get out of here, I don\u0027t think we have much more we can do.\n    Artficer : Grab some of that grey stone wall. Dreadrock or whatever you wanna call it. Might as well."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:tile.TFDeadrock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 40,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Epic Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 40,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Epic Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        841
+      ],
+      "questID": 842
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.cubeTalisman",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "The Final Not Final",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : The party ascended back up the stairs to the main tower room. To the side, they could see small vanishing block doors, which they decided to explore as well. They lead to spiraling staircases going upwards, and they began to ascend them as well.\n    Fighter : Rooftop final boss? That would be an epic fight.\n    Gunslinger : We had one against that giant Ghast already.\n    Fighter : Yeah, and another rooftop fight with an even bigger boss would be even better!\n    GM : At the top sat another doorway, the party passing through it to the castle\u0027s rooftop. A large purple glass cage sat in the center, but they didn\u0027t need to break it open. From outside, they could see another sign, like in the castle\u0027s basement.\n    Artificer : \"Final Boss. You Win!\"\n    Mage : Well, as much as this climactic ending was anything but... this was a lot of fun!\n    Fighter : Agreed. Hopefully you collected a lot of useful items for your survival, Bandit.\n    Gunslinger : I concur. We have a whole lot of data to go over now. As well as any artifacts you ship to the Business. I look forward to it.\n    GM : Here, I\u0027ll send you some rewards for working through all of this with us, Bandit. Thanks again!"
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Lgndry Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 50,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Lgndry Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        842
+      ],
+      "questID": 843
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:tile.TFSapling",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 5
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Special Saplings",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : As the party explores, they begin to search the large, hollow trees from top to bottom. After a few, they feel there is not much too them, until the Artificer, standing in the thick leaves and branches of one, squints.\n    Artificer : Hey, these branch is a bit... odd. Kinda more cubical than round.\n    Mage : As round as cubes can get that is.\n    Artificer : You know what I mean. It\u0027s like there is an extra layer of leaves and... I was right. There is! And a bunch more wood here. Let\u0027s chop this away, I bet...\n    Fighter : I see a chest.\n    Gunslinger : A tiny Dungeon in the Leaves?\n    Artificer : I guess. And inside is... plants. And a sapling. But not one I\u0027ve seen before. I wonder if there are more of these Leaf Dungeons?\n    GM : The party takes the sapling and starts exploring more of the Twilight Oak Trees. After a few hours, they come out with five different saplings, and decide to spend a day researching them. Finally, they regroup to share their findings.\n    Mage : I call this the Tree of Transformation. When it grows, it creates a Heart of Transformation, which turns the area into an Enchanted Forest\n    Artificer : This is the Miner\u0027s Tree. Making it grow will draw up lots of Ores from beneath it close to the surface. There\u0027s a Minewood Core, but breaking it destroys that ability.\n    Gunslinger : I have the Tree of Time. It grows a Timewood Clock, which I find to speed up crops growing nearby. You must use Silk Touch to move it, however.\n    Fighter : I have two trees, since the first one was pretty simple. It\u0027s called a Sorting Tree. It seems to like organizing chest contents around it. Just don\u0027t break the Sorting Engine core, it stops it.\n    Artificer : And the other tree?\n    Fighter : A Rainbow Oak. I think these grow normally around, you can kinda see them dotting the landscape from high up in the Twilight Oaks. The leaves are different colors depending on where they are grown."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:tile.TFSapling",
+              "Count": 1,
+              "OreDict": "twilighttree",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 30,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Great Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        812
+      ],
+      "questID": 844
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "snd_complete": "random.levelup",
+          "taskLogic": "AND",
+          "partySingleReward": false,
+          "isMain": false,
+          "simultaneous": false,
+          "icon": {
+            "id": "TwilightForest:item.fieryBoots",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "snd_update": "random.levelup",
+          "repeatTime": -1,
+          "globalShare": true,
+          "questLogic": "AND",
+          "name": "Smoking Hot Armor",
+          "isGlobal": "false",
+          "lockedProgress": false,
+          "autoClaim": false,
+          "isSilent": true,
+          "desc": "    GM : Camped outside the tower, the Artificer looks over the bottles of Fiery Tears they had collected from the Ur-Ghast. She ponders for a few minutes before having the others set up a forge for her to work with. She worked the tears into some iron, forming Fiery Ingots, then began to shape it.\n    Artificer : And... voila! Fiery Boots!\n    Fighter : Huh, they look nice and warm.\n    Mage : Hmmm, I think they\u0027ll burn any attackers who strike you while wearing them.\n    Fighter : Really? That sounds very useful.\n    Artificer : I can also make a pickaxe and sword with it. The sword should burn whoever you strike with it as well. And the pickaxe will smelt anything you harvest with it.\n    Gunslinger : So if you harvest Ore, it will smelt it into ingots?\n    Artificer : Precisely."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.fieryIngot",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "TwilightForest:item.fieryBoots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            },
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 101
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        },
+        {
+          "choices": [
+            {
+              "id": "ferretshinies:NullToken",
+              "Count": 25,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HardcoreQuesting:bags",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Good Blind Bag of Blind Bags"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        17,
+        832
+      ],
+      "questID": 845
     }
   ],
   "questLines": [
@@ -116304,7 +120678,7 @@
         {
           "size": 24,
           "x": 32,
-          "y": 41,
+          "y": 60,
           "id": 14
         },
         {
@@ -116393,8 +120767,8 @@
         },
         {
           "size": 24,
-          "x": 73,
-          "y": 0,
+          "x": 32,
+          "y": 28,
           "id": 30
         },
         {
@@ -116426,6 +120800,12 @@
           "x": 0,
           "y": 116,
           "id": 35
+        },
+        {
+          "size": 24,
+          "x": 64,
+          "y": 0,
+          "id": 809
         }
       ],
       "lineID": 0,
@@ -120842,7 +125222,7 @@
       },
       "quests": [],
       "lineID": 26,
-      "order": 29
+      "order": 30
     },
     {
       "properties": {
@@ -121250,7 +125630,7 @@
         }
       ],
       "lineID": 29,
-      "order": 30
+      "order": 31
     },
     {
       "properties": {
@@ -121289,6 +125669,236 @@
       ],
       "lineID": 30,
       "order": 28
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "(WIP)A Moonlit Walk",
+          "bg_image": "",
+          "bg_size": 256,
+          "desc": "    Greetings Bandit! I\u0027m General Manager Gem, or GM Gem. I oversee a lot of smaller research labs here, but we all combine our individual talents and skills. And now you can join us as an honorary member!\n    Step inside. I\u0027ll introduce you to the rest of the Party!"
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": 80,
+          "y": 48,
+          "id": 832
+        },
+        {
+          "size": 24,
+          "x": 80,
+          "y": 80,
+          "id": 833
+        },
+        {
+          "size": 24,
+          "x": 80,
+          "y": 112,
+          "id": 834
+        },
+        {
+          "size": 24,
+          "x": 48,
+          "y": 112,
+          "id": 835
+        },
+        {
+          "size": 24,
+          "x": 80,
+          "y": 144,
+          "id": 836
+        },
+        {
+          "size": 24,
+          "x": 80,
+          "y": 176,
+          "id": 837
+        },
+        {
+          "size": 24,
+          "x": 80,
+          "y": 208,
+          "id": 838
+        },
+        {
+          "size": 24,
+          "x": 112,
+          "y": 208,
+          "id": 839
+        },
+        {
+          "size": 24,
+          "x": 144,
+          "y": 208,
+          "id": 840
+        },
+        {
+          "size": 24,
+          "x": 144,
+          "y": 176,
+          "id": 841
+        },
+        {
+          "size": 24,
+          "x": 144,
+          "y": 144,
+          "id": 842
+        },
+        {
+          "size": 24,
+          "x": 144,
+          "y": 112,
+          "id": 843
+        },
+        {
+          "size": 24,
+          "x": 176,
+          "y": 144,
+          "id": 844
+        },
+        {
+          "size": 24,
+          "x": 112,
+          "y": 80,
+          "id": 845
+        },
+        {
+          "size": 24,
+          "x": 240,
+          "y": 208,
+          "id": 810
+        },
+        {
+          "size": 24,
+          "x": 240,
+          "y": 176,
+          "id": 811
+        },
+        {
+          "size": 24,
+          "x": 240,
+          "y": 144,
+          "id": 812
+        },
+        {
+          "size": 24,
+          "x": 208,
+          "y": 128,
+          "id": 813
+        },
+        {
+          "size": 24,
+          "x": 240,
+          "y": 112,
+          "id": 814
+        },
+        {
+          "size": 24,
+          "x": 272,
+          "y": 128,
+          "id": 815
+        },
+        {
+          "size": 24,
+          "x": 240,
+          "y": 80,
+          "id": 816
+        },
+        {
+          "size": 24,
+          "x": 240,
+          "y": 48,
+          "id": 817
+        },
+        {
+          "size": 24,
+          "x": 272,
+          "y": 80,
+          "id": 818
+        },
+        {
+          "size": 24,
+          "x": 240,
+          "y": 16,
+          "id": 819
+        },
+        {
+          "size": 24,
+          "x": 208,
+          "y": 16,
+          "id": 820
+        },
+        {
+          "size": 24,
+          "x": 208,
+          "y": -16,
+          "id": 821
+        },
+        {
+          "size": 24,
+          "x": 176,
+          "y": 16,
+          "id": 822
+        },
+        {
+          "size": 24,
+          "x": 176,
+          "y": 48,
+          "id": 823
+        },
+        {
+          "size": 24,
+          "x": 144,
+          "y": 16,
+          "id": 824
+        },
+        {
+          "size": 24,
+          "x": 112,
+          "y": 16,
+          "id": 825
+        },
+        {
+          "size": 24,
+          "x": 112,
+          "y": 48,
+          "id": 826
+        },
+        {
+          "size": 24,
+          "x": 208,
+          "y": 48,
+          "id": 827
+        },
+        {
+          "size": 24,
+          "x": 240,
+          "y": -16,
+          "id": 828
+        },
+        {
+          "size": 24,
+          "x": 208,
+          "y": 80,
+          "id": 829
+        },
+        {
+          "size": 24,
+          "x": 80,
+          "y": 16,
+          "id": 830
+        },
+        {
+          "size": 24,
+          "x": 48,
+          "y": 48,
+          "id": 831
+        }
+      ],
+      "lineID": 31,
+      "order": 29
     }
   ],
   "format": "1.0.0"
