@@ -1604,26 +1604,13 @@ AgriCraft:cropDaisy, Daisy
 AgriCraft:cropCactus, Cactus
 AgriCraft:cropShroomRed, Red Mushroom
 AgriCraft:cropShroomBrown, Brown Mushroom
+aura:fortifiedDirt, Fortified Dirt
+aura:fortifiedWood, Fortified Planks
+aura:fortifiedGlass, Fortified Glass
+aura:fortifiedCobblestone, Fortified Cobblestone
+aura:fortifiedStone, Fortified Stone
+aura:fortifiedObsidian, Fortified Obsidian
 aura:monitor, Monitor
-aura:magicRoad, Traveler's Bricks
-aura:storageBookshelfCoordinator, Bookshelf Coordinator
-aura:fairyTorch, tile.fairyTorch.name
-aura:storageBookshelf, Storage Bookshelf
-aura:trampoline, Rebounding Enigma
-aura:consumerBlockfurnace, Cascading Smelter
-aura:consumerBlockplant, Cascading Grower
-aura:consumerBlockore, Cascading Processor
-aura:consumerBlockloot, Cascading Looter
-aura:consumerBlockmob, Cascading Spawner
-aura:consumerBlockangel, Cascading Synthesizer
-aura:consumerBlocknether, Ritual of the Nether
-aura:consumerBlockenchant, Kaleidoscopic Enchanter
-aura:consumerBlockpotion, Cascading Brewer
-aura:consumerBlockdye, Cascading Colorer
-aura:consumerBlockoreAdv, Prismatic Processor
-aura:consumerBlockminer, Cascading Miner
-aura:consumerBlockfish, Cascading Fisher
-aura:consumerBlockend, Ritual of the End
 aura:auraNode, Aura Node
 aura:auraNodepump, Burning Aura Pump
 aura:auraNodeblack, Aura Manipulator: Black
@@ -1643,12 +1630,25 @@ aura:auraNodepumpCreative, Creative Pump (Creative Only)
 aura:auraNodepumpLightAlt, Alternating Illumination Aura Pump
 aura:auraNodepumpRedstoneAlt, Alternating Redstone Aura Pump
 aura:auraNodeflux, Fluxing Node
-aura:fortifiedDirt, Fortified Dirt
-aura:fortifiedWood, Fortified Planks
-aura:fortifiedGlass, Fortified Glass
-aura:fortifiedCobblestone, Fortified Cobblestone
-aura:fortifiedStone, Fortified Stone
-aura:fortifiedObsidian, Fortified Obsidian
+aura:storageBookshelfCoordinator, Bookshelf Coordinator
+aura:magicRoad, Traveler's Bricks
+aura:trampoline, Rebounding Enigma
+aura:consumerBlockfurnace, Cascading Smelter
+aura:consumerBlockplant, Cascading Grower
+aura:consumerBlockore, Cascading Processor
+aura:consumerBlockloot, Cascading Looter
+aura:consumerBlockmob, Cascading Spawner
+aura:consumerBlockangel, Cascading Synthesizer
+aura:consumerBlocknether, Ritual of the Nether
+aura:consumerBlockenchant, Kaleidoscopic Enchanter
+aura:consumerBlockpotion, Cascading Brewer
+aura:consumerBlockdye, Cascading Colorer
+aura:consumerBlockoreAdv, Prismatic Processor
+aura:consumerBlockminer, Cascading Miner
+aura:consumerBlockfish, Cascading Fisher
+aura:consumerBlockend, Ritual of the End
+aura:fairyTorch, tile.fairyTorch.name
+aura:storageBookshelf, Storage Bookshelf
 AWWayofTime:Altar, Blood Altar
 AWWayofTime:AlchemicalWizardrybloodRune:0, Blood Rune
 AWWayofTime:AlchemicalWizardrybloodRune:1, Rune of Augmented Capacity
@@ -6005,7 +6005,7 @@ extracells:vibrantchamberfluid, Fluid Vibration Chamber
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Ender Collector
-ExtraUtilities:endConstructor:0, QED (Quantum Entanglement Doohicky)
+ExtraUtilities:endConstructor:0, QED (Quantum Energy Device)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -6972,40 +6972,40 @@ ExtraTiC:blockFunStuff:0, Fairy Block
 ExtraTiC:blockFunStuff:1, Pokefennium Block
 ExtraTiC:blockFunStuff:2, RedAurum Block
 FlatSigns:blockFlatSign, Sign
-ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
+ThaumicTinkerer:spawner, Tablet of Necromancy
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
 ThaumicTinkerer:magnet:0, Kinetic Attractor
 ThaumicTinkerer:magnet:1, Corporeal Attractor
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
-ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
-ThaumicTinkerer:dislocator, Transvector Dislocator
-ThaumicTinkerer:aspectAnalyzer, Aspectalyzer
-ThaumicTinkerer:bedrockPortal, Bedrock Portal
-ThaumicTinkerer:fireWater, Aqua Imbued Fire
-ThaumicTinkerer:warpGate, Celestial Gateway
+ThaumicTinkerer:interface, Transvector Interface
 ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
 ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
-ThaumicTinkerer:repairer, Thaumic Restorer
 ThaumicTinkerer:fireEarth, Terra Imbued Fire
-ThaumicTinkerer:fireChaos, Perditio Imbued Fire
-ThaumicTinkerer:enchanter, Osmotic Enchanter
 ThaumicTinkerer:funnel, Essentia Funnel
-ThaumicTinkerer:fireAir, Aer Imbued Fire
-ThaumicTinkerer:platform, Ethereal Platform
 ThaumicTinkerer:fireFire, Ignis Imbued Fire
-ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
-ThaumicTinkerer:fireOrder, Ordo Imbued Fire
-ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
-ThaumicTinkerer:interface, Transvector Interface
+ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
 ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
 ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
 ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
 ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
+ThaumicTinkerer:animationTablet, Dynamism Tablet
+ThaumicTinkerer:warpGate, Celestial Gateway
 ThaumicTinkerer:golemConnector, Golem Connector
-ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
+ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
+ThaumicTinkerer:repairer, Thaumic Restorer
+ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:aspectAnalyzer, Aspectalyzer
+ThaumicTinkerer:fireOrder, Ordo Imbued Fire
+ThaumicTinkerer:fireWater, Aqua Imbued Fire
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
+ThaumicTinkerer:enchanter, Osmotic Enchanter
 ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:fireAir, Aer Imbued Fire
 ForbiddenMagic:ArcaneCake, Thaumic Cake
 ForbiddenMagic:WrathCage, Wrath Cage
 ForbiddenMagic:InkFlower, Umbral Rose
@@ -21792,16 +21792,16 @@ ThermalDynamics:cover:0, Daisy Cover
 ThermalDynamics:cover:0, Cactus Cover
 ThermalDynamics:cover:0, Red Mushroom Cover
 ThermalDynamics:cover:0, Brown Mushroom Cover
-ThermalDynamics:cover:0, Monitor Cover
-ThermalDynamics:cover:0, Traveler's Bricks Cover
-ThermalDynamics:cover:0, tile.fairyTorch.name Cover
-ThermalDynamics:cover:0, Rebounding Enigma Cover
 ThermalDynamics:cover:0, Fortified Dirt Cover
 ThermalDynamics:cover:0, Fortified Planks Cover
 ThermalDynamics:cover:0, Fortified Glass Cover
 ThermalDynamics:cover:0, Fortified Cobblestone Cover
 ThermalDynamics:cover:0, Fortified Stone Cover
 ThermalDynamics:cover:0, Fortified Obsidian Cover
+ThermalDynamics:cover:0, Monitor Cover
+ThermalDynamics:cover:0, Traveler's Bricks Cover
+ThermalDynamics:cover:0, Rebounding Enigma Cover
+ThermalDynamics:cover:0, tile.fairyTorch.name Cover
 ThermalDynamics:cover:0, Blood Rune Cover
 ThermalDynamics:cover:0, Rune of Augmented Capacity Cover
 ThermalDynamics:cover:0, Rune of Dislocation Cover
@@ -25395,22 +25395,22 @@ ThermalDynamics:cover:0, Molten Constantan Cover
 ThermalDynamics:cover:0, Fairy Block Cover
 ThermalDynamics:cover:0, Pokefennium Block Cover
 ThermalDynamics:cover:0, RedAurum Block Cover
-ThermalDynamics:cover:0, tile.gaseousLight.name Cover
-ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
-ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
 ThermalDynamics:cover:0, Bedrock Portal Cover
-ThermalDynamics:cover:0, Aqua Imbued Fire Cover
 ThermalDynamics:cover:0, Smokey Quartz Slab Cover
 ThermalDynamics:cover:0, Smokey Quartz Slab Cover
 ThermalDynamics:cover:0, Terra Imbued Fire Cover
-ThermalDynamics:cover:0, Perditio Imbued Fire Cover
-ThermalDynamics:cover:0, Aer Imbued Fire Cover
 ThermalDynamics:cover:0, Ignis Imbued Fire Cover
-ThermalDynamics:cover:0, Ordo Imbued Fire Cover
+ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
 ThermalDynamics:cover:0, Block of Smokey Quartz Cover
 ThermalDynamics:cover:0, Chiseled Smokey Quartz Block Cover
 ThermalDynamics:cover:0, Pillar Smokey Quartz Block Cover
+ThermalDynamics:cover:0, tile.gaseousLight.name Cover
+ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
+ThermalDynamics:cover:0, Perditio Imbued Fire Cover
+ThermalDynamics:cover:0, Ordo Imbued Fire Cover
+ThermalDynamics:cover:0, Aqua Imbued Fire Cover
 ThermalDynamics:cover:0, tile.nitorGas.name Cover
+ThermalDynamics:cover:0, Aer Imbued Fire Cover
 ThermalDynamics:cover:0, Thaumic Cake Cover
 ThermalDynamics:cover:0, Umbral Rose Cover
 ThermalDynamics:cover:0, Nether Star Block Cover
