@@ -1,0 +1,104 @@
+key.attack
+key.use
+key.forward
+key.left
+key.back
+key.right
+key.jump
+key.sneak
+key.drop
+key.inventory
+key.chat
+key.playerlist
+key.pickItem
+key.command
+key.screenshot
+key.togglePerspective
+key.smoothCamera
+key.sprint
+key.streamStartStop
+key.streamPauseUnpause
+key.streamCommercial
+key.streamToggleMic
+key.fullscreen
+key.hotbar.1
+key.hotbar.2
+key.hotbar.3
+key.hotbar.4
+key.hotbar.5
+key.hotbar.6
+key.hotbar.7
+key.hotbar.8
+key.hotbar.9
+key.personalBackpack
+key.betterquesting.quests
+key.computercraftedu.open_turtle_remote
+key.computercraftedu.drop_turtle_remote
+key.binder
+key.open_menu
+openblocks.keybind.vario_switch
+openblocks.keybind.vario_vol_up
+openblocks.keybind.vario_vol_down
+simplyjetpacks.keybind.toggle.primary
+simplyjetpacks.keybind.toggle.secondary
+simplyjetpacks.keybind.mode.primary
+simplyjetpacks.keybind.mode.secondary
+simplyjetpacks.keybind.openPackGUI
+veinminer.key.enable
+Baubles Inventory
+aura.angelJump
+aura.angelJumpDown
+Change Wand Focus
+Activate Hover Harness
+Misc Wand Toggle
+key.materialCosts
+key.clipboardPaste
+waila.keybind.wailaconfig
+waila.keybind.wailadisplay
+waila.keybind.liquid
+waila.keybind.recipe
+waila.keybind.usage
+Glider Toggle
+Sound Locator
+Night Vision
+Goggles of Revealing
+Step Assist
+Speed
+Jump
+Yeta Wrench Mode
+Toggle Electromagnet
+Mekanism Item Mode Switch
+Mekanism Armor Mode Switch
+Mekanism Voice
+CS3
+key.placeItem
+key.toolConfig
+key.toolProfileChange
+key.toggleFlight
+key.tarmor
+key.tgoggles
+key.tbelt
+key.tzoom
+ttmisc.toggleArmor
+key.M320Switch
+key.SelectFire
+key.SpecialAmmo
+key.QuickKnife
+invtweaks.key.sort
+key.aspectMenu
+TG.keybind.openInv
+TG.keybind.activeaAbilities
+key.cofh.empower
+key.cofh.multimode
+railcraft.keybind.loco.faster
+railcraft.keybind.loco.slower
+railcraft.keybind.loco.mode
+railcraft.keybind.loco.whistle
+key.control
+enchiridion.key.wiki
+key.journeymap.map_toggle
+key.journeymap.zoom_in
+key.journeymap.zoom_out
+key.journeymap.minimap_type
+key.journeymap.minimap_preset
+key.journeymap.create_waypoint

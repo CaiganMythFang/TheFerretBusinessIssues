@@ -9565,7 +9565,7 @@
         "gameVersionId": 4449,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "MineTweakerRecipeMaker-1.7.10-1.1.1.jar"
+        "FileNameOnDisk": "MineTweakerRecipeMaker-1.7.10-1.1.1.jar.disabled"
       },
       "dateInstalled": "2019-08-23T13:13:45.3069476Z",
       "dateUpdated": "2018-08-23T13:13:45.3069476Z",
@@ -12860,7 +12860,7 @@
         "gameVersionId": 4449,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "ProjectE-1.7.10-PE1.10.1.jar"
+        "FileNameOnDisk": "ProjectE-1.7.10-PE1.10.1.jar.disabled"
       },
       "dateInstalled": "2019-08-23T13:13:45.3039552Z",
       "dateUpdated": "2018-08-23T13:13:45.3039552Z",
