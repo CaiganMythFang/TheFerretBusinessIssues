@@ -201,7 +201,7 @@
 },{
   "name": "Blaze",
   "lore": "",
-  "ingredient": "itemBlazeRod",
+  "ingredient": "minecraft:blaze_rod",
   "weightedDrop": "",
   "color": 15246103,
   "dropMin": 3,
