@@ -130,8 +130,7 @@ var ferretSafetyShard = [
 <ferretshinies:LayeredIconAsset:533>,
 <ferretshinies:LayeredIconAsset:534>,
 <ferretshinies:LayeredIconAsset:535>,
-<ferretshinies:LayeredIconAsset:536>,
-<ferretshinies:LayeredIconAsset:537>
+<ferretshinies:LayeredIconAsset:536>
 ] as IItemStack[];
 
 for i, toy in ferretSafetyShard {
