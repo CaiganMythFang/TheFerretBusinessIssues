@@ -2691,7 +2691,7 @@ found in the core file.
 
     <recipe name="Researchology - Mystical Powder" energyCost="5000">
       <input>
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="27" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="27" number="20" />
       </input>      
       <output>
         <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
@@ -2701,7 +2701,7 @@ found in the core file.
 
     <recipe name="Researchology - Insectoid Leg" energyCost="5000">
       <input>
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="28" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="28" number="20" />
       </input>      
       <output>
         <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
@@ -2711,7 +2711,7 @@ found in the core file.
 
     <recipe name="Researchology - Slime Heart" energyCost="5000">
       <input>
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="29" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="29" number="20" />
       </input>      
       <output>
         <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
@@ -2721,7 +2721,7 @@ found in the core file.
 
     <recipe name="Researchology - Wriggling Tentacle" energyCost="5000">
       <input>
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="30" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="30" number="20" />
       </input>      
       <output>
         <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
@@ -2731,7 +2731,7 @@ found in the core file.
 
     <recipe name="Researchology - Creepy Flesh" energyCost="5000">
       <input>
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="31" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="31" number="20" />
       </input>      
       <output>
         <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
@@ -2741,7 +2741,7 @@ found in the core file.
 
     <recipe name="Researchology - Shimmering Scales" energyCost="5000">
       <input>
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="32" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="32" number="20" />
       </input>      
       <output>
         <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
@@ -2751,7 +2751,7 @@ found in the core file.
 
     <recipe name="Researchology - Broken Tooth" energyCost="5000">
       <input>
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="33" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="33" number="20" />
       </input>      
       <output>
         <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
@@ -2761,7 +2761,7 @@ found in the core file.
 
     <recipe name="Researchology - Fur Tuft" energyCost="5000">
       <input>
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="34" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="34" number="20" />
       </input>      
       <output>
         <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
@@ -2771,7 +2771,7 @@ found in the core file.
 
     <recipe name="Researchology - Hide Sample" energyCost="5000">
       <input>
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="35" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="35" number="20" />
       </input>      
       <output>
         <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
@@ -2781,7 +2781,7 @@ found in the core file.
 
     <recipe name="Researchology - Downy Feather" energyCost="5000">
       <input>
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="36" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="36" number="20" />
       </input>      
       <output>
         <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
@@ -2791,7 +2791,7 @@ found in the core file.
 
     <recipe name="Researchology - Tinged Leaf" energyCost="5000">
       <input>
-        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="37" number="10" />
+        <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="37" number="20" />
       </input>      
       <output>
         <itemStack modID="ferretshinies" itemName="BlindBag" itemMeta="143" number="1" />
