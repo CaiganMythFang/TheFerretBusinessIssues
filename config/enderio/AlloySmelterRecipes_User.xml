@@ -28,6 +28,796 @@ ore dictionary.
 <AlloySmelterRecipes>
   <recipeGroup name="Ferret Shinies">
   
+    <recipe name="RSeed_Ink_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="dyeBlack" number="10" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Flesh_Seed" energyCost="250">
+      <input>
+        <itemStack modID="minecraft" itemName="rotten_flesh" itemMeta="0" number="10" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="1" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Feather_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="feather" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="2" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Tin_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotTin" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="3" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Copper_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotCopper" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="4" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Aluminum_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotAluminum" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="5" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Spidereye_Seed" energyCost="250">
+      <input>
+        <itemStack modID="minecraft" itemName="spider_eye" itemMeta="0" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="6" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Coal_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="coal" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="7" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Charoal_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="charcoal" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="8" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Saltpeter_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="dustSaltpeter" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="9" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Salt_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="leather" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="11" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_String_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="string" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="12" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Bone_Seed" energyCost="250">
+      <input>
+        <itemStack modID="minecraft" itemName="bone" itemMeta="0" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="13" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Slime_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="slimeball" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="14" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Blaze_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="rodBlaze" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="15" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Iron_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotIron" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="16" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Gold_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotGold" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="17" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Lead_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotLead" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="18" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Silver_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotSilver" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="19" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Ferrous_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotNickel" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="20" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_ManaInfused_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotMithril" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="21" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Osmium_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotOsmium" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="22" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Ender_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="pearlEnder" number="16" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="23" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Ghast_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="itemGhastTear" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="24" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Gunpowder_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="dustGunpowder" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="25" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Skeleton_Seed" energyCost="250">
+      <input>
+        <itemStack modID="minecraft" itemName="skull" itemMeta="0" number="16" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="26" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Zombie_Seed" energyCost="250">
+      <input>
+        <itemStack modID="minecraft" itemName="skull" itemMeta="2" number="16" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="27" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Head_Seed" energyCost="250">
+      <input>
+        <itemStack modID="TConstruct" itemName="goldHead" itemMeta="0" number="4" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="28" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Creeper_Seed" energyCost="250">
+      <input>
+        <itemStack modID="minecraft" itemName="skull" itemMeta="4" number="16" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="29" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Glowstone_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="dustGlowstone" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="30" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Redstone_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="dustRedstone" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="31" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Sulfur_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="dustSulfur" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="32" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Lapis_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="gemLapis" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="33" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Quartz_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="gemQuartz" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="34" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Certus_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="crystalCertusQuartz" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="35" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Ruby_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="gemRuby" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="36" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Peridot_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="gemPeridot" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="37" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Sapphire_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="gemSapphire" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="38" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Amber_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="gemAmber" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="39" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Apatite_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="gemApatite" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="40" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_WitherSkeleton_Seed" energyCost="250">
+      <input>
+        <itemStack modID="minecraft" itemName="skull" itemMeta="1" number="12" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="41" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Diamond_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="gemDiamond" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="42" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Emerald_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="gemEmerald" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="43" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Shiny_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotPlatinum" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="44" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Yellorium_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotYellorium" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="45" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Snowball_Seed" energyCost="250">
+      <input>
+        <itemStack modID="minecraft" itemName="snowball" itemMeta="0" number="64" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="46" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Cobalt_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotCobalt" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="47" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Ardite_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotArdite" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="48" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Signalum_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotSignalum" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="49" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Clay_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="itemClay" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="50" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Lumium_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotLumium" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="51" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Flint_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="itemFlint" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="52" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Electrum_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotElectrum" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="53" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Invar_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotInvar" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="54" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Bronze_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotBronze" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="55" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Enderium_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotEnderium" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="56" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_ElectricalSteel_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotElectricalSteel" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="57" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_VibrantAlloy_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotVibrantAlloy" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="58" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_RedstoneAlloy_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotRedstoneAlloy" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="59" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_ConductiveIron_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotConductiveIron" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="60" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_PulsatingIron_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotPulsatingIron" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="61" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_DarkSteel_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotDarkSteel" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="62" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_MagmaCream_Seed" energyCost="250">
+      <input>
+        <itemStack modID="minecraft" itemName="magma_cream" itemMeta="0" number="16" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="63" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_EnergeticAlloy_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="ingotEnergeticAlloy" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="64" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_EntropyShard_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="shardEntropy" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="65" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Obsidian_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="blockObsidian" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="66" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Rubber_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="itemRawRubber" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="67" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Stone_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="stone" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="68" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Experience_Seed" energyCost="250">
+      <input>
+        <itemStack modID="minecraft" itemName="experience_bottle" itemMeta="537" number="8" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="69" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Sand_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="sand" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="70" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_AirShard_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="shardAir" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="71" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Netherrack_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="netherrack" number="64" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="72" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_FireShard_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="shardFire" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="73" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_SoulSand_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="soulSand" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="74" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_WaterShard_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="shardWater" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="75" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_EarthShard_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="shardEarth" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="76" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_OrderShard_Seed" energyCost="250">
+      <input>
+        <itemStack oreDictionary="shardOrder" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="77" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_WaterCan_Seed" energyCost="250">
+      <input>
+        <itemStack modID="Forestry" itemName="canWater" itemMeta="0" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="78" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_LavaCan_Seed" energyCost="250">
+      <input>
+        <itemStack modID="Forestry" itemName="canLava" itemMeta="0" number="32" />
+        <itemStack modID="ferretshinies" itemName="LayeredIconAsset" itemMeta="537" number="1" />
+      </input>      
+      <output>
+        <itemStack modID="ResourcefulCrops" itemName="ItemSeed" itemMeta="79" number="1" />
+      </output>
+    </recipe>
+  
     <recipe name="SteelProduction" energyCost="10000">
       <input>
         <itemStack oreDictionary="ingotIron" number="1" />
