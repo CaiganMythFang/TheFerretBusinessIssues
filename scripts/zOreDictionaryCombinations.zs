@@ -5,3 +5,6 @@
 
 // Juicers
 <ore:ferretjuicer>.add(<harvestcraft:juicerItem>);
+
+// Soul Sand
+<ore:soulSand>.addAll(<ore:soulsand>)
