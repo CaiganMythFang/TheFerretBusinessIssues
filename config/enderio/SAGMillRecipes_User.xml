@@ -107,6 +107,726 @@ found in the core file.
   
  <recipeGroup name="Ferret Shinies">
   
+    <recipe name="RSeed_Ink_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="0" number ="8"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="dye" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Flesh_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="1" number ="10"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="rotten_flesh" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Feather_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="2" number ="12"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="feather" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Tin_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="3" number ="12"/>
+      </input>      
+      <output>
+        <itemStack modID="Forestry" itemName="ingotTin" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Copper_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="4" number ="12"/>
+      </input>      
+      <output>
+        <itemStack modID="Forestry" itemName="ingotCopper" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Aluminum_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="5" number ="16"/>
+      </input>      
+      <output>
+        <itemStack modID="TConstruct" itemName="materials" itemMeta="11" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Spidereye_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="6" number ="18"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="spider_eye" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Coal_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="7" number ="12"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="coal" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Charcoal_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="8" number ="12"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="coal" itemMeta="1" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Saltpeter_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="9" number ="16"/>
+      </input>      
+      <output>
+        <itemStack modID="Railcraft" itemName="dust" itemMeta="2" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Salt_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="10" number ="12"/>
+      </input>      
+      <output>
+        <itemStack modID="Mekanism" itemName="Salt" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Leather_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="11" number ="8"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="leather" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_String_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="12" number ="8"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="string" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Bone_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="13" number ="10"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="bone" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Bone_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="14" number ="8"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="slime_ball" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Blaze_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="15" number ="8"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="blaze_rod" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Iron_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="16" number ="16"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="iron_ingot" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Gold_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="17" number ="20"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="gold_ingot" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Lead_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="18" number ="12"/>
+      </input>      
+      <output>
+        <itemStack modID="ThermalFoundation" itemName="material" itemMeta="67" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Silver_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="19" number ="16"/>
+      </input>      
+      <output>
+        <itemStack modID="ThermalFoundation" itemName="material" itemMeta="66" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Ferrous_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="20" number ="16"/>
+      </input>      
+      <output>
+        <itemStack modID="ThermalFoundation" itemName="material" itemMeta="68" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_ManaInfused_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="21" number ="4"/>
+      </input>      
+      <output>
+        <itemStack modID="ThermalFoundation" itemName="material" itemMeta="70" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Osmium_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="22" number ="16"/>
+      </input>      
+      <output>
+        <itemStack modID="Mekanism" itemName="Ingot" itemMeta="1" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Ender_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="23" number ="12"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="ender_pearl" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Ghast_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="24" number ="16"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="ghast_tear" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Gunpowder_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="25" number ="12"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="gunpowder" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Skeleton_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="26" number ="10"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="skull" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Zombie_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="27" number ="10"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="skull" itemMeta="2" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Head_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="28" number ="10"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="skull" itemMeta="3" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Creeper_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="29" number ="10"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="skull" itemMeta="4" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Glowstone_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="30" number ="12"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="glowstone_dust" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Redstone_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="31" number ="8"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="redstone" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Sulfur_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="32" number ="12"/>
+      </input>      
+      <output>
+        <itemStack modID="ThermalFoundation" itemName="material" itemMeta="16" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Lapis_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="33" number ="8"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="dye" itemMeta="4" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Quartz_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="34" number ="20"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="quartz" itemMeta="1" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Certus_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="35" number ="12"/>
+      </input>      
+      <output>
+        <itemStack modID="appliedenergistics2" itemName="item.ItemMultiMaterial" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Ruby_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="36" number ="24"/>
+      </input>      
+      <output>
+        <itemStack modID="ProjRed|Core" itemName="projectred.core.part" itemMeta="37" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Peridot_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="37" number ="24"/>
+      </input>      
+      <output>
+        <itemStack modID="ProjRed|Core" itemName="projectred.core.part" itemMeta="39" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Sapphire_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="38" number ="24"/>
+      </input>      
+      <output>
+        <itemStack modID="ProjRed|Core" itemName="projectred.core.part" itemMeta="38" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Amber_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="39" number ="16"/>
+      </input>      
+      <output>
+        <itemStack modID="Thaumcraft" itemName="ItemResource" itemMeta="6" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Apatite_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="40" number ="8"/>
+      </input>      
+      <output>
+        <itemStack modID="Forestry" itemName="apatite" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_WitherSkeleton_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="41" number ="24"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="skull" itemMeta="1" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Diamond_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="42" number ="24"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="diamond" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Emerald_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="43" number ="24"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="emerald" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Shiny_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="44" number ="8"/>
+      </input>      
+      <output>
+        <itemStack modID="ThermalFoundation" itemName="material" itemMeta="69" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Yellorium_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="45" number ="32"/>
+      </input>      
+      <output>
+        <itemStack modID="BigReactors" itemName="BRIngot" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Snowball_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="46" number ="8"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="snowball" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Cobalt_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="47" number ="18"/>
+      </input>      
+      <output>
+        <itemStack modID="TConstruct" itemName="materials" itemMeta="3" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Ardite_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="48" number ="18"/>
+      </input>      
+      <output>
+        <itemStack modID="TConstruct" itemName="materials" itemMeta="4" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Signalum_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="49" number ="24"/>
+      </input>      
+      <output>
+        <itemStack modID="ThermalFoundation" itemName="material" itemMeta="74" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Clay_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="50" number ="8"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="clay_ball" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Lumium_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="51" number ="4"/>
+      </input>      
+      <output>
+        <itemStack modID="ThermalFoundation" itemName="material" itemMeta="75" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Flint_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="52" number ="8"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="flint" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Electrum_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="53" number ="24"/>
+      </input>      
+      <output>
+        <itemStack modID="ThermalFoundation" itemName="material" itemMeta="71" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Invar_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="54" number ="16"/>
+      </input>      
+      <output>
+        <itemStack modID="ThermalFoundation" itemName="material" itemMeta="72" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Bronze_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="55" number ="4"/>
+      </input>      
+      <output>
+        <itemStack modID="Forestry" itemName="ingotBronze" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Enderium_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="56" number ="12"/>
+      </input>      
+      <output>
+        <itemStack modID="ThermalFoundation" itemName="material" itemMeta="76" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_ElectricalSteel_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="57" number ="20"/>
+      </input>      
+      <output>
+        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_VibrantAlloy_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="58" number ="12"/>
+      </input>      
+      <output>
+        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="2" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_RedstoneAlloy_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="59" number ="12"/>
+      </input>      
+      <output>
+        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="3" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_ConductiveIron_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="60" number ="12"/>
+      </input>      
+      <output>
+        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="4" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_PulsatingIron_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="61" number ="12"/>
+      </input>      
+      <output>
+        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="5" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_DarkSteel_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="62" number ="12"/>
+      </input>      
+      <output>
+        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="6" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_MagmaCream_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="63" number ="12"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="magma_cream" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_EnergeticAlloy_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="64" number ="16"/>
+      </input>      
+      <output>
+        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="1" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_EntropyShard_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="65" number ="16"/>
+      </input>      
+      <output>
+        <itemStack modID="Thaumcraft" itemName="ItemShard" itemMeta="5" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Obsidian_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="66" number ="12"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="obsidian" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Rubber_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="67" number ="12"/>
+      </input>      
+      <output>
+        <itemStack modID="MineFactoryReloaded" itemName="rubber.raw" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Stone_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="68" number ="12"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="stone" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Experience_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="69" number ="24"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="experience_bottle" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Sand_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="70" number ="16"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="sand" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_AirShard_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="71" number ="16"/>
+      </input>      
+      <output>
+        <itemStack modID="Thaumcraft" itemName="ItemShard" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Netherrack_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="72" number ="16"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="netherrack" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_FireShard_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="73" number ="16"/>
+      </input>      
+      <output>
+        <itemStack modID="Thaumcraft" itemName="ItemShard" itemMeta="1" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_Soulsand_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="74" number ="16"/>
+      </input>      
+      <output>
+        <itemStack modID="minecraft" itemName="soul_sand" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_WaterShard_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="75" number ="16"/>
+      </input>      
+      <output>
+        <itemStack modID="Thaumcraft" itemName="ItemShard" itemMeta="2" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_EarthShard_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="76" number ="16"/>
+      </input>      
+      <output>
+        <itemStack modID="Thaumcraft" itemName="ItemShard" itemMeta="3" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_OrderShard_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="77" number ="16"/>
+      </input>      
+      <output>
+        <itemStack modID="Thaumcraft" itemName="ItemShard" itemMeta="4" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_WaterCan_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="78" number ="8"/>
+      </input>      
+      <output>
+        <itemStack modID="Forestry" itemName="canWater" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
+    <recipe name="RSeed_LavaCan_Shard" energyCost="250">
+      <input>
+        <itemStack modID="ResourcefulCrops" itemName="ItemShard" itemMeta="79" number ="16"/>
+      </input>      
+      <output>
+        <itemStack modID="Forestry" itemName="canLava" itemMeta="0" number="1" />
+      </output>
+    </recipe>
+  
     <recipe name="BagCoin" energyCost="5000">
       <input>
         <itemStack modID="ferretshinies" itemName="NullToken" itemMeta="0" number ="50"/>
