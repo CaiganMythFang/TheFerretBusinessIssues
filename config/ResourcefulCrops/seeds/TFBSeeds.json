@@ -1,58 +1,34 @@
 {
 "seeds": [
   {
-    "name": "Inky",
+    "name": "Ink Sac",
     "tier": 1,
     "amount": 4,
     "input": "dyeBlack",
     "output": "dyeBlack#8",
     "color": "#161616",
     "seedReq": {},
-    "compat": {
-      "exnihilio": {
-        "sourceBlock": {
-          "name": "minecraft:dirt",
-          "meta": 0
-        },
-        "sieveChance": 30
-      }
-    }
+    "compat": {}
   },
   {
-    "name": "Fleshy",
+    "name": "Rotten Flesh",
     "tier": 1,
     "amount": 4,
     "input": "minecraft:rotten_flesh:0#0",
     "output": "minecraft:rotten_flesh:0#8",
     "color": "#FFA088",
     "seedReq": {},
-    "compat": {
-      "exnihilio": {
-        "sourceBlock": {
-          "name": "minecraft:dirt",
-          "meta": 0
-        },
-        "sieveChance": 30
-      }
-    }
+    "compat": {}
   },
   {
-    "name": "Feathery",
+    "name": "Feather",
     "tier": 1,
     "amount": 4,
     "input": "minecraft:feather:0#0",
     "output": "minecraft:feather:0#8",
     "color": "#D0CBC7",
     "seedReq": {},
-    "compat": {
-      "exnihilio": {
-        "sourceBlock": {
-          "name": "minecraft:dirt",
-          "meta": 0
-        },
-        "sieveChance": 30
-      }
-    }
+    "compat": {}
   },
   {
     "name": "Tin",
@@ -85,12 +61,12 @@
     "compat": {}
   },
   {
-    "name": "Zinc",
-    "tier": 2,
-    "amount": 4,
-    "input": "ingotZinc",
-    "output": "ingotZinc#4",
-    "color": "#C0B0B6",
+    "name": "Spider Eye",
+    "tier": 1,
+    "amount": 2,
+    "input": "minecraft:spider_eye",
+    "output": "minecraft:spider_eye#2",
+    "color": "#EECCFF",
     "seedReq": {},
     "compat": {}
   },
@@ -135,7 +111,7 @@
     "compat": {}
   },
   {
-    "name": "Leathery",
+    "name": "Leather",
     "tier": 2,
     "amount": 4,
     "input": "minecraft:leather:0#0",
@@ -145,7 +121,7 @@
     "compat": {}
   },
   {
-    "name": "Stringy",
+    "name": "String",
     "tier": 2,
     "amount": 4,
     "input": "minecraft:string:0#0",
@@ -155,7 +131,7 @@
     "compat": {}
   },
   {
-    "name": "Boney",
+    "name": "Bone",
     "tier": 2,
     "amount": 4,
     "input": "minecraft:bone:0#0",
@@ -165,7 +141,7 @@
     "compat": {}
   },
   {
-    "name": "Slimey",
+    "name": "Slime",
     "tier": 2,
     "amount": 4,
     "input": "minecraft:slime_ball:0#0",
@@ -225,7 +201,7 @@
     "compat": {}
   },
   {
-    "name": "Nickel",
+    "name": "Ferrous",
     "tier": 3,
     "amount": 4,
     "input": "ingotNickel",
@@ -235,7 +211,7 @@
     "compat": {}
   },
   {
-    "name": "Mithril",
+    "name": "Mana Infused",
     "tier": 3,
     "amount": 4,
     "input": "ingotMithril",
@@ -265,7 +241,7 @@
     "compat": {}
   },
   {
-    "name": "Teary",
+    "name": "Ghast",
     "tier": 3,
     "amount": 4,
     "input": "minecraft:ghast_tear:0#0",
@@ -275,7 +251,7 @@
     "compat": {}
   },
   {
-    "name": "Creepy",
+    "name": "Gunpowder",
     "tier": 3,
     "amount": 4,
     "input": "minecraft:gunpowder:0#0",
@@ -285,7 +261,7 @@
     "compat": {}
   },
   {
-    "name": "Skelesprout",
+    "name": "Skeleton",
     "tier": 3,
     "amount": 2,
     "input": "minecraft:skull:0#0",
@@ -295,7 +271,7 @@
     "compat": {}
   },
   {
-    "name": "Brainy",
+    "name": "Zombie",
     "tier": 3,
     "amount": 2,
     "input": "minecraft:skull:2#0",
@@ -305,7 +281,7 @@
     "compat": {}
   },
   {
-    "name": "Mindful",
+    "name": "Head",
     "tier": 3,
     "amount": 2,
     "input": "minecraft:skull:3#0",
@@ -315,7 +291,7 @@
     "compat": {}
   },
   {
-    "name": "Creepots",
+    "name": "Creeper",
     "tier": 3,
     "amount": 2,
     "input": "minecraft:skull:4#0",
@@ -435,7 +411,7 @@
     "compat": {}
   },
   {
-    "name": "Witherwheat",
+    "name": "Wither Skeleton",
     "tier": 4,
     "amount": 2,
     "input": "minecraft:skull:1#0",
@@ -465,7 +441,7 @@
     "compat": {}
   },
   {
-    "name": "Platinum",
+    "name": "Shiny",
     "tier": 4,
     "amount": 2,
     "input": "ingotPlatinum",
@@ -485,12 +461,12 @@
     "compat": {}
   },
   {
-    "name": "Titanium",
-    "tier": 4,
+    "name": "Snowball",
+    "tier": 1,
     "amount": 2,
-    "input": "ingotTitanium",
-    "output": "ingotTitanium#1",
-    "color": "#D4A5B6",
+    "input": "minecraft:snowball",
+    "output": "minecraft:snowball#2",
+    "color": "#FFFFFF",
     "seedReq": {},
     "compat": {}
   },
@@ -511,6 +487,316 @@
     "input": "ingotArdite",
     "output": "ingotArdite#1",
     "color": "#FF6600",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Signalum",
+    "tier": 4,
+    "amount": 2,
+    "input": "ingotSignalum",
+    "output": "ingotSignalum#1",
+    "color": "#D35C23",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Clay",
+    "tier": 2,
+    "amount": 4,
+    "input": "itemClay",
+    "output": "itemClay#4",
+    "color": "#A5A9b9",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Lumium",
+    "tier": 3,
+    "amount": 2,
+    "input": "ingotLumium",
+    "output": "ingotLumium#1",
+    "color": "#DCEE85",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Flint",
+    "tier": 2,
+    "amount": 2,
+    "input": "itemFlint",
+    "output": "itemFlint#4",
+    "color": "#333333",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Electrum",
+    "tier": 3,
+    "amount": 2,
+    "input": "ingotElectrum",
+    "output": "ingotElectrum#3",
+    "color": "#CCC149",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Invar",
+    "tier": 3,
+    "amount": 2,
+    "input": "ingotInvar",
+    "output": "ingotInvar#3",
+    "color": "#BDC1BF",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Bronze",
+    "tier": 2,
+    "amount": 2,
+    "input": "ingotBronze",
+    "output": "ingotBronze#3",
+    "color": "#BE8D5E",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Enderium",
+    "tier": 4,
+    "amount": 2,
+    "input": "ingotEnderium",
+    "output": "ingotEnderium#3",
+    "color": "#093F40",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Electrical Steel",
+    "tier": 3,
+    "amount": 2,
+    "input": "ingotElectricalSteel",
+    "output": "ingotElectricalSteel#3",
+    "color": "#6D6D6D",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Vibrant Alloy",
+    "tier": 4,
+    "amount": 2,
+    "input": "ingotVibrantAlloy",
+    "output": "ingotVibrantAlloy#3",
+    "color": "#FEE777",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Redstone Alloy",
+    "tier": 3,
+    "amount": 2,
+    "input": "ingotRedstoneAlloy",
+    "output": "ingotRedstoneAlloy#3",
+    "color": "#D63C3C",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Conductive Iron",
+    "tier": 2,
+    "amount": 2,
+    "input": "ingotConductiveIron",
+    "output": "ingotConductiveIron#3",
+    "color": "#BA5F61",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Pulsating Iron",
+    "tier": 3,
+    "amount": 2,
+    "input": "ingotPulsatingIron",
+    "output": "ingotPulsatingIron#3",
+    "color": "#9AFFB1",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Dark Steel",
+    "tier": 3,
+    "amount": 2,
+    "input": "ingotDarkSteel",
+    "output": "ingotDarkSteel#3",
+    "color": "#5B5B5B",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Magma Cream",
+    "tier": 2,
+    "amount": 2,
+    "input": "minecraft:magma_cream",
+    "output": "minecraft:magma_cream#3",
+    "color": "#D28122",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Energetic Alloy",
+    "tier": 3,
+    "amount": 2,
+    "input": "ingotEnergeticAlloy",
+    "output": "ingotEnergeticAlloy#3",
+    "color": "#FCAF38",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Entropy Shard",
+    "tier": 2,
+    "amount": 2,
+    "input": "shardEntropy",
+    "output": "shardEntropy#3",
+    "color": "#525272",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Obsidian",
+    "tier": 2,
+    "amount": 2,
+    "input": "blockObsidian",
+    "output": "blockObsidian#3",
+    "color": "#1E1E1E",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Rubber",
+    "tier": 1,
+    "amount": 2,
+    "input": "itemRawRubber",
+    "output": "itemRawRubber#3",
+    "color": "#A89175",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Stone",
+    "tier": 1,
+    "amount": 2,
+    "input": "stone",
+    "output": "stone#3",
+    "color": "#5B5B5B",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Experience",
+    "tier": 4,
+    "amount": 2,
+    "input": "minecraft:experience_bottle",
+    "output": "minecraft:experience_bottle#2",
+    "color": "#9CC579",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Sand",
+    "tier": 1,
+    "amount": 2,
+    "input": "sand",
+    "output": "sand#2",
+    "color": "#898662",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Air Shard",
+    "tier": 2,
+    "amount": 2,
+    "input": "shardAir",
+    "output": "shardAir#2",
+    "color": "#E2E270",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Netherrack",
+    "tier": 1,
+    "amount": 2,
+    "input": "netherrack",
+    "output": "netherrack#2",
+    "color": "#6C4536",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Fire Shard",
+    "tier": 2,
+    "amount": 2,
+    "input": "shardFire",
+    "output": "shardFire#2",
+    "color": "#FE3C01",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Soul Sand",
+    "tier": 2,
+    "amount": 2,
+    "input": "soulSand",
+    "output": "soulSand#4",
+    "color": "#483428",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Water Shard",
+    "tier": 2,
+    "amount": 2,
+    "input": "shardWater",
+    "output": "shardWater#2",
+    "color": "#0080E2",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Earth Shard",
+    "tier": 2,
+    "amount": 2,
+    "input": "shardEarth",
+    "output": "shardEarth#2",
+    "color": "#008500",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Order Shard",
+    "tier": 2,
+    "amount": 2,
+    "input": "shardOrder",
+    "output": "shardOrder#2",
+    "color": "#EECCFF",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Water Can",
+    "tier": 1,
+    "amount": 2,
+    "input": "Forestry:canWater",
+    "output": "Forestry:canWater#2",
+    "color": "#6395F8",
+    "seedReq": {},
+    "compat": {}
+  },
+  {
+    "name": "Lava Can",
+    "tier": 1,
+    "amount": 2,
+    "input": "Forestry:canLava",
+    "output": "Forestry:canLava#2",
+    "color": "#AD3011",
     "seedReq": {},
     "compat": {}
   }
