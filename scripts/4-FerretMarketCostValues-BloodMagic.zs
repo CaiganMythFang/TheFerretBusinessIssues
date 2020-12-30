@@ -1,5 +1,13 @@
 import minetweaker.item.IItemStack;
 
+// Ferret Market Cost, Not Crateable
+var FMCnocrate = [
+<AWWayofTime:lavaCrystal>
+] as IItemStack[];
+for i, toy in FMCnocrate {
+     toy.addTooltip(format.red("This Lava Crystal is not crateable!"));
+}
+
 // Ferret Market Cost, Blood Magic - 0.5
 var FMChalf = [
 <AWWayofTime:largeBloodStoneBrick>, <AWWayofTime:bloodStoneBrick>
@@ -260,7 +268,7 @@ for i, toy in FMC9000 {
 
 // Ferret Market Cost, Blood Magic - 10,000
 var FMC10000 = [
-<AWWayofTime:lavaCrystal:0>, <AWWayofTime:bloodSocket:0>
+<AWWayofTime:bloodSocket:0>
 ] as IItemStack[];
 
 for i, toy in FMC10000 {
