@@ -143,7 +143,7 @@ recipes.addShapeless(<ResourcefulCrops:ItemSeed:78>, [<fluxedCrystals:seed:71>])
 recipes.addShapeless(<ResourcefulCrops:ItemSeed:79>, [<fluxedCrystals:seed:72>]);
 
 //All Fluxed Seed Notes
-<fluxedCrystals:seed:*>.addTooltip(format.red("PLEASE CONVERT ALL FLUXED CRYSTAL SEEDS TO RESOURCE CROP SEEDS");
+<fluxedCrystals:seed:*>.addTooltip(format.red("PLEASE CONVERT ALL FLUXED CRYSTAL SEEDS TO RESOURCE CROP SEEDS"));
 <fluxedCrystals:seed:*>.addTooltip(format.red("CRAFT ALONE TO CONVERT");
 
 

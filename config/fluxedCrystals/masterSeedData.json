@@ -21,7 +21,7 @@
 },{
   "name": "Iron",
   "lore": "",
-  "ingredient": "ingotIron",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "ingotIron",
   "color": 14071681,
   "dropMin": 3,
@@ -41,7 +41,7 @@
 },{
   "name": "Gold",
   "lore": "",
-  "ingredient": "ingotGold",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 11904556,
   "dropMin": 3,
@@ -61,7 +61,7 @@
 },{
   "name": "Coal",
   "lore": "",
-  "ingredient": "itemCoal",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 788746,
   "dropMin": 3,
@@ -81,7 +81,7 @@
 },{
   "name": "Charcoal",
   "lore": "",
-  "ingredient": "itemCharcoal",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 3418156,
   "dropMin": 3,
@@ -101,7 +101,7 @@
 },{
   "name": "Emerald",
   "lore": "",
-  "ingredient": "gemEmerald",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 6290199,
   "dropMin": 3,
@@ -121,7 +121,7 @@
 },{
   "name": "Diamond",
   "lore": "",
-  "ingredient": "gemDiamond",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 5169900,
   "dropMin": 3,
@@ -141,7 +141,7 @@
 },{
   "name": "Redstone",
   "lore": "",
-  "ingredient": "dustRedstone",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 16190746,
   "dropMin": 4,
@@ -161,7 +161,7 @@
 },{
   "name": "Ender",
   "lore": "",
-  "ingredient": "pearlEnder",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 5146997,
   "dropMin": 3,
@@ -181,7 +181,7 @@
 },{
   "name": "Glowstone",
   "lore": "",
-  "ingredient": "dustGlowstone",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 16766977,
   "dropMin": 3,
@@ -201,7 +201,7 @@
 },{
   "name": "Blaze",
   "lore": "",
-  "ingredient": "itemBlazeRod",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 15246103,
   "dropMin": 3,
@@ -221,7 +221,7 @@
 },{
   "name": "Clay",
   "lore": "",
-  "ingredient": "minecraft:clay_ball",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 15066338,
   "dropMin": 3,
@@ -241,7 +241,7 @@
 },{
   "name": "Flint",
   "lore": "",
-  "ingredient": "itemFlint",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 7499373,
   "dropMin": 3,
@@ -261,7 +261,7 @@
 },{
   "name": "Ghast",
   "lore": "",
-  "ingredient": "itemGhastTear",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 12371660,
   "dropMin": 3,
@@ -281,7 +281,7 @@
 },{
   "name": "Gunpowder",
   "lore": "",
-  "ingredient": "dustGunpowder",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 5656657,
   "dropMin": 3,
@@ -301,7 +301,7 @@
 },{
   "name": "Leather",
   "lore": "",
-  "ingredient": "itemLeather",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 16767832,
   "dropMin": 3,
@@ -321,7 +321,7 @@
 },{
   "name": "Quartz",
   "lore": "",
-  "ingredient": "gemQuartz",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 16641780,
   "dropMin": 3,
@@ -341,7 +341,7 @@
 },{
   "name": "Slime",
   "lore": "",
-  "ingredient": "slimeball",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 12380500,
   "dropMin": 3,
@@ -361,7 +361,7 @@
 },{
   "name": "Copper",
   "lore": "",
-  "ingredient": "ingotCopper",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 11365911,
   "dropMin": 3,
@@ -381,7 +381,7 @@
 },{
   "name": "Tin",
   "lore": "",
-  "ingredient": "ingotTin",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 7571864,
   "dropMin": 3,
@@ -401,7 +401,7 @@
 },{
   "name": "Silver",
   "lore": "",
-  "ingredient": "ingotSilver",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 9939375,
   "dropMin": 3,
@@ -421,7 +421,7 @@
 },{
   "name": "Lead",
   "lore": "",
-  "ingredient": "ingotLead",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 5397108,
   "dropMin": 3,
@@ -441,7 +441,7 @@
 },{
   "name": "Ferrous",
   "lore": "",
-  "ingredient": "ingotNickel",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 12696206,
   "dropMin": 3,
@@ -461,7 +461,7 @@
 },{
   "name": "Shiny",
   "lore": "",
-  "ingredient": "ingotPlatinum",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 12696206,
   "dropMin": 3,
@@ -481,7 +481,7 @@
 },{
   "name": "Mana Infused",
   "lore": "",
-  "ingredient": "ingotMithril",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 5470348,
   "dropMin": 3,
@@ -501,7 +501,7 @@
 },{
   "name": "Electrum",
   "lore": "",
-  "ingredient": "ingotElectrum",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 11838796,
   "dropMin": 3,
@@ -521,7 +521,7 @@
 },{
   "name": "Invar",
   "lore": "",
-  "ingredient": "ingotInvar",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 9805209,
   "dropMin": 3,
@@ -541,7 +541,7 @@
 },{
   "name": "Bronze",
   "lore": "",
-  "ingredient": "ingotBronze",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 13606501,
   "dropMin": 3,
@@ -561,7 +561,7 @@
 },{
   "name": "Signalum",
   "lore": "",
-  "ingredient": "ingotSignalum",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 11421966,
   "dropMin": 2,
@@ -581,7 +581,7 @@
 },{
   "name": "Lumium",
   "lore": "",
-  "ingredient": "ingotLumium",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 14468221,
   "dropMin": 3,
@@ -601,7 +601,7 @@
 },{
   "name": "Enderium",
   "lore": "",
-  "ingredient": "ingotEnderium",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 807507,
   "dropMin": 3,
@@ -621,7 +621,7 @@
 },{
   "name": "Electrical",
   "lore": "",
-  "ingredient": "EnderIO:itemAlloy;0",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 8092539,
   "dropMin": 3,
@@ -641,7 +641,7 @@
 },{
   "name": "Energetic",
   "lore": "",
-  "ingredient": "EnderIO:itemAlloy;1",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 16552492,
   "dropMin": 3,
@@ -661,7 +661,7 @@
 },{
   "name": "Vibrant",
   "lore": "",
-  "ingredient": "EnderIO:itemAlloy;2",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 9614398,
   "dropMin": 3,
@@ -681,7 +681,7 @@
 },{
   "name": "Redstone Alloy",
   "lore": "",
-  "ingredient": "EnderIO:itemAlloy;3",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 7411993,
   "dropMin": 4,
@@ -701,7 +701,7 @@
 },{
   "name": "Conductive",
   "lore": "",
-  "ingredient": "EnderIO:itemAlloy;4",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 8472650,
   "dropMin": 3,
@@ -721,7 +721,7 @@
 },{
   "name": "Pulsating",
   "lore": "",
-  "ingredient": "EnderIO:itemAlloy;5",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 2711862,
   "dropMin": 3,
@@ -741,7 +741,7 @@
 },{
   "name": "Dark Steel",
   "lore": "",
-  "ingredient": "EnderIO:itemAlloy;6",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 3881787,
   "dropMin": 2,
@@ -761,7 +761,7 @@
 },{
   "name": "Magma Cream",
   "lore": "",
-  "ingredient": "minecraft:magma_cream;0",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 15120384,
   "dropMin": 2,
@@ -781,7 +781,7 @@
 },{
   "name": "Bone",
   "lore": "",
-  "ingredient": "minecraft:bone;0",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 16777215,
   "dropMin": 2,
@@ -801,7 +801,7 @@
 },{
   "name": "Obsidian",
   "lore": "",
-  "ingredient": "minecraft:obsidian;0",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 786444,
   "dropMin": 3,
@@ -821,7 +821,7 @@
 },{
   "name": "Lapis Lazuli",
   "lore": "",
-  "ingredient": "minecraft:dye;4",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 26316,
   "dropMin": 2,
@@ -841,7 +841,7 @@
 },{
   "name": "Experience",
   "lore": "",
-  "ingredient": "minecraft:experience_bottle;0",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 10092390,
   "dropMin": 1,
@@ -861,7 +861,7 @@
 },{
   "name": "Aluminum Ingot",
   "lore": "",
-  "ingredient": "TConstruct:materials;11",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 15790325,
   "dropMin": 3,
@@ -881,7 +881,7 @@
 },{
   "name": "Certus Quartz Crystal",
   "lore": "",
-  "ingredient": "appliedenergistics2:item.ItemMultiMaterial;0",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 14085119,
   "dropMin": 3,
@@ -901,7 +901,7 @@
 },{
   "name": "Sapphire",
   "lore": "",
-  "ingredient": "ProjRed|Core:projectred.core.part;38",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 255,
   "dropMin": 3,
@@ -921,7 +921,7 @@
 },{
   "name": "Yellorium Ingot",
   "lore": "",
-  "ingredient": "BigReactors:BRIngot;0",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 16776960,
   "dropMin": 3,
@@ -941,7 +941,7 @@
 },{
   "name": "Sulfur",
   "lore": "",
-  "ingredient": "ThermalFoundation:material;16",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 16777138,
   "dropMin": 3,
@@ -961,7 +961,7 @@
 },{
   "name": "Ruby",
   "lore": "",
-  "ingredient": "ProjRed|Core:projectred.core.part;37",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 16711680,
   "dropMin": 3,
@@ -981,7 +981,7 @@
 },{
   "name": "Peridot",
   "lore": "",
-  "ingredient": "ProjRed|Core:projectred.core.part;39",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 35374,
   "dropMin": 3,
@@ -1001,7 +1001,7 @@
 },{
   "name": "Ardite Ingot",
   "lore": "",
-  "ingredient": "TConstruct:materials;4",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 16729881,
   "dropMin": 3,
@@ -1021,7 +1021,7 @@
 },{
   "name": "Cobalt Ingot",
   "lore": "",
-  "ingredient": "TConstruct:materials;3",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 13209,
   "dropMin": 3,
@@ -1041,7 +1041,7 @@
 },{
   "name": "Air Shard",
   "lore": "",
-  "ingredient": "Thaumcraft:ItemShard;0",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 16769126,
   "dropMin": 3,
@@ -1061,7 +1061,7 @@
 },{
   "name": "Fire Shard",
   "lore": "",
-  "ingredient": "Thaumcraft:ItemShard;1",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 16724787,
   "dropMin": 3,
@@ -1081,7 +1081,7 @@
 },{
   "name": "Water Shard",
   "lore": "",
-  "ingredient": "Thaumcraft:ItemShard;2",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 3381759,
   "dropMin": 3,
@@ -1101,7 +1101,7 @@
 },{
   "name": "Earth Shard",
   "lore": "",
-  "ingredient": "Thaumcraft:ItemShard;3",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 6088284,
   "dropMin": 3,
@@ -1121,7 +1121,7 @@
 },{
   "name": "Order Shard",
   "lore": "",
-  "ingredient": "Thaumcraft:ItemShard;4",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 16121855,
   "dropMin": 3,
@@ -1141,7 +1141,7 @@
 },{
   "name": "Entropy Shard",
   "lore": "",
-  "ingredient": "Thaumcraft:ItemShard;5",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 37511,
   "dropMin": 3,
@@ -1161,7 +1161,7 @@
 },{
   "name": "Uranium 238",
   "lore": "",
-  "ingredient": "IC2:itemUran238;0",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 65280,
   "dropMin": 3,
@@ -1181,7 +1181,7 @@
 },{
   "name": "Rubber",
   "lore": "",
-  "ingredient": "MineFactoryReloaded:rubber.raw;0",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 16758896,
   "dropMin": 3,
@@ -1201,7 +1201,7 @@
 },{
   "name": "Iridium Ore",
   "lore": "",
-  "ingredient": "IC2:itemOreIridium;0",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "IC2:itemOreIridium;0#1",
   "color": 16316664,
   "dropMin": 1,
@@ -1221,7 +1221,7 @@
 },{
   "name": "Stone",
   "lore": "",
-  "ingredient": "minecraft:stone;0",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 15132390,
   "dropMin": 3,
@@ -1241,7 +1241,7 @@
 },{
   "name": "Sand",
   "lore": "",
-  "ingredient": "minecraft:sand;0",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 16777164,
   "dropMin": 3,
@@ -1261,7 +1261,7 @@
 },{
   "name": "Netherrack",
   "lore": "",
-  "ingredient": "minecraft:netherrack;0",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 9247001,
   "dropMin": 3,
@@ -1281,7 +1281,7 @@
 },{
   "name": "Soul Sand",
   "lore": "",
-  "ingredient": "minecraft:soul_sand;0",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 4856064,
   "dropMin": 3,
@@ -1301,7 +1301,7 @@
 },{
   "name": "Wither Skeleton",
   "lore": "",
-  "ingredient": "minecraft:skull;1",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 3355443,
   "dropMin": 2,
@@ -1321,7 +1321,7 @@
 },{
   "name": "Osmium Ingot",
   "lore": "",
-  "ingredient": "Mekanism:Ingot;1",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 4680626,
   "dropMin": 3,
@@ -1341,7 +1341,7 @@
 },{
   "name": "Spider Eye",
   "lore": "",
-  "ingredient": "minecraft:spider_eye;0",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 16718105,
   "dropMin": 3,
@@ -1361,7 +1361,7 @@
 },{
   "name": "Feather",
   "lore": "",
-  "ingredient": "minecraft:feather;0",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 16777215,
   "dropMin": 3,
@@ -1381,7 +1381,7 @@
 },{
   "name": "Snowball",
   "lore": "",
-  "ingredient": "minecraft:snowball;0",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 7507918,
   "dropMin": 3,
@@ -1401,7 +1401,7 @@
 },{
   "name": "Water",
   "lore": "Supply via Can from Forestry",
-  "ingredient": "Forestry:canWater;0",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 6724095,
   "dropMin": 3,
@@ -1421,7 +1421,7 @@
 },{
   "name": "Lava Can",
   "lore": "Supply via Can from Forestry",
-  "ingredient": "Forestry:canLava;0",
+  "ingredient": "minecraft:bedrock",
   "weightedDrop": "",
   "color": 16729881,
   "dropMin": 3,
