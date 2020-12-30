@@ -2,6 +2,7 @@
 #You can get these values from NEI (example: minecraft:wheat_seeds is the vanilla seeds)
 #The chance is an integer specified in percent, minimum is 0, maximum a 100. Spread chance is the chance that crops will spread to empty crosscrops
 #For example: AgriCraft:seedDandelion,85
+ResourcefulCrops:ItemSeed,0
 magicalcrops:magicalcrops_MagicSeedsEssence,0
 magicalcrops:magicalcrops_MagicSeedsCoal,0
 magicalcrops:magicalcrops_MagicSeedsDye,0
