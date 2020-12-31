@@ -644,6 +644,16 @@ for i, toy in FMC158000 {
      toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =158,000=") + " )"));
 }
 
+// Ferret Market Cost, Extra Utilities - 162,000
+var FMC162000 = [
+<ExtraUtilities:cobblestone_compressed:5>
+] as IItemStack[];
+
+for i, toy in FMC162000 {
+     <ore:zFMC162000>.add(toy);
+     toy.addTooltip(format.darkPurple(format.underline(format.bold(("FMC"))) + " (" + format.green(" =162,000=") + " )"));
+}
+
 // Ferret Market Cost, Extra Utilities - 180,000
 var FMC180000 = [
 <ExtraUtilities:enderQuarryUpgrade:8>
