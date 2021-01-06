@@ -1,6 +1,8 @@
+import minetweaker.item.IItemStack;
+
 // Disabled fluxed recipes
 var Fluxednorecipe = [
-<fluxedCrystals:upgradeEssentia:0>, n<fluxedCrystals:upgradeLP:0>, <fluxedCrystals:upgradeMana:0>, <fluxedCrystals:upgradeEfficiency:0>, <fluxedCrystals:upgradeNight:0>, <fluxedCrystals:upgradeSpeed:0>, <fluxedCrystals:upgradeAutomation:0>, <fluxedCrystals:poweredSoil:0>, <fluxedCrystals:poweredSoilMana:0>, <fluxedCrystals:seedInfuser:0>, <fluxedCrystals:gemCutter:0>, <fluxedCrystals:gemRefiner:0>, <fluxedCrystals:universalSeed>
+<fluxedCrystals:upgradeEssentia:0>, <fluxedCrystals:upgradeLP:0>, <fluxedCrystals:upgradeMana:0>, <fluxedCrystals:upgradeEfficiency:0>, <fluxedCrystals:upgradeNight:0>, <fluxedCrystals:upgradeSpeed:0>, <fluxedCrystals:upgradeAutomation:0>, <fluxedCrystals:poweredSoil:0>, <fluxedCrystals:poweredSoilMana:0>, <fluxedCrystals:seedInfuser:0>, <fluxedCrystals:gemCutter:0>, <fluxedCrystals:gemRefiner:0>, <fluxedCrystals:universalSeed>
 ] as IItemStack[];
 for i, toy in Fluxednorecipe {
      recipes.remove(toy);
