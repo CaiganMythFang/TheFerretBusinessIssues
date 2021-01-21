@@ -1,8 +1,8 @@
 # Use this file to tell Mekanism which blocks should not be picked up by a cardboard box.
 # Proper syntax is "NAME:META". Example (for stone):
 # stone:0
-compactstorage:chestBuilder
-compactstorage:compactChest
-Thaumcraft:blockAiry
-malisisdoors:rustyHatch
-StacksOnStacks:ingotPile
+compactstorage:chestBuilder 0
+compactstorage:compactChest 0
+Thaumcraft:blockAiry 0
+malisisdoors:rustyHatch 0
+StacksOnStacks:ingotPile 0
